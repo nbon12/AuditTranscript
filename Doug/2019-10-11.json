@@ -1,0 +1,51 @@
+[
+    {
+        "client_msg_id": "f52200f2-439a-41da-a8d7-55e0e3b8e20a",
+        "type": "message",
+        "text": "Question, is it ok to click \"Update Branch\" for your pull requests if they're out-of-date with the base branch?",
+        "user": "UMQA682PJ",
+        "ts": "1570800996.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "704cc992-8b32-4910-abce-70627af2c661",
+        "type": "message",
+        "text": "also Good morning.",
+        "user": "UMQA682PJ",
+        "ts": "1570801043.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0def64d-72c2-427e-baf8-cd3a8f1cb7f9",
+        "type": "message",
+        "text": "hey Nick good morning. yeah I\u2019m good with that",
+        "user": "UAR1CADNV",
+        "ts": "1570801096.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01e4e34a-0bb9-4fec-8882-9f23d8c2cb52",
+        "type": "message",
+        "text": "especially if things are approved, we sometimes update eachothers branches once they go out of date",
+        "user": "UAR1CADNV",
+        "ts": "1570801111.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e58b7b58-dfa3-4274-a7f8-b48f048d0b04",
+        "type": "message",
+        "text": "so they can be merged easily",
+        "user": "UAR1CADNV",
+        "ts": "1570801115.001800",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

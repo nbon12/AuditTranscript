@@ -1,0 +1,967 @@
+[
+    {
+        "client_msg_id": "45cc55dd-8c93-4c40-b819-fdce01c5832c",
+        "type": "message",
+        "text": "Good morning! Do you know what the Sources API URL is? I'm attempting to figure out what the sources status URL is",
+        "user": "UMQA682PJ",
+        "ts": "1573486810.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2eeb03bf-3d00-4755-8d55-5b419daed8fa",
+        "type": "message",
+        "text": "I checked localhost:4000 and got \"Not Found\"",
+        "user": "UMQA682PJ",
+        "ts": "1573486836.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c05d608b-abb7-4e36-b2ab-677f23eee1e6",
+        "type": "message",
+        "text": "Platform sources our our sources app?",
+        "user": "U8FS2P1LH",
+        "ts": "1573487760.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "baeb0e2e-5617-4807-95fd-28435926142a",
+        "type": "message",
+        "text": "our sources app",
+        "user": "UMQA682PJ",
+        "ts": "1573487892.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f2bd5c86-22d5-4f16-93ca-d23e52f1ed4b",
+        "type": "message",
+        "text": "Let me look. You\u2019re running it all in docker-compose?",
+        "user": "U8FS2P1LH",
+        "ts": "1573487926.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19e9af73-027f-4b79-be7d-9ae800ba391f",
+        "type": "message",
+        "text": "yes, and I think the docker-compose is saying it's running on port 8000",
+        "user": "UMQA682PJ",
+        "ts": "1573487951.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "75f84799-2678-431c-a595-7b3c9f139518",
+        "type": "message",
+        "text": "```\nsources-client:\n      container_name: sources_client\n      build:\n          context: .\n          dockerfile: Dockerfile-env\n      working_dir: /koku/\n      entrypoint:\n        - /koku/run_sources.sh\n      environment:\n        - DATABASE_SERVICE_NAME=POSTGRES_SQL\n        - DATABASE_ENGINE=postgresql\n        - DATABASE_NAME=${DATABASE_NAME-postgres}\n        - POSTGRES_SQL_SERVICE_HOST=db\n        - POSTGRES_SQL_SERVICE_PORT=5432\n        - DATABASE_USER=${DATABASE_USER-postgres}\n        - DATABASE_PASSWORD=${DATABASE_PASSWORD-postgres}\n        - KOKU_API_HOST=${KOKU_API_HOST-koku-server}\n        - KOKU_API_PORT=${KOKU_API_PORT-8000}\n        - KOKU_API_PATH_PREFIX=${KOKU_API_PATH_PREFIX-/api/cost-management/v1}\n        - SOURCES_KAFKA_HOST=${SOURCES_KAFKA_HOST-kafka}\n        - SOURCES_KAFKA_PORT=${SOURCES_KAFKA_PORT-29092}\n      privileged: true\n      ports:\n          - 4000:8000\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573487959.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5313d31e-ef2c-46b3-b185-7ed06443e283",
+        "type": "message",
+        "text": "but I can't seem to find the new API i just wrote. /sources-status",
+        "user": "UMQA682PJ",
+        "ts": "1573487984.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a20a049a-16c9-44a2-98bb-160e51079aa2",
+        "type": "message",
+        "text": "I think that means that it\u2019s taking port 8000 in the container and sending it to localhost:4000. Lemme see.",
+        "user": "U8FS2P1LH",
+        "ts": "1573487999.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "983724e2-e906-412b-b58d-c8098c0291ce",
+        "type": "message",
+        "text": "oh, yeah you're right",
+        "user": "UMQA682PJ",
+        "ts": "1573488079.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7363a8c7-061f-4131-ab89-816e4f468f33",
+        "type": "message",
+        "text": "it should be running on localhost:4000",
+        "user": "UMQA682PJ",
+        "ts": "1573488086.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3da9ab1-3c67-4429-bf3a-eafba6823fc7",
+        "type": "message",
+        "text": "<http://127.0.0.1:4000/api/cost-management/v1/sources-status/> ?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488100.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a01ef2e9-93a5-4239-af46-3085b2327e85",
+        "type": "message",
+        "text": "'The site can't be reached'",
+        "user": "UMQA682PJ",
+        "ts": "1573488167.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "31f1e1ac-7b6f-4772-9e5a-0722ca5b3137",
+        "type": "message",
+        "text": "This is merged on master already",
+        "user": "UMQA682PJ",
+        "ts": "1573488171.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36952e31-6d66-471d-b7e6-5289c2c73d29",
+        "type": "message",
+        "text": "`docker ps` is sources client running?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488185.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17dbbe07-4c9e-4c8d-9672-44455486688b",
+        "type": "message",
+        "text": "```\nurlpatterns = [\n    url(r'^authentication/$', authentication, name='authentication'),\n    url(r'^status/$', get_status, name='server-status'),\n    url(r'^source_status/$', source_status, name='source-status'),\n    url(r'^billing_source/$', billing_source, name='billing-source'),\n]\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573488190.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e03f398d-5e07-42b7-87c2-02cab36068a5",
+        "type": "message",
+        "text": "i don't see a sources client running locally",
+        "user": "UMQA682PJ",
+        "ts": "1573488216.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c0ea9f68-e571-4ff5-8fc6-4dc7808f0dfe",
+        "type": "message",
+        "text": "```\n(koku) bash-3.2$ docker ps\nCONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                                                   NAMES\nff1d7d3a9040        rabbitmq:latest             \"docker-entrypoint.s\u2026\"   2 days ago          Up 10 minutes       4369/tcp, 5671/tcp, 25672/tcp, 0.0.0.0:5674-&gt;5672/tcp   koku_rabbit\nde6a78b4538a        postgres:10.6               \"docker-entrypoint.s\u2026\"   2 days ago          Up 10 minutes       0.0.0.0:15432-&gt;5432/tcp                                 koku_db\n832cc1d34954        dpage/pgadmin4              \"/entrypoint.sh\"         2 days ago          Up 10 minutes       443/tcp, 0.0.0.0:8432-&gt;80/tcp                           pgAdmin\nbdb4574a8d3a        redis:5.0.4                 \"docker-entrypoint.s\u2026\"   2 days ago          Up 10 minutes       0.0.0.0:6379-&gt;6379/tcp                                  koku_redis\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573488232.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a69bc00c-a5de-49fd-8fdc-78d94dd4c462",
+        "type": "message",
+        "text": "`docker logs sources_client`",
+        "user": "U8FS2P1LH",
+        "ts": "1573488238.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "215c2d9c-a492-4f70-9e78-475c6783d850",
+        "type": "message",
+        "text": "What\u2019s that say?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488243.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22c908b0-0ec9-46c1-bc36-89f2a242ac86",
+        "type": "message",
+        "text": "so i'll migrate the schemas now",
+        "user": "UMQA682PJ",
+        "ts": "1573488347.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00cf862a-f8fe-4308-b586-6bd2fd636e1b",
+        "type": "message",
+        "text": "Yeah migrate, but also maybe `docker-compose up -d` to see if you can get the sources client running.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488363.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c24b2e1a-ceb8-46a6-9b58-a294cdbb2271",
+        "type": "message",
+        "text": "Oh.. duh, my laptop was in the middle of running docker-compose up --build",
+        "user": "UMQA682PJ",
+        "ts": "1573488424.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f105975-e78c-4479-ac2e-bac52e092f26",
+        "type": "message",
+        "text": "Heh. That\u2019ll do it.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488431.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2d0dbec-aa01-423f-9a56-0fc0dd99d723",
+        "type": "message",
+        "text": "And building takes sooooooooo long.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488476.008900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "ablobwhee",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b6fc9d3-0db5-414a-828b-81f596fc9926",
+        "type": "message",
+        "text": "When everything is up and online the URL I linked *should* be where it\u2019s at locally for you.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488535.009300",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "558a16d9-b442-4a99-947a-7ae29d8809c4",
+        "type": "message",
+        "text": "You home today?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488574.009700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7064a33f-801f-4d7f-b0a4-66cc1c616f3c",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1573488578.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e32f752-5851-4577-99e2-72cde1e42c6b",
+        "type": "message",
+        "text": "i have a contractor coming to fix my water heater",
+        "user": "UMQA682PJ",
+        "ts": "1573488586.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "794d9712-510e-4ab4-9859-8ceeff8cc81a",
+        "type": "message",
+        "text": "Cool, cool. Just checking for lunch.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488596.010500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9695176b-7d14-4e49-a787-c4eceeef674a",
+        "type": "message",
+        "text": "Yes, get that thing fixed!",
+        "user": "U8FS2P1LH",
+        "ts": "1573488604.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0b604e37-1ebc-490f-b071-20607e0f6d0e",
+        "type": "message",
+        "text": "It didn\u2019t leak did it?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488609.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1e5eae3c-dfe5-4f0d-99ad-ad96df8cece1",
+        "type": "message",
+        "text": "replaced",
+        "user": "UMQA682PJ",
+        "ts": "1573488609.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e4ad1cb5-6fca-402b-835c-ba5504c65b9a",
+        "type": "message",
+        "text": "yes it leaked",
+        "user": "UMQA682PJ",
+        "ts": "1573488612.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e4af8fc-02f4-4d78-8177-bdb1be942e2e",
+        "type": "message",
+        "text": "Inside? or crawl space?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488621.011900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "49d98b2e-05cf-4728-8667-c5e59089120f",
+        "type": "message",
+        "text": "the attic",
+        "user": "UMQA682PJ",
+        "ts": "1573488625.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "60a80785-9c82-4732-98c5-9b1d7e23a6c7",
+        "type": "message",
+        "text": "That is the worst. I am sorry.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488625.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d048dd3-6a58-4d94-8ae1-6767905467d7",
+        "type": "message",
+        "text": "Ughhhhhhhh",
+        "user": "U8FS2P1LH",
+        "ts": "1573488629.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f8258db1-3472-4565-9439-434b588dc8c6",
+        "type": "message",
+        "text": "i dont think it was a big leak",
+        "user": "UMQA682PJ",
+        "ts": "1573488631.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "32cf9681-0906-433a-9a13-1ebfe319936f",
+        "type": "message",
+        "text": "i think the drip pan caught it",
+        "user": "UMQA682PJ",
+        "ts": "1573488637.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ebb3d5b5-a716-4b37-8352-dbbc48148e99",
+        "type": "message",
+        "text": "Okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488637.013400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7409e220-a545-4642-a3a2-09cc1200b654",
+        "type": "message",
+        "text": "Good.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488640.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af75929b-0a44-4871-a583-80ddb9d362c4",
+        "type": "message",
+        "text": "thankfully the home warranty is paying for 2/3 the cost to replace",
+        "user": "UMQA682PJ",
+        "ts": "1573488676.014100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "539e80e1-2d61-42ed-8343-acfa65d62b20",
+        "type": "message",
+        "text": "That\u2019s good.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488753.014300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3077a50d-955a-4a09-8c47-8b5df1c7314c",
+        "type": "message",
+        "text": "Tank or tankless on the replace?",
+        "user": "U8FS2P1LH",
+        "ts": "1573488765.014700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "942deb7b-ee6e-4aed-8aed-ac833a75047c",
+        "type": "message",
+        "text": "i have a tank now, I'm assuming they'll put in a new tank.",
+        "user": "UMQA682PJ",
+        "ts": "1573488791.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41c0be05-b74e-41cb-8eda-6d6e901e154e",
+        "type": "message",
+        "text": "Cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488799.015600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "74ca5a9b-11c7-41a5-bbf8-d9ba3ac44c79",
+        "type": "message",
+        "text": "they usually don't upgrade anything",
+        "user": "UMQA682PJ",
+        "ts": "1573488800.015700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73406398-f6c9-4de8-b9fe-968b452d8c6d",
+        "type": "message",
+        "text": "Nah.",
+        "user": "U8FS2P1LH",
+        "ts": "1573488804.016000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f8b7ae2-cb22-4a84-bdbf-a5af838be3d8",
+        "type": "message",
+        "text": "unless something that connects to the heater isn't up to code but then the homeowner pays for that",
+        "user": "UMQA682PJ",
+        "ts": "1573488850.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18badaf7-df4d-4a7e-8375-ac0614d10392",
+        "type": "message",
+        "text": "for example my expansion tank wasn't up to code so they're replacing that too and it connects to the top",
+        "user": "UMQA682PJ",
+        "ts": "1573488878.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "312543d3-26e0-4d2a-a43f-b4786a3d8ca9",
+        "type": "message",
+        "text": "so anyway, docker-compose up finished",
+        "user": "UMQA682PJ",
+        "ts": "1573488888.017600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "bot_id": "B03KHKL86",
+        "type": "message",
+        "text": "",
+        "user": "U8FS2P1LH",
+        "ts": "1573488925.018000",
+        "team": "T026NJJ6Z",
+        "bot_profile": {
+            "id": "B03KHKL86",
+            "deleted": false,
+            "name": "giphy",
+            "updated": 1431961482,
+            "app_id": "A0F827J2C",
+            "icons": {
+                "image_36": "https://a.slack-edge.com/80588/img/plugins/giphy/service_36.png",
+                "image_48": "https://a.slack-edge.com/80588/img/plugins/giphy/service_48.png",
+                "image_72": "https://a.slack-edge.com/80588/img/plugins/giphy/service_72.png"
+            },
+            "team_id": "T026NJJ6Z"
+        },
+        "attachments": [
+            {
+                "fallback": "giphy: https://giphy.com/gifs/spinal-tap-laff-this-is-3o6ZtbNb8UD7FhEn72",
+                "image_url": "https://media2.giphy.com/media/3o6ZtbNb8UD7FhEn72/giphy-downsized.gif?cid=6104955eead3009d788640b47ae338e34dd0a021151b380f&rid=giphy-downsized.gif",
+                "image_width": 500,
+                "image_height": 336,
+                "image_bytes": 1685751,
+                "is_animated": true,
+                "title": "rock and roll",
+                "footer": "Posted using /giphy | GIF by <https://giphy.com/laff_tv/|Laff>",
+                "id": 1,
+                "title_link": "https://giphy.com/gifs/spinal-tap-laff-this-is-3o6ZtbNb8UD7FhEn72"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d97f0879-ec3a-4152-8ff0-e0b3a8d55aca",
+        "type": "message",
+        "text": "still not found",
+        "user": "UMQA682PJ",
+        "ts": "1573489011.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0834deb5-3313-44c5-9e4e-6c0d3412c58f",
+        "type": "message",
+        "text": "do I need to --build again after running migrations?",
+        "user": "UMQA682PJ",
+        "ts": "1573489049.019200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f565675-db3a-4ced-99ac-1b299091549d",
+        "type": "message",
+        "text": "No.",
+        "user": "U8FS2P1LH",
+        "ts": "1573489056.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3988e2d8-b37e-4931-a383-969bbfb37585",
+        "type": "message",
+        "text": "i wouldn't think migrations would affect this anyway",
+        "user": "UMQA682PJ",
+        "ts": "1573489062.019700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "955325e5-893d-4406-96d5-e4b026ea2d2b",
+        "type": "message",
+        "text": "Yeah, that\u2019s just DB.",
+        "user": "U8FS2P1LH",
+        "ts": "1573489099.020100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1fdb0c2b-da91-4f42-ad76-34e64445433c",
+        "type": "message",
+        "text": "Why do these sources endpoints live on the 8000 port?:\n```\napi/cost-management/v1/ ^sources/authentication/$ [name='authentication']\napi/cost-management/v1/ ^sources/billing_source/$ [name='billing-source']\n```\nis the url duplicated so that they are served on 4000 and 8000 at the same time?",
+        "user": "UMQA682PJ",
+        "ts": "1573489282.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "27374355-e8e5-4d5a-9862-bbd51179c020",
+        "type": "message",
+        "text": "No, koku api should be on 8000",
+        "user": "U8FS2P1LH",
+        "ts": "1573489306.021300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3896d9a4-c8e3-4d62-a14b-e78444ab8ba2",
+        "type": "message",
+        "text": "sources is 4000",
+        "user": "U8FS2P1LH",
+        "ts": "1573489308.021500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45d17336-c70b-4aa6-8e4a-84f649e3584e",
+        "type": "message",
+        "text": "```\nPage not found (404)\nRequest Method:\tGET\nRequest URL:\t<http://localhost:8000/api/cost-management/v1/s>\nUsing the URLconf defined in koku.urls, Django tried these URL patterns, in this order:\n\n^api/cost-management/v1/ ^status/$ [name='server-status']\n^api/cost-management/v1/ ^openapi.json [name='openapi']\n^api/cost-management/v1/ ^tags/aws/$ [name='aws-tags']\n^api/cost-management/v1/ ^tags/azure/$ [name='azure-tags']\n^api/cost-management/v1/ ^tags/openshift/$ [name='openshift-tags']\n^api/cost-management/v1/ ^tags/openshift/infrastructures/aws/$ [name='openshift-aws-tags']\n^api/cost-management/v1/ ^reports/aws/costs/$ [name='reports-aws-costs']\n^api/cost-management/v1/ ^reports/aws/instance-types/$ [name='reports-aws-instance-type']\n^api/cost-management/v1/ ^reports/aws/storage/$ [name='reports-aws-storage']\n^api/cost-management/v1/ ^reports/azure/costs/$ [name='reports-azure-costs']\n^api/cost-management/v1/ ^reports/azure/instance-types/$ [name='reports-azure-instance-type']\n^api/cost-management/v1/ ^reports/azure/storage/$ [name='reports-azure-storage']\n^api/cost-management/v1/ ^reports/openshift/costs/$ [name='reports-openshift-costs']\n^api/cost-management/v1/ ^reports/openshift/memory/$ [name='reports-openshift-memory']\n^api/cost-management/v1/ ^reports/openshift/compute/$ [name='reports-openshift-cpu']\n^api/cost-management/v1/ ^reports/openshift/volumes/$ [name='reports-openshift-volume']\n^api/cost-management/v1/ ^reports/openshift/infrastructures/aws/costs/$ [name='reports-openshift-aws-costs']\n^api/cost-management/v1/ ^reports/openshift/infrastructures/aws/storage/$ [name='reports-openshift-aws-storage']\n^api/cost-management/v1/ ^reports/openshift/infrastructures/aws/instance-types/$ [name='reports-openshift-aws-instance-type']\n^api/cost-management/v1/ ^sources/authentication/$ [name='authentication']\n^api/cost-management/v1/ ^sources/billing_source/$ [name='billing-source']\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573489310.021600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "70f55ae7-ce32-4255-8c3c-383270b3fce0",
+        "type": "message",
+        "text": "at the bottom",
+        "user": "UMQA682PJ",
+        "ts": "1573489318.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca7cdb45-4acc-46c0-9b7e-54448671a1c1",
+        "type": "message",
+        "text": "it looks like there are some sources endpoints being served on 8000",
+        "user": "UMQA682PJ",
+        "ts": "1573489335.022100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3b82f769-096f-4423-88a6-1cae58499707",
+        "type": "message",
+        "text": "unless those aren't sources?",
+        "user": "UMQA682PJ",
+        "ts": "1573489485.022800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce0e407b-24c3-4f23-89d5-f8e9ac446e6f",
+        "type": "message",
+        "text": "i'm referring to the sources/billing_source url",
+        "user": "UMQA682PJ",
+        "ts": "1573489501.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e20fc2a-0b57-4393-aa3c-debab0c37d0a",
+        "type": "message",
+        "text": "there's a billing_source.py file in both koku and in sources",
+        "user": "UMQA682PJ",
+        "ts": "1573489638.023500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e265dd64-8cb3-43ae-898c-589274bf9ee7",
+        "type": "message",
+        "text": "are there other sources endpoints in the Sources app that I should be able to reach?",
+        "user": "UMQA682PJ",
+        "ts": "1573489713.024600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e6ce29d8-2a41-46aa-85ec-24cf0871f880",
+        "type": "message",
+        "text": "what would be the URL?",
+        "user": "UMQA682PJ",
+        "ts": "1573489718.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b19046b2-fa84-4d14-ad34-7aede97f2b64",
+        "type": "message",
+        "text": "I can hit <http://127.0.0.1:4000/api/cost-management/v1/authentication/>",
+        "user": "U8FS2P1LH",
+        "ts": "1573489749.025000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fae3a7b9-0c3d-4612-b731-4724fb7a4e77",
+        "type": "message",
+        "text": "I get a 405 because GET isn\u2019t implemented, but I\u2019m definitely hitting it.",
+        "user": "U8FS2P1LH",
+        "ts": "1573489761.025300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5d2389a5-a071-4632-9415-05b92af2ea19",
+        "type": "message",
+        "text": "I got a 404 for that",
+        "user": "UMQA682PJ",
+        "ts": "1573489779.025600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0cc73050-fc73-42b2-b324-1a6496c70eea",
+        "type": "message",
+        "text": "What\u2019s your `API_PATH_PREFIX`",
+        "user": "U8FS2P1LH",
+        "ts": "1573489795.025800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a1be7be8-51f0-4428-bc21-12d414a0a3ac",
+        "type": "message",
+        "text": "in my .env?",
+        "user": "UMQA682PJ",
+        "ts": "1573489808.026000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8015027e-6b75-4467-a78d-b43c275a4579",
+        "type": "message",
+        "text": "Yeah, and also in the sources container",
+        "user": "U8FS2P1LH",
+        "ts": "1573489821.026200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "728ad648-9443-4775-b868-718bd114b6c0",
+        "type": "message",
+        "text": "it's not set in my .env",
+        "user": "UMQA682PJ",
+        "ts": "1573489838.026400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "237e8d0b-4eee-4398-9b90-592fd2328159",
+        "type": "message",
+        "text": "i think doug and I unset it after some issue in the last sprint",
+        "user": "UMQA682PJ",
+        "ts": "1573489846.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36bb0baf-d19c-47bf-96c7-37410cd3d465",
+        "type": "message",
+        "text": "or during this sprint",
+        "user": "UMQA682PJ",
+        "ts": "1573489853.026900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca9d7e72-08b4-4a35-a3ee-d1cf47a92cce",
+        "type": "message",
+        "text": "Okay. I\u2019d see what the value is in the container",
+        "user": "U8FS2P1LH",
+        "ts": "1573489907.027500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aaf4d89c-b9e4-4cc3-8fe0-4dcf36dfb063",
+        "type": "message",
+        "text": "it's not set in the container",
+        "user": "UMQA682PJ",
+        "ts": "1573490065.027700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "991fdfac-701e-4d40-9a7d-0d5261d6baf1",
+        "type": "message",
+        "text": "what's yours set to in your .env?",
+        "user": "UMQA682PJ",
+        "ts": "1573490110.028300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "619b33a3-75f3-4267-8a68-8de17546d13f",
+        "type": "message",
+        "text": "`/api/cost-management/v1` ?",
+        "user": "UMQA682PJ",
+        "ts": "1573490120.028500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6d844bf0-4074-4852-b7c7-2c8372cfd1b8",
+        "type": "message",
+        "text": "API_PATH_PREFIX=\u2018/api/cost-management\u2019",
+        "user": "U8FS2P1LH",
+        "ts": "1573490135.028700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "543228fd-bee7-481d-b7a7-2d79e6e4a5cc",
+        "type": "message",
+        "text": "do i need to rebuild?",
+        "user": "UMQA682PJ",
+        "ts": "1573490497.029200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3cb3363-6956-4a08-98ac-d91fa773f28c",
+        "type": "message",
+        "text": "If it\u2019s running no, you shouldn\u2019t need to. Check settings.py and the urls files to see what the default value is when `API_PATH_PREFIX` is missing.",
+        "user": "U8FS2P1LH",
+        "ts": "1573490545.030100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fe8cbb74-46ca-42bb-9045-e7920fbec0d8",
+        "type": "message",
+        "text": "And that might tell you what your path needs to be.",
+        "user": "U8FS2P1LH",
+        "ts": "1573490550.030300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "de6b1f09-8bea-43ee-aa2a-a74b37513abe",
+        "type": "message",
+        "text": "I\u2019ll take a closer look in a bit, but my morning has been solid meetings, basically until 2 today. :white_frowning_face:",
+        "user": "U8FS2P1LH",
+        "ts": "1573490573.030800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc3d412e-0fb8-4eb8-8d7c-87e2221bd7b5",
+        "type": "message",
+        "text": "no worries",
+        "user": "UMQA682PJ",
+        "ts": "1573490839.031200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "706882b8-f82b-415c-8de5-f699c47866ac",
+        "type": "message",
+        "text": "```\nAPI_PATH_PREFIX = os.getenv('API_PATH_PREFIX',\n                            ENVIRONMENT.get_value('API_PATH_PREFIX',\n                                                  default='/api'))\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573490885.031400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b43b24e2-80b0-4c2c-8a4c-a968dedba222",
+        "type": "message",
+        "text": "<http://127.0.0.1:4000/api/v1/authentication/> ?",
+        "user": "U8FS2P1LH",
+        "ts": "1573490906.031700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b357655d-a383-4c32-a017-a2a5e292bfc4",
+        "type": "message",
+        "text": "Anything there",
+        "user": "U8FS2P1LH",
+        "ts": "1573490909.031900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ce1c854-c53a-4309-b16a-98bd118cc258",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1573490963.032100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4d5fd5e6-733b-480f-ac80-ec200ce0b0cd",
+        "type": "message",
+        "text": "sources_client    | [2019-11-11 16:49:15,779] WARNING: Not Found: /api/v1/authentication/\nsources_client    | [2019-11-11 16:49:15,781] WARNING: \"GET /api/v1/authentication/ HTTP/1.1\" 404 77",
+        "user": "UMQA682PJ",
+        "ts": "1573490976.032300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b11e9b8d-d6f1-470b-a3d0-5acb933742b1",
+        "type": "message",
+        "text": "still dont see API_PATH_PREFIX in the container",
+        "user": "UMQA682PJ",
+        "ts": "1573491130.032600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20872f2e-2ba8-4051-85e1-cf8e0f4652cf",
+        "type": "message",
+        "text": "even after it's in my .env",
+        "user": "UMQA682PJ",
+        "ts": "1573491137.032900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "85158291-1137-4c28-a5bf-61aa7c55ddc6",
+        "type": "message",
+        "text": "oh",
+        "user": "UMQA682PJ",
+        "ts": "1573491141.033200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "644ff068-6542-4694-9afd-6206893fae1f",
+        "type": "message",
+        "text": "maybe i need to exit the pipenv shell",
+        "user": "UMQA682PJ",
+        "ts": "1573491145.033500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "485dabc8-1201-4165-9fbd-217e376e0286",
+        "type": "message",
+        "text": "that's probably it",
+        "user": "UMQA682PJ",
+        "ts": "1573491148.033700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bea05ebb-935f-464d-a1fd-d91103a3da6f",
+        "type": "message",
+        "text": "You probably need to stop and start the container to get an env variable loaded into it.",
+        "user": "U8FS2P1LH",
+        "ts": "1573491178.034100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8df07f68-14ad-44ac-b9c4-05b80cbd42f4",
+        "type": "message",
+        "text": "yes, did that",
+        "user": "UMQA682PJ",
+        "ts": "1573491192.034600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e60b279-7289-4c78-b21a-c43e23d4e394",
+        "type": "message",
+        "text": "and will do again",
+        "user": "UMQA682PJ",
+        "ts": "1573491196.034800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "455cafbd-5082-4553-8e48-456d06f8ec9b",
+        "type": "message",
+        "text": "Are you using `stop/start` or `down/up`?",
+        "user": "U8FS2P1LH",
+        "ts": "1573491256.035600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22861981-9920-4c89-83e6-69ed327270e4",
+        "type": "message",
+        "text": "stop/start won\u2019t remake the container so I think the env will remain the same if you do that.",
+        "user": "U8FS2P1LH",
+        "ts": "1573491281.036000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd0cb965-70f0-44f0-88a1-7bcd350f2cd0",
+        "type": "message",
+        "text": "`down/up`",
+        "user": "UMQA682PJ",
+        "ts": "1573491317.036200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a53f9452-c6c8-42b7-84c0-aaa44a3a2338",
+        "type": "message",
+        "text": "this is the env of my source_client container",
+        "user": "UMQA682PJ",
+        "ts": "1573491368.036500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aa274379-6752-4686-bb7b-3529ebc9cd7c",
+        "type": "message",
+        "text": "```\n(app-root) bash-4.2# env\nMANPATH=/opt/rh/rh-python36/root/usr/share/man:/opt/rh/rh-nodejs10/root/usr/share/man:/opt/rh/httpd24/root/usr/share/man:\nSOURCES_KAFKA_HOST=kafka\nHOSTNAME=dc973db22eb8\nPIP_NO_CACHE_DIR=off\nAPP_ROOT=/opt/app-root\nTERM=xterm\nLIBRARY_PATH=/opt/rh/httpd24/root/usr/lib64\nPYTHONUNBUFFERED=1\nKOKU_API_PORT=8000\nX_SCLS=rh-python36 rh-nodejs10 httpd24 \nNODEJS_SCL=rh-nodejs10\nDESCRIPTION=Python 3.6 available as container is a base platform for building and running various Python 3.6 applications and frameworks. Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.\nKOKU_API_PATH_PREFIX=/api/cost-management/v1\nLC_ALL=en_US.UTF-8\nPYTHONIOENCODING=UTF-8\nLD_LIBRARY_PATH=/opt/rh/rh-python36/root/usr/lib64:/opt/rh/rh-nodejs10/root/usr/lib64:/opt/rh/httpd24/root/usr/lib64\nDATABASE_USER=postgres\nDATABASE_NAME=postgres\nVIRTUAL_ENV=/opt/app-root\nPYTHON_VERSION=3.6\nPATH=/opt/app-root/bin:/opt/rh/rh-python36/root/usr/bin:/opt/rh/rh-nodejs10/root/usr/bin:/opt/rh/httpd24/root/usr/bin:/opt/rh/httpd24/root/usr/sbin:/opt/app-root/src/.local/bin/:/opt/app-root/src/bin:/opt/app-root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\nPWD=/koku\nSTI_SCRIPTS_URL=image:///usr/libexec/s2i\nSTI_SCRIPTS_PATH=/usr/libexec/s2i\nLANG=en_US.UTF-8\nSOURCES_KAFKA_PORT=29092\nPS1=(app-root) \\s-\\v\\$ \nSUMMARY=Platform for building and running Python 3.6 applications\nPIP_DEFAULT_TIMEOUT=100\nPLATFORM=el7\nDATABASE_PASSWORD=postgres\nPOSTGRES_SQL_SERVICE_PORT=5432\nDATABASE_ENGINE=postgresql\nSHLVL=1\nHOME=/opt/app-root/src\nPOSTGRES_SQL_SERVICE_HOST=db\nKOKU_API_HOST=koku-server\nPYTHONPATH=/opt/rh/rh-nodejs10/root/usr/lib/python2.7/site-packages\nXDG_DATA_DIRS=/opt/rh/rh-python36/root/usr/share:/usr/local/share:/usr/share\nPKG_CONFIG_PATH=/opt/rh/rh-python36/root/usr/lib64/pkgconfig:/opt/rh/httpd24/root/usr/lib64/pkgconfig\nDATABASE_SERVICE_NAME=POSTGRES_SQL\n_=/usr/bin/env\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573491372.036700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aa94a18a-a4a3-42f8-aee2-7e55964545d7",
+        "type": "message",
+        "text": "Is your docker-compose.yml edited at all?",
+        "user": "U8FS2P1LH",
+        "ts": "1573491485.037000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a482dcfa-d32f-4292-b996-68cd98e284ea",
+        "type": "message",
+        "text": "I can pull your branch and try stuff.",
+        "user": "U8FS2P1LH",
+        "ts": "1573491490.037200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ea3fa29-b824-4a60-a728-dcaeb316e565",
+        "type": "message",
+        "text": "i'm on master",
+        "user": "UMQA682PJ",
+        "ts": "1573491497.037400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "47d6f170-f3ae-4ea1-b3d3-f73b554c8a53",
+        "type": "message",
+        "text": "no it's not edited",
+        "user": "UMQA682PJ",
+        "ts": "1573491514.037700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5da55548-0083-44b4-bab6-fe9293b43130",
+        "type": "message",
+        "text": "Okay destroyed my containers and pulled master and re-upped. I am not getting 404s :white_frowning_face:",
+        "user": "U8FS2P1LH",
+        "ts": "1573501000.038700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd08644c-8104-4b4a-b631-19a0aaa2d98f",
+        "type": "message",
+        "text": "i found out what it was",
+        "user": "UMQA682PJ",
+        "ts": "1573501034.038900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a28751d-46bd-4daf-bf97-dc20cc67431c",
+        "type": "message",
+        "text": "What was it?",
+        "user": "U8FS2P1LH",
+        "ts": "1573501045.039400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "831a2462-3d21-4f20-a0a3-0c68713dcbe0",
+        "type": "message",
+        "text": "the url was wrong, it's `<http://localhost:4000/api/cost-management/v1/source_status/?source_id=4>`",
+        "user": "UMQA682PJ",
+        "ts": "1573501057.039600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3bab1b10-2d56-469e-8186-2c383b51f048",
+        "type": "message",
+        "text": "also, i had to run `make collect-static`",
+        "user": "UMQA682PJ",
+        "ts": "1573501067.039900",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,49 @@
+[
+    {
+        "client_msg_id": "875d1f4a-f7c9-4188-bd6b-90b22330c17a",
+        "type": "message",
+        "text": "Hey Andrew, regarding the azure queries you were demo-ing, when you did `filter[name]=X&group_by[name]=*`, is that query equivalent to `group_by[name]=X`",
+        "user": "UMQA682PJ",
+        "ts": "1575298799.001600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575298959.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YHy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Andrew, regarding the azure queries you were demo-ing, when you did "
+                            },
+                            {
+                                "type": "text",
+                                "text": "filter[name]=X&group_by[name]=*",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ", is that query equivalent to "
+                            },
+                            {
+                                "type": "text",
+                                "text": "group_by[name]=X",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

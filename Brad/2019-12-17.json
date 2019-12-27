@@ -1,0 +1,31 @@
+[
+    {
+        "client_msg_id": "92a8c954-13b3-4723-b0f8-17dbde9197bc",
+        "type": "message",
+        "text": "Here's where I've been documenting common things: <https://app.nuclino.com/Red-Hat-Insights/Koku/Guides-86f48b25-9a59-4f26-85e7-bf555d288dab>",
+        "user": "UMQA682PJ",
+        "ts": "1576612126.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WGT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here's where I've been documenting common things: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://app.nuclino.com/Red-Hat-Insights/Koku/Guides-86f48b25-9a59-4f26-85e7-bf555d288dab"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

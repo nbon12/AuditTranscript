@@ -1,0 +1,27 @@
+[
+    {
+        "client_msg_id": "ee19d719-c4bc-4a2d-956e-034246bde2a7",
+        "type": "message",
+        "text": "I'm not sure if you're aware - it looks like your PR is empty: <https://github.com/project-koku/koku/pull/1271/files>",
+        "user": "U9RH8D20Y",
+        "ts": "1571318822.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b407da6-b1e4-465e-8a4f-a938164e25fb",
+        "type": "message",
+        "text": "yes, i'm deleting it",
+        "user": "UMQA682PJ",
+        "ts": "1571318833.000600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "the_horns",
+                "users": [
+                    "U9RH8D20Y"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

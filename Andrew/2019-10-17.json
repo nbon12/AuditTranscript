@@ -1,0 +1,416 @@
+[
+    {
+        "client_msg_id": "b7c7a7af-670b-49a2-8d71-50631a3ba2ba",
+        "type": "message",
+        "text": "Do you have the engineering passdown meeting on your calendar?",
+        "user": "U8FS2P1LH",
+        "ts": "1571322738.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "249147bb-0588-4c5c-b497-68dafbfbfb13",
+        "type": "message",
+        "text": "I don't see it, when is is scheduled?",
+        "user": "UMQA682PJ",
+        "ts": "1571322764.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b28aca6-a5de-4fe6-a8d2-8b23dc7cc8dd",
+        "type": "message",
+        "text": "Gah, it\u2019s right now. It\u2019s Tim Cramer (who is Jen\u2019s boss) just giving information about the business unit. It\u2019s not critical really in any way, but it\u2019s a pulse on the business.",
+        "user": "U8FS2P1LH",
+        "ts": "1571322818.001500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a945c78-b8e8-4be7-918e-12e9c3cdee75",
+        "type": "message",
+        "text": "<https://primetime.bluejeans.com/a2m/live-event/cstgahpt>",
+        "user": "U8FS2P1LH",
+        "ts": "1571322997.002300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "BlueJeans Network | Video Collaboration in the Cloud",
+                "title_link": "https://primetime.bluejeans.com/a2m/live-event/cstgahpt",
+                "text": "BlueJeans Network - Interoperable, Cloud-based, Affordable Video Conferencing Service",
+                "fallback": "BlueJeans Network | Video Collaboration in the Cloud",
+                "from_url": "https://primetime.bluejeans.com/a2m/live-event/cstgahpt",
+                "service_icon": "https://primetime.bluejeans.com/a2m/static/unversionedStaticAssets/images/touch.ico",
+                "service_name": "primetime.bluejeans.com",
+                "id": 1,
+                "original_url": "https://primetime.bluejeans.com/a2m/live-event/cstgahpt"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5adacf7e-7e7c-477b-997a-630fd88004bb",
+        "type": "message",
+        "text": "thank you",
+        "user": "UMQA682PJ",
+        "ts": "1571323007.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1888f7e7-e1d1-4507-b3f1-3cbd5f661b1c",
+        "type": "message",
+        "text": "Is the link for now, but it\u2019ll be over soon. Sorry I just assumed you were on the invite.",
+        "user": "U8FS2P1LH",
+        "ts": "1571323008.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d2928a2e-02ba-4823-b658-f6ff1e371868",
+        "type": "message",
+        "text": "It\u2019s just Q&amp;A now.",
+        "user": "U8FS2P1LH",
+        "ts": "1571323012.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0c69c49-e13b-4bbc-b395-e835786a7818",
+        "type": "message",
+        "text": "Jen has emailed the calendar item owner about adding you and Michael.",
+        "user": "U8FS2P1LH",
+        "ts": "1571323061.003900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ac32c2b-8a97-4023-8a58-3baad29ce253",
+        "type": "message",
+        "text": "brb i'm going to lunch now",
+        "user": "UMQA682PJ",
+        "ts": "1571331182.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57123b31-e584-4fe1-8d67-6584a3d6b83a",
+        "type": "message",
+        "text": "haven't eaten yet",
+        "user": "UMQA682PJ",
+        "ts": "1571331187.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eb0138ac-45d6-4b02-a92d-5f4158edeade",
+        "type": "message",
+        "text": "Please do! I\u2019m running that test now, trying to isolate the issue.",
+        "user": "U8FS2P1LH",
+        "ts": "1571331204.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f9346b6-a167-481e-86e8-63ad899dcb8a",
+        "type": "message",
+        "text": "actually nevermind, my food is being delivered. i'm still here.",
+        "user": "UMQA682PJ",
+        "ts": "1571331374.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d07177b9-c646-4063-bed2-640e65fb12db",
+        "type": "message",
+        "text": "i'm debugging it now",
+        "user": "UMQA682PJ",
+        "ts": "1571331411.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d5b7213a-0151-48db-980a-1ee3d511c94b",
+        "type": "message",
+        "text": "K",
+        "user": "U8FS2P1LH",
+        "ts": "1571331441.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f40fd021-2249-4f6e-949f-1f4faa7fe600",
+        "type": "message",
+        "text": "Okay, so I did the following\nPopped `import pdb; pdb.set_trace()` at the start of the `_commit_and_vacuum` method.",
+        "user": "U8FS2P1LH",
+        "ts": "1571331995.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae157ffd-cdee-4cbb-9afc-c36cfe18ff00",
+        "type": "message",
+        "text": "And ran\n```\nparam_tuple = tuple(bind_param for bind_param in bind_params)\nprint(sql % param_tuple)\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1571332031.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e539e8e3-f6a9-4ced-8f8b-3335c6a1c052",
+        "type": "message",
+        "text": "Browsing through the SQL I see\n\n```\nWHERE date(ur.interval_start) &gt;= 2019-08-27 04:20:42+00:00\n            AND date(ur.interval_start) &lt;= 2019-10-17 16:54:12.183282+00:00\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1571332056.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "29a4cd27-fee2-4b5a-8f84-e1b91acca159",
+        "type": "message",
+        "text": "So we\u2019re comparing a date with an exact timestamp, so that\u2019s getting us.",
+        "user": "U8FS2P1LH",
+        "ts": "1571332082.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "66b9a26a-b64c-42cd-ab1d-e21d7f31f2fd",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1571332150.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0712d3b5-2076-4e02-b9a6-86c4f52ec916",
+        "type": "message",
+        "text": "which sql file is that?",
+        "user": "UMQA682PJ",
+        "ts": "1571332159.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d63f6122-a088-4e0f-931c-f4dc10ffbd10",
+        "type": "message",
+        "text": "So I ran the failing test, and the first file it was running was the ocp_daily sql",
+        "user": "U8FS2P1LH",
+        "ts": "1571332192.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef456a74-4e38-425e-9f0a-ee55c739b6c0",
+        "type": "message",
+        "text": "Which is what fails to create any entries here.",
+        "user": "U8FS2P1LH",
+        "ts": "1571332204.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc037d92-fb8b-4c9c-aebe-281421bb4028",
+        "type": "message",
+        "text": "so i'm thinking to fix this we'll edit the SQL file to use the date() function",
+        "user": "UMQA682PJ",
+        "ts": "1571332261.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "85abdbc1-5a31-4b75-92ac-8e02e422a0e4",
+        "type": "message",
+        "text": "maybe.. or use python to turn it into the correct format before jinja inserts it",
+        "user": "UMQA682PJ",
+        "ts": "1571332293.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c43c5d9-bb99-4556-bb12-2f2258df0898",
+        "type": "message",
+        "text": "is the timestamp part not relevant?",
+        "user": "UMQA682PJ",
+        "ts": "1571332354.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ce4e215-e707-41c5-aeea-040179bdfdd7",
+        "type": "message",
+        "text": "do we only care what the year-month-day is?",
+        "user": "UMQA682PJ",
+        "ts": "1571332365.012100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a2a6970-3510-4db6-9559-765db5968344",
+        "type": "message",
+        "text": "Yeah, we only care about the date, not the datetime. SO year-month-day",
+        "user": "U8FS2P1LH",
+        "ts": "1571332407.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0d1eac2c-842b-4c6d-b6c6-2a3f796b3df8",
+        "type": "message",
+        "text": "So I\u2019m trying this with your 13 branch, and checking the SQL using the .format()",
+        "user": "U8FS2P1LH",
+        "ts": "1571332462.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8145d6a9-93b3-49f1-85c4-4784ecac778f",
+        "type": "message",
+        "text": "Looks like we\u2019re throwing in the full datetime there, too, so it should fail just as often there\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1571332489.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "acdd89bc-2d8a-4cb5-8c7c-aa31e3bf48fd",
+        "type": "message",
+        "text": "I think either of your solutions will work. Change the SQL or make sure whatever goes into the sql is a date object instead of a datetime.",
+        "user": "U8FS2P1LH",
+        "ts": "1571332539.014100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7e78acc-0838-44fa-8a61-b7c37b48ccb3",
+        "type": "message",
+        "text": "so why didn't this fail with the non-jinja .format()?",
+        "user": "UMQA682PJ",
+        "ts": "1571332590.014400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da0fee0d-fac5-40fa-ba12-58fd3d196500",
+        "type": "message",
+        "text": "or has it been failing this whole time an doing SQL injection?!?",
+        "user": "UMQA682PJ",
+        "ts": "1571332615.014700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44274b3d-26b2-4049-b8dc-a28ecc41b25c",
+        "type": "message",
+        "text": "<http://initd.org/psycopg/docs/usage.html#adaptation-of-python-values-to-sql-types>",
+        "user": "U8FS2P1LH",
+        "ts": "1571333281.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "624533b5-d5bc-4312-8521-b5dabc3da956",
+        "type": "message",
+        "text": "So no it wasn\u2019t failing, it was just comparing to a string. Not a timestamp.",
+        "user": "U8FS2P1LH",
+        "ts": "1571333349.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15559d0a-9d4d-45bc-ab0a-8c58cb6cc56f",
+        "type": "message",
+        "text": "Seems to be a subtle difference in handling.",
+        "user": "U8FS2P1LH",
+        "ts": "1571333369.015800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73c9f37b-d838-43d5-9d2b-63934fb931c7",
+        "type": "message",
+        "text": "Although we should have been passing in a date all along, so good catch on this.",
+        "user": "U8FS2P1LH",
+        "ts": "1571333660.016200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f78fdc9-0da7-4aa7-87bd-e4b9519d7bb8",
+        "type": "message",
+        "text": "which part of that documentation are you referring to? when you say it was comparing it to a string, do you mean the same way python does `string1 &gt;= string2`?",
+        "user": "UMQA682PJ",
+        "ts": "1571334091.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1eb715be-2f8f-4975-9fc8-7f9ed206456d",
+        "type": "message",
+        "text": "or was postgres actually converting the string to a date anyway and comparing it, but with bind_params it doesn't cast string datetimes to dates",
+        "user": "UMQA682PJ",
+        "ts": "1571334295.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c14a856-748e-4b82-b66b-428fc3655f0a",
+        "type": "message",
+        "text": "Sorry, what I meant was when we were doing `.format()` it was inserting a string.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334317.019400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19619e76-23de-47cc-85b8-b07815147456",
+        "type": "message",
+        "text": "With the bind_params way, psycopg2 (which is the database driver doing the work under the hood) takes the datetime we are passing in and converts it to a postgres timestamp.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334356.020300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "effac4c8-0e5c-4b5e-bdab-98889a31a722",
+        "type": "message",
+        "text": "Yeah, in Postgres this is perfectly valid and works\n\n```\nkoku=# select date('2019-10-17') &lt;= '2019-10-17';\n ?column?\n----------\n t\n(1 row)\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1571334396.020700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "10b9a6c9-21de-4b86-9176-802c5fc23f23",
+        "type": "message",
+        "text": "So I think the solution we ultimately want it in Python, convert datetimes to dates before passing them to Jinja.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334498.021500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ce5b5dc-1c22-4f0d-af60-8179161f30b1",
+        "type": "message",
+        "text": "why was it ok to compare a date to a postgres timestamp in the past?",
+        "user": "UMQA682PJ",
+        "ts": "1571334522.022000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4ee73971-cca1-4f92-9f7a-991b0c7411ae",
+        "type": "message",
+        "text": "or, was the .format() function automatically converting the timestamp into a date?",
+        "user": "UMQA682PJ",
+        "ts": "1571334608.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae2b1f9d-2486-42d4-83c7-1187cced13d1",
+        "type": "message",
+        "text": "Yeah, it looks like Postgres will always treat a string as a date here. Here\u2019s an example:\n\n```\nkoku=# select date('2019-10-17') &gt;= '2019-10-17 16:54:12.183282+00:00'::timestamp;\n ?column?\n----------\n f\n(1 row)\n\nkoku=# select date('2019-10-17') &gt;= '2019-10-17 16:54:12.183282+00:00';\n ?column?\n----------\n t\n(1 row)\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1571334676.023000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "195bde2e-fc37-4670-8f20-7c0423bdaaa1",
+        "type": "message",
+        "text": "I can jump on a bluejeans call if it would help to explain what\u2019s happening here not over text.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334692.023400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9a2c3f9-a843-4f4f-872c-1bd977bd9b7b",
+        "type": "message",
+        "text": "i get it now, was just curious where in that documentation it shows that.",
+        "user": "UMQA682PJ",
+        "ts": "1571334706.023700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e719161f-779f-4062-86ad-54e7027c4889",
+        "type": "message",
+        "text": "Oh, I don\u2019t think it explicitly shows this, just kind of a gotcha of SQL. The documentation was showing that using the bind_params way the datetime object is getting converted to a SQL timestamp type.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334742.024500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca20037e-95cb-4515-8d01-aba988f5cdd2",
+        "type": "message",
+        "text": "The older .format() way was just passing in the string, so no type conversion was happening.",
+        "user": "U8FS2P1LH",
+        "ts": "1571334754.024900",
+        "team": "T026NJJ6Z"
+    }
+]

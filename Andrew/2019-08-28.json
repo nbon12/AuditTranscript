@@ -1,0 +1,49 @@
+[
+    {
+        "client_msg_id": "b489fde5-1384-4164-9c7a-67b62f697b42",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku>",
+        "user": "U8FS2P1LH",
+        "ts": "1567010061.000200",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "project-koku/koku",
+                "text": "An open source solution for cost management of cloud and hybrid cloud environments.",
+                "title": "project-koku/koku",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1521815363,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Website",
+                        "value": "<https://koku.readthedocs.io/>",
+                        "short": true
+                    },
+                    {
+                        "title": "Stars",
+                        "value": "45",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "034cbdc5-7639-4a3c-b30f-a0bf2a0b8183",
+        "type": "message",
+        "text": "Hey Nick. I\u2019ll get you on the calendar invites for these today so you see them in the future, but we have a sprint planning meeting you can dial into now if you want to hear: <https://bluejeans.com/7260598323>",
+        "user": "U8FS2P1LH",
+        "ts": "1567011618.001000",
+        "team": "T026NJJ6Z"
+    }
+]

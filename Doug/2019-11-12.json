@@ -1,0 +1,170 @@
+[
+    {
+        "client_msg_id": "eb010940-b559-4450-9440-9ff5eb803b54",
+        "type": "message",
+        "text": "Hi Doug, what's our process for creating apidocs? any `make` commands we use? Where do our openapi docs live/go?",
+        "user": "UMQA682PJ",
+        "ts": "1573576438.023900",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573576453.000000"
+        }
+    },
+    {
+        "client_msg_id": "59194757-b78d-4aea-902a-1a95e3c146e2",
+        "type": "message",
+        "text": "hey Nick.  So here\u2019s the example for the masu-server <https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json>",
+        "user": "UAR1CADNV",
+        "ts": "1573576643.024300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/masu/openapi.json",
+                "text": "```\n{\n    \"openapi\": \"3.0.0\",\n    \"info\": {\n      \"description\": \"The Admin 'Masu' API for Cost Management.  You can find out more about     Cost Management at [<https://github.com/project-koku/>](<https://github.com/project-koku/>).\",\n      \"version\": \"1.0.0\",\n      \"title\": \"Cost Management Admin\",\n      \"license\": {\n        \"name\": \"AGPL-3.0\",\n        \"url\": \"<https://opensource.org/licenses/AGPL-3.0>\"\n      }\n    },\n    \"tags\": [\n      {\n        \"name\": \"Download\",\n        \"description\": \"Operations about report downloads\"\n      },\n      {\n        \"name\": \"Expired Data\",\n        \"description\": \"Operations about removing expired data\"\n      },\n      {\n        \"name\": \"Report Data\",\n        \"description\": \"Operations about summarizing report data\"\n      },\n      {\n        \"name\": \"Update Charge\",\n        \"description\": \"Operations about updating derived cost\"\n      },\n      {\n        \"name\": \"Upload Normalized Data\",\n        \"description\": \"Operations about uploading normalized data\"\n      },\n      {\n        \"name\": \"Status\",\n        \"description\": \"Operations about status\"\n      }\n    ],\n    \"paths\": {\n      \"/download/\": {\n        \"get\": {\n          \"summary\": \"Download reports\",\n          \"operationId\": \"getDownload\",\n          \"description\": \"Return download file async task ID.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"The celery task ID of the download task\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/DownloadGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Download\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/expired_data/\": {\n        \"get\": {\n          \"operationId\": \"getExpiredData\",\n          \"description\": \"Return simulated expired data.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Simulate the deletion expired data\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ExpiredDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Expired Data\"\n          ]\n        },\n        \"delete\": {\n          \"operationId\": \"deleteExpiredData\",\n          \"description\": \"Return expired data.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"204\": {\n              \"description\": \"Delete expired data\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ExpiredDataDeleteResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Expired Data\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/report_data/\": {\n        \"get\": {\n          \"operationId\": \"getReportData\",\n          \"description\": \"Update report summary tables in the database.\",\n          \"parameters\": [\n            {\n              \"name\": \"provider_uuid\",\n              \"in\": \"query\",\n              \"description\": \"The provider UUID\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"uuid\",\n                \"example\": \"83ee048e-3c1d-43ef-b945-108225ae52f4\"\n              }\n            },\n            {\n              \"name\": \"provider_type\",\n              \"in\": \"query\",\n              \"description\": \"The provider type\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"AWS\"\n              }\n            },\n            {\n              \"name\": \"schema\",\n              \"in\": \"query\",\n              \"description\": \"The database schema\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"acct12345\"\n              }\n            },\n            {\n              \"name\": \"start_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to begin summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-01-01\"\n              }\n            },\n            {\n              \"name\": \"end_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to end summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-12-31\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Data summary task has been queued\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ReportDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Report Data\"\n          ]\n        },\n        \"delete\": {\n          \"operationId\": \"deleteReportData\",\n          \"description\": \"Delete report summary tables in the database.\",\n          \"parameters\": [\n            {\n              \"name\": \"provider_uuid\",\n              \"in\": \"query\",\n              \"description\": \"The provider database ID\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": 1\n              }\n            },\n            {\n              \"name\": \"provider\",\n              \"in\": \"query\",\n              \"description\": \"The provider type\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"AWS\"\n              }\n            },\n            {\n              \"name\": \"schema\",\n              \"in\": \"query\",\n              \"description\": \"The database schema\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"acct12345\"\n              }\n            },\n            {\n              \"name\": \"simulate\",\n              \"in\": \"query\",\n              \"description\": \"Whether to actually delete\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"boolean\",\n                \"example\": true\n              }\n            },\n            {\n              \"name\": \"end_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to end summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-12-31\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"204\": {\n              \"description\": \"Data deletion task has been queued\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ReportDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Report Data\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/status/\": {\n        \"get\": {\n          \"operationId\": \"status_list\",\n          \"description\": \"Packages response for class-based view.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/StatusResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Status\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/update_charge/\": {\n        \"\u2026",
+                "title": "koku/masu/openapi.json",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "da18e48d-65cc-4851-ad68-ce3c77cf7036",
+        "type": "message",
+        "text": "was that auto generated using apidoc or manually created?",
+        "user": "UMQA682PJ",
+        "ts": "1573576667.024700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "442d8035-0282-411b-ba07-1cb3b3783abb",
+        "type": "message",
+        "text": "for koku it\u2019 <https://github.com/project-koku/koku/tree/master/docs/source/specs>",
+        "user": "UAR1CADNV",
+        "ts": "1573576675.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b7711779-9619-4295-9291-46dd120aec03",
+        "type": "message",
+        "text": "as far as I know they were manually created",
+        "user": "UAR1CADNV",
+        "ts": "1573576686.025200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01d1efb7-9ac0-41c4-b6d9-5f50dbf82ab6",
+        "type": "message",
+        "text": "unfortunately we don\u2019t have any automation to generate and keep it in sync.  I believe there\u2019s an issue open for that though",
+        "user": "UAR1CADNV",
+        "ts": "1573576705.025700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bea056c7-e150-43c0-8b77-33243d097eb7",
+        "type": "message",
+        "text": "in what folder do you think the sources_status openapi should be? koku/docs/sources/openapi.json ?",
+        "user": "UMQA682PJ",
+        "ts": "1573577483.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b46644f-dc9c-4953-816f-9ec72e067b52",
+        "type": "message",
+        "text": "or koku/docs/specs/sources/openapi.json",
+        "user": "UMQA682PJ",
+        "ts": "1573577515.027000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64a3deaa-f850-4d56-b400-d7f64f2012ac",
+        "type": "message",
+        "text": "i think it might make sense to try and match the masu one",
+        "user": "UAR1CADNV",
+        "ts": "1573577578.027600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3a411d6-49bc-4959-8349-643c8c932388",
+        "type": "message",
+        "text": "to be like masu, it would be in `koku/koku/sources/openapi.json`",
+        "user": "UMQA682PJ",
+        "ts": "1573577579.027800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd568002-408a-4ccb-b5be-1b0f6f8fd7db",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1573577587.028100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c608476d-f67b-4416-9898-de1217422b21",
+        "type": "message",
+        "text": "since that\u2019s the closest corollary to the source_status",
+        "user": "UAR1CADNV",
+        "ts": "1573577594.028300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a93bbafc-cf34-4640-8ed9-4637d777a7f9",
+        "type": "message",
+        "text": "I've updated the openapi and it's ready for re-review: <https://github.com/project-koku/koku/pull/1392>",
+        "user": "UMQA682PJ",
+        "ts": "1573586918.029100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1392 add openapi specification for source_status",
+                "text": "This PR adds an openapi spec for the internal sources_status API.  \nThis PR is for issue <https://github.com/project-koku/koku/issues/1390|#1390> and it's parent issue <https://github.com/project-koku/koku/issues/1309|#1309>  \nadd openapi.json to sources folder",
+                "title": "#1392 add openapi specification for source_status",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1392",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1573580936,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1392",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "74f84e34-8423-493c-9d0c-347bfcfd2f50",
+        "type": "message",
+        "text": "looks good :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1573587067.029400",
+        "team": "T026NJJ6Z"
+    }
+]

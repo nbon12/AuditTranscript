@@ -1,0 +1,534 @@
+[
+    {
+        "client_msg_id": "acfc5543-f384-46e1-ae29-1125ae0f72dc",
+        "type": "message",
+        "text": "Hey Doug, how do we know which provider to use to get the source status?",
+        "user": "UMQA682PJ",
+        "ts": "1572551480.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08dfacb6-1624-4a3d-95e5-0e1bb684a284",
+        "type": "message",
+        "text": "hey Nick, glad to hear the open mic went well!  Wish I would have known would have came to watch :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572552207.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7b2f7208-4e00-4677-8d44-2a8a2d700872",
+        "type": "message",
+        "text": "so you are trying to test it for real now?",
+        "user": "UAR1CADNV",
+        "ts": "1572552216.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bf7629ec-afdf-4e6b-b674-993cd379a976",
+        "type": "message",
+        "text": "No, I'm trying to make a prototype that actually works.",
+        "user": "UMQA682PJ",
+        "ts": "1572552261.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20c3cd9d-4445-47d2-ab6a-1de80c3a35a7",
+        "type": "message",
+        "text": "how do you mean?",
+        "user": "UAR1CADNV",
+        "ts": "1572552298.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67407f79-6848-4155-95dd-bb0a0009e06e",
+        "type": "message",
+        "text": "what are you prototyping?",
+        "user": "UAR1CADNV",
+        "ts": "1572552303.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06716135-75dd-431f-a98d-436a4d0a2962",
+        "type": "message",
+        "text": "i was hoping to make a call to the cost_usage_source_is_reachable() with test data to see if it actually works.",
+        "user": "UMQA682PJ",
+        "ts": "1572552345.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff908d19-3b10-40b6-af70-9806b805008f",
+        "type": "message",
+        "text": "so in unit tests",
+        "user": "UAR1CADNV",
+        "ts": "1572552362.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99c86574-5566-4fe1-a9c1-97cf3e3d19e9",
+        "type": "message",
+        "text": "and you mean to mock that response or have it actually reach out to a cloud?",
+        "user": "UAR1CADNV",
+        "ts": "1572552387.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c5529b56-33d7-465b-841d-55fb1386ec6c",
+        "type": "message",
+        "text": "whichever is easier for now",
+        "user": "UMQA682PJ",
+        "ts": "1572552405.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "591dab2a-108d-4246-ab12-36e63250ffa0",
+        "type": "message",
+        "text": "so if you have the full thing basically in place and ready to test with AWS I think the easiest thing to do is to add a provider to that AWS account I sent you before, then make the Sources db table entry like I showed you the other day",
+        "user": "UAR1CADNV",
+        "ts": "1572552491.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99e39b17-b835-4ca5-af08-30bf833ec13c",
+        "type": "message",
+        "text": "the hit your status endpoint with the source id you have set in that table",
+        "user": "UAR1CADNV",
+        "ts": "1572552504.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be4ed2df-1149-4dc0-bd1a-27d0fe3db748",
+        "type": "message",
+        "text": "do you have a branch with the change?",
+        "user": "UAR1CADNV",
+        "ts": "1572552546.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "24d4d849-eadd-4c97-b777-c2a5241c8491",
+        "type": "message",
+        "text": "I have a branch but i haven't coded this yet.",
+        "user": "UMQA682PJ",
+        "ts": "1572552573.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "12e07dc6-2dca-4797-a2d3-a98be306ad4d",
+        "type": "message",
+        "text": "I'm still figuring out how to get the source status, given a source_id",
+        "user": "UMQA682PJ",
+        "ts": "1572552618.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89bd217e-2137-400b-ac51-b41c83ad30e3",
+        "type": "message",
+        "text": "are you able to call `cost_usage_source_is_reachable()` with the parameters in the source table?",
+        "user": "UAR1CADNV",
+        "ts": "1572552664.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "16324181-da0e-4dc7-9f7e-b6b3a5392361",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1572552673.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6a5427bb-b7cf-4523-a019-2f462c8ad4f0",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572552677.009600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18985cc9-443f-4883-bdd2-f6deb4d96778",
+        "type": "message",
+        "text": "were you able to get the source table populated?",
+        "user": "UAR1CADNV",
+        "ts": "1572552690.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3b9458f3-6649-4d92-a5be-7a18f0fa7823",
+        "type": "message",
+        "text": "haven't tried that yet",
+        "user": "UMQA682PJ",
+        "ts": "1572552712.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d30c5c74-0457-49d3-9b37-4a3484e380da",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572552715.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9962c8bd-94f5-41e2-a8d7-d4856c1861ca",
+        "type": "message",
+        "text": "so here\u2019s what I would do first to get that table setup with data so that you can actually call to AWS once you get it all wired together",
+        "user": "UAR1CADNV",
+        "ts": "1572552743.011000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ba11cd5c-99e0-4ab5-91ae-b35c2550ea9c",
+        "type": "message",
+        "text": "you have added an AWS provider to koku before right?",
+        "user": "UAR1CADNV",
+        "ts": "1572552756.011400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f5e3fc32-b449-4920-8623-9121b22fe610",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572552762.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f339208c-6be5-4659-9afa-9c5e8372cafb",
+        "type": "message",
+        "text": "I think I remember you said you\u2019ve done that",
+        "user": "UAR1CADNV",
+        "ts": "1572552763.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c0e17fc6-100c-4d84-a271-321f07c5603b",
+        "type": "message",
+        "text": "ok, add an AWS provider with authentication: `arn:aws:iam::589173575009:role/CostManagement`",
+        "user": "UAR1CADNV",
+        "ts": "1572552784.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "48f13772-9d8a-447f-aa63-b36a79eea2fd",
+        "type": "message",
+        "text": "and billing_source `cost-usage-bucket`",
+        "user": "UAR1CADNV",
+        "ts": "1572552794.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4fe29637-00a2-4654-9c8a-da6f1cb01d7a",
+        "type": "message",
+        "text": "let me know when you get that added",
+        "user": "UAR1CADNV",
+        "ts": "1572552905.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c749e4d8-ab90-443e-b182-07b30fbc48e1",
+        "type": "message",
+        "text": "Is the credentials my actual AWS password for hccm-alias?",
+        "user": "UMQA682PJ",
+        "ts": "1572553315.013400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d574ab27-6f6c-48a4-afb6-fb93be584698",
+        "type": "message",
+        "text": "ohhh right,",
+        "user": "UAR1CADNV",
+        "ts": "1572553376.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8c6efa2-e4fb-48c8-8f56-8534e4aadaa0",
+        "type": "message",
+        "text": "so you need to set your AWS credentials that should be configured on Amazon",
+        "user": "UAR1CADNV",
+        "ts": "1572553393.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d745f5ca-9c11-4c41-811d-2bc459049445",
+        "type": "message",
+        "text": "Did Andrew give you any AWS KEYS by chance?",
+        "user": "UAR1CADNV",
+        "ts": "1572553404.014300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77e09b5c-5173-44b0-9341-a57dcacccea7",
+        "type": "message",
+        "text": "yes I have them",
+        "user": "UMQA682PJ",
+        "ts": "1572553458.014500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6df8c019-edc5-40b8-902f-efbaa2cb02d8",
+        "type": "message",
+        "text": "ok do you have them setup in your environment?",
+        "user": "UAR1CADNV",
+        "ts": "1572553468.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "410bc347-2030-4b1b-8947-1f0a78fbd66c",
+        "type": "message",
+        "text": "the Secret Access Key?",
+        "user": "UMQA682PJ",
+        "ts": "1572553473.015000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cad95b63-6092-40b5-a656-b3ea554d8f4d",
+        "type": "message",
+        "text": "`AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`",
+        "user": "UAR1CADNV",
+        "ts": "1572553489.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6bd04776-dae6-4ae4-ab9c-03e0b638ac1a",
+        "type": "message",
+        "text": "setting them now",
+        "user": "UMQA682PJ",
+        "ts": "1572553571.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d01b4ab4-712e-41c4-8aa3-af95b68e1ed1",
+        "type": "message",
+        "text": "ok yeah, so that will have be set for the masu-server too now since that\u2019s the service thats going to be making the calls",
+        "user": "UAR1CADNV",
+        "ts": "1572553579.016400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "47a1514a-c6a1-4e15-838e-96bb1c328e0d",
+        "type": "message",
+        "text": "looks like htey are already set in the docker-compose",
+        "user": "UAR1CADNV",
+        "ts": "1572553626.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44ce397c-5339-42cb-bdee-22a5655984ed",
+        "type": "message",
+        "text": "so thats good",
+        "user": "UAR1CADNV",
+        "ts": "1572553628.017000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "096d7d98-c291-44e9-9883-6824f002df5e",
+        "type": "message",
+        "text": "my docker-compose looks like this:\n```\nenvironment:\n        - MASU=True\n        - DATABASE_SERVICE_NAME=POSTGRES_SQL\n        - DATABASE_ENGINE=postgresql\n        - DATABASE_NAME=${DATABASE_NAME-postgres}\n        - POSTGRES_SQL_SERVICE_HOST=db\n        - POSTGRES_SQL_SERVICE_PORT=5432\n        - DATABASE_USER=${DATABASE_USER-postgres}\n        - DATABASE_PASSWORD=${DATABASE_PASSWORD-postgres}\n        - AWS_ACCESS_KEY_ID\n        - AWS_SECRET_ACCESS_KEY\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572553688.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad44a519-d2a9-4bc7-ac68-47bfd516803e",
+        "type": "message",
+        "text": "so I just have them set in my .env file and just do `pipenv shell` to activate them",
+        "user": "UAR1CADNV",
+        "ts": "1572553691.017900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c7092575-a76b-4fb8-9b72-2360d1b6cb97",
+        "type": "message",
+        "text": "the keys weren't set",
+        "user": "UMQA682PJ",
+        "ts": "1572553693.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c0ea3d0-9e5f-4328-8067-274d48d69a62",
+        "type": "message",
+        "text": "so i'll set them there",
+        "user": "UMQA682PJ",
+        "ts": "1572553699.018300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4780c702-fd77-4aa7-910e-c99785a1887b",
+        "type": "message",
+        "text": "yeah so with that it will look at your environment variables",
+        "user": "UAR1CADNV",
+        "ts": "1572553708.018500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4b1d7c28-3147-49c4-ac27-44d0de50dc5d",
+        "type": "message",
+        "text": "oh",
+        "user": "UMQA682PJ",
+        "ts": "1572553718.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5269734e-8981-4979-9948-f6b16e1ef54a",
+        "type": "message",
+        "text": "you probably shouldn\u2019t hard code them in the docker-compose",
+        "user": "UAR1CADNV",
+        "ts": "1572553718.019100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c92e9f5-0f09-4a8b-b83f-9ce83d90c300",
+        "type": "message",
+        "text": "just in case you accidentally push the change to github",
+        "user": "UAR1CADNV",
+        "ts": "1572553728.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4de1b5de-1c4b-461d-8f20-9e0190bfa61f",
+        "type": "message",
+        "text": "right but I was confused why it was missing the `${}`",
+        "user": "UMQA682PJ",
+        "ts": "1572553738.020000",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1572553747.000000"
+        }
+    },
+    {
+        "client_msg_id": "fab4bd19-7912-4986-b186-f83e796ba16c",
+        "type": "message",
+        "text": "secrets would be exposed then :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572553742.020100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "195fb846-5a05-4d7a-97a5-abc5ff4ba86c",
+        "type": "message",
+        "text": "yeah there\u2019s pretty much no default value without that",
+        "user": "UAR1CADNV",
+        "ts": "1572553759.020500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f77994d-9e89-4a3a-a981-2ca6e39d506f",
+        "type": "message",
+        "text": "it will still reference what\u2019s in your environment with those same names",
+        "user": "UAR1CADNV",
+        "ts": "1572553770.020800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b3e3272b-688a-428c-9de2-2869af272001",
+        "type": "message",
+        "text": "oh, gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1572553776.021000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "666e705a-8e33-47a1-88db-98a9e6bfc23d",
+        "type": "message",
+        "text": "it\u2019s pretty crazy when you accidently push those to github",
+        "user": "UAR1CADNV",
+        "ts": "1572553965.021300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23d5907d-e27e-49ff-8458-e81e2e5f0f7e",
+        "type": "message",
+        "text": "theres some bots out there looking at every diff basically looking for leaked credentials",
+        "user": "UAR1CADNV",
+        "ts": "1572553981.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1630fa81-4e79-4dad-a712-69fca6ff8076",
+        "type": "message",
+        "text": "right, i would never store a secret literally in the docker-compose.",
+        "user": "UMQA682PJ",
+        "ts": "1572553986.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3e9a3e0-6884-490c-8f20-a831a8aa1db6",
+        "type": "message",
+        "text": "and you start getting emails about it",
+        "user": "UAR1CADNV",
+        "ts": "1572553986.022300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "acf4629e-df7d-4e11-96f8-a34da47885e1",
+        "type": "message",
+        "text": "AWS then disables the account",
+        "user": "UAR1CADNV",
+        "ts": "1572554013.022700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b9156ad9-9ce0-47ab-ae7c-6be697301ee0",
+        "type": "message",
+        "text": "that's actually pretty cool that AWS does something",
+        "user": "UMQA682PJ",
+        "ts": "1572554029.023000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e6c98749-32e6-4cf7-877f-1952db4cee21",
+        "type": "message",
+        "text": "oh yeah most definitely, but wow people are watching",
+        "user": "UAR1CADNV",
+        "ts": "1572554047.023400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff8d9fe8-5f63-4f8e-ad1f-a0b9f6f3a73f",
+        "type": "message",
+        "text": "should the credentials field in the provider POST request be `{}` and also the data source as well?",
+        "user": "UMQA682PJ",
+        "ts": "1572554449.024000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00090ae0-2eae-470c-8563-f8ad0f8e061c",
+        "type": "message",
+        "text": "also do I need to do a rebuild for the .env changes to take effect?",
+        "user": "UMQA682PJ",
+        "ts": "1572554486.024500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d105393c-53fa-4298-a79f-33404f5bd633",
+        "type": "message",
+        "text": "you mean this?",
+        "user": "UAR1CADNV",
+        "ts": "1572554523.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45a27cb9-cfab-47ee-b042-bd1de94b6542",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572554535.025300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0dc94cc-1c32-4f14-b602-2a6a6cc32569",
+        "type": "message",
+        "text": "you\u2019ll probably have to re-build to get it to pick up your AWS secret though",
+        "user": "UAR1CADNV",
+        "ts": "1572554538.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "edb9001a-574b-4537-8eac-c37124cc9801",
+        "type": "message",
+        "text": "got it",
+        "user": "UMQA682PJ",
+        "ts": "1572554538.025600",
+        "team": "T026NJJ6Z"
+    }
+]

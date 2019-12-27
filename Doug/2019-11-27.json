@@ -1,0 +1,495 @@
+[
+    {
+        "client_msg_id": "fb58a20a-5600-4ddd-8921-72914ba22d90",
+        "type": "message",
+        "text": "Hey Doug, which API endpoint is that filter applying to?",
+        "user": "UMQA682PJ",
+        "ts": "1574874283.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "odk2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Doug, which API endpoint is that filter applying to?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db386b83-ca49-44df-885b-79da5212161b",
+        "type": "message",
+        "text": "hey Nick, you mean the API we were experimenting with yesterday?",
+        "user": "UAR1CADNV",
+        "ts": "1574874640.000600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IO4Ws",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hey Nick, you mean the API we were experimenting with yesterday?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f36c332d-bd22-48a1-a0ad-5028f0af64cb",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1574874646.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ftfH0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4855b801-ac33-4988-ba0d-e3b6cecbebf0",
+        "type": "message",
+        "text": "it was the AWS storage endpoint",
+        "user": "UAR1CADNV",
+        "ts": "1574874661.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5DV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it was the AWS storage endpoint"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "da7a9331-2f8b-4cae-a9c9-4188caf85789",
+        "type": "message",
+        "text": "`/api/cost-management/v1/reports/aws/storage/`",
+        "user": "UAR1CADNV",
+        "ts": "1574874685.001400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nyYK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "/api/cost-management/v1/reports/aws/storage/",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "27ef68a1-3c91-4b22-81d1-5ac21d58c002",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1574874704.001600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lXBx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b18548c4-57c8-4410-98bb-1a8e74489292",
+        "type": "message",
+        "text": "no problem",
+        "user": "UAR1CADNV",
+        "ts": "1574874708.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RE8b=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no problem"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6ede5edf-5897-47b6-a6b6-8bbd79156cdc",
+        "type": "message",
+        "text": "Hey Doug, do you know how to run PDB on a Koku endpoint running on Docker?",
+        "user": "UMQA682PJ",
+        "ts": "1574889701.003600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Lel",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Doug, do you know how to run PDB on a Koku endpoint running on Docker?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8cb5a712-dac8-4d14-8f74-0159ac4c19ec",
+        "type": "message",
+        "text": "I found `python -m pdb manage.py runserver` on an article but it causes\n\n```koku_server       | === Running migrate for schema public\nkoku_server       | Operations to perform:\nkoku_server       |   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\nkoku_server       | Running migrations:\nkoku_server       |   No migrations to apply.\nkoku_server       | &gt; /koku/koku/manage.py(2)&lt;module&gt;()\nkoku_server       | -&gt; import os\nkoku_server       | (Pdb) \nkoku_server exited with code 0\n(koku) nbonilla@MacBook-Pro koku % ```",
+        "user": "UMQA682PJ",
+        "ts": "1574889746.004200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "85IF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I found "
+                            },
+                            {
+                                "type": "text",
+                                "text": "python -m pdb manage.py runserver",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on an article but it causes\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "koku_server       | === Running migrate for schema public\nkoku_server       | Operations to perform:\nkoku_server       |   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\nkoku_server       | Running migrations:\nkoku_server       |   No migrations to apply.\nkoku_server       | > /koku/koku/manage.py(2)<module>()\nkoku_server       | -> import os\nkoku_server       | (Pdb) \nkoku_server exited with code 0\n(koku) nbonilla@MacBook-Pro koku % "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "073f088b-56ea-4537-a04b-cdaaed6e7c6f",
+        "type": "message",
+        "text": "the server exits before starting up",
+        "user": "UMQA682PJ",
+        "ts": "1574889760.004500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GmZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the server exits before starting up"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb6e6f75-50e2-422f-8cc9-4c8c95b30176",
+        "type": "message",
+        "text": "yeah so what I do is stop the koku server (if thats where you want to do pdb) and restart the server with this --service-ports command",
+        "user": "UAR1CADNV",
+        "ts": "1574889859.005300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vOr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeah so what I do is stop the koku server (if thats where you want to do pdb) and restart the server with this --service-ports command"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39500652-54ae-46e9-bad5-80844689bdf7",
+        "type": "message",
+        "text": "```(koku_fork_test) \u279c  koku_fork git:(master) \n(koku_fork_test) \u279c  koku_fork git:(master) docker-compose stop koku-server\nWARNING: The GOOGLE_APPLICATION_CREDENTIALS variable is not set. Defaulting to a blank string.\nStopping koku_server ... done\n(koku_fork_test) \u279c  koku_fork git:(master) docker-compose run --service-ports koku-server\nWARNING: The GOOGLE_APPLICATION_CREDENTIALS variable is not set. Defaulting to a blank string.\nStarting koku_db     ... done\nStarting koku_rabbit ... done\nStarting masu_server ... done\nLoading : /koku/.env\nThe .env file has been loaded.\n[standard:public] === Running migrate for schema public\n[standard:public] Operations to perform:\n[standard:public]   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:public] Running migrations:\n[standard:public]   No migrations to apply.\n[standard:acct10001] === Running migrate for schema acct10001\n[standard:acct10001] Operations to perform:\n[standard:acct10001]   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:acct10001] Running migrations:\n[standard:acct10001]   No migrations to apply.\nLoading : /koku/.env\nThe .env file has been loaded.\nLoading : /koku/.env\nThe .env file has been loaded.\n[2019-11-27 21:24:08,092] INFO: Watching for file changes with StatReloader\nPerforming system checks...\n\nSystem check identified no issues (0 silenced).\nNovember 27, 2019 - 21:24:10\nDjango version 2.2.6, using settings 'koku.settings'\nStarting development server at <http://0.0.0.0:8000/>\nQuit the server with CONTROL-C.```",
+        "user": "UAR1CADNV",
+        "ts": "1574889865.005600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jAG",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(koku_fork_test) \u279c  koku_fork git:(master) \n(koku_fork_test) \u279c  koku_fork git:(master) docker-compose stop koku-server\nWARNING: The GOOGLE_APPLICATION_CREDENTIALS variable is not set. Defaulting to a blank string.\nStopping koku_server ... done\n(koku_fork_test) \u279c  koku_fork git:(master) docker-compose run --service-ports koku-server\nWARNING: The GOOGLE_APPLICATION_CREDENTIALS variable is not set. Defaulting to a blank string.\nStarting koku_db     ... done\nStarting koku_rabbit ... done\nStarting masu_server ... done\nLoading : /koku/.env\nThe .env file has been loaded.\n[standard:public] === Running migrate for schema public\n[standard:public] Operations to perform:\n[standard:public]   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:public] Running migrations:\n[standard:public]   No migrations to apply.\n[standard:acct10001] === Running migrate for schema acct10001\n[standard:acct10001] Operations to perform:\n[standard:acct10001]   Apply all migrations: api, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:acct10001] Running migrations:\n[standard:acct10001]   No migrations to apply.\nLoading : /koku/.env\nThe .env file has been loaded.\nLoading : /koku/.env\nThe .env file has been loaded.\n[2019-11-27 21:24:08,092] INFO: Watching for file changes with StatReloader\nPerforming system checks...\n\nSystem check identified no issues (0 silenced).\nNovember 27, 2019 - 21:24:10\nDjango version 2.2.6, using settings 'koku.settings'\nStarting development server at "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http://0.0.0.0:8000/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nQuit the server with CONTROL-C."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "197b435f-dee2-472f-b40f-46050ec1b78e",
+        "type": "message",
+        "text": "I first bring everything up with `make docker-up` to get everything else running, db migrations ran, etc",
+        "user": "UAR1CADNV",
+        "ts": "1574889886.006000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WFCO7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I first bring everything up with "
+                            },
+                            {
+                                "type": "text",
+                                "text": "make docker-up",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " to get everything else running, db migrations ran, etc"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2e85299-7a71-448e-b74d-286c6c3ab942",
+        "type": "message",
+        "text": "then do this",
+        "user": "UAR1CADNV",
+        "ts": "1574889891.006200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+20A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "then do this"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f1adc35b-f3aa-46ce-9ec9-f7fec6644ac8",
+        "type": "message",
+        "text": "`docker-compose stop koku-server` then `docker-compose run --service-ports koku-server`",
+        "user": "UAR1CADNV",
+        "ts": "1574889910.006500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Sfy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "docker-compose stop koku-server",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " then "
+                            },
+                            {
+                                "type": "text",
+                                "text": "docker-compose run --service-ports koku-server",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90edefb9-99fe-4dfc-bc0e-404eac2ee448",
+        "type": "message",
+        "text": "theres a Makefile command as a reminder",
+        "user": "UAR1CADNV",
+        "ts": "1574889971.006900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4zFn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "theres a Makefile command as a reminder"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b45de5a-00e0-45db-abeb-99451f36f95d",
+        "type": "message",
+        "text": "`make docker-shell`",
+        "user": "UAR1CADNV",
+        "ts": "1574889983.007100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k/d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "make docker-shell",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

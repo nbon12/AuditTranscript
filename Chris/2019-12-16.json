@@ -1,0 +1,1265 @@
+[
+    {
+        "client_msg_id": "79e9e1bb-2cb8-4e7b-a0d8-af6f56adbec0",
+        "type": "message",
+        "text": "Hi Chris, what is Data Hub?",
+        "user": "UMQA682PJ",
+        "ts": "1576510487.000200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p8tgV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Chris, what is Data Hub?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ad4b0128-8865-422b-9d6e-9a8625133184",
+        "type": "message",
+        "text": "Its a group within Red Hat that is focused on providing a data lake and AI/ML capabilities.",
+        "user": "U5SUXMJ83",
+        "ts": "1576510535.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p5F5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Its a group within Red Hat that is focused on providing a data lake and AI/ML capabilities."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1de7b63a-5746-4251-83e2-396bfce849b9",
+        "type": "message",
+        "text": "Hi Chris, regarding the performance improvement commit you suggested, did you also run IQE tests on that?",
+        "user": "UMQA682PJ",
+        "ts": "1576514006.002000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bNr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Chris, regarding the performance improvement commit you suggested, did you also run IQE tests on that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "00A7B1B4-B532-464F-8F30-AF1A0D00E683",
+        "type": "message",
+        "text": "No just unit test. Which is why I echoed what Doug said in my comment. ",
+        "user": "U5SUXMJ83",
+        "ts": "1576514161.003300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KZ+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No just unit test. Which is why I echoed what Doug said in my comment. "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f394473-da72-4f8b-9e17-d1a4834bfa5e",
+        "type": "message",
+        "text": "+1 cool, just making sure",
+        "user": "UMQA682PJ",
+        "ts": "1576514182.003700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+bNtW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "+1 cool, just making sure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7682573d-4428-4df1-b1a7-bac3476c7df7",
+        "type": "message",
+        "text": "i think the IQE tests are now suddenly passing.",
+        "user": "UMQA682PJ",
+        "ts": "1576514190.004000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JdRs+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i think the IQE tests are now suddenly passing."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4c61574-4963-47e9-b9bb-175f27edb0b1",
+        "type": "message",
+        "text": "going to check the rest",
+        "user": "UMQA682PJ",
+        "ts": "1576514200.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dMY3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "going to check the rest"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "E28058EB-E789-4BF9-8D1D-2D65BE5C4C23",
+        "type": "message",
+        "text": "Ok cool",
+        "user": "U5SUXMJ83",
+        "ts": "1576514288.004600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5b2I/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ok cool"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dbd06e81-a19f-4360-97c8-b1e1e61abb42",
+        "type": "message",
+        "text": "I believe I found a bug in master IQE tests.",
+        "user": "UMQA682PJ",
+        "ts": "1576515750.005100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=pKzd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I believe I found a bug in master IQE tests."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "313fa459-7733-4871-9514-defd26ff0570",
+        "type": "message",
+        "text": "This query:",
+        "user": "UMQA682PJ",
+        "ts": "1576515779.005500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jdJF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This query:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f9b482a9-32dd-4c43-ac22-afa45eb3088d",
+        "type": "message",
+        "text": "```/reports/aws/costs/?filter[time_scope_units]=month&amp;filter[time_scope_value]=-1&amp;filter[resolution]=monthly&amp;filter[limit]=5&amp;filter[region]=*&amp;filter[az]=ap-south-1a&amp;group_by[region]=*&amp;group_by[az]=*```",
+        "user": "UMQA682PJ",
+        "ts": "1576515809.005800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dgrnm",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "/reports/aws/costs/?filter[time_scope_units]=month&filter[time_scope_value]=-1&filter[resolution]=monthly&filter[limit]=5&filter[region]=*&filter[az]=ap-south-1a&group_by[region]=*&group_by[az]=*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d5e341a7-66e0-4100-a9ad-299adb8522c8",
+        "type": "message",
+        "text": "Is supposed to be logically equivalent to this:",
+        "user": "UMQA682PJ",
+        "ts": "1576515816.006100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xN4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is supposed to be logically equivalent to this:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d7154de-b6b4-4fc3-96bb-7beabe5bb8a7",
+        "type": "message",
+        "text": "*Nick Bonilla*:redhat:\u00a0[12:03 PM]\n```/reports/aws/costs/?filter[time_scope_units]=month&amp;filter[time_scope_value]=-1&amp;filter[resolution]=monthly&amp;filter[limit]=5&amp;filter[region]=*&amp;filter[az]=ap-south-1a&amp;group_by[region]=*&amp;group_by[az]=ap-south-1a```\n",
+        "user": "UMQA682PJ",
+        "ts": "1576515841.006500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GC/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Nick Bonilla",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "redhat",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\u00a0[12:03 PM]\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "/reports/aws/costs/?filter[time_scope_units]=month&filter[time_scope_value]=-1&filter[resolution]=monthly&filter[limit]=5&filter[region]=*&filter[az]=ap-south-1a&group_by[region]=*&group_by[az]=ap-south-1a"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a541156e-9799-41f6-8d67-48e3795fba62",
+        "type": "message",
+        "text": "and in my bugfixed branch the two return the same result",
+        "user": "UMQA682PJ",
+        "ts": "1576515850.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WfdFu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and in my bugfixed branch the two return the same result"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "216e039c-bb73-4d71-adff-8d189753e633",
+        "type": "message",
+        "text": "which in the IQE test, is 0 (with the same data that IQE fills the database with)",
+        "user": "UMQA682PJ",
+        "ts": "1576515867.007100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576516234.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8lV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "which in the IQE test, is 0 (with the same data that IQE fills the database with)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "afbf12d9-9438-443c-9b2f-a00f4dd092aa",
+        "type": "message",
+        "text": "IQE asserts the following",
+        "user": "UMQA682PJ",
+        "ts": "1576515886.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q/mos",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "IQE asserts the following"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "238f0557-8582-4f3b-8fc0-4cb144af85c1",
+        "type": "message",
+        "text": "```&gt;       assert group_by_total == filtered_total\nE       AssertionError: assert '317665.91' == '0.00'```",
+        "user": "UMQA682PJ",
+        "ts": "1576515889.007600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q1mEq",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": ">       assert group_by_total == filtered_total\nE       AssertionError: assert '317665.91' == '0.00'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dedd75e8-9a1d-46a5-be85-577c1fa666fa",
+        "type": "message",
+        "text": "in my branch the IQE test fails because the response is 0",
+        "user": "UMQA682PJ",
+        "ts": "1576515902.007900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "etX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in my branch the IQE test fails because the response is 0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6b757d9f-03e4-4d33-9c12-86ab749577b9",
+        "type": "message",
+        "text": "but I think IQE is wrong, I think the response is supposed to be 0",
+        "user": "UMQA682PJ",
+        "ts": "1576515918.008300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yNQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but I think IQE is wrong, I think the response is supposed to be 0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "03c5372e-71b6-4075-a3c6-f440223f59bc",
+        "type": "message",
+        "text": "because when I executed the second query on master branch, the answer was 0.",
+        "user": "UMQA682PJ",
+        "ts": "1576515959.009200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7=EUv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "because when I executed the second query on master branch, the answer was 0."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "746666e0-4f17-4932-ad59-0f362c639ac0",
+        "type": "message",
+        "text": "thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1576515967.009400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KP58",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thoughts?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2f18341-32d5-451d-a5ce-ae57e100e8b5",
+        "type": "message",
+        "text": "maybe a screenshare would help?",
+        "user": "UMQA682PJ",
+        "ts": "1576515973.009600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ST0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "maybe a screenshare would help?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "575325f5-61ee-4e1f-a96d-442af9249c2a",
+        "type": "message",
+        "text": "IQE was testing the first query, not the second.",
+        "user": "UMQA682PJ",
+        "ts": "1576516050.009900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "p1HP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "IQE was testing the first query, not the second."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b0fa8677-34d5-47b3-ac9c-9ad6d6e686c3",
+        "type": "message",
+        "text": "also in Master branch, the first query returns 317665.91",
+        "user": "UMQA682PJ",
+        "ts": "1576516110.010300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576516132.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/xUi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also in Master branch, the first query returns 317665.91"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "30a865fe-7ef3-4839-b896-2a385eaf92a3",
+        "type": "message",
+        "text": "I let Daniel and Luke know.",
+        "user": "UMQA682PJ",
+        "ts": "1576516712.010700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "99kYU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I let Daniel and Luke know."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ae4a977-705f-488c-809f-ac8bc404f36b",
+        "type": "message",
+        "text": "You could also to an MR against the hccm iqe plugin. I\u2019m pretty sure we should be able to merge the change also, since they are out.",
+        "user": "U5SUXMJ83",
+        "ts": "1576518421.012000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6Z3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You could also to an MR against the hccm iqe plugin. I\u2019m pretty sure we should be able to merge the change also, since they are out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10cfe4df-b693-4797-ab34-7831a6920bb7",
+        "type": "message",
+        "text": "what's the name of the package manager that lets you install non-signed packages into RHEL?",
+        "user": "UMQA682PJ",
+        "ts": "1576530089.012500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C1C7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what's the name of the package manager that lets you install non-signed packages into RHEL?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b670f00d-a61b-400d-8964-7ce634b44ff0",
+        "type": "message",
+        "text": "for example when there's a package that's new but hasn't gotten into RPM yet",
+        "user": "UMQA682PJ",
+        "ts": "1576530105.012900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e+W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for example when there's a package that's new but hasn't gotten into RPM yet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1bc60370-4859-4420-98be-091395bec5c4",
+        "type": "message",
+        "text": "You can look at this:\n<https://www.softwarecollections.org/en/>",
+        "user": "U5SUXMJ83",
+        "ts": "1576530160.013200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "334",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You can look at this:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://www.softwarecollections.org/en/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a90a6d3-639c-4999-a500-eb9d718f8638",
+        "type": "message",
+        "text": "SCL gives you repos that are not in the base RHEL repository",
+        "user": "U5SUXMJ83",
+        "ts": "1576530183.013600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eqA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "SCL gives you repos that are not in the base RHEL repository"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8eafe54b-0957-4f87-aa40-9dcfaa74bacf",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1576530192.013800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xz/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e9a89e8-1f45-4f49-a467-6935be07e5ac",
+        "type": "message",
+        "text": "np",
+        "user": "U5SUXMJ83",
+        "ts": "1576530195.014000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rCV3N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "np"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5694241d-74ef-4898-9963-9645526532b9",
+        "type": "message",
+        "text": "So I think i found the root cause:",
+        "user": "UMQA682PJ",
+        "ts": "1576533979.014300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7VSmr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So I think i found the root cause:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "611d20b8-2c10-485c-bbb6-51566d504ceb",
+        "type": "message",
+        "text": "```report_filter = {\n            \"time_scope_units\": \"month\",\n            \"time_scope_value\": -1,\n            \"resolution\": \"monthly\",\n            \"limit\": 5,\n        }\n        group_by = {\"region\": \"*\", \"az\": \"*\"}\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_cost_report = call_api_raw(full_path, application)\n        group_by_total = f\"{aws_cost_report['meta']['total']['cost'].get('value'):.2f}\"\n    \n        report_filter = {\n            \"time_scope_units\": \"month\",\n            \"time_scope_value\": -1,\n            \"resolution\": \"monthly\",\n            \"limit\": 5,\n            \"region\": \"*\",\n            \"az\": zone,\n        }\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_cost_report = call_api_raw(full_path, application)\n        filtered_total = f\"{aws_cost_report['meta']['total']['cost'].get('value'):.2f}\"```",
+        "user": "UMQA682PJ",
+        "ts": "1576533982.014600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0sS",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "report_filter = {\n            \"time_scope_units\": \"month\",\n            \"time_scope_value\": -1,\n            \"resolution\": \"monthly\",\n            \"limit\": 5,\n        }\n        group_by = {\"region\": \"*\", \"az\": \"*\"}\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_cost_report = call_api_raw(full_path, application)\n        group_by_total = f\"{aws_cost_report['meta']['total']['cost'].get('value'):.2f}\"\n    \n        report_filter = {\n            \"time_scope_units\": \"month\",\n            \"time_scope_value\": -1,\n            \"resolution\": \"monthly\",\n            \"limit\": 5,\n            \"region\": \"*\",\n            \"az\": zone,\n        }\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_cost_report = call_api_raw(full_path, application)\n        filtered_total = f\"{aws_cost_report['meta']['total']['cost'].get('value'):.2f}\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0630478-208b-4a34-8727-7b2848a965a4",
+        "type": "message",
+        "text": "in the second \"report_filter\", az gets set to `zone`",
+        "user": "UMQA682PJ",
+        "ts": "1576533998.015000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bqb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in the second \"report_filter\", az gets set to "
+                            },
+                            {
+                                "type": "text",
+                                "text": "zone",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90591b3c-f772-4f3b-b60b-489ed82f2543",
+        "type": "message",
+        "text": "and that causes the two queries to be compared",
+        "user": "UMQA682PJ",
+        "ts": "1576534013.015600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JGb0K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and that causes the two queries to be compared"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "522db4f6-ab08-4866-811a-8e035dd52b08",
+        "type": "message",
+        "text": "group_by_total =\n```filter[time_scope_units]=month&amp;filter[time_scope_value]=-1&amp;filter[resolution]=monthly&amp;filter[limit]=5&amp;group_by[region]=*&amp;group_by[az]=*```",
+        "user": "UMQA682PJ",
+        "ts": "1576534062.016400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576534107.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H4yn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "group_by_total =\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "filter[time_scope_units]=month&filter[time_scope_value]=-1&filter[resolution]=monthly&filter[limit]=5&group_by[region]=*&group_by[az]=*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90a44c89-cde8-45fe-b98c-0f5afbdb2b01",
+        "type": "message",
+        "text": "filter_total =",
+        "user": "UMQA682PJ",
+        "ts": "1576534072.016600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kQd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "filter_total ="
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52ad2cf0-d8a4-4611-8011-592d27185f48",
+        "type": "message",
+        "text": "```/reports/aws/costs/?filter[time_scope_units]=month&amp;filter[time_scope_value]=-1&amp;filter[resolution]=monthly&amp;filter[limit]=5&amp;filter[region]=*&amp;filter[az]=ap-south-1a&amp;group_by[region]=*&amp;group_by[az]=*```",
+        "user": "UMQA682PJ",
+        "ts": "1576534079.016800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6TR",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "/reports/aws/costs/?filter[time_scope_units]=month&filter[time_scope_value]=-1&filter[resolution]=monthly&filter[limit]=5&filter[region]=*&filter[az]=ap-south-1a&group_by[region]=*&group_by[az]=*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79da4f09-9ced-449d-8ecc-93d46719aac2",
+        "type": "message",
+        "text": "The second filter has an additional zone that the first one does not have",
+        "user": "UMQA682PJ",
+        "ts": "1576534121.017300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6ZBA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The second filter has an additional zone that the first one does not have"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f4a4de5-d95a-405b-bc76-011a313c568f",
+        "type": "message",
+        "text": "so these two queries shouldn't have equal total cost",
+        "user": "UMQA682PJ",
+        "ts": "1576534137.017700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qGj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so these two queries shouldn't have equal total cost"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9c634f7c-669a-4cac-9351-936d68e026be",
+        "type": "message",
+        "text": "right?",
+        "user": "UMQA682PJ",
+        "ts": "1576534138.017900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "csY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9fad95a-aa77-401b-bdf5-efd1059ed32c",
+        "type": "message",
+        "text": "I updated the MR description with the issue: <https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455>",
+        "user": "UMQA682PJ",
+        "ts": "1576534403.018300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QtTgB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I updated the MR description with the issue: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4380ef73-dc9b-4332-95fc-bf51b676d004",
+        "type": "message",
+        "text": "but haven't yet updated the lines to change",
+        "user": "UMQA682PJ",
+        "ts": "1576534423.018900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4IXg3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but haven't yet updated the lines to change"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0f5dd9d3-f5b5-4457-866f-8aecf9e86ed1",
+        "type": "message",
+        "text": "also Luke said that, additionally, the second request shouldn't have group_by statements in it at all",
+        "user": "UMQA682PJ",
+        "ts": "1576534473.019300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yZiJO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also Luke said that, additionally, the second request shouldn't have group_by statements in it at all"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c7f8c39f-ba56-459d-858f-3740280b4466",
+        "type": "message",
+        "text": "since it is a 'filtered_total'",
+        "user": "UMQA682PJ",
+        "ts": "1576534499.019600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bY8g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "since it is a 'filtered_total'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "301efa85-a876-4b2f-a4d3-acffa395a401",
+        "type": "message",
+        "text": "so i updated the PR to include both of those fixes:",
+        "user": "UMQA682PJ",
+        "ts": "1576535361.020300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eGjDX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so i updated the PR to include both of those fixes:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7af7cc18-cedc-4f77-9fd0-177928f644c8",
+        "type": "message",
+        "text": "<https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455/diffs#bcb4d3f494fc6f857f6e575e511b3f369bd2a741>",
+        "user": "UMQA682PJ",
+        "ts": "1576535372.020500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hyT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455/diffs#bcb4d3f494fc6f857f6e575e511b3f369bd2a741"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

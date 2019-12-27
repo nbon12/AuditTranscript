@@ -1,0 +1,391 @@
+[
+    {
+        "client_msg_id": "77a46990-72e1-422b-99d4-0600b29dd0af",
+        "type": "message",
+        "text": "Good morning, when making curl requests to Koku, which URL/port would I use?",
+        "user": "UMQA682PJ",
+        "ts": "1568384456.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a68699af-3598-4f75-b007-9c2d27a28c19",
+        "type": "message",
+        "text": "I noticed it's running in a docker network",
+        "user": "UMQA682PJ",
+        "ts": "1568384479.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01b865b4-49a5-425c-8e14-78a8e9c7c9d1",
+        "type": "message",
+        "text": "upon inspecting the network i found these URLs:",
+        "user": "UMQA682PJ",
+        "ts": "1568384537.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a9814f7-416e-42cd-8f0f-1129a4929938",
+        "type": "message",
+        "text": "nbonilla:~/environment $ docker network inspect koku_default\n[\n    {\n        \"Name\": \"koku_default\",\n        \"Id\": \"281ebb152bff9e4559511d5fa4bb246e872f38263a137a35d8959212a8136a91\",\n        \"Created\": \"2019-09-12T17:45:53.714418781Z\",\n        \"Scope\": \"local\",\n        \"Driver\": \"bridge\",\n        \"EnableIPv6\": false,\n        \"IPAM\": {\n            \"Driver\": \"default\",\n            \"Options\": null,\n            \"Config\": [\n                {\n                    \"Subnet\": \"172.19.0.0/16\",\n                    \"Gateway\": \"172.19.0.1\"\n                }\n            ]\n        },\n        \"Internal\": false,\n        \"Attachable\": true,\n        \"Ingress\": false,\n        \"ConfigFrom\": {\n            \"Network\": \"\"\n        },\n        \"ConfigOnly\": false,\n        \"Containers\": {\n            \"07d8318903e36e3faddcda307eee545ba7df58a6d53600e5e32cd6540f12a6f7\": {\n                \"Name\": \"koku_beat\",\n                \"EndpointID\": \"e1d6bd02d7d57fa11c1f667577472c5d239c6446e1e8e7fcef16b12307b6b804\",\n                \"MacAddress\": \"02:42:ac:13:00:06\",\n                \"IPv4Address\": \"172.19.0.6/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"1b5d073b809b4ff142b3cb5d2324952f100c37dd52adcf39d3e309c8c3cf9fd6\": {\n                \"Name\": \"masu_server\",\n                \"EndpointID\": \"2c099deb9761ffb3f1f58e7b79a9e5e04c00bb0200ae8ed71b435fdf8e39ce75\",\n                \"MacAddress\": \"02:42:ac:13:00:05\",\n                \"IPv4Address\": \"172.19.0.5/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"545ab5d64a961e656ba3e018d150717433e566b34704e917ac17d3a2c90dbb17\": {\n                \"Name\": \"koku_rabbit\",\n                \"EndpointID\": \"741a0d591ea378d7d71aefdbb73a218a2eea65645de88308c0976d57413a4666\",\n                \"MacAddress\": \"02:42:ac:13:00:02\",\n                \"IPv4Address\": \"172.19.0.2/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"564ff5a0a0ddc8b9ea205f1c301e27526e14ee2997714dfffd9e15be35465b76\": {\n                \"Name\": \"koku_redis\",\n                \"EndpointID\": \"dd8ea685e234a2d4fd985e9032762056b34952868a9c530588330449a084e1eb\",\n                \"MacAddress\": \"02:42:ac:13:00:03\",\n                \"IPv4Address\": \"172.19.0.3/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"7bf44014d27da77ca6e254ea84a3daf7657a771d7b60ec41b46725f6b5a71b98\": {\n                \"Name\": \"koku_worker\",\n                \"EndpointID\": \"a0f90d8e6b2d93ab1b8233fd0dfda05f2750743d04c86f047226373e779d8ee9\",\n                \"MacAddress\": \"02:42:ac:13:00:07\",\n                \"IPv4Address\": \"172.19.0.7/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"991ace3aa99b76aaed00a3e91542bcc42696d60d70bf9f377bd7028928eb1cda\": {\n                \"Name\": \"koku_db\",\n                \"EndpointID\": \"c0a33fcc13230e5c0d27dc30a1136f055b478ef44f40eb6de45a78a7b3bf7bb7\",\n                \"MacAddress\": \"02:42:ac:13:00:04\",\n                \"IPv4Address\": \"172.19.0.4/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"c0a36ddeede8fc9c36ee7994302cad6228d18153c3d5aaeea4fd222e5e7e9269\": {\n                \"Name\": \"koku_server\",\n                \"EndpointID\": \"8ca28cd49de0832b5e2c5b0e22d5562ae43f91d0a0021091440c087d4946347f\",\n                \"MacAddress\": \"02:42:ac:13:00:09\",\n                \"IPv4Address\": \"172.19.0.9/16\",\n                \"IPv6Address\": \"\"\n            },\n            \"d0fe931fbc3547bf6b79e1295b31abb9e849b7fd7bab72cba9d8a8cdd59279d9\": {\n                \"Name\": \"koku_listener\",\n                \"EndpointID\": \"c6ce963927628e518e0e0105825e62cf3af9bc4f4e7e96a331d092d26e523f2a\",\n                \"MacAddress\": \"02:42:ac:13:00:08\",\n                \"IPv4Address\": \"172.19.0.8/16\",\n                \"IPv6Address\": \"\"\n            }\n        },\n        \"Options\": {},\n        \"Labels\": {\n            \"com.docker.compose.network\": \"default\",\n            \"com.docker.compose.project\": \"koku\",\n            \"com.docker.compose.version\": \"1.25.0-rc2\"\n        }\n    }\n]",
+        "user": "UMQA682PJ",
+        "ts": "1568384550.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bb9fd1de-54ad-415c-b027-09c270368184",
+        "type": "message",
+        "text": "nevermind, i found it",
+        "user": "UMQA682PJ",
+        "ts": "1568384711.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "568301d6-8393-435a-ae80-4e9e9919ef04",
+        "type": "message",
+        "text": "i curled the koku_server url at 172.19.0.9:8080",
+        "user": "UMQA682PJ",
+        "ts": "1568384755.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e24d98d4-f498-49dd-b852-a037555230c1",
+        "type": "message",
+        "text": "Cool. Sorry, stepped away. In the docker-compose.yml file for the koku repo, each service that exposes a port will show which port is mapped to which localhost port in the `ports` section.",
+        "user": "U8FS2P1LH",
+        "ts": "1568385211.004800",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1568385219.000000"
+        }
+    },
+    {
+        "client_msg_id": "c38ec9d5-4d2f-4a92-a518-6981a7abad15",
+        "type": "message",
+        "text": "masu can be reached at `5000` for example",
+        "user": "U8FS2P1LH",
+        "ts": "1568385235.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "28180d44-38f8-42bb-bae7-0ef389177471",
+        "type": "message",
+        "text": "So koku can be hit on localhost at `8000`",
+        "user": "U8FS2P1LH",
+        "ts": "1568385269.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a03695ed-8de1-4735-970d-4fa800aed998",
+        "type": "message",
+        "text": "If you put 127.0.0.1:8000/api/cost-management/v1/providers/ in a browser, you\u2019ll get the Django Browsable API view of the APIs.",
+        "user": "U8FS2P1LH",
+        "ts": "1568385283.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "666bf74d-1f94-4b81-a43e-d97cca7b9176",
+        "type": "message",
+        "text": "It\u2019s a nice Django provided UI around them, if you\u2019d like to see that.",
+        "user": "U8FS2P1LH",
+        "ts": "1568385301.006400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee434e9a-0a8d-4e21-ba37-c0b62a63242e",
+        "type": "message",
+        "text": "I got a working preview of the app from Cloud9!",
+        "user": "UMQA682PJ",
+        "ts": "1568391043.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "cloud9 running Koku accessible over the internet.",
+        "files": [
+            {
+                "id": "FNDRD8KF0",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "ts": "1568391114.007000",
+        "client_msg_id": "7805989f-7f67-475d-97f1-3de0bfd46a7b"
+    },
+    {
+        "client_msg_id": "ed224ea5-9c20-425a-b11e-e43cb8f3d52f",
+        "type": "message",
+        "text": "Nice",
+        "user": "U8FS2P1LH",
+        "ts": "1568392452.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "12d5401a-a097-4775-9625-d1ce97b7a298",
+        "type": "message",
+        "text": "Do we have an enterprise Artifactory for Docker images?",
+        "user": "UMQA682PJ",
+        "ts": "1568398840.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ba0848e7-ad64-4c3e-8135-83ac1ac1c82b",
+        "type": "message",
+        "text": "I don\u2019t even know what that means.",
+        "user": "U8FS2P1LH",
+        "ts": "1568399523.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2098deed-a72a-47ff-901a-490f3ed3ed13",
+        "type": "message",
+        "text": "What does that mean?",
+        "user": "U8FS2P1LH",
+        "ts": "1568399525.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cf04e479-ab2d-47f5-ad77-299de9ea8777",
+        "type": "message",
+        "text": "Do we download images directly from Docker Hub, or do we have our own repository where we can download public images that have been scanned and checked for viruses?",
+        "user": "UMQA682PJ",
+        "ts": "1568399590.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fe1af2aa-62d5-4720-929d-e54a5d453133",
+        "type": "message",
+        "text": "<https://jfrog.com/artifactory/>",
+        "user": "UMQA682PJ",
+        "ts": "1568399619.009100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "JFrog",
+                "title": "Artifactory - Universal Artifact Repository Manager - JFrog",
+                "title_link": "https://jfrog.com/artifactory/",
+                "text": "As the first, and only, universal Artifact Repository Manager on the market, JFrog Artifactory fully supports software packages created by any language or technology. Artifactory is the only enterprise-ready repository manager available today, supporting secure, clustered, High Availability Docker registries. Integrating with all ...",
+                "fallback": "JFrog: Artifactory - Universal Artifact Repository Manager - JFrog",
+                "image_url": "https://media.jfrog.com/wp-content/uploads/2018/06/18104601/JFROG.png",
+                "image_width": 478,
+                "image_height": 250,
+                "from_url": "https://jfrog.com/artifactory/",
+                "image_bytes": 48718,
+                "service_icon": "https://media.jfrog.com/wp-content/uploads/2019/04/18104103/Jfrog16-1.png",
+                "id": 1,
+                "original_url": "https://jfrog.com/artifactory/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eb7ba174-ce4a-4949-9416-0bd3c44d8ab6",
+        "type": "message",
+        "text": "Ah, okay, yeah all the docker compose stuff is likely just hitting docker hub. Anything we use in OpenShift goes through redhat\u2019s registry.",
+        "user": "U8FS2P1LH",
+        "ts": "1568399712.010200",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d9d5757b-0155-4873-a1de-072c05031280",
+        "type": "message",
+        "text": "how do you typically access the database locally when its in docker?",
+        "user": "UMQA682PJ",
+        "ts": "1568399971.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "264e0622-f573-4138-8230-f5d1e777b7f6",
+        "type": "message",
+        "text": "also do you use pgadmin?",
+        "user": "UMQA682PJ",
+        "ts": "1568399985.011000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7d973994-8d65-41dc-878f-5d8cdf5fc658",
+        "type": "message",
+        "text": "pgadmin is fine. I don\u2019t use it.",
+        "user": "U8FS2P1LH",
+        "ts": "1568400006.011400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ac338c67-6eec-48ff-b9d5-a2a84ad5aa17",
+        "type": "message",
+        "text": "Usually default to psql on the command line. Sometimes I\u2019ll use a vs code extention to connect to the db and run longer bits of sql.",
+        "user": "U8FS2P1LH",
+        "ts": "1568400039.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c8339f21-6eb0-406d-9fa6-c4a19ef959df",
+        "type": "message",
+        "text": "It also has a nice clean output for simple queries too.",
+        "user": "U8FS2P1LH",
+        "ts": "1568400055.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8e8da735-d82b-4bfb-8c03-1d81c7c5b886",
+        "type": "message",
+        "text": "If you have used all the default variables then `psql postgres -p 15432 -h localhost -U postgres`",
+        "user": "U8FS2P1LH",
+        "ts": "1568400108.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "afe2f8b7-1ef6-4cbe-8576-92abebd3b680",
+        "type": "message",
+        "text": "password is :drum_with_drumsticks: \u2026`postgres`",
+        "user": "U8FS2P1LH",
+        "ts": "1568400123.013700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a842370b-6309-433f-8705-3e0b30e347d3",
+        "type": "message",
+        "text": "so if you use that db name, port, host, user, password you could configure pgadmin",
+        "user": "U8FS2P1LH",
+        "ts": "1568400154.014100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "907af1c6-bb9d-4ebb-8bf5-bb75170bdfaf",
+        "type": "message",
+        "text": "Question: Is Postgres blocking incoming connections? I can get in via localhost, but if I try to access it from pgAdmin in a different container, it seems to not be listening for connections.",
+        "user": "UMQA682PJ",
+        "ts": "1568403409.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd1d7edd-ed3b-416d-99b5-27f3301ca490",
+        "type": "message",
+        "text": "so you\u2019re within the docker network in this container?",
+        "user": "U8FS2P1LH",
+        "ts": "1568403549.015200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96d2db94-9e06-4fc0-9daa-4e67ab5144c6",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1568403555.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "faa660fd-729c-4695-a91b-d5e6c591d077",
+        "type": "message",
+        "text": "which port are you trying?",
+        "user": "U8FS2P1LH",
+        "ts": "1568403569.015700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9194e80-3432-484e-bdf8-85d0bde8c5d9",
+        "type": "message",
+        "text": "15432",
+        "user": "UMQA682PJ",
+        "ts": "1568403582.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "84439081-af87-4f61-8ecc-e1a38223259d",
+        "type": "message",
+        "text": "In the containers it\u2019s 5432.",
+        "user": "U8FS2P1LH",
+        "ts": "1568403590.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "786e10c8-f882-4c14-b3f0-bf16362e9241",
+        "type": "message",
+        "text": "oh, that worked",
+        "user": "UMQA682PJ",
+        "ts": "1568403606.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "837db09a-4553-4fc2-8559-fedac554e14f",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1568403608.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b23d2a1b-6abb-4e1d-b4e8-c57ee62b0a9c",
+        "type": "message",
+        "text": "Which is a more standard postgres port, we do 15432 outside the container in case you are running postgres there.",
+        "user": "U8FS2P1LH",
+        "ts": "1568403612.017000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fb4aeef0-a762-4b63-9d4e-f69bf18d207d",
+        "type": "message",
+        "text": "sweet, i'm running pgAdmin in cloud9 now.",
+        "user": "UMQA682PJ",
+        "ts": "1568403641.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "accessible anywhere to collaborate on! (provided i whitelist the IP address)",
+        "files": [
+            {
+                "id": "FMZ4M3FT4",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "ts": "1568403713.017400",
+        "client_msg_id": "dc4a072e-c899-4b69-aee7-0720dac75ff3"
+    },
+    {
+        "client_msg_id": "03beba5e-9931-42c9-8a78-a6cfbf30632f",
+        "type": "message",
+        "text": "nice",
+        "user": "U8FS2P1LH",
+        "ts": "1568403948.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c32f1fb-23b6-4085-a5d8-b03891d1aae7",
+        "type": "message",
+        "text": "who should I ask about setting up nise?",
+        "user": "UMQA682PJ",
+        "ts": "1568404763.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c5337958-7fb6-4d37-9220-ef604a10b442",
+        "type": "message",
+        "text": "On Monday: me. If today, you could check with Doug.",
+        "user": "U8FS2P1LH",
+        "ts": "1568404933.018600",
+        "team": "T026NJJ6Z"
+    }
+]

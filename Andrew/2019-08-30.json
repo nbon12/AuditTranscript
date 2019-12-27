@@ -1,0 +1,1086 @@
+[
+    {
+        "client_msg_id": "7951BF08-4979-4DAE-A260-A7B1246D9DD1",
+        "type": "message",
+        "text": "I\u2019m on floor 9 today.",
+        "user": "UMQA682PJ",
+        "ts": "1567172207.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "F812FA3E-9F27-4BDB-9134-DC6A675800FB",
+        "type": "message",
+        "text": "Are you upstairs?",
+        "user": "UMQA682PJ",
+        "ts": "1567172216.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5354813d-1990-488f-8816-06a97946a58f",
+        "type": "message",
+        "text": "Yeah, but I\u2019ll come down to you shortly. Just doing a quick recap meeting of the planning this week to tell Jen since she was out the last 2 days.",
+        "user": "U8FS2P1LH",
+        "ts": "1567172238.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2e6cd8b2-aa10-4722-96ed-22b1998670eb",
+        "type": "message",
+        "text": "That is, if you\u2019d like to stay down there.",
+        "user": "U8FS2P1LH",
+        "ts": "1567172257.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7C70846E-C604-4BA8-90EB-1B88436AF56A",
+        "type": "message",
+        "text": "I can come upstairs",
+        "user": "UMQA682PJ",
+        "ts": "1567172260.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd03cec0-58f8-4fad-888b-1fe84aa09d98",
+        "type": "message",
+        "text": "This will likely take until 10.",
+        "user": "U8FS2P1LH",
+        "ts": "1567172266.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C9035D3F-8E76-482B-B859-B388670588BF",
+        "type": "message",
+        "text": "I\u2019ll come to you, I\u2019ve been sitting in direct sunlight for a while",
+        "user": "UMQA682PJ",
+        "ts": "1567172339.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e68eab8a-633c-4152-81a8-15c83fe898a4",
+        "type": "message",
+        "text": "Heh, sounds good. I\u2019ll see you in ~20 minutes when this is done.",
+        "user": "U8FS2P1LH",
+        "ts": "1567172359.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3faae440-737e-4819-a4e9-512056e67e58",
+        "type": "message",
+        "text": "I'd like to create or use an AWS account for the purpose of using their cloud IDE, do we have an existing AWS account I can share? Can I create a new AWS Account expensed to Red Hat?",
+        "user": "UMQA682PJ",
+        "ts": "1567178350.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64f87b07-4f90-44ff-9220-cf8fd6fb266a",
+        "type": "message",
+        "text": "I\u2019m assuming the cost isn\u2019t huge for their IDE, so I\u2019m okay with it, but I\u2019d just run it by Jen real quick since it is a cost thing. We have a cost management AWS account that you will need credentials for (definitely part of on-boarding) in order to really use the product locally on your machine, so if Jen gives it the :thumbs-up-left:  then we can use that.",
+        "user": "U8FS2P1LH",
+        "ts": "1567178625.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "520633ff-edd9-4b73-8e84-1d85e3ff43d4",
+        "type": "message",
+        "text": "it's around $2, i'll ask Jen",
+        "user": "UMQA682PJ",
+        "ts": "1567178650.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "13de3008-d42b-416d-90ab-1b7b2b4d2eea",
+        "type": "message",
+        "text": "Hah, probably juuuuust fine.",
+        "user": "U8FS2P1LH",
+        "ts": "1567178676.007200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "AWS Credentials",
+        "files": [
+            {
+                "id": "FMJG4EJD8",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "U8FS2P1LH",
+        "display_as_bot": false,
+        "ts": "1567178796.007300",
+        "client_msg_id": "9d00d805-e906-463a-ba27-8e89e6209da0"
+    },
+    {
+        "client_msg_id": "b8e1ddc1-6e92-4981-a8ec-f673fbe9c9c2",
+        "type": "message",
+        "text": "I would run through <https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html> as well to get AWS CLI setup.",
+        "user": "U8FS2P1LH",
+        "ts": "1567178825.007800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Installing the AWS CLI - AWS Command Line Interface",
+                "title_link": "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html",
+                "text": "Install the AWS Command Line Interface (AWS CLI) on your system.",
+                "fallback": "Installing the AWS CLI - AWS Command Line Interface",
+                "from_url": "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html",
+                "service_icon": "https://docs.aws.amazon.com/images/favicon.ico",
+                "service_name": "docs.aws.amazon.com",
+                "id": 1,
+                "original_url": "https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "13d1ead9-a974-4429-8580-4571cb35502b",
+        "type": "message",
+        "text": "Jen seems to be ok with it: \"So, I would check with Andrew first. If he doesn\u2019t have a concern with that, then I don\u2019t either. And ultimately I\u2019m ok with everyone using tools they are comfortable with.",
+        "user": "UMQA682PJ",
+        "ts": "1567179178.008500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9d9a63f6-4da5-4bc2-bd7a-5b91c5195130",
+        "type": "message",
+        "text": "how do I get AWS credentials?",
+        "user": "UMQA682PJ",
+        "ts": "1567179207.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2959915e-cfb6-4124-bccb-711fa8dc5e9e",
+        "type": "message",
+        "text": "That\u2019s the file I just sent you.",
+        "user": "U8FS2P1LH",
+        "ts": "1567179386.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee401be9-b3da-49fb-b7c7-a56a96a0908a",
+        "type": "message",
+        "text": "That\u2019s your user. user name pass and console login will get you into the UI. The access key ID and secret access key are for programmatic/command line access.",
+        "user": "U8FS2P1LH",
+        "ts": "1567179422.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88ab2b9b-db85-4fdc-9701-83f212b7b316",
+        "type": "message",
+        "text": "Running through the AWS CLI install process should tell you how to use those.",
+        "user": "U8FS2P1LH",
+        "ts": "1567179436.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1fe144ed-5685-40ee-a199-e40f2e5abfca",
+        "type": "message",
+        "text": "Oh, I didn't scroll up to read your message, I see now.",
+        "user": "UMQA682PJ",
+        "ts": "1567179468.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a715d31b-ba9c-4374-89f9-56e7b9f48173",
+        "type": "message",
+        "text": "any specific Data Center? N.Virginia / Ohio, etc? we should use?",
+        "user": "UMQA682PJ",
+        "ts": "1567179830.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "74656e40-fba1-4757-acb4-f7ee2dcd987b",
+        "type": "message",
+        "text": "us-east-1 (North Virginia) since we\u2019re close to it.",
+        "user": "U8FS2P1LH",
+        "ts": "1567179889.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1eaa7258-71df-4191-a922-2faa20aeb00c",
+        "type": "message",
+        "text": "is this a shared AWS account?",
+        "user": "UMQA682PJ",
+        "ts": "1567179966.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d665e2c7-918a-42ec-b84d-be5d9e42bdce",
+        "type": "message",
+        "text": "With everyone working on cost management, yes.",
+        "user": "U8FS2P1LH",
+        "ts": "1567180024.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6d8a84b-7d4a-4e22-a9d4-09a9adfbf4ea",
+        "type": "message",
+        "text": "So don\u2019t go blowing away anything in say `S3` :wink:",
+        "user": "U8FS2P1LH",
+        "ts": "1567180045.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f5d1b38e-0f43-477b-8153-8789eac4f5a9",
+        "type": "message",
+        "text": "who is our AWS account administrator?",
+        "user": "UMQA682PJ",
+        "ts": "1567180232.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da8a3a1e-a1dc-40e1-8d58-2e0fafe2b273",
+        "type": "message",
+        "text": "Are you hitting access issues? You should be an admin on this account.",
+        "user": "U8FS2P1LH",
+        "ts": "1567180379.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "03f13e25-0feb-488e-bd71-c41218fb82cb",
+        "type": "message",
+        "text": "nope, it all works, thanks.",
+        "user": "UMQA682PJ",
+        "ts": "1567180686.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "75706f84-2bad-44d6-9cb1-7a0cd097617e",
+        "type": "message",
+        "text": "Awesome",
+        "user": "U8FS2P1LH",
+        "ts": "1567181024.014100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f2df530b-9cf7-47f7-a5b8-de260ca64a8f",
+        "type": "message",
+        "text": "is your AWS IAM username the same as your slack name? \"aberglun\". You may be able to see my IDE in your browser: <https://us-east-1.console.aws.amazon.com/cloud9/ide/9f7d555779f9424ba58e0e7921d46e1d>",
+        "user": "UMQA682PJ",
+        "ts": "1567181091.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "33b71b85-bfed-4439-9ec3-230b6ef68deb",
+        "type": "message",
+        "text": "Yes, I see.",
+        "user": "U8FS2P1LH",
+        "ts": "1567181521.015300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "266625dc-ac60-48b3-9889-5293df709f42",
+        "type": "message",
+        "text": "Do you know what this error might be: Traceback (most recent call last):\n  File \"/home/ec2-user/.local/share/virtualenvs/koku-9KbSh1NU/bin/pip\", line 7, in &lt;module&gt;\n    from pip._internal import main\nModuleNotFoundError: *No module named 'pip'*\nTraceback (most recent call last):\n  File \"/usr/local/bin/pipenv\", line 11, in &lt;module&gt;\n    sys.exit(cli())\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 764, in __call__\n    return self.main(*args, **kwargs)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 717, in main\n    rv = self.invoke(ctx)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 1137, in invoke\n    return _process_result(sub_ctx.command.invoke(sub_ctx))\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 956, in invoke\n    return ctx.invoke(self.callback, **ctx.params)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 555, in invoke\n    return callback(*args, **kwargs)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/decorators.py\", line 64, in new_func\n    return ctx.invoke(f, obj, *args, **kwargs)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/core.py\", line 555, in invoke\n    return callback(*args, **kwargs)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/vendor/click/decorators.py\", line 17, in new_func\n    return f(get_current_context(), *args, **kwargs)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/cli/command.py\", line 254, in install\n    editable_packages=state.installstate.editables,\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 1874, in do_install\n    keep_outdated=keep_outdated\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 1253, in do_init\n    pypi_mirror=pypi_mirror,\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 862, in do_install_dependencies\n    _cleanup_procs(procs, False, failed_deps_queue, retry=False)\n  File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 681, in _cleanup_procs\n    raise exceptions.InstallError(c.dep.name, extra=err_lines)\npipenv.exceptions.InstallError: ERROR: ERROR: Package installation failed...",
+        "user": "UMQA682PJ",
+        "ts": "1567189971.000300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1567190021.000000"
+        }
+    },
+    {
+        "client_msg_id": "2a4c50f4-0d40-4e71-9c10-c208e2817b38",
+        "type": "message",
+        "text": "Yes, first may I ask what command you ran to get that error?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190018.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc02b27d-5bf8-4fbf-8290-0454224ab2b1",
+        "type": "message",
+        "text": "pipenv install --dev",
+        "user": "UMQA682PJ",
+        "ts": "1567190026.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88acafdb-b70f-4957-9dd1-846e7883870c",
+        "type": "message",
+        "text": "im new to pipenv",
+        "user": "UMQA682PJ",
+        "ts": "1567190041.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3626d3c5-7e41-42b5-aa94-3d013ae73421",
+        "type": "message",
+        "text": "Looks like you got Python 3.6 on your machine, yes?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190078.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99a60d9f-2ed0-4ab3-b4c8-b35dff0c9969",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1567190085.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ecc4373-0d4f-40f1-9def-be3c8fb37ca8",
+        "type": "message",
+        "text": "Using brew?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190095.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8735fddd-5e44-4456-b702-3bc70f5f74dd",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1567190108.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d901514-0e13-4084-a5f5-928115c7f4e9",
+        "type": "message",
+        "text": "apt",
+        "user": "UMQA682PJ",
+        "ts": "1567190130.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e01648b-2a6f-4121-bcf8-cebfdbfb5ef6",
+        "type": "message",
+        "text": "here's my IDE in case you wanted to look: <https://us-east-1.console.aws.amazon.com/cloud9/ide/9f7d555779f9424ba58e0e7921d46e1d>",
+        "user": "UMQA682PJ",
+        "ts": "1567190170.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3ff97ed-e4de-4ff0-8d73-c806bc607fa2",
+        "type": "message",
+        "text": "Okay so this is all in the cloud not on your machine?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190187.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99c129b3-b7e7-4a13-999a-56c5bf474447",
+        "type": "message",
+        "text": "yep",
+        "user": "UMQA682PJ",
+        "ts": "1567190191.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c1be55a-0188-4401-969d-c04f5c84ef74",
+        "type": "message",
+        "text": "Okay, well it looks like they don\u2019t install pip in that environment <https://pip.pypa.io/en/stable/installing/>",
+        "user": "U8FS2P1LH",
+        "ts": "1567190214.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "477f4289-7a95-435f-93c8-c491c0eb0cf6",
+        "type": "message",
+        "text": "Not sure if you can use apt to get pip, but that script should do it as well.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190238.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "008de800-2dce-4ec4-a5b5-6fc2da806642",
+        "type": "message",
+        "text": "nbonilla:~/environment $ pip --version\npip 19.2.3 from /usr/local/lib/python3.6/site-packages/pip (python 3.6)\nnbonilla:~/environment $",
+        "user": "UMQA682PJ",
+        "ts": "1567190250.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2377ef4d-3560-4738-904f-94fee36df61b",
+        "type": "message",
+        "text": "which script?",
+        "user": "UMQA682PJ",
+        "ts": "1567190263.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88364b2c-64db-468b-b890-d096f08162c6",
+        "type": "message",
+        "text": "Nevermind, if pip is installed on that machine, then you don\u2019t need the script (in the link on installing I posted)",
+        "user": "U8FS2P1LH",
+        "ts": "1567190291.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f43ac040-e7f4-4878-9e1c-f8298cd328ea",
+        "type": "message",
+        "text": "I\u2019ll see what I can see in your env here.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190375.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0688412-2e0e-4891-92c8-998e7cf92473",
+        "type": "message",
+        "text": "Okay I just did\n\n```\nmkdir aberglun\ncd aberglun\npipenv shell \ncp ../koku/Pipfile ./\npipenv install --dev\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1567190580.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "729906ad-2465-4f9c-aa0f-7e5ee46864f8",
+        "type": "message",
+        "text": "It seemed happy with that.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190589.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3427f0b9-a415-46b5-8366-b7c2f6fedb70",
+        "type": "message",
+        "text": "It\u2019s installing dependencies right now.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190601.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c18e463-3470-47a9-8681-e22669a811a7",
+        "type": "message",
+        "text": "I\u2019ll `pipenv --rm` to remove my virtualenv when it\u2019s finishes.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190624.009200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1567190634.000000"
+        }
+    },
+    {
+        "client_msg_id": "88516cf8-0387-47c7-8e20-ef37f2bf0410",
+        "type": "message",
+        "text": "It failed to build 1 dependency, psycopg2. Looks like it wants postgres to be installed first.",
+        "user": "U8FS2P1LH",
+        "ts": "1567190835.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a0c00341-8ce2-4e16-9cf7-da18e7bc7c9b",
+        "type": "message",
+        "text": "Looking back at your traceback, this is what I think happened. I think you made the virtualenv from the koku directory, and then moved out of it and made the testpipenv dir and installed from there?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190891.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ceb650f-f862-4e25-9cd6-c2182b1880e7",
+        "type": "message",
+        "text": "Is that right?",
+        "user": "U8FS2P1LH",
+        "ts": "1567190895.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2923ad4-7a27-4f83-a2ad-662aed447b76",
+        "type": "message",
+        "text": "From a new terminal, I ran: 'cd koku'",
+        "user": "UMQA682PJ",
+        "ts": "1567190957.013400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6abd385c-7401-448a-be90-667dab77bd28",
+        "type": "message",
+        "text": "pipenv shell",
+        "user": "UMQA682PJ",
+        "ts": "1567190965.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c69536f4-a00e-4f72-a48a-13df063f729b",
+        "type": "message",
+        "text": "pipenv install --dev",
+        "user": "UMQA682PJ",
+        "ts": "1567190970.013800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f31373b-33bb-425f-b89b-bcc216894425",
+        "type": "message",
+        "text": "i just tried it again with those new steps",
+        "user": "UMQA682PJ",
+        "ts": "1567190993.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d1a113e-fa56-4ebc-b227-e666f7c29c68",
+        "type": "message",
+        "text": "Same traceback?",
+        "user": "U8FS2P1LH",
+        "ts": "1567191024.014400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b88687c9-2275-4a5d-af1e-031cbdd5c770",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1567191027.014600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a5195705-8e47-430d-9f47-03bad0a64d76",
+        "type": "message",
+        "text": "[pipenv.exceptions.InstallError]:   File \"/usr/local/lib/python3.6/site-packages/pipenv/cli/command.py\", line 254, in install\n[pipenv.exceptions.InstallError]:       editable_packages=state.installstate.editables,\n[pipenv.exceptions.InstallError]:   File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 1874, in do_install\n[pipenv.exceptions.InstallError]:       keep_outdated=keep_outdated\n[pipenv.exceptions.InstallError]:   File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 1253, in do_init\n[pipenv.exceptions.InstallError]:       pypi_mirror=pypi_mirror,\n[pipenv.exceptions.InstallError]:   File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 862, in do_install_dependencies\n[pipenv.exceptions.InstallError]:       _cleanup_procs(procs, False, failed_deps_queue, retry=False)\n[pipenv.exceptions.InstallError]:   File \"/usr/local/lib/python3.6/site-packages/pipenv/core.py\", line 681, in _cleanup_procs\n[pipenv.exceptions.InstallError]:       raise exceptions.InstallError(c.dep.name, extra=err_lines)\n[pipenv.exceptions.InstallError]: []\n[pipenv.exceptions.InstallError]: ['Traceback (most recent call last):', '  File \"/home/ec2-user/.local/share/virtualenvs/koku-9KbSh1NU/bin/pip\", line 7, in &lt;module&gt;', '    from pip._internal import main', \"ModuleNotFoundError: No module named 'pip'\"]",
+        "user": "UMQA682PJ",
+        "ts": "1567191042.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8185a663-271b-4ad1-8a0d-2759b85dc1c1",
+        "type": "message",
+        "text": "Okay, run `pipenv --rm` then repeat.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191062.015700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a3332c3-034e-453f-bc73-5108a8a23f76",
+        "type": "message",
+        "text": "from within the shell?",
+        "user": "UMQA682PJ",
+        "ts": "1567191072.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d4f84a4e-ec95-469d-8941-877a6231a933",
+        "type": "message",
+        "text": "Ya",
+        "user": "U8FS2P1LH",
+        "ts": "1567191077.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e49ac5cc-8875-4568-a9bb-643fa0a80779",
+        "type": "message",
+        "text": "ok I ran `pipenv --rm`",
+        "user": "UMQA682PJ",
+        "ts": "1567191135.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "31bbc12d-c05f-4d6b-8891-613e83ab7f36",
+        "type": "message",
+        "text": "then `pipenv install --dev`",
+        "user": "UMQA682PJ",
+        "ts": "1567191143.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8148595-4c59-4f90-b5b8-ba67e8c363ec",
+        "type": "message",
+        "text": "same error",
+        "user": "UMQA682PJ",
+        "ts": "1567191146.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fe7b7f5b-c74b-4d7d-99cd-dbf77ba3721a",
+        "type": "message",
+        "text": "it might be loading now..",
+        "user": "UMQA682PJ",
+        "ts": "1567191258.017600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b2dab72f-aab2-4c4f-ac71-b3f95716e242",
+        "type": "message",
+        "text": "I was able to get pip --version to not blow up, so I think so.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191290.018400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7d09e194-7065-4423-bcd3-af5af2b0cae5",
+        "type": "message",
+        "text": "I think it's installing correctly now.",
+        "user": "UMQA682PJ",
+        "ts": "1567191303.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ee7f43f-5b46-403b-8190-14b7b57d3197",
+        "type": "message",
+        "text": "It will fail on the 1 dependency, so the environment will need postgres installed.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191305.019100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5631972b-2507-4ea8-87da-a54202d263f5",
+        "type": "message",
+        "text": "pipenv install postgres?",
+        "user": "UMQA682PJ",
+        "ts": "1567191334.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d17f87f0-1319-4826-871f-8b146c577adb",
+        "type": "message",
+        "text": "or pip install postgres?",
+        "user": "UMQA682PJ",
+        "ts": "1567191425.019800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fc75afc1-8679-4dec-bec7-757d5cb2cc85",
+        "type": "message",
+        "text": "Maybe apt? It\u2019s our database. Psycopg2 is a library to interact with it.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191466.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f355cff-7623-49e4-a64f-dc47a4b48023",
+        "type": "message",
+        "text": "`make docker-up-db` doesnt install postgres?",
+        "user": "UMQA682PJ",
+        "ts": "1567191544.021500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ac6ddcf-0074-422e-94c0-69f4f28e8f9e",
+        "type": "message",
+        "text": "Postgres 10.6 specifically, if you can",
+        "user": "U8FS2P1LH",
+        "ts": "1567191545.021600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "78511f3c-9d24-49b8-89d7-05d51458f576",
+        "type": "message",
+        "text": "It does inside the container.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191556.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b84763f2-a272-4343-b02b-7ca735a7a01c",
+        "type": "message",
+        "text": "Which we will use for the actual database, but creating the wheel for psycopg2 looks like it needs some postgres stuff available on the machine.",
+        "user": "U8FS2P1LH",
+        "ts": "1567191607.022900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7d725cbc-5789-492b-aa8a-6cff067268ab",
+        "type": "message",
+        "text": "it's yum, not apt, I just realized.",
+        "user": "UMQA682PJ",
+        "ts": "1567192269.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c0b91f5-2a2c-4006-9e5f-bdd5100d8406",
+        "type": "message",
+        "text": "Ah, able to find it?",
+        "user": "U8FS2P1LH",
+        "ts": "1567192305.024600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd3ee575-73eb-47e4-967a-b12fb39466c7",
+        "type": "message",
+        "text": "i'm not sure which yum package it is",
+        "user": "UMQA682PJ",
+        "ts": "1567192328.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c80b5927-12ee-4d22-bead-2d0e8404d802",
+        "type": "message",
+        "text": "Mind if I try?",
+        "user": "U8FS2P1LH",
+        "ts": "1567192511.025300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd0a95b0-3ec9-494b-9830-e5473583400d",
+        "type": "message",
+        "text": "sure",
+        "user": "UMQA682PJ",
+        "ts": "1567192515.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "353cffd0-0519-4f0d-ad41-87f89ac1f9dc",
+        "type": "message",
+        "text": "i think i found it though",
+        "user": "UMQA682PJ",
+        "ts": "1567192518.025800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06a08150-2a69-44e4-94b0-9b2b5f8f4c2e",
+        "type": "message",
+        "text": "i did `sudo yum install postgresql-libs`",
+        "user": "UMQA682PJ",
+        "ts": "1567192528.026300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2fa7520c-ba03-4d1d-8933-594971938f5b",
+        "type": "message",
+        "text": "it's still installing",
+        "user": "UMQA682PJ",
+        "ts": "1567192546.027000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ede9a3bd-396d-463b-81cc-1b1edb699d64",
+        "type": "message",
+        "text": "Cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1567192548.027100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8acd9e78-a732-4c2a-8cf7-53bd372454dc",
+        "type": "message",
+        "text": "nope, same error",
+        "user": "UMQA682PJ",
+        "ts": "1567192582.027400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd9b93b8-aaa5-4610-9d71-8462eeb2e8dd",
+        "type": "message",
+        "text": "i was going to try this next: `sudo yum install postgresql postgresql-devel python-devel`",
+        "user": "UMQA682PJ",
+        "ts": "1567192687.027800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4d5fa8c-b7f9-447f-a21c-9b71e0ccad7a",
+        "type": "message",
+        "text": "Sure. Sorry, I\u2019m no Amazon Linux expert. I don\u2019t really know how they do things. Can you pick your Linux distro when you configure thing IDE?",
+        "user": "U8FS2P1LH",
+        "ts": "1567192786.028700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "139e93ea-8161-4a53-b83f-23976c4d5f15",
+        "type": "message",
+        "text": "it was either AWS Linux or Ubuntu 18",
+        "user": "UMQA682PJ",
+        "ts": "1567192798.029000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9d65598-2457-435e-b10f-1be9a821bf5e",
+        "type": "message",
+        "text": "I may have missed a part where it allowed other linuxes",
+        "user": "UMQA682PJ",
+        "ts": "1567192814.029300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bf7048a1-8be3-4838-9612-acf11c1a2edc",
+        "type": "message",
+        "text": "Actually yes",
+        "user": "UMQA682PJ",
+        "ts": "1567192826.029700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da4ce540-2dfd-4e6e-ad20-ed0ea045af17",
+        "type": "message",
+        "text": "you can use any Distro through SSH",
+        "user": "UMQA682PJ",
+        "ts": "1567192832.030000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1db5032c-4160-4e19-93d2-1d81268e68b0",
+        "type": "message",
+        "text": "you can even run the server on your laptop and have collaborators access your laptop's server through AWS Cloud9",
+        "user": "UMQA682PJ",
+        "ts": "1567192875.031000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "26f8470e-655d-4444-92c1-8837c4d01492",
+        "type": "message",
+        "text": "however that seemed higher maintenance in general",
+        "user": "UMQA682PJ",
+        "ts": "1567192906.031300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c9b2df10-98b7-4fa5-9a7a-749f4b48fa56",
+        "type": "message",
+        "text": "Well, maybe we can just skip to docker, and see if the container can install the dependencies properly.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193131.031800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b872f3e-9f41-43f7-b2b3-9490bcf2afa1",
+        "type": "message",
+        "text": "i got it to install",
+        "user": "UMQA682PJ",
+        "ts": "1567193162.032100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "059609ad-8ee4-49d5-84d5-ddc892fd2625",
+        "type": "message",
+        "text": "Okay, cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193166.032300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f630ce26-8e22-4439-8465-a3432bbda4ee",
+        "type": "message",
+        "text": "are we supposed to run `pipenv shell` before running `pipenv install --dev`?",
+        "user": "UMQA682PJ",
+        "ts": "1567193217.033500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3962ad90-a381-44e4-ad94-7d2add179f2d",
+        "type": "message",
+        "text": "pipenv install will activate the virtualenv if it\u2019s isn\u2019t already active, run the install, and then exit the virtualenv.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193284.034500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "663a6f54-983e-44e3-ab21-54e712ad6f9b",
+        "type": "message",
+        "text": "If you have already run shell, then it will just stay in the activated virtualenv.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193295.034900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7fca8c6f-f718-4abc-809a-40113fbded4d",
+        "type": "message",
+        "text": "`(koku) nbonilla:~/environment/koku (master) $ make gen-apidoc\nmake: *** No rule to make target `gen-apidoc'.  Stop.`",
+        "user": "UMQA682PJ",
+        "ts": "1567193693.035600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e5e9dbe9-6811-440b-86ed-e910612ab07d",
+        "type": "message",
+        "text": "Ah, api-doc was _just_ removed.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193726.036100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bdec90b8-a8c6-4798-b255-ceb0abf3b391",
+        "type": "message",
+        "text": "So you can skip that section",
+        "user": "U8FS2P1LH",
+        "ts": "1567193731.036300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c93eeea-35a8-4047-bf31-34826c61c4b4",
+        "type": "message",
+        "text": "which URL can I go to to see if the application is running?",
+        "user": "UMQA682PJ",
+        "ts": "1567193746.036600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b15ea340-83b5-4fb3-8902-3a6c0af505db",
+        "type": "message",
+        "text": "The docs say: Now point a browser to <http://127.0.0.1:8000/apidoc/index.html>.",
+        "user": "UMQA682PJ",
+        "ts": "1567193760.036900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f7d1966-43a7-4ee1-a7c7-4b927f4369b9",
+        "type": "message",
+        "text": "is there a health monitor endpoint?",
+        "user": "UMQA682PJ",
+        "ts": "1567193796.037100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "43c7f83f-218e-4164-a2cf-e0666e22d375",
+        "type": "message",
+        "text": "Yeah you can hit <http://127.0.0.1:8000/api/cost-management/v1/status/>",
+        "user": "U8FS2P1LH",
+        "ts": "1567193809.037300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "434c403c-d113-47a0-9069-6d4cffd05a36",
+        "type": "message",
+        "text": "Sorry, everything under <https://koku.readthedocs.io/en/latest/README.html#api-documentation-generation> can be skipped, that\u2019s all api-doc related",
+        "user": "U8FS2P1LH",
+        "ts": "1567193825.037600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "770b0cd9-33d0-4b61-8360-266acfd1bdf9",
+        "type": "message",
+        "text": "We were running 2 different api documentation things. api-doc (which was not being used) and OpenAPI, which we do use.",
+        "user": "U8FS2P1LH",
+        "ts": "1567193852.038200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "61fef7fb-c3bc-4ecc-8e17-4138ddb83830",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1567193864.038400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d20222ed-a1da-4b6f-9cf9-dfd70099d91e",
+        "type": "message",
+        "text": "Likewise for \u201cPreferred Environment\u201d\u2026 I prefer to use docker locally because I find it much faster and lower footprint on my laptop",
+        "user": "U8FS2P1LH",
+        "ts": "1567194020.039200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35664f74-ca28-4626-8e98-3a626cb2ccbe",
+        "type": "message",
+        "text": "if i want to run the server on port 8080 instead of 8000 do i just change the run_internal.sh and run_server.sh scripts locally?",
+        "user": "UMQA682PJ",
+        "ts": "1567194295.039900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c7ba963-2fbf-41f5-a890-e2142b8b7f67",
+        "type": "message",
+        "text": "apparently AWS Cloud9 only allows you to preview apps that run on 8080 or 8081, 8082 etc.",
+        "user": "UMQA682PJ",
+        "ts": "1567194328.040600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9d7b07b-cb07-4451-ac78-ce960fdbf3d2",
+        "type": "message",
+        "text": "alternatively, I can share it over the internet without needing to change ports.",
+        "user": "UMQA682PJ",
+        "ts": "1567194358.041000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d697c5e4-908e-47ce-a0fd-1452153584da",
+        "type": "message",
+        "text": "How are you running the app locally or from docker?",
+        "user": "U8FS2P1LH",
+        "ts": "1567194389.041400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "43556a24-f85e-4186-9f0e-a84de921048b",
+        "type": "message",
+        "text": "locally",
+        "user": "UMQA682PJ",
+        "ts": "1567194395.041600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2d4376d-b90b-4a75-b935-d2186ecb276c",
+        "type": "message",
+        "text": "Using what command? The make command?",
+        "user": "U8FS2P1LH",
+        "ts": "1567194550.042300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42b56b80-2513-4657-8c3b-33772d7982f1",
+        "type": "message",
+        "text": "make serve",
+        "user": "UMQA682PJ",
+        "ts": "1567194560.042500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "942c3073-e7d9-4b7f-9015-eedab963adbf",
+        "type": "message",
+        "text": "So basically that is running `DJANGO_READ_DOT_ENV_FILE=True python koku/manage.py runserver`",
+        "user": "U8FS2P1LH",
+        "ts": "1567194627.043100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4ecbd9d-b3f6-4674-a2df-6b68c81869dc",
+        "type": "message",
+        "text": "as an arg to runserver, you can specify the port",
+        "user": "U8FS2P1LH",
+        "ts": "1567194634.043400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "82a321aa-0f8a-4db4-ba74-2408f4f73406",
+        "type": "message",
+        "text": "`DJANGO_READ_DOT_ENV_FILE=True python koku/manage.py runserver 8080`",
+        "user": "U8FS2P1LH",
+        "ts": "1567194658.043700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e1b652f1-e98a-4784-ba63-ed41cc71a919",
+        "type": "message",
+        "text": "I don't think that caused any difference.",
+        "user": "UMQA682PJ",
+        "ts": "1567194879.044000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "97fd305f-45e7-4b67-87d0-b36f4b89d21d",
+        "type": "message",
+        "text": "It still says: \"Starting development server at <http://127.0.0.1:8000/>\"",
+        "user": "UMQA682PJ",
+        "ts": "1567194897.044400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e82036a-0c23-45a9-b189-9f052aa9804c",
+        "type": "message",
+        "text": "I think i'll take some Django training and come back.",
+        "user": "UMQA682PJ",
+        "ts": "1567194949.044700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94d6c4ce-e995-4c20-bb11-0b3928be9f62",
+        "type": "message",
+        "text": "Sounds good.",
+        "user": "U8FS2P1LH",
+        "ts": "1567195032.044900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8ee7b1c-f12c-403f-a27c-db7cbef80b10",
+        "type": "message",
+        "text": "Also, the server logs say: [2019-08-30 19:56:07,254] ERROR: Query failed to return results.\n[2019-08-30 19:56:08,394] ERROR: Query failed to return results.\n[2019-08-30 19:58:07,353] ERROR: Query failed to return results.\n[2019-08-30 19:58:08,495] ERROR: Query failed to return results.",
+        "user": "UMQA682PJ",
+        "ts": "1567195105.045100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22395a7e-fee3-4c04-9eaa-d4e505e94298",
+        "type": "message",
+        "text": "Is that normal?",
+        "user": "UMQA682PJ",
+        "ts": "1567195110.045400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "129c6ec2-71b7-401e-8066-04485c2b01b7",
+        "type": "message",
+        "text": "Yeah, it\u2019s a database status thing.",
+        "user": "U8FS2P1LH",
+        "ts": "1567195727.046000",
+        "team": "T026NJJ6Z"
+    }
+]

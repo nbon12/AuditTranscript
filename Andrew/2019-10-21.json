@@ -1,0 +1,682 @@
+[
+    {
+        "client_msg_id": "005a47f4-a414-49ce-a706-464d3c3376d9",
+        "type": "message",
+        "text": "Hey, is this your black aluminum water bottle (at my desk)?",
+        "user": "U8FS2P1LH",
+        "ts": "1571664465.000300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1571664481.000000"
+        }
+    },
+    {
+        "client_msg_id": "2788804d-a66d-4672-8bcb-e208102ecd71",
+        "type": "message",
+        "text": "does it say Fidelity on it?",
+        "user": "UMQA682PJ",
+        "ts": "1571664484.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39111f06-1092-45c9-8f18-abdc78fb7f1a",
+        "type": "message",
+        "text": "Hey, indeed it does.",
+        "user": "U8FS2P1LH",
+        "ts": "1571664493.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "385b9276-6a69-4086-92a4-ea233fd4b31f",
+        "type": "message",
+        "text": "Didn\u2019t see that.",
+        "user": "U8FS2P1LH",
+        "ts": "1571664497.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "089650eb-28ef-44e0-8296-3ece2ecb2838",
+        "type": "message",
+        "text": "yes that's mine.",
+        "user": "UMQA682PJ",
+        "ts": "1571664497.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cedc43be-a199-4068-9d80-abb8b54a756d",
+        "type": "message",
+        "text": "Cool. Will keep it safe.",
+        "user": "U8FS2P1LH",
+        "ts": "1571664502.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f2a4df0-31c6-4eae-b182-67012d4751f6",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1571664513.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "bot_id": "B03KHKL86",
+        "type": "message",
+        "text": "",
+        "user": "U8FS2P1LH",
+        "ts": "1571664675.002200",
+        "team": "T026NJJ6Z",
+        "bot_profile": {
+            "id": "B03KHKL86",
+            "deleted": false,
+            "name": "giphy",
+            "updated": 1431961482,
+            "app_id": "A0F827J2C",
+            "icons": {
+                "image_36": "https://a.slack-edge.com/80588/img/plugins/giphy/service_36.png",
+                "image_48": "https://a.slack-edge.com/80588/img/plugins/giphy/service_48.png",
+                "image_72": "https://a.slack-edge.com/80588/img/plugins/giphy/service_72.png"
+            },
+            "team_id": "T026NJJ6Z"
+        },
+        "attachments": [
+            {
+                "fallback": "giphy: https://giphy.com/gifs/lotr-lord-of-the-rings-ring-1I2NwmjvSzNS0",
+                "image_url": "https://media0.giphy.com/media/1I2NwmjvSzNS0/giphy.gif?cid=6104955ef2e4ba17986e1103b8fcf7cd73b923c971724319&rid=giphy.gif",
+                "image_width": 500,
+                "image_height": 200,
+                "image_bytes": 494474,
+                "is_animated": true,
+                "title": "frodo hand ring",
+                "footer": "Posted using /giphy",
+                "id": 1,
+                "title_link": "https://giphy.com/gifs/lotr-lord-of-the-rings-ring-1I2NwmjvSzNS0"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22453acb-b1bc-40d9-afe4-5f2b8db6dcb4",
+        "type": "message",
+        "text": "Good weekend?",
+        "user": "U8FS2P1LH",
+        "ts": "1571665344.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "173ac2a2-a484-4e5d-8487-b398a6d813e1",
+        "type": "message",
+        "text": "yep, went to Asheville with my small group",
+        "user": "UMQA682PJ",
+        "ts": "1571665362.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8272a860-66c0-4863-a317-2165efdd2bea",
+        "type": "message",
+        "text": "lots of good food",
+        "user": "UMQA682PJ",
+        "ts": "1571665372.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "83fc996b-462e-4e75-ad7b-8636e40badb3",
+        "type": "message",
+        "text": ":yum:",
+        "user": "U8FS2P1LH",
+        "ts": "1571665390.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9155752a-437d-499f-a9d0-bac0c6268b08",
+        "type": "message",
+        "text": "I bet it was pretty, too.",
+        "user": "U8FS2P1LH",
+        "ts": "1571665435.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6b4ccf4-60f0-4a16-8ecf-8a4c7c57172c",
+        "type": "message",
+        "text": "And small group?",
+        "user": "U8FS2P1LH",
+        "ts": "1571665439.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8182c6a9-d97d-47e0-b839-cecae492c27f",
+        "type": "message",
+        "text": "from Summit Church",
+        "user": "UMQA682PJ",
+        "ts": "1571665452.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b1125f8-bbbf-483a-8b51-bb0c571288f6",
+        "type": "message",
+        "text": "one of the members of our group brought his whole family",
+        "user": "UMQA682PJ",
+        "ts": "1571665483.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bbd70f05-813e-4d24-8416-0a14d0f7c436",
+        "type": "message",
+        "text": "and we got to play Small World ( a board game)",
+        "user": "UMQA682PJ",
+        "ts": "1571665498.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44ba7c28-3701-446c-bba0-1dbf9cc305c4",
+        "type": "message",
+        "text": "Awesome.",
+        "user": "U8FS2P1LH",
+        "ts": "1571665524.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7da8855c-dcd1-4857-9e69-9aaaaea15a97",
+        "type": "message",
+        "text": "I do not love when people do this to me, but I\u2019m doing it now. Any chance you know Ben McCormick? I believe he\u2019s still at Summit. I realize it\u2019s quite large, so the chances are small.",
+        "user": "U8FS2P1LH",
+        "ts": "1571665637.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d52e21c1-59ee-442e-b8cf-b49dea76aad5",
+        "type": "message",
+        "text": "I don't think I know him.",
+        "user": "UMQA682PJ",
+        "ts": "1571665676.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44875de2-2da7-41fa-b4fe-79f23d10f8e4",
+        "type": "message",
+        "text": "Nope, doesn't ring a bell.",
+        "user": "UMQA682PJ",
+        "ts": "1571665750.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bca39c78-2acb-4039-9271-6590b10d7e2e",
+        "type": "message",
+        "text": "Cool, just wondering.",
+        "user": "U8FS2P1LH",
+        "ts": "1571665901.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d0c949d7-903c-4358-bccb-283f1f5dddcd",
+        "type": "message",
+        "text": "Are you home today?",
+        "user": "U8FS2P1LH",
+        "ts": "1571665910.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4de04bac-6551-4aa2-b294-cf4f629c4595",
+        "type": "message",
+        "text": "yes, doing ethics training.",
+        "user": "UMQA682PJ",
+        "ts": "1571666184.008000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9dbdfa0b-5f9e-4fd9-ac24-d7ad31e06b97",
+        "type": "message",
+        "text": "Now that\u2019s a good time.",
+        "user": "U8FS2P1LH",
+        "ts": "1571666292.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "66251573-f391-47d7-999d-0777c5cf91bc",
+        "type": "message",
+        "text": "I'm done with ethics, anything you need help with?",
+        "user": "UMQA682PJ",
+        "ts": "1571681188.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e6e37b0-e492-45ec-9f04-471178b60038",
+        "type": "message",
+        "text": ":tada:",
+        "user": "U8FS2P1LH",
+        "ts": "1571681932.011100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c027dbe1-0632-4885-9f05-03b2e5d6f5f1",
+        "type": "message",
+        "text": "Way to ~cross that off~",
+        "user": "U8FS2P1LH",
+        "ts": "1571681948.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6607a158-516f-4823-b64a-547899fb8dcc",
+        "type": "message",
+        "text": "I have two things I think could be good.",
+        "user": "U8FS2P1LH",
+        "ts": "1571681985.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc440384-d914-46a5-802b-54ed27bd75af",
+        "type": "message",
+        "text": "I know as you and Doug were working through the string/date/datetime inconsistencies you identified more work that could be done there. So that\u2019s option 1.",
+        "user": "U8FS2P1LH",
+        "ts": "1571682020.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3af072c8-cc54-4842-b6e0-95070e0d542b",
+        "type": "message",
+        "text": "Option 2 is writing an API that will help our integration with platform sources a lot. Historically we were hard-coding a value in the front end code. A different front end team is now owning this code, and everyone involved wants an API to return the value instead of it being hard coded.",
+        "user": "U8FS2P1LH",
+        "ts": "1571682087.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5494f025-2809-4a09-9221-1245cd5cc6ab",
+        "type": "message",
+        "text": "I'd like to learn more about option 2 please.",
+        "user": "UMQA682PJ",
+        "ts": "1571682388.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e7c941c4-d196-4555-adea-3859e08d4a92",
+        "type": "message",
+        "text": "option 1 seems like trying to fight python's dynamic typing itself.",
+        "user": "UMQA682PJ",
+        "ts": "1571682416.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d7e5b73-c0ba-443f-9964-f8a7392d2daa",
+        "type": "message",
+        "text": "what do you think about combining some of the re-used functions into one, like the agg_sql?",
+        "user": "UMQA682PJ",
+        "ts": "1571682493.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35a29bbd-d748-4494-83c2-5fd19c410cb3",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/issues/1284> is the issue.",
+        "user": "U8FS2P1LH",
+        "ts": "1571682559.018600",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "adberglund",
+                "fallback": "[project-koku/koku] #1284 API to return our cloud account ID for use in sources",
+                "text": "*User Story*\n\nAs a sources UI engineer I would like to have an API to call to get the AWS account ID for cost management so that I do not have to hard code an account ID I do not own.\n\n*Assumptions*\n\n\u2022 Our sources flow has a user setting up an IAM role in _their_ AWS account and allowing _our_ AWS access to that role via the boto3 assume_role command.\n\u2022 We currently just hard code our AWS account ID in the cost management sources wizard, but with that workflow now moving to platform sources, we should really be giving that account ID via an API.\n\n*API Details*\n*UI Details*\n*Acceptance Criteria*\n\n\u2610 The API returns the correct account ID for our cost management AWS account\n\u2610 The API is filterable by source type (although we only need AWS today)",
+                "title": "#1284 API to return our cloud account ID for use in sources",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/issues/1284",
+                "author_link": "https://github.com/adberglund",
+                "author_icon": "https://avatars1.githubusercontent.com/u/3845021?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1571666487,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Labels",
+                        "value": "aws, enhancement",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/issues/1284",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3afbdc31-d001-4449-946a-6e9f788beb99",
+        "type": "message",
+        "text": "I or Doug can go into more detail on any of that issue if you\u2019d like.",
+        "user": "U8FS2P1LH",
+        "ts": "1571682609.019200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1fe3fecc-9390-41ac-b6a7-23b9460c9f45",
+        "type": "message",
+        "text": "Which re-used functions?",
+        "user": "U8FS2P1LH",
+        "ts": "1571682620.019400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a62ea9b7-87eb-488e-a534-bd4722157780",
+        "type": "message",
+        "text": "for example, these three functions:",
+        "user": "UMQA682PJ",
+        "ts": "1571682725.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20017258-c9af-4c00-adf7-ae3762e00a6c",
+        "type": "message",
+        "text": "```\ndef populate_pod_label_summary_table(self):\n        \"\"\"Populate the line item aggregated totals data table.\"\"\"\n        table_name = OCP_REPORT_TABLE_MAP['pod_label_summary']\n\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            f'sql/reporting_ocpusagepodlabel_summary.sql'\n        )\n        agg_sql = agg_sql.decode('utf-8')\n        agg_sql_params = {'schema': self.schema}\n        agg_sql, agg_sql_params = self.jinja_sql.prepare_query(\n            agg_sql, agg_sql_params\n        )\n        self._commit_and_vacuum(table_name, agg_sql, bind_params=list(agg_sql_params))\n\n    # pylint: disable=invalid-name\n    def populate_volume_claim_label_summary_table(self):\n        \"\"\"Populate the OCP volume claim label summary table.\"\"\"\n        table_name = OCP_REPORT_TABLE_MAP['volume_claim_label_summary']\n\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            f'sql/reporting_ocpstoragevolumeclaimlabel_summary.sql'\n        )\n        agg_sql = agg_sql.decode('utf-8')\n        agg_sql_params = {'schema': self.schema}\n        agg_sql, agg_sql_params = self.jinja_sql.prepare_query(\n            agg_sql, agg_sql_params\n        )\n        self._commit_and_vacuum(table_name, agg_sql, bind_params=list(agg_sql_params))\n\n    # pylint: disable=invalid-name\n    def populate_volume_label_summary_table(self):\n        \"\"\"Populate the OCP volume label summary table.\"\"\"\n        table_name = OCP_REPORT_TABLE_MAP['volume_label_summary']\n\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            f'sql/reporting_ocpstoragevolumelabel_summary.sql'\n        )\n        agg_sql = agg_sql.decode('utf-8')\n        agg_sql_params = {'schema': self.schema}\n        agg_sql, agg_sql_params = self.jinja_sql.prepare_query(\n            agg_sql, agg_sql_params\n        )\n        self._commit_and_vacuum(table_name, agg_sql, bind_params=list(agg_sql_params))\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571682730.020100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e4594eb-1603-4ca5-8ac9-41bed3720484",
+        "type": "message",
+        "text": "there's around 10 functions that look exactly like that",
+        "user": "UMQA682PJ",
+        "ts": "1571682784.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d0f30d1-942d-4f55-b52b-de70d629e72b",
+        "type": "message",
+        "text": "ok, maybe only 5",
+        "user": "UMQA682PJ",
+        "ts": "1571682831.020800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76e11039-523a-4394-b8d6-8af4e1b7774b",
+        "type": "message",
+        "text": "that contain exactly the words \"agg_sql\" at least",
+        "user": "UMQA682PJ",
+        "ts": "1571682844.021200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "87b4a29a-1764-453f-88f8-fbf80bd36956",
+        "type": "message",
+        "text": "also, regarding the API for returning our AWS Account ID, how do we know what our account ID is?",
+        "user": "UMQA682PJ",
+        "ts": "1571683087.022000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a7a4a55c-0595-42bc-b4fe-a74890399779",
+        "type": "message",
+        "text": "is it never changing?",
+        "user": "UMQA682PJ",
+        "ts": "1571683097.022300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6926e2d-0f31-4951-8671-0c84241b7279",
+        "type": "message",
+        "text": "is this for the single Koku instance that's running in Red Hat's on premise production OpenShift?",
+        "user": "UMQA682PJ",
+        "ts": "1571683128.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2616bd27-bb71-4f5f-995f-85dc597066d0",
+        "type": "message",
+        "text": "Yeah, it would be a special circumstance that it changes.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683129.023300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1643ebe6-d046-474b-9336-f2e10bc3fc9e",
+        "type": "message",
+        "text": "This is the AWS account you have log-in credentials for.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683140.023600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af2d7778-d41a-4c7e-9761-d922b000f6f6",
+        "type": "message",
+        "text": "hccm-alias?",
+        "user": "UMQA682PJ",
+        "ts": "1571683149.024000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "236a366b-55e5-4a10-8b26-459c840f402d",
+        "type": "message",
+        "text": "Yes.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683153.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1efed9b0-bc77-45a8-bf43-12cbd1d08481",
+        "type": "message",
+        "text": "So when a cost management user sets up an AWS account, they go make an IAM role in their account.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683163.024500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "caff6c41-cfaf-4c40-b109-c33b12c1e450",
+        "type": "message",
+        "text": "It has a very limited set of permissions. Then they allow our account to use that role.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683177.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6a5812a9-8a22-47e5-b78f-50688c3f8f64",
+        "type": "message",
+        "text": "So we can sign into their account using that role, and we can only do the handful of things we have asked to be able to do.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683197.025600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "98c6744d-23f1-47bb-ab37-19395fdc794d",
+        "type": "message",
+        "text": "so all we need is an API that responds with \"hccm-alias\" in the response body?",
+        "user": "UMQA682PJ",
+        "ts": "1571683239.026400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7e882bed-8d14-47b2-a99e-13fa738286f3",
+        "type": "message",
+        "text": "`589173575009` we need to use the actual account ID.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683310.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "26ef65c5-ebd6-4362-8114-a10af3015ea0",
+        "type": "message",
+        "text": "We don\u2019t need to do this for Azure, and I\u2019m not sure about Google.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683340.027500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "24a865ee-4b81-4c92-b9d0-0f27126b8504",
+        "type": "message",
+        "text": "So right now it\u2019s just AWS, but could make a django model + database table with this in it, and even though it only has a single row could build it such that if we need to do the same for other cloud providers, we could.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683385.028800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94416ebc-2581-4baf-9fdc-687878428c48",
+        "type": "message",
+        "text": "Do we want to be able to edit this value using a PUT request?  Or can we rely on logging directly into the database for now.",
+        "user": "UMQA682PJ",
+        "ts": "1571683410.029300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "16b13178-6785-4efe-ba10-f822e2a99e6f",
+        "type": "message",
+        "text": "I would say no PUT request.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683425.029600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "946124d5-699f-406e-ba93-3cf74311b87e",
+        "type": "message",
+        "text": "It should be such a rare event that we can change it directly in the DB when we must.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683441.030000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "060d0ea8-5754-4d9f-86d9-88fedfeb1b26",
+        "type": "message",
+        "text": "So i'm thinking the table description would be something like \"Our Account ID in the various Cloud Providers\" and the first column would be \"Cloud Provider\", The second would be \"cost_management_account_id\", the third would be \"description\".\nThe first row would be \"AWS\", \"589173575009\", \"Cost management's AWS account ID\" ?",
+        "user": "UMQA682PJ",
+        "ts": "1571683618.033000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9cc3b050-60ae-4622-a3ad-09963b6a6e21",
+        "type": "message",
+        "text": "thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1571683641.033300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f3e38c7-0982-44f8-94e1-4d8e077e8f2e",
+        "type": "message",
+        "text": "Sounds great.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683668.033700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b4782b5-28b4-4840-897f-d9d50f065ddc",
+        "type": "message",
+        "text": "no authentication required to see this?",
+        "user": "UMQA682PJ",
+        "ts": "1571683731.034500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4db0a11-c842-473d-a189-f97d19c7401e",
+        "type": "message",
+        "text": "Yeah, shouldn\u2019t need auth.",
+        "user": "U8FS2P1LH",
+        "ts": "1571683955.034700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6e85754-e18f-45f2-8eec-ea2c32219e47",
+        "type": "message",
+        "text": "awesome, i'll get started!",
+        "user": "UMQA682PJ",
+        "ts": "1571684194.034900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f5a53c8-aa29-4332-9a3c-b06fece67a55",
+        "type": "message",
+        "text": "Great!",
+        "user": "U8FS2P1LH",
+        "ts": "1571684254.035700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c2dedb5-54b5-44eb-a0cc-34e6b8dfa7d0",
+        "type": "message",
+        "text": "On second thought, maybe we should make the table more generic, for example the name could be \"Attributes\" and the columns are \"Name\", \"Value\", \"Description\", the first row would be \"aws_account_id\", \"589173575009\", \"Cost management's AWS account ID\"",
+        "user": "UMQA682PJ",
+        "ts": "1571684417.037300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e5cc2579-0c8f-43fe-9a97-8fc34ab7634e",
+        "type": "message",
+        "text": "so someone can go to /api/v1/attributes/?name=aws_account_id",
+        "user": "UMQA682PJ",
+        "ts": "1571684502.038000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57145281-1209-415d-b05c-8214cefd13c6",
+        "type": "message",
+        "text": "Thinking on that. It\u2019s not bad. Trying to think what other attributes we\u2019d want to store, or if being specific here will just be simpler.",
+        "user": "U8FS2P1LH",
+        "ts": "1571685392.038900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5e526c36-9350-4492-9162-7574269cd71a",
+        "type": "message",
+        "text": "does our `docker-compose up` automatically run new database migrations?",
+        "user": "UMQA682PJ",
+        "ts": "1571687431.039200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571687441.000000"
+        }
+    },
+    {
+        "client_msg_id": "4eb53b22-d198-4649-94f7-5a8eb6793ec1",
+        "type": "message",
+        "text": "I\u2019m not sure, actually. I always use `make docker-reinitdb` which migrates and creates a test customer.",
+        "user": "U8FS2P1LH",
+        "ts": "1571687596.040200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7269f5d-91a3-49e8-bb14-0d47437bffb1",
+        "type": "message",
+        "text": "Which I think I had to specify migrations should be run in, so I don\u2019t think it\u2019s automatic, no.",
+        "user": "U8FS2P1LH",
+        "ts": "1571687637.040700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a9bc1d6d-63c6-4dd2-86a6-6fa9287807bc",
+        "type": "message",
+        "text": "What do you think this error means when running that make command?\n```\nAdding customer...\nResponse: [404] &lt;!DOCTYPE html&gt;\n&lt;html lang=\"en\"&gt;\n&lt;head&gt;\n  &lt;meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"&gt;\n  &lt;title&gt;Page not found at /api/v1/reports/aws/costs/&lt;/title&gt;\n  &lt;meta name=\"robots\" content=\"NONE,NOARCHIVE\"&gt;\n  &lt;style type=\"text/css\"&gt;\n    html * { padding:0; margin:0; }\n    body * { padding:10px 20px; }\n    body * * { padding:0; }\n    body { font:small sans-serif; background:#eee; color:#000; }\n    body&gt;div { border-bottom:1px solid #ddd; }\n    h1 { font-weight:normal; margin-bottom:.4em; }\n    h1 span { font-size:60%; color:#666; font-weight:normal; }\n    table { border:none; border-collapse: collapse; width:100%; }\n    td, th { vertical-align:top; padding:2px 3px; }\n    th { width:12em; text-align:right; color:#666; padding-right:.5em; }\n    #info { background:#f6f6f6; }\n    #info ol { margin: 0.5em 4em; }\n    #info ol li { font-family: monospace; }\n    #summary { background: #ffc; }\n    #explanation { background:#eee; border-bottom: 0px none; }\n  &lt;/style&gt;\n&lt;/head&gt;\n&lt;body&gt;\n  &lt;div id=\"summary\"&gt;\n    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;\n    &lt;table class=\"meta\"&gt;\n      &lt;tr&gt;\n        &lt;th&gt;Request Method:&lt;/th&gt;\n        &lt;td&gt;GET&lt;/td&gt;\n      &lt;/tr&gt;\n      &lt;tr&gt;\n        &lt;th&gt;Request URL:&lt;/th&gt;\n        &lt;td&gt;http://localhost:8000/api/v1/reports/aws/costs/&lt;/td&gt;\n      &lt;/tr&gt;\n      \n    &lt;/table&gt;\n  &lt;/div&gt;\n  &lt;div id=\"info\"&gt;\n    \n      &lt;p&gt;\n      Using the URLconf defined in &lt;code&gt;koku.urls&lt;/code&gt;,\n      Django tried these URL patterns, in this order:\n      &lt;/p&gt;\n      &lt;ol&gt;\n        \n          &lt;li&gt;\n            \n                ^api/cost-management/v1/\n                \n            \n          &lt;/li&gt;\n        \n          &lt;li&gt;\n            \n                ^api/cost-management/v1/\n                \n            \n          &lt;/li&gt;\n        \n          &lt;li&gt;\n            \n                \n                \n            \n                ^metrics$\n                [name='prometheus-django-metrics']\n            \n          &lt;/li&gt;\n        \n      &lt;/ol&gt;\n      &lt;p&gt;\n        \n        The current path, &lt;code&gt;api/v1/reports/aws/costs/&lt;/code&gt;, didn't match any of these.\n      &lt;/p&gt;\n    \n  &lt;/div&gt;\n\n  &lt;div id=\"explanation\"&gt;\n    &lt;p&gt;\n      You're seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in\n      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django\n      will display a standard 404 page.\n    &lt;/p&gt;\n  &lt;/div&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n\nCreated AWS provider.\nCreated OCP provider.\nCreated Azure provider.\nkill -HUP $(ps -eo pid,command | grep \"manage.py runserver\" | grep -v grep | awk '{print $1}')\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571688758.041300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "07aa781a-2831-4a91-b962-c7449e5bfcab",
+        "type": "message",
+        "text": "I think the script is not account for the `API_PATH_PREFIX`",
+        "user": "U8FS2P1LH",
+        "ts": "1571688836.041700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dee402d9-4958-4bcf-a828-a7794f53eca1",
+        "type": "message",
+        "text": "It should be okay, though. I think it still made everything it needed to.",
+        "user": "U8FS2P1LH",
+        "ts": "1571688903.042000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d00e74d3-7d51-4887-8478-5cd6826dbd26",
+        "type": "message",
+        "text": "There\u2019s a test_customer.yaml that it grabs the prefix from.",
+        "user": "U8FS2P1LH",
+        "ts": "1571689033.042400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ee2e122-cd61-4bef-9ef9-e6ce7d69f177",
+        "type": "message",
+        "text": "Could make it respect your env var or update the prefix.",
+        "user": "U8FS2P1LH",
+        "ts": "1571689041.042700",
+        "team": "T026NJJ6Z"
+    }
+]

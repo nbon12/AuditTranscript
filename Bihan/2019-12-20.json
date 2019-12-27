@@ -1,0 +1,324 @@
+[
+    {
+        "client_msg_id": "33932585-0f70-4ceb-8380-945aebe8c654",
+        "type": "message",
+        "text": "Hi Bihan, do you know if anyone is in the office?",
+        "user": "UMQA682PJ",
+        "ts": "1576853506.000500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AoE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Bihan, do you know if anyone is in the office?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "34e3da60-83c4-4305-a795-d17a64623859",
+        "type": "message",
+        "text": "I'm around. Brad is on PTO.",
+        "user": "UCG3XL8MP",
+        "ts": "1576853520.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9FJhR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm around. Brad is on PTO."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "02b51a11-3fed-4774-a281-1cbc1ecf2c62",
+        "type": "message",
+        "text": "not sure about the other koku folks",
+        "user": "UCG3XL8MP",
+        "ts": "1576853527.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/JW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "not sure about the other koku folks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d1433fd0-f70e-4222-aca3-5f3d0aae5b03",
+        "type": "message",
+        "text": "would you happen to know if these two queries are equivalent?\n`url = '?group_by[and:account]=a&amp;group_by[and:account]=b'`\n`url = '?group_by[account]=ab`",
+        "user": "UMQA682PJ",
+        "ts": "1576853657.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hYfv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "would you happen to know if these two queries are equivalent?\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "url = '?group_by[and:account]=a&group_by[and:account]=b'",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "url = '?group_by[account]=ab",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee6d0949-68c9-4470-8918-9d6d6129c6ae",
+        "type": "message",
+        "text": "So I can't say for certain, but I would assume not.",
+        "user": "UCG3XL8MP",
+        "ts": "1576853693.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "00o",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So I can't say for certain, but I would assume not."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "797c8521-54b0-49ee-8001-6b1d80fcd0bb",
+        "type": "message",
+        "text": "The first would group by a and group by b, and the second would group by account ab",
+        "user": "UCG3XL8MP",
+        "ts": "1576853724.002300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xeI9d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The first would group by a and group by b, and the second would group by account ab"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "efac13e6-5085-4522-985b-3b19adfb1671",
+        "type": "message",
+        "text": "im confused by this comment then: <https://github.com/project-koku/koku/pull/1565/files/073bac9fb9952db1a2a0da283c496570fc3d5f2c#diff-62dee184160692658a6d7e10525881bd>",
+        "user": "UMQA682PJ",
+        "ts": "1576853819.002900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+1Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im confused by this comment then: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1565/files/073bac9fb9952db1a2a0da283c496570fc3d5f2c#diff-62dee184160692658a6d7e10525881bd"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "11fab91b-0488-426b-ad1b-d44682092b3a",
+        "type": "message",
+        "text": "oh huh, I guess those those two queries would be equivalent. Chris definitely knows more about this than I do.",
+        "user": "UCG3XL8MP",
+        "ts": "1576853939.003600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wz1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh huh, I guess those those two queries would be equivalent. Chris definitely knows more about this than I do."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4fac6aad-4858-4314-8102-0d2b63af5823",
+        "type": "message",
+        "text": "What I described looks to be the or case",
+        "user": "UCG3XL8MP",
+        "ts": "1576853962.004200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q+x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "What I described looks to be the or case"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5317d567-ca24-4ad2-b295-27839e5a0720",
+        "type": "message",
+        "text": "ok, chris got back to me with more clarification:\n\"\"\"No.\n\nThe first one will find all accounts that have an \u201ca\u201d and \u201cb\u201d in their account alias. Order wouldn\u2019t matter and the letters don\u2019t have to be consecutive.\n\nThe second would only match against account aliases where the string \u201cab\u201d was found (must be together and in that order).\n\nDB is essentially doing LIKE queries. The first is an AND of 2 LIKE queries of a single character (\u201ca\u201d and \u201cb\u201d respectively) and the second is a LIKE query with the string \u201cab\u201d\"\"\"",
+        "user": "UMQA682PJ",
+        "ts": "1576855292.004600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fqQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok, chris got back to me with more clarification:\n\"\"\"No.\n\nThe first one will find all accounts that have an \u201ca\u201d and \u201cb\u201d in their account alias. Order wouldn\u2019t matter and the letters don\u2019t have to be consecutive.\n\nThe second would only match against account aliases where the string \u201cab\u201d was found (must be together and in that order).\n\nDB is essentially doing LIKE queries. The first is an AND of 2 LIKE queries of a single character (\u201ca\u201d and \u201cb\u201d respectively) and the second is a LIKE query with the string \u201cab\u201d\"\"\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "adf99ac9-bb2b-4e08-9e59-8098012bd882",
+        "type": "message",
+        "text": "Neat.",
+        "user": "UCG3XL8MP",
+        "ts": "1576855328.004800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "awt0e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Neat."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f69bac99-fe7e-42a6-bb1a-0d38fa80d77a",
+        "type": "message",
+        "text": "<https://console.insights-dev.openshift.com>",
+        "user": "UCG3XL8MP",
+        "ts": "1576874199.005000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KtUHo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://console.insights-dev.openshift.com"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "client_msg_id": "f23b341f-f55a-415a-83c6-79b761032ad1",
+        "type": "message",
+        "text": "Hi Andrew, do you know how to upgrade the sqlite3 version that python is using on CentOS?",
+        "user": "UMQA682PJ",
+        "ts": "1567610164.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "66b5ce74-2564-4422-aede-6cc798b82372",
+        "type": "message",
+        "text": "When in python shell, my version is 3.7",
+        "user": "UMQA682PJ",
+        "ts": "1567610223.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c4a3d554-b469-42e4-b7c5-91bffe778e38",
+        "type": "message",
+        "text": "however, in my /usr/local/bin, I have placed sqlite3 version 3.29",
+        "user": "UMQA682PJ",
+        "ts": "1567610251.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17312fed-a256-4c32-adb7-443b5e01c9bc",
+        "type": "message",
+        "text": "but it seems python isn't noticing the 3.29 version",
+        "user": "UMQA682PJ",
+        "ts": "1567610262.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "80049fa0-dd8c-499f-9080-f7eabd7177e5",
+        "type": "message",
+        "text": "I followed these instructions to install it on CentOS: <https://linuxhint.com/upgrade-to-latest-sqlite3-on-centos7/>",
+        "user": "UMQA682PJ",
+        "ts": "1567610317.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4a8021aa-352c-48e2-a725-3e83e9267b61",
+        "type": "message",
+        "text": "here's my IDE for reference: <https://us-east-1.console.aws.amazon.com/cloud9/ide/9f7d555779f9424ba58e0e7921d46e1d>",
+        "user": "UMQA682PJ",
+        "ts": "1567610379.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9d6647f2-7197-4598-bc5a-c4f057979187",
+        "type": "message",
+        "text": "also, does Koku ever connect directly to a database?",
+        "user": "UMQA682PJ",
+        "ts": "1567610563.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c0b06993-ed01-4138-8a00-9d9d6ea21f5c",
+        "type": "message",
+        "text": "What are you using sqlite for?",
+        "user": "U8FS2P1LH",
+        "ts": "1567610755.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce546dea-0c0e-41ab-8305-29d542dd65e6",
+        "type": "message",
+        "text": "tutorial",
+        "user": "UMQA682PJ",
+        "ts": "1567610763.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0cc147c0-5388-44f8-92d3-7cb72b2a7478",
+        "type": "message",
+        "text": "And yes, Koku requires a database connection to really work.",
+        "user": "U8FS2P1LH",
+        "ts": "1567610763.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73072453-57e6-4bdc-ad6b-1b636e36ed5a",
+        "type": "message",
+        "text": "Apparently Django itself depends on SQLite 3.8",
+        "user": "UMQA682PJ",
+        "ts": "1567610778.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0095bdc4-3024-40f0-8337-85a1517fc7c3",
+        "type": "message",
+        "text": "Django 2.2.5",
+        "user": "UMQA682PJ",
+        "ts": "1567610789.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8131aeb-e152-4f00-8d33-632e74016ee7",
+        "type": "message",
+        "text": "CentOS comes with 3.7 pre-installed",
+        "user": "UMQA682PJ",
+        "ts": "1567610879.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f99003ae-2095-428b-b041-d3f73a7f3b33",
+        "type": "message",
+        "text": "at least until you specify a different database driver",
+        "user": "UMQA682PJ",
+        "ts": "1567611006.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "550b2c31-df3d-409c-b12f-5da104f6fddb",
+        "type": "message",
+        "text": "It may be easier to use Ubuntu for my development machine so I may try that.",
+        "user": "UMQA682PJ",
+        "ts": "1567611219.006600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f002d379-401c-4956-94f6-b41a531cdb72",
+        "type": "message",
+        "text": "Could always try your Mac. Django seems to work out of the box on the Mac.",
+        "user": "U8FS2P1LH",
+        "ts": "1567611248.007200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5aa1ac96-c12a-4d4d-87e2-768a67b94064",
+        "type": "message",
+        "text": "Let me just step back. The goal here is to run through the Django tutorial, right?",
+        "user": "U8FS2P1LH",
+        "ts": "1567611580.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2033ddb6-da89-49c0-b6fe-111db24ae8e7",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1567611592.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd5124b7-6123-41a8-b9f3-36ec5db52d72",
+        "type": "message",
+        "text": "And it had you configuring database drivers?",
+        "user": "U8FS2P1LH",
+        "ts": "1567611605.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96dd4848-2c70-43f4-9fe9-fc37bd8bf862",
+        "type": "message",
+        "text": "In order to call \"runserver\" during the tutorial, I got an error that Django was improperly configured and was using an older version (3.7) of SQLite",
+        "user": "UMQA682PJ",
+        "ts": "1567611719.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fc02eefb-01df-43d1-bf9b-0f10ba4411d9",
+        "type": "message",
+        "text": "I figure that Koku might be run on CentOS so it may be valuable to learn how to upgrade this package.",
+        "user": "UMQA682PJ",
+        "ts": "1567611774.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ffb713d-78fe-4f4f-9737-70ef40c4ed4a",
+        "type": "message",
+        "text": "also I got it to work in Ubuntu now, so I think i'll move on",
+        "user": "UMQA682PJ",
+        "ts": "1567611865.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b26c2e6-713a-4408-82e4-ca8a84a7c688",
+        "type": "message",
+        "text": "Alright. As a note, I probably won\u2019t be a lot of use troubleshooting various Linux distributions. I can definitely get something installed on a Mac. We have 1 other team member who uses Fedora so he can help there. But it\u2019ll probably be a case of go figure it out if something isn\u2019t working in Ubuntu or other.",
+        "user": "U8FS2P1LH",
+        "ts": "1567612176.014800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "de2fcada-d0eb-45a6-a353-93fdb7864c37",
+        "type": "message",
+        "text": "Also don\u2019t tell anyone at Red Hat that you\u2019re using Ubuntu :wink:",
+        "user": "U8FS2P1LH",
+        "ts": "1567612238.015200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e014fa6c-966c-4e5e-a813-7acfdd207c6e",
+        "type": "message",
+        "text": "I think the solution would have been to wait for the RPM for sqlite3 3.8 to officially be released by Red Hat.",
+        "user": "UMQA682PJ",
+        "ts": "1567612304.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2dace67-177e-419f-9cc3-327ed0e7e2e2",
+        "type": "message",
+        "text": "How\u2019s it going?",
+        "user": "U8FS2P1LH",
+        "ts": "1567622019.016200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f458f815-a343-460c-8379-bea2bd1bcd58",
+        "type": "message",
+        "text": "It's going well. Trying to upgrade SQLite was taking a while but now that I've skipped it things are smoother.",
+        "user": "UMQA682PJ",
+        "ts": "1567622107.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b459541-6d72-451d-bc55-75d154fdbac2",
+        "type": "message",
+        "text": "i don't have a USB-C monitor *adapter* in Durham so i was thinking of ordering one",
+        "user": "UMQA682PJ",
+        "ts": "1567622135.018300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1567622343.000000"
+        }
+    },
+    {
+        "client_msg_id": "c3c75239-e52a-40c6-9086-43894ff2cd69",
+        "type": "message",
+        "text": "also i got a yubikey and it really helps speed up logging into WiFi",
+        "user": "UMQA682PJ",
+        "ts": "1567622200.019200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c1fd31d-a57c-4549-aeaa-0b2d70ce09f1",
+        "type": "message",
+        "text": "how are things going with you?",
+        "user": "UMQA682PJ",
+        "ts": "1567622300.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a62e3639-cc1d-4315-81f0-198ac062974f",
+        "type": "message",
+        "text": "ordering an adapter* not a monitor",
+        "user": "UMQA682PJ",
+        "ts": "1567622328.019800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0134039a-0f32-4456-bfd4-58789dfb4131",
+        "type": "message",
+        "text": "also where do I see things related to paychecks?",
+        "user": "UMQA682PJ",
+        "ts": "1567622391.020300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e11dbec4-8c54-4338-8d74-8f739c393aa9",
+        "type": "message",
+        "text": "Do full time employees need to track hours?",
+        "user": "UMQA682PJ",
+        "ts": "1567622540.021100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67db9484-c1d1-49a1-880a-fb91f0e40524",
+        "type": "message",
+        "text": "Yes, I\u2019d definitely recommend a USB-C to displayport/whatever adapter.",
+        "user": "U8FS2P1LH",
+        "ts": "1567623951.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da7d3269-d06e-4645-a788-82c17ca14c6a",
+        "type": "message",
+        "text": "I think paychecks should be viewable via ADP. See if you can login at <http://my.adp.com|my.adp.com>",
+        "user": "U8FS2P1LH",
+        "ts": "1567624021.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0586bd8-003e-470c-a777-946fbc673a15",
+        "type": "message",
+        "text": "We don\u2019t track hours, no.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624028.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7428ac3b-457e-4b7e-b98e-3e3972376516",
+        "type": "message",
+        "text": "adp says I need a code from my administrator to join?",
+        "user": "UMQA682PJ",
+        "ts": "1567624067.023400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f7776e5a-095b-439d-bcce-4f623a5f6bbe",
+        "type": "message",
+        "text": "Search gmail for adp?",
+        "user": "U8FS2P1LH",
+        "ts": "1567624101.023600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "afdf2cc2-f4ec-4545-9b93-ccc678918722",
+        "type": "message",
+        "text": "none found",
+        "user": "UMQA682PJ",
+        "ts": "1567624143.024400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "102c91f8-79fd-4003-993c-4bf36712381b",
+        "type": "message",
+        "text": "It\u2019s possible you\u2019ll be getting an email soon. I seemed to have gotten it shortly after starting.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624187.025000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64a0a927-d3ca-43b0-915c-04d341e5f97d",
+        "type": "message",
+        "text": "Generally speaking on hours, it\u2019s honor system. Way more concerned with getting the job done than hours. Many of us have families, so I\u2019m not going to sacrifice home time to get a feature out the door that could just as easily land next week. That said I think everyone works hard, and is dedicated to the team and project.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624245.026000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "457c2650-3596-409d-be24-5c3543b05c7f",
+        "type": "message",
+        "text": "I typically work from home on Tuesdays and Thursdays, and occasionally on Friday if everyone is leaning that way.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624276.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be53f38c-3930-4d49-aed0-541815d2e29a",
+        "type": "message",
+        "text": "But I also live very close to the Raleigh office, so it\u2019s easy for me to come in if and when needed.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624296.027100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1567624301.000000"
+        }
+    },
+    {
+        "client_msg_id": "011dc826-5194-4596-9371-6d0fde8662f7",
+        "type": "message",
+        "text": "If you have seen in the koku_dev slack channel. We post a daily \u201cstand up\u201d status. What we did yesterday, plans for today, and if anything is blocking you.",
+        "user": "U8FS2P1LH",
+        "ts": "1567624358.027800",
+        "team": "T026NJJ6Z"
+    }
+]

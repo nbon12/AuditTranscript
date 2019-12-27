@@ -1,0 +1,42 @@
+[
+    {
+        "client_msg_id": "b6ff5f0f-3af3-4f8d-9e6d-9164616b7692",
+        "type": "message",
+        "text": "Hey I ran the Koku unit tests for the first time, is this output normal? It says \"Error py37: InterpreterNotFound: python3.7",
+        "user": "UMQA682PJ",
+        "ts": "1568315777.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca5f90b3-16a3-4bec-b96f-1120ba65ed5d",
+        "type": "message",
+        "text": "[2019-09-12 19:05:54,568] INFO: Using start date: 2019-09-12\n[2019-09-12 19:05:54,569] INFO: Using end date: 2019-09-13\n    0      0   100%\nkoku/reporting/provider/ocp/__init__.py                                          0      0      0      0   100%\nkoku/reporting/provider/ocp/costs/__init__.py                                    0      0      0      0   100%\nkoku/reporting/provider/ocp/costs/models.py                                     19      0      0      0   100%\nkoku/reporting/provider/ocp/models.py                                          175      0      0      0   100%\nkoku/reporting/provider/ocp_aws/__init__.py                                      0      0      0      0   100%\nkoku/reporting/provider/ocp_aws/models.py                                       59      0      0      0   100%\nkoku/reporting_common/__init__.py                                                3      0      0      0   100%\nkoku/reporting_common/models.py                                                 41      0      0      0   100%\n------------------------------------------------------------------------------------------------------------------------\nTOTAL                                                                         9610    282   2194    167    96%\nlint create: /home/ubuntu/environment/koku/.tox/lint\nlint installdeps: flake8, flake8-import-order, flake8-quotes, pipenv, pylint, pylint-plugin-utils, pylint-django\nlint installed: astroid==2.2.5,certifi==2019.9.11,entrypoints==0.3,flake8==3.7.8,flake8-import-order==0.18.1,flake8-quotes==2.1.0,isort==4.3.21,lazy-object-proxy==1.4.2,mccabe==0.6.1,pipenv==2018.11.26,pycodestyle==2.5.0,pyflakes==2.1.1,pylint==2.3.1,pylint-django==2.0.11,pylint-plugin-utils==0.5,six==1.12.0,typed-ast==1.4.0,virtualenv==16.7.5,virtualenv-clone==0.5.3,wrapt==1.11.2\nlint run-test-pre: PYTHONHASHSEED='266546077'\nlint run-test: commands[0] | flake8 koku\nlint run-test: commands[1] | pipenv install --dev --ignore-pipfile\nCourtesy Notice: Pipenv found itself running within a virtual environment, so it will automatically use that environment, instead of creating its own for any project. You can set PIPENV_IGNORE_VIRTUALENVS=1 to force pipenv to ignore that environment and create its own instead. You can set PIPENV_VERBOSITY=-1 to suppress this warning.\nInstalling dependencies from Pipfile.lock (7bf382)\u2026\n  :snake:   \u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589\u2589 189/189 \u2014 00:03:02\nlint run-test: commands[2] | pylint -j 0 --ignore=test --disable=R0801 --load-plugins=pylint_django koku/koku koku/masu/database\n\n------------------------------------\nYour code has been rated at 10.00/10\n\n_________________________________________ summary _________________________________________\nERROR:  py37: InterpreterNotFound: python3.7\n  py36: commands succeeded\n  lint: commands succeeded\n(koku) nbonilla:~/environment/koku $",
+        "user": "UMQA682PJ",
+        "ts": "1568315781.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5b2b6df3-8d58-4797-9c25-5c2e7ad5cdbe",
+        "type": "message",
+        "text": "Yeah, tox, which runs the test has a \u201ctest matrix\u201d to test Python 3.6, and Python 3.7. When we run the tests in TravisCI, it runs both Py 3.6/3.7.",
+        "user": "U8FS2P1LH",
+        "ts": "1568316115.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e75b5b3e-7c06-4c55-80b3-8d2b05ecfad2",
+        "type": "message",
+        "text": "I usually run `tox -e py36`",
+        "user": "U8FS2P1LH",
+        "ts": "1568316126.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3957deec-ec5d-4d65-b588-27826f75706a",
+        "type": "message",
+        "text": "So as to avoid the py37.",
+        "user": "U8FS2P1LH",
+        "ts": "1568316133.002500",
+        "team": "T026NJJ6Z"
+    }
+]

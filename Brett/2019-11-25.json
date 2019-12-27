@@ -1,0 +1,1688 @@
+[
+    {
+        "client_msg_id": "55263357-f4ce-43c1-94a9-65b549a1bcb7",
+        "type": "message",
+        "text": "Hi Brett, I'm attempting to run Koku on Openshift locally, I have a question about the .env parameter files,\nI notice it says:\n\n```# Copy this file to koku.git/openshift/parameters and remove .example extension.\n# Uncomment the values you want to change.```",
+        "user": "UMQA682PJ",
+        "ts": "1574715562.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ntW9s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Brett, I'm attempting to run Koku on Openshift locally, I have a question about the .env parameter files,\nI notice it says:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "# Copy this file to koku.git/openshift/parameters and remove .example extension.\n# Uncomment the values you want to change."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1379ae8e-3d1e-4f73-bc6e-4c3215dc4aa6",
+        "type": "message",
+        "text": "Does everything need to be uncommented?",
+        "user": "UMQA682PJ",
+        "ts": "1574715585.001700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=Kus",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Does everything need to be uncommented?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "25054da8-5646-440e-af68-b2ecde9c90e7",
+        "type": "message",
+        "text": "or are there default values that will be set if I leave them commented?",
+        "user": "UMQA682PJ",
+        "ts": "1574715604.002000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vo8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or are there default values that will be set if I leave them commented?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6e065097-8460-41a3-97bc-81043d99707f",
+        "type": "message",
+        "text": "There are default values for most things. IIRC, you do need to set the AWS keys.",
+        "user": "U9RH8D20Y",
+        "ts": "1574715637.002400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oS6G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There are default values for most things. IIRC, you do need to set the AWS keys."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "grinning",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5177ca82-4b1e-4ef7-99c0-2f6478593205",
+        "type": "message",
+        "text": "But, I would definitely recommend using the newer e2e-based setup, which doesn't use those parameter files.",
+        "user": "U9RH8D20Y",
+        "ts": "1574715669.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3aJSK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But, I would definitely recommend using the newer e2e-based setup, which doesn't use those parameter files."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "550df45f-d369-442f-bc03-f2b9a1e993ed",
+        "type": "message",
+        "text": "If you look at `scripts/e2e-deploy.sh` , all you need to do is set a couple of values in the script and (optionally) set values in the `e2e-secrets.yml`",
+        "user": "U9RH8D20Y",
+        "ts": "1574715759.004800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V7V9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you look at "
+                            },
+                            {
+                                "type": "text",
+                                "text": "scripts/e2e-deploy.sh",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " , all you need to do is set a couple of values in the script and (optionally) set values in the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "e2e-secrets.yml",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aca611ea-3dc1-4001-866d-11e1673843d2",
+        "type": "message",
+        "text": "Oh, how do I trigger this e2e to run?",
+        "user": "UMQA682PJ",
+        "ts": "1574715857.005400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zZoKN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Oh, how do I trigger this e2e to run?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1efa2b01-cbea-4808-ab76-a28a43e50452",
+        "type": "message",
+        "text": "Just run the script, once it's got the right values (and you've cloned the `e2e-deploy.git`  repo).  There's comments inside the script that should point the way.",
+        "user": "U9RH8D20Y",
+        "ts": "1574716137.006100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qky",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Just run the script, once it's got the right values (and you've cloned the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "e2e-deploy.git",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  repo).  There's comments inside the script that should point the way."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4a60ff69-fb50-41b2-8a76-95decd094b04",
+        "type": "message",
+        "text": "```readlink: illegal option -- f\nusage: readlink [-n] [file ...]\nusage: dirname path```",
+        "user": "UMQA682PJ",
+        "ts": "1574716276.006400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Tw6",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "readlink: illegal option -- f\nusage: readlink [-n] [file ...]\nusage: dirname path"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95aa3596-2280-4715-b3a7-da3b0108dc3b",
+        "type": "message",
+        "text": "any clue what that error means?",
+        "user": "UMQA682PJ",
+        "ts": "1574716304.006700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R76P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "any clue what that error means?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3cccd108-3ee6-468c-a597-16911741efdf",
+        "type": "message",
+        "text": "hmm... might be a difference in tooling. I'm running Fedora, which is where I developed the script.",
+        "user": "U9RH8D20Y",
+        "ts": "1574716342.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lYG7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hmm... might be a difference in tooling. I'm running Fedora, which is where I developed the script."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "52ddf461-de92-496d-88ba-4b0050bb92c4",
+        "type": "message",
+        "text": "yea i'm on mac",
+        "user": "UMQA682PJ",
+        "ts": "1574716374.007500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "taiP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yea i'm on mac"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "020a38c2-ec24-413a-b6e3-c58bfb4ecb6d",
+        "type": "message",
+        "text": "If you don't mind updating the script, I'm happy to help guide you through it.  Or, we can fall back to the Makefile workflow",
+        "user": "U9RH8D20Y",
+        "ts": "1574716413.008200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Syq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you don't mind updating the script, I'm happy to help guide you through it.  Or, we can fall back to the Makefile workflow"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf129ea0-8f9a-4711-8b20-c26fa2546c44",
+        "type": "message",
+        "text": "sure I can try to edit it",
+        "user": "UMQA682PJ",
+        "ts": "1574716478.008400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PdnZS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sure I can try to edit it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "121463b7-a526-476d-9bd1-acab3052aa08",
+        "type": "message",
+        "text": "<https://bluejeans.com/166906630> in case you want to see my screen",
+        "user": "UMQA682PJ",
+        "ts": "1574716543.008800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DTPME",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://bluejeans.com/166906630"
+                            },
+                            {
+                                "type": "text",
+                                "text": " in case you want to see my screen"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c059875b-aa31-49a5-9c2a-5d6ad8cbd446",
+        "type": "message",
+        "text": "Sure, if needed. I think right now, I can just talk through what the intent was and we can find a tool that does the job on both platforms",
+        "user": "U9RH8D20Y",
+        "ts": "1574716599.009400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U9RH8D20Y",
+            "ts": "1574716604.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7shc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure, if needed. I think right now, I can just talk through what the intent was and we can find a tool that does the job on both platforms"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e3727e50-1af3-4cc8-ad90-461b595b88f6",
+        "type": "message",
+        "text": "```  -f, --canonicalize            canonicalize by following every symlink in\n                                every component of the given name recursively;\n                                all but the last component must exist```",
+        "user": "U9RH8D20Y",
+        "ts": "1574716640.010100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2jJ",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "  -f, --canonicalize            canonicalize by following every symlink in\n                                every component of the given name recursively;\n                                all but the last component must exist"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "944f1fdf-8a02-4f5f-a833-b9cdbaf0132e",
+        "type": "message",
+        "text": "That's from the `readlink --help` . I'm trying to locate the secrets.yml, which should be in the same directory as the e2e-deploy script. So, the goal is to ensure that `dirname $0` returns the right thing, even if `$0` contains something wacky, like a symlink.",
+        "user": "U9RH8D20Y",
+        "ts": "1574716723.011300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U9RH8D20Y",
+            "ts": "1574716761.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hnzTO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That's from the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "readlink --help",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " . I'm trying to locate the secrets.yml, which should be in the same directory as the e2e-deploy script. So, the goal is to ensure that "
+                            },
+                            {
+                                "type": "text",
+                                "text": "dirname $0",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " returns the right thing, even if "
+                            },
+                            {
+                                "type": "text",
+                                "text": "$0",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " contains something wacky, like a symlink."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "32e2edf8-d303-46fb-8df0-fe06530cbca0",
+        "type": "message",
+        "text": "so the output should be the absolute URI of this file?",
+        "user": "UMQA682PJ",
+        "ts": "1574716846.012000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8tW6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so the output should be the absolute URI of this file?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e11f7d9e-8927-4731-99ac-07862a49e54f",
+        "type": "message",
+        "text": "correct",
+        "user": "U9RH8D20Y",
+        "ts": "1574716853.012200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M3Y2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "correct"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7133a4dc-820c-4b14-b547-5473fa9d8a3c",
+        "type": "message",
+        "text": "can we assume that the e2e-secrets.yml is always in the same directory as this file?",
+        "user": "UMQA682PJ",
+        "ts": "1574716907.012700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qLpTd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "can we assume that the e2e-secrets.yml is always in the same directory as this file?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9b4bd56-db1d-455e-8624-6b7f5b0e31b8",
+        "type": "message",
+        "text": "for now, yes.",
+        "user": "U9RH8D20Y",
+        "ts": "1574716990.013900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Sl3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for now, yes."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f6ccc9de-7bba-4573-beb7-9e415557f836",
+        "type": "message",
+        "text": "we could totally add a bunch of fancy features to do CLI arguments, if you wanted. this version is my bare bones minimum viable script.",
+        "user": "U9RH8D20Y",
+        "ts": "1574717044.015000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "huMh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "we could totally add a bunch of fancy features to do CLI arguments, if you wanted. this version is my bare bones minimum viable script."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3197534-bee2-4f0b-92f8-c8b3717f64bf",
+        "type": "message",
+        "text": "is the user's present working directory expected to be the scripts folder?",
+        "user": "UMQA682PJ",
+        "ts": "1574717103.015900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AGV=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is the user's present working directory expected to be the scripts folder?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4d610be8-2bd5-4c92-99fc-2dc1d73e14eb",
+        "type": "message",
+        "text": "nope. that's why we're reading $0 - that's the location of the script",
+        "user": "U9RH8D20Y",
+        "ts": "1574717139.016600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pvzkz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nope. that's why we're reading $0 - that's the location of the script"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f191570d-e431-465e-9627-5becc763021f",
+        "type": "message",
+        "text": "so this script finds out the absolute path to the directory name of the current script",
+        "user": "UMQA682PJ",
+        "ts": "1574717329.017700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fqBGt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so this script finds out the absolute path to the directory name of the current script"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "daa62cfb-8dbc-40ad-9d3f-c1772d6c223b",
+        "type": "message",
+        "text": "yep, because the secrets should be right next to it",
+        "user": "U9RH8D20Y",
+        "ts": "1574717343.018100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qPv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep, because the secrets should be right next to it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "67202829-edde-4f81-96a2-0330f096534d",
+        "type": "message",
+        "text": "can't we use `pwd` ?",
+        "user": "UMQA682PJ",
+        "ts": "1574717389.018500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uF7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "can't we use "
+                            },
+                            {
+                                "type": "text",
+                                "text": "pwd",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c13eb4d-8352-4e7a-a61a-08e5249e1143",
+        "type": "message",
+        "text": "Sure, but you lose the ability to execute it from anywhere",
+        "user": "U9RH8D20Y",
+        "ts": "1574717412.019000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XyvJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure, but you lose the ability to execute it from anywhere"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95bb7976-39fb-4079-9f32-b76363dbe31b",
+        "type": "message",
+        "text": "A ha. This might be helpful: <https://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac>",
+        "user": "U9RH8D20Y",
+        "ts": "1574717602.019800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Stack Overflow",
+                "title": "How can I get the behavior of GNU's readlink -f on a Mac?",
+                "title_link": "https://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac",
+                "text": "On Linux, the readlink utility accepts an option -f that follows additional links. This doesn't seem to work on Mac and possibly BSD based systems. What would the equivalent be? Here's some debug",
+                "fallback": "Stack Overflow: How can I get the behavior of GNU's readlink -f on a Mac?",
+                "thumb_url": "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d",
+                "id": 1,
+                "original_url": "https://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kLa53",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "A ha. This might be helpful: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7376b14e-d38f-4bea-a949-a89776d4d251",
+        "type": "message",
+        "text": "yep i was looking at that",
+        "user": "UMQA682PJ",
+        "ts": "1574717616.020100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WTK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep i was looking at that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9b2cbb8b-18b1-4103-88c1-ed0f2900d90d",
+        "type": "message",
+        "text": "so you're looking to eliminate the symlink?",
+        "user": "UMQA682PJ",
+        "ts": "1574717632.020600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f7ER",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so you're looking to eliminate the symlink?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "414022e1-f3b5-418c-a15f-d212a51681bd",
+        "type": "message",
+        "text": "and access the file in it's absolute filepath instead of the symlink filepath",
+        "user": "UMQA682PJ",
+        "ts": "1574717650.021200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uvez5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and access the file in it's absolute filepath instead of the symlink filepath"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b79aa54d-a9cc-49e7-aeab-d7466d8ac797",
+        "type": "message",
+        "text": "I'm fine with either implementing that function in the script, or detecting between greadlink and readlink -f",
+        "user": "U9RH8D20Y",
+        "ts": "1574717653.021400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KmT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm fine with either implementing that function in the script, or detecting between greadlink and readlink -f"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fae14165-8f9b-407a-822a-b0d95639b38d",
+        "type": "message",
+        "text": "correct - resolve the absolute _actual_ file path, eliminating any symlinks.",
+        "user": "U9RH8D20Y",
+        "ts": "1574717671.021700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U9RH8D20Y",
+            "ts": "1574717689.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jNy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "correct - resolve the absolute "
+                            },
+                            {
+                                "type": "text",
+                                "text": "actual",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " file path, eliminating any symlinks."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b34f51cd-7aa2-4d68-877d-dd3a4f95fd0b",
+        "type": "message",
+        "text": "why?",
+        "user": "UMQA682PJ",
+        "ts": "1574717685.021900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OYk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "why?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0928c1e0-50de-4b11-81bd-97d71b17da39",
+        "type": "message",
+        "text": "it won't work with symlinks?",
+        "user": "UMQA682PJ",
+        "ts": "1574717693.022300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "joRpF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it won't work with symlinks?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83924508-8115-4551-9769-9d07ccc27c81",
+        "type": "message",
+        "text": "or does openshift require absolute paths",
+        "user": "UMQA682PJ",
+        "ts": "1574717717.022900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KaDH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or does openshift require absolute paths"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ac88290-fc74-49bd-a303-8305d8716746",
+        "type": "message",
+        "text": "Paranoia, probably. I have no idea how other folks set up their machines. :slightly_smiling_face:",
+        "user": "U9RH8D20Y",
+        "ts": "1574717727.023200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j7G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Paranoia, probably. I have no idea how other folks set up their machines. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a2b022a-a95f-4aea-ae9f-ee2b7475ce24",
+        "type": "message",
+        "text": "So, I'm just avoiding making assumptions in case someone's doing something weird.",
+        "user": "U9RH8D20Y",
+        "ts": "1574717753.023700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2OrOa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So, I'm just avoiding making assumptions in case someone's doing something weird."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "54ae2bfe-88a6-4460-a109-332dbdc63c8a",
+        "type": "message",
+        "text": "what about this: <https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x>",
+        "user": "UMQA682PJ",
+        "ts": "1574717809.023900",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Stack Overflow",
+                "title": "Bash script absolute path with OS X",
+                "title_link": "https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x",
+                "text": "I am trying to obtain the absolute path to the currently running script on OS&amp;nbsp;X. I saw many replies going for readlink -f $0. However since OS X's readlink is the same as BSD's, it just doesn't",
+                "fallback": "Stack Overflow: Bash script absolute path with OS X",
+                "thumb_url": "https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded",
+                "from_url": "https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x",
+                "thumb_width": 316,
+                "thumb_height": 316,
+                "service_icon": "https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d",
+                "id": 1,
+                "original_url": "https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QdD5v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what about this: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd1ce828-85c3-48a4-87a8-15abfc59840a",
+        "type": "message",
+        "text": "Sure, that works. And it's nice and concise. I like it. :thumbsup:",
+        "user": "U9RH8D20Y",
+        "ts": "1574717835.024400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cqpPm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure, that works. And it's nice and concise. I like it. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thumbsup"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dac59735-a3e7-41d4-9924-1c884942829c",
+        "type": "message",
+        "text": "so I've got this to add to the e2e-deploy.sh:",
+        "user": "UMQA682PJ",
+        "ts": "1574718511.025100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HkbLh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so I've got this to add to the e2e-deploy.sh:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae650cab-539f-4806-96ff-77421a9ba117",
+        "type": "message",
+        "text": "```if [[ \"$OSTYPE\" == \"darwin\"* ]]; then\n        # Mac OSX\n        realpath() {\n             [[ $1 = /* ]] &amp;&amp; echo \"$1\" || echo \"$PWD/${1#./}\"\n        }\n\n        KOKU_SECRETS=$(realpath \"$0\")/e2e-secrets.yml\nfi```",
+        "user": "UMQA682PJ",
+        "ts": "1574718514.025400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qM26f",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if [[ \"$OSTYPE\" == \"darwin\"* ]]; then\n        # Mac OSX\n        realpath() {\n             [[ $1 = /* ]] && echo \"$1\" || echo \"$PWD/${1#./}\"\n        }\n\n        KOKU_SECRETS=$(realpath \"$0\")/e2e-secrets.yml\nfi"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9RH8D20Y"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "848adaf0-d14b-4391-9444-2a806198da71",
+        "type": "message",
+        "text": "i think the script silently fails if ocdeployer is not installed",
+        "user": "UMQA682PJ",
+        "ts": "1574719104.026000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NiwQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i think the script silently fails if ocdeployer is not installed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ad8db09-7b12-4212-b1d6-ca810644627b",
+        "type": "message",
+        "text": "this line: `OCDEPLOYER=$(which ocdeployer)`",
+        "user": "UMQA682PJ",
+        "ts": "1574719138.026500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qrr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "this line: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "OCDEPLOYER=$(which ocdeployer)",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05c7d2c4-1fc1-4bf6-9d92-9ecee3853f3a",
+        "type": "message",
+        "text": "sad. there's supposed to be a check for that.",
+        "user": "U9RH8D20Y",
+        "ts": "1574719139.026600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6ccT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sad. there's supposed to be a check for that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "21f21a8a-a512-454a-ad25-2fe6b2a0d205",
+        "type": "message",
+        "text": "ohhh",
+        "user": "U9RH8D20Y",
+        "ts": "1574719143.026800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V8UQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ohhh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51308cd7-5048-4666-97d3-9a3c8089d3f1",
+        "type": "message",
+        "text": "derp",
+        "user": "U9RH8D20Y",
+        "ts": "1574719144.027000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hths",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "derp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7b29e370-2258-4325-80b7-5860a7cd9c4e",
+        "type": "message",
+        "text": "yeah, because we're using `set -e`",
+        "user": "U9RH8D20Y",
+        "ts": "1574719155.027300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/qHFq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeah, because we're using "
+                            },
+                            {
+                                "type": "text",
+                                "text": "set -e",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c6e0a39b-844c-4cb4-acd5-8820dd77e3bb",
+        "type": "message",
+        "text": "which ocdeployer should I install?",
+        "user": "UMQA682PJ",
+        "ts": "1574719210.027500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VdH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "which ocdeployer should I install?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b0705b84-998e-45d3-aae5-45501863674e",
+        "type": "message",
+        "text": "`pip install ocdeployer` ?",
+        "user": "UMQA682PJ",
+        "ts": "1574719216.027900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xj1de",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "pip install ocdeployer",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d763650-2795-4048-85bc-85413815f1cd",
+        "type": "message",
+        "text": "In a virtualenv, you can just `pip install ocdeployer`",
+        "user": "U9RH8D20Y",
+        "ts": "1574719231.028300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Fii",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "In a virtualenv, you can just "
+                            },
+                            {
+                                "type": "text",
+                                "text": "pip install ocdeployer",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "09f5aa44-eea2-43e5-8a3b-e1d007bb3167",
+        "type": "message",
+        "text": "right, my virtualenv was off, i should have it on probably for this",
+        "user": "UMQA682PJ",
+        "ts": "1574719262.029300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FxsD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right, my virtualenv was off, i should have it on probably for this"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6cb1c784-28bd-40f5-8b8b-262360c940a2",
+        "type": "message",
+        "text": "should this be in the pipenv?",
+        "user": "UMQA682PJ",
+        "ts": "1574719317.030000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=g3A",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "should this be in the pipenv?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7d2bb893-513e-4b41-913f-ea7c2fd263f8",
+        "type": "message",
+        "text": "your choice, really.",
+        "user": "U9RH8D20Y",
+        "ts": "1574719329.030200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "80K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "your choice, really."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "180b3d10-dd8f-4674-999a-cd41927214af",
+        "type": "message",
+        "text": "i keep two virtualenvs - `koku` for running koku stuff and `iqe` for running the e2e and iqe bits.",
+        "user": "U9RH8D20Y",
+        "ts": "1574719375.031100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rlm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i keep two virtualenvs - "
+                            },
+                            {
+                                "type": "text",
+                                "text": "koku",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " for running koku stuff and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "iqe",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " for running the e2e and iqe bits."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a4519b2b-4809-4ee1-ab29-13b4b3033ca9",
+        "type": "message",
+        "text": "in my setup, i've installed ocdeployer into the `iqe` virtualenv",
+        "user": "U9RH8D20Y",
+        "ts": "1574719401.031600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=WGq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in my setup, i've installed ocdeployer into the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "iqe",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " virtualenv"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "client_msg_id": "c8dc5ea1-dcc0-46e6-8f6d-14c288a01e8b",
+        "type": "message",
+        "text": "Are these queries equivalent:\n```url = '?group_by[and:account]=a&amp;group_by[and:account]=b'\nurl = '?group_by[account]=ab```",
+        "user": "UMQA682PJ",
+        "ts": "1576853576.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NQD8/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Are these queries equivalent:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "url = '?group_by[and:account]=a&group_by[and:account]=b'\nurl = '?group_by[account]=ab"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "client_msg_id": "02432539-5a3c-4129-8ddb-513e3c9b3a28",
+        "type": "message",
+        "text": "How\u2019s everything today?",
+        "user": "U8FS2P1LH",
+        "ts": "1567780972.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6866e5fe-bf59-4263-863a-fed94bbee4a1",
+        "type": "message",
+        "text": "Good so far, im learning Django templating.",
+        "user": "UMQA682PJ",
+        "ts": "1567780986.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8daa7b77-3138-42cc-aa7d-1cdbc83fc68b",
+        "type": "message",
+        "text": "Part 3 in the Django tutorial",
+        "user": "UMQA682PJ",
+        "ts": "1567781070.001500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "29082288-57f6-408b-9550-ca58b185dac4",
+        "type": "message",
+        "text": "Cool. That\u2019s a nice feature of Django. Another fairly common templating system used is called Jinja. Probably fairly similar to Django\u2019s templates. We aren\u2019t making use of templates right now as our Django app isn\u2019t serving any HTML, just our JSON-based APIs",
+        "user": "U8FS2P1LH",
+        "ts": "1567781190.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d0fb789-173e-4e05-b559-d676d2b506c8",
+        "type": "message",
+        "text": "ubnu00017732302275",
+        "user": "UMQA682PJ",
+        "ts": "1567788950.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ac121a6-4f29-4538-911e-a982ade2dc26",
+        "type": "message",
+        "text": "ubikey in action!",
+        "user": "U8FS2P1LH",
+        "ts": "1567789808.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fef096c7-e319-4b81-8beb-f956cdd8ea6f",
+        "type": "message",
+        "text": "sorry, i dont remember sending that message, must have been a mis-press",
+        "user": "UMQA682PJ",
+        "ts": "1567789838.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f05ebfe7-9553-42ad-b724-a9a61feecd9b",
+        "type": "message",
+        "text": "Heh, no problem at all.",
+        "user": "U8FS2P1LH",
+        "ts": "1567789871.004800",
+        "team": "T026NJJ6Z"
+    }
+]

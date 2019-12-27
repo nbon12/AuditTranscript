@@ -1,0 +1,91 @@
+[
+    {
+        "client_msg_id": "6c39c2f6-ccd5-4769-b7a4-24913051a179",
+        "type": "message",
+        "text": "Hi Brad, how do I set up the Yubikey for the RedHat VPN?",
+        "user": "UMQA682PJ",
+        "ts": "1567517192.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c586b40a-6886-43c5-a958-5385567d43d7",
+        "type": "message",
+        "text": "Hmm\u2026 It _used to be_ that you could go to <http://password.redhat.com|password.redhat.com> to generate a token to configure the yubikey, but it looks like that URL is down. Maybe it's moved.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517360.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "55ae48ad-7483-4c74-a110-68d008d28708",
+        "type": "message",
+        "text": "If you can manage to find wherever it is that you reset your LDAP/Kerberos password, there should be a section nearby that handles tokens.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517396.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5611ec75-33a2-429c-8e1d-219c7d3ed3e2",
+        "type": "message",
+        "text": "<http://token.redhat.com|token.redhat.com>?",
+        "user": "UMQA682PJ",
+        "ts": "1567517638.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee2746c5-300c-4de6-a8ae-20b7df316e52",
+        "type": "message",
+        "text": "that might be it! that's a new (to me) site, but it looks like a good start",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517672.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23c6fc9d-4d9c-42e1-80dd-c0ee5386145f",
+        "type": "message",
+        "text": "yeeeaaah, this looks right",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517692.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01aa1c75-e69e-442d-902e-ebd33a47b3c4",
+        "type": "message",
+        "text": "you want to go the route of \"create software token\"",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517710.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "567d29e6-24ef-4f3a-85f9-9e3e30cd85f8",
+        "type": "message",
+        "text": "If you haven't already installed yubikey's configuration tool, you'll need to do that.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517861.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "081e27bc-52eb-4cc3-9278-80d012fabbfd",
+        "type": "message",
+        "text": "after that, you're on your own! it's been over a year since I set mine up, and I'm afraid I can't recall the details. :sweat_smile:",
+        "user": "U8E2NAGGJ",
+        "ts": "1567517883.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "130879af-cc9d-40af-87b9-7e204040c7a1",
+        "type": "message",
+        "text": "I found the instructions for yubikey setup on <http://token.redhat.com|token.redhat.com>",
+        "user": "UMQA682PJ",
+        "ts": "1567517911.005000",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8E2NAGGJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

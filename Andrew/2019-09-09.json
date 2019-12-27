@@ -1,0 +1,59 @@
+[
+    {
+        "client_msg_id": "bce96330-6165-4465-a00a-a46e9d522908",
+        "type": "message",
+        "text": "Hey, you in Raleigh/Durham/other today?",
+        "user": "U8FS2P1LH",
+        "ts": "1568040530.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a11d8226-86b6-451c-b93c-6077e482125a",
+        "type": "message",
+        "text": "Working from home",
+        "user": "UMQA682PJ",
+        "ts": "1568040556.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fab60bf8-a941-461b-8482-fb4bc18c4435",
+        "type": "message",
+        "text": "Hey Andrew, what's IMEA?",
+        "user": "UMQA682PJ",
+        "ts": "1568050099.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2fd17697-95b6-4caa-a941-d2fd913fea0b",
+        "type": "message",
+        "text": "EMEA: Europe, Middle East, and Africa",
+        "user": "U8FS2P1LH",
+        "ts": "1568050129.001400",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2fc4639e-daff-40bf-b53d-9981fdd39d63",
+        "type": "message",
+        "text": "APAC: Asia Pacific, and NA: North America",
+        "user": "U8FS2P1LH",
+        "ts": "1568050171.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e4123ac8-aee6-4273-a267-4759de5a6add",
+        "type": "message",
+        "text": "If you hear those 3 terms thrown around with \u201ctech exchange\u201d in the next few weeks, that\u2019s the regions covered by 3 technical exchange conferences that we\u2019re part of in September/October.",
+        "user": "U8FS2P1LH",
+        "ts": "1568050199.002700",
+        "team": "T026NJJ6Z"
+    }
+]

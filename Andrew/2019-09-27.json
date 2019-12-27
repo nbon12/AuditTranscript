@@ -1,0 +1,26 @@
+[
+    {
+        "client_msg_id": "6112c2b1-eec3-4e00-a500-8fcbd8e42529",
+        "type": "message",
+        "text": "How\u2019s it going today?",
+        "user": "U8FS2P1LH",
+        "ts": "1569598758.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ADCB016F-7503-43D9-8D6E-A8317FA5C051",
+        "type": "message",
+        "text": "Hey im on PTO, i forgot to tell the team earlier, sorry.",
+        "user": "UMQA682PJ",
+        "ts": "1569601938.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c011c252-4e63-4504-8a06-b88109f90c34",
+        "type": "message",
+        "text": "Ah, no problem. Have a good day.",
+        "user": "U8FS2P1LH",
+        "ts": "1569601995.000900",
+        "team": "T026NJJ6Z"
+    }
+]

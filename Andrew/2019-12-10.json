@@ -1,0 +1,81 @@
+[
+    {
+        "client_msg_id": "e87a6735-7a66-4430-ab30-a62e0ee6956d",
+        "type": "message",
+        "text": "Here's my solution so far, thoughts? <https://github.com/project-koku/koku/pull/1484/files#diff-9fa2e6770cbc217b865ad5a5f33ce5bcR274>",
+        "user": "UMQA682PJ",
+        "ts": "1576010537.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ut0nH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here's my solution so far, thoughts? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1484/files#diff-9fa2e6770cbc217b865ad5a5f33ce5bcR274"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "abc53a40-87d6-4837-a2d9-ab39ccab6c84",
+        "type": "message",
+        "text": "I plan to move it to the query_handler parent class because the bug exists in more than just the AWS query handler.",
+        "user": "UMQA682PJ",
+        "ts": "1576010556.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h9Q0/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I plan to move it to the query_handler parent class because the bug exists in more than just the AWS query handler."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "190f272e-5c61-4ad1-b4ca-d2b006e6b864",
+        "type": "message",
+        "text": "Will take a look shortly.",
+        "user": "U8FS2P1LH",
+        "ts": "1576012800.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DgO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Will take a look shortly."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,127 @@
+[
+    {
+        "client_msg_id": "582a7675-8452-489b-a86e-6585b92a9e5c",
+        "type": "message",
+        "text": "Hi, are you in the office today?",
+        "user": "UMQA682PJ",
+        "ts": "1575646748.000200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s8Hx2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, are you in the office today?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9de42d0b-073c-4628-b6a5-b6ebe6360213",
+        "type": "message",
+        "text": "No. What\u2019s up?",
+        "user": "U8FS2P1LH",
+        "ts": "1575646798.000400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zc=S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No. What\u2019s up?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e767741e-38e1-45ea-a912-34478d24d9c8",
+        "type": "message",
+        "text": "I was considering going into the Durham office to see if the Pythonistas over there can help.",
+        "user": "UMQA682PJ",
+        "ts": "1575646844.001300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lYG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was considering going into the Durham office to see if the Pythonistas over there can help."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e97a62e5-1111-4158-ae30-5a792abfa910",
+        "type": "message",
+        "text": "That sounds good. Otherwise we can get a google meet or something and screen share and figure it out.",
+        "user": "U8FS2P1LH",
+        "ts": "1575646884.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T/2u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That sounds good. Otherwise we can get a google meet or something and screen share and figure it out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "539e6446-05f6-4d5d-b9fc-78188ac0839f",
+        "type": "message",
+        "text": "Sorry I didn\u2019t check that yesterday.",
+        "user": "U8FS2P1LH",
+        "ts": "1575649107.003600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uis",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sorry I didn\u2019t check that yesterday."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

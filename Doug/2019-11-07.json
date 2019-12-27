@@ -1,0 +1,190 @@
+[
+    {
+        "client_msg_id": "0a8c244e-f611-4c49-b3b4-4979f9a125a9",
+        "type": "message",
+        "text": "Hey could you review this PR when you get a chance? <https://github.com/project-koku/koku/pull/1356>",
+        "user": "UMQA682PJ",
+        "ts": "1573153368.002300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1356 Feature/#1309",
+                "text": "Issue: <https://github.com/project-koku/koku/issues/1309|#1309>  \nThis PR introduces a new View (source status) that returns response.data=True if cost_usage_source_ready does not throw an exception.",
+                "title": "#1356 Feature/#1309",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1356",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1572970567,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1356",
+                "is_app_unfurl": true
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eaaf5162-fe9a-4ee9-bb64-4d2748b09ac8",
+        "type": "message",
+        "text": "looks good, I\u2019ll touch it up next with returning the strings, but then it\u2019s just a matter of updating as needed with what the platform decides",
+        "user": "UAR1CADNV",
+        "ts": "1573154443.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e19b6c43-f53b-4d45-a5d9-74de1b1ff68f",
+        "type": "message",
+        "text": "can I remove 'API returns a 404 if  the Source ID is not found' from the acceptance criteria? I think a 404 can be ambiguous and the client might understand better if it returns \"False\" with HTTP 200",
+        "user": "UMQA682PJ",
+        "ts": "1573161477.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aaee1e7a-e3ae-4416-ba16-8c9e1ad22bc3",
+        "type": "message",
+        "text": "yup I\u2019m on it",
+        "user": "UAR1CADNV",
+        "ts": "1573161490.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c2acef2-63aa-4d2c-b375-ec11af181086",
+        "type": "message",
+        "text": "already updated that",
+        "user": "UAR1CADNV",
+        "ts": "1573161493.005000",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6fbbf442-ac49-4aef-b8d0-0f4823e089c2",
+        "type": "message",
+        "text": "ah sorry I misunderstood",
+        "user": "UAR1CADNV",
+        "ts": "1573163177.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c258c09c-9d21-41ce-8d6d-ebe4015113f3",
+        "type": "message",
+        "text": "my pr with the status string updates I made it return 404",
+        "user": "UAR1CADNV",
+        "ts": "1573163203.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6033663-4acb-4f90-b8e8-9e5bd144ffe0",
+        "type": "message",
+        "text": "basically I want them to know the difference between available, unavailable, and \u201cI have no idea what source your asking about\u201d",
+        "user": "UAR1CADNV",
+        "ts": "1573163246.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae79ad70-d2b5-49c0-b2e1-bbbddae597d9",
+        "type": "message",
+        "text": "It currently returns 'False' if they ask for a source that doesn't exist",
+        "user": "UMQA682PJ",
+        "ts": "1573163307.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "05bca8bb-e6a0-4cd2-9c9f-98adc0a6cba4",
+        "type": "message",
+        "text": "well I\u2019m updating it to return the status strings though",
+        "user": "UAR1CADNV",
+        "ts": "1573163332.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "92f24b6b-fba6-4106-921b-8ecdab6ade11",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1573163339.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ed598906-2af0-4de3-a5d7-95d7d26c1c92",
+        "type": "message",
+        "text": "so with just returning False it\u2019s hard to say if it\u2019s mis-configured or if we have no knowledge of the source",
+        "user": "UAR1CADNV",
+        "ts": "1573163362.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fd0a4f18-7ffc-42e3-8864-0d1550c2e884",
+        "type": "message",
+        "text": "with a 404 i was thinking it's hard to say if we have no knowledge of the source, or if the client themselves called the wrong URL.",
+        "user": "UMQA682PJ",
+        "ts": "1573163397.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dffffaf1-4fb8-400f-bd2a-6e2e564fac7a",
+        "type": "message",
+        "text": "oh I see yea that\u2019s a good point",
+        "user": "UAR1CADNV",
+        "ts": "1573163421.009700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9f86ae4-fd9f-4027-afe1-df44229615cc",
+        "type": "message",
+        "text": "yeah some of this will also need to be tuned once the platform finishes their design for the polling checker",
+        "user": "UAR1CADNV",
+        "ts": "1573163454.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4fab62b9-e434-4464-8723-b4a3e1236661",
+        "type": "message",
+        "text": "yeah, also the error messages should remove all the ambiguity too",
+        "user": "UMQA682PJ",
+        "ts": "1573163491.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d56878c4-8271-4d80-ad8b-fa38a0b7acb9",
+        "type": "message",
+        "text": "yea very true",
+        "user": "UAR1CADNV",
+        "ts": "1573163573.010900",
+        "team": "T026NJJ6Z"
+    }
+]

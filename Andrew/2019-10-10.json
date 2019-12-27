@@ -1,0 +1,66 @@
+[
+    {
+        "client_msg_id": "0c27b165-f3a6-46ba-bcbe-7b27763fdd49",
+        "type": "message",
+        "text": "hey are you coming to the standup?",
+        "user": "UMQA682PJ",
+        "ts": "1570714462.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1e37d8ab-2b34-4374-8d71-6655625159ef",
+        "type": "message",
+        "text": "Sorry about that. Thanks for the ping.",
+        "user": "U8FS2P1LH",
+        "ts": "1570715812.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cda6a981-90fb-4083-8ddb-538dfb9c1d68",
+        "type": "message",
+        "text": "np",
+        "user": "UMQA682PJ",
+        "ts": "1570715832.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a020bbb8-2af4-42ee-a4fb-6fb18e27bf03",
+        "type": "message",
+        "text": "Hey Andrew, when I run `docker-compose up` I see in the logs \"No module named jinjasql found\" in the koku_server logs, masu_server logs, and koku_listener logs, but in the unit tests I don't see this error. Do you know what might be wrong?",
+        "user": "UMQA682PJ",
+        "ts": "1570732613.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c5be4af-c28f-4242-8b99-5e552f732fcd",
+        "type": "message",
+        "text": "Yeah, you need to rebuild your containers. They\u2019re based on an image that doesn\u2019t have the new Python dependency installed.",
+        "user": "U8FS2P1LH",
+        "ts": "1570732692.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a60e0d73-ad3b-4116-83f4-b8b95c55b4a8",
+        "type": "message",
+        "text": "`docker-compose up --build koku_server masu_server koku_listener` should get you there.",
+        "user": "U8FS2P1LH",
+        "ts": "1570732723.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67dc4b68-cbb6-468e-b80d-49db8ee77fc3",
+        "type": "message",
+        "text": "I think.",
+        "user": "U8FS2P1LH",
+        "ts": "1570732726.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19fa28d0-5563-4901-bd4a-78f24618bb8b",
+        "type": "message",
+        "text": "gotcha, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1570732731.003600",
+        "team": "T026NJJ6Z"
+    }
+]

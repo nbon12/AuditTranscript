@@ -1,0 +1,439 @@
+[
+    {
+        "client_msg_id": "476bb39d-01d0-46ff-95c1-5f8c82719e10",
+        "type": "message",
+        "text": "Here's my documents I've been writing: <https://app.nuclino.com/Red-Hat-Insights/Koku/Guides-86f48b25-9a59-4f26-85e7-bf555d288dab>",
+        "user": "UMQA682PJ",
+        "ts": "1576612316.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ksn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here's my documents I've been writing: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://app.nuclino.com/Red-Hat-Insights/Koku/Guides-86f48b25-9a59-4f26-85e7-bf555d288dab"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a28db314-2406-4157-a6a0-0aae46586c95",
+        "type": "message",
+        "text": "looks like I don't have access to that",
+        "user": "UCG3XL8MP",
+        "ts": "1576612349.000700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i+594",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "looks like I don't have access to that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f8d2e7d-a34c-47cd-982f-92e485136654",
+        "type": "message",
+        "text": "Oh.. i'll try to make it public, i thought it already was..",
+        "user": "UMQA682PJ",
+        "ts": "1576612361.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PAci",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Oh.. i'll try to make it public, i thought it already was.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b0755dbd-23f1-480d-930b-257f26ce2a8d",
+        "type": "message",
+        "text": "<https://join.nuclino.com/Red-Hat-Insights?link=plybFNVl7yf8nt-_kZ0sNT>",
+        "user": "UMQA682PJ",
+        "ts": "1576612381.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rvp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://join.nuclino.com/Red-Hat-Insights?link=plybFNVl7yf8nt-_kZ0sNT"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2684f60a-ffa0-43b2-a974-5a4faebe1bc9",
+        "type": "message",
+        "text": "Why this instead of github?",
+        "user": "UCG3XL8MP",
+        "ts": "1576612381.001600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x3WSY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Why this instead of github?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4614cec7-2b91-464b-8e19-6cca57fe88e3",
+        "type": "message",
+        "text": "i wanted to use github but i got feedback from some of this stuff in PRs",
+        "user": "UMQA682PJ",
+        "ts": "1576612395.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VeTmF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i wanted to use github but i got feedback from some of this stuff in PRs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c63f267-19f2-47ee-b109-879504df2009",
+        "type": "message",
+        "text": "and it seemed to take a lot longer for those PRs to be approved and get merged",
+        "user": "UMQA682PJ",
+        "ts": "1576612408.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K8XGq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and it seemed to take a lot longer for those PRs to be approved and get merged"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ff664649-4a5d-4eff-99c2-d5ecd2ab8956",
+        "type": "message",
+        "text": "whereas a lot of this stuff I wanted to immediately change",
+        "user": "UMQA682PJ",
+        "ts": "1576612415.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tClyf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "whereas a lot of this stuff I wanted to immediately change"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ddf1241a-5adf-419f-b272-e1b6dd21027d",
+        "type": "message",
+        "text": "do you think i should put it back on github?",
+        "user": "UMQA682PJ",
+        "ts": "1576612431.003400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aLM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "do you think i should put it back on github?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c651980b-9d23-4592-b149-dc381b76b19b",
+        "type": "message",
+        "text": "also a lot of this stuff isn't 'done'",
+        "user": "UMQA682PJ",
+        "ts": "1576612461.003700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M21Fv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also a lot of this stuff isn't 'done'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c4e25279-e925-4516-a2eb-3da59e9cebb0",
+        "type": "message",
+        "text": "meaning sometimes i paste a random command",
+        "user": "UMQA682PJ",
+        "ts": "1576612468.004000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1hxe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "meaning sometimes i paste a random command"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e782049f-8d05-464f-9a49-245d8e54b9a0",
+        "type": "message",
+        "text": "with no context",
+        "user": "UMQA682PJ",
+        "ts": "1576612477.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Oek",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "with no context"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f37559d5-fa3e-41e0-b80f-3f44b95ed28a",
+        "type": "message",
+        "text": "so, it seemed to be better suited for really fast editing.",
+        "user": "UMQA682PJ",
+        "ts": "1576612495.004900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Lp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so, it seemed to be better suited for really fast editing."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d10960c4-9a8b-4813-900f-30c9250aeed3",
+        "type": "message",
+        "text": "Using this as a prototype to get feed back is fine. But I think it would be a lot more useful for the docs to land on github",
+        "user": "UCG3XL8MP",
+        "ts": "1576612538.005800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "673L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Using this as a prototype to get feed back is fine. But I think it would be a lot more useful for the docs to land on github"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5713191a-fa7f-4da2-bdfe-2146d2dd6ba8",
+        "type": "message",
+        "text": "yep, eventually",
+        "user": "UMQA682PJ",
+        "ts": "1576612546.006200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yIe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep, eventually"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70c74e9e-b217-4d6e-a780-883dce88eda4",
+        "type": "message",
+        "text": "Also, personally, I'm tired of having to use yet another application :wink:",
+        "user": "UCG3XL8MP",
+        "ts": "1576612566.006600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Mbt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also, personally, I'm tired of having to use yet another application "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7943d095-9481-4f52-87bf-c7138d8602b4",
+        "type": "message",
+        "text": "thanks for the feedback :slightly_smiling_face:",
+        "user": "UMQA682PJ",
+        "ts": "1576612579.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kKrC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks for the feedback "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

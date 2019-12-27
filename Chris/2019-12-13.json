@@ -1,0 +1,241 @@
+[
+    {
+        "client_msg_id": "e7f3e0f7-1dd9-4046-bacb-1afa85693445",
+        "type": "message",
+        "text": "Hi Chris, do you think fixing bug#848 is not worth it given concerns about performance?",
+        "user": "UMQA682PJ",
+        "ts": "1576257488.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d=jXX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Chris, do you think fixing bug#848 is not worth it given concerns about performance?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "727171ad-d7a7-4074-83ed-bb296099e8e4",
+        "type": "message",
+        "text": "also that the UI has a workaround?",
+        "user": "UMQA682PJ",
+        "ts": "1576257590.002800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "GlBY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also that the UI has a workaround?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7a839495-1b0a-48d2-9674-c0c1e314b4c8",
+        "type": "message",
+        "text": "I think its worth fixing. I made an update to your PR where I pushed a branch with the changes I suggested in the PR review:\n<https://github.com/project-koku/koku/pull/1552#issuecomment-565543254>",
+        "user": "U5SUXMJ83",
+        "ts": "1576260036.003600",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "chambridge",
+                "fallback": "[project-koku/koku] Comment on #1552",
+                "text": "<https://github.com/nbon12|@nbon12> Feel free to take a look at the following to fix <https://github.com/project-koku/koku/pull/1552#discussion_r357439077|#1552 (comment)>:  \n<https://github.com/project-koku/koku/commit/e2421db930e70b72a1c5b88f2d8498d800d36d16|e2421db>\n\nBut you should still run the *iqe* tests as suggested by <https://github.com/dccurtis|@dccurtis>",
+                "title": "Comment on #1552 Bug #848 fix",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1552#issuecomment-565543254",
+                "author_link": "https://github.com/chambridge",
+                "author_icon": "https://avatars3.githubusercontent.com/u/29379759?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1576259980,
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1552#issuecomment-565543254",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y76/o",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think its worth fixing. I made an update to your PR where I pushed a branch with the changes I suggested in the PR review:\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1552#issuecomment-565543254"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9379cb7c-22f3-4541-b2c0-193bc1928c38",
+        "type": "message",
+        "text": "Hey can i call you?",
+        "user": "UMQA682PJ",
+        "ts": "1576261838.003900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gKqv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey can i call you?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cce17f71-7197-4b05-9715-bb51200ed772",
+        "type": "message",
+        "text": "i\u2019m on a call at the moment",
+        "user": "U5SUXMJ83",
+        "ts": "1576261851.004200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6AOuB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i\u2019m on a call at the moment"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "99acaddf-7a11-4b61-a1c9-de5e901b470c",
+        "type": "message",
+        "text": "no worries, <tel:3479572027|347-957-2027> is my number.",
+        "user": "UMQA682PJ",
+        "ts": "1576261873.004600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gT+a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no worries, "
+                            },
+                            {
+                                "type": "link",
+                                "url": "tel:3479572027",
+                                "text": "347-957-2027"
+                            },
+                            {
+                                "type": "text",
+                                "text": " is my number."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c0d857c-3839-4fe8-aa77-3c41d3c72287",
+        "type": "message",
+        "text": "want to jump on a blue jeans? I just finished my meeting.\n<https://bluejeans.com/9864541924>",
+        "user": "U5SUXMJ83",
+        "ts": "1576264186.005200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iPKS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "want to jump on a blue jeans? I just finished my meeting.\n"
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://bluejeans.com/9864541924"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3458801-6736-4234-9449-900e80e82885",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576264242.005600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZTdKv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

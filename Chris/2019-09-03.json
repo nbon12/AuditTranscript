@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "234f523a-57d3-4891-8c92-5563e17d1798",
+        "type": "message",
+        "text": "Hi Chris, are you going to the 11am Sprint Demo for Cost Management? Do you have a room booked?",
+        "user": "UMQA682PJ",
+        "ts": "1567521275.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "25702423-2570-4108-9963-a7935122c863",
+        "type": "message",
+        "text": "yes, I\u2019m going to attend. no I don\u2019t have a room. will likely join from my laptop.",
+        "user": "U5SUXMJ83",
+        "ts": "1567521318.001000",
+        "team": "T026NJJ6Z"
+    }
+]

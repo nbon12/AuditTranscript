@@ -1,0 +1,165 @@
+[
+    {
+        "client_msg_id": "f46e4c5d-388c-4799-90c4-abcfc5607efe",
+        "type": "message",
+        "text": "Should i ignore the fact that the parallel unit tests fail and merge it anyway?",
+        "user": "UMQA682PJ",
+        "ts": "1571236880.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a68e19b-591b-4cb4-b2b0-adca18dd943f",
+        "type": "message",
+        "text": "or go around this part of the codebase and keep it non-jinja",
+        "user": "UMQA682PJ",
+        "ts": "1571236916.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "90b427a3-d65c-4f6b-9b83-a6afbbf35c58",
+        "type": "message",
+        "text": "i think i'll go around it for now",
+        "user": "UMQA682PJ",
+        "ts": "1571237012.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5ff31b1c-f1d2-4425-8464-6ebf48c8c921",
+        "type": "message",
+        "text": "Ah yes, I have my 1:1 right now, but I\u2019ll jump back on this right after and see if I see anything.",
+        "user": "U8FS2P1LH",
+        "ts": "1571237944.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8844752f-3d7a-49bc-b02b-f4064b65add2",
+        "type": "message",
+        "text": "also, I noticed every function that needs formatting is almost the same, for example there are multiple functions that look like this:\n``` \n # pylint: disable=invalid-name\n    def populate_pod_label_summary_table(self):\n        \"\"\"Populate the line item aggregated totals data table.\"\"\"\n        table_name = OCP_REPORT_TABLE_MAP['pod_label_summary']\n\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            f'sql/reporting_ocpusagepodlabel_summary.sql'\n        )\n        agg_sql = agg_sql.decode('utf-8').format(schema=self.schema)\n\n        self._commit_and_vacuum(table_name, agg_sql)\n\n    # pylint: disable=invalid-name\n    def populate_volume_claim_label_summary_table(self):\n        \"\"\"Populate the OCP volume claim label summary table.\"\"\"\n\n        table_name = OCP_REPORT_TABLE_MAP['volume_claim_label_summary']\n\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            f'sql/reporting_ocpstoragevolumeclaimlabel_summary.sql'\n        )\n        agg_sql = agg_sql.decode('utf-8').format(schema=self.schema)\n\n        self._commit_and_vacuum(table_name, agg_sql)\n``` what do you think about combining all of the agg_sql functions into one function like this:\n\n```\ndef _populate_agg_sql(self, table_name_input):\n        \"\"\"Populate the OCP table.\"\"\"\n        table_name = OCP_REPORT_TABLE_MAP[table_name_input]\n        agg_sql = pkgutil.get_data(\n            'masu.database',\n            'sql/' + table_name + '.sql'\n        )\n        agg_sql_params = {'schema': self.schema}\n        agg_sql, agg_sql_params = self.jinja_sql.prepare_query(\n            agg_sql, agg_sql_params\n        )\n        self._commit_and_vacuum(table_name, agg_sql, bind_params=list(agg_sql_params))\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571239744.004200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571240934.000000"
+        }
+    },
+    {
+        "client_msg_id": "ec8e8aaa-d4e7-49cc-80a4-4b9fadf82e1e",
+        "type": "message",
+        "text": "and then reduce the combined methods to look like this:\n```\n    def populate_volume_label_summary_table(self):\n        \"\"\"Populate the OCP volume label summary table.\"\"\"\n        self._populate_agg_sql('volume_label_summary')\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571240120.004600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571240923.000000"
+        }
+    },
+    {
+        "client_msg_id": "3b100cc8-5fc3-4468-ad45-caa5295e17fc",
+        "type": "message",
+        "text": "My general rule for refactoring is to try as much as possible to keep it separate from the issue being worked on. This is from personal experience where I\u2019ve gotten myself into the weeds with errors combining a change with a refactor I made along the way. So I now try to come back right after and do the refactor so it has a separate branch/commit/whatever so I can isolate it.",
+        "user": "U8FS2P1LH",
+        "ts": "1571241754.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "517bd169-1f2b-4e5c-9faf-a9fe6d7ef1f3",
+        "type": "message",
+        "text": "But yes, if we\u2019ve got duplicated code that\u2019s prime for refactor.",
+        "user": "U8FS2P1LH",
+        "ts": "1571241768.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88438f9e-fe47-419f-9edd-dc23789de4aa",
+        "type": "message",
+        "text": "i'm in Risk",
+        "user": "UMQA682PJ",
+        "ts": "1571248671.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96ea6065-372e-4ca0-b2d3-e474566b0213",
+        "type": "message",
+        "text": "is the DevSync meeting happening?",
+        "user": "UMQA682PJ",
+        "ts": "1571248828.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f5e74a2-8b70-4342-a17e-39399267bad0",
+        "type": "message",
+        "text": "Riiiight. I canceled it super late. Didn\u2019t realize when I scheduled it that Brett was out this afternoon.",
+        "user": "U8FS2P1LH",
+        "ts": "1571248875.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76361fbf-9f6b-43d7-ab3f-345655d293c9",
+        "type": "message",
+        "text": "Could still talk through some issues for the sprint if it\u2019d be helpful.",
+        "user": "U8FS2P1LH",
+        "ts": "1571248898.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d51a973-3e54-42a3-ae10-975896d102a8",
+        "type": "message",
+        "text": "less meetings are always a welcome thing",
+        "user": "UMQA682PJ",
+        "ts": "1571248917.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5bdfbba0-4114-474d-ac21-785533d9f13b",
+        "type": "message",
+        "text": "but yes, if needed.",
+        "user": "UMQA682PJ",
+        "ts": "1571248923.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eab06e72-60ef-4c5e-87bd-d938357a6981",
+        "type": "message",
+        "text": "i'm good for now though",
+        "user": "UMQA682PJ",
+        "ts": "1571248978.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "49dfea23-0590-4e85-a766-d7b9fb774e79",
+        "type": "message",
+        "text": "Where're Natalie's mocks?",
+        "user": "UMQA682PJ",
+        "ts": "1571248999.010500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571249019.000000"
+        }
+    },
+    {
+        "client_msg_id": "8249f758-c2f1-4304-870d-b5ec50c1f91d",
+        "type": "message",
+        "text": "<https://marvelapp.com/chbd4i7/screen/62528669>",
+        "user": "U8FS2P1LH",
+        "ts": "1571249209.010800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Marvel Prototyping",
+                "title": "Cost overview redesign",
+                "title_link": "https://marvelapp.com/chbd4i7/screen/62528669",
+                "text": "Marvel Prototype for Cost overview redesign",
+                "fallback": "Marvel Prototyping: Cost overview redesign",
+                "thumb_url": "https://marvel-live.freetls.fastly.net/serve/2019/10/01597fd8adbe4152b18efb43eb8f7a25.png?quality=95&fake=.png",
+                "from_url": "https://marvelapp.com/chbd4i7/screen/62528669",
+                "thumb_width": 2365,
+                "thumb_height": 1599,
+                "id": 1,
+                "original_url": "https://marvelapp.com/chbd4i7/screen/62528669"
+            }
+        ]
+    }
+]

@@ -1,0 +1,315 @@
+[
+    {
+        "client_msg_id": "ff443a8b-cb56-478e-a6c5-936d2bb2a5c9",
+        "type": "message",
+        "text": "Hey Andrew, question: is a django app less monolithic than putting everything under API?",
+        "user": "UMQA682PJ",
+        "ts": "1571851031.000400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571851342.000000"
+        }
+    },
+    {
+        "client_msg_id": "e02e9b1b-395c-4128-9db1-53abbc6fe35c",
+        "type": "message",
+        "text": "and consequently easier to debug, maintain, and for new engineers to understand it's scope?",
+        "user": "UMQA682PJ",
+        "ts": "1571851068.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da7a39ad-666f-4490-ad9b-5f6b8753c4f1",
+        "type": "message",
+        "text": "Would it be easier to understand what was and was not an API endpoint if each one was a separate Django app? Mixed in with apps that are definitely not APIs?",
+        "user": "U8FS2P1LH",
+        "ts": "1571853423.003300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1571853437.000000"
+        }
+    },
+    {
+        "client_msg_id": "f513db23-39a4-49c5-9be0-3935babef379",
+        "type": "message",
+        "text": "How would you be able to differentiate them without just knowing?",
+        "user": "U8FS2P1LH",
+        "ts": "1571853449.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7cce120c-445f-4afc-aef6-ce9f95675f02",
+        "type": "message",
+        "text": "So for a new engineer I would argue that it\u2019s easier to point them to the \u201capi\u201d directory/app where all the apis are.",
+        "user": "U8FS2P1LH",
+        "ts": "1571853468.004300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1571853470.000000"
+        }
+    },
+    {
+        "client_msg_id": "4eeaabd3-7bce-4e8d-9474-f48c3f58cd88",
+        "type": "message",
+        "text": "isn't that how cost_models works?",
+        "user": "UMQA682PJ",
+        "ts": "1571853473.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "05989ed8-4fb2-4b3c-9800-d0fbfd29b328",
+        "type": "message",
+        "text": "So cost_models is a little different. It\u2019s a separate app because it needs to live in the tenant schema, not the public schema. Admittedly we could have make a `tenant_api` app or something like that, but naming stuff is hard, and we do our best with what we know at the time.\n\n<https://github.com/project-koku/koku/blob/master/koku/koku/settings.py#L105-L106>",
+        "user": "U8FS2P1LH",
+        "ts": "1571853632.006400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/koku/settings.py:105-106",
+                "text": "```\n    'reporting',\n    'cost_models',\n```",
+                "title": "koku/koku/settings.py:105-106",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/koku/settings.py#L105-L106",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/koku/settings.py#L105-L106",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "80b3032a-97c8-407b-a97d-a4f9f4120225",
+        "type": "message",
+        "text": "But you\u2019re right that we could definitely move the API portion of cost_models over to the api app, and just have it import over what it needs from the cost_models app.",
+        "user": "U8FS2P1LH",
+        "ts": "1571853709.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ffead6f1-01c8-4a0e-91d5-05eedf82b8f8",
+        "type": "message",
+        "text": "can I do that for cloudaccount?",
+        "user": "UMQA682PJ",
+        "ts": "1571853756.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dbee40cd-b494-4a40-94cb-dda5096d78d7",
+        "type": "message",
+        "text": "Why is putting it all in the api app so bad?",
+        "user": "U8FS2P1LH",
+        "ts": "1571853816.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77124e6c-4c1f-40d5-bcf1-2d6e610b6746",
+        "type": "message",
+        "text": "I figured keeping it separate would be more \"micro-service\", keep a clean separation of concerns, and easier to debug, for example, the urls.py app is growing large in `api` and it seems to only be growing larger, this file has many reasons to change, whereas a single responsibility urls.py that would be found in a django app only has urls that apply to a single service.",
+        "user": "UMQA682PJ",
+        "ts": "1571854436.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee61a9cd-4dc1-4302-bfcf-425751eee6df",
+        "type": "message",
+        "text": "and secondly because there's a lot of documentation on the web on how to create a django app, and there's a lot less documentation on how to add something to our api class without breaking other things.",
+        "user": "UMQA682PJ",
+        "ts": "1571854715.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36d168e0-1866-4bc0-9b64-3510e43d58fb",
+        "type": "message",
+        "text": "Second point first: Please feel free to ping Doug or I to work through doing that and getting it running. If things are breaking, just reach out.",
+        "user": "U8FS2P1LH",
+        "ts": "1571854929.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9296df02-1a5a-49f7-927b-3ee3f1456f71",
+        "type": "message",
+        "text": "Would love to run through code, examples, or even just walk through what\u2019s breaking.",
+        "user": "U8FS2P1LH",
+        "ts": "1571855180.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88b7f5c7-d3e5-478f-a049-f5f83a472370",
+        "type": "message",
+        "text": "First point: we\u2019re not running each API as a separate service, so they all bubble up to our unified API server at some point.",
+        "user": "U8FS2P1LH",
+        "ts": "1571855225.014200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fe908b06-07ec-47fc-8ca7-a982378187ed",
+        "type": "message",
+        "text": "I think it probably looks big right now because it\u2019s a new code base.",
+        "user": "U8FS2P1LH",
+        "ts": "1571855262.014500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9f24afb-5107-4392-b980-7d8f96b24047",
+        "type": "message",
+        "text": "It\u2019s definitely a fine architectural decision to keep each API endpoint in its own Django app, but there\u2019s a project with momentum here that\u2019s doing it this one way, popping up one new API that does not follow that pattern will probably lead to maintainability issues later on.",
+        "user": "U8FS2P1LH",
+        "ts": "1571855370.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "11d668c0-7234-469d-8981-036d5012b6a2",
+        "type": "message",
+        "text": "Do you know what this error means?\n```\n(koku) bash-3.2$ python manage.py test api.cloud_accounts\nTraceback (most recent call last):\n  File \"manage.py\", line 15, in &lt;module&gt;\n    execute_from_command_line(sys.argv)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/__init__.py\", line 381, in execute_from_command_line\n    utility.execute()\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/__init__.py\", line 375, in execute\n    self.fetch_command(subcommand).run_from_argv(self.argv)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/commands/test.py\", line 23, in run_from_argv\n    super().run_from_argv(argv)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/base.py\", line 323, in run_from_argv\n    self.execute(*args, **cmd_options)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/base.py\", line 364, in execute\n    output = self.handle(*args, **options)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/core/management/commands/test.py\", line 53, in handle\n    failures = test_runner.run_tests(test_labels)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/test/runner.py\", line 627, in run_tests\n    suite = self.build_suite(test_labels, extra_tests)\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/lib/python3.7/site-packages/django/test/runner.py\", line 517, in build_suite\n    tests = self.test_loader.discover(start_dir=label, **kwargs)\n  File \"/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py\", line 306, in discover\n    os.path.dirname((the_module.__file__)))\n  File \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/bin/../lib/python3.7/posixpath.py\", line 156, in dirname\n    p = os.fspath(p)\nTypeError: expected str, bytes or os.PathLike object, not NoneType\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571860327.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "this is how my directory looks",
+        "files": [
+            {
+                "id": "FPD580VL3",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "ts": "1571860459.017000",
+        "client_msg_id": "e9cedc22-4c1a-4946-bb87-4a48a622da51"
+    },
+    {
+        "client_msg_id": "712b8179-07a5-498d-a125-5c20ae6cf11c",
+        "type": "message",
+        "text": "Try popping an `__init__.py` in the cloud_accounts directory",
+        "user": "U8FS2P1LH",
+        "ts": "1571860636.017400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "B85D4FCE-CB05-4639-80D0-F7E9E12A2FA7",
+        "type": "message",
+        "text": "Yep it works now",
+        "user": "UMQA682PJ",
+        "ts": "1571860673.017600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "579d732c-f54e-492d-bbd2-5feb7c3776b8",
+        "type": "message",
+        "text": ":guitar:",
+        "user": "U8FS2P1LH",
+        "ts": "1571860711.017800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "bot_id": "B03KHKL86",
+        "type": "message",
+        "text": "",
+        "user": "U8FS2P1LH",
+        "ts": "1571860727.018000",
+        "team": "T026NJJ6Z",
+        "bot_profile": {
+            "id": "B03KHKL86",
+            "deleted": false,
+            "name": "giphy",
+            "updated": 1431961482,
+            "app_id": "A0F827J2C",
+            "icons": {
+                "image_36": "https://a.slack-edge.com/80588/img/plugins/giphy/service_36.png",
+                "image_48": "https://a.slack-edge.com/80588/img/plugins/giphy/service_48.png",
+                "image_72": "https://a.slack-edge.com/80588/img/plugins/giphy/service_72.png"
+            },
+            "team_id": "T026NJJ6Z"
+        },
+        "attachments": [
+            {
+                "fallback": "giphy: https://giphy.com/gifs/pokemon-party-dj-smZebGmrrN7eU",
+                "image_url": "https://media0.giphy.com/media/smZebGmrrN7eU/giphy.gif?cid=6104955e6900fafc4a26e128b00f9ef209ecd34d9679870e&rid=giphy.gif",
+                "image_width": 484,
+                "image_height": 468,
+                "image_bytes": 809225,
+                "is_animated": true,
+                "title": "excellent",
+                "footer": "Posted using /giphy",
+                "id": 1,
+                "title_link": "https://giphy.com/gifs/pokemon-party-dj-smZebGmrrN7eU"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "laughing",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "59f6eed9-e0b2-4892-ab20-5bb9122cf635",
+        "type": "message",
+        "text": "what should I do about my makemigrations making migrations for removing AWS_local and AZURE_local?",
+        "user": "UMQA682PJ",
+        "ts": "1571862800.019100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7314b5db-767d-44ac-8935-417766cd88f7",
+        "type": "message",
+        "text": "you mentioned it was because i'm not running DEBUG, how do I run DEBUG?",
+        "user": "UMQA682PJ",
+        "ts": "1571862849.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "019444e0-ef81-443d-94f1-8ddb070bf971",
+        "type": "message",
+        "text": "you can put DEBUG=True in your .env file or `export DEBUG=True` for now",
+        "user": "U8FS2P1LH",
+        "ts": "1571863279.020200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1571863287.000000"
+        }
+    },
+    {
+        "client_msg_id": "3d89e23d-de65-4cd7-b517-9fa38c494c98",
+        "type": "message",
+        "text": "after doing that, this appeared in my migration file:\n```migrations.AlterField(\n            model_name='costmodelmetricsmap',\n            name='source_type',\n            field=models.CharField(choices=[('AWS', 'AWS'), ('OCP', 'OCP'), ('AZURE', 'AZURE'), ('GCP', 'GCP')], max_length=50),\n        ),\n        migrations.AlterField(\n            model_name='provider',\n            name='type',\n            field=models.CharField(choices=[('AWS', 'AWS'), ('OCP', 'OCP'), ('AZURE', 'AZURE'), ('GCP', 'GCP')], default='AWS', max_length=50),\n        ),```",
+        "user": "UMQA682PJ",
+        "ts": "1571863436.020700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571863445.000000"
+        }
+    },
+    {
+        "client_msg_id": "bc626968-c68b-4f82-809c-2b78c764138d",
+        "type": "message",
+        "text": "i'll edit that part out for now?",
+        "user": "UMQA682PJ",
+        "ts": "1571863480.021100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3a1a8301-ced6-4c81-a75d-a9e86982419f",
+        "type": "message",
+        "text": "Yeah, I would remove that migration",
+        "user": "U8FS2P1LH",
+        "ts": "1571863497.021400",
+        "team": "T026NJJ6Z"
+    }
+]

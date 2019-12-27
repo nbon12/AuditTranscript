@@ -1,0 +1,201 @@
+[
+    {
+        "client_msg_id": "2ca66b87-a572-48d0-996a-0326d8d5f6c3",
+        "type": "message",
+        "text": "Hi Andrew, i'm getting a failing test in master branch, do you know what might be causing that locally? here's one of them:\n```Assert the delete_archived_data task is not called if Customer is None. ... FAIL\n\n======================================================================\nFAIL: test_delete_single_provider_skips_delete_archived_data_if_customer_is_none (api.provider.test.tests_models.ProviderModelTest)\nAssert the delete_archived_data task is not called if Customer is None.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/mock.py\", line 1209, in patched\n    return func(*args, **keywargs)\n  File \"/Users/nbonilla/Documents/Koku/koku_2/koku/api/provider/test/tests_models.py\", line 43, in test_delete_single_provider_skips_delete_archived_data_if_customer_is_none\n    self.aws_provider.delete()\nAssertionError: no logs of level WARNING or higher triggered on api.provider.models\n\n----------------------------------------------------------------------\nRan 1 test in 2.462s```",
+        "user": "UMQA682PJ",
+        "ts": "1576254411.000600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YhN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Andrew, i'm getting a failing test in master branch, do you know what might be causing that locally? here's one of them:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Assert the delete_archived_data task is not called if Customer is None. ... FAIL\n\n======================================================================\nFAIL: test_delete_single_provider_skips_delete_archived_data_if_customer_is_none (api.provider.test.tests_models.ProviderModelTest)\nAssert the delete_archived_data task is not called if Customer is None.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/mock.py\", line 1209, in patched\n    return func(*args, **keywargs)\n  File \"/Users/nbonilla/Documents/Koku/koku_2/koku/api/provider/test/tests_models.py\", line 43, in test_delete_single_provider_skips_delete_archived_data_if_customer_is_none\n    self.aws_provider.delete()\nAssertionError: no logs of level WARNING or higher triggered on api.provider.models\n\n----------------------------------------------------------------------\nRan 1 test in 2.462s"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f596c16f-5547-4bb4-a08a-0788f5f9a618",
+        "type": "message",
+        "text": "Try `export DJANGO_DEBUG=True` and try again.",
+        "user": "U8FS2P1LH",
+        "ts": "1576255054.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PZC4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Try "
+                            },
+                            {
+                                "type": "text",
+                                "text": "export DJANGO_DEBUG=True",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and try again."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a29c084f-c639-4d85-b3fe-f0cab480b4fb",
+        "type": "message",
+        "text": "This has come up a few times recently. We have this line in settings.py that silences logs in tests, and it might just be a bigger headache than it\u2019s worth.",
+        "user": "U8FS2P1LH",
+        "ts": "1576255096.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UAP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This has come up a few times recently. We have this line in settings.py that silences logs in tests, and it might just be a bigger headache than it\u2019s worth."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "01774d1e-86af-4fd7-813f-6f2c6063ef0a",
+        "type": "message",
+        "text": "Hi Andrew, do you think we should not merge this bugfix: <https://github.com/project-koku/koku/pull/1552/files>",
+        "user": "UMQA682PJ",
+        "ts": "1576255917.002300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "snpej",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Andrew, do you think we should not merge this bugfix: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1552/files"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "78b5a594-3504-4935-99bf-0e09e401a239",
+        "type": "message",
+        "text": "given the complexity of the function might impact performance",
+        "user": "UMQA682PJ",
+        "ts": "1576256170.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WVY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "given the complexity of the function might impact performance"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c1fda0d9-df1a-424f-b6dd-22d464578b4d",
+        "type": "message",
+        "text": "because the UI is working around this is this worthwhile to fix?",
+        "user": "UMQA682PJ",
+        "ts": "1576256181.002900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XiYXS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "because the UI is working around this is this worthwhile to fix?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "029407bd-a183-4045-92e6-01ce019787e9",
+        "type": "message",
+        "text": "So I\u2019m pretty much on PTO today and it sounds like you\u2019ve been working with Doug and Chris on this, so I\u2019d say just let them help you out, and I should be back on Monday.",
+        "user": "U8FS2P1LH",
+        "ts": "1576256619.003600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mG7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So I\u2019m pretty much on PTO today and it sounds like you\u2019ve been working with Doug and Chris on this, so I\u2019d say just let them help you out, and I should be back on Monday."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

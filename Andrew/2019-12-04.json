@@ -1,0 +1,945 @@
+[
+    {
+        "client_msg_id": "55826b00-a144-4547-94b8-872b3d009c91",
+        "type": "message",
+        "text": "Hi Andrew, while attempting a `tox` I noticed it failed to do pipenv install, because of \"ERROR: Failed building wheel for ciso8601\" I remember last time I had to rebuild my containers to fix this to run locally without tox, but what do I do for tox?",
+        "user": "UMQA682PJ",
+        "ts": "1575487978.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kyE5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Andrew, while attempting a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "tox",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " I noticed it failed to do pipenv install, because of \"ERROR: Failed building wheel for ciso8601\" I remember last time I had to rebuild my containers to fix this to run locally without tox, but what do I do for tox?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ed5a1841-07d4-41c1-9dda-dcfc6a995b7d",
+        "type": "message",
+        "text": "That\u2026 is annoying. Let\u2019s see",
+        "user": "U8FS2P1LH",
+        "ts": "1575488057.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zXzA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That\u2026 is annoying. Let\u2019s see"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a7f76e5-12a5-4f9a-915c-9d25582d9250",
+        "type": "message",
+        "text": "Can you try to put a `--sequential` in tox.ini at the end of the pipenv install line and see if it fixes?",
+        "user": "U8FS2P1LH",
+        "ts": "1575488079.002700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jyD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Can you try to put a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "--sequential",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " in tox.ini at the end of the pipenv install line and see if it fixes?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e97315e5-91f5-4e08-ad5f-95ca95f7fe8e",
+        "type": "message",
+        "text": "Don\u2019t have to keep it there, just try 1 time to get ciso8601 in your tox env.",
+        "user": "U8FS2P1LH",
+        "ts": "1575488093.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JEfc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Don\u2019t have to keep it there, just try 1 time to get ciso8601 in your tox env."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3dbde476-12b5-4c36-8e1a-2d8462e8e972",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1575488128.003500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fR=6q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "alright"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "24a27230-4a15-483b-a845-254689f7e189",
+        "type": "message",
+        "text": "loading.",
+        "user": "UMQA682PJ",
+        "ts": "1575488169.004000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LY7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "loading."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "287cb9a9-9e0d-46a9-8018-06b6675aab3e",
+        "type": "message",
+        "text": ":crossed_fingers:",
+        "user": "U8FS2P1LH",
+        "ts": "1575488172.004200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8IPv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "crossed_fingers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5b5cb80f-c8b2-47a3-9bdc-18cc2cfa53cb",
+        "type": "message",
+        "text": "Come on!!",
+        "user": "U8FS2P1LH",
+        "ts": "1575488176.004400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oMHq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Come on!!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7033e730-d4bf-4c28-ba60-8e642f63e42d",
+        "type": "message",
+        "text": "different error this time:\n```_schemas/postgresql_backend/base.py\", line 3, in <module>\n    import psycopg2\nModuleNotFoundError: No module named 'psycopg2'````",
+        "user": "UMQA682PJ",
+        "ts": "1575488446.004800",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575488472.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/04hN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "different error this time:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "_schemas/postgresql_backend/base.py\", line 3, in <module>\n    import psycopg2\nModuleNotFoundError: No module named 'psycopg2'`"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e5821739-1aad-4db5-8d0c-d9fb7b2cc647",
+        "type": "message",
+        "text": "maybe i need to exit my pipenv and enter it again.",
+        "user": "UMQA682PJ",
+        "ts": "1575488536.005300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZX+B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "maybe i need to exit my pipenv and enter it again."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "61a934bb-4f58-4e3c-b20b-dddbc266d45d",
+        "type": "message",
+        "text": "Is it erroring?",
+        "user": "U8FS2P1LH",
+        "ts": "1575488547.005500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=IL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is it erroring?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b316ed2-ef67-4549-80af-42645c8740fb",
+        "type": "message",
+        "text": "<https://koku.readthedocs.io/en/latest/README.html#development>",
+        "user": "U8FS2P1LH",
+        "ts": "1575488549.005700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xhT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://koku.readthedocs.io/en/latest/README.html#development"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "01ca2ec8-7624-442c-90a9-275c51694273",
+        "type": "message",
+        "text": "Do you still have openssl linked and all that?",
+        "user": "U8FS2P1LH",
+        "ts": "1575488556.006000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PFkcT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Do you still have openssl linked and all that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "109a98c2-9588-41db-a0ef-8b48c486fcef",
+        "type": "message",
+        "text": "Actually let\u2019s try something.",
+        "user": "U8FS2P1LH",
+        "ts": "1575488597.006500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oR9v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Actually let\u2019s try something."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "84a64fc2-8ebb-43f9-9ec5-3efee67bb190",
+        "type": "message",
+        "text": "yes, this is my .env\n```DATABASE_SERVICE_NAME=POSTGRES_SQL\nDATABASE_ENGINE=postgresql\nDATABASE_NAME=postgres\nAPI_PATH_PREFIX=/api/cost-management\nPOSTGRES_SQL_SERVICE_HOST=localhost\nPOSTGRES_SQL_SERVICE_PORT=15432\nDATABASE_USER=postgres\nDATABASE_ADMIN=postgres\nDATABASE_PASSWORD=postgres\nDEVELOPMENT=True\n\nAWS_ACCESS_KEY_ID=snip\nAWS_SECRET_ACCESS_KEY=snip\nENABLE_S3_ARCHIVING=True\nS3_BUCKET_NAME=koku-bucket\nS3_BUCKET_PATH=data_archive\n\n#GOOGLE_APPLICATION_CREDENTIALS=/path/to/gcp/credentials\nLDFLAGS=\"-L/usr/local/opt/openssl/lib\"\nCPPFLAGS=\"-I/usr/local/opt/openssl/include\"\n\n#RABBITMQ_HOST=${RABBITMQ_HOST-koku-rabbit}\n#RABBITMQ_PORT=5672\nLOG_LEVEL=INFO\nDJANGO_SETTINGS_MODULE=koku.settings\nMASU_SECRET_KEY=abc\nprometheus_multiproc_dir=/tmp\nSCHEDULE_REPORT_CHECKS=True\nSCHEDULE_CHECK_INTERVAL=10000000\nUPLOAD_NORMALIZED_DATA_INTERVAL=10000000```",
+        "user": "UMQA682PJ",
+        "ts": "1575488622.007000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "13T1R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes, this is my .env\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "DATABASE_SERVICE_NAME=POSTGRES_SQL\nDATABASE_ENGINE=postgresql\nDATABASE_NAME=postgres\nAPI_PATH_PREFIX=/api/cost-management\nPOSTGRES_SQL_SERVICE_HOST=localhost\nPOSTGRES_SQL_SERVICE_PORT=15432\nDATABASE_USER=postgres\nDATABASE_ADMIN=postgres\nDATABASE_PASSWORD=postgres\nDEVELOPMENT=True\n\nAWS_ACCESS_KEY_ID=snip\nAWS_SECRET_ACCESS_KEY=snip\nENABLE_S3_ARCHIVING=True\nS3_BUCKET_NAME=koku-bucket\nS3_BUCKET_PATH=data_archive\n\n#GOOGLE_APPLICATION_CREDENTIALS=/path/to/gcp/credentials\nLDFLAGS=\"-L/usr/local/opt/openssl/lib\"\nCPPFLAGS=\"-I/usr/local/opt/openssl/include\"\n\n#RABBITMQ_HOST=${RABBITMQ_HOST-koku-rabbit}\n#RABBITMQ_PORT=5672\nLOG_LEVEL=INFO\nDJANGO_SETTINGS_MODULE=koku.settings\nMASU_SECRET_KEY=abc\nprometheus_multiproc_dir=/tmp\nSCHEDULE_REPORT_CHECKS=True\nSCHEDULE_CHECK_INTERVAL=10000000\nUPLOAD_NORMALIZED_DATA_INTERVAL=10000000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dbf77729-b100-4b9a-a0ef-6cb86697ae8e",
+        "type": "message",
+        "text": "`echo $LDFLAGS`",
+        "user": "U8FS2P1LH",
+        "ts": "1575488655.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QVr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "echo $LDFLAGS",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "678fc49e-6c6b-4e91-8e1b-c008abd233b1",
+        "type": "message",
+        "text": "See if it actually makes the env var, I feel like we\u2019ve seen some weird things with this\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1575488668.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MR2K",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "See if it actually makes the env var, I feel like we\u2019ve seen some weird things with this\u2026"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0ab3fbf-4641-4474-a5eb-3b0356d2f8b2",
+        "type": "message",
+        "text": "```(koku) nbonilla@MacBook-Pro koku % echo $LDFLAGS\n-L/usr/local/opt/openssl/lib```",
+        "user": "UMQA682PJ",
+        "ts": "1575488723.008100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "da0U",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(koku) nbonilla@MacBook-Pro koku % echo $LDFLAGS\n-L/usr/local/opt/openssl/lib"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8a33298e-da9c-479b-a025-9afeb8303428",
+        "type": "message",
+        "text": "Okay, that\u2019s good.",
+        "user": "U8FS2P1LH",
+        "ts": "1575488730.008300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vdYLB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay, that\u2019s good."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22b07ca3-ec1a-44f0-a648-760584a59072",
+        "type": "message",
+        "text": "`which openssl`",
+        "user": "U8FS2P1LH",
+        "ts": "1575488735.008600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f=kJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "which openssl",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e541e985-2837-488b-96cd-9e6d701e6245",
+        "type": "message",
+        "text": "```(koku) nbonilla@MacBook-Pro koku % which openssl\n/usr/bin/openssl```",
+        "user": "UMQA682PJ",
+        "ts": "1575488747.008900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xi0nh",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(koku) nbonilla@MacBook-Pro koku % which openssl\n/usr/bin/openssl"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bb9b697-1a60-47a2-b3c6-301f87250d15",
+        "type": "message",
+        "text": "Ah, yeah. Is `/usr/local/opt/openssl/bin` on your PATH?",
+        "user": "U8FS2P1LH",
+        "ts": "1575488789.009200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RvdjC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Ah, yeah. Is "
+                            },
+                            {
+                                "type": "text",
+                                "text": "/usr/local/opt/openssl/bin",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on your PATH?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d203fc43-1035-4912-8d46-12ff580679e1",
+        "type": "message",
+        "text": "I don't see it in $PATH",
+        "user": "UMQA682PJ",
+        "ts": "1575488823.009500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QIUN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't see it in $PATH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "728af5ea-726d-4082-9bee-6f9554368d95",
+        "type": "message",
+        "text": "```(koku) nbonilla@MacBook-Pro koku % echo $PATH\n/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/python/3.7.4_1/bin/python3:/usr/local/munki```",
+        "user": "UMQA682PJ",
+        "ts": "1575488832.010000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qyo",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(koku) nbonilla@MacBook-Pro koku % echo $PATH\n/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/python/3.7.4_1/bin/python3:/usr/local/munki"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "777051f4-af19-4cbb-8fbe-f336d4db6180",
+        "type": "message",
+        "text": "So do that step too.",
+        "user": "U8FS2P1LH",
+        "ts": "1575488841.010200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WZAFY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So do that step too."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3accad6d-b4e8-4485-aec9-c3d75a4cf756",
+        "type": "message",
+        "text": "`export PATH=/usr/local/opt/openssl/bin:$PATH`",
+        "user": "U8FS2P1LH",
+        "ts": "1575488875.010500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KoJJC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "export PATH=/usr/local/opt/openssl/bin:$PATH",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ea588d1d-be61-4e0f-ba39-40139e9b035e",
+        "type": "message",
+        "text": "loading tox again",
+        "user": "UMQA682PJ",
+        "ts": "1575488958.010900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aSr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "loading tox again"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b35eae2d-5466-49a1-bc05-f2fedc43cbbb",
+        "type": "message",
+        "text": "same error",
+        "user": "UMQA682PJ",
+        "ts": "1575489196.011100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K36n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "same error"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28ef1a37-37e1-4f0d-8a61-8a7985909ddf",
+        "type": "message",
+        "text": "Hrmm pain. Okay try adding `psycopg2-binary` to the dev section of the pipfile.",
+        "user": "U8FS2P1LH",
+        "ts": "1575489306.011700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lUxNh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hrmm pain. Okay try adding "
+                            },
+                            {
+                                "type": "text",
+                                "text": "psycopg2-binary",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " to the dev section of the pipfile."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "09cb14e1-a014-4ad9-990f-a8ef20368ac4",
+        "type": "message",
+        "text": "The binary is pre-built so maybe it will work here.",
+        "user": "U8FS2P1LH",
+        "ts": "1575489315.012100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mKcs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The binary is pre-built so maybe it will work here."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b74da8c-c576-4a2c-ab09-375db221ba4d",
+        "type": "message",
+        "text": "gotta run to medical appointment, i'll be back later today.",
+        "user": "UMQA682PJ",
+        "ts": "1575489681.012700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cl3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gotta run to medical appointment, i'll be back later today."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8269d436-9d1c-4f1f-b334-6fe31dadacf7",
+        "type": "message",
+        "text": "Okay. Sorry for this delay.",
+        "user": "U8FS2P1LH",
+        "ts": "1575489695.012900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x=Igk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay. Sorry for this delay."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3c7c9c3e-8ad9-4a02-ab9d-6b2a13f4ab22",
+        "type": "message",
+        "text": "We can figure it out.",
+        "user": "U8FS2P1LH",
+        "ts": "1575489699.013100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8tuzN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "We can figure it out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e6d3c586-b3ef-48d1-9a8a-1600d28393f1",
+        "type": "message",
+        "text": "an update: after installing psycopg2-binary to the pipfile and locking the pipfile, tox now says 'no module named 'psutil'",
+        "user": "UMQA682PJ",
+        "ts": "1575496825.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OJe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "an update: after installing psycopg2-binary to the pipfile and locking the pipfile, tox now says 'no module named 'psutil'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

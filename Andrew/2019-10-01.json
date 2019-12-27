@@ -1,0 +1,415 @@
+[
+    {
+        "client_msg_id": "2919dcce-9b3a-4db5-ab4b-e67002c823db",
+        "type": "message",
+        "text": "Hey i'm getting an odd error when I pass the jinja params into the cursor.execute(sql, params) method, it's saying \"TypeError: 'odict_values' object does not support indexing\", My \"params\" object looks like this: `odict_values(['8b370906_ffff_4fde_80c0_6ee7623008b9', 'acct10001', 'acct10001', datetime.datetime(2019, 8, 3, 0, 0, tzinfo=&lt;UTC&gt;), datetime.datetime(2019, 10, 1, 0, 0, tzinfo=&lt;UTC&gt;), 'AND cost_entry_bill_id IN (1,2,3,4,5,6,7,8,9,10,11)', 'acct10001', datetime.datetime(2019, 8, 3, 0, 0, tzinfo=&lt;UTC&gt;), datetime.datetime(2019, 10, 1, 0, 0, tzinfo=&lt;UTC&gt;), 'AND cost_entry_bill_id IN (1,2,3,4,5,6,7,8,9,10,11)', 'acct10001', '8b370906_ffff_4fde_80c0_6ee7623008b9'])`",
+        "user": "UMQA682PJ",
+        "ts": "1569945993.001400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1569946198.000000"
+        }
+    },
+    {
+        "client_msg_id": "60c7f482-706d-4857-91e0-84cd7015728d",
+        "type": "message",
+        "text": "I looked into the odict object, and it doesn't support indexing, but it seems that cursor.execute requires the object to support indexing, After that initial error, I tried transforming it into a `list` object using `list(bind_params)` but now the strings all come with the apostraphe's in the SQL, for example: `LINE 3: ...PORARY TABLE reporting_awscostentrylineitem_daily_'8b370906_...`",
+        "user": "UMQA682PJ",
+        "ts": "1569946135.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e1a8b59-3697-4075-87fe-817c58f166f9",
+        "type": "message",
+        "text": "so I could just go through the list and remove all apostraphes at the beginning and end of each item in the list, what do you think about that solution?",
+        "user": "UMQA682PJ",
+        "ts": "1569946167.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "80a36005-512a-4a98-9734-abe601e66177",
+        "type": "message",
+        "text": "actually that may not work, I don't think they actually have apostraphe's in the strings themselves",
+        "user": "UMQA682PJ",
+        "ts": "1569946399.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff608ccd-c2ac-4ece-bea3-09c0df9ecdc2",
+        "type": "message",
+        "text": "First, that\u2019s a bummer that it\u2019s not working out the gate.",
+        "user": "U8FS2P1LH",
+        "ts": "1569946404.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e005a6f-f7a6-482a-af68-d7ea95c0f27f",
+        "type": "message",
+        "text": "Curious that it is returning a dictionary values and not just a list\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1569946507.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7906b9a2-96b0-4fba-9d5b-48b6e75cd5f8",
+        "type": "message",
+        "text": "I think i found out why, the docs say \"table and column names are usually not allowed in bind parameters, In such case you can use the `|sqlsafe` filter `select {{column_names | sqlsafe}} from dual`\nIf you use sqlsafe, it is your responsibility to ensure there is no sql injection.\"",
+        "user": "UMQA682PJ",
+        "ts": "1569946659.006700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1569946687.000000"
+        }
+    },
+    {
+        "client_msg_id": "85c14789-f068-42cd-8fe2-9ec760176ceb",
+        "type": "message",
+        "text": "i'll try that",
+        "user": "UMQA682PJ",
+        "ts": "1569946710.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "334522b4-9c50-497e-8182-83b8d5603e94",
+        "type": "message",
+        "text": "Okay, we shouldn\u2019t have any variables that are table or column names",
+        "user": "U8FS2P1LH",
+        "ts": "1569946745.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "682461e8-ab4e-44e5-b019-e29b0d224839",
+        "type": "message",
+        "text": "But yeah, the one that is used in a table name might need that sqlsafe, you are right.",
+        "user": "U8FS2P1LH",
+        "ts": "1569946763.008000",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1569946775.000000"
+        }
+    },
+    {
+        "client_msg_id": "9e8a5992-9b29-4b2f-b160-d5f45311755d",
+        "type": "message",
+        "text": "do you mean \"shouldn't\" as in, in the future we should avoid variable table and column names? or do you mean \"shouldn't\" as in we currently don't?",
+        "user": "UMQA682PJ",
+        "ts": "1569947065.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b8f2ab99-9a1b-40eb-87b3-687dc524f6c9",
+        "type": "message",
+        "text": "What's the purpose of creating temporary tables? I ask for learning purposes. Do we temporarily store data here? or are they like \"Views\" that we query later.",
+        "user": "UMQA682PJ",
+        "ts": "1569947248.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "71d6cb7a-fb3f-4819-bc8b-11ba5ab4e80f",
+        "type": "message",
+        "text": "Currently don\u2019t. But that uuid is part of the temporary table name, so I think you were right there.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950200.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bb2e6985-04bc-40eb-9356-92a14ef7215a",
+        "type": "message",
+        "text": "it works now",
+        "user": "UMQA682PJ",
+        "ts": "1569950289.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f17db4fb-a4c0-482b-9672-705ce19afaa0",
+        "type": "message",
+        "text": "Temporary tables are basically for temporary data storage. Instead of keeping the query in memory it will write to disk like a table, but the table is tied to the session/transaction, so when you disconnect it goes away.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950298.013800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc332960-bf98-4b13-a6b5-0a02012ac9a2",
+        "type": "message",
+        "text": "We use temp tables to store an intermediate form of some data in some of our SQL. For some of our report processing when we load in raw data we first load it into a temporary table so it\u2019s all in the database, and then \u201cmerge/upsert\u201d the data into the normal table with an `INSERT ON CONFLICT DO UPDATE`",
+        "user": "U8FS2P1LH",
+        "ts": "1569950379.015400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1569950450.000000"
+        }
+    },
+    {
+        "client_msg_id": "0e300ddb-e14a-4ecf-baa6-d5cf9c53dead",
+        "type": "message",
+        "text": "Glad it\u2019s working!",
+        "user": "U8FS2P1LH",
+        "ts": "1569950474.015800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd312c16-f9c4-4545-9cd5-3dfa16c9afdd",
+        "type": "message",
+        "text": "still gotta clean it up now, i put the SQL directly in the python file for now for testing purposes and i'll move it out.",
+        "user": "UMQA682PJ",
+        "ts": "1569950552.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f5b1dcf-c052-47be-9abb-b60ef05bea44",
+        "type": "message",
+        "text": "Sounds good.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950573.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "255ace15-9d46-4cfc-b4c6-53be4a47ea72",
+        "type": "message",
+        "text": "also i made this change to report_db_accessor_base.py, do you have any early feedback?",
+        "user": "UMQA682PJ",
+        "ts": "1569950596.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "03646b33-b6f7-401f-8362-6c6525fc2736",
+        "type": "message",
+        "text": "```def _commit_and_vacuum(self, table, sql, start=None, end=None, bind_params=None):\n        \"\"\"Commit query to a table and vacuum.\"\"\"\n        if start and end:\n            <http://LOG.info|LOG.info>('Updating %s from %s to %s.',\n                     table, start, end)\n        else:\n            <http://LOG.info|LOG.info>('Updating %s', table)\n        import pdb\n        pdb.set_trace()\n        if KokuDBAccess._savepoints:\n            transaction.savepoint_commit(KokuDBAccess._savepoints.pop())\n        with connection.cursor() as cursor:\n            cursor.db.set_schema(self.schema)\n            if bind_params is not None:\n                cursor.execute(sql, bind_params)\n            else:\n                cursor.execute(sql)\n            cursor.db.commit()\n            self.vacuum_table(table)\n        <http://LOG.info|LOG.info>('Finished updating %s.', table)```",
+        "user": "UMQA682PJ",
+        "ts": "1569950598.017500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1569950689.000000"
+        }
+    },
+    {
+        "client_msg_id": "22e90d25-59c4-4b5d-bbb7-414781f55fec",
+        "type": "message",
+        "text": "If you edit that with triple ticks it will format it. The single ticks only work on the same line.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950648.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b2952ef1-de27-4990-949b-de306c8cdd1e",
+        "type": "message",
+        "text": "Do you have a branch up on github I could look at the diff on? That would help me see what changed. If not, that\u2019s okay. I can figure it out.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950711.018800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39cff46c-8054-4348-93bc-1f3bc2cc4966",
+        "type": "message",
+        "text": "Don\u2019t worry about it here, it\u2019s a small enough change.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950759.019300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f25b64b5-fb78-4878-99eb-7e108f014011",
+        "type": "message",
+        "text": "i haven't pushed it yet, here's the git diff",
+        "user": "UMQA682PJ",
+        "ts": "1569950779.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "abfb4233-72ff-4791-9b13-077485e10c1f",
+        "type": "message",
+        "text": "basically this, right?\n\n```\n            if bind_params is not None:\n                cursor.execute(sql, bind_params)\n            else:\n                cursor.execute(sql)\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1569950782.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a32bde2-964a-486f-8695-ff9fb475fd76",
+        "type": "message",
+        "text": "ignore the pdb set_trace",
+        "user": "UMQA682PJ",
+        "ts": "1569950784.020000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "46e6bf40-634e-4345-befe-a3df2f5a52bf",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1569950788.020200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a98be97d-7c1d-463d-becb-bfb4fbcc69e2",
+        "type": "message",
+        "text": "```@@ -412,19 +412,23 @@ class ReportDBAccessorBase(KokuDBAccess):\n                 value = None\n         return value\n \n-    def _commit_and_vacuum(self, table, sql, start=None, end=None):\n+    def _commit_and_vacuum(self, table, sql, start=None, end=None, bind_params=None):\n         \"\"\"Commit query to a table and vacuum.\"\"\"\n         if start and end:\n             <http://LOG.info|LOG.info>('Updating %s from %s to %s.',\n                      table, start, end)\n         else:\n             <http://LOG.info|LOG.info>('Updating %s', table)\n-\n+        import pdb\n+        pdb.set_trace()\n         if KokuDBAccess._savepoints:\n             transaction.savepoint_commit(KokuDBAccess._savepoints.pop())\n         with connection.cursor() as cursor:\n             cursor.db.set_schema(self.schema)\n-            cursor.execute(sql)\n+            if bind_params is not None:\n+                cursor.execute(sql, bind_params)\n+            else:\n+                cursor.execute(sql)\n             cursor.db.commit()\n             self.vacuum_table(table)\n         <http://LOG.info|LOG.info>('Finished updating %s.', table)```",
+        "user": "UMQA682PJ",
+        "ts": "1569950794.020400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee683934-403f-44bc-9396-b500bf6b84d3",
+        "type": "message",
+        "text": "Yes, that is great.",
+        "user": "U8FS2P1LH",
+        "ts": "1569950810.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88746049-1bab-4db7-b5e6-e0c2a0d3e63e",
+        "type": "message",
+        "text": "awesome, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1569950827.020800",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "thumbs-up-left",
+                "users": [
+                    "U8FS2P1LH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "89a4e365-f3cb-4249-b19f-40e34ff19484",
+        "type": "message",
+        "text": "quick question, do you know why `from jinjasql import JinjaSql` fails in the imports section of aws_report_db_accessor.py, but it works when I do `from jinjasql import JinjaSql` inside one of the methods in the class?",
+        "user": "UMQA682PJ",
+        "ts": "1569956091.022700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0df16762-9403-48ca-ab67-924f68993881",
+        "type": "message",
+        "text": "how does it fail?",
+        "user": "U8FS2P1LH",
+        "ts": "1569956158.022900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7c3a9e20-a654-4ffc-a250-bdf76be1e096",
+        "type": "message",
+        "text": "ModuleNotFoundError: No module named 'jinjasql'",
+        "user": "UMQA682PJ",
+        "ts": "1569956169.023100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "433afb40-821e-4589-91c1-c18879687c0e",
+        "type": "message",
+        "text": "Is it in the pipenv/pipenv.lock files and if you are running from docker did you remake your container?",
+        "user": "U8FS2P1LH",
+        "ts": "1569956223.023700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5a0c44f8-64f9-49d7-8d9e-13171831101d",
+        "type": "message",
+        "text": "not sure, here's the diff: <https://github.com/project-koku/koku/pull/1192/files#diff-46bb8405eeb4d8a11deb635f562f7c48>",
+        "user": "UMQA682PJ",
+        "ts": "1569956577.023900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57cdfaa6-3779-4df3-a55f-15e49e62e755",
+        "type": "message",
+        "text": "Trying it out locally right quick\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1569956697.024100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "481333cd-5709-4727-8f78-3d9cf9bfc876",
+        "type": "message",
+        "text": "Okay, it\u2019s in the Pipfile just fine. I would do a docker-compose down/up for the worker.",
+        "user": "U8FS2P1LH",
+        "ts": "1569956824.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2639fc42-1ad4-4414-a3bc-927c8b29d0e4",
+        "type": "message",
+        "text": "I assume the failure is happening in the worker?",
+        "user": "U8FS2P1LH",
+        "ts": "1569956830.025100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36f9062f-7d93-4086-94ef-421536aebc1e",
+        "type": "message",
+        "text": "Or how are you triggering this such that you get an import error?",
+        "user": "U8FS2P1LH",
+        "ts": "1569956840.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d3d90f6b-7d93-49a6-b441-867209a4b703",
+        "type": "message",
+        "text": "it's during the tox unit tests",
+        "user": "UMQA682PJ",
+        "ts": "1569956840.025600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2090e268-de60-407e-bc2d-162c978cbc7a",
+        "type": "message",
+        "text": "Ahhhhh",
+        "user": "U8FS2P1LH",
+        "ts": "1569956863.026100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a5607d0c-f53b-415d-a0f1-eb7f47b7afa8",
+        "type": "message",
+        "text": "Did you comment out the line that runs `pipenv install --dev --ignore-pipfile`?",
+        "user": "U8FS2P1LH",
+        "ts": "1569956935.027000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "05d63b80-45ea-45c6-9431-c84da2983b73",
+        "type": "message",
+        "text": "tox maintains separate virtualenvs for each test environment, so it needs to install dependencies for them to be available.",
+        "user": "U8FS2P1LH",
+        "ts": "1569956968.027600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5368b952-b009-4f75-adf2-fcbe2c0b3faf",
+        "type": "message",
+        "text": "that line was already commented out for some reason",
+        "user": "UMQA682PJ",
+        "ts": "1569957721.029000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f5200ab-69c7-4e58-af83-c9bb5ef00e2c",
+        "type": "message",
+        "text": "i must have commented it out before",
+        "user": "UMQA682PJ",
+        "ts": "1569957743.029200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bff5d63a-6a45-4c64-a07d-d0c399d32444",
+        "type": "message",
+        "text": "not sure why",
+        "user": "UMQA682PJ",
+        "ts": "1569957746.029400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2cdc6bcc-0050-4104-8c24-7333fcad1b81",
+        "type": "message",
+        "text": "Quite possibly. It\u2019s annoying when you are running tests a lot in a row.",
+        "user": "U8FS2P1LH",
+        "ts": "1569957757.029800",
+        "team": "T026NJJ6Z"
+    }
+]

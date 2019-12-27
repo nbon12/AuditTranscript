@@ -1,0 +1,1034 @@
+[
+    {
+        "client_msg_id": "004a7a78-9bd8-4618-8b3f-b2f4e712a5d7",
+        "type": "message",
+        "text": "Hi, I'm going to be coming into the office every day.",
+        "user": "UMQA682PJ",
+        "ts": "1576180408.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4UPLI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, I'm going to be coming into the office every day."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ebd8deab-6a1f-4281-a94d-564629b2c5ac",
+        "type": "message",
+        "text": "For the purpose of being with team members more",
+        "user": "UMQA682PJ",
+        "ts": "1576180423.001600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "igIE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "For the purpose of being with team members more"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a154fa67-8bc5-4f68-b430-42f3e4471513",
+        "type": "message",
+        "text": "it would be nice to see you tomorrow!",
+        "user": "UMQA682PJ",
+        "ts": "1576180429.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1pK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it would be nice to see you tomorrow!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee4ea92e-d971-4ff7-954e-b822db62e0c8",
+        "type": "message",
+        "text": "Great. I\u2019ll be in again starting Monday. I have been sick this week so keeping it home.",
+        "user": "U8FS2P1LH",
+        "ts": "1576180492.002700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aBD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Great. I\u2019ll be in again starting Monday. I have been sick this week so keeping it home."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4116feea-c3a7-49c6-9522-89c598f76b83",
+        "type": "message",
+        "text": "also for the issue I'm working on I'd like to split it into 2 PRs, one for AWS, and another for the other cloud providers, since I've already finished the AWS part and would like this to be iteratively merged, also this would give Luke an opportunity to start writing tests for at least the AWS portion so it's not all at the same time and he can give early feedback.",
+        "user": "UMQA682PJ",
+        "ts": "1576180670.004500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576180679.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L8Joy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also for the issue I'm working on I'd like to split it into 2 PRs, one for AWS, and another for the other cloud providers, since I've already finished the AWS part and would like this to be iteratively merged, also this would give Luke an opportunity to start writing tests for at least the AWS portion so it's not all at the same time and he can give early feedback."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd436304-eb8d-4fa5-bc34-823cdc644af1",
+        "type": "message",
+        "text": "It\u2019s okay to keep it as a work in progress if you\u2019re just moving the code over to the base class. Do the other provide types require different code?",
+        "user": "U8FS2P1LH",
+        "ts": "1576185381.006200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PsN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It\u2019s okay to keep it as a work in progress if you\u2019re just moving the code over to the base class. Do the other provide types require different code?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79d66322-ef8f-42d5-9138-6890ada40cb4",
+        "type": "message",
+        "text": "question: im getting lint errors for koku/masu/processor/tasks but i never touched that file, why is that?",
+        "user": "UMQA682PJ",
+        "ts": "1576185524.007000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oYnkA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "question: im getting lint errors for koku/masu/processor/tasks but i never touched that file, why is that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4699fc37-20ad-41e7-a1a1-16a7c3bdf827",
+        "type": "message",
+        "text": "Is this locally?",
+        "user": "U8FS2P1LH",
+        "ts": "1576185735.007200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8bI=b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is this locally?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "eabe8d3a-1269-48b1-8b8c-d89eb118928e",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576185741.007400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uf1D2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1bf29211-1b76-4576-9a68-ea9f6789e136",
+        "type": "message",
+        "text": "```koku/masu/processor/tasks.py:346:1: D202 No blank lines allowed after function docstring\nkoku/masu/celery/tasks.py:249:1: D413 Missing blank line after last section\nkoku/masu/celery/tasks.py:313:1: D103 Missing docstring in public function\nkoku/sources/test/api/test_serializers.py:30:1: D204 1 blank line required after class docstring\nkoku/sources/test/api/test_serializers.py:32:1: D401 First line should be in imperative mood; try rephrasing\nkoku/sources/test/api/test_view.py:33:1: D204 1 blank line required after class docstring\nkoku/sources/test/api/test_view.py:35:1: D401 First line should be in imperative mood; try rephrasing\nkoku/sources/test/api/test_view.py:110:1: D202 No blank lines allowed after function docstring\nkoku/api/utils.py:36:1: D102 Missing docstring in public method\nkoku/api/tests_query_handler.py:22:1: I100 Import statements are in the wrong order. 'from api.iam.test.iam_test_case import IamTestCase' should be before 'from api.report.test.aws.helpers import AWSReportDataGenerator'\nkoku/api/sources/test/test_view.py:34:1: D204 1 blank line required after class docstring\nkoku/api/sources/test/test_view.py:36:1: D401 First line should be in imperative mood; try rephrasing\nkoku/api/sources/test/test_view.py:96:1: D202 No blank lines allowed after function docstring\nkoku/api/sources/test/test_view.py:110:1: D202 No blank lines allowed after function docstring\nkoku/api/report/queries.py:392:1: D413 Missing blank line after last section\nkoku/koku/log.py:41:1: D401 First line should be in imperative mood; try rephrasing```",
+        "user": "UMQA682PJ",
+        "ts": "1576185751.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oCAb",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "koku/masu/processor/tasks.py:346:1: D202 No blank lines allowed after function docstring\nkoku/masu/celery/tasks.py:249:1: D413 Missing blank line after last section\nkoku/masu/celery/tasks.py:313:1: D103 Missing docstring in public function\nkoku/sources/test/api/test_serializers.py:30:1: D204 1 blank line required after class docstring\nkoku/sources/test/api/test_serializers.py:32:1: D401 First line should be in imperative mood; try rephrasing\nkoku/sources/test/api/test_view.py:33:1: D204 1 blank line required after class docstring\nkoku/sources/test/api/test_view.py:35:1: D401 First line should be in imperative mood; try rephrasing\nkoku/sources/test/api/test_view.py:110:1: D202 No blank lines allowed after function docstring\nkoku/api/utils.py:36:1: D102 Missing docstring in public method\nkoku/api/tests_query_handler.py:22:1: I100 Import statements are in the wrong order. 'from api.iam.test.iam_test_case import IamTestCase' should be before 'from api.report.test.aws.helpers import AWSReportDataGenerator'\nkoku/api/sources/test/test_view.py:34:1: D204 1 blank line required after class docstring\nkoku/api/sources/test/test_view.py:36:1: D401 First line should be in imperative mood; try rephrasing\nkoku/api/sources/test/test_view.py:96:1: D202 No blank lines allowed after function docstring\nkoku/api/sources/test/test_view.py:110:1: D202 No blank lines allowed after function docstring\nkoku/api/report/queries.py:392:1: D413 Missing blank line after last section\nkoku/koku/log.py:41:1: D401 First line should be in imperative mood; try rephrasing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7daefee5-11fb-4262-859d-f209c1fcc7b5",
+        "type": "message",
+        "text": "Merge master in recently?",
+        "user": "U8FS2P1LH",
+        "ts": "1576185769.008000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8Zfs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Merge master in recently?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "49d31aab-b463-4e8b-a928-7adb80688182",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576185783.008200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7vO5d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "357aac71-ce15-4ad6-8adf-bb42b8043bd7",
+        "type": "message",
+        "text": "Any merge conflicts?",
+        "user": "U8FS2P1LH",
+        "ts": "1576185790.008400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Dpd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Any merge conflicts?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "27a322d4-08d5-40af-bd2f-9cf915fadfc1",
+        "type": "message",
+        "text": "Could have been a bad merge.",
+        "user": "U8FS2P1LH",
+        "ts": "1576185803.008600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z6ziK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Could have been a bad merge."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "53bd57a4-d70c-4e90-88a5-f63bf0f995b9",
+        "type": "message",
+        "text": "I dont see merge conflicts",
+        "user": "UMQA682PJ",
+        "ts": "1576185977.008800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MB3UY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I dont see merge conflicts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a0e6679-c70b-4905-87f5-6b3c6288942f",
+        "type": "message",
+        "text": "but I dont know",
+        "user": "UMQA682PJ",
+        "ts": "1576185985.009200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4HVk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but I dont know"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1abaf028-805e-44bc-ac0d-9b6d66331171",
+        "type": "message",
+        "text": "i can check it in more detail to see if it's different from master",
+        "user": "UMQA682PJ",
+        "ts": "1576185995.009600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5jmpv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i can check it in more detail to see if it's different from master"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d6321f3-cfb1-4659-b8b5-c64bb80c1646",
+        "type": "message",
+        "text": "That\u2019s a good idea. I\u2019ve definitely had flake8 act \u201cweird\u201d before, but doesn\u2019t mean it\u2019s not legit.",
+        "user": "U8FS2P1LH",
+        "ts": "1576186043.010100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "V3JA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That\u2019s a good idea. I\u2019ve definitely had flake8 act \u201cweird\u201d before, but doesn\u2019t mean it\u2019s not legit."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f9ae9c7-1823-44d0-902e-5c54a34a7262",
+        "type": "message",
+        "text": "its the same as master",
+        "user": "UMQA682PJ",
+        "ts": "1576186066.010300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s+O",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "its the same as master"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aa665ad5-b33a-4a27-bcf9-c991c36b5e79",
+        "type": "message",
+        "text": "class TaskRootLogging(Logging):\n    \"\"\"Custom Celery application logging setup.\"\"\"\n\n    # pylint: disable=too-many-arguments, redefined-builtin, C0330\n    def setup_handlers(\n        self, logger, logfile, format, colorize, formatter=TaskFormatter, **kwargs\n    ):\n        \"\"\"Always ignore the requested formatter and use our custom one.\"\"\"\n        return super(TaskRootLogging, self).setup_handlers(\n            logger, logfile, format, colorize, TaskFormatter, **kwargs\n        )",
+        "user": "UMQA682PJ",
+        "ts": "1576186075.010500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9rRqx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "class TaskRootLogging(Logging):\n    \"\"\"Custom Celery application logging setup.\"\"\"\n\n    # pylint: disable=too-many-arguments, redefined-builtin, C0330\n    def setup_handlers(\n        self, logger, logfile, format, colorize, formatter=TaskFormatter, **kwargs\n    ):\n        \"\"\"Always ignore the requested formatter and use our custom one.\"\"\"\n        return super(TaskRootLogging, self).setup_handlers(\n            logger, logfile, format, colorize, TaskFormatter, **kwargs\n        )"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8eb196a7-6982-4346-b56d-f537a9086696",
+        "type": "message",
+        "text": "`koku/koku/log.py:41:1: D401 First line should be in imperative mood; try rephrasing`",
+        "user": "UMQA682PJ",
+        "ts": "1576186083.010700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rFHzo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "koku/koku/log.py:41:1: D401 First line should be in imperative mood; try rephrasing",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "458a5e9c-2e12-479f-8ec0-edbc527b21a7",
+        "type": "message",
+        "text": "its complaining about the comment",
+        "user": "UMQA682PJ",
+        "ts": "1576186093.011000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9cC9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "its complaining about the comment"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2dbc8a1b-1ad9-4929-9cf6-0b7294e2f090",
+        "type": "message",
+        "text": "Seeing what I get.",
+        "user": "U8FS2P1LH",
+        "ts": "1576186329.011200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "81W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Seeing what I get."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "04715d18-7e0f-4cc8-a214-b2f09f73656e",
+        "type": "message",
+        "text": "i think i did a bad merge because i was hurrying..",
+        "user": "UMQA682PJ",
+        "ts": "1576186406.011600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tkma2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i think i did a bad merge because i was hurrying.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d99f00f7-5a92-458b-8dcd-7be40af2f19b",
+        "type": "message",
+        "text": "My master ran cleanly.",
+        "user": "U8FS2P1LH",
+        "ts": "1576186459.011800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PKmJM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My master ran cleanly."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "95266c18-c5a9-46bb-a674-10d793869022",
+        "type": "message",
+        "text": "Is there a branch you want me to look at or are you sorting it out?",
+        "user": "U8FS2P1LH",
+        "ts": "1576186614.012300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mEi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Is there a branch you want me to look at or are you sorting it out?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ec676474-1f49-4399-ad70-695df0f23ac6",
+        "type": "message",
+        "text": "im sorting it out",
+        "user": "UMQA682PJ",
+        "ts": "1576186620.012600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CGG7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im sorting it out"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bfef9bd2-6121-441e-a49a-fa0c23caf8ae",
+        "type": "message",
+        "text": "Sounds good. If it\u2019s still not right first thing tomorrow let me know and we can figure it out.",
+        "user": "U8FS2P1LH",
+        "ts": "1576186916.013400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b9dc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sounds good. If it\u2019s still not right first thing tomorrow let me know and we can figure it out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5bbc476b-c801-45b2-bfd9-2ff7d412b93c",
+        "type": "message",
+        "text": "ok",
+        "user": "UMQA682PJ",
+        "ts": "1576186975.013700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DPvgI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d73b8231-ae3b-4281-91b4-c9374cf931e4",
+        "type": "message",
+        "text": "my unit tests aren't working for some reason: 'no module ujson'",
+        "user": "UMQA682PJ",
+        "ts": "1576186988.014000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RLr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "my unit tests aren't working for some reason: 'no module ujson'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "41a31bca-aa0d-459d-ae8b-69a2541356aa",
+        "type": "message",
+        "text": "File \"/Users/nbonilla/Documents/Koku/koku/koku/masu/processor/azure/azure_report_processor.py\", line 26, in &lt;module&gt;\n\u00a0\u00a0import ujson as json\nModuleNotFoundError: No module named 'ujson'",
+        "user": "UMQA682PJ",
+        "ts": "1576187001.014300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hRyd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "File \"/Users/nbonilla/Documents/Koku/koku/koku/masu/processor/azure/azure_report_processor.py\", line 26, in <module>\n\u00a0\u00a0import ujson as json\nModuleNotFoundError: No module named 'ujson'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3794233d-d93f-4cc6-bb10-05640fd7a246",
+        "type": "message",
+        "text": "oh",
+        "user": "UMQA682PJ",
+        "ts": "1576187002.014500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SowMC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2fdf25d8-2f01-48ae-ae2f-e73c15558286",
+        "type": "message",
+        "text": "i need to pipenv install",
+        "user": "UMQA682PJ",
+        "ts": "1576187005.014800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SYWMs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i need to pipenv install"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b7049a40-0263-4562-87a4-5f1a640c4dbf",
+        "type": "message",
+        "text": "Yes.",
+        "user": "U8FS2P1LH",
+        "ts": "1576187007.015000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kc/6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9a18cd71-c38f-45ca-a142-176f83c8a765",
+        "type": "message",
+        "text": "so im thinking if this doesnt work, then since the bug only complained about AWS not working, it makes sense to only fix AWS and not fix the rest until someone needs them.",
+        "user": "UMQA682PJ",
+        "ts": "1576187319.015600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HttLC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so im thinking if this doesnt work, then since the bug only complained about AWS not working, it makes sense to only fix AWS and not fix the rest until someone needs them."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "81c28c5e-0213-44cd-8065-6aec63282c78",
+        "type": "message",
+        "text": "since im having trouble moving this to the parent class, apparently.",
+        "user": "UMQA682PJ",
+        "ts": "1576187334.015900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nse",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "since im having trouble moving this to the parent class, apparently."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a2d3a8b-88d7-45d7-94ec-e147e1129128",
+        "type": "message",
+        "text": "still getting those linting issues",
+        "user": "UMQA682PJ",
+        "ts": "1576187773.016900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r3a0m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "still getting those linting issues"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa8a4a92-9d83-4e56-bf58-2d4864acdbbd",
+        "type": "message",
+        "text": "and im getting it on master branch",
+        "user": "UMQA682PJ",
+        "ts": "1576188001.017200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7ii5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and im getting it on master branch"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e4891ee4-2cb3-4886-a72d-ec73b678b9ef",
+        "type": "message",
+        "text": "but since i know which files its happening on i'll ignore it for now",
+        "user": "UMQA682PJ",
+        "ts": "1576188063.017500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EeE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but since i know which files its happening on i'll ignore it for now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba9dac6b-a8cb-4605-bf42-b914a37f78ef",
+        "type": "message",
+        "text": "since it's only local",
+        "user": "UMQA682PJ",
+        "ts": "1576188068.017800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fuc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "since it's only local"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dd3a832e-e2a9-4a0d-9827-0951cdcab701",
+        "type": "message",
+        "text": "is there a way to have import statements automatically ordered?",
+        "user": "UMQA682PJ",
+        "ts": "1576188356.018200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k1cN5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is there a way to have import statements automatically ordered?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

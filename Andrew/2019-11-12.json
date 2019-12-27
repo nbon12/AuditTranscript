@@ -1,0 +1,102 @@
+[
+    {
+        "client_msg_id": "6c52da39-f46a-4595-874c-fadc3a871b71",
+        "type": "message",
+        "text": "Anything you want to make sure is demoed tomorrow?",
+        "user": "U8FS2P1LH",
+        "ts": "1573588256.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8489da7e-4c04-4afd-97a8-f319908587ba",
+        "type": "message",
+        "text": "the source status API",
+        "user": "UMQA682PJ",
+        "ts": "1573588641.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b17d6926-6314-4a4e-bc64-3f2c7bc177c2",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/issues/1309>",
+        "user": "UMQA682PJ",
+        "ts": "1573588680.000700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "dccurtis",
+                "fallback": "[project-koku/koku] #1309 Create API to return provider status to Platform Sources",
+                "text": "*User Story*\n\nAs cost management user, I need my cost management account's status to be available to the insights platform so I can be informed when my account is not healthy.\n\n*Impacts*\n\nAPI, UI, Docs\n\n*Assumptions and Questions*\n\n\u2022 Platform Sources will be calling this API periodically. Exact frequency is not yet known but it will be most likely hourly or daily.\n\u2022 The exact calling convention and expected response is not yet known. Platform Sources design work is forthcoming. I know that it will be requesting status for Source ID: X and expecting a simple boolean type response.\n\u2022 In order to start this work I propose that we make an API such as `/source-status/X` to return the source status for ID X. The response can be a simple json such as `{'source_id: X', 'status': true}`. Before beginning this work we should reach out to Platform Sources and see if they have an API definition. If they do use that, if they don't maybe propose something or try to get a heads up on what it will be so we can minimize changes for integration.\n\u2022 `ProviderAccessor().cost_usage_source_ready()` can be used as the business logic behind the source status. The `sources` database table has the `source_id`, `authentication`, and `billing_source` arguments needed for `ProviderAccessor`.\n\u2022 TODO for whoever implements this: Figure out how `ProviderStatus` fits into this, and consider the flows <https://github.com/blentz|@blentz> describes in which we may set an \"error\" status if things fail during processing.\n\u2022 Q: Are there any specific RBAC concerns for this? Should this be a special internal API that only the platform can access? Should this be available to customers (thus RBAC)?\n    \u2022 A: We probably want this to be an internal API. Sources client is currently internal... there may be something we can reuse there if we want this to be internal.\n    \u2022 Also please have a discussion with the platform sources team about how this may affect the standard interface for other services that implement this.\n\n*API Details*\n\nAnything that takes a source ID and returns a boolean status for the source. Ultimately this will need to conform with what Platform Sources defines. We will be their first customer so we should reach out to them before starting this work to get the latest status.\n\n*UI Details*\n\nTBD. UX mocks are underway.\n\n*Acceptance Criteria*\n\n\u2610 API returns successful for an AWS, and Azure source that is configured correctly.\n\u2610 API returns failure for an AWS, and Azure source that becomes misconfigured on the cloud backend. This would mean setting it up correctly initially than changing something on the AWS or Azure side such that our checks fail.\n\u2610 API returns successful for an OCP source since we have no checks in place at this point in time.\n\u2610 API returns a 404 if the Source ID is not found",
+                "title": "#1309 Create API to return provider status to Platform Sources",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/issues/1309",
+                "author_link": "https://github.com/dccurtis",
+                "author_icon": "https://avatars0.githubusercontent.com/u/4523309?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1572034980,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Labels",
+                        "value": "Koku'(x), enhancement",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/issues/1309",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "51264bc8-b7af-4e42-9f5c-54676625ade4",
+        "type": "message",
+        "text": "here's the openapi spec:  <https://github.com/project-koku/koku/blob/master/koku/sources/openapi.json>",
+        "user": "UMQA682PJ",
+        "ts": "1573588799.001400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/sources/openapi.json",
+                "text": "```\n{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"description\": \"The Sources Status API.  You can find out more about Cost Management at [<https://github.com/project-koku/>](<https://github.com/project-koku/>).\",\n    \"version\": \"1.0.0\",\n    \"title\": \"Sources Status API\",\n    \"license\": {\n      \"name\": \"AGPL-3.0\",\n      \"url\": \"<https://opensource.org/licenses/AGPL-3.0>\"\n    }\n  },\n  \"tags\": [\n    {\n      \"name\": \"Source Status\",\n      \"description\": \"Platform sources cost management availability status\"\n    }\n  ],\n  \"paths\": {\n    \"/source_status/\": {\n      \"get\": {\n        \"summary\": \"Get Source Status\",\n        \"description\": \"Return whether or not a source is correctly set up.\",\n        \"parameters\": [\n          {\n            \"name\": \"source_id\",\n            \"in\": \"query\",\n            \"description\": \"The source_id\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"integer\",\n              \"example\": 1\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"The status of the source\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/StatusGetResponse\"\n                },\n                \"examples\": {\n                  \"Available\": {\n                    \"value\": {\n                      \"availability_status\": \"available\",\n                      \"availability_status_error\": \"\"\n                    }\n                  },\n                  \"NotAvailable\": {\n                    \"value\": {\n                      \"availability_status\": \"unavailabile\",\n                      \"availability_status_error\": \"Bucket nonexistantbucketexample could not be found with arn:aws:iam::999999999999:role/CostManagement.\"\n                    }\n                  }\n                }\n              }\n            }\n          },\n          \"400\": {\n            \"description\": \"A 400 code occurs when the client either did not provide a source_id parameter, or source_id is not an integer\",\n            \"content\": {\n              \"application/json\": {\n                \"schema\": {\n                  \"$ref\": \"#/components/schemas/StatusGetResponseSourceIdNotInteger\"\n                },\n                \"examples\": {\n                  \"NonInteger\": {\n                    \"value\": \"source_id must be an integer\"\n                  },\n                  \"MissingSourceId\": {\n                    \"value\": \"Missing query parameter source_id\"\n                  }\n                }\n              }\n            }\n          },\n          \"404\": {\n            \"description\": \"Source is not in our database\"\n          }\n        },\n        \"tags\": [\n          \"Source Status\"\n        ]\n      }\n    }\n  },\n  \"components\": {\n    \"schemas\": {\n      \"StatusGetResponse\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"availability_status\": {\n            \"type\": \"string\",\n            \"example\": \"available\"\n          },\n          \"availability_status_error\": {\n            \"type\": \"string\",\n            \"example\": \"\"\n          }\n        }\n      },\n      \"StatusGetResponseSourceIdNotInteger\": {\n        \"type\": \"string\"\n      }\n    }\n  }\n}\n\n```",
+                "title": "koku/sources/openapi.json",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/sources/openapi.json",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/sources/openapi.json",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "56b489cb-bb72-4d50-8362-b15098d7686b",
+        "type": "message",
+        "text": "Excellent.",
+        "user": "U8FS2P1LH",
+        "ts": "1573588902.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41595428-bc80-4e3b-9700-165ac77cae41",
+        "type": "message",
+        "text": "Thanks",
+        "user": "U8FS2P1LH",
+        "ts": "1573588904.001900",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,370 @@
+[
+    {
+        "client_msg_id": "c24074df-94f7-4fae-b63d-7296ff651b77",
+        "type": "message",
+        "text": "How\u2019s it going today?",
+        "user": "U8FS2P1LH",
+        "ts": "1567089171.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "EF0D7849-6B91-460F-A670-A1F1809D83E0",
+        "type": "message",
+        "text": "It\u2019s going well. Jen and I met during the planning meeting.",
+        "user": "UMQA682PJ",
+        "ts": "1567089262.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "338E117E-5563-4398-B4EA-CDCD454844D2",
+        "type": "message",
+        "text": "I\u2019m in the office, same place as last time",
+        "user": "UMQA682PJ",
+        "ts": "1567089275.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "97639c99-91b2-4196-a770-56af23e398cb",
+        "type": "message",
+        "text": "Nice. There\u2019s a meeting that QE puts on that just started if you want to join in and see <https://bluejeans.com/7259887859?src=calendarLink>",
+        "user": "U8FS2P1LH",
+        "ts": "1567089308.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "AB1B7E32-B97F-45C2-8F89-91231502EA93",
+        "type": "message",
+        "text": "I\u2019ll join, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1567089334.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee7e2999-ab70-4f79-8ade-cc2254141ba7",
+        "type": "message",
+        "text": "Cool. I am coming in, but didn\u2019t have time between meetings to make it. But I will be there this afternoon for sure.",
+        "user": "U8FS2P1LH",
+        "ts": "1567089350.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6b5ce4d4-0b7d-4fb4-904f-ead0915cc43b",
+        "type": "message",
+        "text": "In the meantime just let me know if you need anything.",
+        "user": "U8FS2P1LH",
+        "ts": "1567089359.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8069f8b5-2e02-4d4f-bf67-5c3026a6b699",
+        "type": "message",
+        "text": "When is the next meeting?",
+        "user": "UMQA682PJ",
+        "ts": "1567092046.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c73c38d-3300-4856-bfdc-b2a5419d6200",
+        "type": "message",
+        "text": "Just wrapped up the last meeting of the day.",
+        "user": "U8FS2P1LH",
+        "ts": "1567092076.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89c1ce79-5b50-413e-b4be-6880cba51b87",
+        "type": "message",
+        "text": "The 11am one. backlog refinement. It can be a quick one when we don\u2019t have a lot of new issues/bugs.",
+        "user": "U8FS2P1LH",
+        "ts": "1567092099.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f7e8dec-1dbc-4bd1-90a0-7771199bd90f",
+        "type": "message",
+        "text": "Alright, I am going to head in now. How are things going?",
+        "user": "U8FS2P1LH",
+        "ts": "1567097820.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b84b76c8-1b0b-4782-9427-4e10938a82f8",
+        "type": "message",
+        "text": "It's going well. I think i'm still not on all the meetings though.",
+        "user": "UMQA682PJ",
+        "ts": "1567097934.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f6de5a33-4892-4603-b3e5-5a4fc9c45ae9",
+        "type": "message",
+        "text": "And Aha!",
+        "user": "UMQA682PJ",
+        "ts": "1567097962.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18d58fe2-1529-4f3e-bd52-9584f871a52c",
+        "type": "message",
+        "text": "I'm not on that either.",
+        "user": "UMQA682PJ",
+        "ts": "1567097967.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "11449817-69ec-46b3-b7fd-9a155c8304da",
+        "type": "message",
+        "text": "Yeah, let\u2019s compare calendars and see what you don\u2019t have.\n\nI\u2019m not sure if you just make an Aha! login with your redhat email, or if it\u2019s invite only. We can figure that out, but it is product management only, really, so it\u2019s less critical than our issue flow, which we still need to go through.",
+        "user": "U8FS2P1LH",
+        "ts": "1567098102.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34d3fca8-148e-4c3e-a9b8-a8d8723d22b8",
+        "type": "message",
+        "text": "Here's my calendar: <https://calendar.google.com/calendar?cid=bmJvbmlsbGFAcmVkaGF0LmNvbQ>",
+        "user": "UMQA682PJ",
+        "ts": "1567098586.009200",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Google Calendar",
+                "title_link": "https://calendar.google.com/calendar?cid=bmJvbmlsbGFAcmVkaGF0LmNvbQ",
+                "text": "With Google's free online calendar, it\u2019s easy to keep track of life\u2019s important events all in one place.",
+                "fallback": "Google Calendar",
+                "from_url": "https://calendar.google.com/calendar?cid=bmJvbmlsbGFAcmVkaGF0LmNvbQ",
+                "service_icon": "https://accounts.google.com/favicon.ico",
+                "service_name": "accounts.google.com",
+                "id": 1,
+                "original_url": "https://calendar.google.com/calendar?cid=bmJvbmlsbGFAcmVkaGF0LmNvbQ"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d48a80d9-a499-42f0-befb-c4e4cd24ca5d",
+        "type": "message",
+        "text": "For Web Based IDEs, do we have any existing?",
+        "user": "UMQA682PJ",
+        "ts": "1567099068.010800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "445aa5ae-20b8-4244-a9b7-06af6506856f",
+        "type": "message",
+        "text": "For example if I wanted to use a web based IDE personally and it costed money what would be the process for expensing it?",
+        "user": "UMQA682PJ",
+        "ts": "1567099334.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7e287448-0b2b-44f3-b53f-e0774f2630c1",
+        "type": "message",
+        "text": "First thing I would do is check <http://mojo.redhat.com|mojo.redhat.com> and see if there\u2019s anything internal or some article. Mojo can be hard to navigate, so I wouldn\u2019t be surprised if not. But as far as whether something can be expensed, that\u2019s a good question for Jen, since I can\u2019t approve any expenses. The process of expensing is to fill out an expense report, which we can definitely go through if you need to expense something.",
+        "user": "U8FS2P1LH",
+        "ts": "1567099436.015400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6c9333c5-e192-4b1d-a903-3a65ef9fb97a",
+        "type": "message",
+        "text": "Also vs code has <https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare> which can create a web session where you can collaborate.",
+        "user": "U8FS2P1LH",
+        "ts": "1567099616.016000",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dce0df33-636c-4442-a579-c35e2d447711",
+        "type": "message",
+        "text": "For free.",
+        "user": "U8FS2P1LH",
+        "ts": "1567099620.016300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2559c06-5b9b-430c-88e1-59a2c1ce3f5e",
+        "type": "message",
+        "text": "I'll check it out",
+        "user": "UMQA682PJ",
+        "ts": "1567099706.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ac09bd73-224b-4f86-8199-92b72afcfc18",
+        "type": "message",
+        "text": "Okay, I have a plumber potentially wrapping up here right now, so I may be delayed _yet_ again. (This has been an atypical week, FYI, sorry I\u2019m not in now)",
+        "user": "U8FS2P1LH",
+        "ts": "1567099879.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1340f85e-85c8-456f-b9d4-390994a67f22",
+        "type": "message",
+        "text": "Am I blocking you on anything right now? Had any luck starting the koku readme yet?",
+        "user": "U8FS2P1LH",
+        "ts": "1567099894.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5f51c67e-f592-457e-a6d2-4cdaeb0e62f8",
+        "type": "message",
+        "text": "No worries on the plumber, I don't think you're blocking me. I'm installing python / IDE right now so not yet on the koku readme",
+        "user": "UMQA682PJ",
+        "ts": "1567100027.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d7b0cc3-0662-4031-b4f0-219b05733e1a",
+        "type": "message",
+        "text": "Cool. As long as you are good then.",
+        "user": "U8FS2P1LH",
+        "ts": "1567100049.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15ca4509-0df8-4ae4-b9c7-f14cfaa5a43a",
+        "type": "message",
+        "text": "do you know if the VSCode LiveShare requires guests to install VSCode onto their machine?",
+        "user": "UMQA682PJ",
+        "ts": "1567100070.020400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e54b51dc-0b7c-4f23-88a0-a903423d2d58",
+        "type": "message",
+        "text": "also do you know anyone from the Codenvy team?",
+        "user": "UMQA682PJ",
+        "ts": "1567100173.020700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7bf8a68-77b9-4b01-a0a4-5dde694ed262",
+        "type": "message",
+        "text": "I'll check mojo",
+        "user": "UMQA682PJ",
+        "ts": "1567100217.021000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af5e3826-119e-4128-9435-61c11528246e",
+        "type": "message",
+        "text": "Yeah, I think both parties need to be running vs code locally to do it.",
+        "user": "U8FS2P1LH",
+        "ts": "1567100268.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e4eeae66-47bf-4225-8092-51284ffac889",
+        "type": "message",
+        "text": "And no, I don\u2019t know anyone on that team.",
+        "user": "U8FS2P1LH",
+        "ts": "1567100329.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "272d10af-2491-4240-a0ae-7b464ae9f9f1",
+        "type": "message",
+        "text": "I found out more about codenvy, so the name has changed to Red Hat CodeReady Workspaces",
+        "user": "UMQA682PJ",
+        "ts": "1567103517.022800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "here's more info: <https://docs.google.com/document/d/174USXEPCzTxz-piEk0CaOMzr2R1KhU7-1P7TEG0bBMc/edit#>",
+        "files": [
+            {
+                "id": "FMWP42XSB",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "x_files": [
+            "FMWP42XSB"
+        ],
+        "ts": "1567103524.023000",
+        "client_msg_id": "85b29353-4904-4fa1-b8db-0b35e57d6f50"
+    },
+    {
+        "client_msg_id": "814d51bc-faa1-40d5-8317-1ad777ae22b9",
+        "type": "message",
+        "text": "I'm still not sure if we have an On Prem shared instance in OpenShift.",
+        "user": "UMQA682PJ",
+        "ts": "1567103548.023700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d290b86-d253-47b7-a0c7-15a92ae80733",
+        "type": "message",
+        "text": "Neat.",
+        "user": "U8FS2P1LH",
+        "ts": "1567104581.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17f36b7b-a12f-4609-8569-cf60cb5cdd18",
+        "type": "message",
+        "text": "do we have a shared OpenShift instance I can use?",
+        "user": "UMQA682PJ",
+        "ts": "1567104645.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3a557a6c-6da0-49bb-b384-789a8a63237b",
+        "type": "message",
+        "text": "and deploy apps to?",
+        "user": "UMQA682PJ",
+        "ts": "1567104659.025000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "382a80ca-b179-413e-b22c-fb22a6ed2561",
+        "type": "message",
+        "text": "Possibly. We have an OpenShift cluster that we deploy our application (and all applications on the Insights Platform) to, but it\u2019s not really personal use.",
+        "user": "U8FS2P1LH",
+        "ts": "1567106454.025800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15cff171-517a-45d8-85f8-2f248a8dfc26",
+        "type": "message",
+        "text": "We have a test cluster that is feeding cost management data to test our OpenShift integration, which we could maybe add something to, but that cluster isn\u2019t going to be around forever. Still we can check on it.",
+        "user": "U8FS2P1LH",
+        "ts": "1567106519.026900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d1e0e904-742a-4e04-8456-51973e3758fa",
+        "type": "message",
+        "text": "But yeah, as Chris said in the koku channel, if you just want to get an OpenShift cluster up and running, minishift is your best bet today.",
+        "user": "U8FS2P1LH",
+        "ts": "1567106731.027400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "175cd483-1ca9-44ae-969a-9fbe0ba70ef1",
+        "type": "message",
+        "text": "Okay, so I never made it in today. Was juggling several things. I will, however, be in tomorrow morning. See you on 14 then?",
+        "user": "U8FS2P1LH",
+        "ts": "1567111456.028200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42fb71ae-13db-450c-908d-579171b6fecd",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1567112480.028400",
+        "team": "T026NJJ6Z"
+    }
+]

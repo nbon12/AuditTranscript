@@ -1,0 +1,173 @@
+[
+    {
+        "client_msg_id": "5fbe0925-6a1e-496b-8e42-a2d7386a7eb6",
+        "type": "message",
+        "text": "Hi Chris, are these two queries equivalent?\n`url = '?group_by[and:account]=a&amp;group_by[and:account]=b'`\n`url = '?group_by[account]=ab`",
+        "user": "UMQA682PJ",
+        "ts": "1576853352.004100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576853363.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8rVe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Chris, are these two queries equivalent?\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "url = '?group_by[and:account]=a&group_by[and:account]=b'",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "url = '?group_by[account]=ab",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "540F4E70-5C18-47DA-96F3-79213EA185F9",
+        "type": "message",
+        "text": "No. \n\nThe first one will find all accounts that have an \u201ca\u201d and \u201cb\u201d in their account alias. Order wouldn\u2019t matter and the letters don\u2019t have to be consecutive. \n\nThe second would only match against account aliases where the string \u201cab\u201d was found (must be together and in that order). \n\nDB is essentially doing LIKE queries. The first is an AND of 2 LIKE queries of a single character (\u201ca\u201d and \u201cb\u201d respectively) and the second is a LIKE query with the string \u201cab\u201d",
+        "user": "U5SUXMJ83",
+        "ts": "1576854809.013300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Sb74X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "The first one will find all accounts that have an \u201ca\u201d and \u201cb\u201d in their account alias. Order wouldn\u2019t matter and the letters don\u2019t have to be consecutive. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "The second would only match against account aliases where the string \u201cab\u201d was found (must be together and in that order). "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "DB is essentially doing LIKE queries. The first is an AND of 2 LIKE queries of a single character (\u201ca\u201d and \u201cb\u201d respectively) and the second is a LIKE query with the string \u201cab\u201d"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "136a44ca-eb40-4df5-8fda-0f976634cef4",
+        "type": "message",
+        "text": "i added your changes <https://github.com/project-koku/koku/pull/1565>",
+        "user": "UMQA682PJ",
+        "ts": "1576880797.000300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1565 strip annotation prefix to match parameters with prefixes",
+                "text": "Addresses <https://github.com/project-koku/koku/issues/1542|#1542>\n\nCurrently in master branch, the following query gets a 500 error. It also causes the annotations dict to return the following:\n\n<http://localhost:8000/api/cost-management/v1/reports/aws/costs/?group_by%5Band:account%5D=7777&amp;group_by%5Band:account%5D=4444|http://localhost:8000/api/cost-management/v1/reports/aws/costs/?group_by[and:account]=7777&amp;group_by[and:account]=4444>\n\n```\n'cost_units': Coalesce(F(currency_code), Value(USD)),\n 'date': TruncDayString(F(usage_start))}\n\n```\n\nThis second query does not cause an error, and the annotations dict appears to contain an 'account' entry.\n\n<http://localhost:8000/api/cost-management/v1/reports/aws/costs/?group_by%5Baccount%5D=7777&amp;group_by%5Baccount%5D=4444|http://localhost:8000/api/cost-management/v1/reports/aws/costs/?group_by[account]=7777&amp;group_by[account]=4444>\n\n```\n{'account': Concat(ConcatPair(F(usage_account_id), Value())),\n 'cost_units': Coalesce(F(currency_code), Value(USD)),\n 'date': TruncDayString(F(usage_start))}\n\n```\n\nNotice that the first query is missing 'account' in the output. This is because 'account' does not match 'and:account' in the parameters object: `self.parameters.get('group_by', {}).keys())`\n\nThis PR proposes that we remove prefixes from the parameters object _before_ checking that the q_param is in the self.parameters.get('group_by', {}).keys()",
+                "title": "#1565 strip annotation prefix to match parameters with prefixes",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1565",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1576770706,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1565",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Us6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i added your changes "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1565"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "client_msg_id": "c848b552-a368-45c6-b87b-ca66abd59b70",
+        "type": "message",
+        "text": "Hi Brad, for Ubikey, do you know how to get one of those?",
+        "user": "UMQA682PJ",
+        "ts": "1567172573.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c0e9ce9-39b5-41d6-8b95-198ef59c27bd",
+        "type": "message",
+        "text": "I'm new on Jen's team",
+        "user": "UMQA682PJ",
+        "ts": "1567172593.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "46f97c70-dd09-4466-a5a5-a6436817079b",
+        "type": "message",
+        "text": "Hey! Sure, Jen makes it easy. :slightly_smiling_face:",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172598.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a9563446-7467-4a94-bd8c-a0c70bf69497",
+        "type": "message",
+        "text": "At least for me, she said just order one on Amazon and expense it afterwards.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172613.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "95bd5da8-9736-477c-9b38-228e1d9ff6a9",
+        "type": "message",
+        "text": "Pretty sure she did the same with Ilya and a couple others.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172622.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f7f042ad-35a8-474d-9987-b51d7f239dbe",
+        "type": "message",
+        "text": "She's pretty fast on the trigger to approve any reasonable expenses.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172636.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5067bfc7-6eec-40c9-bd9c-760d51a9b21c",
+        "type": "message",
+        "text": "Awesome, I order with my personal Amazon account?",
+        "user": "UMQA682PJ",
+        "ts": "1567172657.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2ccc24b-8eab-4ca9-8c96-705e89ffc9f7",
+        "type": "message",
+        "text": "then print the receipt for her?",
+        "user": "UMQA682PJ",
+        "ts": "1567172662.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1bd75b7d-c8ad-455b-b285-3c445a5c4952",
+        "type": "message",
+        "text": "No need to go through IT or that whole mess",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172664.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a44d42b4-907d-4166-a6f9-3dc1e8d5f1ee",
+        "type": "message",
+        "text": "yeah, go through your personal Amazon account, and save the email \u2014",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172682.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e057565e-7743-47de-b902-376ac90bd4fe",
+        "type": "message",
+        "text": "In the expense process online, you can attach a screenshot or PDF of the receipt",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172697.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fa06ece7-8ecc-4255-b13f-05d3b40e5bc5",
+        "type": "message",
+        "text": "where's the process online?",
+        "user": "UMQA682PJ",
+        "ts": "1567172725.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3ddaef3-dfd1-415c-b2dd-15f40ce4401d",
+        "type": "message",
+        "text": "hang on I'll get you a link in a few minutes",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172735.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "90d37344-39d7-4d96-8a98-b2bffa5c7000",
+        "type": "message",
+        "text": "just started a call",
+        "user": "U8E2NAGGJ",
+        "ts": "1567172737.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "070b97a8-8bc9-44a7-aa9a-02be8d069315",
+        "type": "message",
+        "text": "alright, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1567172743.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0381627e-97b0-4a77-8268-d6f1c3d32e6c",
+        "type": "message",
+        "text": "<https://auth.redhat.com/auth/realms/EmployeeIDP/protocol/saml/clients/concursolutions>",
+        "user": "U8E2NAGGJ",
+        "ts": "1567173929.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1de5ee6c-8eba-4384-801f-b5bca64ed4a8",
+        "type": "message",
+        "text": "That's the system we use for expensing things like this",
+        "user": "U8E2NAGGJ",
+        "ts": "1567173966.006400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4eabecc1-a3cf-47d1-ac27-5894a20f5ef9",
+        "type": "message",
+        "text": "The UI is largely geared towards travel stuff, but don't let that throw you off",
+        "user": "U8E2NAGGJ",
+        "ts": "1567173981.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d7ae743-ce40-4541-a972-a9bf257edd76",
+        "type": "message",
+        "text": "When you're filling it out, some of the important selection fields are Cost Center (should be \"724 R&amp;D Ansible Engineering\") and GL Project Account (0000 No Project).",
+        "user": "U8E2NAGGJ",
+        "ts": "1567174067.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b9d88e6c-8eed-426c-971a-96f0ec593f9b",
+        "type": "message",
+        "text": "For payment type, I think you'll enter \"Cash\" and then plug in the numbers and description yourself.",
+        "user": "U8E2NAGGJ",
+        "ts": "1567174096.008800",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,110 @@
+[
+    {
+        "client_msg_id": "ab52eb1b-951f-41da-86a9-b81fc716aa99",
+        "type": "message",
+        "text": "Hey, regarding the master branch \"Some checks were not successful\" message, how do I look into what went wrong in the checks?",
+        "user": "UMQA682PJ",
+        "ts": "1570126176.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "756fe2f0-1b19-4993-abc4-423aaeb87b06",
+        "type": "message",
+        "text": "for example it says \"continuous-integration/jenkins/e2e-smoke",
+        "user": "UMQA682PJ",
+        "ts": "1570126191.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "092c4cd3-2043-42d9-8c14-2aa26a91cf53",
+        "type": "message",
+        "text": "i clicked on the Jenkins log and I see a stack trace but i'm not sure which test is failing",
+        "user": "UMQA682PJ",
+        "ts": "1570126232.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "56a0f79d-b8a6-4289-a86d-eb7d0865ccda",
+        "type": "message",
+        "text": "ah ok, I think i see it now",
+        "user": "UMQA682PJ",
+        "ts": "1570126355.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a8b815d-037b-44f5-9607-48e8d2f34eab",
+        "type": "message",
+        "text": "Are you looking at Luke\u2019s do not merge PR?",
+        "user": "U8FS2P1LH",
+        "ts": "1570126661.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b773069c-5e22-4607-9490-7f2567f868e4",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1570126669.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58ff5d7c-54bd-4877-a011-f25bb60c4909",
+        "type": "message",
+        "text": "i'm looking at the commits to master branch",
+        "user": "UMQA682PJ",
+        "ts": "1570126686.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96a75802-179f-49b2-88b0-a19f378edb2b",
+        "type": "message",
+        "text": "there's a failing jenkins test on two of them",
+        "user": "UMQA682PJ",
+        "ts": "1570126708.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aa84ec9a-0fc0-4172-918d-62c06efc92c5",
+        "type": "message",
+        "text": "Ah, yeah, so the smoke tests are \u201cowned\u201d by QE.",
+        "user": "U8FS2P1LH",
+        "ts": "1570126741.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d705567-ae13-4f14-8203-3893b4344015",
+        "type": "message",
+        "text": "They know about and are working on those.",
+        "user": "U8FS2P1LH",
+        "ts": "1570126764.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23513a6e-c991-43be-9c00-3489162a00dd",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1570126785.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fccc1098-dc9d-4288-9b9a-495bbabf2b86",
+        "type": "message",
+        "text": "Glad you\u2019re looking at the commit to master, though!",
+        "user": "U8FS2P1LH",
+        "ts": "1570126922.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad57aa36-7da3-47a8-93af-1b2e18dfe448",
+        "type": "message",
+        "text": "Hopefully they have the smoke tests stable soon so an :x: there would actually mean a problem on our end.",
+        "user": "U8FS2P1LH",
+        "ts": "1570126996.006200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1570127003.000000"
+        }
+    }
+]

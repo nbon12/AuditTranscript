@@ -1,0 +1,66 @@
+[
+    {
+        "client_msg_id": "72cd0f19-b2c0-4f81-89aa-400bb77b56ee",
+        "type": "message",
+        "text": "How\u2019s everything going?",
+        "user": "U8FS2P1LH",
+        "ts": "1569244662.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "EECB37C0-C2A7-49D7-A725-958FA6201001",
+        "type": "message",
+        "text": "Hi, i had to switch to local koku because the iqe-test framework isnt open source and i couldnt download it onto cloud9",
+        "user": "UMQA682PJ",
+        "ts": "1569246738.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4dcf260-2701-4721-8fc2-40baf4070d52",
+        "type": "message",
+        "text": "Ahh, yeah, I suppose you need to be on network to run iqe.",
+        "user": "U8FS2P1LH",
+        "ts": "1569249697.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "30F0F816-EBB8-47EB-AA12-9A342E325EAF",
+        "type": "message",
+        "text": "#notreallyopensourcearewe",
+        "user": "UMQA682PJ",
+        "ts": "1569249715.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eec2ff59-15da-4a93-8418-563a8697ee72",
+        "type": "message",
+        "text": "There\u2019s a benefit to running locally, at least when you run into problems there\u2019s a much better chance we\u2019ve all had the same problem.",
+        "user": "U8FS2P1LH",
+        "ts": "1569249717.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bbc8dbde-6c70-4ff6-8f4f-332ec4d2a835",
+        "type": "message",
+        "text": "I get what you\u2019re saying, but it\u2019s a matter of perspective, I suppose. Source code is ready to download from public github. These are just quality tests.",
+        "user": "U8FS2P1LH",
+        "ts": "1569250029.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "734006EE-BBAD-4AB7-B148-BADD82952C9B",
+        "type": "message",
+        "text": "That\u2019s true. It\u2019s definitely open source because it\u2019s visible. It\u2019s also closed to collaboration.",
+        "user": "UMQA682PJ",
+        "ts": "1569250609.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8A062765-2C11-488B-AEBE-C61372500093",
+        "type": "message",
+        "text": "The Go language is the same",
+        "user": "UMQA682PJ",
+        "ts": "1569250788.008500",
+        "team": "T026NJJ6Z"
+    }
+]

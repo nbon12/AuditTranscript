@@ -1,0 +1,58 @@
+[
+    {
+        "client_msg_id": "a192cf6d-4aec-432d-a020-b6e1b4cf22af",
+        "type": "message",
+        "text": "how would I run only the unit tests in koku/masu/test/database ?",
+        "user": "UMQA682PJ",
+        "ts": "1569440364.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b0e2ada3-a430-49d5-b3db-4121c1ec1746",
+        "type": "message",
+        "text": "hey can you send me the line you edited?",
+        "user": "UMQA682PJ",
+        "ts": "1569441643.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc3a3fde-dd99-42f3-aab1-c1d5d43645c1",
+        "type": "message",
+        "text": "in tox.ini",
+        "user": "UMQA682PJ",
+        "ts": "1569441647.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00c0f032-ad28-4530-aba2-71a73cfa80ab",
+        "type": "message",
+        "text": "```\n; pipenv install --dev --ignore-pipfile\n  coverage run {toxinidir}/koku/manage.py test --noinput -v 2 {posargs: masu.test.database}\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1569441764.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9504b414-1776-4ac1-b0b4-1a06fb91cbe0",
+        "type": "message",
+        "text": "is it ok to run `tox -e py37` instead of py36?",
+        "user": "UMQA682PJ",
+        "ts": "1569442271.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b042c294-7f7a-466e-84de-d469b3268657",
+        "type": "message",
+        "text": "If you have Python 3.7 installed, ya",
+        "user": "U8FS2P1LH",
+        "ts": "1569442287.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b66ca57a-46bf-4516-95d4-a8089fe15241",
+        "type": "message",
+        "text": "tox -e parallel",
+        "user": "U8FS2P1LH",
+        "ts": "1569442706.002600",
+        "team": "T026NJJ6Z"
+    }
+]

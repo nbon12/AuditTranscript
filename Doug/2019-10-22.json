@@ -1,0 +1,644 @@
+[
+    {
+        "client_msg_id": "32c032bf-8994-4862-becf-92e253798f14",
+        "type": "message",
+        "text": "Hey Doug, do you know why this error might be happening during my unit test, i tried this code:\n`response = client.get(reverse('attributes'))`\nThe error was:\ndjango.urls.exceptions.NoReverseMatch: Reverse for 'attributes' not found. 'attributes' is not a valid view function or pattern name.",
+        "user": "UMQA682PJ",
+        "ts": "1571773753.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aabbec1e-b61a-4384-908d-eb68517bb18c",
+        "type": "message",
+        "text": "I created the 'attribute' view in my Draft PR.",
+        "user": "UMQA682PJ",
+        "ts": "1571773818.001500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c1887f85-ec61-4e5c-8cfd-f21ad1d5a2d2",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/pull/1295/files>",
+        "user": "UMQA682PJ",
+        "ts": "1571773830.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a477c468-30bb-4376-ba90-f89a1766c8d5",
+        "type": "message",
+        "text": "hey Nick.  Yeah so that\u2019s defined in urls.py",
+        "user": "UAR1CADNV",
+        "ts": "1571773904.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd2ec0f2-e344-432e-88a1-cb88773ff777",
+        "type": "message",
+        "text": "one second",
+        "user": "UAR1CADNV",
+        "ts": "1571773920.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cbe80cc0-b8b5-4b4c-8a84-3cebda96e5e3",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/96a12fc0e55ee08d444f5919b549ec575683a988/koku/api/urls.py#L58>",
+        "user": "UAR1CADNV",
+        "ts": "1571773946.002300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/urls.py:58",
+                "text": "```\n    url(r'^status/$', StatusView.as_view(), name='server-status'),\n```",
+                "title": "koku/api/urls.py:58",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/96a12fc0e55ee08d444f5919b549ec575683a988/koku/api/urls.py#L58",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/96a12fc0e55ee08d444f5919b549ec575683a988/koku/api/urls.py#L58",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "806c8954-4b0f-4498-941a-f2ea04ce1edd",
+        "type": "message",
+        "text": "for this example `name='server-status'`",
+        "user": "UAR1CADNV",
+        "ts": "1571773962.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6416e7fb-cd56-4d99-9984-3f816fda35af",
+        "type": "message",
+        "text": "could be used in `response = client.get(reverse('server-status'))`",
+        "user": "UAR1CADNV",
+        "ts": "1571773974.003100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1571773979.000000"
+        }
+    },
+    {
+        "client_msg_id": "7a708648-ffb0-4e15-bcf6-2098a1d87707",
+        "type": "message",
+        "text": "and it would resolve the right URL for the unit test",
+        "user": "UAR1CADNV",
+        "ts": "1571773988.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6131fcf7-e2fb-4f80-b696-281ccd523398",
+        "type": "message",
+        "text": "so it looks like you need something in `koku/attribute/urls.py`?",
+        "user": "UAR1CADNV",
+        "ts": "1571774607.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7efb6f7-9e28-4936-bd43-4d05f4b115eb",
+        "type": "message",
+        "text": "I just put this in that file:\n```urlpatterns = [\n    path('attributes', include(router.urls), name='attributes'),\n]```",
+        "user": "UMQA682PJ",
+        "ts": "1571774737.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a7410d7a-f1a7-4673-91a6-11d964d282e8",
+        "type": "message",
+        "text": "now it's getting ```ValueError: Missing \"http:\" or \"https:\". Use a fully qualified URL, eg \"<http://testserver/api/v1/attributes/>\"```",
+        "user": "UMQA682PJ",
+        "ts": "1571774750.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c73115d-0ec5-4f55-b57b-554f8989d8c1",
+        "type": "message",
+        "text": "any reason why your not putting `attribute` under the `/api` path?",
+        "user": "UAR1CADNV",
+        "ts": "1571775065.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0d52b5d3-9218-40f5-922d-bb93f2a9b591",
+        "type": "message",
+        "text": "in the URL or in the folder?",
+        "user": "UMQA682PJ",
+        "ts": "1571775084.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b801109a-cbdb-4211-b933-e2614070554a",
+        "type": "message",
+        "text": "ohh your making it a separate django app",
+        "user": "UAR1CADNV",
+        "ts": "1571775133.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76bbc5f7-58dc-4a2b-972f-04d5fd5276f0",
+        "type": "message",
+        "text": "In the URL, it is in the API path: for example: \"\"attributes\": \"<http://localhost:8000/api/cost-management/v1/attributes/>\"\"",
+        "user": "UMQA682PJ",
+        "ts": "1571775141.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c9e73468-aea6-4440-9edd-dd51b6942544",
+        "type": "message",
+        "text": "why not just another view under API?",
+        "user": "UAR1CADNV",
+        "ts": "1571775146.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b196f28-4fd1-47ff-9052-ed7b84ed134d",
+        "type": "message",
+        "text": "I figured a separate django app would provide a clean separation of concerns",
+        "user": "UMQA682PJ",
+        "ts": "1571775162.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3547e12-2ddf-4477-8a74-3aafeadf8510",
+        "type": "message",
+        "text": "easy to add or remove, easy to discuss and know where it starts and ends and how far it reaches",
+        "user": "UMQA682PJ",
+        "ts": "1571775193.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "71a6e9a0-3a7b-4122-a81f-a3a26aa37f4e",
+        "type": "message",
+        "text": "keep the task at hand in mind :slightly_smiling_face:  This is to remove a hard-coded value in the UI",
+        "user": "UAR1CADNV",
+        "ts": "1571775232.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e443be0-58ea-4ac4-b951-80238568eb48",
+        "type": "message",
+        "text": "but costmodels might be a good example to follow",
+        "user": "UAR1CADNV",
+        "ts": "1571775328.008700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc263738-e8d3-452b-84dc-98b6274ee4bc",
+        "type": "message",
+        "text": "`ROUTER.register(r'costmodels', CostModelViewSet, base_name='costmodels')`",
+        "user": "UAR1CADNV",
+        "ts": "1571775356.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eb05b0e2-747b-4525-8cb8-ca05907df6e5",
+        "type": "message",
+        "text": "the `base_name` is what I think you need",
+        "user": "UAR1CADNV",
+        "ts": "1571775363.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a75f8caa-46b2-446a-99a2-617e8b6327fd",
+        "type": "message",
+        "text": "```\n    def test_create_new_cost_model_map_association_for_provider(self):\n        \"\"\"Test that the CostModelMap updates for a new cost model.\"\"\"\n        url = reverse('costmodels-list')\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571775374.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e7c219d3-8874-465f-84ce-caec8ae23427",
+        "type": "message",
+        "text": "then here\u2019s now it\u2019s used with reverse",
+        "user": "UAR1CADNV",
+        "ts": "1571775382.009600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "938b7f3a-def5-4621-9b8e-ec3614b28b70",
+        "type": "message",
+        "text": "`url = reverse('costmodels-detail', kwargs={'uuid': uuid4()})` here\u2019s an example too",
+        "user": "UAR1CADNV",
+        "ts": "1571775445.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7f78c605-6720-45c6-a486-423e797e74f6",
+        "type": "message",
+        "text": "the -list is like `<http://server.com/costmodels/>`",
+        "user": "UAR1CADNV",
+        "ts": "1571775462.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "410544ec-16a5-4f4a-a2b7-e6305d5ad7bc",
+        "type": "message",
+        "text": "the -detail is like `<http://server.com/costmodels/&lt;specificuuid&gt;>`",
+        "user": "UAR1CADNV",
+        "ts": "1571775477.010800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "391a6588-c1d7-4bbf-b092-dec4f65f5471",
+        "type": "message",
+        "text": "`/attributes2`?",
+        "user": "UAR1CADNV",
+        "ts": "1571775588.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e73b79b1-4402-4210-b421-e17cab0e1a4a",
+        "type": "message",
+        "text": "it's now just /attributes",
+        "user": "UMQA682PJ",
+        "ts": "1571775600.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8a9792d-aa72-4420-bba5-6a8f529895ab",
+        "type": "message",
+        "text": "ah ok",
+        "user": "UAR1CADNV",
+        "ts": "1571775609.011900",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1571775613.000000"
+        }
+    },
+    {
+        "client_msg_id": "5d06b43d-f0fb-48f6-8622-405f968f9469",
+        "type": "message",
+        "text": "that was before when i was getting it to work",
+        "user": "UMQA682PJ",
+        "ts": "1571775613.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4479d0eb-715a-40de-be79-ee62abfa92ab",
+        "type": "message",
+        "text": "also i removed the ability to do POST requests, so now it's read only",
+        "user": "UMQA682PJ",
+        "ts": "1571775729.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c8522d0d-fcdd-45e1-b6a9-0436dba117e4",
+        "type": "message",
+        "text": "yea thats good",
+        "user": "UAR1CADNV",
+        "ts": "1571775740.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22aed890-6395-4cdb-a871-e0aaffaf2477",
+        "type": "message",
+        "text": "this should be difficult to change IMO",
+        "user": "UAR1CADNV",
+        "ts": "1571775753.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4162d379-fd23-4379-a20b-413e0fb0954d",
+        "type": "message",
+        "text": "The ViewSet is read-only, not the model.",
+        "user": "UMQA682PJ",
+        "ts": "1571775754.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d44d049-103f-405b-aeab-ea9f36937214",
+        "type": "message",
+        "text": "so are you going to seed the database or something with the values?",
+        "user": "UAR1CADNV",
+        "ts": "1571775789.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "350294cd-17ad-432d-a2d9-d208a119c3b5",
+        "type": "message",
+        "text": "or value",
+        "user": "UAR1CADNV",
+        "ts": "1571775796.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a285c7d5-8a9c-4e0e-8985-53fa56b2ce7f",
+        "type": "message",
+        "text": "for now I think the idea is to log in directly into the database, as Andrew suggests.",
+        "user": "UMQA682PJ",
+        "ts": "1571775820.014700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58fbd649-8a9c-4d1d-8879-0451ee17bf78",
+        "type": "message",
+        "text": "ok good",
+        "user": "UAR1CADNV",
+        "ts": "1571775828.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "84e59a98-6e7e-4dc2-8483-492761e353f3",
+        "type": "message",
+        "text": "I know there was some conversation about an admin interface and all that..",
+        "user": "UAR1CADNV",
+        "ts": "1571775854.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c4d55aaf-2806-4286-869b-3b9200bbd622",
+        "type": "message",
+        "text": "Brett thinks an Admin Interface to edit the value should be added into an issue",
+        "user": "UMQA682PJ",
+        "ts": "1571775856.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "426f646d-852f-4021-b7b8-5b3318d659f8",
+        "type": "message",
+        "text": "yea",
+        "user": "UMQA682PJ",
+        "ts": "1571775859.016300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57b8c2b9-2a82-4dde-bab5-eb16d87a36ef",
+        "type": "message",
+        "text": "do we have any other admin interfaces?",
+        "user": "UMQA682PJ",
+        "ts": "1571775875.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a51ca466-8fe2-4975-92ae-b710ac83cb90",
+        "type": "message",
+        "text": "but it\u2019s such a huge ordeal if we ever change it that we really want it to be a developer doing the work to make sure it\u2019s all migrated correctly, etc.",
+        "user": "UAR1CADNV",
+        "ts": "1571775879.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3af09534-adba-4d62-9b57-8d8a1463261f",
+        "type": "message",
+        "text": "I think it\u2019s sort of risky to make something that an admin could mistakenly change the value",
+        "user": "UAR1CADNV",
+        "ts": "1571775895.017600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00438b56-9b89-45bf-99bc-5daf4af94e3a",
+        "type": "message",
+        "text": "and if we don\u2019t expect the value to change ever.. why create that door",
+        "user": "UAR1CADNV",
+        "ts": "1571775911.018100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "343ed88e-c71b-4c46-83d8-daf1dd128bec",
+        "type": "message",
+        "text": "I was thinking it should be immutable anyway, and if it ever were changed, it wouldn't be \"overwritten\" but rather a new one would join the list and people can slowly trickle over to that one as they have time.",
+        "user": "UMQA682PJ",
+        "ts": "1571775941.018800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0902a40d-7f1b-4af4-973e-8b6c6b05b52a",
+        "type": "message",
+        "text": "well in that case the API needs to return one value right?",
+        "user": "UAR1CADNV",
+        "ts": "1571775981.019300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88ec038d-e9e7-41e2-93fa-59d51d4c6088",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1571775990.019700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f5ff3054-b8fa-465d-b507-e535a0149fcb",
+        "type": "message",
+        "text": "how would it handle a list and especially if the older entry on the list is no longer correct",
+        "user": "UAR1CADNV",
+        "ts": "1571775992.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d007fe24-7db3-4d35-92d5-5d35a835a27f",
+        "type": "message",
+        "text": "they could both be correct for a while",
+        "user": "UMQA682PJ",
+        "ts": "1571776009.020100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e7597957-f199-462c-8355-a77eba71bf10",
+        "type": "message",
+        "text": "ok what happens when the older one isn\u2019t correct",
+        "user": "UAR1CADNV",
+        "ts": "1571776023.020300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e4632e6-c459-4895-8a43-aa3a6b1a8fd8",
+        "type": "message",
+        "text": "i don't think we would ever delete it but it would be deprecated",
+        "user": "UMQA682PJ",
+        "ts": "1571776052.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d27ebfd1-2675-48f1-8a9f-b3c639a9a9f8",
+        "type": "message",
+        "text": "kind of like when an API switches from v1 to v2, you may not need to \"delete\" the old URLs",
+        "user": "UMQA682PJ",
+        "ts": "1571776106.021700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b2e408b2-d7e4-4966-b405-585c82c8db6a",
+        "type": "message",
+        "text": "but that's a bigger discussion for later",
+        "user": "UMQA682PJ",
+        "ts": "1571776117.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4d0e1ff2-1123-4c70-b383-74c540fe2ece",
+        "type": "message",
+        "text": "yeah definitely.. I\u2019d have to think on that one to see what problem that would solve but for another day :man-shrugging:",
+        "user": "UAR1CADNV",
+        "ts": "1571776211.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f1d179ca-175e-4e82-bffb-5c0cbce8db95",
+        "type": "message",
+        "text": "let me know how that `base_name` goes",
+        "user": "UAR1CADNV",
+        "ts": "1571776388.022900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "75d69cf4-b0ef-41d0-9aa9-06cfd194e966",
+        "type": "message",
+        "text": "I think that /costmodels is probably the closet example for what your doing since that\u2019s a standalone django app",
+        "user": "UAR1CADNV",
+        "ts": "1571776419.023300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "92a3d27b-3b6e-4903-9842-7745acc397cc",
+        "type": "message",
+        "text": "do you mean /metrics?",
+        "user": "UMQA682PJ",
+        "ts": "1571776869.023600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c2d3ded-195b-4ad0-8595-4e08e26597a9",
+        "type": "message",
+        "text": "ROUTER.register(r'metrics', CostModelMetricsMapViewSet, base_name='metrics')",
+        "user": "UMQA682PJ",
+        "ts": "1571776872.023800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "74155152-31c6-40ea-89fd-f98fa32d6ae9",
+        "type": "message",
+        "text": "well metrics is part of the `api` app right?",
+        "user": "UAR1CADNV",
+        "ts": "1571776952.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c205d369-bbd4-4d77-802b-6f09dda40119",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1571776960.024400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ac0974a-3494-43b0-8251-77daefeeec77",
+        "type": "message",
+        "text": "im not sure",
+        "user": "UMQA682PJ",
+        "ts": "1571776966.024700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c620954-6ec6-4991-bca6-c815e38bd90c",
+        "type": "message",
+        "text": "and your making a new django app",
+        "user": "UAR1CADNV",
+        "ts": "1571776970.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "80d43ff7-c2bf-42ae-a45f-67c050ddf2f8",
+        "type": "message",
+        "text": "so I think the `cost_models` example might be easier to follow",
+        "user": "UAR1CADNV",
+        "ts": "1571776990.025200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "123f4d32-3990-4d27-9247-cf290c2f83c6",
+        "type": "message",
+        "text": "but it\u2019s probably the same for metrics",
+        "user": "UAR1CADNV",
+        "ts": "1571776994.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "326d5750-f05f-4394-8b71-caa2452b19c5",
+        "type": "message",
+        "text": "Oh, what URL is that on?",
+        "user": "UMQA682PJ",
+        "ts": "1571777018.025900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8530b89-99c5-489b-b285-b757bc54118a",
+        "type": "message",
+        "text": "the key is to try and add the `base_name` parameter to the register function",
+        "user": "UAR1CADNV",
+        "ts": "1571777020.026000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45f38729-dbf7-4b2f-bab3-b3c99450434c",
+        "type": "message",
+        "text": "i see",
+        "user": "UMQA682PJ",
+        "ts": "1571777032.026300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4ab1c46-a158-4090-8329-3202e33da78e",
+        "type": "message",
+        "text": "and see if you can use it in the `reverse` function",
+        "user": "UAR1CADNV",
+        "ts": "1571777034.026500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20b1c34a-f7d1-499e-9e16-e891006c2d44",
+        "type": "message",
+        "text": "like the examples I showed you earlier",
+        "user": "UAR1CADNV",
+        "ts": "1571777043.026900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a48d0696-16b9-4519-8e96-78db445698f6",
+        "type": "message",
+        "text": "so cost models isn't connected to the api app at all?",
+        "user": "UMQA682PJ",
+        "ts": "1571777093.027500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76ec5ff7-1ced-4a69-8f12-9e24b6fcf0dc",
+        "type": "message",
+        "text": "nope its a \u201ctenant\u201d app",
+        "user": "UAR1CADNV",
+        "ts": "1571777151.027900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fec94893-ef78-4bfe-bd1b-5dfaf1fdd098",
+        "type": "message",
+        "text": "```\nTENANT_APPS = (\n    'reporting',\n    'cost_models',\n)\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571777154.028100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "731e5524-e79a-4b64-bd3c-20564df11518",
+        "type": "message",
+        "text": "from koku/settings.py",
+        "user": "UAR1CADNV",
+        "ts": "1571777157.028300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "02dce45e-94fa-472e-b1ca-5e920d33bb50",
+        "type": "message",
+        "text": "also here\n```\nINSTALLED_APPS = [\n    'tenant_schemas',\n    # django\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n\n    # third-party\n    'rest_framework',\n    'django_filters',\n    'corsheaders',\n    'querystring_parser',\n    'django_prometheus',\n\n    # local apps\n    'api',\n    'masu',\n    'reporting',\n    'reporting_common',\n    'cost_models',\n    'sources',\n]\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571777171.028500",
+        "team": "T026NJJ6Z"
+    }
+]

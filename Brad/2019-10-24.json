@@ -1,0 +1,43 @@
+[
+    {
+        "client_msg_id": "c4ee8921-5cd3-47fd-9c3d-8f065f349003",
+        "type": "message",
+        "text": "I saw and up-voted your question at the company all-hands. I'm glad you asked that, even though it had no chance of getting answered there. :slightly_smiling_face:",
+        "user": "U8E2NAGGJ",
+        "ts": "1571929525.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a3bd038-b6f7-471c-a5f0-199aef40097b",
+        "type": "message",
+        "text": "Definitely hold on to that for the next time there's another all-hands like maybe at the PnT level.",
+        "user": "U8E2NAGGJ",
+        "ts": "1571929549.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ede332e-c8bf-4c19-99ae-0ec74eda252a",
+        "type": "message",
+        "text": "and keep pushing!",
+        "user": "U8E2NAGGJ",
+        "ts": "1571929555.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "320b49fd-cab7-45b0-82ee-31176d7ad455",
+        "type": "message",
+        "text": "the occasionally weird closed-source secrecy drives me nuts too.",
+        "user": "U8E2NAGGJ",
+        "ts": "1571929570.001600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

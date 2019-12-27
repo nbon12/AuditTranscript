@@ -1,0 +1,1018 @@
+[
+    {
+        "client_msg_id": "b841fa3f-d90d-43ca-a8b0-aa19502c12af",
+        "type": "message",
+        "text": "hey Nick! got a great issue for you if your ready.  This is an important next step in the Sources integration to be able to relay source status back to the platform. <https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309>",
+        "user": "UAR1CADNV",
+        "ts": "1572353898.000700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "ZenHub",
+                "title_link": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309",
+                "text": "Project Management and Software Development with GitHub | ZenHub",
+                "fallback": "ZenHub",
+                "from_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309",
+                "service_icon": "https://app.zenhub.com/dist/favicon/apple-touch-icon.png",
+                "service_name": "app.zenhub.com",
+                "id": 1,
+                "original_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c72631f0-4849-439f-b45d-26744d56885f",
+        "type": "message",
+        "text": "The cloud accounts API was a great opportunity to get used to building a django API.  This is going to be levering much of that same experience you just gained from doing that.",
+        "user": "UAR1CADNV",
+        "ts": "1572353985.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "90f0b99b-ad0b-4ec5-bb7c-6bbdd5613615",
+        "type": "message",
+        "text": "sounds good, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1572357368.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fe60f6e4-7342-477b-a099-8c207571ff48",
+        "type": "message",
+        "text": "I\u2019m working on figuring out if this API should be internal or public.  I think it should be internal but want to just confirm with Platform Sources before committing to that",
+        "user": "UAR1CADNV",
+        "ts": "1572358014.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "43ccf943-708f-46eb-bc19-07039e416545",
+        "type": "message",
+        "text": "we discussed this briefly in the backlog meeting yesterday",
+        "user": "UAR1CADNV",
+        "ts": "1572358029.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0bd5b91e-e9d2-49c7-8480-0fa0b4d2386b",
+        "type": "message",
+        "text": "would that mean it's a separate app?",
+        "user": "UMQA682PJ",
+        "ts": "1572358057.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4830446e-c8bf-4f83-8f6e-72d3e199ca66",
+        "type": "message",
+        "text": "but please spend some time getting up to speed with the code and the issue, let me know if you have any questions",
+        "user": "UAR1CADNV",
+        "ts": "1572358060.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f763fc16-3274-49c9-a35f-9e0aa83590f9",
+        "type": "message",
+        "text": "we do have an \u201cinternal\u201d api server `masu-server` that could be used",
+        "user": "UAR1CADNV",
+        "ts": "1572358085.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "435a64a7-016f-47e8-b978-96067ccc61b5",
+        "type": "message",
+        "text": "thats where we host the admin endpoints like `/download`",
+        "user": "UAR1CADNV",
+        "ts": "1572358096.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd7e5169-fbfd-43b5-a65b-88df8ac830bc",
+        "type": "message",
+        "text": "with docker-compose that\u2019s `localhost:5000`",
+        "user": "UAR1CADNV",
+        "ts": "1572358106.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da5ae788-f5a3-48fa-8b0b-1930fb8bf23c",
+        "type": "message",
+        "text": "what does this mean, from the issue card: \"TODO for whoever implements this: Figure out how ProviderStatus fits into this, and consider the flows @blentz describes in which we may set an \"error\" status if things fail during processing.\"",
+        "user": "UMQA682PJ",
+        "ts": "1572358258.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b4f14c4c-ff56-4120-b497-0af078225b38",
+        "type": "message",
+        "text": "yeh lets not worry about that just yet",
+        "user": "UAR1CADNV",
+        "ts": "1572358286.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1828b4f7-7d00-47de-ad83-07415638e8e4",
+        "type": "message",
+        "text": "the point of this is to just provide an API that can call our provider-onboarding checks",
+        "user": "UAR1CADNV",
+        "ts": "1572358311.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9630cf86-e2af-4bdf-bfc0-2f61b5f28f3d",
+        "type": "message",
+        "text": "that ProviderStatus class is more for backing off polling attempts when downloads fail..",
+        "user": "UAR1CADNV",
+        "ts": "1572358357.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd0b888f-6247-4afe-a9b5-e1420543946b",
+        "type": "message",
+        "text": "that\u2019s a separate issue and might come into the mix when we start pushing status to platform sources. But for now lets just focus on giving them something to poll on",
+        "user": "UAR1CADNV",
+        "ts": "1572358392.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "591626f8-1c15-4f7a-b00b-df7503b6ee2c",
+        "type": "message",
+        "text": "I can add a comment to the issue around that",
+        "user": "UAR1CADNV",
+        "ts": "1572358402.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1239dd8c-a7db-4ae4-a4e8-c0d7436b0cd3",
+        "type": "message",
+        "text": "how do we know if a source is configured correctly today? what's the criteria?",
+        "user": "UMQA682PJ",
+        "ts": "1572358421.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "757a2c03-875e-4ca1-bca2-cc8ada4da971",
+        "type": "message",
+        "text": "I put the class and method we use today in the issue I think",
+        "user": "UAR1CADNV",
+        "ts": "1572358436.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ba7d9fc-fb4a-43c2-a637-fff2c7405ca9",
+        "type": "message",
+        "text": "and some general ideas as to how to get the parameters",
+        "user": "UAR1CADNV",
+        "ts": "1572358449.010100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0380236c-28d7-4daf-9bd9-fb014148acb9",
+        "type": "message",
+        "text": "yeah `ProviderAccessor().cost_usage_source_ready()`",
+        "user": "UAR1CADNV",
+        "ts": "1572358470.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5994697b-56af-470a-b493-98c209b129aa",
+        "type": "message",
+        "text": "and the `Sources` database table should have all values needed",
+        "user": "UAR1CADNV",
+        "ts": "1572358479.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41465cd6-435e-4007-94fd-d9fe4c6c3552",
+        "type": "message",
+        "text": "want to make sure it\u2019s the same logic (shared code) we are using when adding a provider",
+        "user": "UAR1CADNV",
+        "ts": "1572358509.011100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "305dff18-38ac-474b-9c27-a3e69e5cbf9d",
+        "type": "message",
+        "text": "which schema's sources table would I be checking?",
+        "user": "UMQA682PJ",
+        "ts": "1572358615.011400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6c98f69f-8773-4ec2-9619-2b67cb7841c1",
+        "type": "message",
+        "text": "public?",
+        "user": "UMQA682PJ",
+        "ts": "1572358620.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "59c34e60-ce13-4a43-84d5-664241d2701d",
+        "type": "message",
+        "text": "this is in public",
+        "user": "UAR1CADNV",
+        "ts": "1572358623.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "561c7fa6-55eb-40f7-9da8-244a4a596568",
+        "type": "message",
+        "text": "api_sources I'm assuming",
+        "user": "UMQA682PJ",
+        "ts": "1572358645.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b188364-6b95-4dc3-8b62-4a27b03e78e3",
+        "type": "message",
+        "text": "yeah thats the table",
+        "user": "UAR1CADNV",
+        "ts": "1572358658.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cbcd3971-52c4-417e-b751-0b7d2bb97cac",
+        "type": "message",
+        "text": "it will have the source_id as well as the other koku-provider values that this class/function is looking for",
+        "user": "UAR1CADNV",
+        "ts": "1572358676.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8922fe25-a1cd-4df7-9e88-fba5a14c1058",
+        "type": "message",
+        "text": "to make the dev-flow easier you could make it look up based on koku-uuid initially",
+        "user": "UAR1CADNV",
+        "ts": "1572358711.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eb275777-b59b-465f-aaf1-b947233a4c4d",
+        "type": "message",
+        "text": "what's the difference between a provider and a source?",
+        "user": "UMQA682PJ",
+        "ts": "1572358712.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f120e60-9d25-4cb3-9ee7-a394f1a0efcb",
+        "type": "message",
+        "text": "then you don\u2019t have to get sources in the mix just yet",
+        "user": "UAR1CADNV",
+        "ts": "1572358717.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c7574a84-0014-4cf2-97b3-5bb63a773f82",
+        "type": "message",
+        "text": "then when you get that working I can show you how to stand up the sources backend and start using source-id instead",
+        "user": "UAR1CADNV",
+        "ts": "1572358735.014300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5105ef2d-1a56-43b5-8fb1-75bdaaf2f9e7",
+        "type": "message",
+        "text": "that\u2019s probably a lot easier actually, what I would do if I were working on it :wink:",
+        "user": "UAR1CADNV",
+        "ts": "1572358796.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "85afed1a-64c5-40dd-b1b7-deda2c6dd98e",
+        "type": "message",
+        "text": "my sources table is empty, how do i get a source? for testing purposes",
+        "user": "UMQA682PJ",
+        "ts": "1572358797.015000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34df05a3-658f-4d85-a3f7-ead1462a51df",
+        "type": "message",
+        "text": "ahh right you\u2019ll have to still get the values out",
+        "user": "UAR1CADNV",
+        "ts": "1572358813.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17dc2ef4-69f4-473f-b17a-5fa4b8403f4a",
+        "type": "message",
+        "text": "ok nevermind, might be better to just get it working from the beginning",
+        "user": "UAR1CADNV",
+        "ts": "1572358836.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bb3c7162-2e0f-48a9-9de9-3bfe9512cf5e",
+        "type": "message",
+        "text": "so one easy way to short-circuit the sources setup for now is to just add the values directly to the database",
+        "user": "UAR1CADNV",
+        "ts": "1572358892.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f65cda9-762a-478d-8e11-e6607e76c002",
+        "type": "message",
+        "text": "let me get a good example, one second",
+        "user": "UAR1CADNV",
+        "ts": "1572358905.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f7bd89ed-e1fa-489d-b314-bb659217cb87",
+        "type": "message",
+        "text": "sorry in the qe test review meeting",
+        "user": "UAR1CADNV",
+        "ts": "1572360412.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b9ec4c50-3a2a-4f6b-8f4b-b6733e49c98c",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572363958.017500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9d17c48d-ae24-4d57-9acc-3a4ef1748646",
+        "type": "message",
+        "text": "here\u2019s an example of a real aws source",
+        "user": "UAR1CADNV",
+        "ts": "1572363967.017800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4ae37ce-0b24-4f01-90ea-29fbe12a9ce4",
+        "type": "message",
+        "text": "```\n source_id |      name       | source_type |                           authentication                           |         billing_source          |              koku_uuid               |                                             auth_header                                              | pending_delete | offset | endpoint_id | pending_update\n-----------+-----------------+-------------+--------------------------------------------------------------------+---------------------------------+--------------------------------------+------------------------------------------------------------------------------------------------------+----------------+--------+-------------+----------------\n         1 | Test AWS Source | AWS         | {\"resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\"} | {\"bucket\": \"cost-usage-bucket\"} | 4b17ff6d-0fbd-4453-b314-e5af7fbbb474 | eyJpZGVudGl0eSI6IHsiYWNjb3VudF9udW1iZXIiOiAiMTIzNDUiLCAiaW50ZXJuYWwiOiB7Im9yZ19pZCI6ICI1NDMyMSJ9fX0= | f              |      7 |           1 | f\n```",
+        "user": "UAR1CADNV",
+        "ts": "1572363974.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b8bd192-45ca-433f-8790-032a93353d12",
+        "type": "message",
+        "text": "might have to make your window really wide :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572363990.018300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ab45ff74-9b54-44a0-ab96-0ed72ef20738",
+        "type": "message",
+        "text": "but you can first create an AWS provider to get the UUID, then plug that value into this SQL statement to create the entry",
+        "user": "UAR1CADNV",
+        "ts": "1572364019.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "787fa196-2c8d-41a0-bcc3-f918c6f192e7",
+        "type": "message",
+        "text": "`postgres=# INSERT INTO api_sources VALUES (1, 'New AWS Source', 'AWS', '{\"resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\"}', '{\"bucket\": \"cost-usage-bucket\"}', 'f2de51c1-621c-4033-91d6-e5be01795604', 'header', False, 1, 1, False);`",
+        "user": "UAR1CADNV",
+        "ts": "1572364025.019200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "756d6fad-cf4d-479b-82cd-7b7c3ef08917",
+        "type": "message",
+        "text": "in this case `'f2de51c1-621c-4033-91d6-e5be01795604'` is the AWS provider uuid",
+        "user": "UAR1CADNV",
+        "ts": "1572364040.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d5b79d9d-7c14-4f4d-93be-fb7b379d5cb9",
+        "type": "message",
+        "text": "```\nPOST /api/cost-management/v1/providers/\nHTTP 201 Created\nAllow: GET, POST, HEAD, OPTIONS\nCache-Control: max-age=0, no-cache, no-store, must-revalidate\nContent-Type: application/json\nExpires: Tue, 29 Oct 2019 15:36:46 GMT\nVary: Accept\n\n{\n    \"uuid\": \"f2de51c1-621c-4033-91d6-e5be01795604\",\n    \"name\": \"ProviderAWS\",\n    \"type\": \"AWS\",\n    \"authentication\": {\n        \"uuid\": \"987a9b1f-8293-43f1-8a12-fd12ee9c5f69\",\n        \"provider_resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\",\n        \"credentials\": {\n            \"provider_resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\"\n        }\n    },\n    \"billing_source\": {\n        \"uuid\": \"96749a8d-633f-42a5-bd30-89c1351252dd\",\n        \"bucket\": \"cost-usage-bucket\",\n        \"data_source\": {\n            \"bucket\": \"cost-usage-bucket\"\n        }\n    },\n    \"customer\": {\n        \"uuid\": \"f523ccf3-e6af-4371-a3f1-0b0aa3ce7e8a\",\n        \"account_id\": \"10001\",\n        \"date_created\": \"2019-10-29T15:36:24.732922Z\"\n    },\n    \"created_by\": {\n        \"uuid\": \"05078e40-781b-4047-8d77-182dd4b926cb\",\n        \"username\": \"user_dev\",\n        \"email\": \"<mailto:user_dev@foo.com|user_dev@foo.com>\"\n    },\n    \"created_timestamp\": \"2019-10-29T15:36:46.736234Z\"\n}\n```",
+        "user": "UAR1CADNV",
+        "ts": "1572364050.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad37346f-7162-4754-b569-5635988f9f51",
+        "type": "message",
+        "text": "would it work with an AWS-local provider?",
+        "user": "UMQA682PJ",
+        "ts": "1572364057.020200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6770468-44e7-432e-9466-3263b8fee243",
+        "type": "message",
+        "text": "no just the real AWS provider",
+        "user": "UAR1CADNV",
+        "ts": "1572364067.020400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce2dce43-4d6f-4cb1-b12f-030d374e2166",
+        "type": "message",
+        "text": "since it\u2019s doing checks on the cloud configuration",
+        "user": "UAR1CADNV",
+        "ts": "1572364077.020700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c06a56ff-9e3a-44c5-b84f-000875d0fbf1",
+        "type": "message",
+        "text": "so I would suggest using this AWS account and get the API to return the status (should be successful since it\u2019s a real account that we use)",
+        "user": "UAR1CADNV",
+        "ts": "1572364145.021300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45041aa4-ca96-4aec-a522-7122b23d8458",
+        "type": "message",
+        "text": "then we can start using a different AWS account to do more negative tests with",
+        "user": "UAR1CADNV",
+        "ts": "1572364166.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d274f90b-b9bd-4a11-8c73-99b721976041",
+        "type": "message",
+        "text": "in your example INSERT statement, is the uuid 'New AWS Source' ?",
+        "user": "UMQA682PJ",
+        "ts": "1572364356.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "919743bd-4c4c-4244-b98a-8511e5d30362",
+        "type": "message",
+        "text": "nevermind I was looking at the provider table..",
+        "user": "UMQA682PJ",
+        "ts": "1572364377.022600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "86af3c30-5752-43af-bb90-da685bbc3149",
+        "type": "message",
+        "text": "no thats the name",
+        "user": "UAR1CADNV",
+        "ts": "1572364382.022800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "70c1df9b-f1c5-4b9e-8e81-1064bb4034f2",
+        "type": "message",
+        "text": "in the example you provided, if I were to call `ProviderAccessor().cost_usage_source_ready()` it would return `True`?",
+        "user": "UMQA682PJ",
+        "ts": "1572364620.023500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3a855e00-35f0-4e2a-85c8-4826e1c8f177",
+        "type": "message",
+        "text": "so, all I need to do is expose the cost_usage_source_ready() return value over API without authentication?",
+        "user": "UMQA682PJ",
+        "ts": "1572364754.024000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0f263e2-79c5-4f7a-ab83-e2ca579ea63c",
+        "type": "message",
+        "text": "ahh just looking at that code again.",
+        "user": "UAR1CADNV",
+        "ts": "1572364786.024300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f6733f6b-f2a9-4100-bcf5-f1ae96d3e0fb",
+        "type": "message",
+        "text": "so the logic doesn\u2019t return an explicit true, it just raises an exception if something\u2019s wrong.. Not great I know",
+        "user": "UAR1CADNV",
+        "ts": "1572364809.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4ef830e-35fd-4a22-adf3-7ef6161da632",
+        "type": "message",
+        "text": "I noticed it says \"Returns: None\"",
+        "user": "UMQA682PJ",
+        "ts": "1572364834.025200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "46d9af62-d8a8-43eb-8ca7-0a0e8c61c7e4",
+        "type": "message",
+        "text": "so to re-use it as is you\u2019ll need to call it with a try:except basically",
+        "user": "UAR1CADNV",
+        "ts": "1572364846.025800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "252ceba8-616a-44d5-ab41-e68c28515bdc",
+        "type": "message",
+        "text": "yea",
+        "user": "UMQA682PJ",
+        "ts": "1572364850.026100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1039a01f-2bff-4c3a-b1cd-e4de5af1f5b3",
+        "type": "message",
+        "text": "if you get the exception, return false",
+        "user": "UAR1CADNV",
+        "ts": "1572364853.026300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "250a94a8-7403-4979-8a07-11da6759ea51",
+        "type": "message",
+        "text": "otherwise retrun true",
+        "user": "UAR1CADNV",
+        "ts": "1572364857.026600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "efa58030-cb86-4258-9dac-5f94bb0e6dbe",
+        "type": "message",
+        "text": "yep",
+        "user": "UMQA682PJ",
+        "ts": "1572364859.026800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "111cb7dd-5579-4094-a2f0-529b58098cff",
+        "type": "message",
+        "text": "not too bad.. Probably best to try that first I think",
+        "user": "UAR1CADNV",
+        "ts": "1572364869.027200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0cccaebe-bfcf-4b33-9659-c320ec9b1980",
+        "type": "message",
+        "text": "instead of changing the logic (but I\u2019m not apposed to that..)",
+        "user": "UAR1CADNV",
+        "ts": "1572364882.027600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "985360c8-d785-4095-8a8d-2e8f1eb0fdda",
+        "type": "message",
+        "text": "it just seems like the try, except is pretty straight forward",
+        "user": "UAR1CADNV",
+        "ts": "1572364899.028100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4b89df97-179e-4b81-8c28-4eb015f8df28",
+        "type": "message",
+        "text": "does the user of this API know the `source_name` parameter?",
+        "user": "UMQA682PJ",
+        "ts": "1572364942.028900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6072b618-c5d3-4b7c-bc6c-4e119f384f00",
+        "type": "message",
+        "text": "they would know the source_id",
+        "user": "UAR1CADNV",
+        "ts": "1572364953.029100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ebcd26e-fe67-49ce-9fa1-79e65383e08d",
+        "type": "message",
+        "text": "so input is source_id --&gt; [`cost_usage_ready()`] -&gt; True/False",
+        "user": "UAR1CADNV",
+        "ts": "1572364989.029800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd349a88-1004-4a87-9b00-37e163d21870",
+        "type": "message",
+        "text": "so i'll do a lookup on the sources table to get the source_name and auth_header, and then feed the source_name, and auth_header, and pass them directly into this function",
+        "user": "UMQA682PJ",
+        "ts": "1572365082.031100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1572365097.000000"
+        }
+    },
+    {
+        "client_msg_id": "bf555041-95b5-4279-9309-06807d770f7f",
+        "type": "message",
+        "text": "yea thats what I was thinking",
+        "user": "UAR1CADNV",
+        "ts": "1572365115.031500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "953d620e-1983-4ccf-95f8-03b45bc42b20",
+        "type": "message",
+        "text": "use the source table to get the parameters for `ProviderAccessor`",
+        "user": "UAR1CADNV",
+        "ts": "1572365128.031800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "031609c7-fefa-4171-864a-55f3d75c04d7",
+        "type": "message",
+        "text": "that then should be able to grab the right validation logic  based on `service_name`",
+        "user": "UAR1CADNV",
+        "ts": "1572365162.032200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f6ad05a-7285-4e10-ab8a-73c10c8dc1e5",
+        "type": "message",
+        "text": "and whenever we add a new provider or change the logic we just make the change in one place",
+        "user": "UAR1CADNV",
+        "ts": "1572365185.032600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e53adaa3-692a-4755-82ca-c14c85b09348",
+        "type": "message",
+        "text": "it would cover the provider onboarding checks as well as the Platform Sources checks that will happen periodically",
+        "user": "UAR1CADNV",
+        "ts": "1572365206.033100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "470ca9ec-b54a-453a-9700-95936e89c78f",
+        "type": "message",
+        "text": "so it seems like you\u2019ve got a good handle on this? Any other questions.  As you see in the notes, we don\u2019t know the *exact* calling conventions of how this should be, but I\u2019ll try to ping someone on Platform Sources to see if they have any clues",
+        "user": "UAR1CADNV",
+        "ts": "1572365398.033900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5cf9c22b-08c5-425a-8e45-8be1605e38f1",
+        "type": "message",
+        "text": "otherwise we\u2019ll have to just pick something to get it work then make a follow on change to conform to whatever they decide",
+        "user": "UAR1CADNV",
+        "ts": "1572365418.034500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9069f577-9dee-4908-8df9-1acca825439c",
+        "type": "message",
+        "text": "and also need to confirm if they ever need this to be publicly accessible..",
+        "user": "UAR1CADNV",
+        "ts": "1572365510.035100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e5290e0-5755-44a3-9981-4d332fd5cf4b",
+        "type": "message",
+        "text": "I can\u2019t really imagine why they would.. but want to confirm",
+        "user": "UAR1CADNV",
+        "ts": "1572365521.035500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a34b24c4-b2e8-4fe4-8b84-b00600d23757",
+        "type": "message",
+        "text": "is the masu /download endpoint not publicly accessible?",
+        "user": "UMQA682PJ",
+        "ts": "1572365565.035800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "368e6cb3-f644-4ac8-90ff-a93dfb346b62",
+        "type": "message",
+        "text": "what do you mean by \"internal\", is authentication handled in the API or at a network level outside of our control?",
+        "user": "UMQA682PJ",
+        "ts": "1572365629.036900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5757416b-91d2-41d2-8ba3-b77af8475f21",
+        "type": "message",
+        "text": "yeah the masu /download is not publicly accessible so i think starting on the masu service would be a safe bet",
+        "user": "UAR1CADNV",
+        "ts": "1572365684.037500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2134476a-a6bf-41aa-8fb4-6e9cb9c7802c",
+        "type": "message",
+        "text": "internal means the caller has to be in the OpenShift cluster",
+        "user": "UAR1CADNV",
+        "ts": "1572365701.037800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b5b356f-db13-44d5-ab44-385617eb3ae9",
+        "type": "message",
+        "text": "which no customer/user should ever be able to get",
+        "user": "UAR1CADNV",
+        "ts": "1572365722.038200",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d0d04e74-acb9-4148-90c3-a952bedcab58",
+        "type": "message",
+        "text": "so as far as where to put the URL and all that I think following the `/download` endpoint is the best example",
+        "user": "UAR1CADNV",
+        "ts": "1572365855.038700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0300c452-fa34-4c0c-bec3-ff923144215e",
+        "type": "message",
+        "text": "and with docker-compose that will be on the `masu_server` container `localhost:5000`",
+        "user": "UAR1CADNV",
+        "ts": "1572365886.039200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a025b9d-ae77-4de8-b3dc-12488ebe85b6",
+        "type": "message",
+        "text": "how can we test this? can I add a real AWS account in the unit tests?",
+        "user": "UMQA682PJ",
+        "ts": "1572372233.039800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "33606ca5-4096-4927-b1b2-d9b4470dcf25",
+        "type": "message",
+        "text": "oh no, you\u2019ll have to setup the database tables with test data",
+        "user": "UAR1CADNV",
+        "ts": "1572372257.040200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a7cd73f-6c44-4428-ad2a-5fa230002d7c",
+        "type": "message",
+        "text": "don\u2019t want to reach out to AWS for unit tests",
+        "user": "UAR1CADNV",
+        "ts": "1572372269.040500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "556e91ec-a927-4869-ac47-3cb4e3862689",
+        "type": "message",
+        "text": "do we have a sources model that I can use to insert sources into the database?",
+        "user": "UMQA682PJ",
+        "ts": "1572377272.040900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e7ecb369-e057-4370-a894-67cbf3b86faa",
+        "type": "message",
+        "text": "how do you mean?",
+        "user": "UAR1CADNV",
+        "ts": "1572377336.041400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8550f367-2019-4e30-937f-5d2d1b3b260e",
+        "type": "message",
+        "text": "I'd like to insert test data into our database for unit tests",
+        "user": "UMQA682PJ",
+        "ts": "1572377355.041800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be0851ac-46cc-4fbd-9373-a51af4d5e4d0",
+        "type": "message",
+        "text": "ohh your working on unit tests already?",
+        "user": "UAR1CADNV",
+        "ts": "1572377368.042400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b03add0-d217-4aa7-9104-7ba2ae36b010",
+        "type": "message",
+        "text": "have it working then?",
+        "user": "UAR1CADNV",
+        "ts": "1572377373.042700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7ae877c2-41f3-4833-af01-ee898e0fe72c",
+        "type": "message",
+        "text": "no, i'm doing test driven development",
+        "user": "UMQA682PJ",
+        "ts": "1572377380.043000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6901509c-16bc-4573-86a2-492d86466721",
+        "type": "message",
+        "text": "or are you just writing tests as you go",
+        "user": "UAR1CADNV",
+        "ts": "1572377383.043200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "725abbf4-8b84-48a2-997a-58119d8a386b",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572377384.043400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ee155f5d-3705-4e62-8441-c3eafae642f7",
+        "type": "message",
+        "text": "So the easiest thing to follow is probably something like this",
+        "user": "UAR1CADNV",
+        "ts": "1572377478.043900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b191816-a891-4247-80df-84e50bf402a2",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/api/provider/test/test_provider_manager.py#L348>",
+        "user": "UAR1CADNV",
+        "ts": "1572377479.044100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/provider/test/test_provider_manager.py:348",
+                "text": "```\n    def test_update_ocp_added_via_sources(self):\n```",
+                "title": "koku/api/provider/test/test_provider_manager.py:348",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/api/provider/test/test_provider_manager.py#L348",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/api/provider/test/test_provider_manager.py#L348",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a205806e-6916-4e43-9b0b-0faeef05795d",
+        "type": "message",
+        "text": "for `Sources.objects.create` you would most likely have to add the authentication and billing_source fields as well",
+        "user": "UAR1CADNV",
+        "ts": "1572377517.044800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b61a1d51-655e-4882-a159-c44077285390",
+        "type": "message",
+        "text": "can I re-use the authentication json from your earlier post? `{\"resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\"}`",
+        "user": "UMQA682PJ",
+        "ts": "1572377672.045200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e0d56ea-2932-44fd-9565-5a645400acd9",
+        "type": "message",
+        "text": "as test data, exactly?",
+        "user": "UMQA682PJ",
+        "ts": "1572377681.045400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a02ce08a-fb69-4b7b-a4f5-0cb4fccd61b1",
+        "type": "message",
+        "text": "probably want to make up something new even just `\"arn:aws:iam::999999999999:role/CostManagement\"`",
+        "user": "UAR1CADNV",
+        "ts": "1572377716.045900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5b5ec334-abec-4abd-bfd1-e149129867e5",
+        "type": "message",
+        "text": "You\u2019ll have to mock out all the AWS calls anyway",
+        "user": "UAR1CADNV",
+        "ts": "1572377747.046800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "65f90619-1014-4f98-99e8-83ff9db1c336",
+        "type": "message",
+        "text": "also can i re-use this exact text: `{\"bucket\": \"cost-usage-bucket\"}` for the billing_source",
+        "user": "UMQA682PJ",
+        "ts": "1572377748.046900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d93af484-be63-43f8-9330-7037c492f83a",
+        "type": "message",
+        "text": "sure thats no problem",
+        "user": "UAR1CADNV",
+        "ts": "1572377756.047100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ea5154c2-eea8-456d-9a8b-755cdaa3a57a",
+        "type": "message",
+        "text": "the account number is honestly probably fine too :wink:",
+        "user": "UAR1CADNV",
+        "ts": "1572377774.047500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd65996e-3f63-45bd-bd11-4fa9bd9f5433",
+        "type": "message",
+        "text": "but it just feels like we should change it",
+        "user": "UAR1CADNV",
+        "ts": "1572377780.047800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6d361864-2f5d-4772-b08c-bc322274ebff",
+        "type": "message",
+        "text": "as you know we publish that number",
+        "user": "UAR1CADNV",
+        "ts": "1572377789.048100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f8fc94d6-59ec-43b4-9f00-4813b399fb04",
+        "type": "message",
+        "text": "does the `cost_usage_source_ready()` make a call to AWS?",
+        "user": "UMQA682PJ",
+        "ts": "1572377812.048400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "431af547-3503-4343-9c15-5aeebdfdc344",
+        "type": "message",
+        "text": "yes for an AWS provider",
+        "user": "UAR1CADNV",
+        "ts": "1572377823.048600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5ca537ba-81a9-497b-b71b-9e7681137bc3",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/providers/aws/provider.py#L125>",
+        "user": "UAR1CADNV",
+        "ts": "1572377844.048800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/providers/aws/provider.py:125",
+                "text": "```\n    def cost_usage_source_is_reachable(self, credential_name, storage_resource_name):\n```",
+                "title": "koku/providers/aws/provider.py:125",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/providers/aws/provider.py#L125",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/e95da551ea6ae2af24e6f6842be2dc16448322d2/koku/providers/aws/provider.py#L125",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ff5a737b-9192-4bc0-af57-239c5ff9a78a",
+        "type": "message",
+        "text": "`boto3` is the AWS python client",
+        "user": "UAR1CADNV",
+        "ts": "1572377862.049200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "caebbf36-2418-4691-bad6-2f0b10bf1f92",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/master/koku/providers/test/aws/tests_aws_provider.py>",
+        "user": "UAR1CADNV",
+        "ts": "1572377883.049400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/providers/test/aws/tests_aws_provider.py",
+                "text": "```\n#\n# Copyright 2018 Red Hat, Inc.\n#\n# This program is free software: you can redistribute it and/or modify\n# it under the terms of the GNU Affero General Public License as\n# published by the Free Software Foundation, either version 3 of the\n# License, or (at your option) any later version.\n#\n# This program is distributed in the hope that it will be useful,\n# but WITHOUT ANY WARRANTY; without even the implied warranty of\n# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n# GNU Affero General Public License for more details.\n#\n# You should have received a copy of the GNU Affero General Public License\n# along with this program.  If not, see <https://www.gnu.org/licenses/>.\n#\n\"\"\"Tests the AWSProvider implementation for the Koku interface.\"\"\"\n\nimport logging\nfrom unittest.mock import Mock, patch\n\nfrom botocore.exceptions import ClientError\nfrom django.test import TestCase\nfrom django.utils.translation import ugettext as _\nfrom faker import Faker\nfrom rest_framework.exceptions import ValidationError\n\nfrom providers.aws.provider import (AWSProvider,\n                                    _check_cost_report_access,\n                                    _check_s3_access,\n                                    _get_sts_access,\n                                    error_obj)\n\nFAKE = Faker()\n\n\ndef _mock_boto3_exception():\n    \"\"\"Raise boto3 exception for testing.\"\"\"\n    raise ClientError(operation_name='', error_response={})\n\n\ndef _mock_boto3_kwargs_exception(**kwargs):\n    \"\"\"Raise boto3 exception for testing.\"\"\"\n    raise ClientError(operation_name='', error_response={})\n\n\nclass AWSProviderTestCase(TestCase):\n    \"\"\"Parent Class for AWSProvider test cases.\"\"\"\n\n    def test_get_name(self):\n        \"\"\"Get name of provider.\"\"\"\n        provider = AWSProvider()\n        self.assertEqual(provider.name(), 'AWS')\n\n    def test_error_obj(self):\n        \"\"\"Test the error_obj method.\"\"\"\n        test_key = 'tkey'\n        test_message = 'tmessage'\n        expected = {\n            test_key: [_(test_message)]\n        }\n        error = error_obj(test_key, test_message)\n        self.assertEqual(error, expected)\n\n    @patch('providers.aws.provider.boto3.client')\n    def test_get_sts_access(self, mock_boto3_client):\n        \"\"\"Test _get_sts_access success.\"\"\"\n        expected_access_key = FAKE.md5()\n        expected_secret_access_key = FAKE.md5()\n        expected_session_token = FAKE.md5()\n\n        assume_role = {\n            'Credentials': {\n                'AccessKeyId': expected_access_key,\n                'SecretAccessKey': expected_secret_access_key,\n                'SessionToken': expected_session_token\n            }\n        }\n        sts_client = Mock()\n        sts_client.assume_role.return_value = assume_role\n        mock_boto3_client.return_value = sts_client\n\n        iam_arn = 'arn:aws:s3:::my_s3_bucket'\n        credentials = _get_sts_access(iam_arn)\n        sts_client.assume_role.assert_called()\n        self.assertEquals(credentials.get('aws_access_key_id'),\n                          expected_access_key)\n        self.assertEquals(credentials.get('aws_secret_access_key'),\n                          expected_secret_access_key)\n        self.assertEquals(credentials.get('aws_session_token'),\n                          expected_session_token)\n\n    @patch('providers.aws.provider.boto3.client')\n    def test_get_sts_access_fail(self, mock_boto3_client):\n        \"\"\"Test _get_sts_access fail.\"\"\"\n        logging.disable(logging.NOTSET)\n        sts_client = Mock()\n        sts_client.assume_role.side_effect = _mock_boto3_kwargs_exception\n        mock_boto3_client.return_value = sts_client\n        iam_arn = 'arn:aws:s3:::my_s3_bucket'\n        with self.assertLogs(level=logging.CRITICAL):\n            credentials = _get_sts_access(iam_arn)\n            self.assertIn('aws_access_key_id', credentials)\n            self.assertIn('aws_secret_access_key', credentials)\n            self.assertIn('aws_session_token', credentials)\n            self.assertIsNone(credentials.get('aws_access_key_id'))\n            self.assertIsNone(credentials.get('aws_secret_access_key'))\n            self.assertIsNone(credentials.get('aws_session_token'))\n\n    @patch('providers.aws.provider.boto3.resource')\n    def test_check_s3_access(self, mock_boto3_resource):\n        \"\"\"Test _check_s3_access success.\"\"\"\n        s3_resource = Mock()\n        s3_resource.meta.client.head_bucket.return_value = True\n        mock_boto3_resource.return_value = s3_resource\n        s3_exists = _check_s3_access('bucket', {})\n        self.assertTrue(s3_exists)\n\n    @patch('providers.aws.provider.boto3.resource')\n    def test_check_s3_access_fail(self, mock_boto3_resource):\n        \"\"\"Test _check_s3_access fail.\"\"\"\n        s3_resource = Mock()\n        s3_resource.meta.client.head_bucket.side_effect = _mock_boto3_kwargs_exception\n        mock_boto3_resource.return_value = s3_resource\n        s3_exists = _check_s3_access('bucket', {})\n        self.assertFalse(s3_exists)\n\n    @patch('providers.aws.provider.boto3.client')\n    def test_check_cost_report_access(self, mock_boto3_client):\n        \"\"\"Test _check_cost_report_access success.\"\"\"\n        s3_client = Mock()\n        s3_client.describe_report_definitions.return_value = {'ReportDefinitions': [\n            {'ReportName': FAKE.word(),\n             'TimeUnit': 'HOURLY',\n             'Format': 'textORcsv',\n             'Compression': 'GZIP',\n             'AdditionalSchemaElements': ['RESOURCES'],\n             'S3Bucket': FAKE.word(),\n             'S3Prefix': FAKE.word(),\n             'S3Region': 'us-east-1',\n             'AdditionalArtifacts': [],\n             'RefreshClosedReports': True,\n             'ReportVersioning': 'CREATE_NEW_REPORT'}],\n            'ResponseMetadata': {'RequestId': FAKE.uuid4(),\n                                 'HTTPStatusCode': 200,\n                                 'HTTPHeaders': {'x-amzn-requestid': FAKE.uuid4(),\n                                                 'content-type': 'application/x-amz-json-1.1',\n                                                 'content-length': '1234',\n                                                 'date': FAKE.date_time()},\n                                 'RetryAttempts': 0}}\n        mock_boto3_client.return_value = s3_client\n        try:\n            _check_cost_report_access(FAKE.word(),\n                                      {'aws_access_key_id': FAKE.md5(),\n                                       'aws_secret_access_key': FAKE.md5(),\n                                       'aws_session_token': FAKE.md5()})\n        except Exception as exc:\n            self.fail(exc)\n\n    @patch('providers.aws.provider.boto3.client')\n    def test_check_cost_report_access_fail(self, mock_boto3_client):\n        \"\"\"Test _check_cost_report_access fail.\"\"\"\n        s3_client = Mock()\n        s3_client.describe_report_definitions.side_effect = _mock_boto3_kwargs_exception\n        mock_boto3_client.return_value = s3_client\n        with self.assertRaises(ValidationError):\n            _check_cost_report_access(FAKE.word(),\n                                      {'aws_access_key_id': FAKE.md5(),\n                                       'aws_secret_access_key': FAKE.md5(),\n                                       'aws_session_token': FAKE.md5()},\n                                      bucket='wrongbucket')\n\n    @patch('providers.aws.provider._get_sts_access',\n           return_value=dict(aws_access_key_id=FAKE.md5(),\n                             aws_secret_access_key=FAKE.md5(),\n                             aws_session_token=FAKE.md5()))\n    @patch('providers.aws.provider._check_s3_access', return_value=True)\n    @patch('providers.aws.provider._check_org_access', return_value=True)\n    @patch('providers.aws.provider._check_cost_report_access', return_value=True)\n    def test_cost_usage_source_is_reachable(self,\n                                            mock_get_sts_access,\n                                            mock_check_s3_access,\n                           \u2026",
+                "title": "koku/providers/test/aws/tests_aws_provider.py",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/providers/test/aws/tests_aws_provider.py",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/providers/test/aws/tests_aws_provider.py",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8eebcbf9-c31b-4345-888f-890623f00ada",
+        "type": "message",
+        "text": "this is the tests where you can see how to mock the AWS calls",
+        "user": "UAR1CADNV",
+        "ts": "1572377894.049800",
+        "team": "T026NJJ6Z"
+    }
+]

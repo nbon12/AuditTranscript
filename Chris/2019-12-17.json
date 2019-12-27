@@ -1,0 +1,255 @@
+[
+    {
+        "client_msg_id": "288395e3-d6c9-4681-b9b7-0beb2d0ff9b9",
+        "type": "message",
+        "text": "side question, what days are you usually in the tower?",
+        "user": "UMQA682PJ",
+        "ts": "1576599194.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nt4DL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "side question, what days are you usually in the tower?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ff54aff-046a-4989-9472-bff7bdbd09dd",
+        "type": "message",
+        "text": "Somewhat depends on my meeting schedule, but I\u2019m usually there M/W/F, and sometimes T/TH\n\nAndrew and Doug in the past were often not there on T/TH so I would go to Durham to see that team. But I\u2019m flexible. Also I have some meetings with other teams that take me to the Tower more often than not. If you wanted to meet up, if you give me a heads up the night before I can usually be there.",
+        "user": "U5SUXMJ83",
+        "ts": "1576599398.003200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fr0/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Somewhat depends on my meeting schedule, but I\u2019m usually there M/W/F, and sometimes T/TH\n\nAndrew and Doug in the past were often not there on T/TH so I would go to Durham to see that team. But I\u2019m flexible. Also I have some meetings with other teams that take me to the Tower more often than not. If you wanted to meet up, if you give me a heads up the night before I can usually be there."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b7c9d32-08ca-4e7e-a631-e40acf1753a8",
+        "type": "message",
+        "text": "I do my best to update my status with :redhat:  if I\u2019m in the tower.",
+        "user": "U5SUXMJ83",
+        "ts": "1576599422.003700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0=kXt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I do my best to update my status with "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "redhat"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  if I\u2019m in the tower."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c04f1711-5646-4a41-9610-6c9d95cd5ef7",
+        "type": "message",
+        "text": "i like the idea of going to T/TH to Durham too, since Andrew's not here at the tower.",
+        "user": "UMQA682PJ",
+        "ts": "1576599457.004100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576599469.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EDj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i like the idea of going to T/TH to Durham too, since Andrew's not here at the tower."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0645bc67-816f-42c6-a424-f960ba5c0bd3",
+        "type": "message",
+        "text": "i'll plan to do that.",
+        "user": "UMQA682PJ",
+        "ts": "1576599477.004400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2bl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'll plan to do that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1eb9f104-2f7a-4cb0-9c75-7785242d557a",
+        "type": "message",
+        "text": "ok :+1:, may work out as the team members who are transitioning from the discovery product ramp up. They sit in durham, although some of them go to the tower a couple of days out of the week.",
+        "user": "U5SUXMJ83",
+        "ts": "1576599615.006300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4447q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            },
+                            {
+                                "type": "text",
+                                "text": ", may work out as the team members who are transitioning from the discovery product ramp up. They sit in durham, although some of them go to the tower a couple of days out of the week."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "988dc0f2-44ab-4709-9604-f641c864edbe",
+        "type": "message",
+        "text": "There is <@ULY2UMX35> too, I\u2019m not sure what his regular schedule at the tower is though.",
+        "user": "U5SUXMJ83",
+        "ts": "1576599659.006900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K+410",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There is "
+                            },
+                            {
+                                "type": "user",
+                                "user_id": "ULY2UMX35"
+                            },
+                            {
+                                "type": "text",
+                                "text": " too, I\u2019m not sure what his regular schedule at the tower is though."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d928fc30-2e04-472d-a123-a05db3cf57c3",
+        "type": "message",
+        "text": "ok, i talked with Kevan and he said he wont be there on Tuesdays / Thursdays and plans to come to the tower more often now that they're joining Cost Management so I think i'll just work from the tower each day",
+        "user": "UMQA682PJ",
+        "ts": "1576599779.008000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z/nB8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok, i talked with Kevan and he said he wont be there on Tuesdays / Thursdays and plans to come to the tower more often now that they're joining Cost Management so I think i'll just work from the tower each day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ee78f8b5-28ca-4de1-baaa-fef3187dcdb7",
+        "type": "message",
+        "text": "sounds good",
+        "user": "U5SUXMJ83",
+        "ts": "1576599822.008300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "82l",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sounds good"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

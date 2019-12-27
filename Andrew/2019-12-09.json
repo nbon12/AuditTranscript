@@ -1,0 +1,532 @@
+[
+    {
+        "client_msg_id": "daab3e98-1e63-4c8a-b03f-4bd4f05e5856",
+        "type": "message",
+        "text": "Good morning, did we previously have a standup today that got moved to another day?",
+        "user": "UMQA682PJ",
+        "ts": "1575903376.000400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575903398.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LQL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good morning, did we previously have a standup today that got moved to another day?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97dbe0be-b31c-4c5d-a4b6-afa40a05e5df",
+        "type": "message",
+        "text": "or do we have a standup today?",
+        "user": "UMQA682PJ",
+        "ts": "1575903414.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NKEE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or do we have a standup today?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ecc033fd-bea2-493f-9266-8da902fd6fc7",
+        "type": "message",
+        "text": "Let\u2019s go no stand up today. And I can fix this for January after shut down, but when demo days were on Mondays we started canceling the standup on the same day as demos.",
+        "user": "U8FS2P1LH",
+        "ts": "1575903449.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7qGX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Let\u2019s go no stand up today. And I can fix this for January after shut down, but when demo days were on Mondays we started canceling the standup on the same day as demos."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3d0e74a3-c149-4875-a8fc-e27777f56798",
+        "type": "message",
+        "text": "Now that they\u2019re different days we can update that.",
+        "user": "U8FS2P1LH",
+        "ts": "1575903460.001900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9dK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Now that they\u2019re different days we can update that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "24c9d9ef-79d6-4a7c-abad-3af775ab2a68",
+        "type": "message",
+        "text": "But since people are in and out for December, we can get back to it after shutdown.",
+        "user": "U8FS2P1LH",
+        "ts": "1575903471.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EjwMR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But since people are in and out for December, we can get back to it after shutdown."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "thumbs-up-left",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "D2771496-9F41-4E89-8BB0-9AB91C5E76B7",
+        "type": "message",
+        "text": "Hey Andrew, while creating unit tests for the group_by vs. filter bug, I\u2019m attempting to create fixture data (to replicate the bug in the unit tests) do you know which classes I should be calling to create that data? I was planning to use this query in the test: `?group_by[region]=*&amp;group_by[service]=AmazonS3, AmazonRDS&amp;filter[region]=us-west-1&amp;filter[region]=us-west-2 ` but I currently have no unittest data to reproduce the response that this query would have generated in the unit tests.",
+        "user": "UMQA682PJ",
+        "ts": "1575906005.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "F6D1FECB-FA37-43A8-BB8D-6A0B8D45DD0C",
+        "type": "message",
+        "text": "I\u2019m not sure which database tables this query would be getting the response from",
+        "user": "UMQA682PJ",
+        "ts": "1575906044.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6809f18f-97e0-40c0-9c23-9849d44fa1bb",
+        "type": "message",
+        "text": "First question where are you writing the test?",
+        "user": "U8FS2P1LH",
+        "ts": "1575907191.008200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "HFwW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "First question where are you writing the test?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c33acede-08bc-48c4-8a3b-5106fda46e11",
+        "type": "message",
+        "text": "in the query handler tests?",
+        "user": "U8FS2P1LH",
+        "ts": "1575907196.008400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T4BZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in the query handler tests?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9dc923a3-a850-4450-8869-89da7c53945d",
+        "type": "message",
+        "text": "koku &gt; koku &gt; api &gt; report &gt; test &gt; tests_query_handler_group_by.py",
+        "user": "UMQA682PJ",
+        "ts": "1575907255.009400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fnz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "koku > koku > api > report > test > tests_query_handler_group_by.py"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f659cdc0-f1c2-4611-bcd0-1ac87f224914",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/pull/1484/files#diff-3f620bdaef6ee9368e20ff761557f9f4R31>",
+        "user": "UMQA682PJ",
+        "ts": "1575907407.009600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y5MEF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1484/files#diff-3f620bdaef6ee9368e20ff761557f9f4R31"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "af2fa32f-b767-4f59-9fe9-a6f0f4839737",
+        "type": "message",
+        "text": "```  def test_response_structure_json(self):\n        # Assert the first two items are of the service AmazonEC2\n        # response_starless is the response with group_by=AmazonEC2 (does not contain a *)\n        # response_star is the response for group_by=*&amp;filter[service]=AmazonEC2 (contains a *)\n        self.assertEqual(response.data[0].services[0].service, 'AmazonEC2')\n        \n        #expect ArrayIndexOutOfBounds, there should only be 1 service, AmazonEC2, and no other services should exist:\n        self.assertRaises(ArrayIndexOutOfBounds, response.data[0].services[1])\n\n\n        self.assertEqual(response.data[1].services.service, 'AmazonEC2')\n        # assert that the total cost is the same amount\n        self.assertEqual(response_starless.meta.total.cost.value, response_star.meta.total.cost.value)\n\n\n        # assert that the cost for the second day is the same among the two responses\n        self.assertEqual(response_starless.data[1].services[0].values.cost.value,\n            response_star.data[1].services[0].values.cost.value)```",
+        "user": "UMQA682PJ",
+        "ts": "1575907600.009900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5dCO",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "  def test_response_structure_json(self):\n        # Assert the first two items are of the service AmazonEC2\n        # response_starless is the response with group_by=AmazonEC2 (does not contain a *)\n        # response_star is the response for group_by=*&filter[service]=AmazonEC2 (contains a *)\n        self.assertEqual(response.data[0].services[0].service, 'AmazonEC2')\n        \n        #expect ArrayIndexOutOfBounds, there should only be 1 service, AmazonEC2, and no other services should exist:\n        self.assertRaises(ArrayIndexOutOfBounds, response.data[0].services[1])\n\n\n        self.assertEqual(response.data[1].services.service, 'AmazonEC2')\n        # assert that the total cost is the same amount\n        self.assertEqual(response_starless.meta.total.cost.value, response_star.meta.total.cost.value)\n\n\n        # assert that the cost for the second day is the same among the two responses\n        self.assertEqual(response_starless.data[1].services[0].values.cost.value,\n            response_star.data[1].services[0].values.cost.value)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "732e3410-a395-4db5-bf2c-0bf077b21693",
+        "type": "message",
+        "text": "Sorry, meeting. Take a look at  api.report.test.aws.test_queries where in the setUp there is this `FakeAWSCostData` and `AWSReportDataGenerator` used to populate the tables you need.",
+        "user": "U8FS2P1LH",
+        "ts": "1575910492.011200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hb+Iz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sorry, meeting. Take a look at  api.report.test.aws.test_queries where in the setUp there is this "
+                            },
+                            {
+                                "type": "text",
+                                "text": "FakeAWSCostData",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "AWSReportDataGenerator",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " used to populate the tables you need."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8c6c7c6-ac32-43ae-a317-268f1ae7b36e",
+        "type": "message",
+        "text": "Our test files typically line up 1:1 with the classes and/or files they test so I would add tests in that file instead of making a brand new test file for this one exclusively.",
+        "user": "U8FS2P1LH",
+        "ts": "1575910539.012200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zPJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Our test files typically line up 1:1 with the classes and/or files they test so I would add tests in that file instead of making a brand new test file for this one exclusively."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb95f81a-161c-4319-ae43-400c126c882c",
+        "type": "message",
+        "text": "Get a chance to look at that?",
+        "user": "U8FS2P1LH",
+        "ts": "1575915340.015100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b/s7W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Get a chance to look at that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5523a36f-3856-4f7a-af96-1c34ea315d2f",
+        "type": "message",
+        "text": "yep, i got it to generate some fixture data",
+        "user": "UMQA682PJ",
+        "ts": "1575915356.015400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7h4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep, i got it to generate some fixture data"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9262b5af-04ce-484a-945e-c7d715e84437",
+        "type": "message",
+        "text": "Cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1575915362.015700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xG4S+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cool."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cfd9ff6b-68b6-41e1-a0d5-5242485c31d7",
+        "type": "message",
+        "text": "```        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='eu-west-3'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-west-1'), product='ec2')\n  \n        # First Request: \n        url = '?group_by[region]=*&amp;filter[region]=eu-west-3&amp;group_by[service]=AmazonEC2'\n        query_params = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler = AWSReportQueryHandler(query_params)\n        group_by = handler._get_group_by()\n        data = handler.execute_query()\n\n\n        # Second Request:\n        url2 = '?group_by[region]=*&amp;filter[region]=eu-west-3&amp;group_by[service]=AmazonEC2'\n        query_params2 = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler2 = AWSReportQueryHandler(query_params)\n        group_by2 = handler._get_group_by()\n        data2 = handler.execute_query()```",
+        "user": "UMQA682PJ",
+        "ts": "1575915407.016200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575915416.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fRj",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='eu-west-3'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-west-1'), product='ec2')\n  \n        # First Request: \n        url = '?group_by[region]=*&filter[region]=eu-west-3&group_by[service]=AmazonEC2'\n        query_params = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler = AWSReportQueryHandler(query_params)\n        group_by = handler._get_group_by()\n        data = handler.execute_query()\n\n\n        # Second Request:\n        url2 = '?group_by[region]=*&filter[region]=eu-west-3&group_by[service]=AmazonEC2'\n        query_params2 = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler2 = AWSReportQueryHandler(query_params)\n        group_by2 = handler._get_group_by()\n        data2 = handler.execute_query()"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1748d34a-ddc4-41b5-a82a-aec3340d9896",
+        "type": "message",
+        "text": "still about to edit the second request..",
+        "user": "UMQA682PJ",
+        "ts": "1575915424.016500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ua5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "still about to edit the second request.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "776d9fc5-b05a-4090-8c78-6f7e4be3ef37",
+        "type": "message",
+        "text": "Sounds good. Anything else I can help with?",
+        "user": "U8FS2P1LH",
+        "ts": "1575915576.016800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T6cBn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sounds good. Anything else I can help with?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf2b4504-ba87-443d-b5a5-f82637780daf",
+        "type": "message",
+        "text": "not yet",
+        "user": "UMQA682PJ",
+        "ts": "1575915701.017700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bNw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "not yet"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

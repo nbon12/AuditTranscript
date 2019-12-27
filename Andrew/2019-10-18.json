@@ -1,0 +1,160 @@
+[
+    {
+        "client_msg_id": "BDF81C48-62FF-41EC-AD11-75A42E67759D",
+        "type": "message",
+        "text": "Hi Andrew, which of these tests is generally lower down (less dependent on the others): \n- masu.test.database.test_ocp_report_db_accessor.OCPReportDBAccessorTest\n- masu.test.external.test_date_accessor.DateAccessorTest, \n- masu.test.processor.ocp.test_ocp_cloud_report_summary_updater.OCPCloudReportSummaryUpdaterTest",
+        "user": "UMQA682PJ",
+        "ts": "1571421827.001700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571421851.000000"
+        }
+    },
+    {
+        "client_msg_id": "ef4a0034-4979-478d-afae-ecc2d210d591",
+        "type": "message",
+        "text": "The DateAccessor is more or less a utility that gives datetimes, so it\u2019s not dependent on much of anything. Other stuff just uses it.",
+        "user": "U8FS2P1LH",
+        "ts": "1571421960.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "725917de-6207-4eb5-b900-af41aeb00393",
+        "type": "message",
+        "text": "The `OCPCloudReportSummaryUpdater` uses the `OCPReportDBAccessor` do run the summary updates, so it has a dependency there,",
+        "user": "U8FS2P1LH",
+        "ts": "1571422008.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "69953750-eb90-412f-9100-0976c8e124b4",
+        "type": "message",
+        "text": "Is that what you were looking for?",
+        "user": "U8FS2P1LH",
+        "ts": "1571422013.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "28AC3259-9A63-4629-8B53-D686AD09299C",
+        "type": "message",
+        "text": "All three tests are failing so i was wondering which one to look at first",
+        "user": "UMQA682PJ",
+        "ts": "1571422219.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f3e57f75-a127-4d73-b1fb-61f7b80df7e8",
+        "type": "message",
+        "text": "Ah, I\u2019d take a look at the DateAccessor. Anything I can put :eyes:  on?",
+        "user": "U8FS2P1LH",
+        "ts": "1571422463.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C671496A-1CB3-44A5-A99E-17E311135C49",
+        "type": "message",
+        "text": "Branch jinja_changes_12",
+        "user": "UMQA682PJ",
+        "ts": "1571422736.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cb94647d-24e8-45e5-988c-ca1d58bcbc16",
+        "type": "message",
+        "text": "Running those test classes to see right quick.",
+        "user": "U8FS2P1LH",
+        "ts": "1571423635.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "80270bd1-dab2-4f70-94ce-17593afa4c59",
+        "type": "message",
+        "text": "Not getting a failure with the DateAccessorTest",
+        "user": "U8FS2P1LH",
+        "ts": "1571423916.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C5D0E476-6669-4DC1-ADB1-E165C007FED8",
+        "type": "message",
+        "text": "I\u2019m not getting it anymore either -shrugs-",
+        "user": "UMQA682PJ",
+        "ts": "1571424318.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "392997C5-CF09-47FC-9D3C-E6A7F247087F",
+        "type": "message",
+        "text": "When I ran all the tests in parallel I got that error but now it\u2019s not getting the error anymore.",
+        "user": "UMQA682PJ",
+        "ts": "1571424330.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b35c46c8-0236-4a4e-953b-dfa2737eec2a",
+        "type": "message",
+        "text": "Okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1571424506.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C5F9CE88-60C7-4870-91AB-4A1939823CE6",
+        "type": "message",
+        "text": "I get a failure on this test though still masu.test.processor.ocp.test_ocp_cloud_report_summary_updater.OCPCloudReportSummaryUpdaterTest ",
+        "user": "UMQA682PJ",
+        "ts": "1571424566.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "175698A7-80FC-4391-B5A1-6B3C2CFF46DA",
+        "type": "message",
+        "text": "The other two tests are working now with no change.",
+        "user": "UMQA682PJ",
+        "ts": "1571424576.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96B283DB-5281-4767-8E7B-97DB240C6D94",
+        "type": "message",
+        "text": "I destroyed the database and turned it on again, maybe that fixed it",
+        "user": "UMQA682PJ",
+        "ts": "1571424640.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5de7a184-ab45-4352-b61d-8bc30b1924b4",
+        "type": "message",
+        "text": "I\u2019d take a look here: <https://github.com/project-koku/koku/blob/master/koku/masu/database/aws_report_db_accessor.py#L277>",
+        "user": "U8FS2P1LH",
+        "ts": "1571425336.008600",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/masu/database/aws_report_db_accessor.py:277",
+                "text": "```\n    def populate_ocp_on_aws_cost_daily_summary(self, start_date, end_date,\n```",
+                "title": "koku/masu/database/aws_report_db_accessor.py:277",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/masu/database/aws_report_db_accessor.py#L277",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/masu/database/aws_report_db_accessor.py#L277",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa18015c-66e4-4c7e-bbbb-5470e667890b",
+        "type": "message",
+        "text": "Another place you might want to try your date logic.",
+        "user": "U8FS2P1LH",
+        "ts": "1571425352.009100",
+        "team": "T026NJJ6Z"
+    }
+]

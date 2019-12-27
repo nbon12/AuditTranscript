@@ -1,0 +1,123 @@
+[
+    {
+        "client_msg_id": "80577efd-cb43-4ab7-9bb7-31da778f6384",
+        "type": "message",
+        "text": "Hi Doug, what's a Tech Exchange? Also what's \"Vortex\" in the QA context (\"e2e + Vortex\")?",
+        "user": "UMQA682PJ",
+        "ts": "1568657769.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00badda6-0253-495a-be68-a55085fa90f1",
+        "type": "message",
+        "text": "Hey Nick, Tech Exchange is a Red Hat conference.  Here\u2019s some info <https://www.redhat.com/en/events/rhte-apac2019>",
+        "user": "UAR1CADNV",
+        "ts": "1568657890.001500",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Red Hat Tech Exchange Asia Pacific 2019",
+                "title_link": "https://www.redhat.com/en/events/rhte-apac2019",
+                "text": "Red Hat Tech Exchange Asia Pacific 2019",
+                "fallback": "Red Hat Tech Exchange Asia Pacific 2019",
+                "thumb_url": "https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/red-hat-social-share.jpg",
+                "from_url": "https://www.redhat.com/en/events/rhte-apac2019",
+                "thumb_width": 1200,
+                "thumb_height": 675,
+                "service_icon": "https://www.redhat.com/profiles/rh/themes/redhatdotcom/favicon.ico",
+                "service_name": "redhat.com",
+                "id": 1,
+                "original_url": "https://www.redhat.com/en/events/rhte-apac2019"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70ebf920-947a-4c41-a564-7fd801bb28f8",
+        "type": "message",
+        "text": "e2e is basically end-to-end deployments via OpenShift.  We have Site Reliability Engineers that will support our application if we provide OpenShift automation that allows for them to stand the entire up if it were to go down.  In addition to that we have QE that will be able to run integration tests between apps, thats Vortex",
+        "user": "UAR1CADNV",
+        "ts": "1568658021.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d87c8288-24b1-4bc2-b375-7dadbde4d4e4",
+        "type": "message",
+        "text": "Hey Doug, where do we edit what's on the ReadTheDocs?",
+        "user": "UMQA682PJ",
+        "ts": "1568666004.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e838fdf3-4a4d-4517-856f-757e3f7b860e",
+        "type": "message",
+        "text": "<https://koku.readthedocs.io/en/latest/install.html#deploying-masu>",
+        "user": "UMQA682PJ",
+        "ts": "1568666006.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e302fcdb-ab5d-47e8-9eca-adb086797294",
+        "type": "message",
+        "text": "nevermind, i found it",
+        "user": "UMQA682PJ",
+        "ts": "1568666021.004700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "faad5042-18d4-44b5-9de0-6d985ab2780c",
+        "type": "message",
+        "text": "do we have a specific branch naming convention for when we want to edit just documentation?",
+        "user": "UMQA682PJ",
+        "ts": "1568666281.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6a7560a-9ae6-462f-a52a-a2bede0ea056",
+        "type": "message",
+        "text": "you mean github branch?",
+        "user": "UAR1CADNV",
+        "ts": "1568666305.005700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f70eb5ca-dfcd-4822-b370-52fed2151f19",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1568666309.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7179e62-1167-4d60-ae1d-40f67ede50bb",
+        "type": "message",
+        "text": "i want to add one line of documentation to the docs.",
+        "user": "UMQA682PJ",
+        "ts": "1568666319.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a9a7ce2a-bd34-4432-b4ba-e996c3f50953",
+        "type": "message",
+        "text": "nope, can be whatever you want.  Just make a PR from that branch",
+        "user": "UAR1CADNV",
+        "ts": "1568666323.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9123400-476a-4b23-9af1-ef9ed7919ae8",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1568666328.006700",
+        "team": "T026NJJ6Z"
+    }
+]

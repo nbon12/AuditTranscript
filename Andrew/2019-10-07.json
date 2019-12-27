@@ -1,0 +1,185 @@
+[
+    {
+        "client_msg_id": "ca5a26fe-15c8-4f3e-b7fc-5d6c1752b640",
+        "type": "message",
+        "text": "Hey Andrew, can you look at this PR draft for early feedback? given our new PR flow I wanted to check if it meets the standards set by the team.",
+        "user": "UMQA682PJ",
+        "ts": "1570476794.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e9c19b7-4180-4422-869c-5516cdf4ab40",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/pull/1219>",
+        "user": "UMQA682PJ",
+        "ts": "1570476795.003900",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1219 safer sql AWS_report_db_accessor.py",
+                "title": "#1219 safer sql AWS_report_db_accessor.py",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1219",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1570476095,
+                "color": "36a64f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1219",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "552e4f57-9400-44f1-b947-bd3a5b4ee5f0",
+        "type": "message",
+        "text": "Looks good to me. It\u2019",
+        "user": "U8FS2P1LH",
+        "ts": "1570477278.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "932ec726-56ae-43e4-926f-33b71e060537",
+        "type": "message",
+        "text": "s missing functional tests, but at the same time given that there\u2019s several PRs coming in for this issue, I understand it being a bit of a pain to go through end to end with each PR.",
+        "user": "U8FS2P1LH",
+        "ts": "1570477324.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36ee4908-ddb3-49b9-8a02-81911925e953",
+        "type": "message",
+        "text": "by functional test do you mean iqe-tests?",
+        "user": "UMQA682PJ",
+        "ts": "1570477376.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c462f7d-dbac-419f-b50e-55fbf9689ac0",
+        "type": "message",
+        "text": "In this case, probably, yeah. You can definitely test it manually. In this case it\u2019s not a new feature, so the test for function is that it works exactly as it did before.",
+        "user": "U8FS2P1LH",
+        "ts": "1570477478.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce17f743-014b-4b95-b813-cc79abbddec0",
+        "type": "message",
+        "text": "And in this case that means that the data in the summary tables is the same as it would be on master.",
+        "user": "U8FS2P1LH",
+        "ts": "1570477523.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99e265b7-85a0-4a21-9ce5-4ae95a07e850",
+        "type": "message",
+        "text": "So the manual method is a little intensive, because it\u2019s really an end to end test. You have to process data, summarize it, and then probably hit relevant report API endpoints on the branch and on master and make sure the numbers are the same. I understand that being a bit much for a small change.",
+        "user": "U8FS2P1LH",
+        "ts": "1570477593.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06189cd5-5c33-4ce8-bab3-33daff241a79",
+        "type": "message",
+        "text": "So, I should test this with IQE before merging then right?",
+        "user": "UMQA682PJ",
+        "ts": "1570478567.011100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "522a26d7-6e5c-486b-83db-c3d40abe384d",
+        "type": "message",
+        "text": "If you have iqe up and running then it\u2019s a good idea. If we still don\u2019t have it runnable, then not until we do.",
+        "user": "U8FS2P1LH",
+        "ts": "1570478604.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dfee4815-f17d-4fe7-a37c-80fcfe26fc8a",
+        "type": "message",
+        "text": "alright, it's not running on my machine yet.",
+        "user": "UMQA682PJ",
+        "ts": "1570478619.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4abdaa0f-ac48-496d-9991-2b4556e4c68b",
+        "type": "message",
+        "text": "so i'll merge for now",
+        "user": "UMQA682PJ",
+        "ts": "1570478624.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0c32c006-aedf-433d-b8b6-7f064a6f3456",
+        "type": "message",
+        "text": "Did you see the lint issues on your other PR?",
+        "user": "U8FS2P1LH",
+        "ts": "1570478785.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad94d4bb-5b2f-4557-9f86-dacfe087b2b7",
+        "type": "message",
+        "text": "I'm cancelling that PR, i had a unit test issue that I couldn't track down so I'm merging it in pieces.",
+        "user": "UMQA682PJ",
+        "ts": "1570478833.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f230aa2a-95a4-4b7d-97b0-1a2a74af2574",
+        "type": "message",
+        "text": "Ah, okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1570478845.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "82dc0dd1-3757-453c-af47-01701f8500aa",
+        "type": "message",
+        "text": "I changed the newer one from draft into Open status: <https://github.com/project-koku/koku/pull/1219>",
+        "user": "UMQA682PJ",
+        "ts": "1570478904.014300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1219 safer sql AWS_report_db_accessor.py",
+                "text": "This PR replaces the Python formatting in the aws_report_db_accessor.py in exchange for Jinja2 templating to make the SQL more safe by using Bind params instead of string substitution in the SQL.",
+                "title": "#1219 safer sql AWS_report_db_accessor.py",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1219",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1570476095,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    },
+                    {
+                        "title": "Reviewers",
+                        "value": "@adberglund",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1219",
+                "is_app_unfurl": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,346 @@
+[
+    {
+        "client_msg_id": "e04c37f6-ebfb-4914-9ca1-5c67cfbaf3b7",
+        "type": "message",
+        "text": "Good morning, are you in the office today?",
+        "user": "UMQA682PJ",
+        "ts": "1571749708.000200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571749746.000000"
+        }
+    },
+    {
+        "client_msg_id": "2579d79b-0d0a-4022-9a7a-4ada0f3b25ff",
+        "type": "message",
+        "text": "I'm getting this error, what do you think it might be:\n```\nProgrammingError at /api/cost-management/v1/attributes/attributes/\nrelation \"attributes_attribute\" does not exist\nLINE 1: SELECT COUNT(*) AS \"__count\" FROM \"attributes_attribute\"\n                                          ^\nRequest Method:\tGET\nRequest URL:\t<http://localhost:8000/api/cost-management/v1/attributes/attributes/>\nDjango Version:\t2.2.4\nException Type:\tProgrammingError\nException Value:\t\nrelation \"attributes_attribute\" does not exist\nLINE 1: SELECT COUNT(*) AS \"__count\" FROM \"attributes_attribute\"\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571749766.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6a2c424-bb07-44e8-af52-9504deb692fa",
+        "type": "message",
+        "text": "I created a new app to isolate the attribute API from others (for now)",
+        "user": "UMQA682PJ",
+        "ts": "1571749792.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8dc7b344-6bfa-4f94-9d3c-90a4b2dde0df",
+        "type": "message",
+        "text": "I'm on branch: `feature/#1284`",
+        "user": "UMQA682PJ",
+        "ts": "1571749872.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "37c20a26-0955-4ec1-82b8-45b04e379236",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/tree/feature/%231284>",
+        "user": "UMQA682PJ",
+        "ts": "1571749873.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a13ed357-996d-4575-a86f-749f9966a4f2",
+        "type": "message",
+        "text": "Did you run your migrations?",
+        "user": "U8FS2P1LH",
+        "ts": "1571749912.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1976ce68-7cc4-4c5a-ab46-d34250a19743",
+        "type": "message",
+        "text": "I\u2019m not in currently. Planning to work from home, but can always come in.",
+        "user": "U8FS2P1LH",
+        "ts": "1571749928.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "458e33a4-2484-4100-a956-98d00ce00425",
+        "type": "message",
+        "text": "I see on your branch you made your migrations, but did you specifically \u201crun\u201d them (apply them to your database)",
+        "user": "U8FS2P1LH",
+        "ts": "1571749990.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "612ece20-3c01-4f6a-a872-903c116ec244",
+        "type": "message",
+        "text": "```\n(koku) bash-3.2$ python manage.py migrate_schemas\n[standard:public] === Running migrate for schema public\n[standard:public] Operations to perform:\n[standard:public]   Apply all migrations: api, attributes, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:public] Running migrations:\n[standard:public]   No migrations to apply.\n[standard:acct10001] === Running migrate for schema acct10001\n[standard:acct10001] Operations to perform:\n[standard:acct10001]   Apply all migrations: api, attributes, auth, contenttypes, cost_models, reporting, reporting_common, sessions\n[standard:acct10001] Running migrations:\n[standard:acct10001]   No migrations to apply.\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571749993.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e10d60eb-146d-4d2e-b8a9-f53420949a12",
+        "type": "message",
+        "text": "Well huh",
+        "user": "U8FS2P1LH",
+        "ts": "1571750000.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a137c99-fec0-463f-98d4-45e1e228eb20",
+        "type": "message",
+        "text": "Sorry, you clearly knew what I meant.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750012.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ea24107-ee1b-4260-b84a-edf225ebaf5b",
+        "type": "message",
+        "text": "Ah, okay one more thing",
+        "user": "U8FS2P1LH",
+        "ts": "1571750028.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "df3b2dc7-e44b-4dd8-bec6-ae3ce8870598",
+        "type": "message",
+        "text": "Nope, you put in settings.py too.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750054.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7576dedd-91ad-43b4-8702-18ec6fa843b0",
+        "type": "message",
+        "text": "Hrmmm",
+        "user": "U8FS2P1LH",
+        "ts": "1571750058.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39875759-b17f-4e85-9c27-eebe59cf0b2c",
+        "type": "message",
+        "text": "something weird on my machine, when I ran `makemigrations`, it also created three other migrations that I never added to git because I didn't mean to create them:\n```\nUntracked files:\n  (use \"git add &lt;file&gt;...\" to include in what will be committed)\n\n\tapi/migrations/0028_auto_20191021_2117.py\n\tcost_models/migrations/0017_auto_20191021_2117.py\n\treporting_common/migrations/0019_auto_20191021_2117.py\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571750153.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "235e07d3-dbbc-42f5-aced-9cd655e8225f",
+        "type": "message",
+        "text": "I bet I know what they look like. Are they removing `AWS_local` and `AZURE_local`?",
+        "user": "U8FS2P1LH",
+        "ts": "1571750185.006600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1571750187.000000"
+        }
+    },
+    {
+        "client_msg_id": "65a2a3d9-ebe2-4b8a-a807-8bc5bd248c47",
+        "type": "message",
+        "text": "```\n# Generated by Django 2.2.4 on 2019-10-21 21:17\n\nfrom django.db import migrations, models\n\n\nclass Migration(migrations.Migration):\n\n    dependencies = [\n        ('api', '0027_auto_20191008_1905'),\n    ]\n\n    operations = [\n        migrations.AlterField(\n            model_name='costmodelmetricsmap',\n            name='source_type',\n            field=models.CharField(choices=[('AWS', 'AWS'), ('OCP', 'OCP'), ('AZURE', 'AZURE'), ('GCP', 'GCP')], max_length=50),\n        ),\n        migrations.AlterField(\n            model_name='provider',\n            name='type',\n            field=models.CharField(choices=[('AWS', 'AWS'), ('OCP', 'OCP'), ('AZURE', 'AZURE'), ('GCP', 'GCP')], default='AWS', max_length=50),\n        ),\n    ]\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1571750233.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b1192803-f4b3-47cf-bb66-c40e8ace9e3a",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/feature/%231284/koku/api/provider/models.py#L106-L121>",
+        "user": "U8FS2P1LH",
+        "ts": "1571750272.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "afeda972-8901-41b4-ac33-301608983e57",
+        "type": "message",
+        "text": "You are not running DEBUG.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750282.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bcd6c85b-966d-4a44-9341-eb808901203e",
+        "type": "message",
+        "text": "So those migrations happen.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750287.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bff11a5f-05e4-4fbc-b96b-9952184c0c2a",
+        "type": "message",
+        "text": "It\u2019s not necessarily the most ideal setup. Not sure why it\u2019s not tied to `DEVELOPMENT` instead of DEBUG.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750311.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2fa7b1b-095a-4b6d-a9af-d983d8649355",
+        "type": "message",
+        "text": "But yeah, you can delete those 3 migrations.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750324.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0772e6f6-1844-4905-8a41-4b9d32fda15d",
+        "type": "message",
+        "text": "Okay, pulling your branch and :eyes:",
+        "user": "U8FS2P1LH",
+        "ts": "1571750355.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "408dad7a-dacd-4d00-933b-7616f57e10c1",
+        "type": "message",
+        "text": "I checked pgAdmin and I don't see the new table for the attributes anywhere",
+        "user": "UMQA682PJ",
+        "ts": "1571750664.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae316eeb-0833-47a6-8259-5d47621d88fd",
+        "type": "message",
+        "text": "Yeah, it\u2019s not creating it in the DB.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750679.009600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3ff1e9c3-c7b9-49ab-be6e-790634894efb",
+        "type": "message",
+        "text": "In settings.py\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1571750692.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23aeead4-7e3b-424d-a66b-c80789669963",
+        "type": "message",
+        "text": "It\u2019s in `INSTALLED_APPS` but it also needs to be in `SHARED_APPS`",
+        "user": "U8FS2P1LH",
+        "ts": "1571750708.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a12a4629-351a-4f26-a531-a11af984ec9b",
+        "type": "message",
+        "text": "We\u2019re using something called `django_tenant_schemas` which changes the way migrations work a little bit.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750725.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e0a8b8f-8053-4d84-942d-0e20c99aef95",
+        "type": "message",
+        "text": "If it were a model that needs to live exclusively in a tenant schema then it would go into `TENANT_APPS`",
+        "user": "U8FS2P1LH",
+        "ts": "1571750751.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ed527cd-8cc7-428c-b093-4c27f91ca97d",
+        "type": "message",
+        "text": "But since this is not customer-specific data, it rightly should live in the public schema, and thus go in `SHARED_APPS`",
+        "user": "U8FS2P1LH",
+        "ts": "1571750782.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f323d6a8-d995-4525-9f85-01e198c9b326",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1571750809.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64c12fd4-ef5b-460b-8c6d-70530797f0e6",
+        "type": "message",
+        "text": "If you add it and then rebuild your database it should show up.",
+        "user": "U8FS2P1LH",
+        "ts": "1571750813.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "02dbb2c8-23ab-4706-890a-52f91dbb54c7",
+        "type": "message",
+        "text": "yep, the error went away, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1571750879.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "Thoughts? I plan to remove the default ability to POST, or at least require admin privileges",
+        "files": [
+            {
+                "id": "FPQJQ703Y",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "ts": "1571751247.012900",
+        "client_msg_id": "8ee33d15-1957-4d63-98a3-efc2a4f9bd5e"
+    },
+    {
+        "client_msg_id": "e71b07f7-8631-470b-acd1-f0be2d098d53",
+        "type": "message",
+        "text": "I would say remove entirely. This is a public API so if there\u2019s POST, customers could just add accounts to our list.",
+        "user": "U8FS2P1LH",
+        "ts": "1571752018.013700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c7c81974-65fb-45d0-9d4d-2165f983f2c9",
+        "type": "message",
+        "text": "I will defer to the rest of the team in code review, since I know there isn\u2019t one \u201cright\u201d way to name things, but I\u2019ll also just share my thoughts on the naming. I appreciate the idea of making this thing very general purpose--letting it hold all sorts of information--and in general it\u2019s great to generalize where you can. But, in this case I can\u2019t think of other use cases for the table (I\u2019ll admit I have not tried very hard) so if we end up with an attributes table that only ever has a single AWS account ID, it begs the question why is this thing called attributes? I\u2019m not saying cloudaccounts was a great name, it was just the first thing that popped into my head, and I wrote it down, but in the REST convention your URIs are based on resources and I think it\u2019s okay to just have a very simple API that only ever returns a cloud account ID since it satisfies a very specific requirement we have.",
+        "user": "U8FS2P1LH",
+        "ts": "1571752695.017900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7b371603-0c80-4172-b244-2ab37113727b",
+        "type": "message",
+        "text": "So long winded typing, yes, and definitely just opinion, but I will say opinion backed by experience.",
+        "user": "U8FS2P1LH",
+        "ts": "1571752724.018400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f1db6676-315d-4aed-8c10-5321d17c962e",
+        "type": "message",
+        "text": "which folder would you have put the model for cloudaccounts?",
+        "user": "UMQA682PJ",
+        "ts": "1571752836.019300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "86f9013a-28f7-478c-9d84-72dac265c97a",
+        "type": "message",
+        "text": "or would it be it's own app?",
+        "user": "UMQA682PJ",
+        "ts": "1571752872.019700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "81b69c79-e3a7-4848-a7d5-ce828c3e0cfa",
+        "type": "message",
+        "text": "`koku/api/cloudaccounts/`",
+        "user": "U8FS2P1LH",
+        "ts": "1571752886.020000",
+        "team": "T026NJJ6Z"
+    }
+]

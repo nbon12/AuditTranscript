@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "97019f01-13c4-4a63-8c3c-71f51575f43c",
+        "type": "message",
+        "text": "hey Nick!  Just so you know my vacation plans changed this week and I\u2019ll be working after all.  Just wanted to let you know I\u2019m always open for help with anything.  Dev environment setup or anything else that might be on your mind!",
+        "user": "UAR1CADNV",
+        "ts": "1567612309.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e25d96e-c939-4551-bae5-03d44b88a721",
+        "type": "message",
+        "text": "Thanks!",
+        "user": "UMQA682PJ",
+        "ts": "1567612318.001500",
+        "team": "T026NJJ6Z"
+    }
+]

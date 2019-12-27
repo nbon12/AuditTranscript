@@ -1,0 +1,210 @@
+[
+    {
+        "client_msg_id": "59adf616-5eb0-4820-906a-a666c0d23393",
+        "type": "message",
+        "text": "Hey, regarding running single unit tests, I tried to run the unit tests in this class: `masu.test.database.test_aws_report_db_accessor.AWSReportDBAccessor` but got an error: \"TypeError: __init__() missing 2 required positional arguments: 'schema' and 'column_map'\nERROR: InvocationError for command /Users/nbonilla/Documents/Koku/koku/.tox/parallel/bin/coverage run --parallel-mode --concurrency=multiprocessing koku/manage.py test --noinput --parallel -v 2 masu.test.database.test_aws_report_db_accessor.AWSReportDBAccessor (exited with code 1)\"",
+        "user": "UMQA682PJ",
+        "ts": "1569520933.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44aa6a29-0404-4d84-ac6e-d2e60bf1d66f",
+        "type": "message",
+        "text": "what do you think that means?",
+        "user": "UMQA682PJ",
+        "ts": "1569520941.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a857a21-b8ed-4320-8468-902dc579eb22",
+        "type": "message",
+        "text": "this is after a tox run",
+        "user": "UMQA682PJ",
+        "ts": "1569520946.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a5d48f9-0e08-4248-af5e-a215666911bc",
+        "type": "message",
+        "text": "`tox -e py37 -e parallel`",
+        "user": "UMQA682PJ",
+        "ts": "1569520959.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ccab39f-4ce3-464b-be91-2e6a021c90e9",
+        "type": "message",
+        "text": "Have you modified any tests in that class?",
+        "user": "U8FS2P1LH",
+        "ts": "1569520981.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c52ef037-192b-444b-9d95-4e3b41a779a8",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1569520995.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "16337204-f714-43ad-91c5-7b2e590066ef",
+        "type": "message",
+        "text": "Interesting.",
+        "user": "U8FS2P1LH",
+        "ts": "1569521026.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "179193bc-75ec-4d5a-9f7b-a1be7c2c985a",
+        "type": "message",
+        "text": "Have you modified any non test code?",
+        "user": "U8FS2P1LH",
+        "ts": "1569521040.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c82bc59-73a0-49be-9589-189669c5cffa",
+        "type": "message",
+        "text": "I modified the tox.ini",
+        "user": "UMQA682PJ",
+        "ts": "1569521049.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ed5285f7-b648-4a04-92c4-b12ef61e4085",
+        "type": "message",
+        "text": "it works when I use posargs: masu.test.database.test_aws_report_db_accessor",
+        "user": "UMQA682PJ",
+        "ts": "1569521055.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9f25b6a-1017-4168-beed-aa77a8ca98f2",
+        "type": "message",
+        "text": "but it doesnt work when I use posargs: masu.test.database.test_aws_report_db_accessor.AWSReportDBAccessor",
+        "user": "UMQA682PJ",
+        "ts": "1569521067.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af0d8ace-c9eb-42fe-a457-6c66385b2de8",
+        "type": "message",
+        "text": "Oh, okay, I see the problem.",
+        "user": "U8FS2P1LH",
+        "ts": "1569521085.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1995e3a9-5a18-46d0-9825-9a9804c30ea2",
+        "type": "message",
+        "text": "AWSReportDBAccessor is not a test class.",
+        "user": "U8FS2P1LH",
+        "ts": "1569521092.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0380e96e-9be0-4cf2-9978-93225c2e0fed",
+        "type": "message",
+        "text": "Oh.",
+        "user": "UMQA682PJ",
+        "ts": "1569521101.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77576809-0ccf-4793-a342-50ab74db0e0a",
+        "type": "message",
+        "text": "duh.",
+        "user": "UMQA682PJ",
+        "ts": "1569521102.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "969b6eda-c765-4d7e-b540-a7d3f481975c",
+        "type": "message",
+        "text": "`AWSReportDBAccessorTest`",
+        "user": "U8FS2P1LH",
+        "ts": "1569521110.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "51dc9213-58b5-4c5b-aadf-3a8466718553",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1569521119.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08b485e6-4733-4896-a785-43cf978c42ef",
+        "type": "message",
+        "text": "Heh, I pretty much mistype something there every single time.",
+        "user": "U8FS2P1LH",
+        "ts": "1569521134.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76ca42a4-4c34-4948-8443-404e167d6a8e",
+        "type": "message",
+        "text": "Is tox needed to run unit tests? Can I execute them without tox?",
+        "user": "UMQA682PJ",
+        "ts": "1569522534.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3412e4b-a089-4a91-ae86-805392481ead",
+        "type": "message",
+        "text": "No, definitely not needed. tox is nice because it isolates test environments away from your dev environment and installs the requirements as they \u201cshould be\u201d in production. So it just offers a controlled environment to test in, but\u2026 <https://docs.djangoproject.com/en/2.2/topics/testing/overview/#running-tests>",
+        "user": "U8FS2P1LH",
+        "ts": "1569522612.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "626aff86-f8e3-4347-a8dd-49ea4fee7ded",
+        "type": "message",
+        "text": "we\u2019re using Django\u2019s unit test framework, which is based on the Python unittest standard library package.",
+        "user": "U8FS2P1LH",
+        "ts": "1569522636.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "002c705c-88d1-483e-b369-3b7561d80bea",
+        "type": "message",
+        "text": "So you can use the Django manage command to run the tests.",
+        "user": "U8FS2P1LH",
+        "ts": "1569522646.008000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6d74c37-1170-419e-b817-8f630c6699c0",
+        "type": "message",
+        "text": "When trying to get VSCode Python Debugger to work, I got this error, any thoughts? ValueError: env prometheus_multiproc_dir is not set or not a directory",
+        "user": "UMQA682PJ",
+        "ts": "1569527721.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8312f4d5-60fa-423c-a716-30023c45afd5",
+        "type": "message",
+        "text": "Yeah `export prometheus_multiproc_dir=/tmp`",
+        "user": "U8FS2P1LH",
+        "ts": "1569527805.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ef3ec02-204d-4cbb-a80d-b1e72439451a",
+        "type": "message",
+        "text": "Sorry, another thing that is poorly document, me thinks.",
+        "user": "U8FS2P1LH",
+        "ts": "1569527814.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67a34f39-f821-4497-800a-fc7c8105536d",
+        "type": "message",
+        "text": "If you put that in your .bashrc or the like, should cover you from now on.",
+        "user": "U8FS2P1LH",
+        "ts": "1569527829.009900",
+        "team": "T026NJJ6Z"
+    }
+]

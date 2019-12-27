@@ -1,0 +1,231 @@
+[
+    {
+        "client_msg_id": "3640a9d9-182d-4f11-9c81-961f7ea8ee87",
+        "type": "message",
+        "text": "Are you going to All Things Open?",
+        "user": "U8FS2P1LH",
+        "ts": "1570802619.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7500fe4a-ca82-4876-bdf3-299ecb51cb91",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1570803465.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c998e947-a4d9-4606-b9f7-0eb2bf16fa92",
+        "type": "message",
+        "text": "Cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1570803471.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a2cc049-005c-48ce-9707-93c1c4fade36",
+        "type": "message",
+        "text": "Hey, I'm having trouble in my branch tracking down why a unit test is failing only in parallel mode and only when I use the following posargs in the tox.ini:\nline 44: ```  coverage run {toxinidir}/koku/manage.py test --noinput -v 2 {posargs: masu.test.database}\n```\nHere's the commit that causes the error: <https://github.com/project-koku/koku/commit/b77e7619bc72dabd67950a4df2480c6b9aa69e87>\n\n The error is\n```\n======================================================================\nFAIL: test_populate_pod_label_summary_table (masu.test.database.test_ocp_report_db_accessor.OCPReportDBAccessorTest)\nTest that the pod label summary table is populated.\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/unittest/case.py\", line 59, in testPartExecutor\n    yield\n  File \"/usr/lib/python3.6/unittest/case.py\", line 605, in run\n    testMethod()\n  File \"/usr/lib/python3.6/unittest/mock.py\", line 1183, in patched\n    return func(*args, **keywargs)\n  File \"/home/ubuntu/environment/koku/koku/masu/test/database/test_ocp_report_db_accessor.py\", line 423, in test_populate_pod_label_summary_table\n    self.assertNotEqual(query.count(), initial_count)\n  File \"/usr/lib/python3.6/unittest/case.py\", line 838, in assertNotEqual\n    raise self.failureException(msg)\nAssertionError: 0 == 0\n```\nAny thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1570808850.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2009f08-db77-4084-9d2b-6f927891a9b3",
+        "type": "message",
+        "text": "All parallel tests pass if I use the regular tox.ini version.",
+        "user": "UMQA682PJ",
+        "ts": "1570808960.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5de076dc-1f23-4784-8afa-b44322a84117",
+        "type": "message",
+        "text": "So it\u2019s only failing in parallel mode, but serial works fine?",
+        "user": "U8FS2P1LH",
+        "ts": "1570808994.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6c1177ac-cb56-4bae-8e56-47b852a85249",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1570809002.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da5bdfe0-3673-4f55-ae18-9696a19d65c4",
+        "type": "message",
+        "text": "i'm double checking now though",
+        "user": "UMQA682PJ",
+        "ts": "1570809041.006600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b534d59b-ad7d-4615-9fab-890579b8486f",
+        "type": "message",
+        "text": "And it fails every time?",
+        "user": "U8FS2P1LH",
+        "ts": "1570809042.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b302196a-08f0-4536-8114-39aa50c8c474",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1570809052.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "db6e2711-3bb1-409d-87bb-1e966bdc1a2f",
+        "type": "message",
+        "text": "I don\u2019t know specifically what the issue is, but after lunch I can pull your branch and try this.",
+        "user": "U8FS2P1LH",
+        "ts": "1570809461.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b4d67a73-92ab-4fd5-930c-7a821be087c9",
+        "type": "message",
+        "text": "sounds good",
+        "user": "UMQA682PJ",
+        "ts": "1570809513.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca87e53f-f607-4851-9d7e-f77311cdc98e",
+        "type": "message",
+        "text": "Any progress on that failure? I\u2019ll look now, otherwise.",
+        "user": "U8FS2P1LH",
+        "ts": "1570814552.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9389327-318e-450b-8830-f6984c06718f",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1570814565.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "93aa5b8e-8613-48cf-997c-f73c7d5e9a28",
+        "type": "message",
+        "text": "but i learned that it's not just when posargs are set",
+        "user": "UMQA682PJ",
+        "ts": "1570814578.008700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e16e878a-615d-4380-9b81-bdff9c11e6a5",
+        "type": "message",
+        "text": "so i think it doesn't matter what tox.ini shows",
+        "user": "UMQA682PJ",
+        "ts": "1570814594.009000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "46b1acad-a01c-41fb-a87e-db7b65b3e13d",
+        "type": "message",
+        "text": "Okay, cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1570814655.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "563e5241-17c0-4368-a516-94ae37af2adc",
+        "type": "message",
+        "text": "See what I can :eye_of_sauron:",
+        "user": "U8FS2P1LH",
+        "ts": "1570814661.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9971eac9-ac89-4562-816e-da44457742c3",
+        "type": "message",
+        "text": "also i notice that when I check out master branch and run parallel tests, if I start pdb.set_trace() in the test_populate_pod_label_summary_table method, then I get this error:\n```\nERROR: test_populate_pod_label_summary_table (masu.test.database.test_ocp_report_db_accessor.OCPReportDBAccessorTest)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/usr/lib/python3.6/unittest/case.py\", line 59, in testPartExecutor\n    yield\n  File \"/usr/lib/python3.6/unittest/case.py\", line 605, in run\n    testMethod()\n  File \"/usr/lib/python3.6/unittest/mock.py\", line 1183, in patched\n    return func(*args, **keywargs)\n  File \"/home/ubuntu/environment/koku/koku/masu/test/database/test_ocp_report_db_accessor.py\", line 396, in test_populate_pod_label_summary_table\n    report_table_name = OCP_REPORT_TABLE_MAP['report']\n  File \"/home/ubuntu/environment/koku/koku/masu/test/database/test_ocp_report_db_accessor.py\", line 396, in test_populate_pod_label_summary_table\n    report_table_name = OCP_REPORT_TABLE_MAP['report']\n  File \"/usr/lib/python3.6/bdb.py\", line 51, in trace_dispatch\n    return self.dispatch_line(frame)\n  File \"/usr/lib/python3.6/bdb.py\", line 70, in dispatch_line\n    if self.quitting: raise BdbQuit\nbdb.BdbQuit\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1570816495.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e3ee9be-f1a6-4c65-b6ee-cc82808daac7",
+        "type": "message",
+        "text": "Yeah, I think pdb in parallel mode gets shut down.",
+        "user": "U8FS2P1LH",
+        "ts": "1570816610.011900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f8c8fe8-97fc-49e9-8d0a-63467e4f2d08",
+        "type": "message",
+        "text": "What is this test trying to do?:  `test_populate_pod_label_summary_table(self, mock_vacuum)`",
+        "user": "UMQA682PJ",
+        "ts": "1570823209.012200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1570823237.000000"
+        }
+    },
+    {
+        "client_msg_id": "da5de7c1-be95-4e05-aca7-223b384484d0",
+        "type": "message",
+        "text": "Is it only checking that the table \"reporting_ocpusagepodlabel_summary\" has anything in it?",
+        "user": "UMQA682PJ",
+        "ts": "1570823270.013000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "de0c23b7-1ab0-449c-bc27-63a9557c1ba6",
+        "type": "message",
+        "text": "yes, i think that's it.",
+        "user": "UMQA682PJ",
+        "ts": "1570823392.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a5eb0db6-84c4-4d1d-961d-972cfc44f0ab",
+        "type": "message",
+        "text": "nevermind.",
+        "user": "UMQA682PJ",
+        "ts": "1570823395.013400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "00323e2a-f469-4b2e-a72c-59b9e70c61a5",
+        "type": "message",
+        "text": "Okay, taht _should_ be the point of the test.",
+        "user": "U8FS2P1LH",
+        "ts": "1570823461.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e1ad780f-bb9e-45dc-ad11-8bd329d15e28",
+        "type": "message",
+        "text": "Sorry, I have been back and forth looking at that test failure, also had to load more data for next week\u2019s tech exchange, and have some somewhat major data processing bugs to sort out.",
+        "user": "U8FS2P1LH",
+        "ts": "1570823497.014400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8d27eac0-d034-4e3c-90eb-8909ceac19c2",
+        "type": "message",
+        "text": "Not intentionally ignoring it.",
+        "user": "U8FS2P1LH",
+        "ts": "1570823502.014700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

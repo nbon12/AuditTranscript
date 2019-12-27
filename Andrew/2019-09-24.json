@@ -1,0 +1,294 @@
+[
+    {
+        "client_msg_id": "bf39e34a-79f4-4389-98ff-01652c5f4ade",
+        "type": "message",
+        "text": "Good morning, where do I put developer stories?  For example if a developer asks me to do something, do I put that on the Zenhub board?",
+        "user": "UMQA682PJ",
+        "ts": "1569335298.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dcab951f-21db-42bc-ad3f-eb2d10a5975d",
+        "type": "message",
+        "text": "Yeah, zenhub === github issues.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335368.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7fc0bc23-cf23-41e8-881c-dc36faaffae7",
+        "type": "message",
+        "text": "Or rather zenhub is just some UI + meta data over github issues.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335381.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96bff4a2-88a3-4663-b533-52a7b0c50e65",
+        "type": "message",
+        "text": "So if you create a new issue to track the work that is great.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335399.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6dfd291-609b-4b85-9476-b7c90476bead",
+        "type": "message",
+        "text": "It does not have to be overly detailed since you\u2019re working it and I think we all understand the ask.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335418.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ccb79005-386f-4015-99c5-ef64f3d32283",
+        "type": "message",
+        "text": "However, adding OpenShift templates, and testing them is going to require some knowledge and experience building with OpenShift. In this case, pgAdmin is a dev tool, not critical work. So I will ask that you write the issue to track it, but get back to working on <https://github.com/project-koku/koku/issues/1079> as it is has been budged for the sprint, and the OpenShift pgadmin thing has not.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335548.006100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "adberglund",
+                "fallback": "[project-koku/koku] #1079 Use safe templating for templated raw SQL",
+                "text": "*Objective*\n\nWe don't want SQL Injection, and despite our current variables being controlled by us, it would still be safer to rely on paramaterization for the strings getting inserted into our SQL.\n\nLet's look at using <https://github.com/hashedin/jinjasql|https://github.com/hashedin/jinjasql> for our SQL which will swap out or variables and return a list of parameters for the SQL.\n\n*Additional Information*\n\n\u2022 We need to modify our variables in our SQL to be Jinja variables (effectively switching from single brackets `{variable}` to double `{{variable}}`\n    \n    \u2022 SQL files are located here: <https://github.com/project-koku/koku/tree/master/koku/masu/database/sql|https://github.com/project-koku/koku/tree/master/koku/masu/database/sql>\n\u2022 We need to switch our db_accessors that run this SQL from using string `.format()` calls to running JinjaSQL and getting the modified SQL string and bind_params.\n\u2022 Update <https://github.com/project-koku/koku/blob/master/koku/masu/database/report_db_accessor_base.py#L415|https://github.com/project-koku/koku/blob/master/koku/masu/database/report_db_accessor_base.py#L415> commit_and_vacuum to pass the sql and bind params to the `cursor.execute()` call\n\n*Acceptance Criteria*\n\n\u2610 SQL produces identical results",
+                "title": "#1079 Use safe templating for templated raw SQL",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/issues/1079",
+                "author_link": "https://github.com/adberglund",
+                "author_icon": "https://avatars1.githubusercontent.com/u/3845021?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1567690044,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Labels",
+                        "value": "good first issue, tech-debt",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/issues/1079",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a3a70af6-0b0a-46b4-a018-69e473d213b4",
+        "type": "message",
+        "text": "yup I agree",
+        "user": "UMQA682PJ",
+        "ts": "1569335576.006400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "504222aa-ba63-420c-acf8-e3f0f3d175e7",
+        "type": "message",
+        "text": "Great.",
+        "user": "U8FS2P1LH",
+        "ts": "1569335603.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ac1bb90-7d4c-4653-a707-0f0d92cb71c9",
+        "type": "message",
+        "text": "ready for re-review regarding the pgAdmin docs change: <https://github.com/project-koku/koku/pull/1159/files>",
+        "user": "UMQA682PJ",
+        "ts": "1569340857.007900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "thumbs-up-left",
+                "users": [
+                    "U8FS2P1LH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22fb7c5c-964c-4f81-9c31-947524b95f72",
+        "type": "message",
+        "text": "Looks good!",
+        "user": "U8FS2P1LH",
+        "ts": "1569340889.008300",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "fox_yay",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "022e41a7-144b-429d-88f5-e56fc0a94e21",
+        "type": "message",
+        "text": "hey, I'm attempting to create a local provider, do you know what this error means? koku_worker       | [2019-09-24 19:05:41,105] ERROR: Unable to get report manifest. Reason: Unable to locate /Users/nbonilla/aws_local/None/20190901-20191001/None-Manifest.json in /Users/nbonilla/aws_local",
+        "user": "UMQA682PJ",
+        "ts": "1569352125.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd963984-9275-4141-8932-3797000bedf0",
+        "type": "message",
+        "text": "actually i should ask doug, since this regards Nise",
+        "user": "UMQA682PJ",
+        "ts": "1569352141.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f8337777-4801-49b9-8ff0-6406d556cd2b",
+        "type": "message",
+        "text": "nevermind",
+        "user": "UMQA682PJ",
+        "ts": "1569352143.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45be67c4-c9cd-4f25-b63a-55c67839926a",
+        "type": "message",
+        "text": "oh, doug's not online.",
+        "user": "UMQA682PJ",
+        "ts": "1569352150.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7785912a-1345-4826-a267-67cf1e038b79",
+        "type": "message",
+        "text": "that error occurs when I trigger Masu to download",
+        "user": "UMQA682PJ",
+        "ts": "1569352346.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "faf7f2e7-00e3-471b-a6e2-26b32efd80f7",
+        "type": "message",
+        "text": "nevermind I think I figured it out",
+        "user": "UMQA682PJ",
+        "ts": "1569352444.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ca636ff-8710-48ad-8f7c-8ff87c6a0166",
+        "type": "message",
+        "text": "Let me know what it was!",
+        "user": "U8FS2P1LH",
+        "ts": "1569352467.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c70cabcd-1055-497a-a6da-f6301a1753a3",
+        "type": "message",
+        "text": "And I\u2019ll help if it is still an issue.",
+        "user": "U8FS2P1LH",
+        "ts": "1569352476.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2acf9437-502a-4fc7-ab2f-281255174ffb",
+        "type": "message",
+        "text": "I sent the wrong bucket name in the POST request to create the bucket, I named it local_bucket but it's supposed to be named /tmp/local_bucket to correspond with the name of the inner volume",
+        "user": "UMQA682PJ",
+        "ts": "1569352679.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1434c6a9-65f9-4d64-948c-663708113e6a",
+        "type": "message",
+        "text": "Gotcha",
+        "user": "U8FS2P1LH",
+        "ts": "1569352821.011900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89466769-3095-4e16-8097-7ec71d753b86",
+        "type": "message",
+        "text": "what credentials should I use for the iqe-test settings.local.yaml?",
+        "user": "UMQA682PJ",
+        "ts": "1569356586.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "87065c4a-80d5-4d4a-919d-b951c91e490d",
+        "type": "message",
+        "text": "also who would be the best person to ask about iqe",
+        "user": "UMQA682PJ",
+        "ts": "1569356595.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ed5be22-ad1e-4915-80f0-8036a462ecd0",
+        "type": "message",
+        "text": "Let\u2019s run through that in the morning.",
+        "user": "U8FS2P1LH",
+        "ts": "1569358656.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd38ce03-af2b-4b39-ba2d-4c6035842f2a",
+        "type": "message",
+        "text": "I think in our team Doug is the best person to ask about iqe.",
+        "user": "U8FS2P1LH",
+        "ts": "1569359811.013100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34dd7961-3d75-4660-a2a0-1d52f525ef33",
+        "type": "message",
+        "text": "I\u2019m looking for my settings file. Where does it go again? It\u2019s been a long time since I set this up.",
+        "user": "U8FS2P1LH",
+        "ts": "1569359827.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3A3D6419-46A7-4671-8075-EE92082CA735",
+        "type": "message",
+        "text": " `iqe/conf/settings.default.yaml`",
+        "user": "UMQA682PJ",
+        "ts": "1569359871.014600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06b015bc-4d3e-4af2-b5fd-edb51e42f1a5",
+        "type": "message",
+        "text": "Mine is likely out of date but here is mine\n\n```\nlocal:\n  hccm:\n    api_path:\n    masu_url: <http://localhost:5000>\n  main:\n    ocp_dir: ~/insights_local\n    aws_dir: ~/aws_local/local_bucket\n    hostname: localhost:8000\n    api_path: /local/v1\n    scheme: http\n    username: <mailto:user_dev@foo.com|user_dev@foo.com>\n    password: password\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1569359908.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "49f219d9-4906-4bba-9a7e-2d3e588aa2d7",
+        "type": "message",
+        "text": "Already pretty sure my api_path should be /cost-management/v1",
+        "user": "U8FS2P1LH",
+        "ts": "1569359930.015200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "83391481-d478-4ebf-9bf4-9c5f3d33e618",
+        "type": "message",
+        "text": "Don\u2019t have an azure_dir, etc.",
+        "user": "U8FS2P1LH",
+        "ts": "1569359937.015400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c67b734b-4a38-4b6b-b0f8-668c95081f96",
+        "type": "message",
+        "text": "Maybe Doug can run through iqe with you, me, and Michael tomorrow and see if we can all get up to date and running.",
+        "user": "U8FS2P1LH",
+        "ts": "1569359973.016000",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,269 @@
+[
+    {
+        "client_msg_id": "c1ef9f77-8105-4178-afaf-2d5ff598be63",
+        "type": "message",
+        "text": "Hi Doug, regarding pyupbot, what's our team's strategy for that? Can anyone review the PRs it makes, and merge them, at any time?",
+        "user": "UMQA682PJ",
+        "ts": "1573226554.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0a3df1f2-6201-4721-bf89-06b542142d72",
+        "type": "message",
+        "text": "or should I ignore it",
+        "user": "UMQA682PJ",
+        "ts": "1573226636.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19869bd2-b0f4-4bdf-92f4-02d47a5ea889",
+        "type": "message",
+        "text": "hey Nick.  So we don\u2019t really have a real formal process (but we probably should!)",
+        "user": "UAR1CADNV",
+        "ts": "1573226654.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "633eae58-c717-4510-a2cb-40386e521c01",
+        "type": "message",
+        "text": "people tend to just review and merge.  IMO it would be good to run the QE tests against it before merging, but I don\u2019t think anyone has actually done that",
+        "user": "UAR1CADNV",
+        "ts": "1573226690.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8de5d771-d4e0-4564-8a19-904b58016e63",
+        "type": "message",
+        "text": "might want to just check with Andrew too to see what he thinks",
+        "user": "UAR1CADNV",
+        "ts": "1573226702.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3bc143c2-82e9-4cb6-8d0c-425a397d4cdd",
+        "type": "message",
+        "text": "when it has a merge conflict, do we normally take whichever version is higher?",
+        "user": "UMQA682PJ",
+        "ts": "1573226738.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ddc2308-5dbe-41bd-a789-df52f58a0660",
+        "type": "message",
+        "text": "I think so.. but this is definitely where testing is also important",
+        "user": "UAR1CADNV",
+        "ts": "1573226780.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff4abfba-7d70-4749-91dd-e9c37ab55c8a",
+        "type": "message",
+        "text": "yep, the highest tested version",
+        "user": "UMQA682PJ",
+        "ts": "1573226899.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8421397-7f44-4c03-9653-ac39d8db063e",
+        "type": "message",
+        "text": "what's the difference between the smokes test and the api test for IQE?",
+        "user": "UMQA682PJ",
+        "ts": "1573233114.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fcff2b45-04d6-483d-a22c-63d25671f512",
+        "type": "message",
+        "text": "smoke tests are what travis runs after we commit",
+        "user": "UAR1CADNV",
+        "ts": "1573233128.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b24fc5c-cb03-4ab0-bb1c-9deec16a0056",
+        "type": "message",
+        "text": "the API tests is running more APi only tests",
+        "user": "UAR1CADNV",
+        "ts": "1573233145.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35d3a1b4-0a7a-4c7c-a135-92fa3341916a",
+        "type": "message",
+        "text": "so API test is more comprehensive, and smokes is more overview? Is there any overlap?",
+        "user": "UMQA682PJ",
+        "ts": "1573233303.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7f164a0e-02d0-4693-a4e7-5c9101650f47",
+        "type": "message",
+        "text": "yeah the smoke tests are a subset of it",
+        "user": "UAR1CADNV",
+        "ts": "1573233592.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34e199ee-82c3-4f3f-9358-3c0bd77a098e",
+        "type": "message",
+        "text": "is this an expected error in the smoke test?\n```\n============================================================ FAILURES ============================================================\n___________________________________________ test_api_cost_model_markup_calculation_aws ___________________________________________\n\napplication = &lt;iqe.base.application.Application object at 0x7f6951bc8550&gt;\nrequest = &lt;FixtureRequest for &lt;Function test_api_cost_model_markup_calculation_aws&gt;&gt;\naws_provider_static_no_ingest = {'authentication': {'credentials': {'provider_resource_name': 'arn:aws:iam::3333111144444:role/LocalAWSProvider'},\n   ...e': None,\n 'name': 'uTDELxOner',\n 'stats': None,\n 'type': 'AWS-local',\n 'uuid': '2c861856-a5b3-4578-9069-63c14d08fdc7'}\n\n    @pytest.mark.hccm_smoke\n    def test_api_cost_model_markup_calculation_aws(application, request, aws_provider_static_no_ingest):\n        \"\"\"Test to verify correct markup calculation\n    \n        Polarion:\n            linkedWorkItems: hccm_crud_cost_model, hccm_cost_model\n        \"\"\"\n        cost_model = dict(\n            name=\"test_markup_calculation_aws\",\n            description=\"Test to verify markup calculation\",\n            source_type=\"AWS\",\n            provider_uuids=[aws_provider_static_no_ingest.uuid],\n            markup=dict(value=\"10\", unit=\"percent\"),\n        )\n    \n        cost_model_out = application.hccm.rest_client.cost_model_api.create_cost_model(\n            cost_model=cost_model\n        )\n    \n        @request.addfinalizer\n        def delete():\n            application.hccm.rest_client.cost_model_api.delete_cost_model(cost_model_out.uuid)\n    \n        masu_ingest(application)\n&gt;       wait_for_ingest(application, aws_provider_static_no_ingest.uuid)\n\nlib64/python3.6/site-packages/iqe_hccm/tests/rest_api/v1/test_cost_model.py:697: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\napplication = &lt;iqe.base.application.Application object at 0x7f6951bc8550&gt;, provider_uuid = '2c861856-a5b3-4578-9069-63c14d08fdc7'\n\n    def wait_for_ingest(application, provider_uuid):\n        \"\"\"Function that calls check_ingest_complete.\"\"\"\n        wait_for(\n            check_ingest_complete,\n            func_args=[application, provider_uuid],\n            timeout=600,\n&gt;           fail_condition=None,\n        )\nE       wait_for.TimedOutError: Could not do 'function check_ingest_complete()' at /iqe_venv/lib64/python3.6/site-packages/iqe_hccm/fixtures/api_fixtures.py:1506 in time\n\nlib64/python3.6/site-packages/iqe_hccm/fixtures/api_fixtures.py:1502: TimedOutError\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573233710.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f137575-d9f4-47e9-ad3d-55e23a472932",
+        "type": "message",
+        "text": "nope hitting that myself",
+        "user": "UAR1CADNV",
+        "ts": "1573233743.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d3acf724-d8cd-45d8-96a3-9257ab156d20",
+        "type": "message",
+        "text": "good to know you are hitting it too",
+        "user": "UAR1CADNV",
+        "ts": "1573233751.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d86bbc66-2b0a-4b0b-a95f-e73130cff00e",
+        "type": "message",
+        "text": "Luke isn\u2019t seeing it",
+        "user": "UAR1CADNV",
+        "ts": "1573233755.008500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1573233759.000000"
+        }
+    },
+    {
+        "client_msg_id": "746848e2-1034-4ecb-bf0b-be5907ced8f6",
+        "type": "message",
+        "text": "question: what's the reason for adding \"index\":\"pypi\" in the pipfile? for example:",
+        "user": "UMQA682PJ",
+        "ts": "1573235277.009100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573235299.000000"
+        }
+    },
+    {
+        "client_msg_id": "7e0cc588-6398-4dc6-bc17-79ab4a3fd27b",
+        "type": "message",
+        "text": "```\"tblib\": {\n            \"hashes\": [\n                \"sha256:1735ff8fd6217446384b5afabead3b142cf1a52d242cfe6cab4240029d6d131a\",\n                \"sha256:c1c8f4edf820a8703d64838804ed3bb37ee35722231c26760cef292ec9d154e4\"\n            ],\n            \"index\": \"pypi\",\n            \"version\": \"==1.5.0\"\n        },```",
+        "user": "UMQA682PJ",
+        "ts": "1573235278.009300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573235291.000000"
+        }
+    },
+    {
+        "client_msg_id": "14e3ac6c-ab23-418d-b85f-6da22f0a6b52",
+        "type": "message",
+        "text": "whereas that index wasn't always there and was only recently added",
+        "user": "UMQA682PJ",
+        "ts": "1573235314.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3239a765-f2a9-480b-a7e3-88a277dcf4f3",
+        "type": "message",
+        "text": "I ask because the pyupbot was having a merge conflict with the index not being there.",
+        "user": "UMQA682PJ",
+        "ts": "1573235356.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bfa3913c-8010-4054-9fd6-6b8bddea5293",
+        "type": "message",
+        "text": "ah i think i got it",
+        "user": "UMQA682PJ",
+        "ts": "1573235556.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "63c51cf9-6b3a-4519-823a-3d58f06695bb",
+        "type": "message",
+        "text": "so pypi is the package index we usually use, and i guess tblib appears in more than just pypi",
+        "user": "UMQA682PJ",
+        "ts": "1573235594.011600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "61da8e2e-81bc-4b4e-9c6a-e10c3063837f",
+        "type": "message",
+        "text": "do we use more than one index? I only saw pypi in the pipfile",
+        "user": "UMQA682PJ",
+        "ts": "1573235707.012400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573235739.000000"
+        }
+    },
+    {
+        "client_msg_id": "45171c32-6926-4016-b8f7-eec22f961042",
+        "type": "message",
+        "text": "only pypi as far as I know\u2026",
+        "user": "UAR1CADNV",
+        "ts": "1573236263.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b762b9b8-8447-4f1e-9936-3d31b0682a05",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/pull/1381> will fix that test problem :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1573246435.013100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "dccurtis",
+                "fallback": "[project-koku/koku] #1381 compose update for testing",
+                "text": "Missed this while updating for hccm-plugin updates",
+                "title": "#1381 compose update for testing",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1381",
+                "author_link": "https://github.com/dccurtis",
+                "author_icon": "https://avatars0.githubusercontent.com/u/4523309?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1573245938,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "dccurtis",
+                        "short": true
+                    },
+                    {
+                        "title": "Labels",
+                        "value": "configuration",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1381",
+                "is_app_unfurl": true
+            }
+        ],
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

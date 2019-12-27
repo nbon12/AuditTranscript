@@ -1,0 +1,1759 @@
+[
+    {
+        "client_msg_id": "fb4191db-feb1-4065-8122-1ba6edb2aa54",
+        "type": "message",
+        "text": "hey Nick.  Also looking at Andrew\u2019s PR with respect to this one.  I\u2019m planning on digging into it today and will let you know what I figure out",
+        "user": "UAR1CADNV",
+        "ts": "1576078066.000600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g3Yhz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hey Nick.  Also looking at Andrew\u2019s PR with respect to this one.  I\u2019m planning on digging into it today and will let you know what I figure out"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ebc3b87f-2207-4241-8b79-6f553d37b63a",
+        "type": "message",
+        "text": "Andrew is doing some performance related work for the dashboard in production for our large lighthouse customer.  Need to keep this in mind with how this fix will fit in..",
+        "user": "UAR1CADNV",
+        "ts": "1576078100.001300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IEhk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Andrew is doing some performance related work for the dashboard in production for our large lighthouse customer.  Need to keep this in mind with how this fix will fit in.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5d379f5b-5445-4317-8519-15be491a2afb",
+        "type": "message",
+        "text": "sounds like we want performance testing to see the impact of what merging this PR will do to the performance in prod.",
+        "user": "UMQA682PJ",
+        "ts": "1576078231.002000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zvz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sounds like we want performance testing to see the impact of what merging this PR will do to the performance in prod."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1fd3baf5-7f88-423c-9b23-2d7113021898",
+        "type": "message",
+        "text": "right?",
+        "user": "UMQA682PJ",
+        "ts": "1576078238.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZQj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1548b3c4-1a65-4a31-92f8-482fc7b18108",
+        "type": "message",
+        "text": "is the concern that merging my PR will slow down the system?",
+        "user": "UMQA682PJ",
+        "ts": "1576078557.002800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XFZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is the concern that merging my PR will slow down the system?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "829517b4-31b1-45d4-9e3a-2453bb0ce900",
+        "type": "message",
+        "text": "no I just want to make sure everything works really.  I need to understand both changes a little better first",
+        "user": "UAR1CADNV",
+        "ts": "1576078681.003400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jYid",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no I just want to make sure everything works really.  I need to understand both changes a little better first"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1f74574f-6c3f-46f9-8474-4e187cba7082",
+        "type": "message",
+        "text": "OK I\u2019ve got to run to my kids Christmas concert, will get back to you this afternoon",
+        "user": "UAR1CADNV",
+        "ts": "1576078747.003900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "595V4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "OK I\u2019ve got to run to my kids Christmas concert, will get back to you this afternoon"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9de04704-16f1-4303-81a4-ae76d4d1b98b",
+        "type": "message",
+        "text": ":christmas_tree:  :musical_note:  np!",
+        "user": "UMQA682PJ",
+        "ts": "1576078785.004400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MPFPY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "christmas_tree"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "musical_note"
+                            },
+                            {
+                                "type": "text",
+                                "text": "  np!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dc42a6b0-3951-4502-834d-16377c2de01b",
+        "type": "message",
+        "text": "Hey Nick.  Have you looked at `class QueryParameters`?",
+        "user": "UAR1CADNV",
+        "ts": "1576088833.004800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tYC7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Nick.  Have you looked at "
+                            },
+                            {
+                                "type": "text",
+                                "text": "class QueryParameters",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c3a3f7c2-a1ac-4b02-9cca-4d01d955a5ba",
+        "type": "message",
+        "text": "I think if you implement the query parameter manipulation logic here it will cover all providers",
+        "user": "UAR1CADNV",
+        "ts": "1576088860.005300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "K7+m",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think if you implement the query parameter manipulation logic here it will cover all providers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "18252de5-051d-4e2d-9b38-cec0cdedb5e2",
+        "type": "message",
+        "text": "Haven\u2019t spent a ton of time figuring out exactly where to incorporate it but I was just able to successfully do the same type of manipulations you are doing right here: <https://github.com/project-koku/koku/blob/eb94c5e3c9188f149fb97c696d9bd03c22d6aafe/koku/api/query_params.py#L232>",
+        "user": "UAR1CADNV",
+        "ts": "1576088991.006600",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/query_params.py:232",
+                "text": "```\n        self.parameters = qps.data\n```",
+                "title": "koku/api/query_params.py:232",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/eb94c5e3c9188f149fb97c696d9bd03c22d6aafe/koku/api/query_params.py#L232",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/eb94c5e3c9188f149fb97c696d9bd03c22d6aafe/koku/api/query_params.py#L232",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P0R",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Haven\u2019t spent a ton of time figuring out exactly where to incorporate it but I was just able to successfully do the same type of manipulations you are doing right here: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/blob/eb94c5e3c9188f149fb97c696d9bd03c22d6aafe/koku/api/query_params.py#L232"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f47b060-35a1-434f-99d0-822987bb6418",
+        "type": "message",
+        "text": "here\u2019s a pdb right there",
+        "user": "UAR1CADNV",
+        "ts": "1576089039.007000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "37C",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "here\u2019s a pdb right there"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "12c39509-6deb-471c-8006-a912b5c786de",
+        "type": "message",
+        "text": "```(Pdb) qps.data\n{'filter': OrderedDict([('service', ['AmazonEC2'])]), 'group_by': OrderedDict([('service', ['*'])])}\n(Pdb) ```",
+        "user": "UAR1CADNV",
+        "ts": "1576089040.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RFej6",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(Pdb) qps.data\n{'filter': OrderedDict([('service', ['AmazonEC2'])]), 'group_by': OrderedDict([('service', ['*'])])}\n(Pdb) "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "29f23df5-3838-43bf-8ebb-43db41856fde",
+        "type": "message",
+        "text": "why this class instead of in the QueryHandler constructor?",
+        "user": "UMQA682PJ",
+        "ts": "1576089046.007400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hUiG4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "why this class instead of in the QueryHandler constructor?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "36bd0a15-1e47-4238-b901-65ab61589cc2",
+        "type": "message",
+        "text": "yea you could probably do it there too",
+        "user": "UAR1CADNV",
+        "ts": "1576089079.007600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TBqY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yea you could probably do it there too"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "05e80aa4-2b30-42b7-8296-f05e5fd43bff",
+        "type": "message",
+        "text": "that takes the `QueryParameters` object as an argument",
+        "user": "UAR1CADNV",
+        "ts": "1576089093.008000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VxzHQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "that takes the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "QueryParameters",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " object as an argument"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db5a7936-c853-422f-9c62-cca20c7f1975",
+        "type": "message",
+        "text": "bottom line is that if you do it in one of these parent classes then it will cover all the providers",
+        "user": "UAR1CADNV",
+        "ts": "1576089174.008400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Oh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "bottom line is that if you do it in one of these parent classes then it will cover all the providers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7484f0fa-ee29-442c-a5b6-d79835c7ba5f",
+        "type": "message",
+        "text": "yes i think i got it working for all providers in my branch, in the QueryParameters parent init method",
+        "user": "UMQA682PJ",
+        "ts": "1576089226.009700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mhe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes i think i got it working for all providers in my branch, in the QueryParameters parent init method"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4496d2f-e383-4832-95c6-ec2e3dcf068a",
+        "type": "message",
+        "text": "My first thought was that since it\u2019s a QueryParameter manipulation thats happening, it should go in that class.  TO keep all the funny business of messing with query parameters out of the QueryHandler",
+        "user": "UAR1CADNV",
+        "ts": "1576089226.009800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k7X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "My first thought was that since it\u2019s a QueryParameter manipulation thats happening, it should go in that class.  TO keep all the funny business of messing with query parameters out of the QueryHandler"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c538ac34-aa89-4040-8d49-bf5fb715ea67",
+        "type": "message",
+        "text": "but theres tradeoffs in both places.  I can leave it to you to figure out the best solution",
+        "user": "UAR1CADNV",
+        "ts": "1576089256.010300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Q6X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but theres tradeoffs in both places.  I can leave it to you to figure out the best solution"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "615f5b50-4de2-4548-a0cf-e183bba6529f",
+        "type": "message",
+        "text": "so you are already doing it in `QueryParameters`?",
+        "user": "UAR1CADNV",
+        "ts": "1576089284.010500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z=B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so you are already doing it in "
+                            },
+                            {
+                                "type": "text",
+                                "text": "QueryParameters",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "596553ab-c6c9-4c7a-80ba-3c67bfccb7f5",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576089288.010700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=K11",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf6c18ba-6da1-4050-9a13-b57e0f0974e7",
+        "type": "message",
+        "text": "awesome :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1576089316.011400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fgXR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "awesome "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f30ed671-b99e-4cd1-bb6f-8de862c35c1c",
+        "type": "message",
+        "text": "i was looking for something to test it on for other providers but I'm not sure how to generate azure data and also do a group_by on that generated data.",
+        "user": "UMQA682PJ",
+        "ts": "1576089344.012000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "esNA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i was looking for something to test it on for other providers but I'm not sure how to generate azure data and also do a group_by on that generated data."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "319a35e2-99c8-40e3-9322-c781a5589331",
+        "type": "message",
+        "text": "also i want to get it merged asap and get tests to pass, and then re-factor later, if that sounds ok with you.",
+        "user": "UMQA682PJ",
+        "ts": "1576089516.013700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4oq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also i want to get it merged asap and get tests to pass, and then re-factor later, if that sounds ok with you."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "938505b4-f32e-4047-a8df-d4d166b39f06",
+        "type": "message",
+        "text": "putting it in QueryParameters later sounds reasonable to me.",
+        "user": "UMQA682PJ",
+        "ts": "1576089578.014300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ILV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "putting it in QueryParameters later sounds reasonable to me."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0e37175f-46a6-4bc8-92a7-bc6ecc5f9fa6",
+        "type": "message",
+        "text": "wait where are you doing it now?",
+        "user": "UAR1CADNV",
+        "ts": "1576089590.014500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A9u8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "wait where are you doing it now?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9fab52c9-a05a-4052-a1be-8e8018f12465",
+        "type": "message",
+        "text": "I thought thats where you have it?",
+        "user": "UAR1CADNV",
+        "ts": "1576089594.014800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fLI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I thought thats where you have it?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb011f6c-4629-4cad-a9bc-de8eca924ae8",
+        "type": "message",
+        "text": "QueryHandler parent class init method",
+        "user": "UMQA682PJ",
+        "ts": "1576089603.015100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "xyqJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "QueryHandler parent class init method"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8c464226-160d-43df-81b2-3268bde95d4c",
+        "type": "message",
+        "text": "oh, i mis-read your comment.",
+        "user": "UMQA682PJ",
+        "ts": "1576089613.015300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hgw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh, i mis-read your comment."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "49e85626-257c-4caa-b4fd-cd5cf636309a",
+        "type": "message",
+        "text": "ok its in the QueryHandler now",
+        "user": "UAR1CADNV",
+        "ts": "1576089622.015500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a+a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok its in the QueryHandler now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b796180b-9cda-4c4a-a6ab-fadcc99adccf",
+        "type": "message",
+        "text": "yeah that should be fine too",
+        "user": "UAR1CADNV",
+        "ts": "1576089627.015700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cC=Sf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeah that should be fine too"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d3bb9f02-de67-408e-9733-11818fbf18ab",
+        "type": "message",
+        "text": "trying to see if theres an easy way to use our azure account to test azure",
+        "user": "UAR1CADNV",
+        "ts": "1576089652.016000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NcQJy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "trying to see if theres an easy way to use our azure account to test azure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ee130c2-3de2-45fe-ae40-2a0ed9220304",
+        "type": "message",
+        "text": "you\u2019ve used nise right?",
+        "user": "UAR1CADNV",
+        "ts": "1576089695.016200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "s1x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you\u2019ve used nise right?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50fc6e85-9796-4579-a353-66af9d6f97e2",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576089708.016600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+wD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "45d26a72-e7fc-4029-b675-314a3eabaa4f",
+        "type": "message",
+        "text": "for OCP and Azure?",
+        "user": "UAR1CADNV",
+        "ts": "1576089713.016900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/4Pd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for OCP and Azure?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3e0da4bd-e61b-4596-92ba-269ca687d8a5",
+        "type": "message",
+        "text": "for AWS i used the FakeAWSCostData class",
+        "user": "UMQA682PJ",
+        "ts": "1576089715.017100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lk9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for AWS i used the FakeAWSCostData class"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef584c1b-4542-4e63-b296-4a680d564f1f",
+        "type": "message",
+        "text": "I meant for functional testing",
+        "user": "UAR1CADNV",
+        "ts": "1576089745.017600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yBfXA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I meant for functional testing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "04af7a14-7197-4080-ba86-dcbb6954a1e7",
+        "type": "message",
+        "text": "i used nise for trying out AWS-local",
+        "user": "UMQA682PJ",
+        "ts": "1576089747.017800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hfJK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i used nise for trying out AWS-local"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f196c3de-d405-46bc-854a-807f2d40df92",
+        "type": "message",
+        "text": "ok but not for the other providers",
+        "user": "UAR1CADNV",
+        "ts": "1576089756.018200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7=cz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok but not for the other providers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bdad57df-1b12-4086-8387-86ec9f3e0473",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1576089778.018600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ctzp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5142f1cd-3423-4864-b313-d2d0b4401442",
+        "type": "message",
+        "text": "alirght let me put together an example for azure",
+        "user": "UAR1CADNV",
+        "ts": "1576089784.018900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XEdh1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "alirght let me put together an example for azure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd1d0450-b3af-4c0f-b8f1-c0a18167fda8",
+        "type": "message",
+        "text": "i was looking for data for unit tests though",
+        "user": "UMQA682PJ",
+        "ts": "1576089784.019000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D1j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i was looking for data for unit tests though"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f08fabb5-5693-4f98-a4ee-0200b8773594",
+        "type": "message",
+        "text": "for example this is my AWS unit test:",
+        "user": "UMQA682PJ",
+        "ts": "1576089817.019300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EtN0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for example this is my AWS unit test:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ac13f313-7cd3-4fdd-9726-fabe0e6bc8e8",
+        "type": "message",
+        "text": "```def test_group_by_star_does_not_override_filters_2(self):\n        # response_starless is the response with group_by=AmazonEC2 (does not contain a *)\n        # response_star is the response for group_by=*&amp;filter[service]=AmazonEC2 (contains a *)\n        \"\"\"\n            Example of expected Response: \n            Notice that the only region is eu-west-3\n            {'data': [{'date': '2019-11-30', 'regions': []},\n            {'date': '2019-12-01',\n            'regions': [{'region': 'eu-west-3',\n                            'services': [{'instance_types': [{'instance_type': 'r5.2xlarge',\n                                                            'values': [{'cost': {'units': 'USD',\n                                                                                'value': Decimal('2405.158832135')},\n                                                                        'count': {'units': 'instances',\n                                                                                    'value': 1},\n                                                                        'date': '2019-12-01',\n                                                                        'derived_cost': {'units': 'USD',\n                                                                                        'value': Decimal('0')},\n                                                                        'infrastructure_cost': {'units': 'USD',\n                                                                                                'value': Decimal('2186.508029214')},\n                                                                        'instance_type': 'r5.2xlarge',\n                                                                        'markup_cost': {'units': 'USD',\n                                                                                        'value': Decimal('218.650802921')},\n                                                                        'region': 'eu-west-3',\n                                                                        'service': 'AmazonEC2',\n                                                                        'usage': {'units': 'Hrs',\n                                                                                    'value': Decimal('3807.000000000')}}]}],\n                                        'service': 'AmazonEC2'}]}]},\n            {'date': '2019-12-02', 'regions': []},\n            {'date': '2019-12-03', 'regions': []},\n            {'date': '2019-12-04', 'regions': []},\n            {'date': '2019-12-05', 'regions': []},\n            {'date': '2019-12-06', 'regions': []},\n            {'date': '2019-12-07', 'regions': []},\n            {'date': '2019-12-08', 'regions': []},\n            {'date': '2019-12-09', 'regions': []}],\n\n\n        \"\"\"\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='eu-west-3'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-west-1'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-east-1'), product='ebs')\n\n\n        # First Request:\n        url = '?filter[service]=AmazonEC2&amp;group_by[service]=*&amp;group_by[region]=*&amp;filter[region]=eu-west-3'\n        query_params = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler = AWSReportQueryHandler(query_params)\n        group_by = handler._get_group_by()\n        \n        data = handler.execute_query()\n        # Second Request:\n        url2 = '?group_by[region]=eu-west-3&amp;group_by[service]=AmazonEC2'\n        query_params2 = self.mocked_query_params(url2, AWSInstanceTypeView)\n        handler2 = AWSReportQueryHandler(query_params2)\n        group_by2 = handler2._get_group_by()\n        data2 = handler2.execute_query()\n        \n        # Assert the second request contains only eu-west-3 region\n        for region_dict in data2['data']: \n            # For each date, assert that the region is eu-west-3\n                for list_item in region_dict['regions']:\n                    self.assertEquals('eu-west-3', list_item['region'])\n        # Assert the first request contains only eu-west-3\n        for region_dict in data['data']:\n            # For each date, assert that the region is eu-west-3\n                for list_item in region_dict['regions']:\n                    self.assertEquals('eu-west-3', list_item['region'])```",
+        "user": "UMQA682PJ",
+        "ts": "1576089820.019600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rOy",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "def test_group_by_star_does_not_override_filters_2(self):\n        # response_starless is the response with group_by=AmazonEC2 (does not contain a *)\n        # response_star is the response for group_by=*&filter[service]=AmazonEC2 (contains a *)\n        \"\"\"\n            Example of expected Response: \n            Notice that the only region is eu-west-3\n            {'data': [{'date': '2019-11-30', 'regions': []},\n            {'date': '2019-12-01',\n            'regions': [{'region': 'eu-west-3',\n                            'services': [{'instance_types': [{'instance_type': 'r5.2xlarge',\n                                                            'values': [{'cost': {'units': 'USD',\n                                                                                'value': Decimal('2405.158832135')},\n                                                                        'count': {'units': 'instances',\n                                                                                    'value': 1},\n                                                                        'date': '2019-12-01',\n                                                                        'derived_cost': {'units': 'USD',\n                                                                                        'value': Decimal('0')},\n                                                                        'infrastructure_cost': {'units': 'USD',\n                                                                                                'value': Decimal('2186.508029214')},\n                                                                        'instance_type': 'r5.2xlarge',\n                                                                        'markup_cost': {'units': 'USD',\n                                                                                        'value': Decimal('218.650802921')},\n                                                                        'region': 'eu-west-3',\n                                                                        'service': 'AmazonEC2',\n                                                                        'usage': {'units': 'Hrs',\n                                                                                    'value': Decimal('3807.000000000')}}]}],\n                                        'service': 'AmazonEC2'}]}]},\n            {'date': '2019-12-02', 'regions': []},\n            {'date': '2019-12-03', 'regions': []},\n            {'date': '2019-12-04', 'regions': []},\n            {'date': '2019-12-05', 'regions': []},\n            {'date': '2019-12-06', 'regions': []},\n            {'date': '2019-12-07', 'regions': []},\n            {'date': '2019-12-08', 'regions': []},\n            {'date': '2019-12-09', 'regions': []}],\n\n\n        \"\"\"\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='eu-west-3'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-west-1'), product='ec2')\n        self.generator.add_data_to_tenant(FakeAWSCostData(self.provider, region='us-east-1'), product='ebs')\n\n\n        # First Request:\n        url = '?filter[service]=AmazonEC2&group_by[service]=*&group_by[region]=*&filter[region]=eu-west-3'\n        query_params = self.mocked_query_params(url, AWSInstanceTypeView)\n        handler = AWSReportQueryHandler(query_params)\n        group_by = handler._get_group_by()\n        \n        data = handler.execute_query()\n        # Second Request:\n        url2 = '?group_by[region]=eu-west-3&group_by[service]=AmazonEC2'\n        query_params2 = self.mocked_query_params(url2, AWSInstanceTypeView)\n        handler2 = AWSReportQueryHandler(query_params2)\n        group_by2 = handler2._get_group_by()\n        data2 = handler2.execute_query()\n        \n        # Assert the second request contains only eu-west-3 region\n        for region_dict in data2['data']: \n            # For each date, assert that the region is eu-west-3\n                for list_item in region_dict['regions']:\n                    self.assertEquals('eu-west-3', list_item['region'])\n        # Assert the first request contains only eu-west-3\n        for region_dict in data['data']:\n            # For each date, assert that the region is eu-west-3\n                for list_item in region_dict['regions']:\n                    self.assertEquals('eu-west-3', list_item['region'])"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fb48cff4-df2a-4956-9a7c-106bd7f8036c",
+        "type": "message",
+        "text": "checkout `class AzureReportDataGenerator`",
+        "user": "UAR1CADNV",
+        "ts": "1576089840.019800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jWY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "checkout "
+                            },
+                            {
+                                "type": "text",
+                                "text": "class AzureReportDataGenerator",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "82703e5f-fa14-4e33-995e-878a06101e35",
+        "type": "message",
+        "text": "yep",
+        "user": "UMQA682PJ",
+        "ts": "1576089904.020200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kZux",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7b87e87e-de03-4f69-8a74-e7f3154688d7",
+        "type": "message",
+        "text": "what's something similar to `group_by[service]=*&amp;filter[service]=AmazonEC2` in azure?",
+        "user": "UMQA682PJ",
+        "ts": "1576089986.021400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ayq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what's something similar to "
+                            },
+                            {
+                                "type": "text",
+                                "text": "group_by[service]=*&filter[service]=AmazonEC2",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " in azure?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b49812df-924a-475e-a121-f9c8d567d89f",
+        "type": "message",
+        "text": "yeah trying to figure that out now",
+        "user": "UAR1CADNV",
+        "ts": "1576090012.021600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tu6rm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeah trying to figure that out now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cd272d0a-74d5-4a73-9a98-7bf57b8e5ae4",
+        "type": "message",
+        "text": "probably something like `group_by[instance_type]=*&amp;filter[instance_type]=Standard_A0`",
+        "user": "UAR1CADNV",
+        "ts": "1576090058.022400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1576090097.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2=i4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "probably something like "
+                            },
+                            {
+                                "type": "text",
+                                "text": "group_by[instance_type]=*&filter[instance_type]=Standard_A0",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3215d173-acb7-41c9-941a-c282a5c69da0",
+        "type": "message",
+        "text": "looking at our azure account, thats the only VM type we have",
+        "user": "UAR1CADNV",
+        "ts": "1576090069.022700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vT8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "looking at our azure account, thats the only VM type we have"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "41132bd0-7a79-43cf-bfd2-eb1f8f956613",
+        "type": "message",
+        "text": "so it\u2019s not that useful to test this unfortunately",
+        "user": "UAR1CADNV",
+        "ts": "1576090082.023100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lRQt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so it\u2019s not that useful to test this unfortunately"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c83b9b6-ad40-4ab6-8d7f-ce3e0108f036",
+        "type": "message",
+        "text": "does azure have regions?\nfor example `filter[region]=us-west-1` ?",
+        "user": "UMQA682PJ",
+        "ts": "1576090339.023800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cdGLn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "does azure have regions?\nfor example "
+                            },
+                            {
+                                "type": "text",
+                                "text": "filter[region]=us-west-1",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e5042122-67bb-45c1-8c37-12421ef31980",
+        "type": "message",
+        "text": "yea it\u2019s `resource_location`",
+        "user": "UAR1CADNV",
+        "ts": "1576090540.024000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9ohzY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yea it\u2019s "
+                            },
+                            {
+                                "type": "text",
+                                "text": "resource_location",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7c349a20-5646-43af-839f-c88abaa368f5",
+        "type": "message",
+        "text": "see `class AzureGroupBySerializer`",
+        "user": "UAR1CADNV",
+        "ts": "1576090555.024300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rgWe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "see "
+                            },
+                            {
+                                "type": "text",
+                                "text": "class AzureGroupBySerializer",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8dfa91cc-cdcc-40e7-baff-3ff1340ec547",
+        "type": "message",
+        "text": "for the options",
+        "user": "UAR1CADNV",
+        "ts": "1576090562.024600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7i0Qa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for the options"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "836a33f3-5baf-4325-b36b-67591925ac93",
+        "type": "message",
+        "text": "```GET /api/cost-management/v1/reports/azure/instance-types/?group_by[resource_location]=US%20West\nHTTP 200 OK\nAllow: GET, HEAD, OPTIONS\nContent-Type: application/json\nVary: HTTP_X_RH_IDENTITY, Accept\n\n{\n    \"meta\": {\n        \"count\": 10,\n        \"group_by\": {\n            \"resource_location\": [\n                \"US West\"\n            ]\n        },\n        \"filter\": {\n            \"time_scope_value\": \"-10\",\n            \"time_scope_units\": \"day\",\n            \"resolution\": \"daily\"\n        },\n        \"order_by\": {},\n        \"total\": {\n            \"cost\": {\n                \"value\": 0.075279078,\n                \"units\": \"USD\"\n            },\n            \"infrastructure_cost\": {\n                \"value\": 0.075279078,\n                \"units\": \"USD\"\n            },\n            \"derived_cost\": {\n                \"value\": 0.0,\n                \"units\": \"USD\"\n            },\n            \"markup_cost\": {\n                \"value\": 0.0,\n                \"units\": \"USD\"\n            },\n            \"count\": {\n                \"value\": 0.0,\n                \"units\": \"instances\"\n            },\n            \"usage\": 0.470450488\n        }\n    },\n    \"links\": {\n        \"first\": \"/api/cost-management/v1/reports/azure/instance-types/?group_by%5Bresource_location%5D=US+West&amp;limit=100&amp;offset=0\",\n        \"next\": null,\n        \"previous\": null,\n        \"last\": \"/api/cost-management/v1/reports/azure/instance-types/?group_by%5Bresource_location%5D=US+West&amp;limit=100&amp;offset=0\"\n    },\n    \"data\": [```",
+        "user": "UAR1CADNV",
+        "ts": "1576090607.024900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uwe",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "GET /api/cost-management/v1/reports/azure/instance-types/?group_by[resource_location]=US%20West\nHTTP 200 OK\nAllow: GET, HEAD, OPTIONS\nContent-Type: application/json\nVary: HTTP_X_RH_IDENTITY, Accept\n\n{\n    \"meta\": {\n        \"count\": 10,\n        \"group_by\": {\n            \"resource_location\": [\n                \"US West\"\n            ]\n        },\n        \"filter\": {\n            \"time_scope_value\": \"-10\",\n            \"time_scope_units\": \"day\",\n            \"resolution\": \"daily\"\n        },\n        \"order_by\": {},\n        \"total\": {\n            \"cost\": {\n                \"value\": 0.075279078,\n                \"units\": \"USD\"\n            },\n            \"infrastructure_cost\": {\n                \"value\": 0.075279078,\n                \"units\": \"USD\"\n            },\n            \"derived_cost\": {\n                \"value\": 0.0,\n                \"units\": \"USD\"\n            },\n            \"markup_cost\": {\n                \"value\": 0.0,\n                \"units\": \"USD\"\n            },\n            \"count\": {\n                \"value\": 0.0,\n                \"units\": \"instances\"\n            },\n            \"usage\": 0.470450488\n        }\n    },\n    \"links\": {\n        \"first\": \"/api/cost-management/v1/reports/azure/instance-types/?group_by%5Bresource_location%5D=US+West&limit=100&offset=0\",\n        \"next\": null,\n        \"previous\": null,\n        \"last\": \"/api/cost-management/v1/reports/azure/instance-types/?group_by%5Bresource_location%5D=US+West&limit=100&offset=0\"\n    },\n    \"data\": ["
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "efadc041-ce05-4234-9b05-b8919746c26f",
+        "type": "message",
+        "text": "so I would suggest generating some nise azure data and pulling it in",
+        "user": "UAR1CADNV",
+        "ts": "1576090622.025200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "orU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so I would suggest generating some nise azure data and pulling it in"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e5daf53a-4b5f-4f36-bf61-c0592cee8c5b",
+        "type": "message",
+        "text": "Here\u2019s how to generate data with nise",
+        "user": "UAR1CADNV",
+        "ts": "1576090630.025500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XfYb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here\u2019s how to generate data with nise"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "885942c5-2d51-42f7-ab28-9cadc789f782",
+        "type": "message",
+        "text": "```(nise_fork) \u279c  nise_fork git:(fix_azure_names) \u2717 nise --azure --azure-container-name ~/projects/repos/koku_master/testing/local_providers/azure_local --azure-report-name cur --azure-report-prefix my-prefix-2 --static-report-file example_azure_static_data.yml\nCopied my-prefix-2/cur/20191101-20191130/costreport_0cff15e7-dcd7-49ed-93a5-aeabd5f8efc0.csv to local directory /Users/curtisd/projects/repos/koku_master/testing/local_providers/azure_local.\nCopied my-prefix-2/cur/20191201-20191231/costreport_51a7b8e4-6277-4b3f-99b2-e805626f448b.csv to local directory /Users/curtisd/projects/repos/koku_master/testing/local_providers/azure_local.\n(nise_fork) \u279c  nise_fork git:(fix_azure_names) \u2717 ```",
+        "user": "UAR1CADNV",
+        "ts": "1576090638.025800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N=E3C",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "(nise_fork) \u279c  nise_fork git:(fix_azure_names) \u2717 nise --azure --azure-container-name ~/projects/repos/koku_master/testing/local_providers/azure_local --azure-report-name cur --azure-report-prefix my-prefix-2 --static-report-file example_azure_static_data.yml\nCopied my-prefix-2/cur/20191101-20191130/costreport_0cff15e7-dcd7-49ed-93a5-aeabd5f8efc0.csv to local directory /Users/curtisd/projects/repos/koku_master/testing/local_providers/azure_local.\nCopied my-prefix-2/cur/20191201-20191231/costreport_51a7b8e4-6277-4b3f-99b2-e805626f448b.csv to local directory /Users/curtisd/projects/repos/koku_master/testing/local_providers/azure_local.\n(nise_fork) \u279c  nise_fork git:(fix_azure_names) \u2717 "
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a67eea4-d958-44df-8977-7fb00063e31e",
+        "type": "message",
+        "text": "`~/projects/repos/koku_master/` should be the path to your repository",
+        "user": "UAR1CADNV",
+        "ts": "1576090655.026300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dXEL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "~/projects/repos/koku_master/",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " should be the path to your repository"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f864fef9-8c79-4fb4-b16d-559df5892705",
+        "type": "message",
+        "text": "then create the Azure local provider like this",
+        "user": "UAR1CADNV",
+        "ts": "1576090666.026500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/RnQ+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "then create the Azure local provider like this"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8fb1b2d4-9092-48dd-8c35-e1a01abe6a0a",
+        "type": "message",
+        "text": "POST this data to /provider",
+        "user": "UAR1CADNV",
+        "ts": "1576090682.026800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nG+h9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "POST this data to /provider"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8178e783-a1a5-4d31-8472-4e62394e2c02",
+        "type": "message",
+        "text": "```{\"name\": \"Test Azure Source\", \"type\": \"AZURE-local\", \"authentication\": {\n        \"credentials\": {\n            \"subscription_id\": \"2639de71-ca37-4a17-a104-17665a50e7fd\",\n            \"tenant_id\": \"ae4f8f55-f1a8-4080-9aa8-10779e4113e7\",\n            \"client_id\": \"d6b607d7-d07a-4ca0-b81d-39631f73234a\",\n            \"client_secret\": \"cbde6308-bab1-489a-afc6-5280fb5cf793\"\n        }\n    }, \"billing_source\": {\n    \t\"data_source\": {\n            \"resource_group\": {\n                \"directory\": \"my-prefix-2\",\n                \"export_name\": \"cur\"\n            },\n            \"storage_account\": {\n                \"local_dir\": \"/tmp/local_container\",\n                \"container\": \"\"\n            }\n    \t}\n    }\n}```",
+        "user": "UAR1CADNV",
+        "ts": "1576090684.027100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N2VQK",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "{\"name\": \"Test Azure Source\", \"type\": \"AZURE-local\", \"authentication\": {\n        \"credentials\": {\n            \"subscription_id\": \"2639de71-ca37-4a17-a104-17665a50e7fd\",\n            \"tenant_id\": \"ae4f8f55-f1a8-4080-9aa8-10779e4113e7\",\n            \"client_id\": \"d6b607d7-d07a-4ca0-b81d-39631f73234a\",\n            \"client_secret\": \"cbde6308-bab1-489a-afc6-5280fb5cf793\"\n        }\n    }, \"billing_source\": {\n    \t\"data_source\": {\n            \"resource_group\": {\n                \"directory\": \"my-prefix-2\",\n                \"export_name\": \"cur\"\n            },\n            \"storage_account\": {\n                \"local_dir\": \"/tmp/local_container\",\n                \"container\": \"\"\n            }\n    \t}\n    }\n}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5e0e6dec-6c72-4ea2-b169-9334543721ca",
+        "type": "message",
+        "text": "you can can make the azure-report-prefix, azure-report-name whatever you want.  Just make sure it is consistent with the providers data",
+        "user": "UAR1CADNV",
+        "ts": "1576090839.027800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zpC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you can can make the azure-report-prefix, azure-report-name whatever you want.  Just make sure it is consistent with the providers data"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

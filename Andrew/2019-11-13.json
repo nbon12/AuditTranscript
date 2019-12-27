@@ -1,0 +1,350 @@
+[
+    {
+        "client_msg_id": "536bd1f1-67ac-4cd4-87b2-888fb073d9d5",
+        "type": "message",
+        "text": "Hey, I re-named a URL, can you review this PR?",
+        "user": "UMQA682PJ",
+        "ts": "1573666724.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18aaeb14-7b30-419f-923c-565d34db070c",
+        "type": "message",
+        "text": "it's small",
+        "user": "UMQA682PJ",
+        "ts": "1573666740.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "171969be-9ce1-4d36-878f-7c783963ed20",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/pull/1399>",
+        "user": "UMQA682PJ",
+        "ts": "1573666760.001100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1399 Feature/#1309 rename sources status url",
+                "text": "rename URL `/source_status/` to `/source-status/`  \nAs per QA feedback for <https://github.com/project-koku/koku/issues/1309|#1309>",
+                "title": "#1399 Feature/#1309 rename sources status url",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1399",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1573664653,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1399",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "18751325-5491-448a-971c-ca0db35518f4",
+        "type": "message",
+        "text": ":white_check_mark:",
+        "user": "U8FS2P1LH",
+        "ts": "1573666825.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8802076-01a8-464b-89a8-8b832b771ad6",
+        "type": "message",
+        "text": "Hi Andrew, regarding setting up Koku on openshift locally, is the best way to do that still what's currently documented in readthedocs?",
+        "user": "UMQA682PJ",
+        "ts": "1573677611.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f1a1592-5ccf-4313-878a-d0e2397bd01d",
+        "type": "message",
+        "text": "using the openshift template file and running `make oc-create-all`",
+        "user": "UMQA682PJ",
+        "ts": "1573677654.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8815a765-c989-4baf-93ca-899153582d09",
+        "type": "message",
+        "text": "i'm getting a github 404 when going to the web page for the openshift template",
+        "user": "UMQA682PJ",
+        "ts": "1573677709.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15e329ff-8f71-4d35-9261-08812e0cb454",
+        "type": "message",
+        "text": "Check out <https://github.com/project-koku/koku/pull/1386>",
+        "user": "U8FS2P1LH",
+        "ts": "1573677726.003400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "blentz",
+                "fallback": "[project-koku/koku] #1386 Preliminary e2e deploy script",
+                "text": "This is a preliminary environment deployment script. This begins to address <https://github.com/project-koku/koku/issues/1242|#1242>.\n\nI expect this solution to evolve over time as we work within an e2e-based development environment. This script is intended to just serve as a minimum-viable approach.",
+                "title": "#1386 Preliminary e2e deploy script",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1386",
+                "author_link": "https://github.com/blentz",
+                "author_icon": "https://avatars1.githubusercontent.com/u/17390?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1573482635,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "blentz",
+                        "short": true
+                    },
+                    {
+                        "title": "Labels",
+                        "value": "deployment",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1386",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10b6deac-dafd-4e2c-b99a-b26b8aaffee1",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/master/openshift/koku-template.yaml>",
+        "user": "UMQA682PJ",
+        "ts": "1573677726.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "96ca2211-4fd7-4e41-8e31-1cc210ecac2b",
+        "type": "message",
+        "text": "If you have minishift or a local openshift cluster the make oc-create-all is probably good, even if there\u2019s a bad link to a template.",
+        "user": "U8FS2P1LH",
+        "ts": "1573677792.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "139e1e96-6557-49b0-bd69-5876067e2a05",
+        "type": "message",
+        "text": "But that PR uses code ready containers (which is the new way to deploy OpenShift 4 locally)",
+        "user": "U8FS2P1LH",
+        "ts": "1573677808.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9511751-7cc4-474a-83be-f19ad545cea3",
+        "type": "message",
+        "text": "oOOOoo",
+        "user": "UMQA682PJ",
+        "ts": "1573677821.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bb461ec1-d295-4005-b083-a7754531cfaa",
+        "type": "message",
+        "text": "It also uses the templates in the e2e-deploy repo which is where we\u2019re supposed to be hosting our templates now.",
+        "user": "U8FS2P1LH",
+        "ts": "1573677830.005700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "25ac7a62-7de3-4580-aee2-d2dda2df1ac7",
+        "type": "message",
+        "text": "what is the e2e-deploy repo?",
+        "user": "UMQA682PJ",
+        "ts": "1573677852.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8149eaa6-db44-42da-ae0f-a9f4a65723fa",
+        "type": "message",
+        "text": "a git repo?",
+        "user": "UMQA682PJ",
+        "ts": "1573677858.006300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573677873.000000"
+        }
+    },
+    {
+        "client_msg_id": "3e947077-ddee-44a8-812e-3e0cab640837",
+        "type": "message",
+        "text": "Yeah. It\u2019s all of the OpenShift deployment info for apps on the Insights Platform.",
+        "user": "U8FS2P1LH",
+        "ts": "1573677875.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cb8b94a5-0810-4437-8038-ec22feaa6aea",
+        "type": "message",
+        "text": "It also dictates how we deploy to OpenShift.",
+        "user": "U8FS2P1LH",
+        "ts": "1573677913.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99611891-ce99-454f-bec2-14c60f402eba",
+        "type": "message",
+        "text": "<https://github.com/RedHatInsights/e2e-deploy>",
+        "user": "U8FS2P1LH",
+        "ts": "1573677932.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fb3ef3cd-1727-4167-adb9-8068d912619f",
+        "type": "message",
+        "text": "I got a 404",
+        "user": "UMQA682PJ",
+        "ts": "1573677943.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2804e0a8-dc8c-46d8-80d1-a7e8fb9244e0",
+        "type": "message",
+        "text": "You may need to be granted access to the repo",
+        "user": "U8FS2P1LH",
+        "ts": "1573677946.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e700bdc6-15c3-480e-a864-8e08e8da2360",
+        "type": "message",
+        "text": "Or organization",
+        "user": "U8FS2P1LH",
+        "ts": "1573677952.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7f1c279a-5c21-4652-9438-50bcc3aff830",
+        "type": "message",
+        "text": "<http://platform-docs.cloud.paas.psi.redhat.com/onboarding/access.html#github-and-openshift>",
+        "user": "U8FS2P1LH",
+        "ts": "1573677977.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "344cff76-5e8e-4f01-9b40-850e036cc6a4",
+        "type": "message",
+        "text": "You should already have been granted access to the cluster, so you can ignore the Google ID part.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678009.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9093373-196f-4db5-9b3b-e7cfdf3a2589",
+        "type": "message",
+        "text": "I can put in the ticket if you\u2019d like.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678025.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "423d28d0-81f7-4dd5-be73-85e03e98cda5",
+        "type": "message",
+        "text": "You will need 2FA on Github if you do not now.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678060.010100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a454f003-3eb3-41ae-b744-ec2ac13506f2",
+        "type": "message",
+        "text": "Yeah, you\u2019ll need to set that up.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678086.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "522d7802-8eac-4422-b45c-c2c3d820cd63",
+        "type": "message",
+        "text": "I can submit the Jira ticket.",
+        "user": "UMQA682PJ",
+        "ts": "1573678190.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22c9bc3c-eb96-4416-916a-7f42ab213274",
+        "type": "message",
+        "text": "what's our service group name? (hccm, vmaas, platform, etc)",
+        "user": "UMQA682PJ",
+        "ts": "1573678300.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ab015371-8e08-4c53-8082-7fab0c7ed3d1",
+        "type": "message",
+        "text": "it's hccm?",
+        "user": "UMQA682PJ",
+        "ts": "1573678307.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dbe648ee-b136-423f-850d-303cef6e3af6",
+        "type": "message",
+        "text": "hccm",
+        "user": "U8FS2P1LH",
+        "ts": "1573678307.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "32ffcc12-48d0-4d8c-8171-eaa956865e05",
+        "type": "message",
+        "text": "is that changing?",
+        "user": "UMQA682PJ",
+        "ts": "1573678316.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6bb142c-f4a6-4cc5-90d4-b88a67ba364a",
+        "type": "message",
+        "text": "Yeah, old name now. We used to be Hybrid Cloud Cost Management.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678320.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b96cddf8-8bb9-4c70-bc68-abab44083e8c",
+        "type": "message",
+        "text": "We are referred to as hccm a few places, but officially definitely changing.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678341.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06f743a2-228d-4f6e-909a-06ab64d48d61",
+        "type": "message",
+        "text": "Right now I just call us cost management.",
+        "user": "U8FS2P1LH",
+        "ts": "1573678348.012500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U8FS2P1LH",
+            "ts": "1573678369.000000"
+        }
+    }
+]

@@ -1,0 +1,149 @@
+[
+    {
+        "client_msg_id": "9f5ed175-fd04-48f7-90ba-d4e40a756d30",
+        "type": "message",
+        "text": "Good morning, do you know if there are any spare power chargers for a mac book pro in the Tower?",
+        "user": "UMQA682PJ",
+        "ts": "1568123551.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f333c26-7e1c-468d-998f-7d3d8a923272",
+        "type": "message",
+        "text": "I don\u2019t think there\u2019s any specific places where there would be one. Can always see if you can borrow from someone in the open neighborhood on 14 to get some charge.",
+        "user": "U8FS2P1LH",
+        "ts": "1568123689.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f684119f-3da9-47ba-bc1d-97dd81ae9be7",
+        "type": "message",
+        "text": "Ping Michael and see if he\u2019s in the tower today. You both have the newer Macs.",
+        "user": "U8FS2P1LH",
+        "ts": "1568123704.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "14b2abe4-1ac6-4df6-a284-aba25d30ce77",
+        "type": "message",
+        "text": "Can always ask at the IT Help desk on 14, but I don\u2019t know if they loan them out.",
+        "user": "U8FS2P1LH",
+        "ts": "1568123746.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7215ba08-d2f0-4c02-8bb7-966c1ce4f0e4",
+        "type": "message",
+        "text": "yep they loaned me one.",
+        "user": "UMQA682PJ",
+        "ts": "1568124556.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b8b3bb81-73ef-4c23-9255-7ee94f70897e",
+        "type": "message",
+        "text": "from the IT Help desk",
+        "user": "UMQA682PJ",
+        "ts": "1568124564.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5806c1d0-85ed-4ad7-a936-817cbfcdc0ab",
+        "type": "message",
+        "text": "Nice!",
+        "user": "U8FS2P1LH",
+        "ts": "1568125512.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a501df34-f081-4a50-8648-3043a509659d",
+        "type": "message",
+        "text": "Hey when can you meet for the architecture overview of Koku?",
+        "user": "UMQA682PJ",
+        "ts": "1568128533.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "030b98fe-adf5-49f6-ac65-c9b4766d255b",
+        "type": "message",
+        "text": "How\u2019s tomorrow at 11am?",
+        "user": "U8FS2P1LH",
+        "ts": "1568128692.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21865547-877a-4d9f-93e5-8f67633ade27",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1568128758.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4728be70-54bc-49c7-8ddb-ad873b9f4595",
+        "type": "message",
+        "text": "Beat me to the calendar invite!",
+        "user": "U8FS2P1LH",
+        "ts": "1568128999.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ddd3e699-c288-4f0c-bc29-1d05cdd234ee",
+        "type": "message",
+        "text": "Re: Django APIs, we\u2019re using Django REST Framework for our APIs, so might be worth looking over some of that while reviewing API stuff.",
+        "user": "U8FS2P1LH",
+        "ts": "1568129048.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d1a049f1-e776-4f0e-83ee-d8e361cddbf4",
+        "type": "message",
+        "text": "what's the URL for the Koku swagger doc?",
+        "user": "UMQA682PJ",
+        "ts": "1568129103.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f73f857c-4b74-4022-926e-19570f376137",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/master/docs/source/specs/openapi.json>",
+        "user": "U8FS2P1LH",
+        "ts": "1568129133.006400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] docs/source/specs/openapi.json",
+                "text": "```\n{\n    \"openapi\": \"3.0.0\",\n    \"info\": {\n        \"description\": \"The API for Cost Management.  You can find out more about     Cost Management at [<https://github.com/project-koku/>](<https://github.com/project-koku/>).\",\n        \"version\": \"1.0.0\",\n        \"title\": \"Cost Management\",\n        \"license\": {\n            \"name\": \"AGPL-3.0\",\n            \"url\": \"<https://opensource.org/licenses/AGPL-3.0>\"\n        }\n    },\n    \"tags\": [\n        {\n            \"name\": \"Provider\",\n            \"description\": \"Operations about provider interaction\"\n        },\n        {\n            \"name\": \"Cost Model\",\n            \"description\": \"Operations about cost model interaction\"\n        },\n        {\n            \"name\": \"AWS Report\",\n            \"description\": \"Operations about AWS report interaction\"\n        },\n        {\n            \"name\": \"OpenShift Report\",\n            \"description\": \"Operations about OpenShift report interaction\"\n        },\n        {\n            \"name\": \"Tags\",\n            \"description\": \"Operations about tags interaction\"\n        },\n        {\n            \"name\": \"User Preference\",\n            \"description\": \"Operations about user preferences\"\n        },\n        {\n            \"name\": \"Status\",\n            \"description\": \"Operations about status\"\n        },\n        {\n            \"name\": \"Data Export Request\",\n            \"description\": \"Operations about data export requests\"\n        }\n    ],\n    \"paths\": {\n        \"/status/\": {\n            \"get\": {\n                \"tags\": [\n                    \"Status\"\n                ],\n                \"summary\": \"Obtain server status\",\n                \"operationId\": \"getStatus\",\n                \"responses\": {\n                    \"200\": {\n                        \"description\": \"An object describing the server status\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/Status\"\n                                }\n                            }\n                        }\n                    },\n                    \"500\": {\n                        \"description\": \"Unexpected Error\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/Error\"\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n        },\n        \"/costmodels/\": {\n            \"get\": {\n                \"tags\": [\n                    \"Cost Model\"\n                ],\n                \"summary\": \"List the cost models\",\n                \"operationId\": \"listCostModels\",\n                \"parameters\": [{\n                        \"$ref\": \"#/components/parameters/QueryOffset\"\n                    },\n                    {\n                        \"$ref\": \"#/components/parameters/QueryLimit\"\n                    },\n                    {\n                        \"name\": \"provider_uuid\",\n                        \"required\": false,\n                        \"in\": \"query\",\n                        \"description\": \"Filter response on provider uuid.\",\n                        \"schema\": {\n                            \"type\": \"string\",\n                            \"format\": \"uuid\"\n                        }\n                    },\n                    {\n                        \"name\": \"source_type\",\n                        \"required\": false,\n                        \"in\": \"query\",\n                        \"description\": \"Filter response on provider source type.\",\n                        \"schema\": {\n                          \"type\": \"string\"\n                        }\n                    },\n                    {\n                        \"name\": \"name\",\n                        \"required\": false,\n                        \"in\": \"query\",\n                        \"description\": \"Filter response on cost model name.\",\n                        \"schema\": {\n                          \"type\": \"string\"\n                        }\n                    }\n                ],\n                \"responses\": {\n                    \"200\": {\n                        \"description\": \"A paginated list of cost model objects\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/CostModelPagination\"\n                                }\n                            }\n                        }\n                    },\n                    \"401\": {\n                        \"description\": \"Unauthorized\"\n                    },\n                    \"500\": {\n                        \"description\": \"Unexpected Error\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/Error\"\n                                }\n                            }\n                        }\n                    }\n                }\n            },\n\n            \"post\": {\n                \"tags\": [\n                    \"Cost Model\"\n                ],\n                \"summary\": \"Create a new cost model.\",\n                \"operationId\": \"createCostModel\",\n                \"requestBody\": {\n                    \"content\": {\n                        \"application/json\": {\n                            \"schema\": {\n                                \"$ref\": \"#/components/schemas/CostModel\"\n                            }\n                        }\n\n                    },\n                    \"required\": true\n                },\n                \"security\": [{\n                    \"basic_auth\": []\n                }],\n                \"responses\": {\n                    \"201\": {\n                        \"description\": \"An object describing the cost model\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/CostModelOut\"\n                                }\n                            }\n                        }\n                    },\n                    \"401\": {\n                        \"description\": \"Unauthorized\"\n                    },\n                    \"500\": {\n                        \"description\": \"Unexpected Error\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/Error\"\n                                }\n                            }\n                        }\n                    }\n                }\n            }\n\n        },\n        \"/costmodels/{cost_model_uuid}/\": {\n            \"get\": {\n                \"tags\": [\n                    \"Cost Model\"\n                ],\n                \"summary\": \"Get a Cost Model.\",\n                \"operationId\": \"getCostModel\",\n                \"parameters\": [{\n                    \"name\": \"cost_model_uuid\",\n                    \"in\": \"path\",\n                    \"description\": \"UUID of Cost Model to get\",\n                    \"required\": true,\n                    \"schema\": {\n                        \"type\": \"string\",\n                        \"format\": \"uuid\"\n                    }\n                }],\n                \"security\": [{\n                    \"basic_auth\": []\n                }],\n                \"responses\": {\n                    \"200\": {\n                        \"description\": \"A Cost Model object\",\n                        \"content\": {\n                            \"application/json\": {\n                                \"schema\": {\n                                    \"$ref\": \"#/components/schemas/CostModelOut\"\n                                }\n                            }\n                        }\n                    },\n                   \u2026",
+                "title": "docs/source/specs/openapi.json",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/docs/source/specs/openapi.json",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/docs/source/specs/openapi.json",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2cc840c1-ba10-41a9-b502-ff8a0bf4a924",
+        "type": "message",
+        "text": "If you pop that in <https://editor.swagger.io/> you should be able to browse through",
+        "user": "U8FS2P1LH",
+        "ts": "1568129147.006800",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

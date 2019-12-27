@@ -1,0 +1,1224 @@
+[
+    {
+        "client_msg_id": "971f4195-d730-4edb-8f4c-8af192d4fb48",
+        "type": "message",
+        "text": "Hi Doug, as I write unit tests, I'm using the reverse function, and I get an error: 'Reverse for 'sources-status' not found. 'sources-status' is not a valid view function or pattern name, meanwhile in the urls.py file I have:\n```\nurlpatterns = [\n    url(r'^status/$', get_status, name='server-status'),\n    url(r'^download/$', download_report, name='report_download'),\n    url(r'^expired_data/$', expired_data, name='expired_data'),\n    url(r'^report_data/$', report_data, name='report_data'),\n    url(r'^update_charge/$', update_charge, name='update_charge'),\n    url(r'^upload_normalized_data/$', upload_normalized_data, name='upload_normalized_data'),\n    url(r'sources_status/$', SourceStatusView.as_view(), name='sources_status')\n]\n\n```\nDo you know what might be the cause of not being able to call reverse?",
+        "user": "UMQA682PJ",
+        "ts": "1572970142.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "75d363ef-0bfb-4df6-b7aa-18b97a1de858",
+        "type": "message",
+        "text": "I tried reverse('sources_status') and reverse('sources-status')",
+        "user": "UMQA682PJ",
+        "ts": "1572970171.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "48b03a93-ef33-4062-a9c0-88b7d306ce44",
+        "type": "message",
+        "text": "I think i see what it might be..",
+        "user": "UMQA682PJ",
+        "ts": "1572970197.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd03a5d4-9093-42da-ae20-37c6111b04ee",
+        "type": "message",
+        "text": "one moment",
+        "user": "UMQA682PJ",
+        "ts": "1572970225.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3cec765b-95ee-41f8-8ee0-b442115311ae",
+        "type": "message",
+        "text": "hey Nick, it looks like it\u2019s probably `sources_status` the way that\u2019s coded",
+        "user": "UAR1CADNV",
+        "ts": "1572970236.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "179f7eca-347e-4f14-81c6-93d25a7a3eb5",
+        "type": "message",
+        "text": "yes, I tried `reverse('sources_status')` as well",
+        "user": "UMQA682PJ",
+        "ts": "1572970312.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b5816ebf-db31-4f81-8582-b1db379b638d",
+        "type": "message",
+        "text": "same error",
+        "user": "UMQA682PJ",
+        "ts": "1572970327.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0f26494-f8ca-4b2b-b5f0-67a240667e63",
+        "type": "message",
+        "text": "does it need that `^`?",
+        "user": "UAR1CADNV",
+        "ts": "1572970336.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a0e07a2f-41f1-4a53-ba9c-83f4847b5e5c",
+        "type": "message",
+        "text": "that's what I was thinking, i put it in but got the same result",
+        "user": "UMQA682PJ",
+        "ts": "1572970357.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7707ec0b-0c50-464b-bf55-4bba8d3a4386",
+        "type": "message",
+        "text": "looks like this now:\n```\nurlpatterns = [\n    url(r'^status/$', get_status, name='server-status'),\n    url(r'^download/$', download_report, name='report_download'),\n    url(r'^expired_data/$', expired_data, name='expired_data'),\n    url(r'^report_data/$', report_data, name='report_data'),\n    url(r'^update_charge/$', update_charge, name='update_charge'),\n    url(r'^upload_normalized_data/$', upload_normalized_data, name='upload_normalized_data'),\n    url(r'^sources_status/$', SourceStatusView.as_view(), name='sources_status')\n]\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572970425.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "712ba527-0f1f-4daa-88ae-8d01e1abe897",
+        "type": "message",
+        "text": "think `SourceStatusView.as_view()` is correct?",
+        "user": "UAR1CADNV",
+        "ts": "1572970446.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ac86294-c577-4483-b97b-8745186fc2ff",
+        "type": "message",
+        "text": "it seems to work outside of unit tests yes",
+        "user": "UMQA682PJ",
+        "ts": "1572970469.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "abc53e71-c2f5-416f-8797-b51f5ca826d9",
+        "type": "message",
+        "text": "i know this is setup a little different from the other end points",
+        "user": "UAR1CADNV",
+        "ts": "1572970472.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "433431b8-44d1-4799-bb97-ba805c9a1330",
+        "type": "message",
+        "text": "I see the view in my browser",
+        "user": "UMQA682PJ",
+        "ts": "1572970485.005700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9cde9edf-d4b2-4fd2-bfa5-42fa1cd5a71f",
+        "type": "message",
+        "text": "ya should be ok.  I see in koku.api.urls it\u2019s like that",
+        "user": "UAR1CADNV",
+        "ts": "1572970504.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4da0fff-6a9c-45a4-a363-27e26fcf768e",
+        "type": "message",
+        "text": "here's my changes so far, in a Draft PR: <https://github.com/project-koku/koku/pull/1356/files>",
+        "user": "UMQA682PJ",
+        "ts": "1572970590.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72896115-8e1a-48c2-94bb-593fa2bdb4f5",
+        "type": "message",
+        "text": "awesome, I\u2019ll try it out",
+        "user": "UAR1CADNV",
+        "ts": "1572970600.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72aad16b-ff9e-412b-821a-e39845282781",
+        "type": "message",
+        "text": "and see what I can find",
+        "user": "UAR1CADNV",
+        "ts": "1572970604.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cb0d88f4-ab2f-4cb6-9162-114acb783d9c",
+        "type": "message",
+        "text": "API\u2019s working great :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1572971952.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "36f0ad52-f536-4b8a-9ca2-13991aae13fb",
+        "type": "message",
+        "text": "added an AWS source, returned true, edited the bucket to be wrong, and it returns false :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572971966.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd0db862-375b-45e6-901a-56c38a5a7e4f",
+        "type": "message",
+        "text": "how do I call the reverse function on it though?",
+        "user": "UMQA682PJ",
+        "ts": "1572972556.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aac8eb29-4441-4b6a-bec6-ffaecd60d299",
+        "type": "message",
+        "text": "yea looking into that next",
+        "user": "UAR1CADNV",
+        "ts": "1572972658.008000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4428f1f2-c375-4d55-9c73-4b1650d09826",
+        "type": "message",
+        "text": "any luck on reverse?",
+        "user": "UAR1CADNV",
+        "ts": "1572978791.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef0e202b-471a-486d-9688-4ae9abe40f09",
+        "type": "message",
+        "text": "sorry for the delay but I\u2019m on it now if you haven\u2019t figured it out",
+        "user": "UAR1CADNV",
+        "ts": "1572978800.008600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be7e02ac-eee1-4b19-a7a4-ba15a9032c97",
+        "type": "message",
+        "text": "no worries",
+        "user": "UMQA682PJ",
+        "ts": "1572978819.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5198cde2-4b6c-482f-a05f-d853157694cc",
+        "type": "message",
+        "text": "still not working?",
+        "user": "UAR1CADNV",
+        "ts": "1572978826.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "344348b2-6f09-414a-9fbb-26290691de4c",
+        "type": "message",
+        "text": "correct",
+        "user": "UMQA682PJ",
+        "ts": "1572978836.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae4b295a-8831-4a23-96d3-e9ab55dbdc54",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572978841.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0234d5cf-50b3-4f41-9a27-98c78cb74873",
+        "type": "message",
+        "text": "I\u2019m still sort of on the fence as to whether or not this should be on the sources client or the masu server.  Any thoughts on that?",
+        "user": "UAR1CADNV",
+        "ts": "1572979286.010100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f6908f0c-f140-46f4-a515-a4b40acce8a5",
+        "type": "message",
+        "text": "I don't know if it matters.",
+        "user": "UMQA682PJ",
+        "ts": "1572979326.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "61e58b49-e711-4114-9724-2bb91c7f6046",
+        "type": "message",
+        "text": "however i'd like to make sure wherever it goes, we don't need to change it back and forth.",
+        "user": "UMQA682PJ",
+        "ts": "1572979358.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4f522b86-38f6-4ca1-9674-908ce4863ed1",
+        "type": "message",
+        "text": "yeah definitely",
+        "user": "UAR1CADNV",
+        "ts": "1572979370.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d952950-1482-4570-849a-e69538b1afd7",
+        "type": "message",
+        "text": "we shouldn\u2019t have to, but to that point I\u2019m sort of leaning towards the sources client since I think there could be a case to be made that the masu-server isn\u2019t strictly needed for production",
+        "user": "UAR1CADNV",
+        "ts": "1572979416.013000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "68b27093-639a-4ac9-a6c3-f7ced0ebb09c",
+        "type": "message",
+        "text": "it hosts some admin endpoints we have for development purposes basically",
+        "user": "UAR1CADNV",
+        "ts": "1572979429.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3c884ebc-3759-4fc2-9b66-aaa52b1452c8",
+        "type": "message",
+        "text": "it also sort of feels more natural to be on the sources client since it\u2019s used for well.. sources :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572979453.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fd256c4c-ca58-4f91-8996-95a13f6b6d51",
+        "type": "message",
+        "text": "what is the sources client?",
+        "user": "UMQA682PJ",
+        "ts": "1572979460.014200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5cc142c1-b718-4350-93dd-2aff8e6c7a6c",
+        "type": "message",
+        "text": "the integration service between cost mgmt and platform sources",
+        "user": "UAR1CADNV",
+        "ts": "1572979473.014500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15b8b1be-e386-431a-9bee-914848b40d10",
+        "type": "message",
+        "text": "that thing I showed you when we were both in the office a few weeks ago",
+        "user": "UAR1CADNV",
+        "ts": "1572979481.014800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "10c75dbf-c2aa-4c8b-a1fe-2a31bfe6fec4",
+        "type": "message",
+        "text": "so it\u2019s easier to develop on the masu-server since it is neater with docker-compose at the momemnt",
+        "user": "UAR1CADNV",
+        "ts": "1572979510.015300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e8b1c004-98d1-48c7-ae67-82b7ecc4c4f0",
+        "type": "message",
+        "text": "thats why I said to start there basically",
+        "user": "UAR1CADNV",
+        "ts": "1572979518.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58d1c58e-816c-46d9-bce4-1260882618ab",
+        "type": "message",
+        "text": "but that being said it shouldn\u2019t really be much different on the sources-client container since you have been populating the database directly..",
+        "user": "UAR1CADNV",
+        "ts": "1572979547.016000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "616bca8d-01d2-400b-a110-98eac02496f9",
+        "type": "message",
+        "text": "is it a server?",
+        "user": "UMQA682PJ",
+        "ts": "1572979605.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5614d5ae-2deb-4010-bf97-a6960387ff42",
+        "type": "message",
+        "text": "yeah",
+        "user": "UAR1CADNV",
+        "ts": "1572979611.017000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4da755b3-e01e-496c-9205-dba66bf3688b",
+        "type": "message",
+        "text": "what port is it running on?",
+        "user": "UMQA682PJ",
+        "ts": "1572979616.017400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cb9a0832-5b06-4f02-b608-0585a82e0052",
+        "type": "message",
+        "text": "HTTP server and kafka listener",
+        "user": "UAR1CADNV",
+        "ts": "1572979621.017500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5aa01072-4012-47df-ab6d-d3c3f6db1e28",
+        "type": "message",
+        "text": "with compose I think it\u2019s 4000",
+        "user": "UAR1CADNV",
+        "ts": "1572979632.017800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17136d2b-2c8f-40c4-8a93-84e86e211f4c",
+        "type": "message",
+        "text": "one second",
+        "user": "UAR1CADNV",
+        "ts": "1572979634.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e2670409-bff1-486c-a6f8-8f243b34acef",
+        "type": "message",
+        "text": "yeah 4000",
+        "user": "UAR1CADNV",
+        "ts": "1572979645.018300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b5239f1b-2fe2-401d-a743-5fe370f231a0",
+        "type": "message",
+        "text": "the problem with compose is getting the platform sources backend running in a container, I\u2019ve tried but have not had a chance to successfully get it working",
+        "user": "UAR1CADNV",
+        "ts": "1572979666.019200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "595d5fa7-76fe-4e56-b040-b0710faac45e",
+        "type": "message",
+        "text": "is that a publicly exposed port?",
+        "user": "UMQA682PJ",
+        "ts": "1572979668.019300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "364735a5-dd99-4496-b98c-db2cbd7fb04c",
+        "type": "message",
+        "text": "nope, just within the OpenShift cluster, same as masu-server",
+        "user": "UAR1CADNV",
+        "ts": "1572979681.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2bd22685-460c-44b9-b4e6-a8ce25789ed2",
+        "type": "message",
+        "text": "if you want I can try moving it there on your branch and that might help the reverse problem if I set it up the way the other endpoints are working",
+        "user": "UAR1CADNV",
+        "ts": "1572979708.020200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f8633bb-a9eb-46e0-8d08-772d95eafc09",
+        "type": "message",
+        "text": "I\u2019ve moved APis like this a lot while working on the sources-client",
+        "user": "UAR1CADNV",
+        "ts": "1572979738.020800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "93d87743-81e1-493b-ab46-04cbafb472fc",
+        "type": "message",
+        "text": "sure, if you'd like",
+        "user": "UMQA682PJ",
+        "ts": "1572979757.021100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "32a31d7b-09a1-4f2f-ab71-d2099cbe97a8",
+        "type": "message",
+        "text": "ok let me see what I can come up with",
+        "user": "UAR1CADNV",
+        "ts": "1572979766.021500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ac40dbb8-14c7-45b8-b98b-07fb4ef43675",
+        "type": "message",
+        "text": "and will let you know before pushign anyhing",
+        "user": "UAR1CADNV",
+        "ts": "1572979772.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "936e2f92-09f6-4859-a452-6bf483acfcf0",
+        "type": "message",
+        "text": "so this would move back to the koku app?",
+        "user": "UMQA682PJ",
+        "ts": "1572979851.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f3a07473-25ec-4f05-b2e8-478cbe89d686",
+        "type": "message",
+        "text": "instead of the masu app?",
+        "user": "UMQA682PJ",
+        "ts": "1572979855.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0392c9cc-189d-4777-8860-6d4531c682c1",
+        "type": "message",
+        "text": "in the sources folder?",
+        "user": "UMQA682PJ",
+        "ts": "1572979860.022800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f7596ef-cec6-44a8-b89f-fe445e72de30",
+        "type": "message",
+        "text": "yeah it would go in sources/api",
+        "user": "UAR1CADNV",
+        "ts": "1572979867.023000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4212c76-0c18-4729-a2d4-162b961cf573",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/tree/master/koku/sources/api>",
+        "user": "UAR1CADNV",
+        "ts": "1572979883.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76cf4ab3-cf27-475c-b3db-4e373dd9e44c",
+        "type": "message",
+        "text": "i'll be debugging what's going on in sources as-is to find out for informational purposes",
+        "user": "UMQA682PJ",
+        "ts": "1572980022.023600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1e6696ed-1743-4f16-8e90-8b957c7f039e",
+        "type": "message",
+        "text": "debugging the reverse method*",
+        "user": "UMQA682PJ",
+        "ts": "1572980032.024000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e8e0c0ee-39fc-4a32-b6b0-fa64307e06f5",
+        "type": "message",
+        "text": "cool sounds good :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1572980039.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41d26345-4c7d-4197-a55d-51fa65543ecc",
+        "type": "message",
+        "text": "so I have it working on the sources-client but the reverse problem remains :thinking_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572983331.024600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d07cdea6-63dc-4c16-bbbe-037e46f01bc6",
+        "type": "message",
+        "text": "haven't found out what it is yet",
+        "user": "UMQA682PJ",
+        "ts": "1572983752.025000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9a089df-0532-427d-b1ec-27c6cad67201",
+        "type": "message",
+        "text": "```\n(Pdb) resolver.url_patterns\n[&lt;URLResolver &lt;module 'api.urls' from '/Users/nbonilla/Documents/Koku/koku/koku/api/urls.py'&gt; (None:None) '^api/v1/'&gt;, &lt;URLResolver &lt;module 'cost_models.urls' from '/Users/nbonilla/Documents/Koku/koku/koku/cost_models/urls.py'&gt; (None:None) '^api/v1/'&gt;, &lt;URLResolver &lt;module 'django_prometheus.urls' from '/Users/nbonilla/Documents/Koku/koku/.tox/py37/lib/python3.7/site-packages/django_prometheus/urls.py'&gt; (None:None) ''&gt;]\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572983758.025200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20919c1a-f7eb-4b18-adfb-0a68234bfa9c",
+        "type": "message",
+        "text": "```\ndef reverse(viewname, urlconf=None, args=None, kwargs=None, current_app=None):\n 28  \t    if urlconf is None:\n 29  \t        urlconf = get_urlconf()\n 30  \t    resolver = get_resolver(urlconf)\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572983785.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39cf74db-4d0c-4227-8ca0-2931f5974980",
+        "type": "message",
+        "text": "odd that I don't see masu urls in there",
+        "user": "UMQA682PJ",
+        "ts": "1572983948.025700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce5d7de3-513f-4970-9821-7a8d22297616",
+        "type": "message",
+        "text": "so this line isn't getting populated as it should\n`possibilities = self.reverse_dict.getlist(lookup_view)`\nFile: /Users/nbonilla/Documents/Koku/koku/.tox/py37/lib/python3.7/site-packages/django/urls/resolvers.py(612)_reverse_with_prefix()",
+        "user": "UMQA682PJ",
+        "ts": "1572984271.026400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8848cd2d-1b63-44b2-b38f-ec8a54266ace",
+        "type": "message",
+        "text": "whereas in an already working reverse, for example if I try with `cloud_account-list` view, this is populated:\n`[([('api/v1/cloud-accounts.%(format)s', ['format'])], 'api/v1/cloud-accounts\\\\.(?P&lt;format&gt;[a-z0-9]+)/?$', {}, {}), ([('api/v1/cloud-accounts/', [])], 'api/v1/cloud-accounts/$', {}, {})]`",
+        "user": "UMQA682PJ",
+        "ts": "1572984317.027100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2734331e-61b3-4c70-b4ef-885756cb77c7",
+        "type": "message",
+        "text": "but with source_status it's empty `[]`",
+        "user": "UMQA682PJ",
+        "ts": "1572984332.027400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c352539d-abac-4a5f-a59e-150ef506b433",
+        "type": "message",
+        "text": "i'm just speaking out loud here for my own sake",
+        "user": "UMQA682PJ",
+        "ts": "1572984342.027700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "742efc7a-a0db-4d50-8e83-3fad7e4f0e33",
+        "type": "message",
+        "text": "yup understand",
+        "user": "UAR1CADNV",
+        "ts": "1572984348.027900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8a6cffc3-278a-4b60-b3e5-e29ee22cd4a7",
+        "type": "message",
+        "text": "very frustrating though!",
+        "user": "UAR1CADNV",
+        "ts": "1572984458.028400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d76f41f9-4467-4a41-ad8c-81e2c9707333",
+        "type": "message",
+        "text": "is it possible to step into a function that you type into the pdb command line?",
+        "user": "UMQA682PJ",
+        "ts": "1572984482.029000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19d44209-ea95-4fd4-9ffa-ebb9416e814a",
+        "type": "message",
+        "text": "for example a function was already called previously",
+        "user": "UMQA682PJ",
+        "ts": "1572984500.029500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2802eab7-94d4-4345-82a8-0a79bc397604",
+        "type": "message",
+        "text": "yeah you can step into functions",
+        "user": "UAR1CADNV",
+        "ts": "1572984500.029600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f34f8ac-b4cc-4ba8-a5a9-6946714ec848",
+        "type": "message",
+        "text": "but I already typed 'n' to skip over the function",
+        "user": "UMQA682PJ",
+        "ts": "1572984513.030000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0136410-9f3d-4315-8cd9-6150bfe6272f",
+        "type": "message",
+        "text": "oh then, you can\u2019t",
+        "user": "UAR1CADNV",
+        "ts": "1572984518.030300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67caaad7-aabe-4417-a451-5df15fab1c15",
+        "type": "message",
+        "text": "so i want to kind of go back",
+        "user": "UMQA682PJ",
+        "ts": "1572984520.030400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "820cfaa8-d1c0-4a2b-9fd5-57a829988de2",
+        "type": "message",
+        "text": "cant go backwards as far as I know",
+        "user": "UAR1CADNV",
+        "ts": "1572984526.030700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bab8a5a0-6ea9-4b5d-a328-aad6d7a6095a",
+        "type": "message",
+        "text": "I can type the function in the command line to see the result again, but i wasn't sure if I can step through it as well.",
+        "user": "UMQA682PJ",
+        "ts": "1572984549.031200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e7f4feb-b061-4d6b-bdbf-f99bded3c5d1",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1572984555.031400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5bf9101f-7a6e-4964-9f35-508d1b43c1ae",
+        "type": "message",
+        "text": "maybe i can jump back",
+        "user": "UMQA682PJ",
+        "ts": "1572984597.031600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f8f1093-6ce3-4eae-95ec-2f210ea51194",
+        "type": "message",
+        "text": "jump 610",
+        "user": "UMQA682PJ",
+        "ts": "1572984612.031800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f7cdca8-4c9d-4161-90eb-fb95ce49aa55",
+        "type": "message",
+        "text": "wrong chat",
+        "user": "UMQA682PJ",
+        "ts": "1572984616.032000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd591577-a129-4c2a-b0ef-145ac1430858",
+        "type": "message",
+        "text": "yeahh got it",
+        "user": "UMQA682PJ",
+        "ts": "1572984627.032200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d4d9bb9-5121-47c8-a20a-701f792bdeaa",
+        "type": "message",
+        "text": "that sounds scary, use at your own risk :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572984651.032400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "506026a1-51b6-499d-be38-78bf28b946c4",
+        "type": "message",
+        "text": "yea definitely, but I believe the function had no side effects",
+        "user": "UMQA682PJ",
+        "ts": "1572984672.032800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a7010894-9195-4802-9a8c-614c1ab509a2",
+        "type": "message",
+        "text": "so I believe I can call it again",
+        "user": "UMQA682PJ",
+        "ts": "1572984687.033200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f118474-c9dd-4ba9-a9ef-51ca23136ccc",
+        "type": "message",
+        "text": "and it was only jumping back one line",
+        "user": "UMQA682PJ",
+        "ts": "1572984731.033600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9cb4f53-6db5-48c5-8993-bb46315521a9",
+        "type": "message",
+        "text": "it doesn't seem to be looking in the masu urls at all",
+        "user": "UMQA682PJ",
+        "ts": "1572985186.035100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d0396529-797b-4398-a159-1fb1da7dcc4f",
+        "type": "message",
+        "text": "ahhh I think I have it",
+        "user": "UAR1CADNV",
+        "ts": "1572985400.035400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19b7269f-dcb7-4158-9f1d-aab2ce19b6e9",
+        "type": "message",
+        "text": "I'm missing this: `@override_settings(ROOT_URLCONF='masu.urls')` ?",
+        "user": "UMQA682PJ",
+        "ts": "1572985434.035600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f4be0ca-261b-4830-ac8a-9bc0dcb4a1e1",
+        "type": "message",
+        "text": "yea",
+        "user": "UAR1CADNV",
+        "ts": "1572985441.035800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f64951f-2674-4df7-9ed5-c0ec83eb6e93",
+        "type": "message",
+        "text": "I just added SOURCES=True to my unit test and it found it",
+        "user": "UAR1CADNV",
+        "ts": "1572985457.036200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e89ec0ae-5d16-433f-8e85-d1bbb0c36e58",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/koku/settings.py#L153>",
+        "user": "UAR1CADNV",
+        "ts": "1572985489.036400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/koku/settings.py:153",
+                "text": "```\nelif SOURCES:\n```",
+                "title": "koku/koku/settings.py:153",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/koku/settings.py#L153",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/koku/settings.py#L153",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c49daf05-8dbf-40e6-b326-da471112c7da",
+        "type": "message",
+        "text": "so that\u2019s basically what you found as well for hwen it\u2019s on masu",
+        "user": "UAR1CADNV",
+        "ts": "1572985501.036800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae368cae-0433-492e-82ee-b63a476a650f",
+        "type": "message",
+        "text": "there are proxy endpoints defined on the koku-api that match what sources has, thats why those were showing up :facepalm:",
+        "user": "UAR1CADNV",
+        "ts": "1572985530.037400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8a4b443e-f1d2-4aa3-be9a-43ffccbc933a",
+        "type": "message",
+        "text": "awesome! thanks for the help",
+        "user": "UMQA682PJ",
+        "ts": "1572985571.037700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42b1dd23-ac41-453b-a2d6-505731f20bcf",
+        "type": "message",
+        "text": "how was the view working in the browser then?",
+        "user": "UMQA682PJ",
+        "ts": "1572985652.038500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89d4cd19-705a-4e86-9fa0-12c0f9c0fdd1",
+        "type": "message",
+        "text": "and only the unit tests seemed to need the override",
+        "user": "UMQA682PJ",
+        "ts": "1572985682.039100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d4f675e1-fbb2-4b32-bd70-f176c9783297",
+        "type": "message",
+        "text": "good question, yeah thats what it seems",
+        "user": "UAR1CADNV",
+        "ts": "1572985691.039300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef936464-c54b-4023-8cb6-cacf3e2c5a51",
+        "type": "message",
+        "text": "oh I know",
+        "user": "UAR1CADNV",
+        "ts": "1572985729.039500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ccda0c4-e59f-4ad2-a7e0-04ac5d0c9df8",
+        "type": "message",
+        "text": "so when you actually run it that environment variable is set",
+        "user": "UAR1CADNV",
+        "ts": "1572985736.039900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "719708ad-4ced-4d0a-9522-089405786dd4",
+        "type": "message",
+        "text": "and the koku settings picks the right url conf",
+        "user": "UAR1CADNV",
+        "ts": "1572985744.040200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aeba77b7-003e-4a35-be97-06ec8ef2f6ea",
+        "type": "message",
+        "text": "but in unittest land those variables are not set",
+        "user": "UAR1CADNV",
+        "ts": "1572985754.040500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "33c48896-a8d5-4481-9ac7-4b8eebded533",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1572985774.040700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2dfbedcc-8e75-4a7f-9479-f18477bdde95",
+        "type": "message",
+        "text": "want to continue working with it on masu as you have it then we can move it at the very end?",
+        "user": "UAR1CADNV",
+        "ts": "1572985800.041200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "60d36893-efdd-4455-8740-b9c5756ad239",
+        "type": "message",
+        "text": "or should I push my change with the move.  Don\u2019t know if that\u2019s too disruptive or not",
+        "user": "UAR1CADNV",
+        "ts": "1572985814.041700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b10d469-bc3a-46df-8d58-0eedf1379f4e",
+        "type": "message",
+        "text": "i'll continue with masu and then move it later",
+        "user": "UMQA682PJ",
+        "ts": "1572985823.042000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2eb85d4-80f2-4bcf-8a0c-b3542ddf7180",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572985826.042300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7751ff59-59e1-4b89-a128-173419840f44",
+        "type": "message",
+        "text": "i'd still like to see your changes in a different branch though",
+        "user": "UMQA682PJ",
+        "ts": "1572985850.043000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff79d6df-7629-47a9-890d-0f9f2c61a387",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/compare/feature/%231309...dccurtis:feature/%231309>",
+        "user": "UAR1CADNV",
+        "ts": "1572985995.043300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1904654e-a050-401b-82af-423f31aee91f",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1572986004.043500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e359f45-ad4d-440e-bd9a-fcd329cc55c4",
+        "type": "message",
+        "text": "what is this: @renderer_classes(tuple(api_settings.DEFAULT_RENDERER_CLASSES))",
+        "user": "UMQA682PJ",
+        "ts": "1572986095.044000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8d6252f2-2ca2-4873-9f34-bdc1fe1bb248",
+        "type": "message",
+        "text": "oh most of that I just was using what was being done on the other endpoints.  It\u2019s just making it a function based instead of class based.  Wasn\u2019t sure if that had anything to do with the reverse problem",
+        "user": "UAR1CADNV",
+        "ts": "1572986200.044800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b48c6448-1dca-42cd-ae26-6bc94021d733",
+        "type": "message",
+        "text": "so that switch from the class based view really isn\u2019t necessary",
+        "user": "UAR1CADNV",
+        "ts": "1572986216.045300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "887492ca-4952-4b28-b990-2b5eec6a0d1d",
+        "type": "message",
+        "text": "the `never_cache` is important though",
+        "user": "UAR1CADNV",
+        "ts": "1572986235.045500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd0b8758-7016-49bc-a667-5e7d9fb99a7d",
+        "type": "message",
+        "text": "<https://www.django-rest-framework.org/api-guide/renderers/>",
+        "user": "UAR1CADNV",
+        "ts": "1572986320.045800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Renderers - Django REST framework",
+                "title_link": "https://www.django-rest-framework.org/api-guide/renderers/",
+                "text": "Django, API, REST, Renderers",
+                "fallback": "Renderers - Django REST framework",
+                "from_url": "https://www.django-rest-framework.org/api-guide/renderers/",
+                "service_name": "django-rest-framework.org",
+                "id": 1,
+                "original_url": "https://www.django-rest-framework.org/api-guide/renderers/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e40b9083-ca29-467d-81a6-629552ddca47",
+        "type": "message",
+        "text": "here\u2019s some info on those though",
+        "user": "UAR1CADNV",
+        "ts": "1572986325.046100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99266fa0-df56-4270-ba63-bd9d0bf35267",
+        "type": "message",
+        "text": "I think the class view might already have that taken care of",
+        "user": "UAR1CADNV",
+        "ts": "1572986339.046400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b1edb25-db39-485f-826e-f0d3fbb375c6",
+        "type": "message",
+        "text": "do you know what the new path for running the tests are? I tried: `python manage.py test sources.api.test.api.test_source_status`\n but got the error: ModuleNotFoundError: No module named 'sources.api.test'",
+        "user": "UMQA682PJ",
+        "ts": "1572986741.046900",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1572986760.000000"
+        }
+    },
+    {
+        "client_msg_id": "74e021fb-f827-4ed0-95be-82654161b97d",
+        "type": "message",
+        "text": "i was able to run `python koku/manage.py test sources.test.api.test_source_status`",
+        "user": "UAR1CADNV",
+        "ts": "1572986775.047300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76144912-d500-4368-8a75-e297cb57d823",
+        "type": "message",
+        "text": "can you move up a directory?",
+        "user": "UAR1CADNV",
+        "ts": "1572986787.047700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64f7e131-6c5b-4478-bcea-7ea0fc6f4846",
+        "type": "message",
+        "text": "yep that worked",
+        "user": "UMQA682PJ",
+        "ts": "1572986881.047900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "98d34555-1bc2-49dd-8288-66d760b43314",
+        "type": "message",
+        "text": "what test data can I use for when the source is properly set up? without having to make an AWS call?",
+        "user": "UMQA682PJ",
+        "ts": "1572988241.049300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "86eed8cf-84f9-4348-ae89-f11af93ef216",
+        "type": "message",
+        "text": "I remember you saying we could mock the response of the function itself to return True",
+        "user": "UMQA682PJ",
+        "ts": "1572988275.049700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2960adf1-ca22-4da9-ba0f-8414da051ef2",
+        "type": "message",
+        "text": "I'm attempting to write a unit test for when the API should return True.",
+        "user": "UMQA682PJ",
+        "ts": "1572988324.050700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c371fd91-0be8-4871-b9cd-da2fd41ea5a8",
+        "type": "message",
+        "text": "so for this it seems like you could just mock `cost_usage_source_ready` right?",
+        "user": "UAR1CADNV",
+        "ts": "1572988536.051100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c28fdd49-f036-44e9-8e7e-4dc9e0f632fa",
+        "type": "message",
+        "text": "you don\u2019t have to worry about mocking the provider-specific implementations",
+        "user": "UAR1CADNV",
+        "ts": "1572988561.051600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1df1d800-cf6f-484c-9c8f-3013182dbf56",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572988573.051800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c9279a8-793e-4fd8-bb8e-33e2611f464d",
+        "type": "message",
+        "text": "I noticed another unit test mocking that method to return True",
+        "user": "UMQA682PJ",
+        "ts": "1572988631.052200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "29528785-a34c-4633-84ca-0b050d4501fa",
+        "type": "message",
+        "text": "yup that should be fine",
+        "user": "UAR1CADNV",
+        "ts": "1572988642.052700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7cb0d47e-da64-43b2-9b13-f9297db4d610",
+        "type": "message",
+        "text": "but i wasn't sure if i should do that, since the method never returns True, it only ever raises an exception or not",
+        "user": "UMQA682PJ",
+        "ts": "1572988649.052900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d5fadc8-5ca3-4aca-8f6b-8fd8b40eab39",
+        "type": "message",
+        "text": "yeah I was looking at that, and added a few other return True\u2019s I think in my last PR",
+        "user": "UAR1CADNV",
+        "ts": "1572988675.053400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "189698da-f8d6-4394-b919-6c73ae63bb03",
+        "type": "message",
+        "text": "the provider implementations are returning True (probably not necessary though)",
+        "user": "UAR1CADNV",
+        "ts": "1572988692.053900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d57e32ca-a73d-4f98-8ef9-239ee0aad521",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/providers/aws/provider.py#L160>",
+        "user": "UAR1CADNV",
+        "ts": "1572988722.054100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/providers/aws/provider.py:160",
+                "text": "```\n        return True\n```",
+                "title": "koku/providers/aws/provider.py:160",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/providers/aws/provider.py#L160",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/c6869e5d9449d9299de16db2f067905760850267/koku/providers/aws/provider.py#L160",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a715c13f-59bf-4448-81d8-9aafd05275ab",
+        "type": "message",
+        "text": "but for mocking purposes, it definitely works",
+        "user": "UAR1CADNV",
+        "ts": "1572988745.054500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e8e77c6f-3cdb-4604-89c4-5d81d7a24024",
+        "type": "message",
+        "text": "wait so, i no longer need to use a Try/Catch in my PR?",
+        "user": "UMQA682PJ",
+        "ts": "1572988795.054900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0a509a1c-0ead-4e04-a516-203ae65318f1",
+        "type": "message",
+        "text": "oh no you still do",
+        "user": "UAR1CADNV",
+        "ts": "1572988806.055100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "edab7325-bf43-4a9c-b680-b53c3d7a75d0",
+        "type": "message",
+        "text": "if you want to mock the failure case you have to mock the `serializers.ValidationError(error_obj(key, message))` call",
+        "user": "UAR1CADNV",
+        "ts": "1572988831.055500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9e4702d-5cf7-4863-a78c-2b96426780fb",
+        "type": "message",
+        "text": "```\n   try:\n        source_ready = interface.cost_usage_source_ready(source_authentication, source_billing_source)\n        source_ready = True\n    except ValidationError:\n        source_ready = False\n```\nso your logic will do `source_ready = False`",
+        "user": "UAR1CADNV",
+        "ts": "1572988882.056000",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,679 @@
+[
+    {
+        "client_msg_id": "39D22FB3-333C-4C24-9043-44BAD3E1890D",
+        "type": "message",
+        "text": "Hey Doug, how do I set the provider resource name? \n\n```\n\n{\n    \"errors\": [\n        {\n            \"detail\": \"Provider resource name is a required parameter for AWS and must not be blank.\",\n            \"source\": \"authentication.provider_resource_name\",\n            \"status\": 400\n        }\n    ]\n}\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572878068.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77802920-DDDD-41EB-872E-CFB1FA633AF6",
+        "type": "message",
+        "text": "This error occurred after this code: \n```\n\nprovider = AWSProvider()\n        \nprovider.cost_usage_source_is_reachable(None, 'cost-usage-bucket')\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572878093.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "31ee9e01-fb0f-4639-b710-ad23b2372d48",
+        "type": "message",
+        "text": "hey Nick",
+        "user": "UAR1CADNV",
+        "ts": "1572878102.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "<https://ansible.slack.com/files/UAR1CADNV/FQ18VNS2C/image.png>",
+        "files": [
+            {
+                "id": "FQ18VNS2C",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "user": "UAR1CADNV",
+        "display_as_bot": false,
+        "x_files": [
+            "FQ18VNS2C"
+        ],
+        "ts": "1572878103.001500",
+        "client_msg_id": "729502a1-5c8c-45b0-9c0f-699b220e0650"
+    },
+    {
+        "client_msg_id": "3523024c-540b-4ea9-b755-3ea051ebca02",
+        "type": "message",
+        "text": "should be the `Name` field here right?",
+        "user": "UAR1CADNV",
+        "ts": "1572878111.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ecdef224-2765-4a48-be4d-adb26de05136",
+        "type": "message",
+        "text": "ohh no thats the role arn I think",
+        "user": "UAR1CADNV",
+        "ts": "1572878120.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b08eae0-1d11-4555-a235-f17e8eaf2aff",
+        "type": "message",
+        "text": "your setting it with the provider API?",
+        "user": "UAR1CADNV",
+        "ts": "1572878324.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3A3ADB63-C886-415A-84A1-89AFBFECABA4",
+        "type": "message",
+        "text": "Yes, i need to get the provider now from the database.",
+        "user": "UMQA682PJ",
+        "ts": "1572878782.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b8c0a8a5-05ba-4ee5-a358-01fc1fa7e43e",
+        "type": "message",
+        "text": "Did you try what I showed in that picture?",
+        "user": "UAR1CADNV",
+        "ts": "1572878804.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3F37AFE4-F766-4420-897C-170C8374094A",
+        "type": "message",
+        "text": "Yes",
+        "user": "UMQA682PJ",
+        "ts": "1572878811.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2b6fc3e5-78fb-4d19-b526-84c90ace764a",
+        "type": "message",
+        "text": "and it doesn\u2019t work?",
+        "user": "UAR1CADNV",
+        "ts": "1572878820.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "CA0AA0DF-1B40-462E-9C2A-5F0B96FE72D4",
+        "type": "message",
+        "text": "Haven\u2019t gotten it from the database yet",
+        "user": "UMQA682PJ",
+        "ts": "1572878826.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "403bf660-8f10-4d37-be64-bad949a858a0",
+        "type": "message",
+        "text": "but the provider was added successfully?",
+        "user": "UAR1CADNV",
+        "ts": "1572878846.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C45F1DD7-2C44-4899-B01A-64EAE4226CF5",
+        "type": "message",
+        "text": "Yes",
+        "user": "UMQA682PJ",
+        "ts": "1572878867.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd166e3a-3256-47f6-b6cc-2dd17a791009",
+        "type": "message",
+        "text": "ok so your trying to query it from the database then",
+        "user": "UAR1CADNV",
+        "ts": "1572878876.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C27F185C-F29F-4838-82CB-2B1401E72F30",
+        "type": "message",
+        "text": "Yup",
+        "user": "UMQA682PJ",
+        "ts": "1572878880.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a9a407c-878d-459b-8ed9-b00552da5121",
+        "type": "message",
+        "text": "in your python code",
+        "user": "UAR1CADNV",
+        "ts": "1572878882.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a420c982-5b0b-497c-982e-63c288201671",
+        "type": "message",
+        "text": "ok",
+        "user": "UAR1CADNV",
+        "ts": "1572878883.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "52175ccf-17a8-4ceb-9a16-1e5c638c98c8",
+        "type": "message",
+        "text": "`provider.cost_usage_source_is_reachable(None, 'cost-usage-bucket')` so do you know why that `None` is there?",
+        "user": "UAR1CADNV",
+        "ts": "1572878939.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4B3F19EC-912C-424D-BCF1-EBD7FBB1181A",
+        "type": "message",
+        "text": "Not really.",
+        "user": "UMQA682PJ",
+        "ts": "1572878972.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5BEDCF0B-3430-405F-82E0-3CCE70493170",
+        "type": "message",
+        "text": "My guess is that authentication is handled elsewhere",
+        "user": "UMQA682PJ",
+        "ts": "1572878979.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "85D18145-5294-41D4-8902-5485D823AAD1",
+        "type": "message",
+        "text": "It was an experiment to see what would happen.",
+        "user": "UMQA682PJ",
+        "ts": "1572879053.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "730201ab-ca2c-44ff-b822-b5f1548d15a5",
+        "type": "message",
+        "text": "ok so you added the None?",
+        "user": "UAR1CADNV",
+        "ts": "1572879064.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3E87F306-1C88-450E-8182-6387A007E724",
+        "type": "message",
+        "text": "Yes",
+        "user": "UMQA682PJ",
+        "ts": "1572879067.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "659d2d1b-d9d8-4d7e-ae92-d7699ab7b87a",
+        "type": "message",
+        "text": "yea thats goign to fail",
+        "user": "UAR1CADNV",
+        "ts": "1572879070.009000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "baa4e245-448d-4d17-b5a3-ca7cd4140fda",
+        "type": "message",
+        "text": "that needs to be the roleARN for aws I think",
+        "user": "UAR1CADNV",
+        "ts": "1572879078.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0B15BFB3-8F04-40C6-A322-994FB6949021",
+        "type": "message",
+        "text": "how does this look:\n```\n\nclass SourceStatusView(APIView):\n    \"\"\"SourceStatus view. This view assumes and requires that a provider already exists.\"\"\"\n    permission_classes = [AllowAny]\n    def get(self, request, format=None):\n        \"\"\"\n        Returns a list of Source Statuses.\n        \"\"\"\n        source_ready = False\n        provider = 'AWS'\n        interface = ProviderAccessor(provider)\n        credential = 'arn:aws:iam::589173575009:role/CostManagement'\n        source_name = 'cost-usage-bucket'\n        try:\n            source_ready = interface.cost_usage_source_ready(credential, source_name)\n            source_ready = True\n        except ValidationError:\n            source_ready = False\n        statuses = [source_ready]\n\n        return Response(statuses)\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572885474.010100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b4463140-ab79-4e89-a897-5ea62ee9b6d0",
+        "type": "message",
+        "text": "that\u2019s working ok?",
+        "user": "UAR1CADNV",
+        "ts": "1572885533.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2298cc28-82c4-4186-92e4-cc8f29baecad",
+        "type": "message",
+        "text": "returns True?",
+        "user": "UAR1CADNV",
+        "ts": "1572885539.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "F0DAE8C0-CCE8-48CB-8D93-83A23FFF1120",
+        "type": "message",
+        "text": "Yes it\u2019s returning True",
+        "user": "UMQA682PJ",
+        "ts": "1572885545.011000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08c7331e-d3d6-4856-86fc-3c062ab3242f",
+        "type": "message",
+        "text": "ok cool",
+        "user": "UAR1CADNV",
+        "ts": "1572885548.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eba76fd8-8e54-4f7d-99f8-3c961e8f77af",
+        "type": "message",
+        "text": "yeah so I would think the next step would be to take the source_id into the API some how, do the lookup on the `sources` table and then pass in the arguments to the cost_usage_ready logic right?",
+        "user": "UAR1CADNV",
+        "ts": "1572885615.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21AE98E0-B431-4664-8E54-2261D19CEB5E",
+        "type": "message",
+        "text": "Question: which source_id is the code above defaulting to?",
+        "user": "UMQA682PJ",
+        "ts": "1572885694.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0dc5866b-6a40-4a15-b6b8-040b34b36029",
+        "type": "message",
+        "text": "I don\u2019t see source_id at all there",
+        "user": "UAR1CADNV",
+        "ts": "1572885766.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72b89e46-7775-4786-9229-04fb8856ee64",
+        "type": "message",
+        "text": "going to head to lunch will check in afterwards",
+        "user": "UAR1CADNV",
+        "ts": "1572885951.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0e89fa34-ad87-4db7-9d14-5420229c0e81",
+        "type": "message",
+        "text": "I think I did it:\n```\nclass SourceStatusView(APIView):\n    \"\"\"SourceStatus view. This view assumes and requires that a provider already exists.\"\"\"\n    permission_classes = [AllowAny]\n    def get(self, request, format=None):\n        \"\"\"\n        Returns a list of Source Statuses.\n        \"\"\"\n        source_id = self.request.query_params.get('source_id', None)\n        source = Sources.objects.get(source_id=source_id)\n        source_billing_source = source.billing_source['bucket']\n        source_authentication = source.authentication['resource_name']\n        source_ready = False\n        provider = 'AWS'\n        interface = ProviderAccessor(provider)\n        try:\n            source_ready = interface.cost_usage_source_ready(source_authentication, source_billing_source)\n            source_ready = True\n        except ValidationError:\n            source_ready = False\n        statuses = [source_ready]\n\n        return Response(statuses)\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572890286.014600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1572890322.000000"
+        }
+    },
+    {
+        "client_msg_id": "54d63106-7222-491f-890f-1aedeeaa9b51",
+        "type": "message",
+        "text": "just gotta test to see if it returns false with an incorrectly setup source.",
+        "user": "UMQA682PJ",
+        "ts": "1572890390.015000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64c48880-b374-4b71-84a8-849df86d4d90",
+        "type": "message",
+        "text": "when is a source considered incorrectly setup?",
+        "user": "UMQA682PJ",
+        "ts": "1572890415.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e38a9088-61c1-426d-aede-638e51751c7e",
+        "type": "message",
+        "text": "`provider = 'AWS'` can be gotten from the source table as well",
+        "user": "UAR1CADNV",
+        "ts": "1572890427.015800",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "ok_hand",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79f0e4bb-40f4-45dc-b893-b235bb597f32",
+        "type": "message",
+        "text": "`source_type`",
+        "user": "UAR1CADNV",
+        "ts": "1572890444.016000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4b6e11a-e77d-4590-aaad-94d92a919f62",
+        "type": "message",
+        "text": "but yeah that looks like what we need :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1572890467.016400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b59870cd-202f-4215-a606-172eb09079b5",
+        "type": "message",
+        "text": "so do you have the source_id parameter coming in as a json body?",
+        "user": "UAR1CADNV",
+        "ts": "1572890501.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9bbb8df-cc2a-4e76-9e82-4a3c16adf12e",
+        "type": "message",
+        "text": "or is it like `/source-status/2`",
+        "user": "UAR1CADNV",
+        "ts": "1572890510.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a66c8ba-5bb0-4fe8-afe8-f280237de288",
+        "type": "message",
+        "text": "it's coming in as a GET parameter",
+        "user": "UMQA682PJ",
+        "ts": "1572890512.017900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c218746-1651-4e3b-91cd-0742025eb3a2",
+        "type": "message",
+        "text": "GET /api/cost-management/v1/sources-status/?source_id=1",
+        "user": "UMQA682PJ",
+        "ts": "1572890525.018100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "646f983a-fed0-4cc4-926d-87bc0362900d",
+        "type": "message",
+        "text": "ah ok",
+        "user": "UAR1CADNV",
+        "ts": "1572890531.018300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af703c07-2045-4127-9129-46d929dc0039",
+        "type": "message",
+        "text": "yeah that should be fine for now.  We\u2019ll have to just touch things up once the platform sources team finishes their design",
+        "user": "UAR1CADNV",
+        "ts": "1572890550.018700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "460f2c4e-a2f7-4d81-92ce-f56a3614270e",
+        "type": "message",
+        "text": "`statuses = [source_ready]` also here, I think this always be a single item, shouldn\u2019t need a list",
+        "user": "UAR1CADNV",
+        "ts": "1572891965.020100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6298daba-d6ed-4400-a88a-4f31f7beea44",
+        "type": "message",
+        "text": "but again, this part could change once we integrate, so it\u2019s not a big deal",
+        "user": "UAR1CADNV",
+        "ts": "1572891995.020700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5ba9e3e6-f9a6-4d48-976f-08708204791c",
+        "type": "message",
+        "text": "just an FYI",
+        "user": "UAR1CADNV",
+        "ts": "1572892006.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99C53B64-EB18-41C8-A66E-6C0B42D56090",
+        "type": "message",
+        "text": "Question, is it possible for a Source to have a NULL billing_source in the database?",
+        "user": "UMQA682PJ",
+        "ts": "1572903043.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "BA262742-1A7C-463D-AF0F-A6A3585F7A73",
+        "type": "message",
+        "text": "What would the billing_source column look like if a source doesn\u2019t have a billing_source?",
+        "user": "UMQA682PJ",
+        "ts": "1572903084.023100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "26b48f70-0c55-45ef-97a8-7b4522e7dccd",
+        "type": "message",
+        "text": "OCP doesn\u2019t have a billing source",
+        "user": "UAR1CADNV",
+        "ts": "1572903088.023300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "A857A9CF-5579-4320-B6F2-3F649E6B07A3",
+        "type": "message",
+        "text": "Would it be NULL or would it still be JSON?",
+        "user": "UMQA682PJ",
+        "ts": "1572903104.023700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23946bd1-db8b-41d4-a5fb-9e2e42347876",
+        "type": "message",
+        "text": "one second, I\u2019ll get you ane xample",
+        "user": "UAR1CADNV",
+        "ts": "1572903106.023800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad10c627-25d0-451e-bdba-4cc85811e4e3",
+        "type": "message",
+        "text": "running APi tests at the moment then I\u2019ll create one",
+        "user": "UAR1CADNV",
+        "ts": "1572903123.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e1866ead-a601-4225-b2d5-9a9eeaa80d1a",
+        "type": "message",
+        "text": "```\n source_id |      name       | source_type |                      authentication                       | billing_source |              koku_uuid               |                                             auth_header                                              | pending_delete | offset | endpoint_id | pending_update\n-----------+-----------------+-------------+-----------------------------------------------------------+----------------+--------------------------------------+------------------------------------------------------------------------------------------------------+----------------+--------+-------------+----------------\n         1 | Test OCP Source | OCP         | {\"resource_name\": \"8770d031-9b46-40d9-be12-52929af682f5\"} | {}             | be27c828-d44f-4dde-b16d-446f10f052cd | eyJpZGVudGl0eSI6IHsiYWNjb3VudF9udW1iZXIiOiAiMTIzNDUiLCAiaW50ZXJuYWwiOiB7Im9yZ19pZCI6ICI1NDMyMSJ9fX0= | f              |     55 |           1 | f\n(1 row)\n```",
+        "user": "UAR1CADNV",
+        "ts": "1572904643.024400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "84698546-21ac-48cc-9961-8edba447961b",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1572904657.024600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88361e4a-71ec-48c6-b698-cf0e46cc5d01",
+        "type": "message",
+        "text": "```\npostgres=# select source_type, authentication, billing_source from api_sources;\n source_type |                      authentication                       | billing_source\n-------------+-----------------------------------------------------------+----------------\n OCP         | {\"resource_name\": \"8770d031-9b46-40d9-be12-52929af682f5\"} | {}\n(1 row)\n\npostgres=#\n```",
+        "user": "UAR1CADNV",
+        "ts": "1572904665.024800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "541abad0-6394-4f5c-88c4-f238e5a6d70f",
+        "type": "message",
+        "text": "might be easier to see",
+        "user": "UAR1CADNV",
+        "ts": "1572904668.025000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e567ebab-376c-4f91-b78c-4f63d6415bba",
+        "type": "message",
+        "text": "but that resource_name is the OCP cluster-id",
+        "user": "UAR1CADNV",
+        "ts": "1572904675.025300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42807920-A57D-4D1A-B11C-D3F6E39DC087",
+        "type": "message",
+        "text": "Odd, when i changed billing_source to {} no exception was thrown",
+        "user": "UMQA682PJ",
+        "ts": "1572904775.026000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39C73206-CBEE-4DB3-AC45-8F23E715C2DA",
+        "type": "message",
+        "text": "Is that normal?",
+        "user": "UMQA682PJ",
+        "ts": "1572904777.026200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cf407ff2-9fbc-40ad-8ea9-addc1a362fcc",
+        "type": "message",
+        "text": "there\u2019s different checks for different provider-types",
+        "user": "UAR1CADNV",
+        "ts": "1572904857.026500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "70ca0cb0-282b-433f-80e9-e35807f3f888",
+        "type": "message",
+        "text": "OCP doesn\u2019t currently have any verifications",
+        "user": "UAR1CADNV",
+        "ts": "1572904863.026800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e06eeb9-45e7-4547-9264-ae452305ed1f",
+        "type": "message",
+        "text": "so it should always return true, until we put a check in place",
+        "user": "UAR1CADNV",
+        "ts": "1572904876.027100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "24e2bd2a-19cc-4de0-87ca-01a1c7f5fccb",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/ae4f2f489c98fc918ee5728a1285cb0e573689aa/koku/providers/ocp/provider.py#L68>",
+        "user": "UAR1CADNV",
+        "ts": "1572904937.027300",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/providers/ocp/provider.py:68",
+                "text": "```\n        # TODO: Add storage_resource_name existance check once Insights integration is complete.\n```",
+                "title": "koku/providers/ocp/provider.py:68",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/ae4f2f489c98fc918ee5728a1285cb0e573689aa/koku/providers/ocp/provider.py#L68",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/ae4f2f489c98fc918ee5728a1285cb0e573689aa/koku/providers/ocp/provider.py#L68",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "febc8d93-2130-4656-ad2f-e5cf9306b1e0",
+        "type": "message",
+        "text": "here\u2019s the OCP check",
+        "user": "UAR1CADNV",
+        "ts": "1572904940.027600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d2377f7c-a47d-4509-9df2-92c17ea81ea8",
+        "type": "message",
+        "text": "I think I made a note about this in the issue",
+        "user": "UAR1CADNV",
+        "ts": "1572904950.027800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "83e7c6d4-4eaf-4d5c-bc20-640461e4757d",
+        "type": "message",
+        "text": "`API returns successful for an OCP source since we have no checks in place at this point in time.` in acceptance criteria",
+        "user": "UAR1CADNV",
+        "ts": "1572904988.028000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "EA1C19D1-3229-4DFF-9313-7F61D237C0D7",
+        "type": "message",
+        "text": "For AWS i mean",
+        "user": "UMQA682PJ",
+        "ts": "1572905027.028200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45668f81-7b3a-420e-b007-c0d7de105a5b",
+        "type": "message",
+        "text": "ohh o",
+        "user": "UAR1CADNV",
+        "ts": "1572905129.028500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b92f180d-ffb4-41a8-a4de-6414e190d329",
+        "type": "message",
+        "text": "k",
+        "user": "UAR1CADNV",
+        "ts": "1572905130.028700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "781d644b-62a3-4481-a9b6-0223298c1bff",
+        "type": "message",
+        "text": "```\nPOST /api/cost-management/v1/providers/\nHTTP 400 Bad Request\nAllow: GET, POST, HEAD, OPTIONS\nContent-Type: application/json\nVary: Accept\n\n{\n    \"errors\": [\n        {\n            \"detail\": \"Bucket is a required parameter for AWS and must not be blank.\",\n            \"source\": \"billing_source.bucket\",\n            \"status\": 400\n        }\n    ]\n}\n```",
+        "user": "UAR1CADNV",
+        "ts": "1572905206.029300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1572905216.000000"
+        }
+    },
+    {
+        "client_msg_id": "a5af7ecd-92c2-483f-8539-649e146bfb89",
+        "type": "message",
+        "text": "I get that",
+        "user": "UAR1CADNV",
+        "ts": "1572905218.029600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7fba58d8-76db-4bcb-943a-fc1b50b86165",
+        "type": "message",
+        "text": "with this",
+        "user": "UAR1CADNV",
+        "ts": "1572905232.029800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5317008F-F995-4617-8A66-A45F97D72AE2",
+        "type": "message",
+        "text": "Oh, so I don\u2019t need to do additional validation at this point, because the bucket will theoretically never be blank",
+        "user": "UMQA682PJ",
+        "ts": "1572906129.030700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3bc70018-ffa8-45f8-9b9b-1199895037ee",
+        "type": "message",
+        "text": "right",
+        "user": "UAR1CADNV",
+        "ts": "1572906144.030900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e5c2215-974e-4945-a5aa-474fb8b66e5e",
+        "type": "message",
+        "text": "the serializer does some checking too",
+        "user": "UAR1CADNV",
+        "ts": "1572906151.031100",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "client_msg_id": "86808239-65d6-43dc-8d0a-97ac5ebec30a",
+        "type": "message",
+        "text": "Hi Andrew, what's the koku-beat?",
+        "user": "UMQA682PJ",
+        "ts": "1568904622.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "682d6b63-e141-46ae-b3c2-9a4757fb1e67",
+        "type": "message",
+        "text": "My yubikey accidentally pressed again.",
+        "user": "UMQA682PJ",
+        "ts": "1568904638.000400",
+        "team": "T026NJJ6Z",
+        "thread_ts": "1568837463.005400",
+        "parent_user_id": "UMQA682PJ"
+    },
+    {
+        "client_msg_id": "ba2eec4c-2488-4aa8-b671-e9986e8b6e18",
+        "type": "message",
+        "text": "<https://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html>",
+        "user": "U8FS2P1LH",
+        "ts": "1568904663.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "230895ae-edb1-4fb6-b436-a1e3a0e5701b",
+        "type": "message",
+        "text": "celery beat scheduler",
+        "user": "U8FS2P1LH",
+        "ts": "1568904666.000900",
+        "team": "T026NJJ6Z"
+    }
+]

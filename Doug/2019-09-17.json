@@ -1,0 +1,76 @@
+[
+    {
+        "client_msg_id": "a7420925-ae73-4ea1-a784-cc9a5bac2d7b",
+        "type": "message",
+        "text": "Hey Doug, I created a pull request to add two lines of documentation in Masu. I got a Codecov report that says the \"diff coverage is n/a\". Is the diff coverage required for this? <https://github.com/project-koku/koku/pull/1121>",
+        "user": "UMQA682PJ",
+        "ts": "1568724040.001100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1121 document that masu can be triggered by /download endpoint",
+                "text": "Added 2 lines of documentation",
+                "title": "#1121 document that masu can be triggered by /download endpoint",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1121",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1568667923,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Labels",
+                        "value": "documentation",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "1",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1121",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e06a73c-ba82-46b3-bdcd-3cd69d5b471c",
+        "type": "message",
+        "text": "Hey Nick, looks good :+1: No don\u2019t worry about code coverage on docs",
+        "user": "UAR1CADNV",
+        "ts": "1568724098.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "71615e12-8502-43ca-8c64-de173de18e16",
+        "type": "message",
+        "text": "In future PRs if there are code changes, is the diff coverage required?",
+        "user": "UMQA682PJ",
+        "ts": "1568724314.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e5a4d80-92f1-4408-ae50-7b533cf55de4",
+        "type": "message",
+        "text": "yeah we have some checks setup in git hub when code is changed.  Unit tests have to be added to ensure that the diff is covered adequately.",
+        "user": "UAR1CADNV",
+        "ts": "1568724361.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "06462f40-131e-4bcf-a499-7a1087107373",
+        "type": "message",
+        "text": "github will let you know when it\u2019s not high enough :wink:",
+        "user": "UAR1CADNV",
+        "ts": "1568724368.003200",
+        "team": "T026NJJ6Z"
+    }
+]

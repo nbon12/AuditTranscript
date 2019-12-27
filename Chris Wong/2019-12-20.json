@@ -1,0 +1,377 @@
+[
+    {
+        "client_msg_id": "2e784e32-abac-41e9-ad3d-a43ecc3ec2f8",
+        "type": "message",
+        "text": "where are you",
+        "user": "U033J8Q34",
+        "ts": "1576875709.000200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+mori",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "where are you"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2F88B49C-5303-43FF-A06B-6DBC97649FC7",
+        "type": "message",
+        "text": "I moved to 11",
+        "user": "UMQA682PJ",
+        "ts": "1576875727.000500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Kj2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I moved to 11"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f57ec3c1-f013-4029-bcaf-a9fc5ec7f3a9",
+        "type": "message",
+        "text": "14 too loud?",
+        "user": "U033J8Q34",
+        "ts": "1576875734.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "J0U",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "14 too loud?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "BC6BEB4E-364E-406B-B06F-229C6EE9A926",
+        "type": "message",
+        "text": "Sorry forgot to update that",
+        "user": "UMQA682PJ",
+        "ts": "1576875734.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sVhS5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sorry forgot to update that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f8c38ef8-71c6-472e-aebb-4e7f8c43f074",
+        "type": "message",
+        "text": "are you in a public space?",
+        "user": "U033J8Q34",
+        "ts": "1576875742.001200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "H/b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "are you in a public space?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8F1D2A1E-AB61-4ACF-BF5B-5CD876420D74",
+        "type": "message",
+        "text": "Not currently but there\u2019s empty spots from the people who already went home for the day, and those that worked from home.",
+        "user": "UMQA682PJ",
+        "ts": "1576875804.002700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mE4Kp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Not currently but there\u2019s empty spots from the people who already went home for the day, and those that worked from home."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "18199C0B-0B16-4705-AF71-87974BB71F75",
+        "type": "message",
+        "text": "And are on pto.",
+        "user": "UMQA682PJ",
+        "ts": "1576875810.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gHK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "And are on pto."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "59f061cc-cf6a-4177-a9d3-b07b5b3241f4",
+        "type": "message",
+        "text": "ok",
+        "user": "U033J8Q34",
+        "ts": "1576875911.003400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DxV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "372f2469-fb7e-4640-bc3f-cf52ed8a1004",
+        "type": "message",
+        "text": "want to come by before oyu head out?",
+        "user": "U033J8Q34",
+        "ts": "1576875917.003700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vlq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "want to come by before oyu head out?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6E42B6E4-7A00-4414-982B-5702AC3C7924",
+        "type": "message",
+        "text": "Sure",
+        "user": "UMQA682PJ",
+        "ts": "1576875921.004000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i/p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dbfda428-58e4-431e-8d7a-e3820ae5d255",
+        "type": "message",
+        "text": "I will be here until 530 today",
+        "user": "U033J8Q34",
+        "ts": "1576875921.004100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IP2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I will be here until 530 today"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "DE5C6A07-1790-42AE-BB91-F6E75E021FCE",
+        "type": "message",
+        "text": "On 14?",
+        "user": "UMQA682PJ",
+        "ts": "1576876180.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "simx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "On 14?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "adf2e10e-6af7-4c42-95aa-b18dc3cf64bd",
+        "type": "message",
+        "text": "I\u2019m on 13 now",
+        "user": "U033J8Q34",
+        "ts": "1576876269.004500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JrHR7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I\u2019m on 13 now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "A49A528A-BC65-4C01-BED3-CED2A655F6EB",
+        "type": "message",
+        "text": "Public space?",
+        "user": "UMQA682PJ",
+        "ts": "1576876284.004700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "B9c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Public space?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "77781A66-10E9-4C11-BD97-0A1575B0E092",
+        "type": "message",
+        "text": "I moved to 14 btw",
+        "user": "UMQA682PJ",
+        "ts": "1576876362.005000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x4N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I moved to 14 btw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

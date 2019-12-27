@@ -1,0 +1,14 @@
+[
+    {
+        "client_msg_id": "aa0b204a-4024-43bc-bd1c-955c42670916",
+        "type": "message",
+        "text": "Hey Doug, i'm going to put some non-critical questions here for when you return :smile:. Response not needed anytime soon:\n1) Why was `make collect-static` necessary to run the sources app locally? Before running that command, anything on port 4000 was returning Error 404. I noticed it created some untracked files in my local repo:\n```\nkoku/static/openapi.532dfaae7187.json\n\tkoku/static/openapi.532dfaae7187.json.gz\n\tkoku/static/openapi.json\n\tkoku/static/openapi.json.gz\n\tkoku/static/rest_framework/\n\tkoku/static/staticfiles.json\n```\nWhen should I update/delete these files? Are you locally ignoring them in your global .gitignore?",
+        "user": "UMQA682PJ",
+        "ts": "1573677120.001700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573677240.000000"
+        }
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "client_msg_id": "b330a59d-0945-4f79-9870-14b47a31d061",
+        "type": "message",
+        "text": "question, this file \"reporting_awstags_summary.sql\" doesn't have any variables that jinja can put into a separate params list, should I leave it or change it to look consistent with the rest of the jinja changes?\n```\nINSERT INTO {schema}.reporting_awstags_summary\nSELECT l.key,\n    array_agg(DISTINCT l.value) as values\nFROM (\n    SELECT key,\n        value\n    FROM {schema}.reporting_awscostentrylineitem_daily AS li,\n        jsonb_each_text(li.tags) labels\n) l\nGROUP BY l.key\nON CONFLICT (key) DO UPDATE\nSET values = EXCLUDED.values\n;\n```",
+        "user": "UMQA682PJ",
+        "ts": "1570031437.031300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0983fe34-1710-46fe-9e4b-a49ac2f8fae4",
+        "type": "message",
+        "text": "the change would cause {{schema}} --&gt; {{schema | sqlsafe}} but that wouldn't actually change how it functionally operates now. it would only cause Jinja to do the mapping instead of the .format() function",
+        "user": "UMQA682PJ",
+        "ts": "1570031497.032300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "54c91b78-2e94-4ca9-bccd-956b2df870b5",
+        "type": "message",
+        "text": "Yeah, change it still so we\u2019re consistently using Jinja",
+        "user": "U8FS2P1LH",
+        "ts": "1570031539.032700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fadd4ade-fb4f-4c36-982f-1f9796f4e66f",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1570031544.032900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e93c7ef2-81ce-4e46-926c-09ee7c384e4b",
+        "type": "message",
+        "text": "Regarding this code block in populate_line_item_daily_table:\n```\n        if bill_ids:\n            ids = ','.join(bill_ids)\n            bill_id_where_clause = f'AND cost_entry_bill_id IN ({ids})'\n```\nI think this can be removed, and we can use Jinja2 templating to put a {% if %} condition in the .sql file itself, so we can change the following line:\n```\nDELETE FROM {{schema | sqlsafe}}.reporting_awscostentrylineitem_daily AS li\nWHERE li.usage_start &gt;= {{start_date}}\n    AND li.usage_start &lt;= {{end_date}}\n    {{bill_id_where_clause | sqlsafe}}\n;\n```\ninto something like this:\n```\nDELETE FROM {{schema | sqlsafe}}.reporting_awscostentrylineitem_daily AS li\nWHERE li.usage_start &gt;= {{start_date}}\n    AND li.usage_start &lt;= {{end_date}}\n    {% if bill_ids %}\n    AND cost_entry_bill_id IN ({{ids}})\n    {% endif %}\n;\n```\n\nwhat do you think?",
+        "user": "UMQA682PJ",
+        "ts": "1570037196.037100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08c90083-f19b-4e99-8c5f-4586e7425e09",
+        "type": "message",
+        "text": "the reason for doing this would be, because the current one isn't safe sql, and the second one is.",
+        "user": "UMQA682PJ",
+        "ts": "1570037256.037700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1381be17-817c-4ee6-bf06-1c051ab65348",
+        "type": "message",
+        "text": "Yeah, that\u2019s a great idea.",
+        "user": "U8FS2P1LH",
+        "ts": "1570037373.037900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6b7054d7-83ed-4c97-8e66-a8ba57788d53",
+        "type": "message",
+        "text": "hey should we be squashing commits before pull requests are merged?",
+        "user": "UMQA682PJ",
+        "ts": "1570047185.039800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e2af27f2-cb72-420f-a622-9ac1d310ca04",
+        "type": "message",
+        "text": "Yeah, for now let\u2019s say yes, but then on Friday we can discuss either way of doing it as an option going forward.",
+        "user": "U8FS2P1LH",
+        "ts": "1570047332.040500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d52ea000-f065-4ce6-9dea-e1cf6fab3261",
+        "type": "message",
+        "text": "Actually one of the topics on that list for the meeting.",
+        "user": "U8FS2P1LH",
+        "ts": "1570047367.041500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0d39934e-7d1a-457e-9e79-94e2d7034951",
+        "type": "message",
+        "text": "even after they're pushed to the PR branch, right?",
+        "user": "UMQA682PJ",
+        "ts": "1570047376.041700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0465557-b3e0-4a0b-8230-75cc3d411708",
+        "type": "message",
+        "text": "My personal flow is this: Make a bunch of commits that are easy to back out if I need to while on my branch, put up the PR with all those commits visible. When I finally push the merge pull request button in github, I make sure I have the squash commits option selected, then I take a selection of commit message, or just summarize the feature in the squashed commit message.",
+        "user": "U8FS2P1LH",
+        "ts": "1570047464.043200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "49c2c353-b8bd-4c46-91e0-f3798113b9a6",
+        "type": "message",
+        "text": "Any personal preference there?",
+        "user": "U8FS2P1LH",
+        "ts": "1570047581.044700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b0a54bdf-d545-40b7-ac12-cca8bdf83dcc",
+        "type": "message",
+        "text": "Oh cool, I didnt' know Github had a squash option for merging. that sounds good to me.",
+        "user": "UMQA682PJ",
+        "ts": "1570047680.045200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fc9db2ef-0cc2-4a93-8eab-dce78f9089b9",
+        "type": "message",
+        "text": "I prefer squashing in general but wasn't sure how to do it cleanly.",
+        "user": "UMQA682PJ",
+        "ts": "1570047694.045600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1e567009-b874-4d1d-88f7-8282a1af3c2d",
+        "type": "message",
+        "text": "Yeah, they make that really easy to miss.",
+        "user": "U8FS2P1LH",
+        "ts": "1570047732.045900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "820338ea-cab8-4936-8c8a-046c4446565e",
+        "type": "message",
+        "text": "Okay, cool. Still figured we can talk through it on Friday. Just want to make sure we all are happy with the flow. And I realize I didn\u2019t explain the current flow well at all, so sorry for that.",
+        "user": "U8FS2P1LH",
+        "ts": "1570047798.046700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5d0ce237-166e-4ddf-909c-6944937e8bb1",
+        "type": "message",
+        "text": "Hah",
+        "user": "U8FS2P1LH",
+        "ts": "1570048356.047100",
+        "team": "T026NJJ6Z"
+    }
+]

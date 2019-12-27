@@ -1,0 +1,455 @@
+[
+    {
+        "client_msg_id": "76de8396-baee-4d44-b92e-8a7c3e35e81c",
+        "type": "message",
+        "text": "Hey Nick, I\u2019m still not quite well yet, so instead of coughing everywhere at the office I\u2019m still planning on another day at home. That said I am working today, so I can bluejeans or google meet at any time I\u2019m not in another meeting as needed. Chris should be in the office today as well.",
+        "user": "U8FS2P1LH",
+        "ts": "1576507087.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Toa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Nick, I\u2019m still not quite well yet, so instead of coughing everywhere at the office I\u2019m still planning on another day at home. That said I am working today, so I can bluejeans or google meet at any time I\u2019m not in another meeting as needed. Chris should be in the office today as well."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "face_with_thermometer",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "954eb345-6c14-46b3-96ea-3fd68eeb2e00",
+        "type": "message",
+        "text": "Sorry I\u2019m not there. This thing has taken an unexpectedly long time to clear. Last week was a bad week. Do not want to share it.",
+        "user": "U8FS2P1LH",
+        "ts": "1576507116.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0vK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Sorry I\u2019m not there. This thing has taken an unexpectedly long time to clear. Last week was a bad week. Do not want to share it."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "414a7069-7fce-4218-aded-705f13a62c13",
+        "type": "message",
+        "text": "Thanks for not wanting to share it!",
+        "user": "UMQA682PJ",
+        "ts": "1576507189.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hh+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Thanks for not wanting to share it!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd70d667-f00e-4b53-b2e1-68291718ed51",
+        "type": "message",
+        "text": "I wonder if there's a way it can 'feel like you're here but not really' by leveraging screensharing?",
+        "user": "UMQA682PJ",
+        "ts": "1576507219.003200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m7X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I wonder if there's a way it can 'feel like you're here but not really' by leveraging screensharing?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "744d1e78-d66b-4198-8e5a-cf04226fa5df",
+        "type": "message",
+        "text": "i can do a bluejeans screenshare but i don't have any immediate questions",
+        "user": "UMQA682PJ",
+        "ts": "1576507266.003700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bl8P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i can do a bluejeans screenshare but i don't have any immediate questions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e2d071a3-4824-44b7-b569-cf303ee225d5",
+        "type": "message",
+        "text": "kind of like twitch streaming my monitor.",
+        "user": "UMQA682PJ",
+        "ts": "1576507295.004100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Rtf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "kind of like twitch streaming my monitor."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "315688fc-5476-406c-be9c-886559286987",
+        "type": "message",
+        "text": "Hi, I found a bug in IQE hccm plugin, Luke and Chris said to see if I can put in a MR, I submitted the MR here: <https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455>\nIs there automated testing on these tests that checks to see if the MR i created broke something else? Or do i need to do manual testing locally?",
+        "user": "UMQA682PJ",
+        "ts": "1576524502.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ru1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, I found a bug in IQE hccm plugin, Luke and Chris said to see if I can put in a MR, I submitted the MR here: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/merge_requests/455"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nIs there automated testing on these tests that checks to see if the MR i created broke something else? Or do i need to do manual testing locally?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e5e9ebfc-7c8b-4441-a6d5-6b62b803ba14",
+        "type": "message",
+        "text": "I know there\u2019s some checks there, but I think it\u2019s primarily the MR getting reviewed. Could see if the checks run when you pull it out of WIP status?",
+        "user": "U8FS2P1LH",
+        "ts": "1576524643.007600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IjPAF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I know there\u2019s some checks there, but I think it\u2019s primarily the MR getting reviewed. Could see if the checks run when you pull it out of WIP status?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2014432-0a70-44ea-b0bc-376f292dab5f",
+        "type": "message",
+        "text": "Oh, no the pipeline did run",
+        "user": "U8FS2P1LH",
+        "ts": "1576524660.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WKeP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Oh, no the pipeline did run"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4f0787fe-3084-4185-b5d4-ea01e06ca630",
+        "type": "message",
+        "text": "oh no!",
+        "user": "UMQA682PJ",
+        "ts": "1576524730.008100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tMu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh no!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e67d4bd3-c9b2-4457-b9ad-e5fd8b0796eb",
+        "type": "message",
+        "text": "jk",
+        "user": "UMQA682PJ",
+        "ts": "1576524732.008300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fWmx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "jk"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "446b69e0-48f4-4a13-93d3-c6bf3ec37a3d",
+        "type": "message",
+        "text": "I don\u2019t honestly know. It\u2019s QE owned so I would usually consult Luke, who is *supposed* to be on PTO!",
+        "user": "U8FS2P1LH",
+        "ts": "1576524767.008900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oNR=E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don\u2019t honestly know. It\u2019s QE owned so I would usually consult Luke, who is "
+                            },
+                            {
+                                "type": "text",
+                                "text": "supposed",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " to be on PTO!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70cd5aba-39c4-4292-836a-db54ec4c0597",
+        "type": "message",
+        "text": "yep",
+        "user": "UMQA682PJ",
+        "ts": "1576524778.009100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1Fm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0a523c26-d1be-4b18-bd22-049a5dcdbedf",
+        "type": "message",
+        "text": "is it possible to pull the hccm plugin locally and have IQE use your local version?",
+        "user": "UMQA682PJ",
+        "ts": "1576525740.009800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jvPwK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is it possible to pull the hccm plugin locally and have IQE use your local version?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2b959edd-aff2-44b4-b1eb-afd045c116bd",
+        "type": "message",
+        "text": "or should i move on to something else",
+        "user": "UMQA682PJ",
+        "ts": "1576525759.010100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vtd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or should i move on to something else"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cd8027e7-e756-486e-8901-1f87f9b99f7f",
+        "type": "message",
+        "text": "Yeah, that was how we ran things before Doug conveniently docker packaged it up.",
+        "user": "U8FS2P1LH",
+        "ts": "1576525792.011000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2Xb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeah, that was how we ran things before Doug conveniently docker packaged it up."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "85567343-a4b5-4e85-acdc-0f7bd2ede1b0",
+        "type": "message",
+        "text": "If you setup the plugin locally I think you can have it pick up any changes you have locally.",
+        "user": "U8FS2P1LH",
+        "ts": "1576525810.011500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OPd6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you setup the plugin locally I think you can have it pick up any changes you have locally."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

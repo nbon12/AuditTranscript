@@ -1,0 +1,119 @@
+[
+    {
+        "client_msg_id": "8d1ad87c-623e-40f9-be7d-7756f33ed0b9",
+        "type": "message",
+        "text": "Hi Andrew what was this PR addressing? <https://github.com/project-koku/koku/pull/1568> is there a connected issue?",
+        "user": "UMQA682PJ",
+        "ts": "1577115605.000500",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "adberglund",
+                "fallback": "[project-koku/koku] #1568 Add set_access method for ocp_all",
+                "text": "*Summary*\n\nNeed an access method for OCP on All.",
+                "title": "#1568 Add set_access method for ocp_all",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1568",
+                "author_link": "https://github.com/adberglund",
+                "author_icon": "https://avatars1.githubusercontent.com/u/3845021?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1576786028,
+                "color": "6f42c1",
+                "fields": [
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    },
+                    {
+                        "title": "Milestone",
+                        "value": "<https://github.com/project-koku/koku/milestone/38|Sprint 37>",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1568",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d1q9+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Andrew what was this PR addressing? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1568"
+                            },
+                            {
+                                "type": "text",
+                                "text": " is there a connected issue?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b50e0205-e7c7-4b6f-8bab-063f44d77ff0",
+        "type": "message",
+        "text": "This is a low priority question no need to answer soon.",
+        "user": "UMQA682PJ",
+        "ts": "1577115620.001000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LB3Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This is a low priority question no need to answer soon."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9f422b8e-2d82-4a45-aeb0-9f237b5ddaa3",
+        "type": "message",
+        "text": "whenever you get back from PTO is fine~",
+        "user": "UMQA682PJ",
+        "ts": "1577115635.001200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yw/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "whenever you get back from PTO is fine~"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

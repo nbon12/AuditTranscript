@@ -1,0 +1,52 @@
+[
+    {
+        "client_msg_id": "CB397CF3-76BA-4E35-A15F-61276EB601A0",
+        "type": "message",
+        "text": "WFH today or coming to office?",
+        "user": "UMQA682PJ",
+        "ts": "1576592351.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Iw56",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "WFH today or coming to office?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5e004deb-3b5c-4661-a302-babd396b206a",
+        "type": "message",
+        "text": "I WFH on Tues/Thurs.",
+        "user": "U8FS2P1LH",
+        "ts": "1576592375.000600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=9g+a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I WFH on Tues/Thurs."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,217 @@
+[
+    {
+        "client_msg_id": "5740ea0c-7f34-47cf-ad16-772abe3f8acf",
+        "type": "message",
+        "text": "Hi Brad, I noticed this pull request has no unit tests and no integration tests: <https://github.com/project-koku/koku/pull/1442/files#diff-6e8ff0066d4c6eea60370bbbfb26536aR12>\nI feel uncomfortable with the lack of code coverage.\n\nWhat do you think about mocking the sentry.init() function? For example: (*disclaimer I have no clue how to mock sentry or celery*):\n```from unittest import TestCase, mock\nimport sentry\n\ndef test_sentry_init(self):\n    with mock.patch(sentry, autospec=True) as mocked_sentry:\n        mocked_sentry.init(\n            dsn=anystring\n            integrations=CeleryIntegration()\n        )\n        ```\nThe autospec would ensure that the test would fail if the .init() function doesn't exist. Further reading on mocking: <https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832>",
+        "user": "UMQA682PJ",
+        "ts": "1575484254.009100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "What the mock? - A cheatsheet for mocking in Python",
+                "title_link": "https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832",
+                "text": "A cheatsheet for mocking in Python",
+                "fallback": "Medium: What the mock? - A cheatsheet for mocking in Python",
+                "image_url": "https://miro.medium.com/max/1200/1*cEii6Fs0o9_-4UJD9PHDqg.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "10 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1566202870,
+                "from_url": "https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832",
+                "image_width": 754,
+                "image_height": 250,
+                "image_bytes": 105076,
+                "service_icon": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 1,
+                "original_url": "https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a26",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Brad, I noticed this pull request has no unit tests and no integration tests: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1442/files#diff-6e8ff0066d4c6eea60370bbbfb26536aR12"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nI feel uncomfortable with the lack of code coverage.\n\nWhat do you think about mocking the sentry.init() function? For example: (*disclaimer I have no clue how to mock sentry or celery*):\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "from unittest import TestCase, mock\nimport sentry\n\ndef test_sentry_init(self):\n    with mock.patch(sentry, autospec=True) as mocked_sentry:\n        mocked_sentry.init(\n            dsn=anystring\n            integrations=CeleryIntegration()\n        )\n        "
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The autospec would ensure that the test would fail if the .init() function doesn't exist. Further reading on mocking: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://medium.com/@yeraydiazdiaz/what-the-mock-cheatsheet-mocking-in-python-6a71db997832"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "df4f88f8-6f3f-4054-a11a-e92d113474e9",
+        "type": "message",
+        "text": "It's already been merged, but sure,feel free to open a new PR with some tests on that! mocking sentry seems like a fine idea to me. :slightly_smiling_face:",
+        "user": "U8E2NAGGJ",
+        "ts": "1575484342.010000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3n+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It's already been merged, but sure,feel free to open a new PR with some tests on that! mocking sentry seems like a fine idea to me. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ebac58f-0fe2-4266-8e9e-30eeb636ab99",
+        "type": "message",
+        "text": "thanks for the feedback!",
+        "user": "UMQA682PJ",
+        "ts": "1575484412.010400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jCZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks for the feedback!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U8E2NAGGJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "89c74655-16c3-4bcf-9bed-d4b0f06b70ce",
+        "type": "message",
+        "text": "FWIW, sentry acts like middleware in the sense that we never interact with it _directly_ other than initialization.",
+        "user": "U8E2NAGGJ",
+        "ts": "1575484511.011600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tgy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "FWIW, sentry acts like middleware in the sense that we never interact with it "
+                            },
+                            {
+                                "type": "text",
+                                "text": "directly",
+                                "style": {
+                                    "italic": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " other than initialization."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "719f6835-bff5-4c91-99bf-6ca6141814ed",
+        "type": "message",
+        "text": "So, if you want to add tests, just covering that `init` call should be good enough.",
+        "user": "U8E2NAGGJ",
+        "ts": "1575484527.012000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AxI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So, if you want to add tests, just covering that "
+                            },
+                            {
+                                "type": "text",
+                                "text": "init",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " call should be good enough."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

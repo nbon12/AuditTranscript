@@ -1,0 +1,1538 @@
+[
+    {
+        "client_msg_id": "3799bd23-03be-4f9f-ad34-cdd910ca4a45",
+        "type": "message",
+        "text": "update: (thinking to myself out loud here) since the IQE pipeline has failed and I'm not sure why, I'm going to ignore it for now. Assuming it's an intermittent failure, i'll work on including the optimization that chris wants, re-test locally with IQE, and ignore the iqe local test failures related to kafka being down, and ignoring the ones related to the IQE test that I fixed. i think there's about 500 failures so it'll take some time to sort through them all",
+        "user": "UMQA682PJ",
+        "ts": "1576692599.003300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a58jM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "update: (thinking to myself out loud here) since the IQE pipeline has failed and I'm not sure why, I'm going to ignore it for now. Assuming it's an intermittent failure, i'll work on including the optimization that chris wants, re-test locally with IQE, and ignore the iqe local test failures related to kafka being down, and ignoring the ones related to the IQE test that I fixed. i think there's about 500 failures so it'll take some time to sort through them all"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f810fd5d-fa8f-4c23-9f0a-6d109058b2d8",
+        "type": "message",
+        "text": "or i can just work on something else",
+        "user": "UMQA682PJ",
+        "ts": "1576692607.003500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4+b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or i can just work on something else"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e375d8fc-0b68-4d06-a212-14ab96714b14",
+        "type": "message",
+        "text": "500 failures on smoke tests or api tests?",
+        "user": "U8FS2P1LH",
+        "ts": "1576692852.003900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gBSt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "500 failures on smoke tests or api tests?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d0764a83-e4d0-43b4-8325-2460ac2ffbf0",
+        "type": "message",
+        "text": "it was either smokes or vortex, i forgot.",
+        "user": "UMQA682PJ",
+        "ts": "1576692873.004400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "O7lz9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it was either smokes or vortex, i forgot."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b81640c-4e46-432e-9ead-4cb366686da1",
+        "type": "message",
+        "text": "in doug's docker container",
+        "user": "UMQA682PJ",
+        "ts": "1576692879.004600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0LIx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in doug's docker container"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bb2286d-9169-45f4-b641-eff4ba72a8f4",
+        "type": "message",
+        "text": "Well that is enough failures that I would hesitate to rely on the results until we can more actively work with Luke on this again.",
+        "user": "U8FS2P1LH",
+        "ts": "1576692910.005200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oLS2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Well that is enough failures that I would hesitate to rely on the results until we can more actively work with Luke on this again."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5db3faaa-6956-4096-a84f-5f2a2a66e177",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1576692919.005600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SgU+b",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "alright"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9348e6c3-ff85-4ae3-aabf-d992dc624bbe",
+        "type": "message",
+        "text": "I know this is a tricky time with Holiday PTO.",
+        "user": "U8FS2P1LH",
+        "ts": "1576692920.005700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bv7k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I know this is a tricky time with Holiday PTO."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ad5654a-7289-4366-b8d4-95ffe9cfdcc8",
+        "type": "message",
+        "text": "what's something else valuable to work on?",
+        "user": "UMQA682PJ",
+        "ts": "1576692946.006300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dz+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what's something else valuable to work on?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0444c809-6789-4589-8990-d8f264585c25",
+        "type": "message",
+        "text": "i prefer to create new things just so you know.",
+        "user": "UMQA682PJ",
+        "ts": "1576692963.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xo9W5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i prefer to create new things just so you know."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "47e94841-3ad2-4660-aa72-4c53e22e76e5",
+        "type": "message",
+        "text": "like the cloud account api",
+        "user": "UMQA682PJ",
+        "ts": "1576692973.007100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nx=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "like the cloud account api"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "929c2b2b-614a-4d32-9f19-9a057c39f42c",
+        "type": "message",
+        "text": "or, i guess, 'modular'",
+        "user": "UMQA682PJ",
+        "ts": "1576693007.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xxk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or, i guess, 'modular'"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "32d4cc63-cd7a-43d7-93e1-f3660fe358cf",
+        "type": "message",
+        "text": "I hear you. Just sort of the rhythm of where we are right now, we have fewer new things, and more hardening issues. Our planning meeting in January will change that again, but the biggest focus right now is stability going into our January 15 release.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693036.008600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Gpois",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I hear you. Just sort of the rhythm of where we are right now, we have fewer new things, and more hardening issues. Our planning meeting in January will change that again, but the biggest focus right now is stability going into our January 15 release."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "74d01c10-781b-4916-a1ee-39dbd56ce6e5",
+        "type": "message",
+        "text": "is there something that is very modular and isolated that needs performance increases?",
+        "user": "UMQA682PJ",
+        "ts": "1576693117.009100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dtZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is there something that is very modular and isolated that needs performance increases?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fde945c1-5bc2-49b9-9614-2c0b798687d5",
+        "type": "message",
+        "text": "and well documented as a bonus",
+        "user": "UMQA682PJ",
+        "ts": "1576693203.009400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PBO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and well documented as a bonus"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "23410657-e4ea-45ce-b471-62abb1dc3605",
+        "type": "message",
+        "text": "actually i found something",
+        "user": "UMQA682PJ",
+        "ts": "1576693295.009600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m=udz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "actually i found something"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a25b5599-a4ec-413a-8fcf-4b86cea49878",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/issues/1485>",
+        "user": "UMQA682PJ",
+        "ts": "1576693297.009800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1485 Test sentry integration",
+                "text": "*Describe the bug*  \nThere are no unit tests or integration tests for the Sentry integration\n\n*To Reproduce*\n\n1. View this PR: <https://github.com/project-koku/koku/commit/349271ef4e46c2666aed3e39f8f7554236347b98#diff-6e8ff0066d4c6eea60370bbbfb26536a|349271e#diff-6e8ff0066d4c6eea60370bbbfb26536a>\n\n*Expected behavior*  \nCode that is merged with master branch is tested, for example:\n\n```\nfrom unittest import TestCase, mock\nfrom unnittest import TestCase, mock\nimport sentry\ndef test_sentry_init(self):\n    with mock.patch(sentry, autospec=True) as mocked_sentry:\n        mocked_sentry.init(\n            dsn=anystring\n            integrations=CeleryIntegration()\n        )\n...\n\n```\n\nThis test fails if the sentry.init() function does not exist.  \nConversation:  \n<https://github.com/infinitewarp|@infinitewarp> : 1:35 PM Wed Dec 4 2019:  \n\"FWIW, sentry acts like middleware in the sense that we never interact with it directly other than initialization.  \nSo, if you want to add tests, just covering that init call should be good enough.\"",
+                "title": "#1485 Test sentry integration",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/issues/1485",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1575484995,
+                "color": "36a64f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/issues/1485",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "M9L=D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/issues/1485"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f752c482-45c9-48ac-9fcd-680db66ece2a",
+        "type": "message",
+        "text": "i'll do that",
+        "user": "UMQA682PJ",
+        "ts": "1576693307.010100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YNI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'll do that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0373cccb-f298-42da-a76f-aa642c3880c8",
+        "type": "message",
+        "text": "Hold on a moment.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693313.010300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OwHo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hold on a moment."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "96112ab2-ab37-48c7-8b57-588640cb68b8",
+        "type": "message",
+        "text": "So that issue is still in new issues and hasn\u2019t been refined.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693349.010900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "um8TV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So that issue is still in new issues and hasn\u2019t been refined."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef7599f3-5209-44b7-97f6-a6f027667e5a",
+        "type": "message",
+        "text": "So don\u2019t just pull from new issues.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693354.011100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "oSPFc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So don\u2019t just pull from new issues."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3487e1e7-b9a9-430b-93ab-b5f0f6989991",
+        "type": "message",
+        "text": "squashing migrations?",
+        "user": "UMQA682PJ",
+        "ts": "1576693462.011300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iLH8+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "squashing migrations?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "93d97412-d50e-4a7a-900d-da2265b53fef",
+        "type": "message",
+        "text": "Also in the new issues column. Are you looking in zenhub?",
+        "user": "U8FS2P1LH",
+        "ts": "1576693476.011600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fmro",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Also in the new issues column. Are you looking in zenhub?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "db96db1e-e981-44a1-9775-a9c6ebe74d61",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/issues/1536> or <https://github.com/project-koku/koku/issues/1542> would be great fixes to tackle.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693505.011900",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] #1542 group_by[and:value] results in 500s for AWS/OCP on AWS ",
+                "title": "#1542 group_by[and:value] results in 500s for AWS/OCP on AWS ",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/issues/1542",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1576143044,
+                "color": "36a64f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/issues/1542",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Louz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/issues/1536"
+                            },
+                            {
+                                "type": "text",
+                                "text": " or "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/issues/1542"
+                            },
+                            {
+                                "type": "text",
+                                "text": " would be great fixes to tackle."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a3ebc61-9551-41c7-ba16-a8f514cbdcdf",
+        "type": "message",
+        "text": "1542 is a quick win, I can point you to the exact problem.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693602.012400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e/H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "1542 is a quick win, I can point you to the exact problem."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "93850e00-4274-4a01-bedd-d7481e86f9f2",
+        "type": "message",
+        "text": "what's that?",
+        "user": "UMQA682PJ",
+        "ts": "1576693631.012600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CBBkB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what's that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aaeca75c-348c-464b-9156-4a1ce05694d4",
+        "type": "message",
+        "text": "This line: <https://github.com/project-koku/koku/blob/master/koku/api/report/aws/query_handler.py#L87>",
+        "user": "U8FS2P1LH",
+        "ts": "1576693669.012800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/report/aws/query_handler.py:87",
+                "text": "```\n            if q_param in self.parameters.get('group_by', {}).keys():\n```",
+                "title": "koku/api/report/aws/query_handler.py:87",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/api/report/aws/query_handler.py#L87",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/api/report/aws/query_handler.py#L87",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=/TDO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "This line: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/blob/master/koku/api/report/aws/query_handler.py#L87"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2bba9728-2cb5-4045-8796-c4244c0682d6",
+        "type": "message",
+        "text": "what is group_by[and:value]",
+        "user": "UMQA682PJ",
+        "ts": "1576693706.013500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R1xTo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what is group_by[and:value]"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0af0dd68-c921-4b27-a5a7-acc185b27d9d",
+        "type": "message",
+        "text": "That line is expecting the string to match exactly. But the bug describes using `and:account` , which uses a special prefix that we allow to make the filter use a logical AND",
+        "user": "U8FS2P1LH",
+        "ts": "1576693734.014000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "9mM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That line is expecting the string to match exactly. But the bug describes using "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and:account",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " , which uses a special prefix that we allow to make the filter use a logical AND"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d566bb3e-94da-4c7e-8b03-991e306b11ed",
+        "type": "message",
+        "text": "`or:` and `and:` are both accepted prefixes.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693747.014400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ObN1q",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or:",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and:",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " are both accepted prefixes."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "551ab003-0b28-45da-bfa7-7c6b8aa70332",
+        "type": "message",
+        "text": "So the string `and:account` != `account`",
+        "user": "U8FS2P1LH",
+        "ts": "1576693772.014700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wWm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So the string "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and:account",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " != "
+                            },
+                            {
+                                "type": "text",
+                                "text": "account",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "97aab33c-b310-47e7-ab10-89f540104615",
+        "type": "message",
+        "text": "But we still want it to match.",
+        "user": "U8FS2P1LH",
+        "ts": "1576693788.015100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MhAU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "But we still want it to match."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba423a07-f015-4039-8a01-1db425cb23da",
+        "type": "message",
+        "text": "i'll look into that",
+        "user": "UMQA682PJ",
+        "ts": "1576694127.015600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Di38H",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'll look into that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "752822ad-9afa-411b-bed3-cf04d0f79283",
+        "type": "message",
+        "text": "Cool. I\u2019m here for questions.",
+        "user": "U8FS2P1LH",
+        "ts": "1576694418.015800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Edl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Cool. I\u2019m here for questions."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ecc45094-e23e-493d-be19-35fa120f5fdc",
+        "type": "message",
+        "text": "the issue says the issue is for AWS and OCP on AWS, but the steps to reproduce only include AWS, how would i reproduce the issue for OCP on AWS?",
+        "user": "UMQA682PJ",
+        "ts": "1576695017.016400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C73gh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the issue says the issue is for AWS and OCP on AWS, but the steps to reproduce only include AWS, how would i reproduce the issue for OCP on AWS?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d6560895-389e-4149-95c7-d677c87b6d13",
+        "type": "message",
+        "text": "If you look at the query handler for OCP on AWS it is a subclass of `AWSReportQueryHandler` so that\u2019s why it effects it. That 1 line I pasted should be the place that needs fixing.",
+        "user": "U8FS2P1LH",
+        "ts": "1576695144.017200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TFDM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "If you look at the query handler for OCP on AWS it is a subclass of "
+                            },
+                            {
+                                "type": "text",
+                                "text": "AWSReportQueryHandler",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " so that\u2019s why it effects it. That 1 line I pasted should be the place that needs fixing."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b2706a7-61a0-4206-a2b6-b712668bcda3",
+        "type": "message",
+        "text": "i dont know how `and` is related.\n```django.core.exceptions.FieldError: Cannot resolve keyword 'account' into field. Choices are: account_alias, account_alias_id, availability_zone, blended_cost, blended_rate, cost_entry_bill, cost_entry_bill_id, currency_code, date, id, instance_type, markup_cost, normalization_factor, normalized_usage_amount, product_code, product_family, public_on_demand_cost, public_on_demand_rate, region, resource_count, resource_ids, tags, tax_type, unblended_cost, unblended_rate, unit, usage_account_id, usage_amount, usage_end, usage_start```",
+        "user": "UMQA682PJ",
+        "ts": "1576696718.018100",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576696737.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PBsf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i dont know how "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " is related.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "django.core.exceptions.FieldError: Cannot resolve keyword 'account' into field. Choices are: account_alias, account_alias_id, availability_zone, blended_cost, blended_rate, cost_entry_bill, cost_entry_bill_id, currency_code, date, id, instance_type, markup_cost, normalization_factor, normalized_usage_amount, product_code, product_family, public_on_demand_cost, public_on_demand_rate, region, resource_count, resource_ids, tags, tax_type, unblended_cost, unblended_rate, unit, usage_account_id, usage_amount, usage_end, usage_start"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b4fc73a1-1c75-4605-9505-0d6483d1e85c",
+        "type": "message",
+        "text": "but i guess it has to be since the query works without `and`",
+        "user": "UMQA682PJ",
+        "ts": "1576696814.018800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+Up2k",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but i guess it has to be since the query works without "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cc2f0304-0428-4740-a907-e99954c86f67",
+        "type": "message",
+        "text": "what is the `and` supposed to do?",
+        "user": "UMQA682PJ",
+        "ts": "1576696935.019000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rRx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what is the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " supposed to do?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a830bb9c-39bd-4960-9dcc-30b2321e9e20",
+        "type": "message",
+        "text": "The `and:` prefix allows the use of a logical and operator on the filter or group by.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697225.019500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fBm1G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "The "
+                            },
+                            {
+                                "type": "text",
+                                "text": "and:",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " prefix allows the use of a logical and operator on the filter or group by."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d06b2e69-9eb1-4b2f-b264-eb5a630c6bb2",
+        "type": "message",
+        "text": "As a silly example, if you say `filter[and:account]=account1,account2` then the account must contain account1 and account2 to return a result.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697271.020400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1eq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "As a silly example, if you say "
+                            },
+                            {
+                                "type": "text",
+                                "text": "filter[and:account]=account1,account2",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " then the account must contain account1 and account2 to return a result."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76f871bf-fb59-400e-a84f-d23ac967fab5",
+        "type": "message",
+        "text": "logical or would return if the account contained either string.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697282.020700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gs=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "logical or would return if the account contained either string."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f109c355-1375-4ad3-8369-c46b595fed5f",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1576697329.021300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "k9FP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gotcha"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3d16e36b-e7b1-44de-9607-1304ca72164b",
+        "type": "message",
+        "text": "Do you see the issue with the line I posted?",
+        "user": "U8FS2P1LH",
+        "ts": "1576697330.021400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "uVB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Do you see the issue with the line I posted?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9a495cb6-52c2-4e1c-be13-259563feb166",
+        "type": "message",
+        "text": "Will gladly step through the logic if not.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697355.022000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wRCKS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Will gladly step through the logic if not."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4c731d2-cc71-4ef7-a60f-49076c8eca7d",
+        "type": "message",
+        "text": "still debugging it to see",
+        "user": "UMQA682PJ",
+        "ts": "1576697356.022100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2S2j3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "still debugging it to see"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4efe9dfc-a94a-455e-a576-698144162f82",
+        "type": "message",
+        "text": "Okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697360.022300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=4/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d07fb92f-aefe-4bf0-ad65-0e1bf530d3ab",
+        "type": "message",
+        "text": "so in this query `?group_by[and:account]=7777&amp;group_by[and:account]=4444` is the client asking for results that contain account=7777 AND account=4444 (logical AND)?",
+        "user": "UMQA682PJ",
+        "ts": "1576697874.023400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576697883.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IW1AA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so in this query "
+                            },
+                            {
+                                "type": "text",
+                                "text": "?group_by[and:account]=7777&group_by[and:account]=4444",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " is the client asking for results that contain account=7777 AND account=4444 (logical AND)?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90d3d75c-fd13-4ec7-9b4f-deff6476d828",
+        "type": "message",
+        "text": "so another way to write this is ?group_by[and:account]=7777,4444",
+        "user": "UMQA682PJ",
+        "ts": "1576697916.024000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LFBnY",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so another way to write this is ?group_by[and:account]=7777,4444"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b82d76a-53f6-4dd2-b1fe-2f4cf266d170",
+        "type": "message",
+        "text": "Yes.",
+        "user": "U8FS2P1LH",
+        "ts": "1576697918.024100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iITS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0bca2baa-d618-44bd-a575-503cd7d7fc2d",
+        "type": "message",
+        "text": "Are you taking any days off pre shutdown?",
+        "user": "U8FS2P1LH",
+        "ts": "1576705480.024700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gphWS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Are you taking any days off pre shutdown?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "be4192e6-036a-4102-ba6f-12aefc26a11a",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1576705485.024900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d2c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "10555093-1aaa-4dbf-8055-c095715264e2",
+        "type": "message",
+        "text": "Okay. Then we can queue up stuff tomorrow for Friday/Monday since I will be out.",
+        "user": "U8FS2P1LH",
+        "ts": "1576705518.025400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D/j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Okay. Then we can queue up stuff tomorrow for Friday/Monday since I will be out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

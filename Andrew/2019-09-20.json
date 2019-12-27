@@ -1,0 +1,365 @@
+[
+    {
+        "client_msg_id": "EB5F79A0-5C99-4E66-B9F4-405D9B34F7A8",
+        "type": "message",
+        "text": "I updated the commit with python 3.6 <https://github.com/project-koku/koku/pull/1144>",
+        "user": "UMQA682PJ",
+        "ts": "1568992965.000800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1144 Update README",
+                "text": "Must brew install python3 on Mac",
+                "title": "#1144 Update README",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1144",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1568991452,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Comments",
+                        "value": "1",
+                        "short": true
+                    },
+                    {
+                        "title": "Reviewers",
+                        "value": "@maskarb",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1144",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7861c310-5fc3-4468-abc8-1bf89c9e8050",
+        "type": "message",
+        "text": "Awesome, did that work for you BTW? Had you already installed 3.7 and were you able to switch to 3.6?",
+        "user": "U8FS2P1LH",
+        "ts": "1568992985.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "096E14F5-2B9D-4BB8-828F-110C27A77567",
+        "type": "message",
+        "text": "I haven\u2019t tried the brew unlinking and installing 3.6 yet",
+        "user": "UMQA682PJ",
+        "ts": "1568993017.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39094D50-F035-4BED-B764-30E1792FA584",
+        "type": "message",
+        "text": "The project seems to work with 3.7",
+        "user": "UMQA682PJ",
+        "ts": "1568993033.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "907ED270-9E17-4CF3-8307-3E4DC7AEC4CB",
+        "type": "message",
+        "text": "Well, i guess since I haven\u2019t tried it yet it doesnt make sense to commit that to documentation yet either..",
+        "user": "UMQA682PJ",
+        "ts": "1568993098.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9048a465-e35d-4097-866a-945118f42eb0",
+        "type": "message",
+        "text": "That\u2019s what I was getting at.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993106.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e16320ef-b034-493b-9719-b6e9b52d328a",
+        "type": "message",
+        "text": "3.7 should work fine. It\u2019s mostly just about parity with what is deployed.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993148.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f90a75b-646c-4484-988c-19074dd0bc3d",
+        "type": "message",
+        "text": "OpenShift and docker both use 3.6, and if you stick with 3.7 it\u2019s almost certainly going to be fine. Travis tests both 3.6 and 3.7 right now.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993184.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a912c15-928a-44be-904b-f96921c99491",
+        "type": "message",
+        "text": "Annoyingly, there isn\u2019t a centos7 base image for Python 3.7.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993241.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "AECE9428-AF3A-463D-8990-7A3862B04C5F",
+        "type": "message",
+        "text": "Ok, i think i\u2019ll delete the PR for now.",
+        "user": "UMQA682PJ",
+        "ts": "1568993253.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72A23879-0AEE-4D2E-9A8A-FCB275D86CBF",
+        "type": "message",
+        "text": "And come back later ",
+        "user": "UMQA682PJ",
+        "ts": "1568993257.007200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0207a35-9147-4c15-9e8e-96569d904339",
+        "type": "message",
+        "text": "Okay, that\u2019s fine.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993270.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f1fe36d-20e3-4a7e-8bac-48e3c11a67b4",
+        "type": "message",
+        "text": "I am hoping that we get some CentOS updates soon, to sync with RHEL 8 and what not. Hopefully not too long after that we can just switch everything to Python 3.7.",
+        "user": "U8FS2P1LH",
+        "ts": "1568993304.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bbef4bf3-f81a-4e70-b367-745e8a362408",
+        "type": "message",
+        "text": "how do we install psycopg2 on a mac?",
+        "user": "UMQA682PJ",
+        "ts": "1568994189.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e1039cce-12e5-429a-bc79-b3cace6dd379",
+        "type": "message",
+        "text": "the pipenv install --dev fails on mac",
+        "user": "UMQA682PJ",
+        "ts": "1568994200.008900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22ce2b22-1fa9-4636-9878-b2a1f1539fc2",
+        "type": "message",
+        "text": "An error occurred while installing psycopg2==2.8.3",
+        "user": "UMQA682PJ",
+        "ts": "1568994217.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e04d4570-35bb-4be8-9633-394f14521b2f",
+        "type": "message",
+        "text": "Checkout *Note for Mac OSX users` in the README",
+        "user": "U8FS2P1LH",
+        "ts": "1568994231.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "374969c1-e01f-4a41-a40b-1932df9f1b92",
+        "type": "message",
+        "text": "Do you have postgres installed locally?",
+        "user": "U8FS2P1LH",
+        "ts": "1568994263.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8290374a-e90f-4008-86da-d1718e780d55",
+        "type": "message",
+        "text": "yes, i did `brew install postgresql`",
+        "user": "UMQA682PJ",
+        "ts": "1568994273.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "745beeab-5851-4b9b-a665-4041cdfa6310",
+        "type": "message",
+        "text": "Okay, cool. So it\u2019s likely the openssl issue.",
+        "user": "U8FS2P1LH",
+        "ts": "1568994291.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "95a6cd65-f253-435c-8ac5-9b5ec70afdcb",
+        "type": "message",
+        "text": "oh, totally glazed over that part",
+        "user": "UMQA682PJ",
+        "ts": "1568994320.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "13d780a1-1e1a-4190-b48f-9caeab5aa22d",
+        "type": "message",
+        "text": "Easy to miss.",
+        "user": "U8FS2P1LH",
+        "ts": "1568994327.011600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b5c70158-f0ad-4af9-89d2-582a08b8675a",
+        "type": "message",
+        "text": "brew install openssl",
+        "user": "UMQA682PJ",
+        "ts": "1568994330.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5bb2fa11-c5c7-4a85-8370-323883b371aa",
+        "type": "message",
+        "text": "is this normal:",
+        "user": "UMQA682PJ",
+        "ts": "1568995015.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e504d67-d4a0-4aba-a165-6e60b83a0496",
+        "type": "message",
+        "text": "Unlinking /usr/local/Cellar/openssl/1.0.2s... 0 symlinks removed\nWarning: Refusing to link macOS-provided software: openssl",
+        "user": "UMQA682PJ",
+        "ts": "1568995016.012200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ab2d7024-0a35-478a-a25a-b123ea320bc4",
+        "type": "message",
+        "text": "i had run this command: `brew unlink openssl &amp;&amp; brew link openssl --force`",
+        "user": "UMQA682PJ",
+        "ts": "1568995040.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e12f9101-a419-4bfc-bdb6-6eab1173f859",
+        "type": "message",
+        "text": "the psycopg2 install failed",
+        "user": "UMQA682PJ",
+        "ts": "1568995196.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ccc3e10-b05a-4304-a3ae-268ab50f953a",
+        "type": "message",
+        "text": "Yeah, force is fine there.",
+        "user": "U8FS2P1LH",
+        "ts": "1568995222.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "125612fe-2768-463f-9585-4fd994cfbcd3",
+        "type": "message",
+        "text": "So it\u2019s not actually deleting anything mac provided, just making the symlink point to the more updated brew installed openssl",
+        "user": "U8FS2P1LH",
+        "ts": "1568995246.013800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "991a9641-32e2-4e62-8f72-029b5a33cea5",
+        "type": "message",
+        "text": "Okay, you modified your PATH?",
+        "user": "U8FS2P1LH",
+        "ts": "1568995257.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "514d1516-3b37-41c1-9a75-b201b890ad63",
+        "type": "message",
+        "text": "and added those flags to your env? Did you then source your env so those environment variables were set?",
+        "user": "U8FS2P1LH",
+        "ts": "1568995278.014600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7d11957-5cfc-4efd-a202-54089ca292ad",
+        "type": "message",
+        "text": "wait, missed the path thing.",
+        "user": "UMQA682PJ",
+        "ts": "1568995285.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "64c8bbd6-ce41-4cc9-ad3f-5aa181876d2e",
+        "type": "message",
+        "text": "Yes, follow allll the instructions.",
+        "user": "U8FS2P1LH",
+        "ts": "1568995300.015400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f655c62-cfe6-4e78-a99f-bb8fd5d4dda0",
+        "type": "message",
+        "text": "sorry, didn't get much sleep last night.",
+        "user": "UMQA682PJ",
+        "ts": "1568995304.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e22b1195-8091-45e6-bb32-2016cd4619e5",
+        "type": "message",
+        "text": "No problem at all.",
+        "user": "U8FS2P1LH",
+        "ts": "1568995315.015800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8ef7c347-7743-4ed8-a01e-17677df6ad8f",
+        "type": "message",
+        "text": "Hey, if i wanted to query the amazon data directly from S3 instead of postgres, which bucket is that?",
+        "user": "UMQA682PJ",
+        "ts": "1569002292.016300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8cdbb8e3-8040-425e-b3af-8c1682732a2a",
+        "type": "message",
+        "text": "You mean just download the CSV file and look at it?",
+        "user": "U8FS2P1LH",
+        "ts": "1569002445.016600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b0d3f05b-a9b4-4e87-b472-4cc3ce7d08fe",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1569002470.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "14975bde-8801-4b12-87b8-24cbab275db4",
+        "type": "message",
+        "text": "I believe it\u2019s `cost-usage-bucket`",
+        "user": "U8FS2P1LH",
+        "ts": "1569002492.017000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4b8137a4-1b1a-45c7-b45e-badd9d53499b",
+        "type": "message",
+        "text": "yep, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1569002513.017200",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "thumbs-up-left",
+                "users": [
+                    "U8FS2P1LH"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

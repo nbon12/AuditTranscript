@@ -1,0 +1,844 @@
+[
+    {
+        "client_msg_id": "0dc90753-b8fe-450f-8ceb-81f74dff5b45",
+        "type": "message",
+        "text": "Hey Brett! question: What's an e2e_repo clone?",
+        "user": "UMQA682PJ",
+        "ts": "1574784760.032000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=no",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hey Brett! question: What's an e2e_repo clone?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f85dd8e3-c2a2-4e78-a7cf-ca96f5a74260",
+        "type": "message",
+        "text": "it's a `git clone` of <https://github.com/RedHatInsights/e2e-deploy/>",
+        "user": "U9RH8D20Y",
+        "ts": "1574784789.032300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cnCvz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it's a "
+                            },
+                            {
+                                "type": "text",
+                                "text": "git clone",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " of "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/RedHatInsights/e2e-deploy/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "01f1d395-98ff-4aac-965f-8c38660e4e39",
+        "type": "message",
+        "text": "It's the path on your local filesystem where you've got the repo cloned.",
+        "user": "U9RH8D20Y",
+        "ts": "1574784814.032800",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U9RH8D20Y",
+            "ts": "1574784818.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "luP8P",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It's the path on your local filesystem where you've got the repo cloned."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a209d3a6-7e52-4364-8739-79594494275d",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1574784820.033100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2WPD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "gotcha"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa26b4f1-9012-46bb-8a20-e7fce6e5b1c1",
+        "type": "message",
+        "text": "Regarding the REGISTRY_REDHAT_IO_SECRETS variable, should I create a New Service Account for that?",
+        "user": "UMQA682PJ",
+        "ts": "1574786508.034300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "I/s",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Regarding the REGISTRY_REDHAT_IO_SECRETS variable, should I create a New Service Account for that?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6fa8fe9f-ff1e-4c48-a0a2-5f3c0d5ec18b",
+        "type": "message",
+        "text": "Yep. :slightly_smiling_face:",
+        "user": "U9RH8D20Y",
+        "ts": "1574786541.034900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iz2G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yep. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0ec21bfe-4160-4400-a79b-9feaa69fb90f",
+        "type": "message",
+        "text": "which absolute URI does the REGISTRY_REDHAT_IO_SECRETS= need to be set to?",
+        "user": "UMQA682PJ",
+        "ts": "1574786908.035800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3A0c",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "which absolute URI does the REGISTRY_REDHAT_IO_SECRETS= need to be set to?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "437ff33b-d451-4e6c-906c-642e6b5c8164",
+        "type": "message",
+        "text": "the file path to the secrets yaml",
+        "user": "U9RH8D20Y",
+        "ts": "1574786921.036100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "MIpvG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the file path to the secrets yaml"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9e907696-fd0f-40bd-b091-85ffa3c5e443",
+        "type": "message",
+        "text": "Mine is:\n`REGISTRY_REDHAT_IO_SECRETS=${HOME}/6340056_blentz-secret.yaml`",
+        "user": "U9RH8D20Y",
+        "ts": "1574786952.036500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ixhn8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Mine is:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "REGISTRY_REDHAT_IO_SECRETS=${HOME}/6340056_blentz-secret.yaml",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5ad17740-9117-4534-bd89-d7f82cf6a25f",
+        "type": "message",
+        "text": "looks like this:\napiVersion: v1\nkind: Secret\nmetadata:\n  name: 12705040-PandaVice-pull-secret\ndata:\n  .dockerconfigjson: &lt;snip&gt;\ntype: <http://kubernetes.io/dockerconfigjson|kubernetes.io/dockerconfigjson>",
+        "user": "UMQA682PJ",
+        "ts": "1574786982.037000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hhIen",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "looks like this:\napiVersion: v1\nkind: Secret\nmetadata:\n  name: 12705040-PandaVice-pull-secret\ndata:\n  .dockerconfigjson: <snip>\ntype: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http://kubernetes.io/dockerconfigjson",
+                                "text": "kubernetes.io/dockerconfigjson"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "32fd6593-63f2-4c50-b4e1-74f6c3b06bad",
+        "type": "message",
+        "text": "right?",
+        "user": "UMQA682PJ",
+        "ts": "1574786985.037200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Qxp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c269e384-78f2-475f-8af4-a382b75152cc",
+        "type": "message",
+        "text": "right",
+        "user": "U9RH8D20Y",
+        "ts": "1574786990.037500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OCG5",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "12d25fbd-356e-427a-8662-a77cf4702673",
+        "type": "message",
+        "text": "So, just edit the e2e-deploy script to point to where you have that file",
+        "user": "U9RH8D20Y",
+        "ts": "1574787015.038000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=doE2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So, just edit the e2e-deploy script to point to where you have that file"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf089783-b2d1-4f89-acad-92294aa6df79",
+        "type": "message",
+        "text": "Regarding IQE, which file is yours set to?",
+        "user": "UMQA682PJ",
+        "ts": "1574788282.039300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jbj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Regarding IQE, which file is yours set to?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90a38e09-6fca-47d9-a93b-5bdadf7ed08f",
+        "type": "message",
+        "text": "the path to the binary",
+        "user": "UMQA682PJ",
+        "ts": "1574788289.039500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iPE6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the path to the binary"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e65b1c52-ef4e-4c31-b9e6-a856d0200fe8",
+        "type": "message",
+        "text": "I don't have IQE in my PATH",
+        "user": "UMQA682PJ",
+        "ts": "1574788295.039800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gMVur",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't have IQE in my PATH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ef0fea4e-61fb-4a99-83b1-363e1a8b5002",
+        "type": "message",
+        "text": "i'm not sure which iqe file to put into PATH",
+        "user": "UMQA682PJ",
+        "ts": "1574788303.040100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "37p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'm not sure which iqe file to put into PATH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e07e5161-dbb5-4f11-8e32-72c5e5308ff7",
+        "type": "message",
+        "text": "I use the `make docker-iqe-smokes-tests` that Doug made so I wouldn't need IQE in PATH",
+        "user": "UMQA682PJ",
+        "ts": "1574788325.040600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NHNZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I use the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "make docker-iqe-smokes-tests",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " that Doug made so I wouldn't need IQE in PATH"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "76312e2f-18a3-4143-8937-bd358f2f5d01",
+        "type": "message",
+        "text": "k. i've never used any of the docker-compose stuff. i can't really speak to what it does or how it works.",
+        "user": "U9RH8D20Y",
+        "ts": "1574788362.041100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IW6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "k. i've never used any of the docker-compose stuff. i can't really speak to what it does or how it works."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd095a46-563b-4a84-a6fd-fb348821f551",
+        "type": "message",
+        "text": "i've got a clone of this repo: <https://gitlab.cee.redhat.com/insights-qe/iqe-tests.git>",
+        "user": "U9RH8D20Y",
+        "ts": "1574788383.041500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AJx56",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i've got a clone of this repo: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/iqe-tests.git"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "65ed1bf1-7d63-4685-acd0-d2b3481fbdce",
+        "type": "message",
+        "text": "if you follow the install instructions in the README for that repo, it'll walk you through installing the `iqe` command and libraries",
+        "user": "U9RH8D20Y",
+        "ts": "1574788416.042200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DdHU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if you follow the install instructions in the README for that repo, it'll walk you through installing the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "iqe",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " command and libraries"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "709f6d7a-7b88-49da-b5aa-fab81db11aaf",
+        "type": "message",
+        "text": "How's the IQE stuff going? Have you hit any snags?",
+        "user": "U9RH8D20Y",
+        "ts": "1574794069.043100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "7G/LQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "How's the IQE stuff going? Have you hit any snags?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83a0b469-3ca3-497f-8d4d-f2f03dc39415",
+        "type": "message",
+        "text": "I was out at lunch, just starting now.",
+        "user": "UMQA682PJ",
+        "ts": "1574794221.043300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1NWD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I was out at lunch, just starting now."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ba326add-20fc-4e0c-8024-88f4bcdbda2a",
+        "type": "message",
+        "text": "ok, no worries. I just want to make sure I don't leave you hanging. :slightly_smiling_face:",
+        "user": "U9RH8D20Y",
+        "ts": "1574794236.043700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U40Ia",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok, no worries. I just want to make sure I don't leave you hanging. "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "slightly_smiling_face"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8fa4c34-b4e2-4baa-b34d-913cc76e905e",
+        "type": "message",
+        "text": "is the hccm plugin required to be installed?",
+        "user": "UMQA682PJ",
+        "ts": "1574794418.044900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FU2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is the hccm plugin required to be installed?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7d332b93-ddf9-46f8-bac4-def05b59dc92",
+        "type": "message",
+        "text": "yep, those are the hccm-specific tests",
+        "user": "U9RH8D20Y",
+        "ts": "1574794434.045300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z9R+=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep, those are the hccm-specific tests"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "33a5355f-b864-4383-af16-a4c6bd1638de",
+        "type": "message",
+        "text": "all told, i think it amounts to needing 4 git repos cloned.",
+        "user": "U9RH8D20Y",
+        "ts": "1574794501.046100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8dDD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "all told, i think it amounts to needing 4 git repos cloned."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8dcb7ecf-d704-429e-b869-3a0cb3be0113",
+        "type": "message",
+        "text": "\u2022 koku\n\u2022 e2e-deploy\n\u2022 iqe-tests\n\u2022 hccm-plugin",
+        "user": "U9RH8D20Y",
+        "ts": "1574794515.046500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aDv1m",
+                "elements": [
+                    {
+                        "type": "rich_text_list",
+                        "elements": [
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "koku"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "e2e-deploy"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "iqe-tests"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "rich_text_section",
+                                "elements": [
+                                    {
+                                        "type": "text",
+                                        "text": "hccm-plugin"
+                                    }
+                                ]
+                            }
+                        ],
+                        "style": "bullet",
+                        "indent": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "340df641-6200-4107-9bd0-7380c2fc6449",
+        "type": "message",
+        "text": "I'm currently trying to simplify all that, or at least get some scripting around it so that it's easier to manage.",
+        "user": "U9RH8D20Y",
+        "ts": "1574794543.047100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gLc1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm currently trying to simplify all that, or at least get some scripting around it so that it's easier to manage."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

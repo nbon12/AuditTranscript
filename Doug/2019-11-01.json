@@ -1,0 +1,578 @@
+[
+    {
+        "client_msg_id": "541bb8b4-8103-4130-bdd9-2accfadb2933",
+        "type": "message",
+        "text": "Hey are you in the office?",
+        "user": "UMQA682PJ",
+        "ts": "1572621887.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ab0b2d6-974b-4959-a41d-4d389dc3dffa",
+        "type": "message",
+        "text": "hey Nick, not today",
+        "user": "UAR1CADNV",
+        "ts": "1572621899.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f14a9f59-1648-476a-b277-659e282873fe",
+        "type": "message",
+        "text": "are you going to The Show?",
+        "user": "UMQA682PJ",
+        "ts": "1572622055.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "07ffa037-8cb7-41f0-8bea-a5147f0994e7",
+        "type": "message",
+        "text": "yeah I\u2019ve thought about it, that starts at 2?",
+        "user": "UAR1CADNV",
+        "ts": "1572622070.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3ea536a1-fdf9-48a6-919f-46601cfc35d0",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572622080.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bb64eeb6-7261-4c95-9098-53896e7eff95",
+        "type": "message",
+        "text": "Also I have a question",
+        "user": "UMQA682PJ",
+        "ts": "1572622117.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae829ef9-7012-45e0-b1a0-c6114a917893",
+        "type": "message",
+        "text": "my /download masu endpoint isn't doing anything",
+        "user": "UMQA682PJ",
+        "ts": "1572622125.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cce58a90-71db-47ea-8d5c-199e45bcf4c7",
+        "type": "message",
+        "text": "even in the Masu logs, there's no trace of the request being received",
+        "user": "UMQA682PJ",
+        "ts": "1572622138.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c8ba808-93d6-4aa5-b2e4-d76b03ec7bac",
+        "type": "message",
+        "text": "provider is setup?",
+        "user": "UAR1CADNV",
+        "ts": "1572622150.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1bbf4d27-3707-44fc-9584-542944b395b6",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572622154.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "53a57c89-f2a0-432c-8a4b-084599f98e19",
+        "type": "message",
+        "text": "oh wait",
+        "user": "UMQA682PJ",
+        "ts": "1572622166.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3d4fe99-6239-4cc5-8ae7-eaebd46aebc7",
+        "type": "message",
+        "text": "yes , it is",
+        "user": "UMQA682PJ",
+        "ts": "1572622215.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a64dd8e0-b603-4654-b67a-1ab7faf954d5",
+        "type": "message",
+        "text": "phew :slightly_smiling_face:",
+        "user": "UAR1CADNV",
+        "ts": "1572622222.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "937e9260-9b66-4e59-b39f-ee905cb175c4",
+        "type": "message",
+        "text": "```\n{\n            \"uuid\": \"219e4ede-c3f2-4306-9495-2bf29788d5b1\",\n            \"name\": \"RealAWSProvider\",\n            \"type\": \"AWS\",\n            \"authentication\": {\n                \"uuid\": \"0ef683e0-e967-43e2-916f-c14dc20bef94\",\n                \"provider_resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\",\n                \"credentials\": {\n                    \"provider_resource_name\": \"arn:aws:iam::589173575009:role/CostManagement\"\n                }\n            },\n            \"billing_source\": {\n                \"uuid\": \"ee218071-3d70-4174-9ce7-32bf6477a278\",\n                \"bucket\": \"cost-usage-bucket\",\n                \"data_source\": {\n                    \"bucket\": \"cost-usage-bucket\"\n                }\n            },\n            \"customer\": {\n                \"uuid\": \"1704b218-2828-4a0c-b20b-1e9251539d97\",\n                \"account_id\": \"10001\",\n                \"date_created\": \"2019-10-24T18:55:25.917689Z\"\n            },\n            \"created_by\": {\n                \"uuid\": \"aae7f8dd-6689-45c8-a3fb-bc32997357bc\",\n                \"username\": \"user_dev\",\n                \"email\": \"<mailto:user_dev@foo.com|user_dev@foo.com>\"\n            },\n            \"created_timestamp\": \"2019-11-01T15:27:48.086115Z\",\n            \"stats\": {},\n            \"infrastructure\": \"Unknown\"\n        }\n    ]\n}\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572622226.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4218c9a6-998b-4a87-9654-52df51fe19fa",
+        "type": "message",
+        "text": "i have a bunch of other providers too, it seems",
+        "user": "UMQA682PJ",
+        "ts": "1572622251.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "424a0875-3a57-45df-bfb5-f49e7575eca5",
+        "type": "message",
+        "text": "looks like it hasnt downloaded anything",
+        "user": "UAR1CADNV",
+        "ts": "1572622252.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4fa7e776-99f4-48f8-b4de-f19ab59d303b",
+        "type": "message",
+        "text": "how do you know?",
+        "user": "UMQA682PJ",
+        "ts": "1572622273.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8cef3d2d-ddfe-4d34-b6ad-a8365d354942",
+        "type": "message",
+        "text": "`\"stats\": {}`",
+        "user": "UAR1CADNV",
+        "ts": "1572622282.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "837b19a3-03fa-4f7d-8d64-e8e395268945",
+        "type": "message",
+        "text": "that will show datetimes when processing is complete",
+        "user": "UAR1CADNV",
+        "ts": "1572622292.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e82214e-40b9-4aba-be17-2519d1d08457",
+        "type": "message",
+        "text": "I went to this endpoint in my browser: `<http://localhost:5000/api/cost-management/v1/download/>` but the \"waiting for localhost\" continues",
+        "user": "UMQA682PJ",
+        "ts": "1572622325.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0542af8-70bc-47d8-887a-5a35a3500ad3",
+        "type": "message",
+        "text": "ah ok",
+        "user": "UAR1CADNV",
+        "ts": "1572622336.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4369c7a1-c59f-4196-8a7a-c4f59b0ee620",
+        "type": "message",
+        "text": "thats strange",
+        "user": "UAR1CADNV",
+        "ts": "1572622341.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f041fc76-dc90-4990-be6e-38f80e6acbb1",
+        "type": "message",
+        "text": "masu-server is running?",
+        "user": "UAR1CADNV",
+        "ts": "1572622345.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58b4a551-2ae7-4ae2-9da0-c23722277d65",
+        "type": "message",
+        "text": "yes, masu-server is running, when I go to the /status endpoint, I get a 200 response and the masu logs show : `masu_server       | [2019-11-01 15:32:35,603] INFO: \"GET /api/cost-management/v1/status/ HTTP/1.1\" 200 14409`",
+        "user": "UMQA682PJ",
+        "ts": "1572622405.007900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae12ee6a-2613-48ec-9053-a3a118058835",
+        "type": "message",
+        "text": "but just hangs for download?",
+        "user": "UAR1CADNV",
+        "ts": "1572622420.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "880b31fe-3174-4944-868a-ff488e0d7143",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1572622423.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f0392c5-5d44-48c2-9648-572b034c57af",
+        "type": "message",
+        "text": "and there's no log entry either",
+        "user": "UMQA682PJ",
+        "ts": "1572622428.008500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7dda2b2e-0cad-433d-bd65-d4b6cc7e7760",
+        "type": "message",
+        "text": "yeah",
+        "user": "UAR1CADNV",
+        "ts": "1572622433.008700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "84e1eed8-262d-4e9f-9e0a-c16be0b8c426",
+        "type": "message",
+        "text": "do you have a breakpoint set or something like that?",
+        "user": "UAR1CADNV",
+        "ts": "1572622445.009000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d9c8a86b-7f78-43f9-95eb-6ece3ce65d07",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1572622475.009200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f8240d6-8b61-4611-882d-afc2147c16bb",
+        "type": "message",
+        "text": "I think this was happening on master as well, I can double-check though.",
+        "user": "UMQA682PJ",
+        "ts": "1572622493.009500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1adf6466-f68e-4c5f-9d60-1dbb68f69b0d",
+        "type": "message",
+        "text": "yeah maybe double check that.",
+        "user": "UAR1CADNV",
+        "ts": "1572622510.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "68bf5f3d-49e0-4641-bc8f-448a579c004c",
+        "type": "message",
+        "text": "yes, same issue",
+        "user": "UMQA682PJ",
+        "ts": "1572622600.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4384716e-b87b-4b04-bec9-0338d8f1bdde",
+        "type": "message",
+        "text": "maybe i should delete all my providers and do a reinit-db",
+        "user": "UMQA682PJ",
+        "ts": "1572622633.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "206f85e5-0f8c-4858-ace8-cd0f94cdd5e9",
+        "type": "message",
+        "text": "i think reinit-db auto adds them back though.",
+        "user": "UMQA682PJ",
+        "ts": "1572622660.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "547627d1-2f66-4718-8e86-5554b1733493",
+        "type": "message",
+        "text": "hmm weird, I mean that shouldn\u2019t be blocking the download endpoint",
+        "user": "UAR1CADNV",
+        "ts": "1572622687.011400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "457a98d9-ec88-4689-8864-fc8dce34d47c",
+        "type": "message",
+        "text": "yeah I mean even with no providers the download endpoitn should still run ok",
+        "user": "UAR1CADNV",
+        "ts": "1572623180.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "28e599df-e6a0-47d1-a571-e8b9c23b3ee7",
+        "type": "message",
+        "text": "ahh totalyl frogot celery was in the mix there :wink:",
+        "user": "UAR1CADNV",
+        "ts": "1572623335.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a23741d-ead2-4736-8d83-f4e79c37f6d9",
+        "type": "message",
+        "text": "if you are using docker-compose rabbit should be coming up just fine.. Do you have any other environment variable changes?",
+        "user": "UAR1CADNV",
+        "ts": "1572623473.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "30a170d3-cbc3-4456-915b-3a804d1911bc",
+        "type": "message",
+        "text": "maybe it\u2019s just misconfigured",
+        "user": "UAR1CADNV",
+        "ts": "1572623483.013000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ac2c0b4-5075-46b6-9957-7c8000439e5a",
+        "type": "message",
+        "text": "how do I configure celery?",
+        "user": "UMQA682PJ",
+        "ts": "1572623684.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f5238286-837b-420c-8325-a7fa2b3cf4f2",
+        "type": "message",
+        "text": "well you shouldn\u2019t really have to with docker-compose",
+        "user": "UAR1CADNV",
+        "ts": "1572623697.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "66e0af08-97a0-4d68-a897-4b776258f766",
+        "type": "message",
+        "text": "defaults are already setup",
+        "user": "UAR1CADNV",
+        "ts": "1572623701.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2c45bbaa-e0ab-4621-b64b-d3313f2f0172",
+        "type": "message",
+        "text": "what environment variables do you have set?",
+        "user": "UAR1CADNV",
+        "ts": "1572623710.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "30681f52-44bc-4875-a43f-a2e66d413360",
+        "type": "message",
+        "text": "```\nDATABASE_SERVICE_NAME=POSTGRES_SQL\nDATABASE_ENGINE=postgresql\nDATABASE_NAME=postgres\n\nPOSTGRES_SQL_SERVICE_HOST=localhost\nPOSTGRES_SQL_SERVICE_PORT=15432\nDATABASE_USER=postgres\nDATABASE_ADMIN=postgres\nDATABASE_PASSWORD=postgres\nDEVELOPMENT=True\n\nAWS_ACCESS_KEY_ID=&lt;snip&gt;\nAWS_SECRET_ACCESS_KEY=&lt;snip&gt;\nENABLE_S3_ARCHIVING=True\nS3_BUCKET_NAME=koku-bucket\nS3_BUCKET_PATH=data_archive\n\n#GOOGLE_APPLICATION_CREDENTIALS=/path/to/gcp/credentials\nLDFLAGS=\"-L/usr/local/opt/openssl/lib\"\nCPPFLAGS=\"-I/usr/local/opt/openssl/include\"\n\nRABBITMQ_HOST=${RABBITMQ_HOST-koku-rabbit}\nRABBITMQ_PORT=5672\nLOG_LEVEL=INFO\nDJANGO_SETTINGS_MODULE=koku.settings\nMASU_SECRET_KEY=abc\nprometheus_multiproc_dir=/tmp\nSCHEDULE_REPORT_CHECKS=True\nSCHEDULE_CHECK_INTERVAL=10000000\nUPLOAD_NORMALIZED_DATA_INTERVAL=10000000\n```",
+        "user": "UMQA682PJ",
+        "ts": "1572623747.014300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f970c712-35c8-433d-ad29-df1ca56d6a65",
+        "type": "message",
+        "text": "can you try removing the RABBITMQ ones",
+        "user": "UAR1CADNV",
+        "ts": "1572623781.014500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aca75367-3404-464b-b4c4-6e65e186ba10",
+        "type": "message",
+        "text": "they are set to the compose defaults.. but it\u2019s worth a try",
+        "user": "UAR1CADNV",
+        "ts": "1572623845.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94442910-43b3-4ee7-ae74-b29d7a4f6d83",
+        "type": "message",
+        "text": "i deleted them and ran `docker-compose restart` and the issue is still there",
+        "user": "UMQA682PJ",
+        "ts": "1572623931.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57c4d59c-5dc4-48b0-9cd6-1360b679a66e",
+        "type": "message",
+        "text": "I think you have to bring it down",
+        "user": "UAR1CADNV",
+        "ts": "1572623943.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d10475de-ba84-469d-ae2c-9714e1c20418",
+        "type": "message",
+        "text": "hopefully a build isn't required",
+        "user": "UMQA682PJ",
+        "ts": "1572623944.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f66e3374-80a2-4ee1-9a32-3cfac9c3114a",
+        "type": "message",
+        "text": "docker-compose down",
+        "user": "UAR1CADNV",
+        "ts": "1572623946.016200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6812294a-e671-47f5-84f0-21797bac10fc",
+        "type": "message",
+        "text": "gotcha, doing that",
+        "user": "UMQA682PJ",
+        "ts": "1572623955.016400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c6296eb-d666-422f-890c-1cce3b1b9d9a",
+        "type": "message",
+        "text": "i don\u2019t think restarting will re-set the environment",
+        "user": "UAR1CADNV",
+        "ts": "1572623965.016700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f6de5d2-1371-4249-ad25-1191960fdf3a",
+        "type": "message",
+        "text": "seems like this is all set when the containers are being created, at least from my observations with it..",
+        "user": "UAR1CADNV",
+        "ts": "1572623986.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17ae520f-2fca-4dff-986f-e40c05756110",
+        "type": "message",
+        "text": "same issue after `docker-compose down` `docker-compose up`",
+        "user": "UMQA682PJ",
+        "ts": "1572624077.017700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "28843472-da8f-4171-8df5-3683697f3362",
+        "type": "message",
+        "text": "maybe try it without any environment variables set?",
+        "user": "UAR1CADNV",
+        "ts": "1572624225.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15025573-0a2b-4ccb-99cb-d96e36f26cbf",
+        "type": "message",
+        "text": "right out of the box it works",
+        "user": "UAR1CADNV",
+        "ts": "1572624234.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "933f2927-b43a-4062-91c0-a01ead0012a8",
+        "type": "message",
+        "text": "a `#` symbol comments out variables, right?",
+        "user": "UMQA682PJ",
+        "ts": "1572624247.018700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ab06935-3a93-4736-8248-376cde2784ef",
+        "type": "message",
+        "text": "there has to be something thats throwing it off",
+        "user": "UAR1CADNV",
+        "ts": "1572624248.018800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3245ecb5-2135-4729-9d76-0d8ae3a5cb67",
+        "type": "message",
+        "text": "are you setting them with pipenv?",
+        "user": "UAR1CADNV",
+        "ts": "1572624257.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "622479e7-de3b-422a-b7ba-23aae703d909",
+        "type": "message",
+        "text": "I think so but maybe I was supposed to exit the shell and enter again",
+        "user": "UMQA682PJ",
+        "ts": "1572624277.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a7fcb9c0-43c8-4932-90b0-8150f090297b",
+        "type": "message",
+        "text": "you could probably just exit out of your pipenv",
+        "user": "UAR1CADNV",
+        "ts": "1572624280.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23c70d71-17fa-455e-8377-31bc5233676c",
+        "type": "message",
+        "text": "just do docker-compose up when your not in your pipenv",
+        "user": "UAR1CADNV",
+        "ts": "1572624298.020000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94080ca2-2996-4d31-9491-12ce60415746",
+        "type": "message",
+        "text": "just check your shell before doing so to sanity check that they are not set before bringing it up",
+        "user": "UAR1CADNV",
+        "ts": "1572624322.020400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "81204392-31ca-4d78-9b26-8d3e63e9354f",
+        "type": "message",
+        "text": "oh, that worked",
+        "user": "UMQA682PJ",
+        "ts": "1572624353.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "37bf5f42-a558-4241-864a-3c6e80e3fa8a",
+        "type": "message",
+        "text": "yea so theres somethig in the env",
+        "user": "UAR1CADNV",
+        "ts": "1572624366.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eec8db81-d6f3-4d4a-a822-7f2645af797e",
+        "type": "message",
+        "text": "I typically just add env as necessary",
+        "user": "UAR1CADNV",
+        "ts": "1572624373.021100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d6dcd978-56f2-4ccd-8c7e-46f622007055",
+        "type": "message",
+        "text": "and use the defaults",
+        "user": "UAR1CADNV",
+        "ts": "1572624380.021400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c20b3649-1cd8-40d9-a9ad-843427c94e74",
+        "type": "message",
+        "text": "for this you will definitely need to set the AWS keys",
+        "user": "UAR1CADNV",
+        "ts": "1572624391.021700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b2d6e45-704f-4fdf-9bcf-b3445180a052",
+        "type": "message",
+        "text": "but that should be it",
+        "user": "UAR1CADNV",
+        "ts": "1572624394.021900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd71a6fd-2166-4933-90a8-236c41bf782a",
+        "type": "message",
+        "text": "i did pipenv shell again, and it's working there too now",
+        "user": "UMQA682PJ",
+        "ts": "1572624456.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "25310c6b-fcaa-4dd0-a01c-cc321ed662ca",
+        "type": "message",
+        "text": "lol :man-shrugging:",
+        "user": "UAR1CADNV",
+        "ts": "1572624557.022400",
+        "team": "T026NJJ6Z"
+    }
+]

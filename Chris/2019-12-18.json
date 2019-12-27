@@ -1,0 +1,131 @@
+[
+    {
+        "client_msg_id": "497e7f0c-28dd-4f55-9a8c-1edbcaa56481",
+        "type": "message",
+        "text": "Hi Chris, can you retry this IQE pipeline? <https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/-/jobs/1163809>",
+        "user": "UMQA682PJ",
+        "ts": "1576684737.000300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RLmk",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Chris, can you retry this IQE pipeline? "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/-/jobs/1163809"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5145ba3f-284f-4a35-9b80-46abd3ef2666",
+        "type": "message",
+        "text": "I don't have access to do that.",
+        "user": "UMQA682PJ",
+        "ts": "1576684753.000500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SyFc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don't have access to do that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dba06006-3921-4061-bd9d-47254ffde72d",
+        "type": "message",
+        "text": "restarted",
+        "user": "U5SUXMJ83",
+        "ts": "1576684788.000700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "epEUR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "restarted"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b01c2bbf-2d43-41e9-837d-9846baf84983",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1576684799.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m9G",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2a4fd888-840d-42e1-9654-825366d8ba8c",
+        "type": "message",
+        "text": "np",
+        "user": "U5SUXMJ83",
+        "ts": "1576684803.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yhF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "np"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

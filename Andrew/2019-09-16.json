@@ -1,0 +1,1349 @@
+[
+    {
+        "client_msg_id": "612f323e-1f12-4708-b36f-8df8c93a6553",
+        "type": "message",
+        "text": "Good Morning, how do I set up Nise?",
+        "user": "UMQA682PJ",
+        "ts": "1568640611.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8b6e686-f5c6-4dd4-8d19-d0094cef9b27",
+        "type": "message",
+        "text": "actually i just found the Readme, so nevermind for a little while.",
+        "user": "UMQA682PJ",
+        "ts": "1568640639.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3c976d73-f842-4ffd-afbb-4a03c260b81c",
+        "type": "message",
+        "text": "<https://github.com/project-koku/nise>",
+        "user": "U8FS2P1LH",
+        "ts": "1568640640.000900",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "project-koku/nise",
+                "text": "A tool for generating sample cost usage data for testing purposes",
+                "title": "project-koku/nise",
+                "footer": "<https://github.com/project-koku/nise|project-koku/nise>",
+                "id": 1,
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1527881028,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Stars",
+                        "value": "2",
+                        "short": true
+                    },
+                    {
+                        "title": "Language",
+                        "value": "Python",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/nise",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "00d59f0f-8cb2-40d0-8295-cd443b47836b",
+        "type": "message",
+        "text": "Cool, cool. There\u2019 lots of options in the form of args to the the command, all are useful, but can be confusing even after reading the readme, so will be glad to help sort those out.",
+        "user": "U8FS2P1LH",
+        "ts": "1568640689.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dffb0fef-62f2-447b-af74-b08072445fbc",
+        "type": "message",
+        "text": "after nise generates data, how do we import that into koku?",
+        "user": "UMQA682PJ",
+        "ts": "1568647908.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f81903d-0039-4fb5-bceb-35b510727df1",
+        "type": "message",
+        "text": "I'm guessing this documentation? <https://koku.readthedocs.io/en/latest/providers.html#adding-a-local-provider>",
+        "user": "UMQA682PJ",
+        "ts": "1568647961.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dd94d9c3-b135-461f-a67a-31f85f9f7493",
+        "type": "message",
+        "text": "There\u2019s a few ways, basically you can have it put the data in the right directory so that masu picks it up and processes it.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648012.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2b0886c-8008-467e-9e34-798a642b83ec",
+        "type": "message",
+        "text": "That\u2019s the OCP way, there\u2019s a docker compose way as well that is probably not documented.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648025.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef36d488-1250-4180-a9b5-c645b56e8919",
+        "type": "message",
+        "text": "what's the docker-compose way?",
+        "user": "UMQA682PJ",
+        "ts": "1568648113.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "07f5ae62-63ae-4e13-b1ce-d822dfb0a9cd",
+        "type": "message",
+        "text": "or rather, which directory is masu looking?",
+        "user": "UMQA682PJ",
+        "ts": "1568648211.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f8a555b-6986-4433-a7ef-760711e976ee",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/master/docker-compose.yml#L155-L162>",
+        "user": "U8FS2P1LH",
+        "ts": "1568648321.004500",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] docker-compose.yml:155-162",
+                "text": "```\n        # - '~/azure_local:/tmp/local_container'\n        # - '~/aws_local:/tmp/local_bucket'\n        # - '~/aws_local_0:/tmp/local_bucket_0'\n        # - '~/aws_local_1:/tmp/local_bucket_1'\n        # - '~/aws_local_2:/tmp/local_bucket_2'\n        # - '~/aws_local_3:/tmp/local_bucket_3'\n        # - '~/aws_local_4:/tmp/local_bucket_4'\n        # - '~/insights_local:/var/tmp/insights_local'\n```",
+                "title": "docker-compose.yml:155-162",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/docker-compose.yml#L155-L162",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/docker-compose.yml#L155-L162",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8af5f7f2-fa49-490c-9472-42da5c2b01f9",
+        "type": "message",
+        "text": "Commented out stuff. The `_0`, `_1`,\u2026 ones are for QE, but if you have an `~/aws_local` and `~/insights_local` directory you can load up AWS and OCP data from nise through to the container.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648375.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b2c9d56b-4130-47be-94ee-b60b59a7b802",
+        "type": "message",
+        "text": "So `--aws-s3-bucket-name` would then be `~/aws_local` and `--insights-upload` for OCP would be would `~/insights_local`",
+        "user": "U8FS2P1LH",
+        "ts": "1568648458.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "47186916-4ba6-429b-a839-a9f9b2112418",
+        "type": "message",
+        "text": "Or rather, I think you want to create a directory in `~/aws_local` that is your \u201cbucket\u201d",
+        "user": "U8FS2P1LH",
+        "ts": "1568648489.006600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6b37800-1fd2-4332-b54f-5327fdc4868b",
+        "type": "message",
+        "text": "And then that needs to be the bucket you specify when creating a provider in koku",
+        "user": "U8FS2P1LH",
+        "ts": "1568648502.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ac295a2-da1b-4fcd-9e63-03b82f252eb7",
+        "type": "message",
+        "text": "the name must be exactly \"aws_local\"?",
+        "user": "UMQA682PJ",
+        "ts": "1568648740.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f33348b4-3453-44ea-94ca-f59d7f616adb",
+        "type": "message",
+        "text": "or can it be anything",
+        "user": "UMQA682PJ",
+        "ts": "1568648755.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8cf150af-36ce-46b1-b2ad-ba48126ab7be",
+        "type": "message",
+        "text": "Call it what you want, but make sure you alter the docker_compose to match.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648773.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "856ee4b6-208e-4c7b-a51f-31f6aba9ea02",
+        "type": "message",
+        "text": "either way, I need to uncomment one of those lines in docker-compose?",
+        "user": "UMQA682PJ",
+        "ts": "1568648921.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94337f5c-0db0-4fbf-aa33-79b6eb029f4d",
+        "type": "message",
+        "text": "Yeah, those are volume mounts for the container, so it\u2019s telling the container which local directory should be mounted where in the container.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648951.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c9aec73d-18f2-438f-9ba1-4ae552c80621",
+        "type": "message",
+        "text": "And then when you locally put some data there, it will be available in the container that is running the worker.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648969.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b27d8b5-25cd-4170-8f47-002e6884c924",
+        "type": "message",
+        "text": "The worker does the actual download/process work.",
+        "user": "U8FS2P1LH",
+        "ts": "1568648976.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "70a42d48-2dd2-4cdf-b940-565b9afb8a0a",
+        "type": "message",
+        "text": "Will need to rebuild the container",
+        "user": "U8FS2P1LH",
+        "ts": "1568648985.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6d52330-8ebd-46ed-bc40-ef58fac7b6c9",
+        "type": "message",
+        "text": "does `docker-compose up` rebuild containers?",
+        "user": "UMQA682PJ",
+        "ts": "1568648997.010800",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1568649013.000000"
+        }
+    },
+    {
+        "client_msg_id": "810d4abf-5100-4a83-9be8-ae036446985e",
+        "type": "message",
+        "text": "I believe so\u2026 not sure.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649014.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d4c015cc-eb5d-4000-8a43-28626f4357a4",
+        "type": "message",
+        "text": "`docker-compose up --build`",
+        "user": "U8FS2P1LH",
+        "ts": "1568649048.011900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "790aa799-3328-4560-af62-e8ae90c0b78a",
+        "type": "message",
+        "text": "and once it's mounted, how does Masu know to look in that mounted volume to start processing data?",
+        "user": "UMQA682PJ",
+        "ts": "1568649060.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1da90439-7d57-4b75-99ea-1e97f785858c",
+        "type": "message",
+        "text": "So the place it mounts to shouldn\u2019t be changed (e.g. `/var/tmp/insights_local` for OCP)",
+        "user": "U8FS2P1LH",
+        "ts": "1568649128.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "965793ea-ebaa-48c0-b229-a7adb46ae7ef",
+        "type": "message",
+        "text": "It knows to look there.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649135.013100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d08fdbc2-e0b5-4f9e-9169-8f0e8c92a693",
+        "type": "message",
+        "text": "But you\u2019ll have to trigger the download via our admin API",
+        "user": "U8FS2P1LH",
+        "ts": "1568649154.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7ece9adc-20c0-47f9-8a8c-5f1f47f1cde7",
+        "type": "message",
+        "text": "Masu has an non-public API that we use for convenience <https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json>",
+        "user": "U8FS2P1LH",
+        "ts": "1568649187.014000",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/masu/openapi.json",
+                "text": "```\n{\n    \"openapi\": \"3.0.0\",\n    \"info\": {\n      \"description\": \"The Admin 'Masu' API for Cost Management.  You can find out more about     Cost Management at [<https://github.com/project-koku/>](<https://github.com/project-koku/>).\",\n      \"version\": \"1.0.0\",\n      \"title\": \"Cost Management Admin\",\n      \"license\": {\n        \"name\": \"AGPL-3.0\",\n        \"url\": \"<https://opensource.org/licenses/AGPL-3.0>\"\n      }\n    },\n    \"tags\": [\n      {\n        \"name\": \"Download\",\n        \"description\": \"Operations about report downloads\"\n      },\n      {\n        \"name\": \"Expired Data\",\n        \"description\": \"Operations about removing expired data\"\n      },\n      {\n        \"name\": \"Report Data\",\n        \"description\": \"Operations about summarizing report data\"\n      },\n      {\n        \"name\": \"Update Charge\",\n        \"description\": \"Operations about updating derived cost\"\n      },\n      {\n        \"name\": \"Status\",\n        \"description\": \"Operations about status\"\n      }\n    ],\n    \"paths\": {\n      \"/download/\": {\n        \"get\": {\n          \"summary\": \"Download reports\",\n          \"operationId\": \"getDownload\",\n          \"description\": \"Return download file async task ID.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"The celery task ID of the download task\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/DownloadGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Download\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/expired_data/\": {\n        \"get\": {\n          \"operationId\": \"getExpiredData\",\n          \"description\": \"Return simulated expired data.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Simulate the deletion expired data\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ExpiredDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Expired Data\"\n          ]\n        },\n        \"delete\": {\n          \"operationId\": \"deleteExpiredData\",\n          \"description\": \"Return expired data.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"204\": {\n              \"description\": \"Delete expired data\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ExpiredDataDeleteResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Expired Data\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/report_data/\": {\n        \"get\": {\n          \"operationId\": \"getReportData\",\n          \"description\": \"Update report summary tables in the database.\",\n          \"parameters\": [\n            {\n              \"name\": \"provider_uuid\",\n              \"in\": \"query\",\n              \"description\": \"The provider UUID\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"uuid\",\n                \"example\": \"83ee048e-3c1d-43ef-b945-108225ae52f4\"\n              }\n            },\n            {\n              \"name\": \"provider_type\",\n              \"in\": \"query\",\n              \"description\": \"The provider type\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"AWS\"\n              }\n            },\n            {\n              \"name\": \"schema\",\n              \"in\": \"query\",\n              \"description\": \"The database schema\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"acct12345\"\n              }\n            },\n            {\n              \"name\": \"start_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to begin summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-01-01\"\n              }\n            },\n            {\n              \"name\": \"end_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to end summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-12-31\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"Data summary task has been queued\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ReportDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Report Data\"\n          ]\n        },\n        \"delete\": {\n          \"operationId\": \"deleteReportData\",\n          \"description\": \"Delete report summary tables in the database.\",\n          \"parameters\": [\n            {\n              \"name\": \"provider_id\",\n              \"in\": \"query\",\n              \"description\": \"The provider database ID\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": 1\n              }\n            },\n            {\n              \"name\": \"provider\",\n              \"in\": \"query\",\n              \"description\": \"The provider type\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"AWS\"\n              }\n            },\n            {\n              \"name\": \"schema\",\n              \"in\": \"query\",\n              \"description\": \"The database schema\",\n              \"required\": true,\n              \"schema\": {\n                \"type\": \"string\",\n                \"example\": \"acct12345\"\n              }\n            },\n            {\n              \"name\": \"simulate\",\n              \"in\": \"query\",\n              \"description\": \"Whether to actually delete\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"boolean\",\n                \"example\": true\n              }\n            },\n            {\n              \"name\": \"end_date\",\n              \"in\": \"query\",\n              \"description\": \"The date to end summarizing\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"string\",\n                \"format\": \"date\",\n                \"example\": \"2019-12-31\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"204\": {\n              \"description\": \"Data deletion task has been queued\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/ReportDataGetResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Report Data\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/status/\": {\n        \"get\": {\n          \"operationId\": \"status_list\",\n          \"description\": \"Packages response for class-based view.\",\n          \"parameters\": [],\n          \"responses\": {\n            \"200\": {\n              \"description\": \"\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/StatusResponse\"\n                  }\n                }\n              }\n            }\n          },\n          \"tags\": [\n            \"Status\"\n          ]\n        },\n        \"parameters\": []\n      },\n      \"/update_charge/\": {\n        \"get\": {\n          \"operationId\": \"update_charge_list\",\n          \"description\": \"Update report summary tables in the database.\",\n\u2026",
+                "title": "koku/masu/openapi.json",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/masu/openapi.json",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c42a28a2-c4af-4a9d-8ec0-592ea5fa9fcf",
+        "type": "message",
+        "text": "so `/download/` will trigger the worker to ingest stuff.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649201.014600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ce1c0b22-23d7-4b4d-9174-0c0416eaeba4",
+        "type": "message",
+        "text": "is `--insights-upload` a flag for the docker-compose executable?",
+        "user": "UMQA682PJ",
+        "ts": "1568649206.014800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5937619d-3854-42c6-aa37-c24dc7bddec9",
+        "type": "message",
+        "text": "It\u2019s a flag for nise.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649223.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72046f2f-2256-4f23-90c0-30d23c02a329",
+        "type": "message",
+        "text": "So nise can optionally send data up through the insights ingest service, or you can route it to a local directory.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649246.015600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a9fc00f1-371a-4d8c-b54d-bd1efd63f0f4",
+        "type": "message",
+        "text": "And now, lunch. Be back in a bit.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649266.016100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8fb20ae-4d59-4af7-8908-33d77ca97115",
+        "type": "message",
+        "text": "so the container needs to be running when nise is called?",
+        "user": "UMQA682PJ",
+        "ts": "1568649269.016300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15a9cd49-ec7c-4fab-8cb2-6f7bccb664ee",
+        "type": "message",
+        "text": "YOu\u2019re home or in the tower?",
+        "user": "U8FS2P1LH",
+        "ts": "1568649271.016400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eebc5dc0-0373-4de8-9cd8-bb61f1e20722",
+        "type": "message",
+        "text": "i'm home, but i can come in",
+        "user": "UMQA682PJ",
+        "ts": "1568649279.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "76621889-d0f3-4a10-9368-85e514fd4814",
+        "type": "message",
+        "text": "No, was just going to say we\u2019ll be on 9 for lunch.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649293.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cbeec1b4-cb8e-4e83-a664-ca7fd7609d4d",
+        "type": "message",
+        "text": "alright.",
+        "user": "UMQA682PJ",
+        "ts": "1568649303.017600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6bb733d1-a131-4b2f-8434-a712dbda4702",
+        "type": "message",
+        "text": "You do want the worker container running so that the data goes up there, but you could start it after the fact and as long as there is data in the local directory it will still mount the volume with data there.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649323.018100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8d2bccd1-41ea-41f4-97eb-c474dbe7e6ff",
+        "type": "message",
+        "text": "So it doesn\u2019t techincally have to be on while nise is running.",
+        "user": "U8FS2P1LH",
+        "ts": "1568649339.018500",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a8ded165-13d8-4b02-9dfa-6651dd1cd9df",
+        "type": "message",
+        "text": "Any luck?",
+        "user": "U8FS2P1LH",
+        "ts": "1568654245.018800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58d09435-9e7a-4750-8d05-634ee99d1de4",
+        "type": "message",
+        "text": "not yet",
+        "user": "UMQA682PJ",
+        "ts": "1568654316.019500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "82440f59-81b3-4b19-82d9-66fa1b1b2254",
+        "type": "message",
+        "text": "Let me know if I can help.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654338.019800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "02a6dd4e-8417-47c9-ae7c-19fc8c7c7a5a",
+        "type": "message",
+        "text": "the :/tmp/local_bucket part of the volume should not change?",
+        "user": "UMQA682PJ",
+        "ts": "1568654431.020300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c82de016-42f0-4d6c-bbdf-d5fb95cce4a6",
+        "type": "message",
+        "text": "Yes.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654451.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "91589f39-3bba-493a-a97c-6fd325595dd4",
+        "type": "message",
+        "text": "ok, i mounted '~/environment/locals3bucket:/tmp/local_bucket'",
+        "user": "UMQA682PJ",
+        "ts": "1568654463.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bf984dd0-e9cb-4a0e-b2c3-9edbcc8dbd83",
+        "type": "message",
+        "text": "Inside of `~/environment/locals3bucket` you\u2019ll want to create a directory for whatever you\u2019re calling your \u201cbucket\u201d. This is all setup to mirror what the report directory structure looks like in S3.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654531.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef449bed-43a6-462e-b5f3-c17082d2daeb",
+        "type": "message",
+        "text": "i think i'm calling my bucket \"helloworldnise\"",
+        "user": "UMQA682PJ",
+        "ts": "1568654549.022300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "82f6b9e0-1fb3-43e5-bb58-3c30554eea62",
+        "type": "message",
+        "text": "Yep, that\u2019s good.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654564.022600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "520ee8e0-5b49-46bf-87e9-5656d3d21ed6",
+        "type": "message",
+        "text": "So you need to create an AWS-local provider with koku that has that bucket",
+        "user": "U8FS2P1LH",
+        "ts": "1568654585.023100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c950e564-1084-45b8-9a8a-e53f3764e8ae",
+        "type": "message",
+        "text": "<http://127.0.0.1:8000/api/cost-management/v1/providers/>",
+        "user": "U8FS2P1LH",
+        "ts": "1568654597.023500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "159f3dce-5956-43ed-b8ea-5e8eaba862e5",
+        "type": "message",
+        "text": "`--aws-s3-bucket-name /home/ubuntu/environment/locals3bucket/helloworldnise` ?",
+        "user": "UMQA682PJ",
+        "ts": "1568654622.023700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "308fa596-8628-4e2d-b60f-4dbfe47ffd75",
+        "type": "message",
+        "text": "i think i already did that previous step",
+        "user": "UMQA682PJ",
+        "ts": "1568654646.024000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2358ba07-2b1d-4134-836b-32be92df0c8d",
+        "type": "message",
+        "text": "create the AWS-local provider using a POST request?",
+        "user": "UMQA682PJ",
+        "ts": "1568654673.024300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b4bd8e59-f20e-4aa1-a728-2ec8bf6c7683",
+        "type": "message",
+        "text": "Yeah, that\u2019s a POST.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654684.024500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8386ba0a-0015-4733-b5ae-f5ff4c16dbc3",
+        "type": "message",
+        "text": "The Django form there will POST for you, if you want.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654701.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1dc189a8-4e9a-4949-b100-d5212dac148a",
+        "type": "message",
+        "text": "That arg looks right, and it seems to have populated lots of data there.",
+        "user": "U8FS2P1LH",
+        "ts": "1568654770.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b84b66b3-a31a-4586-b6d0-127142734c5a",
+        "type": "message",
+        "text": "Here's my POST body so far:\n`\n{\n    \"name\": \"helloworldprovidernickpostman\",\n    \"type\": \"AWS\",\n    \"authentication\": {\n        \"provider_resource_name\": \"&lt;string&gt;\",\n        \"credentials\": \"&lt;object&gt;\"\n    },\n    \"billing_source\": {\n        \"bucket\": \"&lt;string&gt;\",\n        \"data_source\": \"&lt;object&gt;\"\n    }\n}\n`",
+        "user": "UMQA682PJ",
+        "ts": "1568655172.026200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3e6bc6aa-0fe3-4913-b9b9-f5c30497daa7",
+        "type": "message",
+        "text": "does \"bucket\" become \"helloworldnise\"?",
+        "user": "UMQA682PJ",
+        "ts": "1568655194.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4b4573f6-77f9-439b-b70d-bc308cdea050",
+        "type": "message",
+        "text": "bucket is `/home/ubuntu/environment/locals3bucket/helloworldnise` for AWS-local it turns out.",
+        "user": "U8FS2P1LH",
+        "ts": "1568655381.027000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ddb50d7a-38d4-40f9-94d7-521b427aded2",
+        "type": "message",
+        "text": "and type is `AWS-local`",
+        "user": "U8FS2P1LH",
+        "ts": "1568655388.027400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "46de7cc5-01cc-419f-a10c-5f0e5dc9ad55",
+        "type": "message",
+        "text": "Have you used the Django browsable API yet?",
+        "user": "U8FS2P1LH",
+        "ts": "1568655415.028100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a1779a58-13e0-41b7-8dca-5a27921e8988",
+        "type": "message",
+        "text": "yes but not extensively i was going off swagger.",
+        "user": "UMQA682PJ",
+        "ts": "1568655440.028400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73905540-b764-4939-8d83-dc3228506aed",
+        "type": "message",
+        "text": "Okay. It\u2019s convenient here because it gives a form with a drop down for the provider types, and shows which fields need to be populated.",
+        "user": "U8FS2P1LH",
+        "ts": "1568655482.029000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "62924d87-a091-4a65-8703-ad629447eeca",
+        "type": "message",
+        "text": "Swagger will get you there too.",
+        "user": "U8FS2P1LH",
+        "ts": "1568655489.029200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "11e1ff02-f600-4fd6-b0ab-f0c9abdf4f0e",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1568655492.029400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "26a36521-6004-48f8-a77d-05fb6644652f",
+        "type": "message",
+        "text": "i didnt see a dropdown on swagger",
+        "user": "UMQA682PJ",
+        "ts": "1568655505.029800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a85257f5-8646-4117-a7a8-5a552b89bfba",
+        "type": "message",
+        "text": "no dropdown in swagger",
+        "user": "U8FS2P1LH",
+        "ts": "1568655532.030000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3c951946-5394-4fb1-b219-88043d4da278",
+        "type": "message",
+        "text": "django",
+        "user": "U8FS2P1LH",
+        "ts": "1568655534.030200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "33df078b-6ab3-4323-813e-5af637bbae61",
+        "type": "message",
+        "text": "what should i put for credentials?",
+        "user": "UMQA682PJ",
+        "ts": "1568655684.030500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "078b4980-9312-4211-b007-e22aed3adc27",
+        "type": "message",
+        "text": "i got this error when creating a provider:\n{\n    \"errors\": [\n        {\n            \"detail\": \"Value must be valid JSON.\",\n            \"source\": \"authentication.credentials\",\n            \"status\": 400\n        },\n        {\n            \"detail\": \"Value must be valid JSON.\",\n            \"source\": \"billing_source.data_source\",\n            \"status\": 400\n        }\n    ]\n}",
+        "user": "UMQA682PJ",
+        "ts": "1568655844.031200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7904f69a-4f45-4b54-9310-5c6184e4eb5b",
+        "type": "message",
+        "text": "Yeah, so that\u2019s actually a place where the browsable API is no good. Put `{}` in credentials, and data_source",
+        "user": "U8FS2P1LH",
+        "ts": "1568655889.031900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7febc28-d95d-42b5-b8a5-fbb3460ea791",
+        "type": "message",
+        "text": "Just empty JSON objects/dicts, and it\u2019ll be okay with it.",
+        "user": "U8FS2P1LH",
+        "ts": "1568655901.032200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e2a979db-33cf-439a-94d7-a95dd4754fc6",
+        "type": "message",
+        "text": "what about provider resource name?",
+        "user": "UMQA682PJ",
+        "ts": "1568655987.032500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "79489470-9ca8-4afa-b5b0-db794f809494",
+        "type": "message",
+        "text": "any string for AWS-local",
+        "user": "U8FS2P1LH",
+        "ts": "1568656038.032700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5fc91c0d-b01b-4570-aa92-2597d88ebff9",
+        "type": "message",
+        "text": "`arn:blahblahblah`",
+        "user": "U8FS2P1LH",
+        "ts": "1568656050.033000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42cfda6a-59ec-4297-ae76-b6cf4ee7f177",
+        "type": "message",
+        "text": "{\n    \"errors\": [\n        {\n            \"detail\": \"Unable to access account resources with ARN arn:blahblahblah.\",\n            \"source\": \"provider_resource_name\",\n            \"status\": 400\n        }\n    ]\n}",
+        "user": "UMQA682PJ",
+        "ts": "1568656078.033400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "25b55bee-dc84-40a2-8021-0c2ff858b9c2",
+        "type": "message",
+        "text": "`arn:aws:iam::111111111112:role/CostManagement` if you want it to look like a real AWS arn.",
+        "user": "U8FS2P1LH",
+        "ts": "1568656080.033600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "13839b60-3ed1-4d46-8cd7-0cc686bee46c",
+        "type": "message",
+        "text": "You\u2019re making AWS-local or AWS?",
+        "user": "U8FS2P1LH",
+        "ts": "1568656093.033900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4b089a0f-06b4-48df-8553-189aa539421a",
+        "type": "message",
+        "text": "Oh, it wasn't local. Now it's working.",
+        "user": "UMQA682PJ",
+        "ts": "1568656115.034500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8585d5b8-1448-4fa1-9f4e-852318ac9bbc",
+        "type": "message",
+        "text": "K",
+        "user": "U8FS2P1LH",
+        "ts": "1568656117.034700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0275573e-e4a2-4c74-bf99-528dcd72ec7b",
+        "type": "message",
+        "text": "<http://127.0.0.1:5000/api/cost-management/v1/download/> _should_ trigger the worker to load the data into the DB. I like to do `docker logs koku_worker -f` in a terminal tab/window to follow the worker logs",
+        "user": "U8FS2P1LH",
+        "ts": "1568656169.035300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1464d5d1-e3d1-4213-b17a-fc5fe06b5f9e",
+        "type": "message",
+        "text": "is there a reason the bucket wasn't \"/tmp/local_bucket\" in the POST request?",
+        "user": "UMQA682PJ",
+        "ts": "1568656234.035800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8bd6a29b-9fd2-46a2-b432-7f950b781340",
+        "type": "message",
+        "text": "shouldnt that have been the name of the volume inside the container?",
+        "user": "UMQA682PJ",
+        "ts": "1568656243.036100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "916a0372-1888-4852-b4f1-3223680d89e0",
+        "type": "message",
+        "text": "because it was mounted like this:\n`\n  volumes:\n        - '.:/koku'\n        # - '~/azure_local:/tmp/local_container'\n        - '~/environment/locals3bucket:/tmp/local_bucket'\n`",
+        "user": "UMQA682PJ",
+        "ts": "1568656277.036600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "724cb901-1488-4f28-8a1b-d3af72aea9a3",
+        "type": "message",
+        "text": "Actually, ping Doug with that question, he will know.",
+        "user": "U8FS2P1LH",
+        "ts": "1568656308.037100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e19961a6-c8d6-417e-affc-a83d6b048429",
+        "type": "message",
+        "text": "what's on port 5000?",
+        "user": "UMQA682PJ",
+        "ts": "1568656437.037700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0b2321fd-df47-4c6f-822e-9dd5f49c1acd",
+        "type": "message",
+        "text": "masu, by default",
+        "user": "U8FS2P1LH",
+        "ts": "1568656448.037900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "37dac8b3-5667-4ca1-8157-293e11015428",
+        "type": "message",
+        "text": "Or the masu \u201cadmin\u201d APIs",
+        "user": "U8FS2P1LH",
+        "ts": "1568656456.038200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01b0e7e3-5f65-4a58-8787-b950a5648a40",
+        "type": "message",
+        "text": "does it have a browseable API?",
+        "user": "UMQA682PJ",
+        "ts": "1568656494.038500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "326b445c-6fbe-4113-9784-cdcb044bd2e3",
+        "type": "message",
+        "text": "It doesn\u2019t really have CRUD operations like the real koku API, so not really, It really just triggers celery tasks to run.",
+        "user": "U8FS2P1LH",
+        "ts": "1568656617.039300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3fe10bea-aada-49f4-8400-2bab3fb04bf9",
+        "type": "message",
+        "text": "So it usually just returns a task ID.",
+        "user": "U8FS2P1LH",
+        "ts": "1568656625.039600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "44b7e1ba-e589-49e6-973b-34ca3e831af8",
+        "type": "message",
+        "text": "does it have a /status endpoint?",
+        "user": "UMQA682PJ",
+        "ts": "1568656675.039900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8cc4a5d4-3f4d-43de-96c0-123d56843a14",
+        "type": "message",
+        "text": "Yes",
+        "user": "U8FS2P1LH",
+        "ts": "1568656680.040200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d99b5d12-ea90-47a0-82ef-6b0f53404b10",
+        "type": "message",
+        "text": "it seems to be unreachable so im attempting to find it",
+        "user": "UMQA682PJ",
+        "ts": "1568656684.040400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b4b86dc3-b014-4a7d-9e19-1d834289f00e",
+        "type": "message",
+        "text": ":5000/api/cost-management/v1/status ?",
+        "user": "UMQA682PJ",
+        "ts": "1568656695.040600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c51b450-aeb0-4574-934f-3a38c1517a77",
+        "type": "message",
+        "text": "yes",
+        "user": "U8FS2P1LH",
+        "ts": "1568656767.040800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18d01b29-3674-4500-a13d-48a5e3812ef8",
+        "type": "message",
+        "text": "If the masu_server container is running",
+        "user": "U8FS2P1LH",
+        "ts": "1568656789.041100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9592ab9-e566-40ac-8a67-19f02b9767e5",
+        "type": "message",
+        "text": "I got a 404 for the status page",
+        "user": "UMQA682PJ",
+        "ts": "1568657513.041300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f1ace8b3-1131-49a8-8389-b108b79904cd",
+        "type": "message",
+        "text": "Page not found (404)\nRequest Method:\tGET\nRequest URL:\t<http://35.171.88.161:5000/api/cost-management/v1/status>",
+        "user": "UMQA682PJ",
+        "ts": "1568657514.041500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6a60964-d825-41b1-ab39-b62b5c845c8c",
+        "type": "message",
+        "text": "nvm",
+        "user": "UMQA682PJ",
+        "ts": "1568657544.041700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58cd5950-9b77-4dc3-804f-df90fa292eaa",
+        "type": "message",
+        "text": "got it now, i just needed an extra slash at the end",
+        "user": "UMQA682PJ",
+        "ts": "1568657551.042000",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1568657558.000000"
+        }
+    },
+    {
+        "client_msg_id": "a3a3e3e5-bab6-491d-9506-f300096aff82",
+        "type": "message",
+        "text": "Ah, yeah, Django will get you with those slashes.",
+        "user": "U8FS2P1LH",
+        "ts": "1568657609.042400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a057d2ae-09e1-4d5c-bb25-938c21113170",
+        "type": "message",
+        "text": "ok, the job finished",
+        "user": "UMQA682PJ",
+        "ts": "1568657651.042600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3124b39f-f20f-40cc-9d6c-24a684925a6a",
+        "type": "message",
+        "text": "really fast",
+        "user": "UMQA682PJ",
+        "ts": "1568657653.042800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0af78f6a-0be2-48d2-a531-3639e949d72d",
+        "type": "message",
+        "text": "[2019-09-16 18:13:29,014: INFO/ForkPoolWorker-1] Task masu.processor.tasks.summarize_reports[1ba77f7e-2585-405f-9e0c-6000e5bbb667] succeeded in 0.00010427699999127071s: None",
+        "user": "UMQA682PJ",
+        "ts": "1568657661.043000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1100ef6c-f9a5-4c48-8f3f-6abb6904a97a",
+        "type": "message",
+        "text": "Did it load anything?",
+        "user": "U8FS2P1LH",
+        "ts": "1568657914.043400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3D7072C7-9DA5-43F4-97ED-233BE4C3A7F5",
+        "type": "message",
+        "text": "I\u2019m checking Postgres now",
+        "user": "UMQA682PJ",
+        "ts": "1568658064.043600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c2cac9c2-2471-49ba-b4ee-ab6392ecee5d",
+        "type": "message",
+        "text": "no, i dont think the data entered postgres",
+        "user": "UMQA682PJ",
+        "ts": "1568658926.044200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3149d145-f43f-4f34-8de3-1799c9f14413",
+        "type": "message",
+        "text": "theres no data in any of the tables that start with \"reporting_aws...etc\"",
+        "user": "UMQA682PJ",
+        "ts": "1568659028.044600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "626c2112-1a2e-4e5b-b953-6f2de4368ed5",
+        "type": "message",
+        "text": "K. We can get the nise kinks worked out. For now, would you like to load our AWS account\u2019s data locally so you can at least see some come in?",
+        "user": "U8FS2P1LH",
+        "ts": "1568659078.045300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ada17a51-b838-44a1-8a8d-725e96f94518",
+        "type": "message",
+        "text": "sure",
+        "user": "UMQA682PJ",
+        "ts": "1568659098.045500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5377ea07-378e-45d7-b6ce-03babb42edef",
+        "type": "message",
+        "text": "```\nRESOURCE_NAME='arn:aws:iam::589173575009:role/CostManagement'\nBUCKET='cost-usage-bucket'\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1568659141.045700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "462f0537-ce24-43ff-9593-022ac9fd18f0",
+        "type": "message",
+        "text": "If you create a real AWS provider with those, and then hit that download endpoint, it should load in August and September data.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659159.046100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "D65E0831-D3FB-4C9A-A412-09E4F75456B5",
+        "type": "message",
+        "text": "What do I put for authentication credentials and data_source",
+        "user": "UMQA682PJ",
+        "ts": "1568659391.046900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b43d5c9d-eb83-4b60-b0c6-ec3a12282ee0",
+        "type": "message",
+        "text": "`{}`",
+        "user": "U8FS2P1LH",
+        "ts": "1568659403.047100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3059177-bd3d-4970-b3a5-5c73c322b67b",
+        "type": "message",
+        "text": "Those fields are new and were added as sort of a stop-gap to handle Azure.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659414.047400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "931b640c-1e9e-471f-b708-dfcc2a32f64e",
+        "type": "message",
+        "text": "{\n    \"errors\": [\n        {\n            \"detail\": \"Unable to access account resources with ARN RESOURCE_NAME='arn:aws:iam::589173575009:role/CostManagement' BUCKET='cost-usage-bucket'.\",\n            \"source\": \"provider_resource_name\",\n            \"status\": 400\n        }\n    ]",
+        "user": "UMQA682PJ",
+        "ts": "1568659422.047800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "79acd850-7e3e-478e-869a-de38272528f8",
+        "type": "message",
+        "text": "Azure has several fields for credentials, where AWS just has a string.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659424.047900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "52d6fdcd-1c2e-4fbe-8bc1-a3b993fd2e67",
+        "type": "message",
+        "text": "Did you setup the AWS cli and/or put your user credentials in your environment?",
+        "user": "U8FS2P1LH",
+        "ts": "1568659484.048500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3cdf0796-a418-47ba-8b48-4443039a45f1",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1568659492.048900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a661fbd-c940-49c9-a272-30adfa73edec",
+        "type": "message",
+        "text": "I think since you are running on an EC2 instance it\u2019s probably set up, but now with the correct user.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659503.049200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5d0f4f95-2500-4dd8-9574-d6a7b52ba7ad",
+        "type": "message",
+        "text": "So that role arn is a special way to access an AWS account, what we do is log into our account as you/me/a super user. Then we make an \u201cassume role\u201d call using that role ARN, and that gives us very limited access to the account we want to get a cost and usage report from.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659575.050700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c49dda57-9ee2-46e1-b2a4-b2a393a3657c",
+        "type": "message",
+        "text": "In this particular case we\u2019re running it against our own account, but it\u2019s how we want to connect to a customer account.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659592.051100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ebce1955-bb62-4dc2-b974-1323ab781542",
+        "type": "message",
+        "text": "how do I add the required credentials the post request?",
+        "user": "UMQA682PJ",
+        "ts": "1568659831.052300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6b443f48-758b-46c2-ab60-3df0ed23e114",
+        "type": "message",
+        "text": "Provider resource name should just be `arn:aws:iam::589173575009:role/CostManagement`",
+        "user": "U8FS2P1LH",
+        "ts": "1568659852.052800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b3baf16c-2570-4dc6-82a6-d6c6df102bd5",
+        "type": "message",
+        "text": "ah ok",
+        "user": "UMQA682PJ",
+        "ts": "1568659882.053100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8431900d-e373-4c11-aaab-106c07a37685",
+        "type": "message",
+        "text": "same error though",
+        "user": "UMQA682PJ",
+        "ts": "1568659884.053300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "823a53f6-1d78-4692-8efb-f45c0a41b5f8",
+        "type": "message",
+        "text": "Yeah, okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659887.053400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "70a70908-bf68-452d-a2e8-9538c161ccba",
+        "type": "message",
+        "text": "Two-ish weeks ago I sent you that csv file with your AWS credentials.",
+        "user": "U8FS2P1LH",
+        "ts": "1568659909.053900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3261691c-97c7-46b0-a5e5-1ca62c0c3163",
+        "type": "message",
+        "text": "One thing was your ACCESS_KEY_ID, and SECRET_ACCESS_KEY",
+        "user": "U8FS2P1LH",
+        "ts": "1568659933.054400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f090a82-3758-454b-aad8-80eaa37b7ccf",
+        "type": "message",
+        "text": "If you look at the docker-compose one thing that gets passed into a few containers is\n\n```\n- AWS_ACCESS_KEY_ID\n- AWS_SECRET_ACCESS_KEY\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1568659991.054900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "798e8026-5ace-4944-9d18-168d5c7f7863",
+        "type": "message",
+        "text": "You need to set those environment variables with the access/secret key and then create the containers",
+        "user": "U8FS2P1LH",
+        "ts": "1568660019.055500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "df2329c7-80cc-4176-a4f3-d99f755559dc",
+        "type": "message",
+        "text": "i put the keys in, did a docker-compose down and docker-compose up",
+        "user": "UMQA682PJ",
+        "ts": "1568660811.055900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dee83e1b-78e0-4a0e-894b-07c667f4114c",
+        "type": "message",
+        "text": "and i got this error after trying the post request:",
+        "user": "UMQA682PJ",
+        "ts": "1568660816.056100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "658e1b9d-631e-46a9-8d55-081abaef928c",
+        "type": "message",
+        "text": "{\n    \"errors\": [\n        {\n            \"detail\": \"Unable to access account resources with ARN arn:aws:iam::589173575009:role/CostManagement.\",\n            \"source\": \"provider_resource_name\",\n            \"status\": 400\n        }\n    ]\n}",
+        "user": "UMQA682PJ",
+        "ts": "1568660818.056300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "648a9fde-8ec0-4e57-b5ec-79ef06b8aa8e",
+        "type": "message",
+        "text": "wrong pic",
+        "user": "UMQA682PJ",
+        "ts": "1568660853.056700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e16578fc-b23b-4c66-96c8-2de090189338",
+        "type": "message",
+        "text": "that was the last one..",
+        "user": "UMQA682PJ",
+        "ts": "1568660856.056900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "type": "message",
+        "text": "POST",
+        "files": [
+            {
+                "id": "FNFT21JNB",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": true,
+        "user": "UMQA682PJ",
+        "display_as_bot": false,
+        "ts": "1568660895.057200",
+        "client_msg_id": "f3e5bbb2-7b6e-40eb-a6b9-fcd38803036f"
+    },
+    {
+        "client_msg_id": "367d0982-d97b-493a-b644-997e80301b14",
+        "type": "message",
+        "text": "Does `docker exec -it koku_worker bash -c 'echo $AWS_ACCESS_KEY_ID'` give you anything back?",
+        "user": "U8FS2P1LH",
+        "ts": "1568661845.057600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4fd239da-4453-4407-a2a3-7c437a92b1a9",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1568661872.057900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f1b3c7a2-f07d-4d20-922e-9eec353037df",
+        "type": "message",
+        "text": "And is it the same as `docker exec -it koku_server bash -c 'echo $AWS_ACCESS_KEY_ID'`",
+        "user": "U8FS2P1LH",
+        "ts": "1568661873.058100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0429bf15-0237-4647-8bb4-8ebc89d21237",
+        "type": "message",
+        "text": "no, the second command returned `AWS_ACCESS_KEY`",
+        "user": "UMQA682PJ",
+        "ts": "1568661910.058600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2840bb4f-8ae4-4796-87ce-bf9b4b8fdc91",
+        "type": "message",
+        "text": "the first returned `AKIAYSLL3JVQRTV7VT55`",
+        "user": "UMQA682PJ",
+        "ts": "1568661922.058900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "212ccce9-0c01-42aa-aaed-477cd2a24594",
+        "type": "message",
+        "text": "Oh, i see now",
+        "user": "UMQA682PJ",
+        "ts": "1568661945.059400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e5ef941-c942-4b00-9dea-24e8412e836f",
+        "type": "message",
+        "text": "Ah, need to rebuild the koku server. It is the API that actually does the provider creation, so it needs that.",
+        "user": "U8FS2P1LH",
+        "ts": "1568661947.059700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f85b165-dff3-4c36-a072-9f64e92932a9",
+        "type": "message",
+        "text": "it worked this time",
+        "user": "UMQA682PJ",
+        "ts": "1568663051.059900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c76617ce-08ea-4598-a1ae-4f1cd432a120",
+        "type": "message",
+        "text": "creating the provider worked so now i need to trigger the download",
+        "user": "UMQA682PJ",
+        "ts": "1568663075.060200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a9bcc17-9870-4805-8af2-629cc570a537",
+        "type": "message",
+        "text": "Ok, I see real data in pgAdmin now.",
+        "user": "UMQA682PJ",
+        "ts": "1568663410.060500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e154a146-9a06-463b-8cbb-1a9d4e109f46",
+        "type": "message",
+        "text": "Do you think we could include pgAdmin in the `docker-compose up` ?",
+        "user": "UMQA682PJ",
+        "ts": "1568663438.061100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ba970325-4be7-4a23-8094-9db9c077d3a0",
+        "type": "message",
+        "text": "Is there a docker image out there for pgadmin?",
+        "user": "U8FS2P1LH",
+        "ts": "1568664739.061600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d1798b59-0daf-46f0-9b79-f85ecc875bed",
+        "type": "message",
+        "text": "<https://hub.docker.com/r/dpage/pgadmin4/>",
+        "user": "UMQA682PJ",
+        "ts": "1568664757.061800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4f71281-af52-42fc-b250-0ffb6600cb06",
+        "type": "message",
+        "text": "So right now the docker file is really our services. Could maybe add this, but could also have a side thing like a make command that just spins that up?",
+        "user": "U8FS2P1LH",
+        "ts": "1568664841.062400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd414176-e9d6-4744-b764-acacdbf3aef7",
+        "type": "message",
+        "text": "nods",
+        "user": "UMQA682PJ",
+        "ts": "1568664910.062900",
+        "team": "T026NJJ6Z"
+    }
+]

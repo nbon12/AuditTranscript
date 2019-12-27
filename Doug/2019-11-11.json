@@ -1,0 +1,540 @@
+[
+    {
+        "client_msg_id": "db024f32-a603-4cac-b1d9-64fafc62cb90",
+        "type": "message",
+        "text": "Hey Doug, what's the Sources URL?",
+        "user": "UMQA682PJ",
+        "ts": "1573487291.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "052be8ca-4f34-4410-a783-185ec6ad0737",
+        "type": "message",
+        "text": "for the status",
+        "user": "UMQA682PJ",
+        "ts": "1573487297.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a2e97b7-5e49-48c3-82fb-03ddea1edb62",
+        "type": "message",
+        "text": "hey Nick, in CI you mean?",
+        "user": "UAR1CADNV",
+        "ts": "1573497752.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "16ca0cc1-b05a-4ffc-804e-daedce433a19",
+        "type": "message",
+        "text": "local",
+        "user": "UMQA682PJ",
+        "ts": "1573497783.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c9b5a01d-25e8-4c5a-b74b-206f8328a85b",
+        "type": "message",
+        "text": "should be the same as what it was when you did it",
+        "user": "UAR1CADNV",
+        "ts": "1573497797.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "72fb6de6-4fbe-4e38-a594-c2d586aec74b",
+        "type": "message",
+        "text": "i never tried it out locally from the browser after you switched it to the sources app",
+        "user": "UMQA682PJ",
+        "ts": "1573497824.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "273ccb9e-3496-4b17-b894-1fa348d0d8f9",
+        "type": "message",
+        "text": "oh ok, it\u2019s on localhost:4000",
+        "user": "UAR1CADNV",
+        "ts": "1573497842.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4882e935-8edd-4701-8aa0-0856e97cc38b",
+        "type": "message",
+        "text": "I think my API_PATH_PREFIX isn't set in the docker container",
+        "user": "UMQA682PJ",
+        "ts": "1573497845.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "990e8cb9-8153-4c7c-a549-0887019e9fe1",
+        "type": "message",
+        "text": "try `<http://localhost:4000/api/cost-management/v1/source_status/?source_id=4>`",
+        "user": "UAR1CADNV",
+        "ts": "1573497864.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aba11a56-023d-454f-96eb-682675ba655e",
+        "type": "message",
+        "text": "'This site can't be reached'",
+        "user": "UMQA682PJ",
+        "ts": "1573497878.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6a23bf86-ed5c-4d53-a148-5458b2a21888",
+        "type": "message",
+        "text": "you have the sources client running right?",
+        "user": "UAR1CADNV",
+        "ts": "1573497892.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7431aeec-1a4c-4d98-8e22-8e65c724c501",
+        "type": "message",
+        "text": "it\u2019s just part of the docker compose",
+        "user": "UAR1CADNV",
+        "ts": "1573497903.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "86a0eac2-ea59-49cb-9031-3e4fe7a05953",
+        "type": "message",
+        "text": "no, just took it down",
+        "user": "UMQA682PJ",
+        "ts": "1573497904.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3884e3a-fc12-49df-9cbd-8b5973a87088",
+        "type": "message",
+        "text": "was restarting",
+        "user": "UMQA682PJ",
+        "ts": "1573497908.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6510534f-6cdf-4e0f-8076-447dbc2e929a",
+        "type": "message",
+        "text": "k, try when it comes up",
+        "user": "UAR1CADNV",
+        "ts": "1573497917.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b284e9f-c514-4bcd-9f6e-fa05f0557df9",
+        "type": "message",
+        "text": "`Server Error (500)",
+        "user": "UMQA682PJ",
+        "ts": "1573497943.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a21a5aa8-bfe4-4e66-bac0-a26b504e7bb3",
+        "type": "message",
+        "text": "hmm. wonder why your hitting that missing staticfile problem..",
+        "user": "UAR1CADNV",
+        "ts": "1573498148.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "54674d85-7b29-48c9-a1dd-0bd122edc4d6",
+        "type": "message",
+        "text": "you're able to use the API locally?",
+        "user": "UMQA682PJ",
+        "ts": "1573498226.005900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1e9f1347-261d-45fd-811f-a1c2faea391e",
+        "type": "message",
+        "text": "is there a URL in CI?",
+        "user": "UMQA682PJ",
+        "ts": "1573498230.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6d92cae-356e-4695-9b66-d325b2b92092",
+        "type": "message",
+        "text": "yeah",
+        "user": "UAR1CADNV",
+        "ts": "1573498232.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af64e169-606b-4121-bd89-4fe2aefa8e38",
+        "type": "message",
+        "text": "where do you think a good place for a breakpoint would be for debugging this?",
+        "user": "UMQA682PJ",
+        "ts": "1573498325.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "134966e3-6889-45ef-9315-a14f761c8c4a",
+        "type": "message",
+        "text": "try taking compose down",
+        "user": "UAR1CADNV",
+        "ts": "1573498470.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9163b094-d5d2-469f-a10f-73b566bb2162",
+        "type": "message",
+        "text": "then run `make collect-static`",
+        "user": "UAR1CADNV",
+        "ts": "1573498481.007800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fbbaa359-7f9c-4d5a-9d35-76cdd3a17eda",
+        "type": "message",
+        "text": "then bring compose up",
+        "user": "UAR1CADNV",
+        "ts": "1573498502.008000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6c93b0a3-7833-4898-afc3-c1f597d4aadd",
+        "type": "message",
+        "text": "looks like it's working now",
+        "user": "UMQA682PJ",
+        "ts": "1573498720.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b5253698-8d3a-403e-bafb-e85512a7eb0e",
+        "type": "message",
+        "text": "awesome",
+        "user": "UAR1CADNV",
+        "ts": "1573498724.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23ad2d92-85cd-4b3b-addc-420def998e7e",
+        "type": "message",
+        "text": "Hey Doug, do you know what this error means when trying to create a Provider?\n```\nkoku_server       | [2019-11-11 20:27:42,576] INFO: API: /api/cost-management/v1/providers/ -- ACCOUNT: 10001 USER: user_dev\nkoku_server       | [2019-11-11 20:27:42,819] ERROR: An error occurred (AccessDenied) when calling the AssumeRole operation: User: arn:aws:iam::589173575009:user/nbonilla is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::5891735755009:role/CostManagement\nkoku_server       | Traceback (most recent call last):\nkoku_server       |   File \"/koku/koku/providers/aws/provider.py\", line 50, in _get_sts_access\nkoku_server       |     RoleSessionName='AccountCreationSession'\nkoku_server       |   File \"/opt/app-root/lib/python3.6/site-packages/botocore/client.py\", line 357, in _api_call\nkoku_server       |     return self._make_api_call(operation_name, kwargs)\nkoku_server       |   File \"/opt/app-root/lib/python3.6/site-packages/botocore/client.py\", line 661, in _make_api_call\nkoku_server       |     raise error_class(parsed_response, operation_name)\nkoku_server       | botocore.exceptions.ClientError: An error occurred (AccessDenied) when calling the AssumeRole operation: User: arn:aws:iam::589173575009:user/nbonilla is not authorized to perform: sts:AssumeRole on resource: arn:aws:iam::5891735755009:role/CostManagement\nkoku_server       | [2019-11-11 20:27:42,909] WARNING: Bad Request: /api/cost-management/v1/providers/\nkoku_server       | [2019-11-11 20:27:42,910] WARNING: \"POST /api/cost-management/v1/providers/ HTTP/1.1\" 400 12346\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573504113.009000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eea4ded9-b5e1-4433-88e0-11dd07fad19f",
+        "type": "message",
+        "text": "probably don\u2019t have your AWS credentials set in your environment",
+        "user": "UAR1CADNV",
+        "ts": "1573504180.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0aad611-c4f2-4f7f-8edd-a7d33e214524",
+        "type": "message",
+        "text": "i checked the env inside the koku_server container, i see the AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS are set",
+        "user": "UMQA682PJ",
+        "ts": "1573506910.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4674d6f2-ad35-4a85-a17d-92e1b20a4096",
+        "type": "message",
+        "text": "maybe theres something not setup correctly for your account on the AWS side?",
+        "user": "UAR1CADNV",
+        "ts": "1573506992.010800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20f2021f-9290-4299-9346-d296c73e279d",
+        "type": "message",
+        "text": "you\u2019ve been able to create an aws provider before though right?",
+        "user": "UAR1CADNV",
+        "ts": "1573507021.011100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "da377d50-14d4-47c1-9e76-800e5feb2e11",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1573507027.011300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "698c70be-547f-45e7-b364-78288594dba3",
+        "type": "message",
+        "text": "today i'm not",
+        "user": "UMQA682PJ",
+        "ts": "1573507034.011600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b8a009f7-07f1-4a96-a91b-a6c2cab4a9d9",
+        "type": "message",
+        "text": "maybe my credentials were reset",
+        "user": "UMQA682PJ",
+        "ts": "1573507041.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c896669-67b0-42df-a377-d2675baf4678",
+        "type": "message",
+        "text": "could be.. I mean if nothing else changed with your local setup and it used to work..",
+        "user": "UAR1CADNV",
+        "ts": "1573507070.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c06253f2-fdaf-49ec-a89b-034a431cc9e6",
+        "type": "message",
+        "text": "i'm still able to login to the console",
+        "user": "UMQA682PJ",
+        "ts": "1573507076.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3404e73e-6147-4f63-99d3-8354c2ef454e",
+        "type": "message",
+        "text": "i\u2019m trying, one second..",
+        "user": "UAR1CADNV",
+        "ts": "1573507635.013000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a39fdcb9-0aa2-40f2-ac3a-cc4cac12c420",
+        "type": "message",
+        "text": "i got it",
+        "user": "UMQA682PJ",
+        "ts": "1573507641.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b7ab8f7e-4850-42c5-b523-5cb5fab1b35f",
+        "type": "message",
+        "text": "nevermind",
+        "user": "UMQA682PJ",
+        "ts": "1573507648.013500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd41486a-9e2b-4d0e-b9f3-2c48434fe85d",
+        "type": "message",
+        "text": "what was it?",
+        "user": "UAR1CADNV",
+        "ts": "1573507651.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d162264f-cf33-4a0f-a948-3a30619a3a5c",
+        "type": "message",
+        "text": "i skipped it and made AWS local actually",
+        "user": "UMQA682PJ",
+        "ts": "1573507673.014400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "733763cc-aa6e-41f8-8d93-68f78f4007d3",
+        "type": "message",
+        "text": "but are you able to make AWS providers?",
+        "user": "UAR1CADNV",
+        "ts": "1573507697.014800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21420db2-3964-4e71-90c9-b3dee6d98493",
+        "type": "message",
+        "text": "only AWS-local providers",
+        "user": "UMQA682PJ",
+        "ts": "1573507704.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5e360f7f-f4e2-43de-9f03-edb60502bfd4",
+        "type": "message",
+        "text": "i can't make AWS providers anymore",
+        "user": "UMQA682PJ",
+        "ts": "1573507710.015300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f4f5b15-d46b-4de1-a2ea-bc8c4b4f62c2",
+        "type": "message",
+        "text": "ok so it\u2019s not working",
+        "user": "UAR1CADNV",
+        "ts": "1573507712.015500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cf57d54a-5fce-4c4c-a0bb-b719b7b2e9ba",
+        "type": "message",
+        "text": "correct",
+        "user": "UMQA682PJ",
+        "ts": "1573507715.015700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e793c691-fc35-41ad-9747-7305f4dbe1f9",
+        "type": "message",
+        "text": "oh",
+        "user": "UMQA682PJ",
+        "ts": "1573507790.015900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3515c126-7ca2-4213-aabf-1dd925e1fc56",
+        "type": "message",
+        "text": "i know what it was",
+        "user": "UMQA682PJ",
+        "ts": "1573507809.016300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "430b00f1-9ace-4c66-bd0c-0b923f13d006",
+        "type": "message",
+        "text": "i misspelled the provider resource name",
+        "user": "UMQA682PJ",
+        "ts": "1573507815.016600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d69b4413-b20a-4e30-a8fd-5c14b687e7e6",
+        "type": "message",
+        "text": "what would cause the source to be considered incorrectly set up?",
+        "user": "UMQA682PJ",
+        "ts": "1573508022.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cbd3a122-e27f-4241-b8c6-1e1ee024df90",
+        "type": "message",
+        "text": "depends on the provider, each have their own checks",
+        "user": "UAR1CADNV",
+        "ts": "1573508053.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ba98478a-2f46-4d11-a5f1-54d55393f8c0",
+        "type": "message",
+        "text": "aka- what would cause cost_usage_source_ready to throw an exception",
+        "user": "UMQA682PJ",
+        "ts": "1573508053.018300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cfcf99c2-0a55-49f8-87b0-e608c7b3df8c",
+        "type": "message",
+        "text": "try our test arn and putting a bogus s3 bucket value",
+        "user": "UAR1CADNV",
+        "ts": "1573508082.019100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20a2fa48-cd11-4dbd-b3f3-4c640e712f3d",
+        "type": "message",
+        "text": "still returns \"available\"",
+        "user": "UMQA682PJ",
+        "ts": "1573508113.019300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f686d0d-4bc2-4f69-9adf-21861dc18b6b",
+        "type": "message",
+        "text": "you updated the sources table?",
+        "user": "UAR1CADNV",
+        "ts": "1573508128.019600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f66f2208-e077-4d82-9c58-60f8e18e9541",
+        "type": "message",
+        "text": "nevermind, it's not \"available\" after changing the sources table",
+        "user": "UMQA682PJ",
+        "ts": "1573508231.020000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a980f63a-25cd-4fae-8a4b-a84cdbe0396f",
+        "type": "message",
+        "text": "i hadn't committed the changes",
+        "user": "UMQA682PJ",
+        "ts": "1573508238.020200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dc95a72a-3600-480b-9fb3-6912cda8f0d0",
+        "type": "message",
+        "text": "awesome, it works",
+        "user": "UMQA682PJ",
+        "ts": "1573508282.020400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0c471527-7afe-4c2c-8637-541c3e6a4fac",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1573508283.020600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9d0bb763-1a0e-439d-bc70-89a9c92ad8ab",
+        "type": "message",
+        "text": "Do we want an openapi spec for this API?",
+        "user": "UMQA682PJ",
+        "ts": "1573509133.021000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cca78b06-fd39-4297-8ceb-e2ac6de597e7",
+        "type": "message",
+        "text": "Luke said: \"We have internal endpoint on koku-masu which we create a openapi spec for to make it easier to generate our client so we may want to do the same for this\"",
+        "user": "UMQA682PJ",
+        "ts": "1573509151.021400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ec586c8c-1714-419a-953d-0ee65cd7bf0c",
+        "type": "message",
+        "text": "yeah we probably should have one, even though it\u2019s called internally",
+        "user": "UAR1CADNV",
+        "ts": "1573509203.021700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45138f32-be58-4d6a-b2e5-455938a29774",
+        "type": "message",
+        "text": "we could do it now or once we finalize the request/response conventions with the platform",
+        "user": "UAR1CADNV",
+        "ts": "1573509222.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f77057c-a84b-442f-b15e-bbd4b841d5c1",
+        "type": "message",
+        "text": "I'll write a Github issue for it?",
+        "user": "UMQA682PJ",
+        "ts": "1573509312.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ddf62ae3-aa02-4b67-af74-c8f01d7fa932",
+        "type": "message",
+        "text": "Sounds good!",
+        "user": "UAR1CADNV",
+        "ts": "1573509322.023300",
+        "team": "T026NJJ6Z"
+    }
+]

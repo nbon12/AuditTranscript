@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "b9613803-19d5-4e6a-87fb-77386a8e3497",
+        "type": "message",
+        "text": "<https://mojo.redhat.com/docs/DOC-968932>",
+        "user": "U5SUXMJ83",
+        "ts": "1567001135.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34a700aa-1331-4a75-9fd1-19674969fdbc",
+        "type": "message",
+        "text": "Yes, we saw the newer House",
+        "user": "UMQA682PJ",
+        "ts": "1567012251.000200",
+        "team": "T026NJJ6Z"
+    }
+]

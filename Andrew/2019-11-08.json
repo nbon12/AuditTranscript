@@ -1,0 +1,449 @@
+[
+    {
+        "client_msg_id": "f5687d66-629e-42a5-b920-c5f4265080e3",
+        "type": "message",
+        "text": "Hi Andrew, what is Tag Matching?",
+        "user": "UMQA682PJ",
+        "ts": "1573236908.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6d45c352-dcd7-40d5-9825-b86e56b2b746",
+        "type": "message",
+        "text": "Broadly just matching 2 resources from different sources based on tag metadata associated with the resource.",
+        "user": "U8FS2P1LH",
+        "ts": "1573238192.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8561cf01-3976-4568-8924-cd4448e7d3f1",
+        "type": "message",
+        "text": "Specifically for us we match cloud costs with OpenShift using those tags.",
+        "user": "U8FS2P1LH",
+        "ts": "1573238207.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21379baf-fb9e-46d0-8bdd-d88f207d584e",
+        "type": "message",
+        "text": "So very simple example someone tags their RDS database in AWS with `openshift_application: cost-management` and then tags some pods in OpenShift with `openshift_application: cost-management` we would pick up the cost of that database and associate it with an OpenShift cluster.",
+        "user": "U8FS2P1LH",
+        "ts": "1573238280.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b07cfe4e-60bc-414a-883d-f42f5498b865",
+        "type": "message",
+        "text": "Hey I'm about to merge the pyupbot changes, I solved the merge conflict, do you have any feedback before I do that? <https://github.com/project-koku/koku/pull/1317>",
+        "user": "UMQA682PJ",
+        "ts": "1573239918.003600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573239927.000000"
+        },
+        "attachments": [
+            {
+                "author_name": "pyup-bot",
+                "fallback": "[project-koku/koku] #1317 Scheduled weekly dependency update for week 43",
+                "text": "*Update <https://pypi.org/project/aiokafka|aiokafka> from *0.5.1* to *0.5.2*.*\nChangelog\n*0.5.2*\n\n```\n^^^^^^^^^^^^^^^^^^\n\nBugfixes:\n\n* Fix ConnectionError breaking metadata sync background task (issue 517 and 512)\n* Fix event_waiter reference before assignment (pr 504 by romantolkachyov)\n* Bump version of kafka-python\n\n``` Links\n\n\u2022 PyPI: <https://pypi.org/project/aiokafka|https://pypi.org/project/aiokafka>\n\u2022 Changelog: <https://pyup.io/changelogs/aiokafka/|https://pyup.io/changelogs/aiokafka/>\n\u2022 Docs: <http://aiokafka.readthedocs.org|http://aiokafka.readthedocs.org>\n\n*Update <https://pypi.org/project/amqp|amqp> from *2.5.1* to *2.5.2*.*\nChangelog\n*2.5.2*\n\n```\n=====\n:release-date: 2019-09-30 19.00 P.M UTC+6:00\n:release-by: Asif Saif Uddin\n\n- Ignore all methods except Close and Close-OK when channel/connection is closing\n- Fix faulty ssl sni intiation parameters (283) \n- Undeprecate auto_delete flag for exchanges. (287) \n- Improved tests and testing environments\n\n\n.. _version-2.5.1:\n\n``` Links\n\n\u2022 PyPI: <https://pypi.org/project/amqp|https://pypi.org/project/amqp>\n\u2022 Changelog: <https://pyup.io/changelogs/amqp/|https://pyup.io/changelogs/amqp/>\n\u2022 Repo: <https://github.com/celery/py-amqp|http://github.com/celery/py-amqp>\n\n*Update <https://pypi.org/project/beautifulsoup4|beautifulsoup4> from *4.8.0* to *4.8.1*.*\n\n_The bot wasn't able to find a changelog for this release. <https://github.com/pyupio/changelogs/issues/new|Got an idea?>_\n\nLinks\n\n\u2022 PyPI: <https://pypi.org/project/beautifulsoup4|https://pypi.org/project/beautifulsoup4>\n\u2022 Homepage: <http://www.crummy.com/software/BeautifulSoup/bs4/|http://www.crummy.com/software/BeautifulSoup/bs4/>\n\n*Update <https://pypi.org/project/boto3|boto3> from *1.9.200* to *1.10.2*.*\nChangelog\n*1.10.2*\n\n```\n======\n\n* api-change:``sagemaker``: [``botocore``] Update sagemaker client to latest version\n* api-change:``gamelift``: [``botocore``] Update gamelift client to latest version\n* enhancement:``sts``: [``botocore``] Add support for configuring the use of regional STS endpoints.\n* api-change:``chime``: [``botocore``] Update chime client to latest version\n* api-change:``appmesh``: [``botocore``] Update appmesh client to latest version\n* api-change:``ec2``: [``botocore``] Update ec2 client to latest version\n\n```\n\n*1.10.1*\n\n```\n======\n\n* api-change:``polly``: [``botocore``] Update polly client to latest version\n* api-change:``connect``: [``botocore``] Update connect client to latest version\n\n```\n\n*1.10.0*\n\n```\n======\n\n* api-change:``opsworkscm``: [``botocore``] Update opsworkscm client to latest version\n* api-change:``iotevents``: [``botocore``] Update iotevents client to latest version\n* feature:``botocore.vendored.requests``: [``botocore``] Removed vendored version of ``requests`` (`1829 &lt;https://github.com/boto/botocore/issues/1829&gt;`__)\n\n```\n\n*1.9.253*\n\n```\n=======\n\n* api-change:``cloudwatch``: [``botocore``] Update cloudwatch client to latest version\n\n```\n\n*1.9.252*\n\n```\n=======\n\n* api-change:``batch``: [``botocore``] Update batch client to latest version\n* api-change:``rds``: [``botocore``] Update rds client to latest version\n\n```\n\n*1.9.251*\n\n```\n=======\n\n* api-change:``kafka``: [``botocore``] Update kafka client to latest version\n* api-change:``marketplacecommerceanalytics``: [``botocore``] Update marketplacecommerceanalytics client to latest version\n* api-change:``robomaker``: [``botocore``] Update robomaker client to latest version\n\n```\n\n*1.9.250*\n\n```\n=======\n\n* api-change:``kinesis-video-archived-media``: [``botocore``] Update kinesis-video-archived-media client to latest version\n\n```\n\n*1.9.249*\n\n```\n=======\n\n* api-change:``personalize``: [``botocore``] Update personalize client to latest version\n* api-change:``workspaces``: [``botocore``] Update workspaces client to latest version\n\n```\n\n*1.9.248*\n\n```\n=======\n\n* api-change:``greengrass``: [``botocore``] Update greengrass client to latest version\n\n```\n\n*1.9.247*\n\n```\n=======\n\n* api-change:``ec2``: [``botocore``] Update ec2 client to latest version\n* api-change:``lex-runtime``: [``botocore``] Update lex-runtime client to latest version\n* api-change:``fms``: [``botocore``] Update fms client to latest version\n* api-change:``iotanalytics``: [``botocore``] Update iotanalytics client to latest version\n\n```\n\n*1.9.246*\n\n```\n=======\n\n* api-change:``kafka``: [``botocore``] Update kafka client to latest version\n* api-change:``elasticache``: [``botocore``] Update elasticache client to latest version\n* api-change:``mediaconvert``: [``botocore``] Update mediaconvert client to latest version\n\n```\n\n*1.9.245*\n\n```\n=======\n\n* api-change:``organizations``: [``botocore``] Update organizations client to latest version\n* api-change:``events``: [``botocore``] Update events client to latest version\n* api-change:``firehose``: [``botocore``] Update firehose client to latest version\n* api-change:``datasync``: [``botocore``] Update datasync client to latest version\n\n```\n\n*1.9.244*\n\n```\n=======\n\n* api-change:``snowball``: [``botocore``] Update snowball client to latest version\n* api-change:``directconnect``: [``botocore``] Update directconnect client to latest version\n* api-change:``firehose``: [``botocore``] Update firehose client to latest version\n* api-change:``pinpoint``: [``botocore``] Update pinpoint client to latest version\n* api-change:``glue``: [``botocore``] Update glue client to latest version\n* api-change:``pinpoint-email``: [``botocore``] Update pinpoint-email client to latest version\n\n```\n\n*1.9.243*\n\n```\n=======\n\n* api-change:``cognito-idp``: [``botocore``] Update cognito-idp client to latest version\n* api-change:``mediapackage``: [``botocore``] Update mediapackage client to latest version\n* api-change:``ssm``: [``botocore``] Update ssm client to latest version\n\n```\n\n*1.9.242*\n\n```\n=======\n\n* api-change:``es``: [``botocore``] Update es client to latest version\n* api-change:``ec2``: [``botocore``] Update ec2 client to latest version\n* api-change:``application-autoscaling``: [``botocore``] Update application-autoscaling client to latest version\n* api-change:``devicefarm``: [``botocore``] Update devicefarm client to latest version\n\n```\n\n*1.9.241*\n\n```\n=======\n\n* api-change:``lightsail``: [``botocore``] Update lightsail client to latest version\n\n```\n\n*1.9.240*\n\n```\n=======\n\n* api-change:``docdb``: [``botocore``] Update docdb client to latest version\n\n```\n\n*1.9.239*\n\n```\n=======\n\n* api-change:``waf``: [``botocore``] Update waf client to latest version\n* api-change:``rds``: [``botocore``] Update rds client to latest version\n* api-change:``mq``: [``botocore``] Update mq client to latest version\n\n```\n\n*1.9.238*\n\n```\n=======\n\n* api-change:``amplify``: [``botocore``] Update amplify client to latest version\n* api-change:``ecs``: [``botocore``] Update ecs client to latest version\n\n```\n\n*1.9.237*\n\n```\n=======\n\n* api-change:``ssm``: [``botocore``] Update ssm client to latest version\n* api-change:``codepipeline``: [``botocore``] Update codepipeline client to latest version\n\n```\n\n*1.9.236*\n\n```\n=======\n\n* api-change:``globalaccelerator``: [``botocore``] Update globalaccelerator client to latest version\n* api-change:``dms``: [``botocore``] Update dms client to latest version\n* api-change:``sagemaker``: [``botocore``] Update sagemaker client to latest version\n\n```\n\n*1.9.235*\n\n```\n=======\n\n* api-change:``transcribe``: [``botocore``] Update transcribe client to latest version\n* api-change:``comprehendmedical``: [``botocore``] Update comprehendmedical client to latest version\n* api-change:``datasync``: [``botocore``] Update datasync client to latest version\n\n```\n\n*1.9.234*\n\n```\n=======\n\n* api-change:``rds-data``: [``botocore``] Update rds-data client to latest version\n* api-change:``redshift``: [``botocore``] Update redshift client to latest version\n\n```\n\n*1.9.233*\n\n```\n=======\n\n* api-change:``workspaces``: [``botocore``] Update workspaces client to latest version\n* api-change:``ec2``: [``botocore``] Update ec2 client to latest version\n* api-change:``greengrass``: [``botocore``] Update greengr\u2026",
+                "title": "#1317 Scheduled weekly dependency update for week 43",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1317",
+                "author_link": "https://github.com/pyup-bot",
+                "author_icon": "https://avatars0.githubusercontent.com/u/16239342?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1572288965,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Assignees",
+                        "value": "nbon12",
+                        "short": true
+                    },
+                    {
+                        "title": "Comments",
+                        "value": "2",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1317",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "73c0ca8e-6597-4d7f-bf17-cba62e6d401c",
+        "type": "message",
+        "text": "Yes, don\u2019t. It\u2019ll cause builds to fail in OpenShift.",
+        "user": "U8FS2P1LH",
+        "ts": "1573239956.004200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4d50c00a-1bcb-4375-89c6-269cf4fa9b3a",
+        "type": "message",
+        "text": "oh, ok.",
+        "user": "UMQA682PJ",
+        "ts": "1573239962.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "37d44b46-a696-4ac5-86b9-62748eada136",
+        "type": "message",
+        "text": "And here\u2019s why\u2026",
+        "user": "U8FS2P1LH",
+        "ts": "1573239965.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fa7f482a-e9c3-4c47-8fd0-49a979196f4e",
+        "type": "message",
+        "text": "We currently build everything using the Pipfile.lock. and pyup does not update the lock file\u2019s overall hash when it updates packages.",
+        "user": "U8FS2P1LH",
+        "ts": "1573239988.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ca3646e-4ce0-49df-b056-ef1944fa9da6",
+        "type": "message",
+        "text": "So it goes and computes the hash and finds a conflict and fails out.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240000.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "09b3a5a0-db29-47e0-940c-7162bd84080f",
+        "type": "message",
+        "text": "But if you pull that branch and run `pipenv lock` then push that change it should be mergable.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240021.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a9028cb-73bb-424c-8401-26b6e50e8b04",
+        "type": "message",
+        "text": "Also talk with Michael about this as he was investigating ways to get around this and get it back to automated again.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240040.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e5ee651e-8923-4664-b10c-f41816420da1",
+        "type": "message",
+        "text": "Because it\u2019s a huge pain right now to have this automatic thing that isn\u2019t at all automatic.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240054.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4aeba93a-2529-4b3b-bc07-1be93b9eafcc",
+        "type": "message",
+        "text": "Huge being a very subjective word here. :smile:",
+        "user": "U8FS2P1LH",
+        "ts": "1573240170.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5d651471-7bdc-4472-9d7e-c3f1c9709d2c",
+        "type": "message",
+        "text": "So, running `pipenv lock` does what pyupbot is supposed to do anyway right?",
+        "user": "UMQA682PJ",
+        "ts": "1573240456.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a995b0d6-ea46-4842-9f52-9cd3e18fa346",
+        "type": "message",
+        "text": "Ya.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240519.008000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01ab79c4-0312-429d-ab0b-446465e38a5a",
+        "type": "message",
+        "text": "But do talk with Michael. He had some ideas here.",
+        "user": "U8FS2P1LH",
+        "ts": "1573240536.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cba38341-284c-471d-baec-ddaf25152fc3",
+        "type": "message",
+        "text": "If you\u2019re interested in the \u201cfix\u201d",
+        "user": "U8FS2P1LH",
+        "ts": "1573240542.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99f28730-d0e2-403f-821d-256f794abcb5",
+        "type": "message",
+        "text": "question: is everything built with Pipfile.lock in Travis?",
+        "user": "UMQA682PJ",
+        "ts": "1573241562.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a78a7046-eb8c-4886-97db-26a13890a59e",
+        "type": "message",
+        "text": "I noticed all the Travis tests passed",
+        "user": "UMQA682PJ",
+        "ts": "1573241570.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c76b64d-57a2-436a-8b31-79d38ec67660",
+        "type": "message",
+        "text": "before running `pipenv lock`",
+        "user": "UMQA682PJ",
+        "ts": "1573241576.009600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e4140266-5587-4d29-9807-b2ee6951fcd8",
+        "type": "message",
+        "text": "but after pyupbot updated hashes",
+        "user": "UMQA682PJ",
+        "ts": "1573241585.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a384b569-3a81-49ca-8f16-b22f84bac74d",
+        "type": "message",
+        "text": "so is travis still using the old hashes?",
+        "user": "UMQA682PJ",
+        "ts": "1573241691.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08cb667b-1bd6-416a-8216-d23fe0ed0583",
+        "type": "message",
+        "text": "travis uses tox which uses `pipenv install --dev --ignore-pipfile` so that must be fine.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241712.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "caac678b-9e7d-42c3-9f8c-b430fb768843",
+        "type": "message",
+        "text": "So it\u2019s really about the OpenShift build.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241723.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4ccaa48f-4aec-4954-8bad-b582c96a4129",
+        "type": "message",
+        "text": "That at least used to fail on a mismatched hash.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241732.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f860808-220c-46c4-b977-b44432fec5f8",
+        "type": "message",
+        "text": "Worth seeing if that is still a thing.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241738.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f6cfd3f6-d375-4bea-aa13-4055e7bf844f",
+        "type": "message",
+        "text": "It\u2019s possible we\u2019re all good, and it doesn\u2019t really matter any more.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241758.011800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94ff7ff1-3a65-4f9e-b8e6-e3bbb5f14ad0",
+        "type": "message",
+        "text": "Which would be neat.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241760.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ac77c59a-170a-4788-b61d-0d95c167b25d",
+        "type": "message",
+        "text": "how do I know if a hash is correct or not?",
+        "user": "UMQA682PJ",
+        "ts": "1573241818.012400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eae574d9-76e5-41f9-99d7-b99688441c3b",
+        "type": "message",
+        "text": "Well if there\u2019s changes to the file and the hash didn\u2019t update it\u2019s definitely not correct. Since the hash is unique (excluding the rare collision) based on the content of the file.",
+        "user": "U8FS2P1LH",
+        "ts": "1573241858.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a5c36c99-d554-41ce-9f34-1c3f274616e9",
+        "type": "message",
+        "text": "what about when the hash does update?",
+        "user": "UMQA682PJ",
+        "ts": "1573241891.013600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b544f090-02c9-42a2-b65d-8fb59b56a818",
+        "type": "message",
+        "text": "for example in this PR: <https://github.com/project-koku/koku/pull/1317/files>",
+        "user": "UMQA682PJ",
+        "ts": "1573241922.013800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6abd4e36-6136-4172-9a31-e72032d1f0e6",
+        "type": "message",
+        "text": "specifically this commit: <https://github.com/project-koku/koku/pull/1317/commits/386548a882ce2f2f09b30ec6087e2a41ce4532f7>",
+        "user": "UMQA682PJ",
+        "ts": "1573241956.014200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "69396801-f8b1-4938-9ca4-90bd6a2e8f36",
+        "type": "message",
+        "text": "That commit has the specific hash for virtualenv which has been getting updated. The \u201coverall\u201d hash I\u2019m referring to is at the very top of the Pipfile.lock\n\n```\n{\n    \"_meta\": {\n        \"hash\": {\n            \"sha256\": \"2c5c03962bff6e2fa4d172b930958b8b7151aa9353c613d2a313c966c5b13d51\"\n        },\n        \"pipfile-spec\": 6,\n        \"requires\": {\n            \"python_version\": \"3.6\"\n        },\n        \"sources\": [\n            {\n                \"name\": \"pypi\",\n                \"url\": \"<https://pypi.python.org/simple>\",\n                \"verify_ssl\": true\n            }\n        ]\n    },\n```",
+        "user": "U8FS2P1LH",
+        "ts": "1573242087.015100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f9a3eb4d-7d14-49ba-9d38-0a1266ceb52b",
+        "type": "message",
+        "text": "but\u2026 this PR now looks like that has been updated.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242096.015400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5b6b1048-fde2-4295-a169-e1d7bf93587c",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1573242123.016200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b89d10f-732d-49d6-8f38-876a00d77e1a",
+        "type": "message",
+        "text": "Would be awesome if it\u2019s just getting updated now.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242140.016500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2e9ec952-454a-452f-a7b6-8e2545fe1fd4",
+        "type": "message",
+        "text": "i ran pipenv lock as the last commit to this PR",
+        "user": "UMQA682PJ",
+        "ts": "1573242153.016900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9d440e00-95f4-4dff-98ed-0d1087c8edf6",
+        "type": "message",
+        "text": "Oh you did it. I see now.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242163.017100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "22bfbcd5-7213-40fb-ae1a-77f82ee2dce8",
+        "type": "message",
+        "text": "Cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242167.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b258ff07-062e-4383-8b34-103674934265",
+        "type": "message",
+        "text": "it's ok to merge now?",
+        "user": "UMQA682PJ",
+        "ts": "1573242841.019900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a92a5f96-b45e-4cdd-b7cb-310d77c7c52d",
+        "type": "message",
+        "text": "Yeah, but let\u2019s hold off a bit as there\u2019s a handful of critical bug fixes going in and I don\u2019t want to back them up with long travis runs again.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242901.020700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "33c86684-3dc2-4047-93a9-de3b169510d3",
+        "type": "message",
+        "text": "Just a little bit.",
+        "user": "U8FS2P1LH",
+        "ts": "1573242910.020900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2e2363ce-33e1-4ee3-abb2-d35aba18a9a7",
+        "type": "message",
+        "text": "what time of day do you think would be best in general, for when this is automated?",
+        "user": "UMQA682PJ",
+        "ts": "1573243020.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "87ba5f06-e0f3-4072-974d-90d3ea6a6b6f",
+        "type": "message",
+        "text": "im guessing sometime around midnight EST",
+        "user": "UMQA682PJ",
+        "ts": "1573243033.022800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73ed7e4a-c69d-4eba-9083-4004541feb4a",
+        "type": "message",
+        "text": "is there anyone in India working on Koku?",
+        "user": "UMQA682PJ",
+        "ts": "1573243045.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a0c723de-e1d9-4e0f-90ff-2eeb95d7cde7",
+        "type": "message",
+        "text": "No, there is not.",
+        "user": "U8FS2P1LH",
+        "ts": "1573243067.023400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bfc4c6d6-faa5-45c3-801f-720839510126",
+        "type": "message",
+        "text": "So in general, it\u2019s just another PR. Probably better to do it during working hours for us in case it does cause some problem.",
+        "user": "U8FS2P1LH",
+        "ts": "1573243647.024200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9df9dd7a-c29e-41b5-8360-24c1a95e903f",
+        "type": "message",
+        "text": "We do have people in the UK and Europe using CI, so don\u2019t want to leave it in a bad state for them.",
+        "user": "U8FS2P1LH",
+        "ts": "1573243664.024600",
+        "team": "T026NJJ6Z"
+    }
+]

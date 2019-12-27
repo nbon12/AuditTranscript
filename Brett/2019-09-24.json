@@ -1,0 +1,63 @@
+[
+    {
+        "client_msg_id": "0abf58a6-408c-4dbc-9950-2cedf384662e",
+        "type": "message",
+        "text": "Hi Brett, regarding your request on the PR to make it work in OpenShift: <https://github.com/project-koku/koku/pull/1156>\nIs the request isolated enough to be released in a separate PR? Does the PR currently cause any blockers to OpenShift related deployments?\n\nI've never used OpenShift, so I'm not sure how to do the thing.",
+        "user": "UMQA682PJ",
+        "ts": "1569329263.004000",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1156 add pgadmin",
+                "text": "Often times and for many reasons, users want to interact with a database directly.  \nUsing pgAdmin, developers can inspect the contents of the database with an easy to use UI.  \nThis will allow for faster development.  \nIt may also aid in testing, debugging, and system administration.",
+                "title": "#1156 add pgadmin",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1156",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1569271363,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Comments",
+                        "value": "1",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1156",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "67d71c11-3570-4a8e-bf88-2229fb09a1f6",
+        "type": "message",
+        "text": "The main reason I asked for it is because not everyone develops using docker-compose.\n\nSo, in order to ensure everyone can benefit from the addition, you would need to include changes to the openshift templates to make sure you're not leaving anyone out.",
+        "user": "U9RH8D20Y",
+        "ts": "1569329520.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bda0c5b0-f662-4532-ade1-37806dfa9781",
+        "type": "message",
+        "text": "Yes, definitely want everyone to benefit. To be iterative and release early and often is also important. How about I'll create a new PR for the OpenShift pgAdmin feature.",
+        "user": "UMQA682PJ",
+        "ts": "1569329865.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ae7f8ac9-2971-4827-b22b-997063664bba",
+        "type": "message",
+        "text": "Sure, that's fine. Thank you.",
+        "user": "U9RH8D20Y",
+        "ts": "1569329947.008100",
+        "team": "T026NJJ6Z"
+    }
+]

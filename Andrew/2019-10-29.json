@@ -1,0 +1,74 @@
+[
+    {
+        "client_msg_id": "bd79f9ee-166f-4626-8343-e0582c721a97",
+        "type": "message",
+        "text": "hey I'm participating in the Talent show on thursday so i can't attend the triage meeting.",
+        "user": "UMQA682PJ",
+        "ts": "1572360148.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "075fe9aa-a353-4099-8985-c7aeb7591b38",
+        "type": "message",
+        "text": "No problem at all.",
+        "user": "U8FS2P1LH",
+        "ts": "1572360368.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a0fc5ad-3c85-425a-91c0-d3df7ef291ee",
+        "type": "message",
+        "text": "It _is_ We Are Red Hat week, after all.",
+        "user": "U8FS2P1LH",
+        "ts": "1572360380.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d07e20c7-8e0a-46ea-9e99-475ed90afb23",
+        "type": "message",
+        "text": "What talent are you showcasing?",
+        "user": "U8FS2P1LH",
+        "ts": "1572360390.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8e0708d3-f8f2-4dca-b4b1-d5c4ca6ff0a3",
+        "type": "message",
+        "text": "piano",
+        "user": "UMQA682PJ",
+        "ts": "1572360580.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b7ca8e9b-f9d0-43d1-a31c-71e6669f3c74",
+        "type": "message",
+        "text": "Nice!",
+        "user": "U8FS2P1LH",
+        "ts": "1572360683.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6fb18761-f340-4fd1-b172-605906c28350",
+        "type": "message",
+        "text": "my songs are: 1) final fantasy intro 2) pocohontas - Colors of the Wind 3) Zelda Windwaker (Outset Island)",
+        "user": "UMQA682PJ",
+        "ts": "1572360699.003000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f459387-bbd4-4bc8-99d7-e2a34bee766f",
+        "type": "message",
+        "text": "Awesome.",
+        "user": "U8FS2P1LH",
+        "ts": "1572360749.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "024a97f2-65e9-4658-a4dd-02b769316f34",
+        "type": "message",
+        "text": "Need to look up the Windwaker song, do not remember the music from it. Ocarina of Time music just stamped it out in my memory.",
+        "user": "U8FS2P1LH",
+        "ts": "1572360785.004200",
+        "team": "T026NJJ6Z"
+    }
+]

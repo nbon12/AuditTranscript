@@ -1,0 +1,66 @@
+[
+    {
+        "client_msg_id": "cb16cae5-5f33-4622-a1fc-1aba7ca4e8da",
+        "type": "message",
+        "text": "We should have the Risk conference room on 17 for the demo today.",
+        "user": "U8FS2P1LH",
+        "ts": "1567522102.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4275da5a-88ba-4e23-a848-921d508663b0",
+        "type": "message",
+        "text": "I'm in Durham today",
+        "user": "UMQA682PJ",
+        "ts": "1567522115.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d97ff22e-fa01-495e-a812-8cb0b8445767",
+        "type": "message",
+        "text": "Okay, cool.",
+        "user": "U8FS2P1LH",
+        "ts": "1567522122.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "56adbc5b-84a0-4dc7-b2f2-617ef162226a",
+        "type": "message",
+        "text": "I know we didn\u2019t have anything on the calendar officially, but figure it\u2019s probably better to do the stuff we talked about going over on Friday in person. We can go over the project history + architecture stuff next time you are in Raleigh.",
+        "user": "U8FS2P1LH",
+        "ts": "1567524984.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8f9cda55-b40a-4a6a-8cec-981707989ab8",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1567525034.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ccd170c0-808c-499b-9925-ae7fcf660ece",
+        "type": "message",
+        "text": "I was planning to be in Durham this week during Django training. I'll be more prepared for architecture after that. Sounds good?",
+        "user": "UMQA682PJ",
+        "ts": "1567525156.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a9fc34d2-448e-45e2-8293-bc31d524a811",
+        "type": "message",
+        "text": "Sure. I\u2019ll probably throw some info at you in Slack today just around the sprint cadence, and when people are in or home, et cetera.",
+        "user": "U8FS2P1LH",
+        "ts": "1567525412.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c77cbc0-52b0-4b7e-93a0-86728f843ed9",
+        "type": "message",
+        "text": "Also, importantly... With the hurricane potentially coming, don\u2019t hesitate to stay home if it\u2019s windy, raining, in any way dangerous to go in.",
+        "user": "U8FS2P1LH",
+        "ts": "1567525512.005700",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "client_msg_id": "cfe4cd31-d0a3-4683-8140-51f83081ded7",
+        "type": "message",
+        "text": "Put you on an issue for this sprint, let me know if you want to talk through it.",
+        "user": "U8FS2P1LH",
+        "ts": "1568817126.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19671a92-80bf-4ca5-aaaf-e2ec9bcfe5f2",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1568817468.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7ec30a77-1fed-4b3b-8bfa-d2dd9cc4f23a",
+        "type": "message",
+        "text": "hey can we meet",
+        "user": "UMQA682PJ",
+        "ts": "1568818370.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4f3f20f3-a179-4700-a25d-6e7ae81948d4",
+        "type": "message",
+        "text": "regarding the SQL injection",
+        "user": "UMQA682PJ",
+        "ts": "1568818376.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0e37b2f2-667a-44a3-a3dc-a22505bdfc64",
+        "type": "message",
+        "text": "Yes! Want to come up to 16?",
+        "user": "U8FS2P1LH",
+        "ts": "1568818499.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c712849d-79c5-48df-b699-7a001bb5e41b",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1568818574.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39201c8a-955c-4a18-98b4-aa39891b53be",
+        "type": "message",
+        "text": "heading up now",
+        "user": "UMQA682PJ",
+        "ts": "1568818579.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd353810-0978-4899-a007-30faa9df6ae1",
+        "type": "message",
+        "text": "<https://gitlab.cee.redhat.com/insights-qe/hccm-plugin>",
+        "user": "U8FS2P1LH",
+        "ts": "1568828167.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2803ea79-646b-43d4-8249-ca31717a04f7",
+        "type": "message",
+        "text": "<https://allthingsopen.org/> Not sure if you know this conference. It\u2019s in Raleigh in October. If you are interested, I did check and you can expense your ticket.",
+        "user": "U8FS2P1LH",
+        "ts": "1568828902.002800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "All Things Open",
+                "title": "All Things Open 2019 - Raleigh NC October 13-15",
+                "title_link": "https://allthingsopen.org/",
+                "text": "A conference exploring Open Source, Open Tech, and the Open Web happening in downtown Raleigh NC. Join 4,000+ technologists from all over the world!",
+                "fallback": "All Things Open: All Things Open 2019 - Raleigh NC October 13-15",
+                "image_url": "https://allthingsopen.org/wp-content/uploads/2019/06/https___cdn.evbuc_.com_images_63697318_72322412725_1_original.jpg",
+                "image_width": 500,
+                "image_height": 250,
+                "fields": [
+                    {
+                        "title": "Date",
+                        "value": "October 13-15",
+                        "short": true
+                    },
+                    {
+                        "title": "Location",
+                        "value": "Downtown Raleigh, NC",
+                        "short": true
+                    }
+                ],
+                "from_url": "https://allthingsopen.org/",
+                "image_bytes": 42836,
+                "service_icon": "https://allthingsopen.org/wp-content/uploads/2018/06/cropped-28276669_1555696131195447_4797076930560760193_n-180x180.png",
+                "id": 1,
+                "original_url": "https://allthingsopen.org/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bee396d6-bc1a-45cb-958e-47a61b968e3a",
+        "type": "message",
+        "text": "are you going to both days?",
+        "user": "UMQA682PJ",
+        "ts": "1568829466.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7cf7d032-d157-4f5d-8edf-b7c22fb80114",
+        "type": "message",
+        "text": "which one are you going to?",
+        "user": "UMQA682PJ",
+        "ts": "1568829482.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8d8d3ec0-b347-44b9-b140-a3f875ed5d9c",
+        "type": "message",
+        "text": "Yes, both days.",
+        "user": "U8FS2P1LH",
+        "ts": "1568829518.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8df88945-310d-414e-a5f4-fe0b72e142d0",
+        "type": "message",
+        "text": "Can you go to <http://get.google.com/albumarchive> logged in as your Red Hat account, not a personal gmail/google account? The URL should have a number appeneded to it, if you could post that here, I need it to get you access to our OpenShift clusters.",
+        "user": "U8FS2P1LH",
+        "ts": "1568833329.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9a9ed29e-f5fb-4f00-98cc-270acd122b6d",
+        "type": "message",
+        "text": "<https://get.google.com/albumarchive/114262320034201779205>",
+        "user": "UMQA682PJ",
+        "ts": "1568833365.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18ce311d-16d9-4bec-85aa-78ec7b018b33",
+        "type": "message",
+        "text": "Thank you",
+        "user": "U8FS2P1LH",
+        "ts": "1568833548.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "87c48be2-36e0-45eb-87db-6b2cb88f1711",
+        "type": "message",
+        "text": "K, I put in a ticket for access for you.",
+        "user": "U8FS2P1LH",
+        "ts": "1568833619.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7452a741-c787-436d-acff-9b4db5559208",
+        "type": "message",
+        "text": "798593",
+        "user": "UMQA682PJ",
+        "ts": "1568837463.005400",
+        "team": "T026NJJ6Z",
+        "thread_ts": "1568837463.005400",
+        "reply_count": 1,
+        "reply_users_count": 1,
+        "latest_reply": "1568904638.000400",
+        "reply_users": [
+            "UMQA682PJ"
+        ],
+        "replies": [
+            {
+                "user": "UMQA682PJ",
+                "ts": "1568904638.000400"
+            }
+        ],
+        "subscribed": true,
+        "last_read": "1568904638.000400",
+        "reactions": [
+            {
+                "name": "joy_cat",
+                "users": [
+                    "U8FS2P1LH"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

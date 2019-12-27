@@ -1,0 +1,874 @@
+[
+    {
+        "client_msg_id": "ecd2d6d5-f399-46c4-9307-e67b995014aa",
+        "type": "message",
+        "text": "Hi Doug, how do I run the IQE tests?",
+        "user": "UMQA682PJ",
+        "ts": "1573066295.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e609ce23-e4da-4b4b-8a5e-a3c3ff7ce0d6",
+        "type": "message",
+        "text": "does this run all of them?\n```\nmake docker-iqe-smokes-tests\nmake docker-iqe-api-tests\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573066361.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca59a156-8616-413c-928c-d6fe82d7bed9",
+        "type": "message",
+        "text": "hey Nick, yeah that should work.  Luke has a few fixes hes about to push in",
+        "user": "UAR1CADNV",
+        "ts": "1573066381.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4cae998b-c360-42ac-82a5-e4c6d47ae33c",
+        "type": "message",
+        "text": "so theres a few failures that are expected at the moment",
+        "user": "UAR1CADNV",
+        "ts": "1573066392.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b6e45841-9816-4424-96ea-9ec6a058a2c2",
+        "type": "message",
+        "text": "with your change I wouldn\u2019t expect any impact to the QE tests btw",
+        "user": "UAR1CADNV",
+        "ts": "1573066408.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "658b5a66-c3fb-467f-ac74-f0ab80b54571",
+        "type": "message",
+        "text": "since it\u2019s all new development and on the sources client (which also has no QE test coverage, yet)",
+        "user": "UAR1CADNV",
+        "ts": "1573066429.002600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1573066436.000000"
+        }
+    },
+    {
+        "client_msg_id": "e472355f-4f84-47c3-9050-813a2ec0f1a5",
+        "type": "message",
+        "text": "only real gotcha with the make commands is you have to make sure your services are running before kicking off the tests",
+        "user": "UAR1CADNV",
+        "ts": "1573066527.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7e3e0645-5b67-4c66-812e-13bf33d0da00",
+        "type": "message",
+        "text": "just spot check the logs to make sure migrations are ran, server is running",
+        "user": "UAR1CADNV",
+        "ts": "1573066543.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4502050e-9e11-4433-8830-56f524aa791e",
+        "type": "message",
+        "text": "is this normal:\n```Error in contacting Ibutsu server, storing artifacts in /tmp/86d8f6c5-8933-4d9d-b682-8fd9b921bea4\n\u26d4 ERROR: Could not run \"pip search iqe\" to precheck package versions\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573067119.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eb7c0eec-59b4-4c14-8b2a-fac459294e7a",
+        "type": "message",
+        "text": "yeah I saw that too",
+        "user": "UAR1CADNV",
+        "ts": "1573067133.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "43260eb5-92e8-494d-8d04-6f1c16bad054",
+        "type": "message",
+        "text": "some strange errors when starting up, but the tests should run ok",
+        "user": "UAR1CADNV",
+        "ts": "1573067142.004600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f7a26a6a-c3b6-4539-8ca1-c4612a20448e",
+        "type": "message",
+        "text": "regarding codeclimate/diff-coverage, it says I got 63%, does that mean it wants me to write more unit tests for the view I wrote?",
+        "user": "UMQA682PJ",
+        "ts": "1573067201.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7ebe3458-a019-4ce5-85a4-654972ce1b70",
+        "type": "message",
+        "text": "when I clicked on the Details, it didn't give me any details on what it was marking as uncovered",
+        "user": "UMQA682PJ",
+        "ts": "1573067231.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41dabeca-b67b-44ac-a22d-fbc13974e3ba",
+        "type": "message",
+        "text": "<https://codecov.io/gh/project-koku/koku/compare/ded6c3523403d5d8b5a24a3214595095b1d80dbe...a4493e4ff34d754089a94e8c4437f3b48460ad3f/diff>",
+        "user": "UAR1CADNV",
+        "ts": "1573067240.006000",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Codecov",
+                "title": "Code coverage done right.",
+                "title_link": "https://codecov.io/gh/project-koku/koku/compare/ded6c3523403d5d8b5a24a3214595095b1d80dbe...a4493e4ff34d754089a94e8c4437f3b48460ad3f/diff",
+                "text": "Hosted coverage report highly integrated with GitHub, Bitbucket and GitLab. Awesome pull request comments to enhance your QA.",
+                "fallback": "Codecov: Code coverage done right.",
+                "image_url": "https://codecov-cdn.storage.googleapis.com/static/codecov-logo.png",
+                "image_width": 250,
+                "image_height": 250,
+                "from_url": "https://codecov.io/gh/project-koku/koku/compare/ded6c3523403d5d8b5a24a3214595095b1d80dbe...a4493e4ff34d754089a94e8c4437f3b48460ad3f/diff",
+                "image_bytes": 52114,
+                "service_icon": "https://codecov-cdn.storage.googleapis.com/4.4.8-e33f298/media/images/favicon.png",
+                "id": 1,
+                "original_url": "https://codecov.io/gh/project-koku/koku/compare/ded6c3523403d5d8b5a24a3214595095b1d80dbe...a4493e4ff34d754089a94e8c4437f3b48460ad3f/diff"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3e0a3484-0749-4a0f-8061-4945d0c8ae1a",
+        "type": "message",
+        "text": "yeah here\u2019s the misses it looks like",
+        "user": "UAR1CADNV",
+        "ts": "1573067247.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aaeddc45-9483-49fc-84b4-ff41e5bf92b5",
+        "type": "message",
+        "text": "so the codeclimate I think requires a browser plugin to see the diff",
+        "user": "UAR1CADNV",
+        "ts": "1573067260.006600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c28f602e-2408-4cbd-91af-9ab3442f8a31",
+        "type": "message",
+        "text": "ah, gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1573067265.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fcdfd9eb-9d8e-4fd6-8ae6-79aef41ef109",
+        "type": "message",
+        "text": "Question, how do I mock line 71? I wrote the following to mock the response, but it seems that doesn't 'cover' line 71:\n```\ndef test_mock_response_returns_false(self):\n        \"\"\"\n        Test sources status returns False.\n\n        This test ensures that a mock response contains the payload 'False'\n        \"\"\"\n        url = reverse('source-status')\n        client = APIClient()\n        response = client.get(url + '?source_id=1')\n        mock_response = create_autospec(response, data=False, status=status.HTTP_200_OK)\n        mock_response_source_status = mock_response.data\n        expected_source_status = False\n        expected_HTTP_code = status.HTTP_200_OK\n        self.assertEqual(mock_response_source_status, expected_source_status)\n        self.assertEqual(mock_response.status, expected_HTTP_code)\n\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573067614.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be5ce9fd-7e7d-4091-8c23-927b05875aa9",
+        "type": "message",
+        "text": "line 71: `source_ready = interface.cost_usage_source_ready(source_authentication, source_billing_source)`",
+        "user": "UMQA682PJ",
+        "ts": "1573067627.009700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "38a1cd4c-11ca-4df0-883a-ac75630576cd",
+        "type": "message",
+        "text": "did you setup the source table in the database?",
+        "user": "UAR1CADNV",
+        "ts": "1573067689.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a2c64d8b-9667-49e8-a07d-7d487b5682a9",
+        "type": "message",
+        "text": "actually i guess I can call the 'source_status(request)  method directly",
+        "user": "UMQA682PJ",
+        "ts": "1573067689.010300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "245c978f-b9d5-4846-97d6-822cd20c1e9b",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1573067696.010500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35ef23e0-f8e1-419b-a42e-1aead7f72c38",
+        "type": "message",
+        "text": "stepping through the test with pdb might be a fast way to see where its returning",
+        "user": "UAR1CADNV",
+        "ts": "1573067742.011400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19a367b3-1d4f-4abd-bea0-13ac868c5728",
+        "type": "message",
+        "text": "doesn\u2019t seem like its getting past the db lookup at all :thinking_face:",
+        "user": "UAR1CADNV",
+        "ts": "1573067775.011700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "14bba3de-10e3-42be-a1a9-9b699427eb37",
+        "type": "message",
+        "text": "i know",
+        "user": "UMQA682PJ",
+        "ts": "1573067783.011900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6bf538ad-353b-45cf-9ae1-0f2d5054d8e2",
+        "type": "message",
+        "text": "which is why I was thinking maybe it\u2019s not finding it in the db",
+        "user": "UAR1CADNV",
+        "ts": "1573067801.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d32bb584-ca83-4d0f-b81d-98e189b84aad",
+        "type": "message",
+        "text": "yes, i haven't written a test with real test data yet.",
+        "user": "UMQA682PJ",
+        "ts": "1573067812.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ac873e6-1460-4982-af2f-7d7a6ce7dfb1",
+        "type": "message",
+        "text": "real data?",
+        "user": "UAR1CADNV",
+        "ts": "1573067827.013100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3de1cb4e-2c33-459d-9265-cba545a8e577",
+        "type": "message",
+        "text": "you mean like a happy path test?",
+        "user": "UAR1CADNV",
+        "ts": "1573067836.013300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2ca02578-fb01-4a22-ae52-3853383d7330",
+        "type": "message",
+        "text": "with mock or test data?",
+        "user": "UAR1CADNV",
+        "ts": "1573067839.013500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1573067849.000000"
+        }
+    },
+    {
+        "client_msg_id": "7212357f-d1d7-48f6-a74e-2c6c78c023f6",
+        "type": "message",
+        "text": "right",
+        "user": "UMQA682PJ",
+        "ts": "1573067866.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8a5ed45a-ed77-4aed-a666-df7d8c72bc65",
+        "type": "message",
+        "text": "i mocked the response.data without letting it get to those lines of code",
+        "user": "UMQA682PJ",
+        "ts": "1573067901.014300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573067919.000000"
+        }
+    },
+    {
+        "client_msg_id": "d26aa01d-f369-4073-b573-fc0a3f8d2d6e",
+        "type": "message",
+        "text": "i'm not sure how to mock line 71 so that it returns True",
+        "user": "UMQA682PJ",
+        "ts": "1573067951.015000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e541da6e-6ecb-4651-a6f2-a9c54028774f",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/providers/test/tests_provider_access.py#L102>",
+        "user": "UAR1CADNV",
+        "ts": "1573068031.015500",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/providers/test/tests_provider_access.py:102",
+                "text": "```\n        with patch.object(AWSProvider, 'cost_usage_source_is_reachable', return_value=True):\n```",
+                "title": "koku/providers/test/tests_provider_access.py:102",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/providers/test/tests_provider_access.py#L102",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/providers/test/tests_provider_access.py#L102",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e3ac181d-44f8-4512-b0b3-ce906c2dfdc8",
+        "type": "message",
+        "text": "heres a close example",
+        "user": "UAR1CADNV",
+        "ts": "1573068034.015800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b2769601-a27d-40f0-8dc1-3eaa940457f5",
+        "type": "message",
+        "text": "yea I saw that",
+        "user": "UMQA682PJ",
+        "ts": "1573068043.016400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ef9e353b-ff2f-4b63-8c77-958992ea1be1",
+        "type": "message",
+        "text": "instead of `AWSProvider` you could use `ProviderAccessor`",
+        "user": "UAR1CADNV",
+        "ts": "1573068044.016500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad227cdb-a226-4eba-ae90-d6e6588f106e",
+        "type": "message",
+        "text": "and the method is `cost_usage_source_ready`",
+        "user": "UAR1CADNV",
+        "ts": "1573068060.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "de66e835-51ea-41a3-9569-f8920b3d6175",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/api/provider/test/tests_serializers.py#L95>",
+        "user": "UAR1CADNV",
+        "ts": "1573068131.017000",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/provider/test/tests_serializers.py:95",
+                "text": "```\n        with patch.object(ProviderAccessor, 'cost_usage_source_ready', returns=True):\n```",
+                "title": "koku/api/provider/test/tests_serializers.py:95",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/api/provider/test/tests_serializers.py#L95",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/ded6c3523403d5d8b5a24a3214595095b1d80dbe/koku/api/provider/test/tests_serializers.py#L95",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b732ebb-07c9-49a7-beb4-0feb339e500d",
+        "type": "message",
+        "text": "heres an example",
+        "user": "UAR1CADNV",
+        "ts": "1573068136.017300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f085de6a-c681-465c-852c-8eca5d1000a7",
+        "type": "message",
+        "text": "I talked to Adam from the platform yesterday and got another clue about what this status endpoint should be returning",
+        "user": "UAR1CADNV",
+        "ts": "1573068811.018100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "84cc1256-c192-4380-b896-0ac66d1b2b88",
+        "type": "message",
+        "text": "I\u2019m working on a small wrapper that if you want, could push to your branch",
+        "user": "UAR1CADNV",
+        "ts": "1573068967.018500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "59e8c889-32c5-48be-8064-d98a1e9d2014",
+        "type": "message",
+        "text": "so the sources client change I just made to push status is basically the same response as what they want the status endpoint to return `{'availability_status': status, 'availability_status_error': str(error_msg)}`",
+        "user": "UAR1CADNV",
+        "ts": "1573069025.019400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88f9de5d-fa7d-4e1c-a4b1-2394b9185a85",
+        "type": "message",
+        "text": "I\u2019ll push it to a branch and share when I have it ready so you can see",
+        "user": "UAR1CADNV",
+        "ts": "1573069084.020200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f55c90a-a89c-4013-91a0-a28fffc3c2bb",
+        "type": "message",
+        "text": "we can either make that change with your PR or just do it once yours is in",
+        "user": "UAR1CADNV",
+        "ts": "1573069105.020600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6d146531-bb82-489d-8d58-42019af612f6",
+        "type": "message",
+        "text": "maybe a separate PR for now",
+        "user": "UMQA682PJ",
+        "ts": "1573069564.021100",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ae244821-87b8-469d-95f1-abbb99ae6ad5",
+        "type": "message",
+        "text": "FYI: <https://github.com/project-koku/koku/compare/master...dccurtis:provider_accessor_wrapper>",
+        "user": "UAR1CADNV",
+        "ts": "1573070596.021400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "31e4d592-0560-4c56-99f9-c75465e443bb",
+        "type": "message",
+        "text": "if there's no bucket, should this API return False?",
+        "user": "UMQA682PJ",
+        "ts": "1573071558.021700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd9ee794-c83f-4244-842f-6b4166fc37fe",
+        "type": "message",
+        "text": "for billing_source",
+        "user": "UMQA682PJ",
+        "ts": "1573071564.022000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2894b958-27fd-4b98-b0f3-57aa779748aa",
+        "type": "message",
+        "text": "it should be just relying on what the ProviderAccessor responds with. If a provider doesn\u2019t have a billing_source the ProviderAccessor should be responsible for those details",
+        "user": "UAR1CADNV",
+        "ts": "1573071684.023000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "396fda4e-2d39-4cda-afdf-a8bccae2e7ac",
+        "type": "message",
+        "text": "not the status endpoint",
+        "user": "UAR1CADNV",
+        "ts": "1573071691.023200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c74f1cdb-d784-4d24-83a9-4b9cd28e6189",
+        "type": "message",
+        "text": "but if there\u2019s nothing in the billing_source field in the source table I think that would be a 500 probably",
+        "user": "UAR1CADNV",
+        "ts": "1573071744.023800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f4342347-eb5c-4451-ab1a-921721ce372c",
+        "type": "message",
+        "text": "for OCP there should be a `{}` in there",
+        "user": "UAR1CADNV",
+        "ts": "1573071854.024900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cfa15f28-ea58-4426-a343-9b328ec59b4a",
+        "type": "message",
+        "text": "but in general, I think this endpoint should just take whatever is in the source table for billing_source and authentication and pass it into the ProviderAccessor",
+        "user": "UAR1CADNV",
+        "ts": "1573071972.025500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d13386ab-bb02-4a42-84dd-0571eaab8766",
+        "type": "message",
+        "text": "I think ProviderAccessor expects whatever is the value for the 'bucket' key, in the json {'bucket' : 'cost-usage-bucket'}",
+        "user": "UMQA682PJ",
+        "ts": "1573072025.026300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b52f5282-205d-4672-956f-38886c45bed1",
+        "type": "message",
+        "text": "so i can't pass in the whole json, only 'cost-usage-bucket' in this case, right?",
+        "user": "UMQA682PJ",
+        "ts": "1573072043.026700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d1fa8c5f-aec8-4c31-8e64-cbcf78d70118",
+        "type": "message",
+        "text": "oh I see now.  One second let me think about it.  Just tried with an OCP source and bam",
+        "user": "UAR1CADNV",
+        "ts": "1573072125.027200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e3a08f6e-2ed6-4519-9482-6178e8f5a72a",
+        "type": "message",
+        "text": "ok this is a good candidate for the wrapper, but for now we can just copy what\u2019s being done in the serializer code I think",
+        "user": "UAR1CADNV",
+        "ts": "1573072266.028000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "15c2960b-3f13-4840-8f61-3b96acc4613d",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/5b10d826a8b78029981227f9745056be6b88e669/koku/api/provider/serializers.py#L288>",
+        "user": "UAR1CADNV",
+        "ts": "1573072309.028200",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/provider/serializers.py:288",
+                "text": "```\n        if credentials and data_source and provider_type not in ['AWS', 'OCP']:\n```",
+                "title": "koku/api/provider/serializers.py:288",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/5b10d826a8b78029981227f9745056be6b88e669/koku/api/provider/serializers.py#L288",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/5b10d826a8b78029981227f9745056be6b88e669/koku/api/provider/serializers.py#L288",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8db049fe-7357-438a-acd1-38faf4efa8fd",
+        "type": "message",
+        "text": "passing in `data_source` or `bucket` depending on source type",
+        "user": "UAR1CADNV",
+        "ts": "1573072327.028600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "057fdb77-df98-4afe-b704-d870019f6299",
+        "type": "message",
+        "text": "we have a tech debt issue out there to basically standardize the provider json",
+        "user": "UAR1CADNV",
+        "ts": "1573072363.029100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21a0aee1-900f-4f1b-be30-d954f49afee5",
+        "type": "message",
+        "text": "one second, might have an easier way",
+        "user": "UAR1CADNV",
+        "ts": "1573072433.029700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e174f548-6cc0-415c-ae3d-4a5036fa7380",
+        "type": "message",
+        "text": "I got it:\n```\n    def test_happy_path(self):\n        \"\"\"Test that the API returns True when cost_usage_source_ready doesn't throw an exception.\"\"\"\n        with patch.object(ProviderAccessor, 'cost_usage_source_ready', returns=True):\n            url = reverse('source-status')\n            client = APIClient()\n            # Insert a source with ID 1\n            source = Sources.objects.create(\n                source_id=1, \n                name='New AWS Mock Test Source',\n                source_type='AWS',\n                authentication={},\n                billing_source={'bucket': ''},\n                koku_uuid='',\n                offset=1)\n            response = client.get(url + '?source_id=1')\n            actual_source_status = response.data\n            expected_source_status = True\n            self.assertEquals(expected_source_status, actual_source_status)\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573072875.030000",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "12af30a4-dbb7-4585-b238-9d67a10230a1",
+        "type": "message",
+        "text": "it passes",
+        "user": "UMQA682PJ",
+        "ts": "1573072891.030200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dce06483-595b-4b16-a7e2-fa3c20902693",
+        "type": "message",
+        "text": "i\u2019m making azure and ocp sources now btw to see what needs to be done with those args",
+        "user": "UAR1CADNV",
+        "ts": "1573072923.030600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "904b424d-3de8-4626-9bd1-e1ceb998b5a7",
+        "type": "message",
+        "text": "ok it\u2019s not pretty but this works",
+        "user": "UAR1CADNV",
+        "ts": "1573073135.030800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "859a6d7b-9b3b-4818-8b64-d1b07ab49397",
+        "type": "message",
+        "text": "```\n    if source.billing_source.get('bucket'):\n        source_billing_source = source.billing_source.get('bucket')\n    elif source.billing_source.get('data_source'):\n        source_billing_source = source.billing_source.get('data_source')\n    else:\n        source_billing_source = {}\n\n    if source.authentication.get('resource_name'):\n        source_authentication = source.authentication.get('resource_name')\n    elif source.authentication.get('credentials'):\n        source_authentication = source.authentication.get('credentials')\n```",
+        "user": "UAR1CADNV",
+        "ts": "1573073150.031000",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1ea98607-7ffe-44f2-a96f-dcf7a21f364d",
+        "type": "message",
+        "text": "tested with aws, ocp, and azure",
+        "user": "UAR1CADNV",
+        "ts": "1573073202.031200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "20349f24-fc9b-4459-9b27-3e2a4e194812",
+        "type": "message",
+        "text": "i\u2019m sure theres some other more pythonic way of doing that..",
+        "user": "UAR1CADNV",
+        "ts": "1573073254.031600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6737f02b-4acc-4396-ace2-b4579251c65d",
+        "type": "message",
+        "text": "basically the dictionary has one key:value, we need to just get the value out of whatever key is there",
+        "user": "UAR1CADNV",
+        "ts": "1573073283.032200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0bc9bd79-10d2-41ef-b813-8dd39ec2238d",
+        "type": "message",
+        "text": "`billing_source.values()[0]` would probably work too",
+        "user": "UAR1CADNV",
+        "ts": "1573073358.032400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f08af1bf-20a1-4b19-bf8c-1c1155a124ef",
+        "type": "message",
+        "text": "but it\u2019s probably better to be more explicit",
+        "user": "UAR1CADNV",
+        "ts": "1573073378.032900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "39f63778-ba4f-4241-84f9-1631a838e1a0",
+        "type": "message",
+        "text": "```\n&gt;&gt;&gt; billing_source\n{'data_source': {'storage_account': 'mysa1', 'resource_group': 'RG1'}}\n&gt;&gt;&gt; billing_source.values()[0]\n{'storage_account': 'mysa1', 'resource_group': 'RG1'}\n&gt;&gt;&gt;\n```",
+        "user": "UAR1CADNV",
+        "ts": "1573073395.033100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67ae5d4b-3e07-4341-b07c-b1d85d2bd13d",
+        "type": "message",
+        "text": "```\n&gt;&gt;&gt; billing_source_aws = {\"bucket\": \"cost-usage-bucket\"}\n&gt;&gt;&gt; billing_source_aws.values()[0]\n'cost-usage-bucket'\n&gt;&gt;&gt;\n```",
+        "user": "UAR1CADNV",
+        "ts": "1573073428.033300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5b43f4b9-9e4e-45e2-af71-0ac648f9910b",
+        "type": "message",
+        "text": "So the IQE tests never ran",
+        "user": "UMQA682PJ",
+        "ts": "1573078311.033500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "59f2c3b7-c5a6-4b72-8b8f-b1045683c538",
+        "type": "message",
+        "text": "they got stuck here:",
+        "user": "UMQA682PJ",
+        "ts": "1573078320.033900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f1e6ec39-87ef-4507-9d85-39e3aab6c3a6",
+        "type": "message",
+        "text": "```\nDefault Appliance hostname: localhost:8000\nDefault Appliance path: /\nrootdir: /iqe_venv, testpaths: /iqe_venv/lib64/python3.6/site-packages/iqe_hccm\nplugins: schemathesis-0.13.0, iqe-vm-plugin-0.1.12, cov-2.8.1, iqe-entitlements-plugin-0.0.1, forked-1.1.3, xdist-1.30.0, iqe-e2e-plugin-0.3.13, iqe-advisor-plugin-3.5.9, iqe-perf-plugin-0.0.6, iqe-goatee-plugin-0.2.0, ordering-0.6, iqe-clientv3-plugin-1.0.8, iqe-upload-plugin-1.0.11, iqe-host-inventory-plugin-5.0.0, iqe-integration-tests-0.18.0, metadata-1.8.0, report-parameters-0.5.0, iqe-remediations-plugin-0.0.4, iqe-approval-plugin-1.2.8, iqe-drift-plugin-1.0.8, iqe-topology-inventory-plugin-0.3.16, subtests-0.2.1, iqe-3scale-plugin-0.0.16, iqe-current-ui-plugin-0.0.7, iqe-self-service-portal-plugin-1.3.3, iqe-rbac-plugin-0.2.4, iqe-mq-plugin-0.0.2, iqe-vulnerability-plugin-0.34.19, html-2.0.0, hypothesis-4.43.1, polarion-collect-0.22.0, ibutsu-pytest-plugin-1.0.15, iqe-akamai-plugin-0.0.4, iqe-platform-ui-plugin-0.11.8, lazy-fixture-0.6.1, iqe-hccm-plugin-0.1.40, iqe-sources-plugin-2.0.26, iqe-compliance-plugin-0.0.73, iqe-red-hat-internal-envs-plugin-0.7.3\ncollected 6141 items / 5216 deselected / 925 selected                                                                                \n\nlib/python3.6/site-packages/iqe_hccm/tests/rest_api/v1/test_aws_cost_reports.py::test_api_aws_cost_endpoint[query-none] \n----------------------------------------------------------- live log call ------------------------------------------------------------\n2019-11-06 19:01:46 INFO Using &lt;class 'iqe_hccm_api.api.ClientObject'&gt; object....with url <http://localhost:8000/api/cost-management/v1> and verify_ssl set to False\n2019-11-06 19:01:46 INFO Setting auth_type to basic\n2019-11-06 19:01:46 INFO REST: <http://localhost:8000/api/cost-management/v1/reports/aws/costs/>\n```",
+        "user": "UMQA682PJ",
+        "ts": "1573078323.034100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "012413fc-3129-458f-9bdc-5475c4a7c413",
+        "type": "message",
+        "text": "thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1573078354.034400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f8f5a97-cd05-4d39-a838-226318898587",
+        "type": "message",
+        "text": "not sure, is that api prefix what you have set?",
+        "user": "UAR1CADNV",
+        "ts": "1573078384.034700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "283cae43-3f71-4310-be13-abcc8cfed626",
+        "type": "message",
+        "text": "what api prefix?",
+        "user": "UMQA682PJ",
+        "ts": "1573078397.034900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19cf9b12-e1c9-4226-a2f3-f286d3a956cf",
+        "type": "message",
+        "text": "`/api/cost-management/v1`",
+        "user": "UAR1CADNV",
+        "ts": "1573078405.035300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b366a025-52eb-4e8a-ac88-e66d056f9be8",
+        "type": "message",
+        "text": "if your using defaults it would be",
+        "user": "UAR1CADNV",
+        "ts": "1573078419.035500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d28e2c0-12ba-4292-8cfe-cb326c505ad1",
+        "type": "message",
+        "text": "strange that it just stalled though",
+        "user": "UAR1CADNV",
+        "ts": "1573078455.036000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9327c107-20df-48c2-ba2a-6278185ef0aa",
+        "type": "message",
+        "text": "where would I check?",
+        "user": "UMQA682PJ",
+        "ts": "1573078455.036100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "613efc4f-d104-4795-8422-93c45676d0e1",
+        "type": "message",
+        "text": "maybe a docker problem?",
+        "user": "UAR1CADNV",
+        "ts": "1573078466.036400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "871abd08-a40d-4690-a3ac-3c103be07266",
+        "type": "message",
+        "text": "could be, I could reset",
+        "user": "UMQA682PJ",
+        "ts": "1573078472.036800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "99f1960c-0980-4379-9cc4-c26035120944",
+        "type": "message",
+        "text": "i\u2019ve seen things like that with docker before.",
+        "user": "UAR1CADNV",
+        "ts": "1573078474.036900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "019982a2-d249-4b1c-8240-76171b30a7df",
+        "type": "message",
+        "text": "it would normally timeout at somepoint",
+        "user": "UAR1CADNV",
+        "ts": "1573078485.037100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "88a428f2-4860-484e-a552-010aa0d7dca6",
+        "type": "message",
+        "text": "yeah maybe try tearing everything down, restart docker, and retry",
+        "user": "UAR1CADNV",
+        "ts": "1573078503.037400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a0fe2175-3ba8-4acf-8238-9691c560f301",
+        "type": "message",
+        "text": "got to run now though.  We can dig in more in the morning if you don\u2019t get it working by then",
+        "user": "UAR1CADNV",
+        "ts": "1573078568.037900",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "blob-wave",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "016cabad-31d6-4a79-8cc8-0feab9995c4e",
+        "type": "message",
+        "text": "np",
+        "user": "UMQA682PJ",
+        "ts": "1573078599.038100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35b20fcc-2cf5-4a96-89f6-126d48c97667",
+        "type": "message",
+        "text": "take care",
+        "user": "UMQA682PJ",
+        "ts": "1573078611.038500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fcff86ec-1c49-44dd-ad93-265c7f143951",
+        "type": "message",
+        "text": "you too!",
+        "user": "UAR1CADNV",
+        "ts": "1573078618.038700",
+        "team": "T026NJJ6Z"
+    }
+]

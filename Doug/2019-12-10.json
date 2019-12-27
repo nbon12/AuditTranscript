@@ -1,0 +1,814 @@
+[
+    {
+        "client_msg_id": "d54149e1-66aa-46d9-93ec-8d3e1272b435",
+        "type": "message",
+        "text": "hey Nick!  Just looking over the PR.  Was wondering if you tried to make the change somewhere that would apply to all provider types?",
+        "user": "UAR1CADNV",
+        "ts": "1576007627.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UNK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hey Nick!  Just looking over the PR.  Was wondering if you tried to make the change somewhere that would apply to all provider types?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "112bd5b2-90dd-4c0d-a64b-cb857b7df1df",
+        "type": "message",
+        "text": "Hi Doug",
+        "user": "UMQA682PJ",
+        "ts": "1576008103.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Doi3e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Doug"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b8c249b8-1cbc-400f-9f4f-6d5efb26938f",
+        "type": "message",
+        "text": "is the bug existant for all provider types?",
+        "user": "UMQA682PJ",
+        "ts": "1576008109.001300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y/TOC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is the bug existant for all provider types?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a329012f-8e9e-4f29-a369-ffcc95977c14",
+        "type": "message",
+        "text": "yeah should be",
+        "user": "UAR1CADNV",
+        "ts": "1576008123.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "UXwi0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeah should be"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "de5d815a-544b-4cb1-9b02-7977b6d93a51",
+        "type": "message",
+        "text": "the problem is in the filter and group_by query parameter handling",
+        "user": "UAR1CADNV",
+        "ts": "1576008137.001900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "D/Yh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "the problem is in the filter and group_by query parameter handling"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5c1cc407-3ebe-48fb-a412-a834c3fb4c1d",
+        "type": "message",
+        "text": "which is the same for all providers",
+        "user": "UAR1CADNV",
+        "ts": "1576008145.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ru2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "which is the same for all providers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "91841940-f873-4c3e-bf72-d4109393d870",
+        "type": "message",
+        "text": "i just got all the unit tests to pass for the AWS query handler!\\",
+        "user": "UMQA682PJ",
+        "ts": "1576008187.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KR8n",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i just got all the unit tests to pass for the AWS query handler!\\"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d1f9c813-3de9-438c-9039-0a2f19889c73",
+        "type": "message",
+        "text": "i'll look into the other provider types soon",
+        "user": "UMQA682PJ",
+        "ts": "1576008197.002900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cUt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'll look into the other provider types soon"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bbe5f8c3-6d46-483d-809c-74ccb16dcfea",
+        "type": "message",
+        "text": "yup, I can\u2019t imagine it would be a different solution per se, just have the code live in one of the parent classes or serializer maybe",
+        "user": "UAR1CADNV",
+        "ts": "1576008221.003800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vVf4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yup, I can\u2019t imagine it would be a different solution per se, just have the code live in one of the parent classes or serializer maybe"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c1b90532-fc87-4986-b1c2-1d9207197102",
+        "type": "message",
+        "text": "did you have Docker failing to start recently?",
+        "user": "UAR1CADNV",
+        "ts": "1576008234.004200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0Ozw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "did you have Docker failing to start recently?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c46a74ef-d2cb-40cc-a135-7d59613e8a4d",
+        "type": "message",
+        "text": "how recently are we talking?",
+        "user": "UMQA682PJ",
+        "ts": "1576008244.004400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VqTYT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how recently are we talking?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6bf418c5-e608-4752-a49f-ee861c798dbb",
+        "type": "message",
+        "text": "in the past month yes",
+        "user": "UMQA682PJ",
+        "ts": "1576008251.004700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dOs23",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "in the past month yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d8050ab9-9a8e-45d4-832a-57bd54b6d1f1",
+        "type": "message",
+        "text": "few wekeks?",
+        "user": "UAR1CADNV",
+        "ts": "1576008254.004900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eBe5v",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "few wekeks?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "342569d9-14f7-4d41-a5d9-7b7cd85975b0",
+        "type": "message",
+        "text": "but not anymore",
+        "user": "UMQA682PJ",
+        "ts": "1576008254.005000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kz8EK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but not anymore"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22f7138d-fd04-4003-a0cd-d5e487ea0536",
+        "type": "message",
+        "text": "when I upgraded to Catalina",
+        "user": "UMQA682PJ",
+        "ts": "1576008261.005400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5jW=M",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "when I upgraded to Catalina"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4a3497ae-f1b6-45a3-89cc-eeb478ed6858",
+        "type": "message",
+        "text": "do you remember the solution?",
+        "user": "UAR1CADNV",
+        "ts": "1576008263.005700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3qUtP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "do you remember the solution?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a48a7086-5401-4957-abcf-9b8948d7bc79",
+        "type": "message",
+        "text": "ohh ok",
+        "user": "UAR1CADNV",
+        "ts": "1576008265.005900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YbJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ohh ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "88411ee2-a840-40ae-b803-c14841145f16",
+        "type": "message",
+        "text": "I downloaded the edge version of Docker and now it works",
+        "user": "UMQA682PJ",
+        "ts": "1576008272.006200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vfYQP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I downloaded the edge version of Docker and now it works"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "544f1bf5-7b06-4e28-a1b7-7e32f719a6ef",
+        "type": "message",
+        "text": "couldn't figure out how to make the older docker work",
+        "user": "UMQA682PJ",
+        "ts": "1576008283.006600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4qIb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "couldn't figure out how to make the older docker work"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2a80664-5c71-475c-b684-5752d167fa50",
+        "type": "message",
+        "text": "ok thats right",
+        "user": "UAR1CADNV",
+        "ts": "1576008294.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "yQTcm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok thats right"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dff0d8c6-1ee3-426a-aa89-11d734e15b96",
+        "type": "message",
+        "text": "is your docker failing now?",
+        "user": "UMQA682PJ",
+        "ts": "1576008300.007100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KXC1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is your docker failing now?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "69132b60-6754-4290-b2fc-c49a3b56eb14",
+        "type": "message",
+        "text": "yup",
+        "user": "UAR1CADNV",
+        "ts": "1576008302.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "R2KS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yup"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f7585eba-a6d1-4e74-aba5-96799f84e20a",
+        "type": "message",
+        "text": "had to restart my computer and its stuck in the starting state",
+        "user": "UAR1CADNV",
+        "ts": "1576008310.007700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5iwI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "had to restart my computer and its stuck in the starting state"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "490e7a32-d0a0-45b2-a61b-a80c6e79e9f4",
+        "type": "message",
+        "text": "yep that was happening to me",
+        "user": "UMQA682PJ",
+        "ts": "1576008318.008100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QAn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep that was happening to me"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7d40068f-c3f6-42fd-867c-c65bceccd497",
+        "type": "message",
+        "text": "didn\u2019t do a recent macos update or anything :confused:",
+        "user": "UAR1CADNV",
+        "ts": "1576008322.008300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eD6Il",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "didn\u2019t do a recent macos update or anything "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "confused"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c116617-abfb-467e-8da5-e519bce68d8d",
+        "type": "message",
+        "text": "you haven't upgraded to Catalina?",
+        "user": "UMQA682PJ",
+        "ts": "1576008338.008600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Wuzpx",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you haven't upgraded to Catalina?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b2b05274-f685-4144-94ff-e4aa2a15c1b8",
+        "type": "message",
+        "text": "I did upgrade",
+        "user": "UAR1CADNV",
+        "ts": "1576008369.008900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QRtK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I did upgrade"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9dac95ee-c440-4f94-a689-368b8a6d34a8",
+        "type": "message",
+        "text": "but it\u2019s been working since then",
+        "user": "UAR1CADNV",
+        "ts": "1576008375.009100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "45c4D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but it\u2019s been working since then"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8ddc74f0-b169-448e-9327-71d2ba8319e5",
+        "type": "message",
+        "text": ":meow_shrugs:",
+        "user": "UMQA682PJ",
+        "ts": "1576008386.009300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ab=oS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "meow_shrugs"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "000f2320-5dd7-4b94-b7af-5dc90855ab4d",
+        "type": "message",
+        "text": "Here's my implemented solution for the query handler by the way: <https://github.com/project-koku/koku/pull/1484/files#diff-9fa2e6770cbc217b865ad5a5f33ce5bcR274>",
+        "user": "UMQA682PJ",
+        "ts": "1576008552.009800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CoQEJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Here's my implemented solution for the query handler by the way: "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1484/files#diff-9fa2e6770cbc217b865ad5a5f33ce5bcR274"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7b4705ea-4f05-4082-9945-52f883cb03ca",
+        "type": "message",
+        "text": "it can use a re-factor but that's how i got the tests to pass so far.",
+        "user": "UMQA682PJ",
+        "ts": "1576008594.010700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g+B1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it can use a re-factor but that's how i got the tests to pass so far."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b78f9fd1-6794-48d7-a455-61e4662da3bb",
+        "type": "message",
+        "text": "ok sounds good.  Let me think on it and will get back to you :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1576009002.011000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "47xj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok sounds good.  Let me think on it and will get back to you "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "+1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

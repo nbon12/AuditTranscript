@@ -1,0 +1,507 @@
+[
+    {
+        "client_msg_id": "ab14858d-1a9f-4eaa-ab47-9fe33da14b0e",
+        "type": "message",
+        "text": ":wave::skin-tone-4:",
+        "user": "U033J8Q34",
+        "ts": "1575313811.000200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CuZo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "wave",
+                                "skin_tone": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d8da7d07-abc0-469e-a441-24a52335d9ed",
+        "type": "message",
+        "text": ":blob-wave:",
+        "user": "UMQA682PJ",
+        "ts": "1575313824.000700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ffB1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "blob-wave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d279ca2-482f-4f68-916d-e186d5da8b05",
+        "type": "message",
+        "text": "hey chief! haven\u2019t seen you in awhile.",
+        "user": "U033J8Q34",
+        "ts": "1575313830.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ku1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hey chief! haven\u2019t seen you in awhile."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c7cb1ce7-7a13-4767-bfaf-b79692b54414",
+        "type": "message",
+        "text": "how have you been doing?",
+        "user": "U033J8Q34",
+        "ts": "1575313835.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OqjW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how have you been doing?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "56f84e35-85dd-4c9e-bfb0-47cfeb1a44cd",
+        "type": "message",
+        "text": "I'm doing well",
+        "user": "UMQA682PJ",
+        "ts": "1575313843.001500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1aD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm doing well"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5075561d-7da2-424d-8bcb-19769c378459",
+        "type": "message",
+        "text": "everything settling down ok?",
+        "user": "U033J8Q34",
+        "ts": "1575313846.001600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hBE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "everything settling down ok?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "59dc94d2-1322-47f9-90cb-044f7a6c711c",
+        "type": "message",
+        "text": "I think so",
+        "user": "UMQA682PJ",
+        "ts": "1575313851.001900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1iN3a",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think so"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e7209ef6-e595-4729-9155-d3d28637038f",
+        "type": "message",
+        "text": "okay, I\u2019m glad to hear that",
+        "user": "U033J8Q34",
+        "ts": "1575313860.002100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ph5jC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "okay, I\u2019m glad to hear that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "159aa83c-7a8f-4a37-898f-75e7b20820fc",
+        "type": "message",
+        "text": "I didn\u2019t see you around and on hangouts",
+        "user": "U033J8Q34",
+        "ts": "1575313870.002400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tL3ea",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I didn\u2019t see you around and on hangouts"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b2a088ea-f024-45b1-b460-726469ba16d6",
+        "type": "message",
+        "text": "I guess you\u2019re on slack now :simple_smile:",
+        "user": "U033J8Q34",
+        "ts": "1575313875.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ghyWy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I guess you\u2019re on slack now "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "simple_smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d45da974-dbcd-4006-921d-c76318d8b106",
+        "type": "message",
+        "text": "yea my team uses slack",
+        "user": "UMQA682PJ",
+        "ts": "1575313882.002800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Cry1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yea my team uses slack"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f205faae-2897-4560-add0-97ae1df50149",
+        "type": "message",
+        "text": "how's it going?",
+        "user": "UMQA682PJ",
+        "ts": "1575313902.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pM78Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how's it going?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "93e49c12-e7d4-41b9-a612-37a3d40796c1",
+        "type": "message",
+        "text": "im in the tower today",
+        "user": "UMQA682PJ",
+        "ts": "1575313905.003200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ljo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im in the tower today"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d53932d2-094e-44a1-9d3b-f9d136242aa1",
+        "type": "message",
+        "text": "do you have a space now?",
+        "user": "U033J8Q34",
+        "ts": "1575313930.003400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VS4x",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "do you have a space now?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dec4b8c5-4a6e-4695-95cd-6b3e5e6981a4",
+        "type": "message",
+        "text": "no, I'm on 14 open workspace",
+        "user": "UMQA682PJ",
+        "ts": "1575313948.003800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Zh4Cn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no, I'm on 14 open workspace"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3a02f2fc-6645-4f30-a4b3-db1bc4d36bd2",
+        "type": "message",
+        "text": "i like the sunlight",
+        "user": "UMQA682PJ",
+        "ts": "1575313970.004100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rdmWy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i like the sunlight"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "63546d43-1845-476d-853b-6c17a8457f7f",
+        "type": "message",
+        "text": "oh",
+        "user": "U033J8Q34",
+        "ts": "1575313997.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2m3T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3267bf13-e69a-440c-a0ee-792b4380e1d6",
+        "type": "message",
+        "text": "cool",
+        "user": "U033J8Q34",
+        "ts": "1575314001.004600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "A5pv",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "cool"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9d1f6fc-89d9-4a66-831d-9ce58b10dea5",
+        "type": "message",
+        "text": "I may come and join you in a bit",
+        "user": "U033J8Q34",
+        "ts": "1575314005.004800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WgtT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I may come and join you in a bit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "00f924d0-5fd2-4d59-bcd9-bffda103af41",
+        "type": "message",
+        "text": "sounds good",
+        "user": "UMQA682PJ",
+        "ts": "1575314012.005000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XT/cH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sounds good"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

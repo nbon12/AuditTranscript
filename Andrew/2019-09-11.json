@@ -1,0 +1,114 @@
+[
+    {
+        "client_msg_id": "3de00f1a-8aa6-4847-87c0-a4dd1e6a7353",
+        "type": "message",
+        "text": "Hey, sorry. The provided lunch was less portable than I thought, so I\u2019m not going to make it to 9. But re: a UI. There\u2019s the real-deal UI that can be worked on locally, but for hitting APIs Django provides a UI for the API endpoints that is a convenient way to interact with them instead of curl or postman. Both are still options, though.",
+        "user": "U8FS2P1LH",
+        "ts": "1568218845.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c5d44e26-6575-40cc-9f5f-b8f47719eb85",
+        "type": "message",
+        "text": "This volunteering is supposed to take the rest of the day, but we can definitely get either OpenShift or docker up and running tomorrow if you\u2019d like.",
+        "user": "U8FS2P1LH",
+        "ts": "1568218905.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "FFA9066D-3575-4BEC-B774-79C138FCBEBA",
+        "type": "message",
+        "text": "Alright",
+        "user": "UMQA682PJ",
+        "ts": "1568218949.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "620546E3-DFB3-4070-BC07-3AEDBAB82B7F",
+        "type": "message",
+        "text": "I may be able to come. I think I left sneakers in my car. Is it too late to sign up?",
+        "user": "UMQA682PJ",
+        "ts": "1568219261.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "651dd122-1c34-49e7-bee2-b393f7d65380",
+        "type": "message",
+        "text": "Let me check.",
+        "user": "U8FS2P1LH",
+        "ts": "1568219311.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "395700c3-e147-4f32-9ae4-73f9cf8226cd",
+        "type": "message",
+        "text": "Not too late, but there\u2019s a waiver to fill out. Do you know where the annex is?",
+        "user": "U8FS2P1LH",
+        "ts": "1568219364.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3cae80ab-01fd-458f-ba34-299aa8be705c",
+        "type": "message",
+        "text": "<https://docs.google.com/forms/d/e/1FAIpQLSdDtnV1QdM4LSooq9VQsU8ekh9-D8Y5ZHz81ZH4FhSz7tOUfQ/viewform>",
+        "user": "U8FS2P1LH",
+        "ts": "1568219402.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "777b3b95-9806-4086-b3b1-f2f036eeb8a5",
+        "type": "message",
+        "text": "<https://docs.google.com/spreadsheets/d/1SToBRIbVDk7EuHiaUIeRy8X2ljrrtSGBExCc41XzGfg/edit#gid=0> is the sign up sheet",
+        "user": "U8FS2P1LH",
+        "ts": "1568219435.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a4f0657e-5a47-4584-a0eb-646636e5dbed",
+        "type": "message",
+        "text": "The Families Together one.",
+        "user": "U8FS2P1LH",
+        "ts": "1568219444.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8A124836-3DAC-44C0-B2FA-0E91F85A9FB7",
+        "type": "message",
+        "text": "Never mind. I didn\u2019t have them.",
+        "user": "UMQA682PJ",
+        "ts": "1568219763.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b16249ef-d1d4-4583-baef-a5bd132bb542",
+        "type": "message",
+        "text": "Ah, sorry. :slightly_frowning_face:",
+        "user": "U8FS2P1LH",
+        "ts": "1568219779.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35474b11-b2f6-443b-8ce1-e740fcc816cc",
+        "type": "message",
+        "text": "Well if you happen to find some, come on down! <tel:720-232-3727|720-232-3727> is my number if you need it.",
+        "user": "U8FS2P1LH",
+        "ts": "1568219827.006200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3567E2B5-DC34-4291-B471-61E587C15307",
+        "type": "message",
+        "text": "If it\u2019s ok to arrive late, I can pick them up from my house ",
+        "user": "UMQA682PJ",
+        "ts": "1568220147.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e6079722-3580-48e1-a3f9-61a6083b61ac",
+        "type": "message",
+        "text": "I am sure that\u2019s okay. As long as you fill out that waiver. If you drop by the Annex you can get a t-shirt. They are out of medium though.",
+        "user": "U8FS2P1LH",
+        "ts": "1568220272.007700",
+        "team": "T026NJJ6Z"
+    }
+]

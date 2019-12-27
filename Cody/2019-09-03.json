@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "6467e09f-8ab6-4752-98d9-906295ad0c4c",
+        "type": "message",
+        "text": "Hi Cody, do you see a web app running in this URL? <https://9f7d555779f9424ba58e0e7921d46e1d.vfs.cloud9.us-east-1.amazonaws.com/>",
+        "user": "UMQA682PJ",
+        "ts": "1567530358.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0e1c5762-b0f3-4f8e-b0a3-86b0955ac751",
+        "type": "message",
+        "text": "I see: `oops vfs connection does not exist`",
+        "user": "UCD040H3M",
+        "ts": "1567530386.000700",
+        "team": "T026NJJ6Z"
+    }
+]

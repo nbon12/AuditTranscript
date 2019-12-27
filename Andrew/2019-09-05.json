@@ -1,0 +1,256 @@
+[
+    {
+        "client_msg_id": "d4e796e6-2a65-4f2f-b2ec-efe6598ae06c",
+        "type": "message",
+        "text": "Hey, is the standup happening now?",
+        "user": "UMQA682PJ",
+        "ts": "1567690417.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "63e0df10-0294-4924-afbf-286a4af163b7",
+        "type": "message",
+        "text": "Yes, previous meeting ran long.",
+        "user": "U8FS2P1LH",
+        "ts": "1567690425.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7bb9513c-1b84-492a-ae4b-ff80363ea225",
+        "type": "message",
+        "text": "The previous meeting was the program meeting, I don\u2019t control the invite to it, but I just asked Lisa, our program manager to add you as optional to that weekly meeting. And it is definitely optional. It might be worth checking out to see what it\u2019s like, and then decide if it\u2019s something you want to listen in to or just skip.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691314.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "59f57863-7504-46a7-91e2-57d97250b819",
+        "type": "message",
+        "text": "*Questions*\n- What is e2e\n- What is a Cost Model Markup and rating?\n- what is Arbak?\n- what is an init container in Arback?\n- What does it mean that Doug is moving everything over to Koku as a standalone service, new endpoint for billing source?\n- What is Masu?",
+        "user": "UMQA682PJ",
+        "ts": "1567691335.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "410cd211-8783-4e7a-852f-91f94e8306a5",
+        "type": "message",
+        "text": "i can post this in the koku_dev so the team can answer?",
+        "user": "UMQA682PJ",
+        "ts": "1567691447.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "929e238e-bec0-4f4f-8f52-6eb915e3678f",
+        "type": "message",
+        "text": "Nah, I got you.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691477.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a5b7427a-33bc-4177-8bd6-3e01e267049e",
+        "type": "message",
+        "text": "e2e: (end to end), fully it\u2019s e2e-deploy <https://github.com/RedHatInsights/e2e-deploy> It\u2019s the Insights Platform supported deployment method for OpenShift projects",
+        "user": "U8FS2P1LH",
+        "ts": "1567691637.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "82ED736E-36E8-45A8-9A50-0D5F09D9D746",
+        "type": "message",
+        "text": "Broken link?",
+        "user": "UMQA682PJ",
+        "ts": "1567691695.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ffcfc693-1887-4019-8762-b0dc8d79d57d",
+        "type": "message",
+        "text": "cost model mark up and rating: This is the price list or \u201cmenu\u201d that Chris mentioned last week, <https://marvelapp.com/73ii7a7/screen/57709826> is a mock-up of the UI flow for creating a cost model.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691815.006100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Marvel Prototyping",
+                "title": "COST: Cost Model",
+                "title_link": "https://marvelapp.com/73ii7a7/screen/57709826",
+                "text": "Marvel Prototype for COST: Cost Model",
+                "fallback": "Marvel Prototyping: COST: Cost Model",
+                "thumb_url": "https://marvel-live.freetls.fastly.net/serve/2019/7/2b38ef93d1124fddb06a98f24a271d6d.png?quality=95&fake=.png",
+                "from_url": "https://marvelapp.com/73ii7a7/screen/57709826",
+                "thumb_width": 3000,
+                "thumb_height": 1950,
+                "id": 1,
+                "original_url": "https://marvelapp.com/73ii7a7/screen/57709826"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cd7e47bd-46e2-4ef2-897e-646091c7c805",
+        "type": "message",
+        "text": "It is effectively a way to assign cost to stuff.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691855.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c3b3f25-b0e0-46c6-a793-7a462315d33e",
+        "type": "message",
+        "text": "Markup specifically is like adding an additional cost on top of something else. So like stores buy from a wholesaler and then mark up the goods to sell to the consumer.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691889.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0983d14-9d4d-452f-b6c6-0826f3a97ff4",
+        "type": "message",
+        "text": "~Arbak~ is actually RBAC (Role Based Access Control) and it\u2019s a way to control access to features and data for users in our application.",
+        "user": "U8FS2P1LH",
+        "ts": "1567691936.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "135bbc41-ff1d-4874-b05d-fec50de2bdbd",
+        "type": "message",
+        "text": "But it did, and everytime I hear it, it makes me think of <https://www.pokemon.com/us/pokedex/arbok>",
+        "user": "U8FS2P1LH",
+        "ts": "1567691981.008800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Arbok | Pok\u00e9dex | More at Pokemon.com",
+                "title_link": "https://www.pokemon.com/us/pokedex/arbok",
+                "text": "This Pok\u00e9mon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
+                "fallback": "Arbok | Pok\u00e9dex | More at Pokemon.com",
+                "thumb_url": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+                "from_url": "https://www.pokemon.com/us/pokedex/arbok",
+                "thumb_width": 475,
+                "thumb_height": 475,
+                "service_icon": "https://assets.pokemon.com/static2/_ui/img/favicon.ico",
+                "service_name": "pokemon.com",
+                "id": 1,
+                "original_url": "https://www.pokemon.com/us/pokedex/arbok"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "laughing",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3c1ee08e-f89f-42f3-bc49-0c86a32249b8",
+        "type": "message",
+        "text": "An init container is just something that can run in Kubernetes/OpenShift to initialize stuff before your application container runs. In this case we have a Django app with an init container that runs database migrations as an initialization step before starting the main application container.",
+        "user": "U8FS2P1LH",
+        "ts": "1567692029.009800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "27fd6fb9-2953-436f-b5b9-128878b903f1",
+        "type": "message",
+        "text": "The init container and statefulset handling (another Kubernetes native resource) are things that need to be supported in e2e-deploy, and are not currently.",
+        "user": "U8FS2P1LH",
+        "ts": "1567692070.010600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "912e6f09-b56f-4d1a-9fcf-501f2699dceb",
+        "type": "message",
+        "text": "Doug is working on \u201csources\u201d \u2014 a data source for our application, or other applications in the Insights Platform. Another team built out this sources application, and he\u2019s working on integrating with it. Just the way he\u2019s building it there\u2019s a small application that interacts with it and then translates stuff to our system (koku)",
+        "user": "U8FS2P1LH",
+        "ts": "1567692274.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6e6f9c5d-4a08-429b-82c8-4b46bdb8c7b3",
+        "type": "message",
+        "text": "Ah, the broken link, I forgot that that github repo is private.",
+        "user": "U8FS2P1LH",
+        "ts": "1567692293.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9dccb128-6bb2-4f39-9b0f-eca931720099",
+        "type": "message",
+        "text": "Well it\u2019s just a bunch of OpenShift templates.",
+        "user": "U8FS2P1LH",
+        "ts": "1567692301.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "760ad204-6dba-4473-889c-d40f7e5a79e6",
+        "type": "message",
+        "text": "We\u2019re basically taking the templates we\u2019ve kept here <https://github.com/project-koku/koku/tree/master/openshift> and moving them to the e2e-deploy system.",
+        "user": "U8FS2P1LH",
+        "ts": "1567692336.012900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c6ac90f-e842-45ad-9401-733468fdbb83",
+        "type": "message",
+        "text": "And finally, Masu is our data ingestion and processing application. It used to be a stand-alone repo and application: <https://github.com/project-koku/masu> but now it is integrated as a Django \u201capp\u201d inside the koku repo: <https://github.com/project-koku/koku/tree/master/koku/masu>",
+        "user": "U8FS2P1LH",
+        "ts": "1567692394.013700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "project-koku/masu",
+                "title": "project-koku/masu",
+                "footer": "<https://github.com/project-koku/masu|project-koku/masu>",
+                "id": 1,
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1525879725,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Stars",
+                        "value": "3",
+                        "short": true
+                    },
+                    {
+                        "title": "Language",
+                        "value": "Python",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/masu",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fd4cbc9-92e8-49e0-833f-ccb780432168",
+        "type": "message",
+        "text": "Sorry for the late notice, i need to take PTO today, something urgent came up.",
+        "user": "UMQA682PJ",
+        "ts": "1567695059.014200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8640bba6-1384-4b34-abd6-e059fc2f4283",
+        "type": "message",
+        "text": "No problem at all. Hope everything is okay.",
+        "user": "U8FS2P1LH",
+        "ts": "1567695337.014600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6619cda7-358e-4b88-aa92-95a629da969a",
+        "type": "message",
+        "text": "Let me know if there\u2019s anything you need.",
+        "user": "U8FS2P1LH",
+        "ts": "1567695342.014800",
+        "team": "T026NJJ6Z"
+    }
+]

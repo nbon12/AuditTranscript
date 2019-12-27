@@ -1,0 +1,1479 @@
+[
+    {
+        "client_msg_id": "04128d7e-e029-4450-aafa-b0760d7f0c3e",
+        "type": "message",
+        "text": "hey, to confirm, in the aws report query handler, I'm going to edit it so that\n```if filter[service] == X\nand group_by[service] == *\n\nthen group_by[service] = X```",
+        "user": "UMQA682PJ",
+        "ts": "1575398718.002000",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575399619.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b9qNo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hey, to confirm, in the aws report query handler, I'm going to edit it so that\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if filter[service] == X\nand group_by[service] == *\n\nthen group_by[service] = X"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "74824e4c-0a7f-4c74-97bc-037f5a6838df",
+        "type": "message",
+        "text": "so basically i'm going to remove the *",
+        "user": "UMQA682PJ",
+        "ts": "1575398741.002300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1sprQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so basically i'm going to remove the *"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6199005c-c1e7-4e72-81e2-913bec09a53b",
+        "type": "message",
+        "text": "from the parameters that are entering the query handler",
+        "user": "UMQA682PJ",
+        "ts": "1575398754.002700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "XJg",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "from the parameters that are entering the query handler"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4effba83-2bc5-4044-bea2-aa1f0a82cd41",
+        "type": "message",
+        "text": "and replace it with the X from the filter parameter",
+        "user": "UMQA682PJ",
+        "ts": "1575398766.003000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "pSc",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and replace it with the X from the filter parameter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83ec6adf-52bc-41af-9ae5-ba60c8de0ad7",
+        "type": "message",
+        "text": "thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1575398775.003200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qf1Y",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thoughts?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5f866dd0-39b5-43fa-9169-a293155e0d01",
+        "type": "message",
+        "text": "That sounds right.",
+        "user": "U8FS2P1LH",
+        "ts": "1575399421.003800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "DpQB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That sounds right."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ace5f4e9-16d7-4271-993b-e8ca5c4c4578",
+        "type": "message",
+        "text": "can there be more than one filter?",
+        "user": "UMQA682PJ",
+        "ts": "1575399514.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "T3qn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "can there be more than one filter?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b9089f32-801c-4f55-87af-818d9faf5a3d",
+        "type": "message",
+        "text": "also do you know if this bug affects all APIs?",
+        "user": "UMQA682PJ",
+        "ts": "1575399601.004900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zFt24",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also do you know if this bug affects all APIs?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4a156cd6-8945-4d01-8f36-cbce1f9763c8",
+        "type": "message",
+        "text": "also can there be more than one group_by?",
+        "user": "UMQA682PJ",
+        "ts": "1575399641.005200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SJm0z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also can there be more than one group_by?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c2161e80-828f-43c3-a79c-189781bb5f54",
+        "type": "message",
+        "text": "I assume it impacts all APIs. You can have more than 1 filter and more than 1 group by.",
+        "user": "U8FS2P1LH",
+        "ts": "1575399918.005800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nj+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I assume it impacts all APIs. You can have more than 1 filter and more than 1 group by."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6a6d64ed-4d6e-4256-8438-7f1ff6aa3534",
+        "type": "message",
+        "text": "I think multiple filters of the same field get lumped together so that they\u2019re the say as a single filter",
+        "user": "U8FS2P1LH",
+        "ts": "1575399944.006400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5IHko",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think multiple filters of the same field get lumped together so that they\u2019re the say as a single filter"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5fecc42e-0072-48fc-913a-34cad108a658",
+        "type": "message",
+        "text": "what does a multiple filter look like?",
+        "user": "UMQA682PJ",
+        "ts": "1575401004.007300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=jjbC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what does a multiple filter look like?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b474e834-aeff-4bf8-b6c9-7f48e932c72e",
+        "type": "message",
+        "text": "?filter[service]=AmazonS3, EC2",
+        "user": "UMQA682PJ",
+        "ts": "1575401019.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1i3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "?filter[service]=AmazonS3, EC2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9964cd44-1d48-4f09-b2c5-979dcd287569",
+        "type": "message",
+        "text": "?",
+        "user": "UMQA682PJ",
+        "ts": "1575401020.008000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q14t0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2bf85502-538b-4d47-8206-0f14564a424a",
+        "type": "message",
+        "text": "also what do we do if a user enters filter[service]=AmazonS3&amp;group_by[service]=AmazonEC2",
+        "user": "UMQA682PJ",
+        "ts": "1575401186.008600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Aonl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also what do we do if a user enters filter[service]=AmazonS3&group_by[service]=AmazonEC2"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c9a0f335-874c-4d94-bc12-28e4686eec77",
+        "type": "message",
+        "text": "im assuming that's unsupported right?",
+        "user": "UMQA682PJ",
+        "ts": "1575401199.008900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P5PW9",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im assuming that's unsupported right?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5c445b57-9a8d-4d1c-bdb5-f1c4dae84087",
+        "type": "message",
+        "text": "or just return zero rows",
+        "user": "UMQA682PJ",
+        "ts": "1575401209.009200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TXAhp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "or just return zero rows"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b70a89cc-808a-4af6-97aa-152ee1e59ef8",
+        "type": "message",
+        "text": "i found the multiple filters.",
+        "user": "UMQA682PJ",
+        "ts": "1575401422.009600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PZlh",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i found the multiple filters."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "573fc2ed-2a09-4ad5-b47c-701252f9c625",
+        "type": "message",
+        "text": "Worth trying the API to see what happens with that filter and group by combo",
+        "user": "U8FS2P1LH",
+        "ts": "1575401583.010500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0iAO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Worth trying the API to see what happens with that filter and group by combo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "49ccd7de-7066-41be-8de0-34f1a33dfb65",
+        "type": "message",
+        "text": "I don\u2019t actually know without digging into the code.",
+        "user": "U8FS2P1LH",
+        "ts": "1575401592.010900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xl4",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don\u2019t actually know without digging into the code."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "46425662-9d41-4fb0-9e88-c978dc945eb7",
+        "type": "message",
+        "text": "im thinking for now just fix the single filter and single group_by=* and not worry about the rest until someone needs to use it.",
+        "user": "UMQA682PJ",
+        "ts": "1575401615.011400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zmsLU",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im thinking for now just fix the single filter and single group_by=* and not worry about the rest until someone needs to use it."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "070fd3e8-3826-44ef-9b45-a3571dc3356e",
+        "type": "message",
+        "text": "so if someone does this:\n`?filter[service]=AmazonS3&amp;filter[service]=AmazonEC2&amp;group_by[service]=*`",
+        "user": "UMQA682PJ",
+        "ts": "1575401958.012400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g=Ucz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so if someone does this:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?filter[service]=AmazonS3&filter[service]=AmazonEC2&group_by[service]=*",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f209b100-6acf-46a4-a22d-ee99dc19b247",
+        "type": "message",
+        "text": "then what they actually want is this:\n`?group_by[service]=AmazonS3&group_by[service]=AmazonEC2`\nright?",
+        "user": "UMQA682PJ",
+        "ts": "1575401993.013200",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575402001.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E1Bj",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "then what they actually want is this:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?group_by[service]=AmazonS3&group_by[service]=AmazonEC2",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nright?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fa3b6ae9-f395-4f51-b58b-d13393666ccb",
+        "type": "message",
+        "text": "Yeah, which can also be written as `?group_by[service]=AmazonS3,AmazonEC2`",
+        "user": "U8FS2P1LH",
+        "ts": "1575402079.013800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EWb",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeah, which can also be written as "
+                            },
+                            {
+                                "type": "text",
+                                "text": "?group_by[service]=AmazonS3,AmazonEC2",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "dce57334-645f-4373-b373-a9b6c6a577e4",
+        "type": "message",
+        "text": "nevermind what i said about fixing the single case",
+        "user": "UMQA682PJ",
+        "ts": "1575402122.014100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NiT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nevermind what i said about fixing the single case"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "54943062-5f6d-4cd8-a04f-f644aafe39e5",
+        "type": "message",
+        "text": "and if someone does this:\n`?filter[X]=Y1&filter[Z]=K1&filter[Z]=K2&group_by[X]=*&group_by[Z]=*`\nthen what they want is this:\n`group_by[X]=Y1&group_by[Z]=K1, K2`\n?",
+        "user": "UMQA682PJ",
+        "ts": "1575402767.022500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1575402852.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Doo",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and if someone does this:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?filter[X]=Y1&filter[Z]=K1&filter[Z]=K2&group_by[X]=*&group_by[Z]=*",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nthen what they want is this:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "group_by[X]=Y1&group_by[Z]=K1, K2",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e7352b6b-bfe3-4e86-a599-59751a79493f",
+        "type": "message",
+        "text": "Can\u2019t do `&amp;group_by=*` have to specify a field to group by.",
+        "user": "U8FS2P1LH",
+        "ts": "1575402817.023300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "b7Ui+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Can\u2019t do "
+                            },
+                            {
+                                "type": "text",
+                                "text": "&group_by=*",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " have to specify a field to group by."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "58091592-2a7b-472d-bef2-4263acafd10d",
+        "type": "message",
+        "text": "edited above ^",
+        "user": "UMQA682PJ",
+        "ts": "1575402880.023700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KeOS8",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "edited above ^"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "15e01892-6abb-489c-8445-9bbec6efa01e",
+        "type": "message",
+        "text": "Yes, that looks right now.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403014.024000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e0DO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yes, that looks right now."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0ab487d5-fb55-47bc-8e6f-ebec20a58dfd",
+        "type": "message",
+        "text": "do we support this? if so what would it translate into:\n`?filter[X]=Y1&amp;filter[Z]=K1&amp;filter[Z]=K2&amp;group_by[X]=*`",
+        "user": "UMQA682PJ",
+        "ts": "1575403074.024600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Jn=M",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "do we support this? if so what would it translate into:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?filter[X]=Y1&filter[Z]=K1&filter[Z]=K2&group_by[X]=*",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a31f1ce7-99e0-4812-8492-a5d19f5c11c0",
+        "type": "message",
+        "text": "i removed the group_by[Z]=*",
+        "user": "UMQA682PJ",
+        "ts": "1575403090.024900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SHy7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i removed the group_by[Z]=*"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a2393a10-ba7a-41da-b85e-070b6ffac5dd",
+        "type": "message",
+        "text": "Yeah, that should be supported. `?group_by[X]=Y1&amp;filter[Z]=K1,K2`",
+        "user": "U8FS2P1LH",
+        "ts": "1575403213.025600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BX05",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeah, that should be supported. "
+                            },
+                            {
+                                "type": "text",
+                                "text": "?group_by[X]=Y1&filter[Z]=K1,K2",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4e136d1f-12c6-4336-be6e-4d7c945fa6b7",
+        "type": "message",
+        "text": "So if you login to <http://ci.cloud.redhat.com/|ci.cloud.redhat.com/>",
+        "user": "U8FS2P1LH",
+        "ts": "1575403240.026100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hu7D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So if you login to "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http://ci.cloud.redhat.com/",
+                                "text": "ci.cloud.redhat.com/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3830864c-0b99-43e1-afd6-578e6af256a6",
+        "type": "message",
+        "text": "you can hit api/cost-management/v1/reports/aws/costs/",
+        "user": "U8FS2P1LH",
+        "ts": "1575403263.026500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CwR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you can hit api/cost-management/v1/reports/aws/costs/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6c862854-8b3a-470d-9c4a-fae091799a6a",
+        "type": "message",
+        "text": "and try this stuff out.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403267.026700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "brJLw",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and try this stuff out."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "100bd4c7-e9ac-4ca1-85e0-0ac641ddd291",
+        "type": "message",
+        "text": "<https://ci.cloud.redhat.com/api/cost-management/v1/reports/aws/costs/>",
+        "user": "U8FS2P1LH",
+        "ts": "1575403297.026900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "r+cPM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://ci.cloud.redhat.com/api/cost-management/v1/reports/aws/costs/"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a1a28551-6bed-4f54-9f3b-81898fa504ab",
+        "type": "message",
+        "text": "im trying and have difficulty finding an example where any filter works correctly with a group_by",
+        "user": "UMQA682PJ",
+        "ts": "1575403605.027300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dmVz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "im trying and have difficulty finding an example where any filter works correctly with a group_by"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3b2d4dfb-7015-4e4a-af8a-81e381119e3e",
+        "type": "message",
+        "text": "do you know of any?",
+        "user": "UMQA682PJ",
+        "ts": "1575403616.027500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rF7oG",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "do you know of any?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1347b1ea-73fa-4e67-a093-0eb1208a3778",
+        "type": "message",
+        "text": "also do you know why /?filter[time_scope_value]=-10 any other value other than 10 is invalid?",
+        "user": "UMQA682PJ",
+        "ts": "1575403726.027900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IPx2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also do you know why /?filter[time_scope_value]=-10 any other value other than 10 is invalid?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c812cada-2e78-4ec1-892f-8397f758bb28",
+        "type": "message",
+        "text": "To the first question, no, but I guess that\u2019s the crux of the bug no?",
+        "user": "U8FS2P1LH",
+        "ts": "1575403812.028400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "y9ezC",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "To the first question, no, but I guess that\u2019s the crux of the bug no?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2c4b9271-7386-45b2-825e-17b7ed3b7f34",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1575403820.028900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0pVV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "40c76fed-aebb-4b0d-ae43-a54e3c613bc6",
+        "type": "message",
+        "text": "group by isn\u2019t respecting filters.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403822.029200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dkS",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "group by isn\u2019t respecting filters."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d517d8f-4318-48a3-aeee-9ba5a3da2ee5",
+        "type": "message",
+        "text": "question: is ?filter[resolution]=monthly only counting the last 10 days?",
+        "user": "UMQA682PJ",
+        "ts": "1575403840.029700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Z/t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "question: is ?filter[resolution]=monthly only counting the last 10 days?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f645e92-3fab-45d1-aeae-217541ae8379",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/master/koku/api/report/serializers.py#L200> is part of the answer to what time scope unit/value/resolutions are allowed.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403886.030100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/report/serializers.py:200",
+                "text": "```\nclass FilterSerializer(BaseSerializer):\n```",
+                "title": "koku/api/report/serializers.py:200",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/master/koku/api/report/serializers.py#L200",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/master/koku/api/report/serializers.py#L200",
+                "is_app_unfurl": true
+            }
+        ],
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "g3lP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/blob/master/koku/api/report/serializers.py#L200"
+                            },
+                            {
+                                "type": "text",
+                                "text": " is part of the answer to what time scope unit/value/resolutions are allowed."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d08c7a1-8bfe-4d7a-abe5-7fa3480defaa",
+        "type": "message",
+        "text": "-1 == current month, -2 == last month, -10 == last 10 days.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403904.030600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZCbq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "-1 == current month, -2 == last month, -10 == last 10 days."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2d5a94f5-1b24-49f6-ae90-7b603c5abfbb",
+        "type": "message",
+        "text": "Keep in mind I\u2019m not defending or indicting this answer, just what those translate to.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403931.031200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "mtzV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Keep in mind I\u2019m not defending or indicting this answer, just what those translate to."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bc3c3c6c-16c6-42f9-a30a-beedc4fe7bd9",
+        "type": "message",
+        "text": "resolution monthly just aggregates the results into a single field for the month, instead of a different result for each day.",
+        "user": "U8FS2P1LH",
+        "ts": "1575403964.031800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "f3ev",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "resolution monthly just aggregates the results into a single field for the month, instead of a different result for each day."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1477efb5-b894-495d-9546-73abfd6080d3",
+        "type": "message",
+        "text": "So if you use -1 or -2 and resolultion monthly than you get a full month",
+        "user": "U8FS2P1LH",
+        "ts": "1575404003.032300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZIQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So if you use -1 or -2 and resolultion monthly than you get a full month"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "962764fe-83ab-472d-b806-41356357fa5e",
+        "type": "message",
+        "text": "update: i found a filter that works correctly with group_by",
+        "user": "UMQA682PJ",
+        "ts": "1575404352.033000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "WcR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "update: i found a filter that works correctly with group_by"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "47fc422b-f3fe-41f6-8c4b-54fef0082e55",
+        "type": "message",
+        "text": "woohoo",
+        "user": "U8FS2P1LH",
+        "ts": "1575404575.033700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "/hH=V",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "woohoo"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0b84ef02-7b60-41c2-8272-ba98987d2048",
+        "type": "message",
+        "text": "I'm assuming this query shouldn't be supported:\n`?group_by[service]=AmazonS3&amp;filter[service]=AmazonEC2`",
+        "user": "UMQA682PJ",
+        "ts": "1575404585.033800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wU3",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'm assuming this query shouldn't be supported:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "?group_by[service]=AmazonS3&filter[service]=AmazonEC2",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9842bca-7b01-4ffa-865f-c08dee9b999c",
+        "type": "message",
+        "text": "\u201csupported\u201d in that it basically returns a non result, but it should translate to valid SQL, so I think we allow a user to do it.",
+        "user": "U8FS2P1LH",
+        "ts": "1575404635.034300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1JD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\u201csupported\u201d in that it basically returns a non result, but it should translate to valid SQL, so I think we allow a user to do it."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "2325e3b1-0409-4cc7-bee4-5b57744687c2",
+        "type": "message",
+        "text": "yes it's allowed now",
+        "user": "UMQA682PJ",
+        "ts": "1575404672.034900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "56uJi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes it's allowed now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aefb6cb6-5d91-4623-97f0-00e8d2358dd4",
+        "type": "message",
+        "text": "Good. Don\u2019t change that.",
+        "user": "U8FS2P1LH",
+        "ts": "1575404688.035200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "G5g2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Good. Don\u2019t change that."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

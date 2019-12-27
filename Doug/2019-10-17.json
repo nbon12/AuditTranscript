@@ -1,0 +1,1331 @@
+[
+    {
+        "client_msg_id": "eb4b84c0-28a0-4131-8301-35da7e607c16",
+        "type": "message",
+        "text": "hey Nick! just wanted to check in with you.  Looks like your wrapping up the sql stuff :confetti_ball: ?",
+        "user": "UAR1CADNV",
+        "ts": "1571334641.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7b8330b5-ba6e-4ef8-a224-cfaf9f8fe955",
+        "type": "message",
+        "text": "yep, just fixing up an error. we were passing in timestamps into postgres and comparing it to dates, but bind_params doesn't allow that, so I just learned we need to convert it into a date object.",
+        "user": "UMQA682PJ",
+        "ts": "1571334762.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2084681f-8828-4fd3-b6e2-41d808ceb592",
+        "type": "message",
+        "text": "awesome, so this is the last PR?",
+        "user": "UAR1CADNV",
+        "ts": "1571334799.002200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f2300a6-68b9-4585-af80-e83ba5a5432f",
+        "type": "message",
+        "text": "i haven't coded it into a PR yet",
+        "user": "UMQA682PJ",
+        "ts": "1571334841.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b78e6be-4828-45cd-85f4-7998efa1f33a",
+        "type": "message",
+        "text": "close",
+        "user": "UMQA682PJ",
+        "ts": "1571334854.003200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c4ee556b-8234-4a34-aabf-340eb6424a72",
+        "type": "message",
+        "text": "ah ok, but theres no more sql files left after this?",
+        "user": "UAR1CADNV",
+        "ts": "1571334856.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "241908e7-3c88-4269-9289-e8b1e675e272",
+        "type": "message",
+        "text": "yes theres about 5 more i think",
+        "user": "UMQA682PJ",
+        "ts": "1571334872.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fad496c1-1cdc-4e23-8f59-690683611bc0",
+        "type": "message",
+        "text": "ok gotcha",
+        "user": "UAR1CADNV",
+        "ts": "1571334881.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0c82273a-b3bc-4c87-9dde-559b67394e94",
+        "type": "message",
+        "text": "has this been at all helpful in learning the overall product? or has it been pretty isolated?",
+        "user": "UAR1CADNV",
+        "ts": "1571334905.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "17b258a4-b86e-416b-a2f5-53e6d61caa4c",
+        "type": "message",
+        "text": "it's definitely been helpful",
+        "user": "UMQA682PJ",
+        "ts": "1571334938.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "367a4100-73e8-4667-a7b9-7b0742513b2a",
+        "type": "message",
+        "text": "running lots of test I assume.  Any change to do functional testing with it?",
+        "user": "UAR1CADNV",
+        "ts": "1571334951.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9bf56407-95df-4002-9708-4a226d4d72b4",
+        "type": "message",
+        "text": "the for-loops that Jinja now uses in the .sql files should probably be considered a functional change.",
+        "user": "UMQA682PJ",
+        "ts": "1571334999.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "69526a34-3d07-4e50-914d-ef8cdaaa180f",
+        "type": "message",
+        "text": "or, if not, at least a big one.",
+        "user": "UMQA682PJ",
+        "ts": "1571335015.006300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b554d7d2-4d29-4881-9c67-02fb13f28c08",
+        "type": "message",
+        "text": "but all the unit tests work",
+        "user": "UMQA682PJ",
+        "ts": "1571335027.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21dcbc74-6552-4654-8b1b-45ef48153424",
+        "type": "message",
+        "text": "was that your question?",
+        "user": "UMQA682PJ",
+        "ts": "1571335031.006700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a3c3c533-27cb-473b-a1f5-66c22c39e0ee",
+        "type": "message",
+        "text": "oh yeah sorry I meant as far as ingesting data and hitting the public API",
+        "user": "UAR1CADNV",
+        "ts": "1571335048.007100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7709934f-3c3e-427e-ad22-b29cf8b564a0",
+        "type": "message",
+        "text": "setting up accounts, ingest, API type stuff",
+        "user": "UAR1CADNV",
+        "ts": "1571335062.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9d386bd4-e417-4d61-abb3-3af5ecc36515",
+        "type": "message",
+        "text": "what's the question?",
+        "user": "UMQA682PJ",
+        "ts": "1571335083.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4d572fd0-1a3b-4dbe-82a9-ffe565aa92ac",
+        "type": "message",
+        "text": "while working on the sql changes have you had the opportunity to setup accounts, ingest data and use the public API at all?",
+        "user": "UAR1CADNV",
+        "ts": "1571335112.008400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3a6cc0d6-0993-4b85-bbaa-27ddb582631b",
+        "type": "message",
+        "text": "Oh",
+        "user": "UMQA682PJ",
+        "ts": "1571335124.008800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21c3b8e8-6e39-4a35-a499-0c655f9f8984",
+        "type": "message",
+        "text": "no",
+        "user": "UMQA682PJ",
+        "ts": "1571335129.009300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5993aa96-1a98-4557-8b84-186970445aa7",
+        "type": "message",
+        "text": "I remember you were tryign to get the IQE tests running",
+        "user": "UAR1CADNV",
+        "ts": "1571335130.009400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "976d23e1-206f-468f-a283-d854170db3b5",
+        "type": "message",
+        "text": "i used the REST api to create a provider",
+        "user": "UMQA682PJ",
+        "ts": "1571335143.009700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7fe899c9-505d-4d24-9010-c67ecd658273",
+        "type": "message",
+        "text": "but that's it",
+        "user": "UMQA682PJ",
+        "ts": "1571335147.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6c943b9f-796d-4b09-ac97-25745c5b62fb",
+        "type": "message",
+        "text": "ok sounds good",
+        "user": "UAR1CADNV",
+        "ts": "1571335153.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "628080e2-32ed-4d33-8600-3e406b49c110",
+        "type": "message",
+        "text": "also I ingested some data from nise and aws",
+        "user": "UMQA682PJ",
+        "ts": "1571335160.010500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "324239d2-4fcd-44b3-b978-1c4c269c0e64",
+        "type": "message",
+        "text": "just curious to see where you were at.  Ok thats good!",
+        "user": "UAR1CADNV",
+        "ts": "1571335172.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "05e19c3b-eb49-443d-bf01-bb29d1de4cc8",
+        "type": "message",
+        "text": "So for the IQE tests, I made a change last week that will hopefully :fingers_crossed: make it really easy for everyone to run the tests.  Curious to hear your feedback when you get a chance to try it",
+        "user": "UAR1CADNV",
+        "ts": "1571335226.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "afb09eb4-a8a3-4fb6-9bd4-7b0ac94869a8",
+        "type": "message",
+        "text": "sounds good!",
+        "user": "UMQA682PJ",
+        "ts": "1571335271.012500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6aee3196-0587-48df-8d92-736886224d76",
+        "type": "message",
+        "text": "I think we ended up not knowing what was going on with the tests on your laptop\u2026 Now with this change the IQE framework and hccm-plugin are installed in a container and my script makes it work out of the box with docker-compose koku deployments",
+        "user": "UAR1CADNV",
+        "ts": "1571335279.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "482da3e8-a87a-4835-85b0-4c344699b665",
+        "type": "message",
+        "text": "yep",
+        "user": "UMQA682PJ",
+        "ts": "1571335308.013000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "01b40ec8-ab05-4e2f-abf0-3adaa471a773",
+        "type": "message",
+        "text": "I\u2019m loving it so far, so convenient to just run all the tests right from the koku repo and know it\u2019s pulling in the latest test code automagically.  Which I did it months ago!",
+        "user": "UAR1CADNV",
+        "ts": "1571335339.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d7dca96a-4940-47d3-a258-f829776506b1",
+        "type": "message",
+        "text": "but anyway; I\u2019ll let you get back to wrapping up the jinja stuff.  There was one issue I was wondering if you wanted to pick up once your done.  That\u2019s removing azure data when the provider is deleted.  We can discuss it in more detail later if you want",
+        "user": "UAR1CADNV",
+        "ts": "1571335414.014900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9ed59842-bfc3-4584-9736-9641f937fc2b",
+        "type": "message",
+        "text": "sure i'd like to discuss that, how critical is it? are we running out of space?",
+        "user": "UMQA682PJ",
+        "ts": "1571335530.016800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35ec6424-0223-4f82-bd52-8073134fcec7",
+        "type": "message",
+        "text": "so the main benefit of it is that it will enable Azure QE automated testing",
+        "user": "UAR1CADNV",
+        "ts": "1571335552.017200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9bd186f2-d60c-43f6-a47e-6ad2d33c2da3",
+        "type": "message",
+        "text": "so very important",
+        "user": "UAR1CADNV",
+        "ts": "1571335557.017400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "951301ca-e192-4d55-ade4-806487ac7a32",
+        "type": "message",
+        "text": "but nobody is really using Azure yet in production so not *critical* if you know what I mean :wink:",
+        "user": "UAR1CADNV",
+        "ts": "1571335578.018100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bebf38b3-d756-4442-8c9a-5e3b2bb66319",
+        "type": "message",
+        "text": "we can go over the raw calculation tests that QE does, but essentially they add a provider, ingest a known data set, and verify that the numbers add on on the public API",
+        "user": "UAR1CADNV",
+        "ts": "1571335610.018700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f7e642c2-845d-471b-a5e3-41aac653e848",
+        "type": "message",
+        "text": "then they remove the provider to do the next test case",
+        "user": "UAR1CADNV",
+        "ts": "1571335620.019000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1dce82a4-c335-418d-ada3-804f99a9680e",
+        "type": "message",
+        "text": "the way the tests are written is that it\u2019s assuming we are starting at $0",
+        "user": "UAR1CADNV",
+        "ts": "1571335647.019700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "541245ee-c53c-4316-bb10-a2a7800df83a",
+        "type": "message",
+        "text": "I'm curious why deleting data is needed at all",
+        "user": "UMQA682PJ",
+        "ts": "1571335647.019800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "dbaaee97-25ad-4283-80c7-aa8ef6e97cce",
+        "type": "message",
+        "text": "so that\u2019s the most practical and immediate reason.  There\u2019s also a product reason..",
+        "user": "UAR1CADNV",
+        "ts": "1571335687.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4bea55fc-7155-4b39-8f64-a657b3c021ff",
+        "type": "message",
+        "text": "that is when a customer leaves our system we don\u2019t want to hold on to their data.  Theres a practical aspect as far as wasted database usage and also a legal one\u2026 Think GDPR",
+        "user": "UAR1CADNV",
+        "ts": "1571335722.021800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3ac20107-c0ea-4ddf-9a49-5930781194b9",
+        "type": "message",
+        "text": "gotcha so they want to start the tests from scratch == make sure there's no data in there to throw off results",
+        "user": "UMQA682PJ",
+        "ts": "1571335741.022200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c97c6e70-9648-4a93-8911-c982b02cde15",
+        "type": "message",
+        "text": "yup",
+        "user": "UAR1CADNV",
+        "ts": "1571335747.022400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ad363271-691f-4a19-aa5a-28fc5187786e",
+        "type": "message",
+        "text": "so deleting the data when a provider is removed helps there but is also important for the product itself..  Sergio (our Product Manager) will probably define more nuanced removal stuff in the future but as of today it\u2019s really simple.. Provider is removed, data gets deleted..",
+        "user": "UAR1CADNV",
+        "ts": "1571335825.023800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3c2ee704-1b55-4151-9320-21b08b6e4012",
+        "type": "message",
+        "text": "So that issue is <https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1259>",
+        "user": "UAR1CADNV",
+        "ts": "1571335889.024500",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "ZenHub",
+                "title_link": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1259",
+                "text": "Project Management and Software Development with GitHub | ZenHub",
+                "fallback": "ZenHub",
+                "from_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1259",
+                "service_icon": "https://app.zenhub.com/dist/favicon/apple-touch-icon.png",
+                "service_name": "app.zenhub.com",
+                "id": 1,
+                "original_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1259"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "60c23f53-1702-4813-a8be-dd93f9d58218",
+        "type": "message",
+        "text": "We do it for OCP and AWS now.  There\u2019s a class that just needs to be filled out for the azure tables.  Stub is already there",
+        "user": "UAR1CADNV",
+        "ts": "1571335916.025200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f0d203e9-fcc9-4614-9cd4-d74a8bbf05cb",
+        "type": "message",
+        "text": "`class AzureReportDBCleaner`",
+        "user": "UAR1CADNV",
+        "ts": "1571335936.025600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cace0d65-66bc-4ac9-b701-f622f78a9784",
+        "type": "message",
+        "text": "I think it\u2019s a good issue to start generating data with nise and ingesting, using the API to make sure it really worked.  Gives you a chance to use the system in a way thats closer to how the end-user would use it",
+        "user": "UAR1CADNV",
+        "ts": "1571335993.026600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6d02d43a-adec-485b-bebf-8b8aa9856ec4",
+        "type": "message",
+        "text": "are there any other tickets that need help?",
+        "user": "UMQA682PJ",
+        "ts": "1571336120.026800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e2f1edb-0bf6-47a9-a295-6f3e2bde3023",
+        "type": "message",
+        "text": "oh there\u2019s lots!",
+        "user": "UAR1CADNV",
+        "ts": "1571336142.027100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7a597753-2b2d-4162-8386-5402fa31d9df",
+        "type": "message",
+        "text": "but I think this one is the next up",
+        "user": "UAR1CADNV",
+        "ts": "1571336148.027300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a603f64-624d-45a0-be62-74abf28594df",
+        "type": "message",
+        "text": "Luke is close to getting his Azure stuff configured, I\u2019m about to give him some steps on how to derive the costs from an azure report so he knows how to assert the correct values",
+        "user": "UAR1CADNV",
+        "ts": "1571336203.028200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a67e0b41-c377-485e-a5cb-d655bab139a6",
+        "type": "message",
+        "text": "The next piece is removing the data so all of this can be run in our smoke tests",
+        "user": "UAR1CADNV",
+        "ts": "1571336217.028600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0b9932fe-e32f-4851-8137-051729bfcbe1",
+        "type": "message",
+        "text": "can't we partition the data such that the tests only look for the partition that belongs to a specific provider?",
+        "user": "UMQA682PJ",
+        "ts": "1571336238.029100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f103de3-a4a8-4f1d-bc37-7d87043ac856",
+        "type": "message",
+        "text": "by adding a column?",
+        "user": "UMQA682PJ",
+        "ts": "1571336251.029300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "09cabbdb-c883-4bbc-a775-9da5f05f637c",
+        "type": "message",
+        "text": "so the data is tied to a specific provider already.  Do you mean just keep adding a new provider for each test case basically?",
+        "user": "UAR1CADNV",
+        "ts": "1571336363.029900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d2e70cb7-b50d-4bfc-95ff-94bb4405873d",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1571336385.030100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c1e2d83d-ff58-4fb1-b24d-2c7904cf4835",
+        "type": "message",
+        "text": "or throwing away the previous environment, and then adding the provider",
+        "user": "UMQA682PJ",
+        "ts": "1571336403.030800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f77a56c-cb05-4edc-a3a7-fcd04a9feaee",
+        "type": "message",
+        "text": "well yeah technically we could have a provider per test case, but there\u2019s a lot of test cases",
+        "user": "UAR1CADNV",
+        "ts": "1571336412.031000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7cdd3b75-be0c-4081-a7ee-9a7c214e953d",
+        "type": "message",
+        "text": "well the tests also want to ensure the provider CRUD is working correctly too.  Not just blowing away the database on each test case, since that\u2019s not how the production service will work",
+        "user": "UAR1CADNV",
+        "ts": "1571336459.031800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cde476fd-2158-4375-9a7c-f08e2515862f",
+        "type": "message",
+        "text": "I know this probably doesn\u2019t sound like the most existing thing in the world to work on :slightly_smiling_face:  But it\u2019s a good way to get more experience with the product/code/setup/testing all that.  Plus it\u2019s a product requirement so it just needs to get done",
+        "user": "UAR1CADNV",
+        "ts": "1571336604.032900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2d5b2e23-abe3-4b02-a5be-276ad0a6462d",
+        "type": "message",
+        "text": "No worries, I was just concerned that deleting data moves us away from one of my goals of working with immutable data structures, which are far easier generally better way to program in my opinion.",
+        "user": "UMQA682PJ",
+        "ts": "1571336773.033900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fc3be00e-9bcd-418f-93db-f8762cc4e6d9",
+        "type": "message",
+        "text": "<https://en.wikipedia.org/wiki/Functional_programming>",
+        "user": "UMQA682PJ",
+        "ts": "1571336793.034100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "Functional programming",
+                "title_link": "https://en.wikipedia.org/wiki/Functional_programming",
+                "from_url": "https://en.wikipedia.org/wiki/Functional_programming",
+                "author_name": "Wikipedia",
+                "author_link": "https://en.wikipedia.org/",
+                "text": "In computer science, functional programming is a programming paradigm\u2014a style of building the structure and elements of computer programs\u2014that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm in that programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on its arguments, so calling a function with the same value for an argument always produces the same result. This is in contrast to imperative programming where, in addition to a function's arguments, global program state can affect a function's resulting value. Eliminating side effects, that is, changes in state that do not depend on the function inputs, can make understanding a program easier, which is one of the key motivations for the development of functional programming.\nFunctional programming has its origins in lambda calculus, a formal system developed in the 1930s to investigate computability, the Entscheidungsproblem, function definition, function application, and recursion. Many functional programming languages can be viewed as elaborations on the lambda calculus. Another well-known declarative programming paradigm, logic programming, is based on <http://relations.In|relations.In> contrast, imperative programming changes state with statements in the source code, the simplest example being assignment. Imperative programming has subroutines, but these are not mathematical functions. They can have side effects that may change a program's state, allowing for functions without return values. Because of this, they lack referential transparency, that is, the same language expression can result in different values at different times depending on the state of the executing program.Functional programming languages have largely been emphasized in academia rather than industry settings. However, programming languages that support functional programming have been used in industry, including Common Lisp, Scheme, Clojure, Wolfram Language, Racket, Erlang, OCaml, Haskell, and F#. JavaScript, one of the world's most widely distributed languages, has the properties of a dynamically typed functional language, in addition to imperative and object-oriented paradigms. Functional programming is also key to some languages that have found success in specific domains, like R in statistics, J, K and Q in financial analysis, and XQuery/XSLT for XML. Domain-specific declarative languages like SQL and Lex/Yacc use some elements of functional programming, especially in not supporting mutable values.Programming in a functional style can be accomplished in languages that are not specifically designed for functional programming, such as with Perl, PHP, C++11, and Kotlin.  An interesting case is that of Scala \u2013 it is frequently written in a functional style, but the presence of side effects and mutable state place it in a grey area between imperative and functional languages.",
+                "fallback": "wikipedia: Functional programming",
+                "service_icon": "https://a.slack-edge.com/80588/img/unfurl_icons/wikipedia.png",
+                "id": 1,
+                "original_url": "https://en.wikipedia.org/wiki/Functional_programming"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "705a2b2c-d614-4d14-b5f8-ba9a8dc45182",
+        "type": "message",
+        "text": "ah I see.",
+        "user": "UAR1CADNV",
+        "ts": "1571336886.035000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "201a57fc-43cd-437d-a1d6-a26df7784307",
+        "type": "message",
+        "text": "Yeah I\u2019ll have to think on that some to see how that could apply here since this is database data that certainly changes.",
+        "user": "UAR1CADNV",
+        "ts": "1571336931.035800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9946c11e-2437-4c50-b773-8ae4ea51a480",
+        "type": "message",
+        "text": "But for what we have today; data just has to get removed bottom line",
+        "user": "UAR1CADNV",
+        "ts": "1571336942.036100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6ba16e0-6c7c-4bac-8a0f-5a6c85ca3d50",
+        "type": "message",
+        "text": "yup will do",
+        "user": "UMQA682PJ",
+        "ts": "1571337093.037100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "90abffa6-ecb4-479b-a944-48c7d3e3bbd0",
+        "type": "message",
+        "text": "here's side-reading for learning more if you're interested: <https://usblogs.pwc.com/emerging-technology/the-rise-of-immutable-data-stores/>",
+        "user": "UMQA682PJ",
+        "ts": "1571337106.037700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Next In Tech",
+                "title": "The rise of immutable data stores",
+                "title_link": "https://usblogs.pwc.com/emerging-technology/the-rise-of-immutable-data-stores/",
+                "text": "Some innovators are abandoning long-held database principles. Why?",
+                "fallback": "Next In Tech: The rise of immutable data stores",
+                "image_url": "https://usblogs.pwc.com/emerging-technology/wp-content/uploads/2016/09/append-only-banner-square.jpg",
+                "ts": 1441750652,
+                "from_url": "https://usblogs.pwc.com/emerging-technology/the-rise-of-immutable-data-stores/",
+                "image_width": 400,
+                "image_height": 250,
+                "image_bytes": 79580,
+                "service_icon": "https://usblogs.pwc.com/favicon.ico",
+                "id": 1,
+                "original_url": "https://usblogs.pwc.com/emerging-technology/the-rise-of-immutable-data-stores/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "70fe1c17-1f45-478e-a964-33df3a577e82",
+        "type": "message",
+        "text": "Do you happen to be headed into the tower tomorrow?  We could sync up in person if you want.  Would be happy to answer any questions you have, would love to hear what else you are excited about and try to find ways to get that involved in our road map",
+        "user": "UAR1CADNV",
+        "ts": "1571337134.038200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1c47a609-f673-49e9-8482-aac6b5f6a454",
+        "type": "message",
+        "text": "yeah thanks! I admittedly have been meaning to get caught up on functional programming.  Good opportunity for me too to read this :+1:",
+        "user": "UAR1CADNV",
+        "ts": "1571337163.038900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5c714a08-f136-483a-b74d-5172ff5288ac",
+        "type": "message",
+        "text": "sure i'll head in tomorrow",
+        "user": "UMQA682PJ",
+        "ts": "1571337191.039100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ff2408c0-be9c-43a2-bfe6-aac2a3500a85",
+        "type": "message",
+        "text": "I\u2019m not going to be able to come in on Monday so was thinking of heading in tomorrow if your around",
+        "user": "UAR1CADNV",
+        "ts": "1571337216.039500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "486365a8-a2cd-4845-87b5-13c561948a90",
+        "type": "message",
+        "text": "sounds good",
+        "user": "UMQA682PJ",
+        "ts": "1571337343.039700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c00d2648-9e72-4aa4-bcf5-3bbb89072398",
+        "type": "message",
+        "text": "also this one is really good: <https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a>",
+        "user": "UMQA682PJ",
+        "ts": "1571337349.040000",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Medium",
+                "title": "Functional Data Engineering \u2014 a modern paradigm for batch data processing",
+                "title_link": "https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a",
+                "text": "Batch data processing \u2014 historically known as ETL \u2014 is extremely challenging. It\u2019s time-consuming, brittle, and often unrewarding. Not only\u2026",
+                "fallback": "Medium: Functional Data Engineering \u2014 a modern paradigm for batch data processing",
+                "image_url": "https://miro.medium.com/max/1200/1*wLRaUmtskDynbqGklT8Lkw.jpeg",
+                "fields": [
+                    {
+                        "title": "Reading time",
+                        "value": "15 min read",
+                        "short": true
+                    }
+                ],
+                "ts": 1515440181,
+                "from_url": "https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a",
+                "image_width": 375,
+                "image_height": 250,
+                "image_bytes": 351954,
+                "service_icon": "https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png",
+                "id": 1,
+                "original_url": "https://medium.com/@maximebeauchemin/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f4136d90-7946-43ea-a578-933adbe64ede",
+        "type": "message",
+        "text": "\"While your database of choice may allow you to update, insert, and delete at will, it doesn\u2019t mean you should. DML operations like UPDATE, APPEND and DELETE are performing mutations that ripple in side-effects. \"",
+        "user": "UMQA682PJ",
+        "ts": "1571337367.040700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "92a5f7ca-7b2d-4a44-86a7-67cce7100a35",
+        "type": "message",
+        "text": "excellent I\u2019ll take a look!",
+        "user": "UAR1CADNV",
+        "ts": "1571337407.041000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e3e40a19-cd18-49e9-98b8-5ad9e27d90ea",
+        "type": "message",
+        "text": "sounds good so hopefully I\u2019ll see you in the tower tomorrow.  If sometime comes up just let me know!",
+        "user": "UAR1CADNV",
+        "ts": "1571337562.042100",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e16d7a82-b778-4254-8a44-ad7547dd7bfc",
+        "type": "message",
+        "text": "Hey here's the last PR for the safer SQL: <https://github.com/project-koku/koku/pull/1275>",
+        "user": "UMQA682PJ",
+        "ts": "1571346014.042700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "author_name": "nbon12",
+                "fallback": "[project-koku/koku] #1275 final ocp_report_db_accessor --&gt; safer sql",
+                "text": "<https://github.com/project-koku/koku/issues/1079|#1079>  \nNow using the .date() function in ocp_report_db_accessor.py to convert datetime into date",
+                "title": "#1275 final ocp_report_db_accessor --&gt; safer sql",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/pull/1275",
+                "author_link": "https://github.com/nbon12",
+                "author_icon": "https://avatars3.githubusercontent.com/u/17408265?v=4",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1571320574,
+                "color": "36a64f",
+                "fields": [
+                    {
+                        "title": "Reviewers",
+                        "value": "@project-koku/development",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/pull/1275",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a9abf6c-6d5c-41ba-92ee-52ca5127a65c",
+        "type": "message",
+        "text": "looking now!",
+        "user": "UAR1CADNV",
+        "ts": "1571346024.043000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89db7021-4bdb-4596-baf5-e4520e1462b9",
+        "type": "message",
+        "text": "end is near",
+        "user": "UAR1CADNV",
+        "ts": "1571346029.043300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c65a275-c3fe-4b5f-9f2a-86226126d5dd",
+        "type": "message",
+        "text": ":meow_party:",
+        "user": "UMQA682PJ",
+        "ts": "1571346039.043600",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "rolling_on_the_floor_laughing",
+                "users": [
+                    "UAR1CADNV"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b46a4dd8-046c-44da-9f2e-a81c996b19e6",
+        "type": "message",
+        "text": "btw this is how to run APi tests.  Trying it on your branch now\n```\n\u279c koku_master git:(jinja_changes_12) make docker-iqe-api-tests\n./testing/run_api_tests.sh\nRunning API Tests at /Users/curtisd/projects/repos/koku_master/testing\nUsing default tag: latest\nlatest: Pulling from insights-qe/iqe-tests\n[DEPRECATION NOTICE] registry v2 schema1 support will be removed in an upcoming release. Please contact admins of the <http://docker-registry.upshift.redhat.com|docker-registry.upshift.redhat.com> registry NOW to avoid future disruption.\ncead5cd71f0d: Already exists\n0a9627a265da: Already exists\n24f934c065c2: Pull complete\nda1528625431: Pull complete\nf48ababcbfca: Downloading [==============================&gt;                    ]  29.49MB/48.26MB\n8d64cb89f5d3: Downloading [=============================&gt;                     ]  38.36MB/64.14MB\n433a89912234: Downloading [==========&gt;                                        ]  24.32MB/112.4MB\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571346174.044000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "645f5a07-8f47-442b-bb82-6188e4895731",
+        "type": "message",
+        "text": "added a Makefile entry for api and smoke tests",
+        "user": "UAR1CADNV",
+        "ts": "1571346200.044300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8733e735-f61c-497d-902c-04f05b4ab773",
+        "type": "message",
+        "text": "the docker iqe is already in master?",
+        "user": "UMQA682PJ",
+        "ts": "1571346269.044700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bf25dc0e-0b6c-4cf0-bb4d-dec9f48f51cb",
+        "type": "message",
+        "text": "yup",
+        "user": "UAR1CADNV",
+        "ts": "1571346274.044900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e54cc5df-40ea-4f91-93cc-43897881eaa4",
+        "type": "message",
+        "text": "only requirement is that you have koku services running",
+        "user": "UAR1CADNV",
+        "ts": "1571346289.045200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "12d6c930-ce2f-4a33-8127-d8c31fa60623",
+        "type": "message",
+        "text": "and be on the Red Hat vpn?",
+        "user": "UMQA682PJ",
+        "ts": "1571346301.045800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0113d5bb-c972-4d99-9c81-2bf9aa7506e0",
+        "type": "message",
+        "text": "check the logs to make sure everything is settled down before starting tests",
+        "user": "UAR1CADNV",
+        "ts": "1571346302.046000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f36de6a-80a9-4adc-a672-4c5b230c546e",
+        "type": "message",
+        "text": "yeah",
+        "user": "UAR1CADNV",
+        "ts": "1571346303.046200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3004869d-332f-4d0b-a028-09923532e64f",
+        "type": "message",
+        "text": "that too",
+        "user": "UAR1CADNV",
+        "ts": "1571346308.046400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77642cc4-3c53-4cb0-8081-efb3356c1e48",
+        "type": "message",
+        "text": "hit an issue",
+        "user": "UAR1CADNV",
+        "ts": "1571346350.046600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a108cd86-ee25-4436-a46f-1f7096c35677",
+        "type": "message",
+        "text": "```\nkoku_worker       | [2019-10-17 21:05:10,062: ERROR/ForkPoolWorker-2] Task masu.processor.tasks.update_summary_tables[5cd91435-dbc9-465e-8afb-de34bd9e3fcb] raised unexpected: AttributeError(\"'str' object has no attribute 'date'\",)\nkoku_worker       | Traceback (most recent call last):\nkoku_worker       |   File \"/opt/app-root/lib/python3.6/site-packages/celery/app/trace.py\", line 385, in trace_task\nkoku_worker       |     R = retval = fun(*args, **kwargs)\nkoku_worker       |   File \"/opt/app-root/lib/python3.6/site-packages/celery/app/trace.py\", line 648, in __protected_call__\nkoku_worker       |     return self.run(*args, **kwargs)\nkoku_worker       |   File \"/koku/koku/masu/processor/tasks.py\", line 210, in update_summary_tables\nkoku_worker       |     updater.update_summary_tables(start_date, end_date)\nkoku_worker       |   File \"/koku/koku/masu/processor/report_summary_updater.py\", line 169, in update_summary_tables\nkoku_worker       |     end_date\nkoku_worker       |   File \"/koku/koku/masu/processor/ocp/ocp_cloud_summary_updater.py\", line 147, in update_summary_tables\nkoku_worker       |     infra_map = self._get_ocp_infra_map(start_date, end_date)\nkoku_worker       |   File \"/koku/koku/masu/processor/ocp/ocp_cloud_summary_updater.py\", line 71, in _get_ocp_infra_map\nkoku_worker       |     infra_map = accessor.get_ocp_infrastructure_map(start_date, end_date)\nkoku_worker       |   File \"/koku/koku/masu/database/ocp_report_db_accessor.py\", line 354, in get_ocp_infrastructure_map\nkoku_worker       |     'start_date': start_date.date(),\nkoku_worker       | AttributeError: 'str' object has no attribute 'date'\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571346362.046800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7b5dd3de-a24a-4813-bcc7-00d703cc6380",
+        "type": "message",
+        "text": "gotcha",
+        "user": "UMQA682PJ",
+        "ts": "1571346408.047200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0257e07d-ee1e-4662-b6a3-0e344c14271f",
+        "type": "message",
+        "text": "definitely shows a gap in unittests",
+        "user": "UAR1CADNV",
+        "ts": "1571346409.047300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2e0998f2-a582-414f-85a1-06bddb1be458",
+        "type": "message",
+        "text": "but at least APi tests caught it",
+        "user": "UAR1CADNV",
+        "ts": "1571346413.047500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c3707cae-e5a2-4a33-bb19-ebbb6616043c",
+        "type": "message",
+        "text": "so this is what I\u2019m trying to encourage everyone to run before merging btw.  We still have some intermittent failures out there but should catch most things and be able to tell if a pending changed caused it or not",
+        "user": "UAR1CADNV",
+        "ts": "1571346456.048600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f81094be-361c-4580-a593-f480c5ae829c",
+        "type": "message",
+        "text": "yup, definitely will do",
+        "user": "UMQA682PJ",
+        "ts": "1571346474.048800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89fd1a00-6d7d-4ad0-8a40-1e1226de904c",
+        "type": "message",
+        "text": "but you *should* be able to repro it really easy with these tests",
+        "user": "UAR1CADNV",
+        "ts": "1571346510.049200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cdb89ab2-bf69-4d5e-b1fd-9d2ac778621f",
+        "type": "message",
+        "text": "still hoping this iqe test stuff actually works for people.  Michael tried it once but I haven\u2019t heard anythign from anyone else yet",
+        "user": "UAR1CADNV",
+        "ts": "1571346536.049600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9978f3c-e2cf-4df5-b100-b4faab99c244",
+        "type": "message",
+        "text": "does pdb work when running those tests?",
+        "user": "UMQA682PJ",
+        "ts": "1571346567.049900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bcd8aaf1-7a1d-4ec8-b34a-cd9e28dedbb7",
+        "type": "message",
+        "text": "yeah that\u2019s a good point.  There\u2019s an iqe parameter that you can use to make it so the test code itself stops in pdb",
+        "user": "UAR1CADNV",
+        "ts": "1571346664.050800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8df440cb-3e94-42e0-9c6c-49afb9098828",
+        "type": "message",
+        "text": "now koku in that case will still be running without stopping",
+        "user": "UAR1CADNV",
+        "ts": "1571346682.051100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23b9bcd9-27d1-484b-b55a-087fb60298bc",
+        "type": "message",
+        "text": "but sometimes it\u2019s enough to freeze koku and you can inspect the database or poke at the API to see why the test failed",
+        "user": "UAR1CADNV",
+        "ts": "1571346715.051700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a82082f1-9862-4425-8cc4-52d90333032d",
+        "type": "message",
+        "text": "as far as setting pdb in koku while tests are running",
+        "user": "UAR1CADNV",
+        "ts": "1571346735.052100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0eae3cb1-7544-4e25-a433-376c9218ae66",
+        "type": "message",
+        "text": "you can do it.  But it\u2019s going to be sort of hard to hit your break point unless you are running a single individual test",
+        "user": "UAR1CADNV",
+        "ts": "1571346772.052800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2e8ade6a-2525-4d79-a8be-b224cc6ce3f1",
+        "type": "message",
+        "text": "i\u2019m sort of surprised the unit tests didn\u2019t catch this though..",
+        "user": "UAR1CADNV",
+        "ts": "1571346789.053100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "991d216b-b873-497f-9d17-a47fb0473f73",
+        "type": "message",
+        "text": "did you check jenkins?",
+        "user": "UAR1CADNV",
+        "ts": "1571346799.053300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8bc4613b-cc40-4bc3-893d-c7218997f856",
+        "type": "message",
+        "text": "ha yeah its caught there too",
+        "user": "UAR1CADNV",
+        "ts": "1571346825.053500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f39c175b-8349-4549-ae0c-23f7181f2c8e",
+        "type": "message",
+        "text": "much easier to use pdb with unit tests",
+        "user": "UAR1CADNV",
+        "ts": "1571346835.054000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c05eb68d-6ee5-4348-87b9-5a9fe9a700ab",
+        "type": "message",
+        "text": "odd.. my parallel unit tests on my machine didn't catch it",
+        "user": "UMQA682PJ",
+        "ts": "1571346844.054300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f86c7df9-6b50-4523-aa89-ba533772bd04",
+        "type": "message",
+        "text": "maybe because I limited to only masu.test.database",
+        "user": "UMQA682PJ",
+        "ts": "1571346854.054800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6ea553de-3b42-432a-bfaa-7edb308c3227",
+        "type": "message",
+        "text": "oh yeah",
+        "user": "UAR1CADNV",
+        "ts": "1571346858.055100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bc2d0b2d-41f7-4638-b2ee-e8c6eb431298",
+        "type": "message",
+        "text": "that would do it",
+        "user": "UAR1CADNV",
+        "ts": "1571346860.055300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "167a7a9a-2543-4487-8034-6b6dfdb41906",
+        "type": "message",
+        "text": "this is `masu.test.processor.test_tasks`",
+        "user": "UAR1CADNV",
+        "ts": "1571346877.055500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8755577a-73b6-4b22-ae3a-7a5caf516d18",
+        "type": "message",
+        "text": "ahh.",
+        "user": "UMQA682PJ",
+        "ts": "1571346884.055800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cb9d0916-9a26-4627-86c1-685c5ba00b50",
+        "type": "message",
+        "text": "basically the tests running the summary code (aka sql)",
+        "user": "UAR1CADNV",
+        "ts": "1571346896.056100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7074f46c-8dc5-4ade-9d4c-d55593bab9c5",
+        "type": "message",
+        "text": "those database tests mainly just hit the database accessors",
+        "user": "UAR1CADNV",
+        "ts": "1571346908.056400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "35d8ba99-0a47-45bb-b9bd-db504543a1b1",
+        "type": "message",
+        "text": "I am getting some weird error message in the IQE console before the test runs too by the way if you see it don\u2019t be alarmed. Will ask Luke tomorrow what thats about",
+        "user": "UAR1CADNV",
+        "ts": "1571346954.057100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "13dd291c-779c-4892-a63a-8226b1a1b442",
+        "type": "message",
+        "text": "what's the weird message?",
+        "user": "UMQA682PJ",
+        "ts": "1571346971.057500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "799b9e62-c7a6-4288-8540-fc84d5e734c6",
+        "type": "message",
+        "text": "404s trying to reach an `/inventory` endpoint on localhost",
+        "user": "UAR1CADNV",
+        "ts": "1571346991.057900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "18fce61f-275b-44c5-9671-474c0478b9ad",
+        "type": "message",
+        "text": "probably a new change that hasn\u2019t accounted for the ENV_FOR_DYNACONF=local setting",
+        "user": "UAR1CADNV",
+        "ts": "1571347047.058600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4e855d0a-ad87-4d97-9729-ed6e6ba386d5",
+        "type": "message",
+        "text": "I noticed the ocp_report_db_accessor functions take in start_date and end_date",
+        "user": "UMQA682PJ",
+        "ts": "1571347173.059800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5f9195b8-ba36-4b49-92bd-de3c3c021277",
+        "type": "message",
+        "text": "but it seemed they were being passed datetimes, not dates.",
+        "user": "UMQA682PJ",
+        "ts": "1571347192.060400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c6573f83-b18e-400f-8d3e-8b6be83b3384",
+        "type": "message",
+        "text": "so that's why I put start_date.date()",
+        "user": "UMQA682PJ",
+        "ts": "1571347211.060800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f0c1150-2e5e-42cb-8861-0634059f3422",
+        "type": "message",
+        "text": "instead of just start_date",
+        "user": "UMQA682PJ",
+        "ts": "1571347215.061100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b404c1e-d81a-41ba-b92e-5f7300e8106d",
+        "type": "message",
+        "text": "but it seems the processors aren't passing datetimes, they're passing strings.",
+        "user": "UMQA682PJ",
+        "ts": "1571347233.061600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "51d328f4-04ff-4169-8ce8-24599e8c82bc",
+        "type": "message",
+        "text": "so I'm a bit confused on what datatype these functions are receiving, is it a datetime object, or is it a string object?",
+        "user": "UMQA682PJ",
+        "ts": "1571347258.062300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3c687731-a00a-4ebc-8a4c-abfd01ecc80e",
+        "type": "message",
+        "text": "yeah the date handling is sort of a mess in places..",
+        "user": "UAR1CADNV",
+        "ts": "1571347275.062900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "63bbdecd-9980-40b3-8206-f1a2f071e921",
+        "type": "message",
+        "text": "this didn't matter before sql parameterization, because whether they're strings or datetime objects, they both got converted to date objects in psycopg2",
+        "user": "UMQA682PJ",
+        "ts": "1571347322.064100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8368182-f1fd-4c76-bbac-2910f564c885",
+        "type": "message",
+        "text": "probably a good candidate for a tech debt cleanup issue",
+        "user": "UAR1CADNV",
+        "ts": "1571347332.064600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9bcdb8b2-f568-4241-948d-3abba80ed1a3",
+        "type": "message",
+        "text": "to standardize it around the code",
+        "user": "UAR1CADNV",
+        "ts": "1571347336.064800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8778f0c4-3d51-44fe-a9ab-2c2d98e64ccf",
+        "type": "message",
+        "text": "however, with parameterization, one of the \"gotcha\"s of postgres is that it doesn't do that anymore.",
+        "user": "UMQA682PJ",
+        "ts": "1571347350.065100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "df825054-26a2-4fb8-8daf-7a185238085d",
+        "type": "message",
+        "text": "so with parameterized SQL, passing in a datetime doesn't get automatically converted into a date object",
+        "user": "UMQA682PJ",
+        "ts": "1571347391.065700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "42dd63c0-b060-49f4-9852-3badcb168896",
+        "type": "message",
+        "text": "aberglun [1:06 PM]\nOkay, so I did the following\nPopped `import pdb; pdb.set_trace()` at the start of the `_commit_and_vacuum` method.\n[1:07 PM]\nAnd ran```\nparam_tuple = tuple(bind_param for bind_param in bind_params)\nprint(sql % param_tuple)\n```\n[1:07 PM]\nBrowsing through the SQL I see\n\n```\nWHERE date(ur.interval_start) &gt;= 2019-08-27 04:20:42+00:00\n            AND date(ur.interval_start) &lt;= 2019-10-17 16:54:12.183282+00:00\n```\n[1:08 PM]\nSo we\u2019re comparing a date with an exact timestamp, so that\u2019s getting us.",
+        "user": "UMQA682PJ",
+        "ts": "1571347417.066000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "74e17025-fe76-4d5e-9389-9d0385fd853e",
+        "type": "message",
+        "text": "so yes, maybe we should standardize",
+        "user": "UMQA682PJ",
+        "ts": "1571347442.066500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8c39a134-65b0-49e6-81f1-f18f65cf9fae",
+        "type": "message",
+        "text": "how about an assert statement at the top of each of these functions that asserts it's the same object?",
+        "user": "UMQA682PJ",
+        "ts": "1571347465.067000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b5b051ed-3da6-43f1-b8e5-d524d64ead43",
+        "type": "message",
+        "text": "yeah there\u2019s definitely ways to handle this.  My advice for this specific PR and issue is to try and make the most isolated change you can to get the tests to pass and we can open a follow up techdebt issue to standardize.  Unfortunately I don\u2019t have time right now to help see what that change might be but its definitely something we can look at tomorrow",
+        "user": "UAR1CADNV",
+        "ts": "1571347608.068300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d67e8e2c-6952-44ee-930d-2649d2fca84f",
+        "type": "message",
+        "text": "the date handling through out the code could be a fairly huge effort\u2026 updated all the tests and making sure nothing breaks",
+        "user": "UAR1CADNV",
+        "ts": "1571347638.068900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cf810cfc-0e4c-4c1f-a248-5f6783e17403",
+        "type": "message",
+        "text": "I\u2019ll let you know if anything jumps out at me when I have a chance to look closer",
+        "user": "UAR1CADNV",
+        "ts": "1571347719.069300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bd50e529-e21e-4f3b-8ca1-b591366ef8d1",
+        "type": "message",
+        "text": "alright, i'll see what I can do to make it work with both string or datetime object",
+        "user": "UMQA682PJ",
+        "ts": "1571347770.069800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1a82b0b9-1e6e-4011-85f2-865352632e9a",
+        "type": "message",
+        "text": "yeah we have some examples of type checking and converting as necessary..",
+        "user": "UAR1CADNV",
+        "ts": "1571347817.070300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2486db8a-2ae3-4cb5-b236-d5e16b634b52",
+        "type": "message",
+        "text": "never liked that have thought about standardizing in the past to get rid of that, but you know how it goes, time and priorities..",
+        "user": "UAR1CADNV",
+        "ts": "1571347847.071000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9b905b2e-a277-4e48-84e2-353167c3d994",
+        "type": "message",
+        "text": "ok got to run, see to you tomorrow :wave:",
+        "user": "UAR1CADNV",
+        "ts": "1571347990.071300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UAR1CADNV",
+            "ts": "1571347997.000000"
+        }
+    },
+    {
+        "client_msg_id": "12209640-664f-4f09-8f01-018510be5d87",
+        "type": "message",
+        "text": "so it\u2019s also very possible that this is *always* a string and you can just convert to a datetime it in the common place where it\u2019s being called.  I seem to remember the date time flowing through the provider-agnostic part of the code it\u2019s always a string",
+        "user": "UAR1CADNV",
+        "ts": "1571348399.072400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0007e439-0f54-4c3f-8799-d1a54aa5d6b0",
+        "type": "message",
+        "text": "for example this celery task code snippet",
+        "user": "UAR1CADNV",
+        "ts": "1571348446.072700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45ab2469-22fd-4440-899d-e5f2aba98916",
+        "type": "message",
+        "text": "```\ndef update_summary_tables(schema_name, provider, provider_uuid, start_date, end_date=None,\n                          manifest_id=None):\n    \"\"\"Populate the summary tables for reporting.\n\n    Args:\n        schema_name (str) The DB schema name.\n        provider    (str) The provider type.\n        provider_uuid (str) The provider uuid.\n        report_dict (dict) The report data dict from previous task.\n        start_date  (str) The date to start populating the table.\n        end_date    (str) The date to end on.\n\n    Returns\n        None\n\n    \"\"\"\n    worker_stats.REPORT_SUMMARY_ATTEMPTS_COUNTER.labels(provider_type=provider).inc()\n\n    stmt = (f'update_summary_tables called with args:\\n'\n            f' schema_name: {schema_name},\\n'\n            f' provider: {provider},\\n'\n            f' start_date: {start_date},\\n'\n            f' end_date: {end_date},\\n'\n            f' manifest_id: {manifest_id}')\n    <http://LOG.info|LOG.info>(stmt)\n\n    updater = ReportSummaryUpdater(schema_name, provider_uuid, manifest_id)\n    if updater.manifest_is_ready():\n        start_date, end_date = updater.update_daily_tables(start_date, end_date)\n        updater.update_summary_tables(start_date, end_date)\n```",
+        "user": "UAR1CADNV",
+        "ts": "1571348448.072900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "58ab24a7-4d35-4853-8639-3ffb1e0399b0",
+        "type": "message",
+        "text": "that docstring even says they are strings",
+        "user": "UAR1CADNV",
+        "ts": "1571348481.073200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "537ae7fd-6280-4ef9-8894-2dd9df651c54",
+        "type": "message",
+        "text": "do the conversion here and it might make the change really easy to get this working.  Might be other areas to address too but this example stood out to me as I was browsing over the diff",
+        "user": "UAR1CADNV",
+        "ts": "1571348515.073900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9bc231fe-e915-42d5-b524-061737c2f0b2",
+        "type": "message",
+        "text": "ok for real have to run, see ya",
+        "user": "UAR1CADNV",
+        "ts": "1571348536.074200",
+        "team": "T026NJJ6Z"
+    }
+]
