@@ -1,0 +1,388 @@
+[
+    {
+        "client_msg_id": "bb6eb447-288f-4b93-9750-6bfd4fc88c0b",
+        "type": "message",
+        "text": "Hi Luke, i'm attempting to understand what this IQE test is doing. My code is failing the test and I'd like to know how to replicate the issue so I can fix it.\n```    @pytest.mark.parametrize(\"list_quantity\", [1, 3])\n    def test_api_aws_storage_filtered_top(\n        aws_multi_providers, report_filter, group_by, list_quantity, application\n    )        \"\"\"Verify that api filter returns the top N items with remaining grouped under other\n    \n        Polarion:\n            linkedWorkItems: hccm_aws_overview, hccm_aws_details\n        \"\"\"\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_storage_report = call_api_raw(full_path, application)\n    \n        variable = list(group_by.items())[0][0]\n        if list_quantity &lt; len(report_line_items(aws_storage_report[\"data\"])):\n            if report_filter:\n                report_filter = report_filter.copy()\n                report_filter[\"limit\"] = list_quantity\n            else:\n                report_filter = {\"limit\": list_quantity}\n            full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n            aws_storage_report = call_api_raw(full_path, application)\n    \n            assert_data = defaultdict(list)\n            other = 0\n            for line in report_line_items(aws_storage_report[\"data\"]):\n                if \"Other\" in line[variable]:\n                    other = 1\n                if f\"{current_datetime.date()}\" not in line[\"date\"]:\n                    assert_data[line[\"date\"]].append(line[variable])\n&gt;           assert all([len(item) == (list_quantity + other) for key, item in assert_data.items()])\nE           assert False\nE            +  where False = all([True, True, True, True, True, False, ...])\n\nlib64/python3.6/site-packages/iqe_hccm/tests/rest_api/v1/test_aws_storage_reports.py:273: AssertionError```",
+        "user": "UMQA682PJ",
+        "ts": "1576262747.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hbz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Luke, i'm attempting to understand what this IQE test is doing. My code is failing the test and I'd like to know how to replicate the issue so I can fix it.\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "    @pytest.mark.parametrize(\"list_quantity\", [1, 3])\n    def test_api_aws_storage_filtered_top(\n        aws_multi_providers, report_filter, group_by, list_quantity, application\n    )        \"\"\"Verify that api filter returns the top N items with remaining grouped under other\n    \n        Polarion:\n            linkedWorkItems: hccm_aws_overview, hccm_aws_details\n        \"\"\"\n        full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n        aws_storage_report = call_api_raw(full_path, application)\n    \n        variable = list(group_by.items())[0][0]\n        if list_quantity < len(report_line_items(aws_storage_report[\"data\"])):\n            if report_filter:\n                report_filter = report_filter.copy()\n                report_filter[\"limit\"] = list_quantity\n            else:\n                report_filter = {\"limit\": list_quantity}\n            full_path = PATH + api_params_to_encoded_string(filter=report_filter, group_by=group_by)\n            aws_storage_report = call_api_raw(full_path, application)\n    \n            assert_data = defaultdict(list)\n            other = 0\n            for line in report_line_items(aws_storage_report[\"data\"]):\n                if \"Other\" in line[variable]:\n                    other = 1\n                if f\"{current_datetime.date()}\" not in line[\"date\"]:\n                    assert_data[line[\"date\"]].append(line[variable])\n>           assert all([len(item) == (list_quantity + other) for key, item in assert_data.items()])\nE           assert False\nE            +  where False = all([True, True, True, True, True, False, ...])\n\nlib64/python3.6/site-packages/iqe_hccm/tests/rest_api/v1/test_aws_storage_reports.py:273: AssertionError"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "bf2443bd-9fe8-4440-92d3-29849d809ce0",
+        "type": "message",
+        "text": "So in short it should be grouping by a variable for instance account and checking that the returned line items show the biggest 1/3 accounts in descending order",
+        "user": "UB31FBLF7",
+        "ts": "1576265285.002500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "zfau0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So in short it should be grouping by a variable for instance account and checking that the returned line items show the biggest 1/3 accounts in descending order"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3e52bded-0774-4b6e-9e2a-2a6f126c7b0c",
+        "type": "message",
+        "text": "So looking at the results `where False = all([True, True, True, True, True, False, ...])` The first 5 are in the correct order but the 6th data set is not in the correct order",
+        "user": "UB31FBLF7",
+        "ts": "1576265374.003500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "8m/X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "So looking at the results "
+                            },
+                            {
+                                "type": "text",
+                                "text": "where False = all([True, True, True, True, True, False, ...])",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " The first 5 are in the correct order but the 6th data set is not in the correct order"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9935bd94-3939-485c-b687-587ec7cc21a2",
+        "type": "message",
+        "text": "if you run the test with --pdb you could grab the api call its making and check it manually. That said not sure if you can run a single test with --pdb with how doug set it up with the container stuff",
+        "user": "UB31FBLF7",
+        "ts": "1576265680.005200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+3oD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "if you run the test with --pdb you could grab the api call its making and check it manually. That said not sure if you can run a single test with --pdb with how doug set it up with the container stuff"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4cbb1952-6371-4db5-89cb-0597500d2eb5",
+        "type": "message",
+        "text": "what underlying data could i re-use?",
+        "user": "UMQA682PJ",
+        "ts": "1576269870.005900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qT42z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what underlying data could i re-use?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b14e3cf2-3a1a-452a-806d-ab54b11dae5d",
+        "type": "message",
+        "text": "well the tests generate data with nise static files so you could use those",
+        "user": "UB31FBLF7",
+        "ts": "1576269900.006400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Krz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "well the tests generate data with nise static files so you could use those"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b5b671a-6cb0-44f8-a80b-ea06880eb92b",
+        "type": "message",
+        "text": "this was used in the test `example_aws_static_data.yml`  ?",
+        "user": "UMQA682PJ",
+        "ts": "1576269963.007100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LhD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "this was used in the test "
+                            },
+                            {
+                                "type": "text",
+                                "text": "example_aws_static_data.yml",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "  ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e78fd15a-2bb7-4e31-aa17-44ed5ecf7ae5",
+        "type": "message",
+        "text": "no we have static yamls I cooked up in our automation :wink:",
+        "user": "UB31FBLF7",
+        "ts": "1576269996.007600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "whV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "no we have static yamls I cooked up in our automation "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "wink"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9c9259e8-8b3e-4619-b79a-b742798a449e",
+        "type": "message",
+        "text": "<https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/tree/master/iqe_hccm/data>",
+        "user": "UB31FBLF7",
+        "ts": "1576270048.007800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tZ8/N",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/tree/master/iqe_hccm/data"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "ablobwhee",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "38b0fe1e-9c35-4fc5-83d2-3c7742928462",
+        "type": "message",
+        "text": ":smile:",
+        "user": "UB31FBLF7",
+        "ts": "1576270091.008100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dy1j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "smile"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1d36edd4-0851-4a86-91c1-e3f3133e5a7f",
+        "type": "message",
+        "text": "I think that test uses aws_static_report1/2/3/4.yamls",
+        "user": "UB31FBLF7",
+        "ts": "1576270131.008800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wVWe",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I think that test uses aws_static_report1/2/3/4.yamls"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "22ed0cb1-b43c-4688-9c78-cef4724e842c",
+        "type": "message",
+        "text": "Yeh its this fixture <https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/blob/master/iqe_hccm/fixtures/api_fixtures.py#L171>",
+        "user": "UB31FBLF7",
+        "ts": "1576270206.009000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vgc9S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yeh its this fixture "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://gitlab.cee.redhat.com/insights-qe/hccm-plugin/blob/master/iqe_hccm/fixtures/api_fixtures.py#L171"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "5a038c06-3951-4de7-a2db-321cbd4b5ae9",
+        "type": "message",
+        "text": "so its\n```static_files = [\n        \"aws_static_report.yml\",\n        \"aws_static_report1.yml\",\n        \"aws_static_report2.yml\",\n        \"aws_static_report3.yml\",\n    ]```\n",
+        "user": "UB31FBLF7",
+        "ts": "1576270239.009300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "N05",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so its\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "static_files = [\n        \"aws_static_report.yml\",\n        \"aws_static_report1.yml\",\n        \"aws_static_report2.yml\",\n        \"aws_static_report3.yml\",\n    ]"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    }
+]

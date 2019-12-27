@@ -1,0 +1,127 @@
+[
+    {
+        "client_msg_id": "f47187fc-ae24-42e4-ba2b-e5a1ea298629",
+        "type": "message",
+        "text": "Good afternoon! I hope you're doing well. Is there anything I can do to help the QA of #1309? <https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309>",
+        "user": "UMQA682PJ",
+        "ts": "1573484261.001100",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "ZenHub",
+                "title_link": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309",
+                "text": "Project Management and Software Development with GitHub | ZenHub",
+                "fallback": "ZenHub",
+                "from_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309",
+                "service_icon": "https://app.zenhub.com/dist/favicon/apple-touch-icon.png",
+                "service_name": "app.zenhub.com",
+                "id": 1,
+                "original_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1309"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7fd67931-ac5f-4595-8e9d-e5a40a21a705",
+        "type": "message",
+        "text": "I heard you're super busy, if there's any way I can help let me know what I can do",
+        "user": "UMQA682PJ",
+        "ts": "1573484292.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be2a0643-eef5-4c61-854c-88bd25631077",
+        "type": "message",
+        "text": "Hey Nick!! I'm good, how are you!? Just looking at it now.",
+        "user": "UB31FBLF7",
+        "ts": "1573484372.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f1db7fe-b875-444a-a318-2aeb91f4be2e",
+        "type": "message",
+        "text": "Doing well! :meow_party:",
+        "user": "UMQA682PJ",
+        "ts": "1573484391.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ed3d9d86-c324-463c-a771-19c24cc35b64",
+        "type": "message",
+        "text": "Cool, so as for that PR Assuming that endpoint/usage is part of the openapi spec then its proabbly just a case of putting  a few tests together that verify those acceptance criteria :smile:",
+        "user": "UB31FBLF7",
+        "ts": "1573484959.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2f081f16-3080-4759-8f28-ce52dbb79602",
+        "type": "message",
+        "text": "The main thing is just making sure we have the functionality in the spec though",
+        "user": "UB31FBLF7",
+        "ts": "1573484973.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c54aac55-2fce-4916-a529-4dab445a7fc3",
+        "type": "message",
+        "text": "That said it looks like it was goner be an internal endpoint right? so probably wont be part of the spec",
+        "user": "UB31FBLF7",
+        "ts": "1573486064.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ecfe9d97-e379-477f-bc7e-5d4698014d39",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1573486073.005100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1ef26b6f-bd8c-4418-bbe5-c5a0a0ac5831",
+        "type": "message",
+        "text": "Ok, so all I need really is to know where I can hit the endpoint I guess",
+        "user": "UB31FBLF7",
+        "ts": "1573486123.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a6a37d34-fd5e-4fc7-8a02-c8d6ff4c33e1",
+        "type": "message",
+        "text": "i'll look for the url now",
+        "user": "UMQA682PJ",
+        "ts": "1573486194.007200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3b4a2891-19da-42a7-b838-55fa6a52e843",
+        "type": "message",
+        "text": "Actually saying that. We have internal endpoint on koku-masu which we create a openapi spec for to make it easier to generate our client so we may want to do the same for this",
+        "user": "UB31FBLF7",
+        "ts": "1573486195.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b8262039-b649-4db4-bb58-7135f4ebdbfe",
+        "type": "message",
+        "text": "Ok cool thanks",
+        "user": "UB31FBLF7",
+        "ts": "1573486201.007500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f8b44dc9-67ff-4c4a-9c64-568cad1f626e",
+        "type": "message",
+        "text": "I found the url: <http://localhost:4000/api/cost-management/v1/source_status/?source_id=1>",
+        "user": "UMQA682PJ",
+        "ts": "1573509106.007700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ab5ef82d-8914-4310-b1b9-5f2d43ce3c75",
+        "type": "message",
+        "text": "Ok so ideally we will want an openapi spec file for I presume koku-source so we can generate a client for it",
+        "user": "UB31FBLF7",
+        "ts": "1573511070.008800",
+        "team": "T026NJJ6Z"
+    }
+]

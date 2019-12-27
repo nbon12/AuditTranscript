@@ -1,0 +1,281 @@
+[
+    {
+        "client_msg_id": "4f354723-fc71-464e-b0f7-6d61cffde6e7",
+        "type": "message",
+        "text": "Hi Kevan, what days are you usually in the tower vs Durham office?",
+        "user": "UMQA682PJ",
+        "ts": "1576599231.000400",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576599239.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ODr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Kevan, what days are you usually in the tower vs Durham office?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e76d6d90-153c-445c-a062-2454823b4025",
+        "type": "message",
+        "text": "I don\u2019t have fixed days",
+        "user": "U79C3F7GC",
+        "ts": "1576599251.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "YW/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I don\u2019t have fixed days"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "453f1b98-9a84-429b-9257-dbe777ad317c",
+        "type": "message",
+        "text": "I generally go to the tower more than Durham",
+        "user": "U79C3F7GC",
+        "ts": "1576599258.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wUVt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I generally go to the tower more than Durham"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6757ae55-30f2-4abe-8029-90308c98b6ce",
+        "type": "message",
+        "text": "but it\u2019s really dependent on meetings and location of my team",
+        "user": "U79C3F7GC",
+        "ts": "1576599271.001400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QHjZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but it\u2019s really dependent on meetings and location of my team"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "06b65710-3ad6-4247-af04-ecda0247ac9b",
+        "type": "message",
+        "text": "i'm thinking of going to Durham on Tuesdays and Thursdays",
+        "user": "UMQA682PJ",
+        "ts": "1576599653.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aiq",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i'm thinking of going to Durham on Tuesdays and Thursdays"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d1cb91fe-8ea9-402d-b1e9-97a923344293",
+        "type": "message",
+        "text": "I won\u2019t be doing that for sure",
+        "user": "U79C3F7GC",
+        "ts": "1576599670.002300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TqxD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I won\u2019t be doing that for sure"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "67fb937e-6f7e-426b-9788-53d299a031c8",
+        "type": "message",
+        "text": "so as we transition to cost management as a team, I expect to mainly be in the tower",
+        "user": "U79C3F7GC",
+        "ts": "1576599692.002800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cm8dp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "so as we transition to cost management as a team, I expect to mainly be in the tower"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fc64f309-cd3f-410c-94b5-dfc222e1c209",
+        "type": "message",
+        "text": "oh, ok",
+        "user": "UMQA682PJ",
+        "ts": "1576599700.003200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dgeK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh, ok"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fcf7993a-9f59-437f-86e2-08455e2cc2b4",
+        "type": "message",
+        "text": "but really I can\u2019t set a fixed schedule either",
+        "user": "U79C3F7GC",
+        "ts": "1576599701.003300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tXqx/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but really I can\u2019t set a fixed schedule either"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "7bece6af-841e-47cd-8d91-c3040cb526d9",
+        "type": "message",
+        "text": "I suggest you just work from the tower",
+        "user": "U79C3F7GC",
+        "ts": "1576599713.003500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "RqyXn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I suggest you just work from the tower"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "ffe64dd7-9a63-4eb0-9bf1-71ee3dde4366",
+        "type": "message",
+        "text": "as that is the most likely place Andrew, Doug, Chris, or myself will be",
+        "user": "U79C3F7GC",
+        "ts": "1576599727.003900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sin",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "as that is the most likely place Andrew, Doug, Chris, or myself will be"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,246 @@
+[
+    {
+        "client_msg_id": "7e6efd00-6aee-44b4-8dcf-d96c1a97a227",
+        "type": "message",
+        "text": "Hi Luke,\nI'm working on fixing <https://github.com/project-koku/koku/pull/1484>. The tests for this bugfix would be to check that if a user enters the following query:\n```GET\n        api/reports/aws/storage/?group_by[region]=*\n            &amp;group_by[service]=AmazonS3, AmazonRDS\n            &amp;filter[region]=us-west-1\n            &amp;filter[region]=us-west-2```\nIt should return exact same response as if they entered this query:\n```GET\n        api/reports/aws/storage/?group_by[region]=us-west-1, us-west-2\n            &amp;group_by[service]=AmazonS3, AmazonRDS```\nbecause the two queries are equivalent (however currently in prod they return different responses, but I'm fixing that.\nwhat are your thoughts on testing this? Can you write the tests before the bug is fixed, or after the bug is fixed?",
+        "user": "UMQA682PJ",
+        "ts": "1576084957.003700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576084968.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "sJm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi Luke,\nI'm working on fixing "
+                            },
+                            {
+                                "type": "link",
+                                "url": "https://github.com/project-koku/koku/pull/1484"
+                            },
+                            {
+                                "type": "text",
+                                "text": ". The tests for this bugfix would be to check that if a user enters the following query:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "GET\n        api/reports/aws/storage/?group_by[region]=*\n            &group_by[service]=AmazonS3, AmazonRDS\n            &filter[region]=us-west-1\n            &filter[region]=us-west-2"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "It should return exact same response as if they entered this query:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "GET\n        api/reports/aws/storage/?group_by[region]=us-west-1, us-west-2\n            &group_by[service]=AmazonS3, AmazonRDS"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "because the two queries are equivalent (however currently in prod they return different responses, but I'm fixing that.\nwhat are your thoughts on testing this? Can you write the tests before the bug is fixed, or after the bug is fixed?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a3f4061f-e129-4463-917a-39ad655da4db",
+        "type": "message",
+        "text": "I've written the bugfix already in my branch btw",
+        "user": "UMQA682PJ",
+        "ts": "1576085070.004500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qX9xp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I've written the bugfix already in my branch btw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8d1053b4-6fc1-4208-a74f-b517623fbeb8",
+        "type": "message",
+        "text": "We can write the tests after this is merged to CI :thumbsup:",
+        "user": "UB31FBLF7",
+        "ts": "1576085076.004900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lYmQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "We can write the tests after this is merged to CI "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thumbsup"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "62efc82f-09ae-4652-b3f6-5d60a1f9807f",
+        "type": "message",
+        "text": "sounds good",
+        "user": "UMQA682PJ",
+        "ts": "1576085084.005100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1ihF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sounds good"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "83629a33-083b-419b-bced-b8bf0256a87c",
+        "type": "message",
+        "text": "CI == master branch?",
+        "user": "UMQA682PJ",
+        "ts": "1576085089.005300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ic87",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "CI == master branch?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "38603ab7-3bb9-4688-ac34-46b4f4dd0d4f",
+        "type": "message",
+        "text": "yeh",
+        "user": "UB31FBLF7",
+        "ts": "1576085092.005500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "wQr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yeh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a0ea2000-7c3c-462b-a446-f5fade95d8df",
+        "type": "message",
+        "text": "Yep once its in master its auto rolled out to CI :thumbsup: QE can verify the fixes there and add new tests for it during verification",
+        "user": "UB31FBLF7",
+        "ts": "1576085185.006200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bNON",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Yep once its in master its auto rolled out to CI "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "thumbsup"
+                            },
+                            {
+                                "type": "text",
+                                "text": " QE can verify the fixes there and add new tests for it during verification"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

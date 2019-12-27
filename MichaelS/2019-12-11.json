@@ -1,0 +1,97 @@
+[
+    {
+        "client_msg_id": "60c11fb7-a3d7-4ef3-9114-76e0e01e322f",
+        "type": "message",
+        "text": "Hi, what's the account we can use for CI? I recall <mailto:jalberts@redhat.com|jalberts@redhat.com> but I forgot the password.",
+        "user": "UMQA682PJ",
+        "ts": "1576088191.000800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Hs2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Hi, what's the account we can use for CI? I recall "
+                            },
+                            {
+                                "type": "link",
+                                "url": "mailto:jalberts@redhat.com",
+                                "text": "jalberts@redhat.com"
+                            },
+                            {
+                                "type": "text",
+                                "text": " but I forgot the password."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aeb4ba2c-8fb8-43d8-8943-b0279ac8fe2e",
+        "type": "message",
+        "text": "password is `redhat` i think",
+        "user": "ULY2UMX35",
+        "ts": "1576088211.001100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ibu2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "password is "
+                            },
+                            {
+                                "type": "text",
+                                "text": "redhat",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " i think"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8b9e113c-f446-4c3f-8a69-fc1e4c9d8f72",
+        "type": "message",
+        "text": "yep, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1576088222.001300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "34D",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep, thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

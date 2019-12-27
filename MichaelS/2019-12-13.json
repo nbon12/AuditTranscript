@@ -1,0 +1,110 @@
+[
+    {
+        "client_msg_id": "cecc665e-7f7e-4f5a-85ed-10c7e9cbf705",
+        "type": "message",
+        "text": "I didn't see the server live reloading, and I noticed the option --noreload, is there a reason that option is there?",
+        "user": "UMQA682PJ",
+        "ts": "1576245124.001500",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1576245132.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "bM=X",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I didn't see the server live reloading, and I noticed the option --noreload, is there a reason that option is there?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "81ad9716-98ce-4428-bdf2-1d19143153f5",
+        "type": "message",
+        "text": "from what I read online, the --nolead option neeeds to be there",
+        "user": "ULY2UMX35",
+        "ts": "1576245183.002000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5toGQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "from what I read online, the --nolead option neeeds to be there"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b9d83947-4dda-4891-b037-f04f3d7281d7",
+        "type": "message",
+        "text": "I didn\u2019t look into why and I have not tried without it there",
+        "user": "ULY2UMX35",
+        "ts": "1576245197.002300",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "ULY2UMX35",
+            "ts": "1576245207.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PUHs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I didn\u2019t look into why and I have not tried without it there"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fe6d23fb-234c-4b94-b9d6-3f084c404ae1",
+        "type": "message",
+        "text": "you\u2019re welcome to try it out!",
+        "user": "ULY2UMX35",
+        "ts": "1576245212.002600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cVO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "you\u2019re welcome to try it out!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

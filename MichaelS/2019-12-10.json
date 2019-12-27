@@ -1,0 +1,101 @@
+[
+    {
+        "client_msg_id": "198368b3-a0e3-4d58-a7f9-42498ea50b65",
+        "type": "message",
+        "text": "are you interested in using vscode\u2019s python debugger? I have half a solution if you\u2019re interested",
+        "user": "ULY2UMX35",
+        "ts": "1576015168.000700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BuID",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "are you interested in using vscode\u2019s python debugger? I have half a solution if you\u2019re interested"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "19B8FDBB-4792-4A39-B593-918E17FD33B7",
+        "type": "message",
+        "text": "yes I\u2019m interested in that",
+        "user": "UMQA682PJ",
+        "ts": "1576015489.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "80C4886C-149C-4BBE-BD06-D79B7B074F6B",
+        "type": "message",
+        "text": "I started using pudb though",
+        "user": "UMQA682PJ",
+        "ts": "1576015497.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "C17A9EF9-CE32-44D2-B296-B984EFFD35DD",
+        "type": "message",
+        "text": "It\u2019s pretty cool",
+        "user": "UMQA682PJ",
+        "ts": "1576015503.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7f9826c5-9ff1-41a1-a9d5-16b6dba17922",
+        "type": "message",
+        "text": "ahh well, I\u2019ll send you instructions just in case you wanna try it",
+        "user": "ULY2UMX35",
+        "ts": "1576015544.002100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Pn5Bd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ahh well, I\u2019ll send you instructions just in case you wanna try it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "120ac39d-6f24-45d0-b0f8-263ffcead669",
+        "type": "message",
+        "text": "Maybe i\u2019ll chuck things into a google doc and send it to you tomorrow",
+        "user": "ULY2UMX35",
+        "ts": "1576015559.002500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TKW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Maybe i\u2019ll chuck things into a google doc and send it to you tomorrow"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

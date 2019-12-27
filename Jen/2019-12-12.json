@@ -1,0 +1,37 @@
+[
+    {
+        "type": "message",
+        "text": "<https://docs.google.com/document/d/1OhyLucI4XlV1t05pY3i1KgagWsOdfszOpPzpvSHYlUM/edit>",
+        "files": [
+            {
+                "id": "FRPN9J4NA",
+                "mode": "tombstone"
+            }
+        ],
+        "upload": false,
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "qSS1t",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://docs.google.com/document/d/1OhyLucI4XlV1t05pY3i1KgagWsOdfszOpPzpvSHYlUM/edit"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "user": "U4KEQ5U20",
+        "display_as_bot": false,
+        "x_files": [
+            "FRPN9J4NA"
+        ],
+        "ts": "1576178675.000200",
+        "client_msg_id": "8e7279c1-a4f0-4d41-9ab5-bf891c4efec6"
+    }
+]

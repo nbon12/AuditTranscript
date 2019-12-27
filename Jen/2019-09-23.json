@@ -1,0 +1,50 @@
+[
+    {
+        "client_msg_id": "60BB9375-4AD0-4E1C-827C-07C1D9416342",
+        "type": "message",
+        "text": "Hi Jen, for our 1:1 today, where would you like to meet? I\u2019m in Red Hat tower. ",
+        "user": "UMQA682PJ",
+        "ts": "1569260090.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2FDC8AA0-B751-4EB4-9069-CA0F7B509EBE",
+        "type": "message",
+        "text": "I\u2019ll come to your desk",
+        "user": "UMQA682PJ",
+        "ts": "1569261179.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0d7e9e0c-c317-4bcf-9ce6-fa77faa255be",
+        "type": "message",
+        "text": "I am in the tower - currently on 11",
+        "user": "U4KEQ5U20",
+        "ts": "1569261203.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1D38D3CD-19E9-40AD-B822-BFEDF0AA1735",
+        "type": "message",
+        "text": "What side is your desk on?",
+        "user": "UMQA682PJ",
+        "ts": "1569261252.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c35f92b5-e19c-47ea-98c3-3f3443f6bf5d",
+        "type": "message",
+        "text": "no desk - in an enclave right now",
+        "user": "U4KEQ5U20",
+        "ts": "1569261266.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bbe08d52-da0c-4b0c-875d-eefaebb88751",
+        "type": "message",
+        "text": "but the side away from the breakroom",
+        "user": "U4KEQ5U20",
+        "ts": "1569261273.002600",
+        "team": "T026NJJ6Z"
+    }
+]

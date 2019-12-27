@@ -1,0 +1,298 @@
+[
+    {
+        "client_msg_id": "b39f6529-7803-4536-9a38-928485cc79e4",
+        "type": "message",
+        "text": "Hey Michael, regarding pyupbot is it ok to approve it's PRs?",
+        "user": "UMQA682PJ",
+        "ts": "1573240405.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "73c57afe-e430-4b11-b63b-465216c9d868",
+        "type": "message",
+        "text": "I\u2019m not really sure. I think it\u2019s fine as long as all the tests are passing. I would chekc with andrew tho",
+        "user": "ULY2UMX35",
+        "ts": "1573240562.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c53d2d6-1381-4759-8e49-c70fe49f49e4",
+        "type": "message",
+        "text": "he said to run `pipenv lock` first",
+        "user": "UMQA682PJ",
+        "ts": "1573240577.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5668395b-8b80-4d88-90d3-db6779fdb9c4",
+        "type": "message",
+        "text": "and then merge",
+        "user": "UMQA682PJ",
+        "ts": "1573240594.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eec27a73-1850-49dd-a800-f25457d1ec4d",
+        "type": "message",
+        "text": "but said you might have other ideas?",
+        "user": "UMQA682PJ",
+        "ts": "1573240608.005500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be891ed1-b69f-4249-916b-2ad07a41ca57",
+        "type": "message",
+        "text": "interesting, yea I have no other ideas at the moment",
+        "user": "ULY2UMX35",
+        "ts": "1573240646.006000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "57ee4a25-36dd-4d3c-9222-1652be14af40",
+        "type": "message",
+        "text": "I had been trying out github actions to do it all for us",
+        "user": "ULY2UMX35",
+        "ts": "1573240661.006400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0641d1c9-b611-4aa9-9e8f-ad3e90fe913a",
+        "type": "message",
+        "text": "but, actions is still in private beta, so we can\u2019t go that route yet",
+        "user": "ULY2UMX35",
+        "ts": "1573240678.006900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cd500fe2-de24-4433-93ab-509d6fc15475",
+        "type": "message",
+        "text": "does it not re-compute the hashes currently?",
+        "user": "UMQA682PJ",
+        "ts": "1573240748.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1cc6e242-e613-4e64-b09f-52cf29ff444f",
+        "type": "message",
+        "text": "If any dependencies have changed,then `pipenv lock` needs to be run before the PR can be merged",
+        "user": "ULY2UMX35",
+        "ts": "1573240751.008300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fd1a6380-d186-4891-a651-469cf9d9f759",
+        "type": "message",
+        "text": "it does, but it usually doesnt do it correctly",
+        "user": "ULY2UMX35",
+        "ts": "1573240779.008600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "796cdc51-9b09-4ab9-8566-fbf876637887",
+        "type": "message",
+        "text": "its like it doesnt account for _all_ the changes when a depend changes",
+        "user": "ULY2UMX35",
+        "ts": "1573240808.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fb8151ff-7122-4b85-8f6b-1c85e38e2900",
+        "type": "message",
+        "text": "if you run `pipenv lock` and it matches whats in the PR, then there is no need to push anything",
+        "user": "ULY2UMX35",
+        "ts": "1573240839.009600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6f51128e-1a9a-4d37-a1dc-c6f924cebc04",
+        "type": "message",
+        "text": "i ran pipenv lock and it upgraded the versions to even newer ones",
+        "user": "UMQA682PJ",
+        "ts": "1573240903.010100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ec6fad54-2510-423a-9e53-39a61be45a53",
+        "type": "message",
+        "text": "i figured for now i'll go ahead and push that",
+        "user": "UMQA682PJ",
+        "ts": "1573240922.010600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573240930.000000"
+        }
+    },
+    {
+        "client_msg_id": "4ba3acdc-b884-40ad-ac74-b25a07090409",
+        "type": "message",
+        "text": "did the pipfile change?",
+        "user": "ULY2UMX35",
+        "ts": "1573240953.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "395d37cb-fc0b-4c42-a777-a98e90b3aea8",
+        "type": "message",
+        "text": "after running pipenv lock, yes",
+        "user": "UMQA682PJ",
+        "ts": "1573240964.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "04d2697c-b7df-41cc-a19b-7f1490ad4b72",
+        "type": "message",
+        "text": "the Pipfile or Pipfile.lock?",
+        "user": "ULY2UMX35",
+        "ts": "1573240977.012000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4392d24a-8d5d-4a04-b670-952fc57bc78a",
+        "type": "message",
+        "text": "the Pipfile should not have changed",
+        "user": "ULY2UMX35",
+        "ts": "1573240996.012300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7de3a4d0-981b-4586-b241-d91c15b0d521",
+        "type": "message",
+        "text": "but the Pipfile.lock does change after `pipenv lock`",
+        "user": "ULY2UMX35",
+        "ts": "1573241006.012700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ac652675-0d06-4047-a9a8-9cb406767ec5",
+        "type": "message",
+        "text": "oh, yes just the Pipfile.lock",
+        "user": "UMQA682PJ",
+        "ts": "1573241010.012800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8048cd3d-b750-4fd8-9d38-de95a099796e",
+        "type": "message",
+        "text": "Yea, so the versions in the Pipfile.lock aren\u2019t updated correctly by pyupbot",
+        "user": "ULY2UMX35",
+        "ts": "1573241053.013700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "866c57c9-b1df-44cb-9825-d8d00fe152a9",
+        "type": "message",
+        "text": "but the versions in Pipfile _are_",
+        "user": "ULY2UMX35",
+        "ts": "1573241061.013900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4567554c-5fa9-4aeb-b04d-6a1ebde2029a",
+        "type": "message",
+        "text": "so once you run `pipenv lock`, it locks the correct versions, and then you can push those chnges",
+        "user": "ULY2UMX35",
+        "ts": "1573241086.014500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d8d8fd69-7c69-45ba-b332-93597cb906bd",
+        "type": "message",
+        "text": "so in order to test this, I need to rebuild the containers?",
+        "user": "UMQA682PJ",
+        "ts": "1573241132.015000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b58864f-4e98-494f-93ce-4a974e2fcc20",
+        "type": "message",
+        "text": "since the dependencies changed, yes",
+        "user": "ULY2UMX35",
+        "ts": "1573241150.015400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2aa7f950-7f7a-4c09-ba6b-817ed064302f",
+        "type": "message",
+        "text": "question: how do all the tests pass in Travis, with the old hashes?",
+        "user": "UMQA682PJ",
+        "ts": "1573241346.017600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1573241354.000000"
+        }
+    },
+    {
+        "client_msg_id": "13fc41be-2e0e-4a76-bd0c-a5496288a678",
+        "type": "message",
+        "text": "I noticed after fixing the merge conflict, all the tests passed in the PR",
+        "user": "UMQA682PJ",
+        "ts": "1573241370.018000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eefd0f6e-a58d-4d42-92c3-24f69f525e07",
+        "type": "message",
+        "text": "before I ran pipenv lock",
+        "user": "UMQA682PJ",
+        "ts": "1573241378.018200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "56a15e27-6d86-48a8-901c-8cb0b9cc2a7f",
+        "type": "message",
+        "text": "Does travis not build using those hashes?",
+        "user": "UMQA682PJ",
+        "ts": "1573241399.018600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77fb4dea-f9ca-46a3-9d53-e5da786fd84f",
+        "type": "message",
+        "text": "when I run the tests locally, I do a docker-compose up --build, and then run the IQE smoke tests, I'm assuming that'll catch any errors introduced by the pipfile.lock changes,  but when I push to github does that not happen automatically?",
+        "user": "UMQA682PJ",
+        "ts": "1573241487.020000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e67ceeb4-70fd-41d8-bc66-897e7e063c84",
+        "type": "message",
+        "text": "I\u2019m not entirely sure. If I had to guess, the hashes were simply the old ones, and installed those. since nothing else in master changed, the build passed",
+        "user": "ULY2UMX35",
+        "ts": "1573241615.020900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "af915633-ff09-43f8-b123-d324af49f1fe",
+        "type": "message",
+        "text": ":man-shrugging:",
+        "user": "UMQA682PJ",
+        "ts": "1573241643.021100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "371fe3cc-af56-4f93-8553-9d37b4ed02c8",
+        "type": "message",
+        "text": "no worries",
+        "user": "UMQA682PJ",
+        "ts": "1573241649.021500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7d2774ff-1204-4de4-b38f-3ba14551c950",
+        "type": "message",
+        "text": "do you know if there's a Github issue related to pyupbot not updating the meta hash?",
+        "user": "UMQA682PJ",
+        "ts": "1573243179.022300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1f088f83-cdd2-40c7-9551-ddeb992ed3d9",
+        "type": "message",
+        "text": "there is not",
+        "user": "ULY2UMX35",
+        "ts": "1573243252.022500",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "client_msg_id": "e860fecf-4a98-453d-9dc3-9d7b5d181be5",
+        "type": "message",
+        "text": "Hey Michael, do you know what the Sources API url is?",
+        "user": "UMQA682PJ",
+        "ts": "1573487467.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a8a6acfe-e1c2-459a-a813-9e12cf5e1177",
+        "type": "message",
+        "text": "i do not",
+        "user": "ULY2UMX35",
+        "ts": "1573487494.000700",
+        "team": "T026NJJ6Z"
+    }
+]

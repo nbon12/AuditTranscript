@@ -1,0 +1,47 @@
+[
+    {
+        "client_msg_id": "e5968260-f6e2-4f84-a8a8-99c47cd2536c",
+        "type": "message",
+        "text": "I created a new issue for making an openapi spec: <https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1390>",
+        "user": "UMQA682PJ",
+        "ts": "1573573037.009600",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "ZenHub",
+                "title_link": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1390",
+                "text": "Project Management and Software Development with GitHub | ZenHub",
+                "fallback": "ZenHub",
+                "from_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1390",
+                "service_icon": "https://app.zenhub.com/dist/favicon/apple-touch-icon.png",
+                "service_name": "app.zenhub.com",
+                "id": 1,
+                "original_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1390"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "261751d0-d1f2-4b66-9e81-315cf31c0cb8",
+        "type": "message",
+        "text": "starting that now",
+        "user": "UMQA682PJ",
+        "ts": "1573573054.010000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "883e7927-f717-4982-ac00-284a19aea3fd",
+        "type": "message",
+        "text": "Awesome!",
+        "user": "UB31FBLF7",
+        "ts": "1573573186.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a520e9a-7ec8-40cc-aacb-6833afd4ccae",
+        "type": "message",
+        "text": "Hey Luke, I created an openapi spec, it's approved and will be merging soon as the Travis build finishes: <https://github.com/project-koku/koku/pull/1392/files>",
+        "user": "UMQA682PJ",
+        "ts": "1573587185.011200",
+        "team": "T026NJJ6Z"
+    }
+]

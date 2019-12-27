@@ -1,0 +1,26 @@
+[
+    {
+        "client_msg_id": "f9259a29-2c46-4824-8966-b1cbe825d7f3",
+        "type": "message",
+        "text": "hey Nick \u2014 I know planning meetings are now, but I have a nice break in my management meetings, and wanted to try to get together with you this morning",
+        "user": "U4KEQ5U20",
+        "ts": "1567083625.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b710fad8-1d0d-4985-a4f0-c13ab46c21dd",
+        "type": "message",
+        "text": "which floor are you currently on?",
+        "user": "U4KEQ5U20",
+        "ts": "1567083637.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3F952F51-83BB-487D-AEAC-B141973AF68E",
+        "type": "message",
+        "text": "14, near the open work spaces",
+        "user": "UMQA682PJ",
+        "ts": "1567083840.002000",
+        "team": "T026NJJ6Z"
+    }
+]

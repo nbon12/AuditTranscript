@@ -1,0 +1,108 @@
+[
+    {
+        "client_msg_id": "f7ab90e0-3ac5-4103-8b53-a9775e49e4af",
+        "type": "message",
+        "text": "Hey Michael, how are you auto generating openapi apidocs?",
+        "user": "UMQA682PJ",
+        "ts": "1573576840.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f2cd8de5-4600-4361-b080-ab5d132c58f7",
+        "type": "message",
+        "text": "where does the final doc go?",
+        "user": "UMQA682PJ",
+        "ts": "1573576858.001600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f05b9ded-e09e-44f1-9e18-ecd555eb1572",
+        "type": "message",
+        "text": "I don\u2019t generate docs",
+        "user": "ULY2UMX35",
+        "ts": "1573576930.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "50c0e8ff-6474-4c86-a046-c6bd5e0950f5",
+        "type": "message",
+        "text": "we also don\u2019t use apidocs anymore and that was removed",
+        "user": "ULY2UMX35",
+        "ts": "1573576957.002400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e81fb936-809c-49a1-a9b2-9955309a97fc",
+        "type": "message",
+        "text": "gotcha, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1573576965.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "41048127-9e76-4525-85be-94f12028c1ec",
+        "type": "message",
+        "text": "what does the `@api` in your PR do?",
+        "user": "UMQA682PJ",
+        "ts": "1573577036.003600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0bc7044-511e-4761-890c-1d06f8936a9b",
+        "type": "message",
+        "text": "<https://github.com/project-koku/koku/blob/71085f46a7e63e16a6810fca1cd481decb086ea5/koku/api/report/azure/openshift/view.py#L41>",
+        "user": "UMQA682PJ",
+        "ts": "1573577091.003800",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "[project-koku/koku] koku/api/report/azure/openshift/view.py:41",
+                "text": "```\n    @api {get} /cost-management/v1/reports/openshift/costs/ Get OpenShift cost data\n```",
+                "title": "koku/api/report/azure/openshift/view.py:41",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "title_link": "https://github.com/project-koku/koku/blob/71085f46a7e63e16a6810fca1cd481decb086ea5/koku/api/report/azure/openshift/view.py#L41",
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "color": "24292f",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku/blob/71085f46a7e63e16a6810fca1cd481decb086ea5/koku/api/report/azure/openshift/view.py#L41",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b3792435-d1d8-4951-8691-319212b330dc",
+        "type": "message",
+        "text": "so that is carryover from when we _did_ use apidocs",
+        "user": "ULY2UMX35",
+        "ts": "1573577137.004400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "df3eeb16-6a2e-48c9-9765-2e2adfb81a5e",
+        "type": "message",
+        "text": "that `@api` currently does nothing",
+        "user": "ULY2UMX35",
+        "ts": "1573577161.004900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3b3e2ff8-9868-461c-93e7-145019ef3cc9",
+        "type": "message",
+        "text": "alright, thanks",
+        "user": "UMQA682PJ",
+        "ts": "1573577170.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19d9f591-707b-4be2-8692-5238cd037f09",
+        "type": "message",
+        "text": "all of that is within the docstring, so it\u2019s just a information. I should probably remove it",
+        "user": "ULY2UMX35",
+        "ts": "1573577210.005900",
+        "team": "T026NJJ6Z"
+    }
+]

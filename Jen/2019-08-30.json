@@ -1,0 +1,130 @@
+[
+    {
+        "client_msg_id": "3c3d9c6b-9a0d-492e-aa6c-dfe3e0f0f05e",
+        "type": "message",
+        "text": "Hi Jen, I'd like to use Cloud9 IDE, it costs around $2 per month to use and requires an AWS account, can I create a new AWS account and expense it to Red Hat?",
+        "user": "UMQA682PJ",
+        "ts": "1567178623.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "94be144e-e805-4f15-a720-8496d4a54e64",
+        "type": "message",
+        "text": "i can also use the existing AWS account instead",
+        "user": "UMQA682PJ",
+        "ts": "1567178711.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b5bafe2-1c8d-422c-b635-e73636d5fc62",
+        "type": "message",
+        "text": "<https://aws.amazon.com/cloud9/>",
+        "user": "UMQA682PJ",
+        "ts": "1567178751.002900",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "service_name": "Amazon Web Services, Inc.",
+                "title": "AWS Cloud9 Amazon Web Services",
+                "title_link": "https://aws.amazon.com/cloud9/",
+                "text": "AWS Cloud9 is a cloud-based integrated development environment (IDE) that lets you write, run, and debug your code with just a browser.",
+                "fallback": "Amazon Web Services, Inc.: AWS Cloud9 Amazon Web Services",
+                "thumb_url": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_179x109.png",
+                "from_url": "https://aws.amazon.com/cloud9/",
+                "thumb_width": 179,
+                "thumb_height": 109,
+                "service_icon": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png",
+                "id": 1,
+                "original_url": "https://aws.amazon.com/cloud9/"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "DBD0A624-7FF5-4AC9-B2FB-88A84BAABDBA",
+        "type": "message",
+        "text": "I don\u2019t inherently have s problem with it but I think I\u2019d like to know more about it - is this for the work you are doing on cost management? Or something else?",
+        "user": "U4KEQ5U20",
+        "ts": "1567178781.003900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e8f17d1f-5111-4d75-99f7-87490e7814d0",
+        "type": "message",
+        "text": "it's for doing work on Cost Management.",
+        "user": "UMQA682PJ",
+        "ts": "1567178803.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e3ab8f70-a74b-42b8-9893-3861fa0493b3",
+        "type": "message",
+        "text": "It's an IDE, similar to VSCode, except that it works in a Browser instead of downloading it",
+        "user": "UMQA682PJ",
+        "ts": "1567178820.005600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "678927f8-31d8-47d0-8d87-a2463f426c3d",
+        "type": "message",
+        "text": "this allows anyone to collaborate with me, on any device",
+        "user": "UMQA682PJ",
+        "ts": "1567178831.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "08d48f37-37df-4c68-bc76-84522dc10981",
+        "type": "message",
+        "text": "I can give them a link to my IDE and they'll be able to type code as well",
+        "user": "UMQA682PJ",
+        "ts": "1567178846.006500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "B9FAA3DD-A1A6-4C6B-9355-60ED1DEA211A",
+        "type": "message",
+        "text": "At least at first, it would probably be easier to use the same tools as the rest of the team. Just as you are onboarding. I think that the tool Andrew and Doug are using does the same thing. ",
+        "user": "U4KEQ5U20",
+        "ts": "1567178875.007400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "21371D53-88BB-4455-A998-9287CADD43A5",
+        "type": "message",
+        "text": "So, I would check with Andrew first. If he doesn\u2019t have a concern with that, then I don\u2019t either. And ultimately I\u2019m ok with everyone using tools they are comfortable with. ",
+        "user": "U4KEQ5U20",
+        "ts": "1567178928.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c7ec9cbc-9a79-4af1-a9d4-bdfafb772a07",
+        "type": "message",
+        "text": "Yep, Andrew is ok with it.",
+        "user": "UMQA682PJ",
+        "ts": "1567179001.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "743374d2-7631-4eb2-a405-8da67d4aea67",
+        "type": "message",
+        "text": "\"aberglun [11:23 AM]\nI\u2019m assuming the cost isn\u2019t huge for their IDE, so I\u2019m okay with it, but I\u2019d just run it by Jen real quick since it is a cost thing. We have a cost management AWS account that you will need credentials for (definitely part of on-boarding) in order to really use the product locally on your machine, so if Jen gives it the :thumbs-up-left:  then we can use that.\"",
+        "user": "UMQA682PJ",
+        "ts": "1567179024.010400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "10780D00-A952-4530-B24D-17E3106643FF",
+        "type": "message",
+        "text": "Ok. Sounds good to me. ",
+        "user": "U4KEQ5U20",
+        "ts": "1567181181.010700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "A25ACD91-5971-4CF7-9E96-2C43ADE855AC",
+        "type": "message",
+        "text": "Thanks for checking!",
+        "user": "U4KEQ5U20",
+        "ts": "1567181195.011200",
+        "team": "T026NJJ6Z"
+    }
+]

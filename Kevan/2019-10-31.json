@@ -1,0 +1,26 @@
+[
+    {
+        "client_msg_id": "9EB8628F-E32A-4FAA-8BD9-9A8D2B2FCD9F",
+        "type": "message",
+        "text": "Wow",
+        "user": "U79C3F7GC",
+        "ts": "1572480251.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "F2BA3A7A-550F-4DF4-A7E5-0F92865D1F2B",
+        "type": "message",
+        "text": "Really?",
+        "user": "U79C3F7GC",
+        "ts": "1572480255.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "54668E42-0AF9-410D-B86A-AA548B5E2861",
+        "type": "message",
+        "text": "You performing?",
+        "user": "U79C3F7GC",
+        "ts": "1572480262.000700",
+        "team": "T026NJJ6Z"
+    }
+]

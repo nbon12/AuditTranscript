@@ -1,0 +1,26 @@
+[
+    {
+        "client_msg_id": "7472F28C-1E32-47EC-8BF9-6B544968BE85",
+        "type": "message",
+        "text": "Hi Jen are we having our 1:1 in 16-Twister at 2:30pm?",
+        "user": "UMQA682PJ",
+        "ts": "1573673447.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ca8f0682-e29e-4934-b413-ee58b62baa3d",
+        "type": "message",
+        "text": "17N301",
+        "user": "U4KEQ5U20",
+        "ts": "1573674270.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "782f322f-8cea-4c85-bb18-4a87de2569c3",
+        "type": "message",
+        "text": "<https://mojo.redhat.com/community/about-red-hat/we-are-red-hat/culture/culture-activators>",
+        "user": "U4KEQ5U20",
+        "ts": "1573674489.001300",
+        "team": "T026NJJ6Z"
+    }
+]

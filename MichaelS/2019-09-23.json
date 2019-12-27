@@ -1,0 +1,74 @@
+[
+    {
+        "client_msg_id": "fea15e72-9da6-477f-b80d-a04d538d1a01",
+        "type": "message",
+        "text": "thanks, the exporting worked!",
+        "user": "UMQA682PJ",
+        "ts": "1569258418.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "19052495-dc2f-4d69-8f0c-4ab8ed82a3dd",
+        "type": "message",
+        "text": "i'll create a PR to change that in the docs",
+        "user": "UMQA682PJ",
+        "ts": "1569258424.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "53dbe02b-8291-4f3d-96c3-2e630f0ea78f",
+        "type": "message",
+        "text": "shweet",
+        "user": "ULY2UMX35",
+        "ts": "1569258427.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c012aa41-26ce-4b8b-b61b-e7bb227ff129",
+        "type": "message",
+        "text": "how do I re-trigger travis-ci to re-test?",
+        "user": "UMQA682PJ",
+        "ts": "1569274479.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e58c6fc1-20a8-4415-8009-a841f4c566a0",
+        "type": "message",
+        "text": "The Travis CI build failed on my PR",
+        "user": "UMQA682PJ",
+        "ts": "1569274526.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1fb228ef-7c48-4823-a4f9-33d9ae5b1b1e",
+        "type": "message",
+        "text": "click on `restart build` on the travis page",
+        "user": "ULY2UMX35",
+        "ts": "1569274552.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "380e0122-8071-4504-9a5f-a912b64787a1",
+        "type": "message",
+        "text": "top right corner",
+        "user": "ULY2UMX35",
+        "ts": "1569274559.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cdd9144f-ed22-4600-81a6-2cc7a17fbcb5",
+        "type": "message",
+        "text": "gotcha, wasn't logged in.",
+        "user": "UMQA682PJ",
+        "ts": "1569274608.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bc05f6d4-105d-4a9e-bb9f-f5a705979adb",
+        "type": "message",
+        "text": "noice",
+        "user": "ULY2UMX35",
+        "ts": "1569274622.002500",
+        "team": "T026NJJ6Z"
+    }
+]

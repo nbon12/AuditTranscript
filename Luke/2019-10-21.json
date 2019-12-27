@@ -1,0 +1,76 @@
+[
+    {
+        "client_msg_id": "b4177d22-81f3-4a1e-8a34-5344377d530b",
+        "type": "message",
+        "text": "Hi Luke, I finished this story and it passed all the IQE tests: <https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1079>",
+        "user": "UMQA682PJ",
+        "ts": "1571680967.000700",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "title": "ZenHub",
+                "title_link": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1079",
+                "text": "Project Management and Software Development with GitHub | ZenHub",
+                "fallback": "ZenHub",
+                "from_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1079",
+                "service_icon": "https://app.zenhub.com/dist/favicon/apple-touch-icon.png",
+                "service_name": "app.zenhub.com",
+                "id": 1,
+                "original_url": "https://app.zenhub.com/workspaces/project-koku-5ab50f63d0f4ea53b00232c8/issues/project-koku/koku/1079"
+            }
+        ]
+    },
+    {
+        "client_msg_id": "079e68d5-1fad-46f5-8e63-0759729e39bf",
+        "type": "message",
+        "text": "there's no functional change",
+        "user": "UMQA682PJ",
+        "ts": "1571681022.001100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7dde5635-0551-49e8-8707-79219dc84be4",
+        "type": "message",
+        "text": "everything is supposed to work \"exactly as before\"",
+        "user": "UMQA682PJ",
+        "ts": "1571681034.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "75a14443-6a2d-4a30-8a26-52a4ae1af204",
+        "type": "message",
+        "text": "\"This was just tackling technical debt and the goal is for all processed and summarized data to be exactly the same as it was before.\" - Andrew",
+        "user": "UMQA682PJ",
+        "ts": "1571681052.001600",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "UMQA682PJ",
+            "ts": "1571681059.000000"
+        }
+    },
+    {
+        "client_msg_id": "3d76b589-8d21-4fc6-a0c6-764b3004cbab",
+        "type": "message",
+        "text": "any thoughts?",
+        "user": "UMQA682PJ",
+        "ts": "1571681114.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1b5000e1-33ee-442e-a817-051b441b7650",
+        "type": "message",
+        "text": "I guess Andrew just wanted me to double the tests still looked good after the change. if everything is working as before then it should be good :thumbsup:",
+        "user": "UB31FBLF7",
+        "ts": "1571681798.003700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "smiley",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

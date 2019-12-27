@@ -1,0 +1,178 @@
+[
+    {
+        "client_msg_id": "460a2142-235b-40ce-96fa-02038db1f011",
+        "type": "message",
+        "text": "Hey Nick, quick question for you",
+        "user": "U79C3F7GC",
+        "ts": "1567192668.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e0852b0e-2b8f-4833-b0cf-b602821683dc",
+        "type": "message",
+        "text": "Where do you plan on working next week?",
+        "user": "U79C3F7GC",
+        "ts": "1567192674.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a096764c-0a7d-461d-b7ad-0e7109ce0274",
+        "type": "message",
+        "text": "Durham",
+        "user": "UMQA682PJ",
+        "ts": "1567192703.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ec493fef-008d-4522-95ae-1cc902804f31",
+        "type": "message",
+        "text": "Also Hi!",
+        "user": "UMQA682PJ",
+        "ts": "1567192731.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "514cd157-ae80-48f4-b2f8-9152de111cee",
+        "type": "message",
+        "text": "cool",
+        "user": "U79C3F7GC",
+        "ts": "1567193059.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "87e1d99a-ed02-4f7a-863d-6cb531df6685",
+        "type": "message",
+        "text": "all week?",
+        "user": "U79C3F7GC",
+        "ts": "1567193061.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "93725121-87fc-45f4-8abb-bf818476f644",
+        "type": "message",
+        "text": "that's the plan",
+        "user": "UMQA682PJ",
+        "ts": "1567193070.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "7982c754-1d77-44dc-b603-580cfb16b3fe",
+        "type": "message",
+        "text": ":thumbsup:",
+        "user": "U79C3F7GC",
+        "ts": "1567193078.001700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ed51bc0-82ab-4a66-bb59-60951152f843",
+        "type": "message",
+        "text": "I don\u2019t typically work here everyday",
+        "user": "U79C3F7GC",
+        "ts": "1567193086.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0ff25999-44ea-4509-a14d-e14335708bec",
+        "type": "message",
+        "text": "but I will come to Durham Monday for you",
+        "user": "U79C3F7GC",
+        "ts": "1567193092.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f5bae54-892d-4ed2-ac26-9e2b53cfd8f3",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1567193096.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9934e134-56c3-40cf-8259-e1d271e0fe5c",
+        "type": "message",
+        "text": "Jen asked me to help you get settled",
+        "user": "U79C3F7GC",
+        "ts": "1567193102.002900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f01525d-5742-413a-95f2-fccd9419d74e",
+        "type": "message",
+        "text": "I might go to Red Hat Tower if things feel a little lonely.",
+        "user": "UMQA682PJ",
+        "ts": "1567193108.003100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4bf1fc84-be4d-4eac-9a4f-81852ddc3edd",
+        "type": "message",
+        "text": "but I wanted to give it a full week",
+        "user": "UMQA682PJ",
+        "ts": "1567193117.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "34cbbe66-6f7d-455d-856d-3f9a4e27b6f3",
+        "type": "message",
+        "text": "before deciding to switch",
+        "user": "UMQA682PJ",
+        "ts": "1567193120.003500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bc321e43-234e-40f7-b01d-a5c8568f0ff3",
+        "type": "message",
+        "text": "sounds good",
+        "user": "U79C3F7GC",
+        "ts": "1567193126.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "aa4c8bf8-da50-4ad6-8b03-4c7c5ed1f679",
+        "type": "message",
+        "text": "Usually Ashley and I work several days from the tower each week",
+        "user": "U79C3F7GC",
+        "ts": "1567193137.004000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9e5b82f5-8115-453d-a6b8-0d5e1b174d83",
+        "type": "message",
+        "text": "Cody also comes down a day",
+        "user": "U79C3F7GC",
+        "ts": "1567193147.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f53ac314-9178-4fe2-b608-decb897fdf56",
+        "type": "message",
+        "text": "so somedays Durham is lonely",
+        "user": "U79C3F7GC",
+        "ts": "1567193156.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c435ee0b-82d7-4e4f-b5e9-436318e2c414",
+        "type": "message",
+        "text": "Monday is a holiday",
+        "user": "U79C3F7GC",
+        "ts": "1567194704.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cef95885-9629-488a-b3f0-a26aa293b60e",
+        "type": "message",
+        "text": "so I will be in Durham Tuesday to help you settle in",
+        "user": "U79C3F7GC",
+        "ts": "1567194724.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5db9b1f1-e443-45d7-bec6-b708ab9e298d",
+        "type": "message",
+        "text": "Alright, thanks!",
+        "user": "UMQA682PJ",
+        "ts": "1567194728.005500",
+        "team": "T026NJJ6Z"
+    }
+]

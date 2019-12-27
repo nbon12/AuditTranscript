@@ -1,0 +1,50 @@
+[
+    {
+        "client_msg_id": "e7ca6b35-a767-4d09-b4d0-f6dd7cab04f4",
+        "type": "message",
+        "text": "Hey which debugging tool do you use for Python?",
+        "user": "UMQA682PJ",
+        "ts": "1569521980.000300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4a8d4f0d-45c0-4e4f-bbd4-157c744f91fb",
+        "type": "message",
+        "text": "i'm attempting to use the VSCode debugger",
+        "user": "UMQA682PJ",
+        "ts": "1569522004.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "be4a93d3-2715-42f6-a822-ee8abd6c7df3",
+        "type": "message",
+        "text": "well, i used to use the vscode debugger before redhat, but idk how to use it now",
+        "user": "ULY2UMX35",
+        "ts": "1569522022.001300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9306fad7-c86f-43f5-bf3e-d6f24596ce2b",
+        "type": "message",
+        "text": "doug/andrew use pdb",
+        "user": "ULY2UMX35",
+        "ts": "1569522027.001500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3d903f51-bf3f-47c9-a07b-46d18523685e",
+        "type": "message",
+        "text": "i would ask them how to use it",
+        "user": "ULY2UMX35",
+        "ts": "1569522040.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b1041fdd-4d71-4af9-8ee1-8f40a51d161a",
+        "type": "message",
+        "text": "thats what i will probably be using once i figure it out",
+        "user": "ULY2UMX35",
+        "ts": "1569522057.002300",
+        "team": "T026NJJ6Z"
+    }
+]

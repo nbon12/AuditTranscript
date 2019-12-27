@@ -1,0 +1,159 @@
+[
+    {
+        "client_msg_id": "2ca39155-521d-4af7-9f12-1bd624b84a87",
+        "type": "message",
+        "text": "How\u2019s everything going?",
+        "user": "U79C3F7GC",
+        "ts": "1568036518.000200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "ada684dc-df09-4484-92be-fae32378d8d7",
+        "type": "message",
+        "text": "You settling in okay?",
+        "user": "U79C3F7GC",
+        "ts": "1568036525.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "92474e03-12a6-48a2-9860-bb2ca3248f8f",
+        "type": "message",
+        "text": "Yup. I'm WFH today.",
+        "user": "UMQA682PJ",
+        "ts": "1568036532.000600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0bee4073-01d9-4370-b8df-2aadabf8093f",
+        "type": "message",
+        "text": "I'm still doing Django training",
+        "user": "UMQA682PJ",
+        "ts": "1568036543.000900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "86a8beaf-1fe1-473d-9074-7cf72ace19d0",
+        "type": "message",
+        "text": "I haven't gotten a Durham parking pass yet",
+        "user": "UMQA682PJ",
+        "ts": "1568036556.001200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "750a8182-dcf4-4823-a084-733c2d147b00",
+        "type": "message",
+        "text": "yep",
+        "user": "U79C3F7GC",
+        "ts": "1568036610.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8b92fd79-2d37-42eb-8d31-7b971e4d12b5",
+        "type": "message",
+        "text": "did you decide if you will be working at the tower or durham?",
+        "user": "U79C3F7GC",
+        "ts": "1568036629.001900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "2a4c4029-0c17-4b7e-bf0c-8c4da64c3fb4",
+        "type": "message",
+        "text": "for your primary work location?",
+        "user": "U79C3F7GC",
+        "ts": "1568036636.002100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f47c863b-9270-436b-aa82-e623ce386bfb",
+        "type": "message",
+        "text": "Durham for now.",
+        "user": "UMQA682PJ",
+        "ts": "1568036655.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4f880942-0174-473c-8a7f-04b8c031369b",
+        "type": "message",
+        "text": "Do you know if Jen is planning on requesting a desk for you in Durham?",
+        "user": "U79C3F7GC",
+        "ts": "1568036719.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c7e2e78b-37bf-4665-ac62-1cd2bebd27db",
+        "type": "message",
+        "text": "I don't think we talked about it",
+        "user": "UMQA682PJ",
+        "ts": "1568036743.003400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a875a20c-4184-42cc-ad7e-cb97740a7416",
+        "type": "message",
+        "text": "ok",
+        "user": "U79C3F7GC",
+        "ts": "1568036747.003700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "89fbd2bc-79ca-4fd3-8e35-3011511a70fc",
+        "type": "message",
+        "text": "that may determine the need for a parking pass",
+        "user": "U79C3F7GC",
+        "ts": "1568036754.004100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4041a890-fba2-4c1e-aec2-b94b3420aa88",
+        "type": "message",
+        "text": "there seems to be enough open seating",
+        "user": "UMQA682PJ",
+        "ts": "1568036762.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f8dafff8-1f89-47d5-9988-960b413249cd",
+        "type": "message",
+        "text": "if you are assigned to the tower, you would get a parking pass in the tower",
+        "user": "U79C3F7GC",
+        "ts": "1568036764.004600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23efa1b8-160f-49d9-ac5d-3a9e5e56ed74",
+        "type": "message",
+        "text": "yeah, but the empty desks are assigned to people",
+        "user": "U79C3F7GC",
+        "ts": "1568036777.004800",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "U79C3F7GC",
+            "ts": "1568036912.000000"
+        }
+    },
+    {
+        "client_msg_id": "768af019-e71b-4067-9b02-22aaa36369a0",
+        "type": "message",
+        "text": "You can expense parking until your primary work location is determined",
+        "user": "U79C3F7GC",
+        "ts": "1568036813.005300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e2189b76-da53-4a5d-a2da-0f0f8bf54791",
+        "type": "message",
+        "text": "Let me know if you need help with anything",
+        "user": "U79C3F7GC",
+        "ts": "1568037739.005800",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

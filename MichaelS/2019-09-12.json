@@ -1,0 +1,434 @@
+[
+    {
+        "client_msg_id": "72cf6638-74da-4f88-ba8d-4843ccbd896a",
+        "type": "message",
+        "text": "Hey are you in the tower today?",
+        "user": "UMQA682PJ",
+        "ts": "1568300169.000500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6361c286-13bd-41ec-aa50-7d3b198d33a2",
+        "type": "message",
+        "text": "yea",
+        "user": "ULY2UMX35",
+        "ts": "1568300187.000700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "addf35db-48fd-4769-b1b2-1bde8b4a0866",
+        "type": "message",
+        "text": "what floor? Any extra desks nearby?",
+        "user": "UMQA682PJ",
+        "ts": "1568300198.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e9a3d0c7-6f92-4afe-8486-fc42ca2e0c0d",
+        "type": "message",
+        "text": "im in my cube on 11, there generally arent any open desks around here",
+        "user": "ULY2UMX35",
+        "ts": "1568300240.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "49d2e7fd-414c-4ed7-a8c6-064d75a3ee0a",
+        "type": "message",
+        "text": "i can head up to wherever you are if you need some help with something",
+        "user": "ULY2UMX35",
+        "ts": "1568300280.001800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "6623745e-f1dc-4624-a930-47b024ebb7bf",
+        "type": "message",
+        "text": "not yet, but I'm setting up Koku",
+        "user": "UMQA682PJ",
+        "ts": "1568300313.002600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "b356e8de-6106-4110-9706-9a7677b79c6f",
+        "type": "message",
+        "text": "is Jen's desk near you?",
+        "user": "UMQA682PJ",
+        "ts": "1568300323.002800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0f95b400-eba6-422e-9dc9-cf61c9c18073",
+        "type": "message",
+        "text": "I\u2019m at Jen\u2019s desk",
+        "user": "ULY2UMX35",
+        "ts": "1568300367.003700",
+        "team": "T026NJJ6Z",
+        "reactions": [
+            {
+                "name": "rice_ball",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e7ada4c8-eb53-44b5-98f3-c64147c3fa99",
+        "type": "message",
+        "text": "I think she gave me this one since the desk I was assigned to has someone sitting at it",
+        "user": "ULY2UMX35",
+        "ts": "1568300419.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "1d25da49-1447-4338-803f-ef73c173ba4c",
+        "type": "message",
+        "text": "im sitting at 12",
+        "user": "UMQA682PJ",
+        "ts": "1568300482.004700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "F4F8E07A-8F4A-4D80-B9E0-3519E71E013D",
+        "type": "message",
+        "text": "Want to get lunch?",
+        "user": "UMQA682PJ",
+        "ts": "1568302784.005400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a602556c-c1ed-46ac-a2b2-a2a1d8cbe82d",
+        "type": "message",
+        "text": "not today, need to take care of some things during lunch",
+        "user": "ULY2UMX35",
+        "ts": "1568302861.005800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "5cf6ee43-0eb6-45d7-ab0c-44f0af2d0c57",
+        "type": "message",
+        "text": "hows it going? run into any issues?",
+        "user": "ULY2UMX35",
+        "ts": "1568316569.006100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0b372cf9-df9a-4210-8f0e-f347e69ec736",
+        "type": "message",
+        "text": "Hey, i have Koku running (theoretically) but my GET request is returning a 404",
+        "user": "UMQA682PJ",
+        "ts": "1568316672.006800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "45e8991e-ce33-4916-b7e7-7debabc39dcc",
+        "type": "message",
+        "text": "I tried this endpoint: \"/api/cost-management/v1/costmodels/?offset=0&amp;limit=10\"",
+        "user": "UMQA682PJ",
+        "ts": "1568316680.007000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "cf5264e2-9ddf-46c9-83c9-be4a075cfaac",
+        "type": "message",
+        "text": "[2019-09-12 19:30:34,595] INFO: API: /api/cost-management/v1/costmodels/?offset=0&amp;limit=10 -- ACCOUNT: 10001 USER: user_dev\n[2019-09-12 19:30:34,640] WARNING: Not Found: /api/cost-management/v1/costmodels/\n[2019-09-12 19:30:34,642] WARNING: \"GET /api/cost-management/v1/costmodels/?offset=0&amp;limit=10 HTTP/1.1\" 404 77",
+        "user": "UMQA682PJ",
+        "ts": "1568316705.007300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9f20a483-089d-4128-93f3-e14b574aacf1",
+        "type": "message",
+        "text": "I'm trying to send a test GET request just to see if the API is responding.",
+        "user": "UMQA682PJ",
+        "ts": "1568316776.007600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "928111ca-065b-4c59-b008-5c50ca1e2f0e",
+        "type": "message",
+        "text": "Also I tried a GET on the server status",
+        "user": "UMQA682PJ",
+        "ts": "1568316789.008100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "07894bb7-fdba-4599-82bd-c607ea29d62a",
+        "type": "message",
+        "text": "how did you get koku running?",
+        "user": "ULY2UMX35",
+        "ts": "1568316790.008200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "823a291e-e5a6-40d1-bc0c-03d4312cb4ee",
+        "type": "message",
+        "text": "koku/manage.py runserver 8080",
+        "user": "UMQA682PJ",
+        "ts": "1568316814.008500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67c5e7c0-1f7d-4510-be86-e3f37bef4da8",
+        "type": "message",
+        "text": "How far along the readme have you gotten?",
+        "user": "ULY2UMX35",
+        "ts": "1568316873.009100",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "8fcbe942-edc7-4ddd-aa28-611fb82aa970",
+        "type": "message",
+        "text": "the end of this page: <https://github.com/project-koku/koku>",
+        "user": "UMQA682PJ",
+        "ts": "1568316898.009400",
+        "team": "T026NJJ6Z",
+        "attachments": [
+            {
+                "fallback": "project-koku/koku",
+                "text": "An open source solution for cost management of cloud and hybrid cloud environments.",
+                "title": "project-koku/koku",
+                "footer": "<https://github.com/project-koku/koku|project-koku/koku>",
+                "id": 1,
+                "footer_icon": "https://github.githubassets.com/favicon.ico",
+                "ts": 1521815363,
+                "color": "24292f",
+                "fields": [
+                    {
+                        "title": "Website",
+                        "value": "<https://koku.readthedocs.io/>",
+                        "short": true
+                    },
+                    {
+                        "title": "Stars",
+                        "value": "45",
+                        "short": true
+                    }
+                ],
+                "mrkdwn_in": [
+                    "text",
+                    "fields"
+                ],
+                "bot_id": "B9F4N1G2Y",
+                "app_unfurl_url": "https://github.com/project-koku/koku",
+                "is_app_unfurl": true
+            }
+        ]
+    },
+    {
+        "client_msg_id": "da25cdf3-21bb-4402-b976-d786000d1eb5",
+        "type": "message",
+        "text": "so tox ran ok?",
+        "user": "ULY2UMX35",
+        "ts": "1568316920.009900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "98cd5b07-0398-43ad-bd3e-80b064c0c700",
+        "type": "message",
+        "text": "Yep, tox passed",
+        "user": "UMQA682PJ",
+        "ts": "1568316931.010200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "490e5647-170b-49ba-a37d-7909d258bb55",
+        "type": "message",
+        "text": "ok",
+        "user": "ULY2UMX35",
+        "ts": "1568316936.010500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e5449392-ecb5-40a0-8892-1f413c3421e4",
+        "type": "message",
+        "text": "instead of manage.py, try `docker-compose up`",
+        "user": "ULY2UMX35",
+        "ts": "1568316946.010900",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "3f0c438f-a691-4594-aea3-64d142f395ff",
+        "type": "message",
+        "text": "one part i changed was that instead of running \"make serve\" i ran the manage.py runserver command instead",
+        "user": "UMQA682PJ",
+        "ts": "1568316956.011200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "67824c6d-b94c-4186-a9bd-f68737f3c74f",
+        "type": "message",
+        "text": "maybe that was it",
+        "user": "UMQA682PJ",
+        "ts": "1568316958.011500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0c283748-f786-4087-8298-594d74d5a375",
+        "type": "message",
+        "text": "im not entirely sure what the differences between using docker and the django runserver are, but they quite significant",
+        "user": "ULY2UMX35",
+        "ts": "1568317019.012600",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f04c7a7b-b3a2-456d-88c6-58a16c2c6164",
+        "type": "message",
+        "text": "are you still on 12? i\u2019ll head up there",
+        "user": "ULY2UMX35",
+        "ts": "1568317036.013200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e2e0ff18-df17-4903-aeaf-49b59deb9372",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1568317040.013400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "945649dd-25ce-4701-a661-ac4dbb78d567",
+        "type": "message",
+        "text": "alright, I\u2019ll be up in a minute to help you out",
+        "user": "ULY2UMX35",
+        "ts": "1568317059.013800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "23565ec2-4669-46b2-9fa2-a0908d2fd057",
+        "type": "message",
+        "text": "alright",
+        "user": "UMQA682PJ",
+        "ts": "1568317064.014000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fbd07cc2-ac3b-4363-8abc-ddc203224852",
+        "type": "message",
+        "text": "docker-compose seems to be working now",
+        "user": "UMQA682PJ",
+        "ts": "1568318689.000400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "0e49c037-0267-4b51-af90-684b36c5ebd3",
+        "type": "message",
+        "text": "i increased the GB of my volume",
+        "user": "UMQA682PJ",
+        "ts": "1568318702.000800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "abd7912a-b585-4a93-8618-4e48af19e0e6",
+        "type": "message",
+        "text": "noice",
+        "user": "ULY2UMX35",
+        "ts": "1568318707.001000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "f156074e-e1dc-4bfe-892a-58bb191a0984",
+        "type": "message",
+        "text": "does the api return anything?",
+        "user": "ULY2UMX35",
+        "ts": "1568318790.001400",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "eff812f1-0082-4bf8-9887-e5dac9195015",
+        "type": "message",
+        "text": "`docker-compose up` is still running. It's taking a long time building things for the first time.",
+        "user": "UMQA682PJ",
+        "ts": "1568318815.002000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "d5051c54-0d61-403d-9711-149a10d20d5a",
+        "type": "message",
+        "text": "oh yeah. that will take some time",
+        "user": "ULY2UMX35",
+        "ts": "1568318829.002300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "77dfd3c7-8b1b-441f-8ca7-d277bd0e9333",
+        "type": "message",
+        "text": "Is this normal? \" Kafka connection failure.  Error: Unable to connect to kafka server.\"",
+        "user": "UMQA682PJ",
+        "ts": "1568319296.002500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "a7a4fe13-94d1-4a2f-be9a-e7a47e897c52",
+        "type": "message",
+        "text": "yes",
+        "user": "ULY2UMX35",
+        "ts": "1568319308.002700",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "c111e5df-e620-4ef5-b348-a4a985f3a44a",
+        "type": "message",
+        "text": "kafka is an external service, so don\u2019t worry about it in your local setup",
+        "user": "ULY2UMX35",
+        "ts": "1568319322.003300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "e7223f98-488f-4312-8121-6338425c1626",
+        "type": "message",
+        "text": "also is it OK to change the port of the Django app? is anything specifically looking for port 8000?",
+        "user": "UMQA682PJ",
+        "ts": "1568319331.003800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "322b7f98-3241-4d8e-a795-f30bd2e30f1f",
+        "type": "message",
+        "text": "good question. I would ask Andrew because I really don\u2019t know",
+        "user": "ULY2UMX35",
+        "ts": "1568319370.004300",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4a54333c-73dd-43be-8aa8-ae959a7b2361",
+        "type": "message",
+        "text": "is HTTPS enforced?",
+        "user": "UMQA682PJ",
+        "ts": "1568319660.004500",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "9c0742ed-d10d-4303-a27b-13869b68cb0f",
+        "type": "message",
+        "text": "or can i run HTTP GET requests?",
+        "user": "UMQA682PJ",
+        "ts": "1568319669.004800",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "4df649be-7c68-4805-9b38-425f3f084558",
+        "type": "message",
+        "text": "unsecured?",
+        "user": "UMQA682PJ",
+        "ts": "1568319680.005000",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "fedd1ce8-f3d0-4c73-b025-e43ce35765cd",
+        "type": "message",
+        "text": "you can use http",
+        "user": "ULY2UMX35",
+        "ts": "1568319708.005200",
+        "team": "T026NJJ6Z"
+    },
+    {
+        "client_msg_id": "bf91f06e-8ef6-4c66-8221-792b187400ff",
+        "type": "message",
+        "text": "not sure about https",
+        "user": "ULY2UMX35",
+        "ts": "1568319714.005400",
+        "team": "T026NJJ6Z"
+    }
+]

@@ -1,0 +1,2102 @@
+[
+    {
+        "client_msg_id": "21ff1921-8e1d-4b21-8ea3-6d693b0abecb",
+        "type": "message",
+        "text": "<https://docs.google.com/document/d/1TiJ7JfyxwPm4QmDD-UdnLD3y8Rfy41E43tF6nu3QO7o/edit?usp=sharing>",
+        "user": "ULY2UMX35",
+        "ts": "1576159736.000200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ZSz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "link",
+                                "url": "https://docs.google.com/document/d/1TiJ7JfyxwPm4QmDD-UdnLD3y8Rfy41E43tF6nu3QO7o/edit?usp=sharing"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "28d1d5ac-83ea-443c-98e6-7d5a488ff4c5",
+        "type": "message",
+        "text": "That\u2019s a document to use vscode\u2019s debugger with Koku",
+        "user": "ULY2UMX35",
+        "ts": "1576159757.000700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vOmI",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "That\u2019s a document to use vscode\u2019s debugger with Koku"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "reactions": [
+            {
+                "name": "tada",
+                "users": [
+                    "UMQA682PJ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39f3f27e-7c3b-4cce-ad61-7e1d8b1877e4",
+        "type": "message",
+        "text": "You should be able to use it with the PR you are currently working on",
+        "user": "ULY2UMX35",
+        "ts": "1576159775.001200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "jbKn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You should be able to use it with the PR you are currently working on"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fc159ae9-fe1f-4960-ab00-a6464bd6c959",
+        "type": "message",
+        "text": "but I have not figured out how to get the debugger working with masu/celery tasks, so just keep that in mind",
+        "user": "ULY2UMX35",
+        "ts": "1576159801.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "buEp",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but I have not figured out how to get the debugger working with masu/celery tasks, so just keep that in mind"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "045c5cb1-614d-41c2-9ba3-b00c2ba241f8",
+        "type": "message",
+        "text": "there are some weird quirks when using it, so give it a try and ket me know if you have any questions",
+        "user": "ULY2UMX35",
+        "ts": "1576159834.002400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "aI4TW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "there are some weird quirks when using it, so give it a try and ket me know if you have any questions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e861a8b7-91af-48a8-9f14-8fa0243bb6f1",
+        "type": "message",
+        "text": "I got the error \"The Python path in your debug configuration is invalid\"",
+        "user": "UMQA682PJ",
+        "ts": "1576175200.000500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "NUt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I got the error \"The Python path in your debug configuration is invalid\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "50ec6006-0a45-4c3b-aa87-335507edd53f",
+        "type": "message",
+        "text": "regarding this line: \"program\": \"${workspaceFolder}/koku/manage.py\",",
+        "user": "UMQA682PJ",
+        "ts": "1576175218.000900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "E50g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "regarding this line: \"program\": \"${workspaceFolder}/koku/manage.py\","
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2f1dace-3b88-4ceb-8512-eb593f442526",
+        "type": "message",
+        "text": "granted, that my workspace folder is actually setup like this: \"Koku/koku/koku/manage.py\"",
+        "user": "UMQA682PJ",
+        "ts": "1576175251.001800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "h2r",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "granted, that my workspace folder is actually setup like this: \"Koku/koku/koku/manage.py\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1ab79eed-5b33-4c64-9577-fe27c2ef65db",
+        "type": "message",
+        "text": "Where the first Koku is the workspace folder",
+        "user": "UMQA682PJ",
+        "ts": "1576175263.002200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "1ZJ7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Where the first Koku is the workspace folder"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "896dd942-3e48-4afa-a996-c94dd3b602ba",
+        "type": "message",
+        "text": "I also tried adding an additional koku but that also was invalid",
+        "user": "UMQA682PJ",
+        "ts": "1576175278.002900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nKYD",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I also tried adding an additional koku but that also was invalid"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "57ca662e-0881-43fc-810a-c6323b373cd1",
+        "type": "message",
+        "text": "Well, can you paste the full error message here?",
+        "user": "ULY2UMX35",
+        "ts": "1576175285.003100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "j7dW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Well, can you paste the full error message here?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c8e73dc-a185-47e9-a325-712d780a0f13",
+        "type": "message",
+        "text": "that seems to be refering to this line:\n`\"pythonPath\": \"/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python\"`",
+        "user": "ULY2UMX35",
+        "ts": "1576175324.003600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "kiazF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "that seems to be refering to this line:\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"pythonPath\": \"/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python\"",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4ef76bac-4c15-47c3-9866-29c5d61147f0",
+        "type": "message",
+        "text": "oh, yes thats probably it",
+        "user": "UMQA682PJ",
+        "ts": "1576175344.003800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ilP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh, yes thats probably it"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a9f58faf-84f9-4619-a36d-f4854ffdafc4",
+        "type": "message",
+        "text": "its working now",
+        "user": "UMQA682PJ",
+        "ts": "1576175363.004300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6qf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "its working now"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "f2f954b0-ab86-4773-9b0c-5ba44cc78c05",
+        "type": "message",
+        "text": "sweet!",
+        "user": "ULY2UMX35",
+        "ts": "1576175368.004500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VIts",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "sweet!"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1a902e1c-c90b-422f-837d-ba330b6e64cf",
+        "type": "message",
+        "text": "it seems to be trying to run whatever current file is open though.",
+        "user": "UMQA682PJ",
+        "ts": "1576175415.004800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "EiL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it seems to be trying to run whatever current file is open though."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "140e1d4f-916d-41d1-af33-cb0354803811",
+        "type": "message",
+        "text": "nevermind it's running manage.py",
+        "user": "UMQA682PJ",
+        "ts": "1576175437.005200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "cSiE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "nevermind it's running manage.py"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c0f4321e-0b34-4411-9548-f5231c6264c5",
+        "type": "message",
+        "text": "```Exception has occurred: ImportError\nCouldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?\n  File \"/Users/nbonilla/Documents/Koku/koku/koku/manage.py\", line 14, in &lt;module&gt;\n    ) from exc```",
+        "user": "UMQA682PJ",
+        "ts": "1576175448.005600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x7ry",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Exception has occurred: ImportError\nCouldn't import Django. Are you sure it's installed and available on your PYTHONPATH environment variable? Did you forget to activate a virtual environment?\n  File \"/Users/nbonilla/Documents/Koku/koku/koku/manage.py\", line 14, in <module>\n    ) from exc"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e9b71a5a-2197-4567-9034-8d78033ab609",
+        "type": "message",
+        "text": "is the bottom bar orange?",
+        "user": "ULY2UMX35",
+        "ts": "1576175449.005700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "QsW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "is the bottom bar orange?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "acdd36a1-4629-4cbd-a9cf-db7a43a4bc68",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576175452.005900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nx2W",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3cc60dd5-cc63-4b41-a04f-3581a6c0a978",
+        "type": "message",
+        "text": "oh",
+        "user": "ULY2UMX35",
+        "ts": "1576175454.006100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CSJ5e",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fd5a65f4-2371-4fed-9eb3-db7a3860d1e5",
+        "type": "message",
+        "text": "hmm",
+        "user": "ULY2UMX35",
+        "ts": "1576175455.006300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vNbZ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "hmm"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9623594c-6365-42e6-acba-fc46c72cc8d5",
+        "type": "message",
+        "text": "oh..",
+        "user": "UMQA682PJ",
+        "ts": "1576175461.006500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "32SX",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh.."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e4021afd-56bc-45e0-9d34-5d2c999cd5ed",
+        "type": "message",
+        "text": "i didn't set it to the python environment one sec.",
+        "user": "UMQA682PJ",
+        "ts": "1576175468.006800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Vljkt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i didn't set it to the python environment one sec."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c36b8585-329d-49f2-883e-04aa84aff449",
+        "type": "message",
+        "text": "what did you put into `\"pythonPath\"` ?",
+        "user": "ULY2UMX35",
+        "ts": "1576175489.007200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2Mre",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "what did you put into "
+                            },
+                            {
+                                "type": "text",
+                                "text": "\"pythonPath\"",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " ?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c84c1abc-1cd6-4787-8f1d-ab56c8a3084c",
+        "type": "message",
+        "text": "\"pythonPath\": \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/bin/activate\"",
+        "user": "UMQA682PJ",
+        "ts": "1576175570.007400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FFAI+",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"pythonPath\": \"/Users/nbonilla/.local/share/virtualenvs/koku-iTLe243o/bin/activate\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "07ae1c4d-28e1-4110-8edf-c52af87a01bd",
+        "type": "message",
+        "text": "change that `activate` to `python`",
+        "user": "ULY2UMX35",
+        "ts": "1576175598.007900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3Si",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "change that "
+                            },
+                            {
+                                "type": "text",
+                                "text": "activate",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " to "
+                            },
+                            {
+                                "type": "text",
+                                "text": "python",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "aecb1371-e158-44ce-8ccb-4f5ee47dee10",
+        "type": "message",
+        "text": "ok that worked, now it says `ValueError: env prometheus_multiproc_dir is not set or not a directory` but it's set in my .env file to /tmp",
+        "user": "UMQA682PJ",
+        "ts": "1576175680.008500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "z1dgl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "ok that worked, now it says "
+                            },
+                            {
+                                "type": "text",
+                                "text": "ValueError: env prometheus_multiproc_dir is not set or not a directory",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " but it's set in my .env file to /tmp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3f9f95e4-f031-42e3-9955-8ac860186742",
+        "type": "message",
+        "text": "`prometheus_multiproc_dir=/tmp`",
+        "user": "UMQA682PJ",
+        "ts": "1576175692.008700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IhA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "prometheus_multiproc_dir=/tmp",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "721cf545-cf7f-4131-97e0-96d54cb3a57e",
+        "type": "message",
+        "text": "right, lemme think",
+        "user": "ULY2UMX35",
+        "ts": "1576175700.008900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ImHps",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "right, lemme think"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e7fbb89f-2964-4cfb-93d8-7317ba88bd53",
+        "type": "message",
+        "text": "weird",
+        "user": "ULY2UMX35",
+        "ts": "1576175824.009100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "igdKs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "weird"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4bc28baa-a57e-4e9f-836e-31e0c603560f",
+        "type": "message",
+        "text": "there is a way around this in the launch.json",
+        "user": "ULY2UMX35",
+        "ts": "1576175843.009500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "LPelH",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "there is a way around this in the launch.json"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a354e4da-42ab-4fb9-a0ed-1a54b2ca05b9",
+        "type": "message",
+        "text": "add this:",
+        "user": "ULY2UMX35",
+        "ts": "1576175847.009700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Uhs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "add this:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4bcd3ab3-5990-419a-9686-f98643c9f0b7",
+        "type": "message",
+        "text": "```\"env\": {\n                \"prometheus_multiproc_dir\": \"/tmp\"\n            },```",
+        "user": "ULY2UMX35",
+        "ts": "1576175871.010200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "6=Us",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"env\": {\n                \"prometheus_multiproc_dir\": \"/tmp\"\n            },"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0d336ac0-0546-489c-9d29-f609b819696e",
+        "type": "message",
+        "text": "it should go in the Koku config",
+        "user": "ULY2UMX35",
+        "ts": "1576175897.010500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "4nTO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it should go in the Koku config"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "6e209cc5-0c02-4105-a908-ccf1af8a603a",
+        "type": "message",
+        "text": "yep that worked",
+        "user": "UMQA682PJ",
+        "ts": "1576175934.011400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "94p",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep that worked"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a1d91636-e3dc-43fa-aeea-dc79b9f5a595",
+        "type": "message",
+        "text": "how would I add my .env file to that config?",
+        "user": "UMQA682PJ",
+        "ts": "1576175952.011900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vYENA",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "how would I add my .env file to that config?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "96a3e9d2-0106-463e-a72e-df97ec01c771",
+        "type": "message",
+        "text": "for the rest of the env, like the AWS keys",
+        "user": "UMQA682PJ",
+        "ts": "1576175970.012600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "0GUF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for the rest of the env, like the AWS keys"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d6e3215c-7e52-4091-90e8-490ef789d1ff",
+        "type": "message",
+        "text": "I\u2019m not sure. Does your .env usually load when you launch `pipenv shell`?",
+        "user": "ULY2UMX35",
+        "ts": "1576175986.012900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rVKs",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I\u2019m not sure. Does your .env usually load when you launch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "pipenv shell",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "675675c4-00c7-40c5-a4f7-6e41c1e1d90d",
+        "type": "message",
+        "text": "yes",
+        "user": "UMQA682PJ",
+        "ts": "1576175991.013100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vDfR1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yes"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "86043400-a14a-4c4d-8590-6039e51fde08",
+        "type": "message",
+        "text": "I honestly don\u2019t know then",
+        "user": "ULY2UMX35",
+        "ts": "1576176013.013300",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "hFRT",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I honestly don\u2019t know then"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "0c44189a-053a-4b88-a538-fa9d8caa967f",
+        "type": "message",
+        "text": "your env loads in this debugger without having to specify a \"env\": {} in the launch.json?",
+        "user": "UMQA682PJ",
+        "ts": "1576176036.013800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "i/S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "your env loads in this debugger without having to specify a \"env\": {} in the launch.json?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "997bf6f7-435d-4c67-94b0-bd4a356743dd",
+        "type": "message",
+        "text": "There is no indication that it does. This is what I see when I launch the debugger:\n```/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python /Users/mskarbek/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 58127 /Users/mskarbek/Documents/code/koku/koku/manage.py runserver --noreload \n\u256d\u2500mskarbek@MacBook-Pro ~/Documents/code/koku \u2039master*\u203a \n\u2570\u2500$ /Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python /Users/mskarbek/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 58127 /Users/mskarbek/Documents/code/koku/koku/manage.py runserver --noreload \nPerforming system checks...\n\nSystem check identified no issues (0 silenced).\nDecember 12, 2019 - 18:35:33\nDjango version 2.2.8, using settings 'koku.settings'\nStarting development server at <http://127.0.0.1:8000/>\nQuit the server with CONTROL-C.```",
+        "user": "ULY2UMX35",
+        "ts": "1576176088.014400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IqxJt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "There is no indication that it does. This is what I see when I launch the debugger:\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python /Users/mskarbek/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 58127 /Users/mskarbek/Documents/code/koku/koku/manage.py runserver --noreload \n\u256d\u2500mskarbek@MacBook-Pro ~/Documents/code/koku \u2039master*\u203a \n\u2570\u2500$ /Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python /Users/mskarbek/.vscode/extensions/ms-python.python-2019.11.50794/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 58127 /Users/mskarbek/Documents/code/koku/koku/manage.py runserver --noreload \nPerforming system checks...\n\nSystem check identified no issues (0 silenced).\nDecember 12, 2019 - 18:35:33\nDjango version 2.2.8, using settings 'koku.settings'\nStarting development server at "
+                            },
+                            {
+                                "type": "link",
+                                "url": "http://127.0.0.1:8000/"
+                            },
+                            {
+                                "type": "text",
+                                "text": "\nQuit the server with CONTROL-C."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d3618e6c-ab55-4e98-b40a-aaf088cafc70",
+        "type": "message",
+        "text": "I would say that no, it does not load the .env",
+        "user": "ULY2UMX35",
+        "ts": "1576176107.014700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5GCDM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I would say that no, it does not load the .env"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "331a289f-a2ac-4b7b-94bf-457ab0f6dfb8",
+        "type": "message",
+        "text": "are you able to hit the provider endpoint?",
+        "user": "UMQA682PJ",
+        "ts": "1576176116.015000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "VR1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "are you able to hit the provider endpoint?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3c7d8e16-8e14-4861-8844-a1cf9bd314e3",
+        "type": "message",
+        "text": "i get an error \"Unauthorized\"",
+        "user": "UMQA682PJ",
+        "ts": "1576176125.015200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "o4cde",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "i get an error \"Unauthorized\""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8f99ae06-9cfd-419e-aa24-a48884b78891",
+        "type": "message",
+        "text": "`[2019-12-12 18:39:42,324] WARNING: Unauthorized: /api/cost-management/v1/providers/`",
+        "user": "UMQA682PJ",
+        "ts": "1576176137.015400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "m+j",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "[2019-12-12 18:39:42,324] WARNING: Unauthorized: /api/cost-management/v1/providers/",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3cc04145-67df-49db-a120-9295cb224db1",
+        "type": "message",
+        "text": "yea, I think I know why you can;t",
+        "user": "ULY2UMX35",
+        "ts": "1576176156.015800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ysI1/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yea, I think I know why you can;t"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "24089418-de85-4ee3-a3ca-85ce59086d5d",
+        "type": "message",
+        "text": "did you get the error about the multiproc dir?",
+        "user": "UMQA682PJ",
+        "ts": "1576176161.016100",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "L6d",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "did you get the error about the multiproc dir?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "34ac7fb0-710f-4dbb-bd46-15220848cc4b",
+        "type": "message",
+        "text": "because of the .env issue",
+        "user": "ULY2UMX35",
+        "ts": "1576176163.016200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+VMTN",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "because of the .env issue"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d90a9543-e712-4070-b2ee-402c90fb1131",
+        "type": "message",
+        "text": "No, I have no issues hitting the endpoint",
+        "user": "ULY2UMX35",
+        "ts": "1576176176.016500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CymZa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "No, I have no issues hitting the endpoint"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4063cadb-51a1-49a2-9de2-39fa1707129b",
+        "type": "message",
+        "text": "You need this in env variable: `DEVELOPMENT=True`",
+        "user": "ULY2UMX35",
+        "ts": "1576176200.016800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "SSvF",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "You need this in env variable: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "DEVELOPMENT=True",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "68c4150b-94fb-4c87-9b08-25edd00c7a83",
+        "type": "message",
+        "text": "I\u2019ll look into how a .env can be loaded when a debugging session is launched",
+        "user": "ULY2UMX35",
+        "ts": "1576176223.017200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "5FXAP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I\u2019ll look into how a .env can be loaded when a debugging session is launched"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3e506299-3434-4b59-a585-b587844b3776",
+        "type": "message",
+        "text": "also is the VSCode terminal using Zsh or bash?",
+        "user": "UMQA682PJ",
+        "ts": "1576176254.017600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "+562u",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "also is the VSCode terminal using Zsh or bash?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "3ad53e60-b556-4d5d-90d3-8a011a93d358",
+        "type": "message",
+        "text": "mine is zsh",
+        "user": "UMQA682PJ",
+        "ts": "1576176269.017800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "2ynQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "mine is zsh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cc73f105-b2c9-46e9-b507-f3fb7cca1089",
+        "type": "message",
+        "text": "that is something you set yourself",
+        "user": "ULY2UMX35",
+        "ts": "1576176284.018000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AbPr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "that is something you set yourself"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b6666992-42d1-4356-a7dc-9248e9064555",
+        "type": "message",
+        "text": "it defaults to bash",
+        "user": "ULY2UMX35",
+        "ts": "1576176286.018200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "quEi",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "it defaults to bash"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "df2cd382-f1a7-4ff4-b9c9-76c4512fc3ef",
+        "type": "message",
+        "text": "but can be changed to zsh",
+        "user": "ULY2UMX35",
+        "ts": "1576176291.018500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eHVW",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "but can be changed to zsh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "90e29bdd-f2ed-404b-a478-6d7d33d7d4da",
+        "type": "message",
+        "text": "my Mac default is Zsh",
+        "user": "UMQA682PJ",
+        "ts": "1576176303.018700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FJnFa",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "my Mac default is Zsh"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "cde1726d-c6a3-4ae8-957e-1acbd0f0a149",
+        "type": "message",
+        "text": "I\u2019m not sure how vscode handles that",
+        "user": "ULY2UMX35",
+        "ts": "1576176363.019800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "CQG9T",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I\u2019m not sure how vscode handles that"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "09e1c091-33c8-4cbb-82af-2337c8ffb4ad",
+        "type": "message",
+        "text": "for now i can add a copy of all the environment variables as JSON into the launch.json",
+        "user": "UMQA682PJ",
+        "ts": "1576176476.020500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "nHR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "for now i can add a copy of all the environment variables as JSON into the launch.json"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "d72151d9-49b8-4bee-a09b-63d122870b9b",
+        "type": "message",
+        "text": "I figured it out",
+        "user": "ULY2UMX35",
+        "ts": "1576176482.020700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "eF7",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I figured it out"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "1b4e7f01-d9a4-4390-8cf2-2da417766757",
+        "type": "message",
+        "text": "add this:",
+        "user": "ULY2UMX35",
+        "ts": "1576176486.020900",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "d3ATt",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "add this:"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "4c4bd403-84ba-45dd-89a2-3eeb846898c6",
+        "type": "message",
+        "text": "`\n```\"envFile\": \"${workspaceFolder}/.env\",```\n",
+        "user": "ULY2UMX35",
+        "ts": "1576176498.021200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "PGtgM",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "`\n"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"envFile\": \"${workspaceFolder}/.env\","
+                            }
+                        ]
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "a8c399d2-6213-4a8c-b2f6-8ce445fec2d6",
+        "type": "message",
+        "text": "that should load the file. I haven\u2019t tried it tho",
+        "user": "ULY2UMX35",
+        "ts": "1576176523.021500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "c3J",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "that should load the file. I haven\u2019t tried it tho"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "b80c7a7e-fc47-427a-b13f-ebe2159a6ac9",
+        "type": "message",
+        "text": "yep now it's working and i can see the provider endpoint",
+        "user": "UMQA682PJ",
+        "ts": "1576176609.021800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "tf5L",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "yep now it's working and i can see the provider endpoint"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "fce10089-2e21-4adc-b315-e5d40a3d7523",
+        "type": "message",
+        "text": "oh niiiice",
+        "user": "ULY2UMX35",
+        "ts": "1576176617.022000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "OcR",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "oh niiiice"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "239acb4b-f140-4071-9123-679dbb1ba3c2",
+        "type": "message",
+        "text": ":confetti_ball:",
+        "user": "UMQA682PJ",
+        "ts": "1576176624.022200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "C8rnr",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "confetti_ball"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "c976fef4-ad24-4046-a798-d89c35010f3f",
+        "type": "message",
+        "text": "and now for my 1:1",
+        "user": "UMQA682PJ",
+        "ts": "1576176646.022500",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "F5nZO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and now for my 1:1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "8e8dad88-792a-49ba-863f-8e93c792b14b",
+        "type": "message",
+        "text": "enjoy",
+        "user": "ULY2UMX35",
+        "ts": "1576176659.022700",
+        "team": "T026NJJ6Z",
+        "edited": {
+            "user": "ULY2UMX35",
+            "ts": "1576176662.000000"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Y4S",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "enjoy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "39f55b2e-701c-40b4-8ce7-ee1472f1b027",
+        "type": "message",
+        "text": "to run the VSCode debugger on unit tests what would I do?",
+        "user": "UMQA682PJ",
+        "ts": "1576181126.023200",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "AUm",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "to run the VSCode debugger on unit tests what would I do?"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "45db71d1-743c-4102-a616-08f0ccc26ec2",
+        "type": "message",
+        "text": "I'll send you another launch.json config in just a min",
+        "user": "ULY2UMX35",
+        "ts": "1576182483.023700",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dg1",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "I'll send you another launch.json config in just a min"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "9d944c01-6c58-40a1-9bd3-8e2249b9dc60",
+        "type": "message",
+        "text": "```{\n            \"name\": \"unittest\",\n            \"type\": \"python\",\n            \"request\": \"launch\",\n            \"program\": \"${workspaceFolder}/koku/manage.py\",\n            \"args\": [\n                \"test\",\n                \"--noinput\",\n                \"-v 2\",\n                \"masu.test.processor.azure.test_azure_report_processor.AzureReportProcessorTest.test_azure_process_duplicates\",\n            ],\n            \"django\": true,\n            \"pythonPath\": \"/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python\"\n        }```",
+        "user": "ULY2UMX35",
+        "ts": "1576182566.024000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Ptl",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "{\n            \"name\": \"unittest\",\n            \"type\": \"python\",\n            \"request\": \"launch\",\n            \"program\": \"${workspaceFolder}/koku/manage.py\",\n            \"args\": [\n                \"test\",\n                \"--noinput\",\n                \"-v 2\",\n                \"masu.test.processor.azure.test_azure_report_processor.AzureReportProcessorTest.test_azure_process_duplicates\",\n            ],\n            \"django\": true,\n            \"pythonPath\": \"/Users/mskarbek/.local/share/virtualenvs/koku-shq9YH-f/bin/python\"\n        }"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "522cf037-1530-4b03-8559-a5f48edab4fa",
+        "type": "message",
+        "text": "change this line to be the test you want to run",
+        "user": "ULY2UMX35",
+        "ts": "1576182583.024400",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "TOHBf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "change this line to be the test you want to run"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "e992fcb0-cbc3-44da-9365-3900d9625003",
+        "type": "message",
+        "text": "`\"masu.test.processor.azure.test_azure_report_processor.AzureReportProcessorTest.test_azure_process_duplicates\",`",
+        "user": "ULY2UMX35",
+        "ts": "1576182585.024600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "fg5=",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "\"masu.test.processor.azure.test_azure_report_processor.AzureReportProcessorTest.test_azure_process_duplicates\",",
+                                "style": {
+                                    "code": true
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "af4033cb-f6c6-46ff-b4c8-3d9671f380a6",
+        "type": "message",
+        "text": "of course, update your `pythonPath` and add the `envFile` param",
+        "user": "ULY2UMX35",
+        "ts": "1576182621.025000",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "61HV",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "of course, update your "
+                            },
+                            {
+                                "type": "text",
+                                "text": "pythonPath",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " and add the "
+                            },
+                            {
+                                "type": "text",
+                                "text": "envFile",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " param"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "078d9d17-45f7-4a2c-b7c4-fc0255e45eda",
+        "type": "message",
+        "text": "and when you go to launch the debugger, be sure to select `unittest` from the drop down, then hit start",
+        "user": "ULY2UMX35",
+        "ts": "1576182662.025600",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JiNx6",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "and when you go to launch the debugger, be sure to select "
+                            },
+                            {
+                                "type": "text",
+                                "text": "unittest",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " from the drop down, then hit start"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "client_msg_id": "79f78948-f2d2-4bb2-bb7e-a6954cf1d280",
+        "type": "message",
+        "text": "thanks",
+        "user": "UMQA682PJ",
+        "ts": "1576184213.025800",
+        "team": "T026NJJ6Z",
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "iSDZJ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "thanks"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
